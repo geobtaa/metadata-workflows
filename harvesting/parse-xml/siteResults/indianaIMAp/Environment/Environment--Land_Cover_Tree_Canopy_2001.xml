@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Geological Survey (USGS) (Author)</origin>
+        <origin>Indiana Geological Survey (Digital compiler)</origin>
+        <pubdate>20030901</pubdate>
+        <title>
+TC2001USGS_IN: Estimated Percentages of Tree Canopy in Indiana in 2001, Derived from the National Land
+Cover Database (NLCD 2001) (United States Geological Survey, 30-Meter Grid)
+</title>
+        <edition>1.0 of 20030901</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This grid is one of three grids derived from the National Land Cover Database (NLCD 2001). The three associated
+grids provide data regarding land cover (LC2001USGS_IN), estimated percentages of tree canopy (TC2001USGS_IN), and
+estimated percentages of imperviousness (IS2001USGS_IN). These grids and their associated metadata were downloaded
+from the following Web site of the Multi-Resolution Land Characteristics (MRLC) Consortium:
+
+http://www.mrlc.gov/mrlc2k_nlcd.asp
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+TC2001USGS_IN is a grid (30-meter cell size) showing the estimated percentages of tree canopy in Indiana in 2001. This
+grid is a subset of the National Land Cover Data (NLCD 2001) data set. Tree canopy estimates are shown in this data set
+as percentages when the associated layer file (TC2001USGS_IN.LYR) is loaded.
+
+The following is excerpted from metadata provided by the USGS for the NLCD 2001
+(http://extract.cr.usgs.gov/distmeta/servlet/gov.usgs.edc.MetaBuilder?TYPE=HTML&amp;DATASET=NLCD01CANO&amp;YMAX=39.611501479289956&amp;YMIN=39.611501479289956&amp;XMIN=-76.63165680473374&amp;XMAX=-76.63165680473374):
+
+"The National Land Cover Database 2001 tree canopy layer for mapping zone 60 was produced through a cooperative project
+conducted by the Multi-Resolution Land Characteristics (MRLC) Consortium. The MRLC Consortium is a partnership of federal
+agencies (www.mrlc.gov), consisting of the U.S. Geological Survey (USGS), the National Oceanic and Atmospheric Administration
+(NOAA), the U.S. Environmental Protection Agency (EPA), the U.S. Department of Agriculture (USDA) Forest Service (USFS), the
+National Park Service (NPS), the U.S. Fish and Wildlife Service (FWS), the Bureau of Land Management (BLM) and the USDA
+Natural Resources Conservation Service (NRCS). One of the primary goals of the project is to generate a current, consistent,
+seamless, and accurate National Land cover Database (NLCD) circa 2001 for the United States at medium spatial resolution.
+For a detailed definition and discussion on MRLC and the NLCD 2001 products, refer to Homer et al. (2003) and
+&lt;http://www.mrlc.gov/mrlc2k.asp&gt;.
+
+"The NLCD 2001 was created by partitioning the U.S. into mapping zones. A total of 66 mapping zones were delineated within
+the conterminous U.S. based on ecoregion and geographical characteristics, edgematching features and the size requirement
+of Landsat mosaics. Mapping zone 60 encompasses whole or portions of several states in the mid-Atlantic region, including
+the states of New Jersey, Delaware, Maryland, Pennsylvania, Virginia, and the District of Columbia. Questions about the
+NLCD mapping zone 60 can be directed to the NLCD 2001 land cover mapping team at the USGS EROS Data Center (EDC), Sioux
+Falls, SD (605) 594-6151 or mrlc@usgs.gov."
+</abstract>
+      <purpose>
+TC2001USGS_IN provides estimated percentages of tree canopy data for Indiana, derived the National Land Cover Database
+(NLCD 2001). This data provides the most complete, current, and consistent public domain information for Indiana land
+use and land cover.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19990705</begdate>
+          <enddate>20010405</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Planned</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>environment</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>tree</themekey>
+        <themekey>ecology</themekey>
+        <themekey>forestry</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>tree canopy</themekey>
+        <themekey>forest canopy</themekey>
+        <themekey>canopy</themekey>
+        <themekey>Landsat</themekey>
+        <themekey>National Land Cover Data (NLCD 2001)</themekey>
+        <themekey>Multi-Resolution Land Characteristics (MRLC) Consortium</themekey>
+        <themekey>ESRI grid</themekey>
+        <themekey>raster grid</themekey>
+        <themekey>raster</themekey>
+        <themekey>grid</themekey>
+        <themekey>United States Geological Survey (USGS)</themekey>
+        <themekey>United States Environmental Protection Agency (EPA)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Environmental Systems Research Institute's (ESRI's) ArcGIS 9.2, Windows XP Version 2002, ESRI grid format</native>
+    <useconst>Environment--Land_Cover_Tree_Canopy_2001</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from metadata provided by the USGS for the NLCD 2001:
+
+"Regression tree algorithms employed in NLCD 2001 mapping offer a cross-validation option for assessing classification
+and prediction reliability. Cross-validation can provide relatively reliable estimates for tree canopy predictions if
+the reference data used for cross-validation are collected based on a statistical valid sampling design. For mapping
+zone 60 tree canopy modeling, a 5-fold cross-validation was conducted by dividing the entire training data set into
+5 subsets of equal size. For each model run, an accuracy estimate was derived using one subset to evaluate the model
+prediction (with the model developed using the remaining training samples). This process was repeated 5 times. After
+all 5 runs, an average value of all accuracy estimates and standard error's from the 5 run's were computed. Users
+should be cautioned that these cross-validation results provide users with only first-order estimates of data quality,
+and should not be considered a formal accuracy assessment."
+</attraccr>
+    </attracc>
+    <logic>Not available</logic>
+    <complete>
+The following is excerpted from metadata provided by the USGS for the NLCD 2001:
+
+"This NLCD product of mapping zone 60 Tree Canopy layer is the version 1 dated 09-01-2003.
+
+"The NLCD 2001 database for mapping zone 60 consists of three main data products including: (1) per pixel classified
+land-cover data (2) sub-pixel percent imperviousness and (3) sub-pixel percent tree canopy density. The land-cover
+database also includes three additional metadata layers that provide users a spatial node map of the land cover
+classification, a spatial confidence map of the land cover classification, and a text file of logical statements
+pertinent to the land cover classification. The three layers are: (1) a spatial node map of the land cover
+classification, (2) a spatial confidence map of the land cover classification, and, (3) a text file of logical
+statements related to the land cover classification. These additional metadata layers may be of interest to some
+data users with specific needs. If you are interested in the detailed metadata information, please refer to
+&lt;http://www.mrlc.gov&gt; ."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not available</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not available</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS (Multi-Resolution Land Characteristics (MRLC) Consortium)</origin>
+            <pubdate>20030901</pubdate>
+            <title>National Land Cover Data (NLCD 2001) - Tree Canopy</title>
+            <edition>1.0 of 20030901</edition>
+            <geoform>Raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, SD</pubplace>
+              <publish>USGS</publish>
+            </pubinfo>
+            <othercit>
+The following information was excerpted from information provided by the USGS and the
+Multi-Resolution Land Characteristics (MRLC) Consortium:
+
+"The method employed to map tree canopy density for NLCD 2001 consists of three key steps: deriving reference
+data of tree canopy density from the high spatial resolution images, calibrating density prediction models using
+reference data and Landsat spectral bands, and extrapolating the developed models spatially to map per-pixel tree
+canopy density. This method is described in detail in Huang et al. (2001). This approach was applied to mapping
+zone 60 by Earth Satellite Corporation (through Greenhorne &amp; O'Mara Inc.) under USGS contract.
+
+"To develop adequate training data for tree canopy density estimation, 21 1-m resolution DOQQ's across mapping zone
+60 were classified into either tree canopy or non-tree canopy areas, and then values summed within each 30 meter
+Landsat pixel cell to obtain the percentage of tree canopy. The training data was selected with a Sample Selection
+Tool developed by Earthsat Inc. based on the degree of variance each training data set possesses with regards to
+Landsat ETM+ imagery used for mapping. Each added training data set decreased the amount of variance present within
+the Landsat data as a whole. The process was repeated until the required number of samples (21) had been allocated."
+</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>Raster digital data (ESRI Grid)</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19990705</begdate>
+              <enddate>20010405</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD 2001</srccitea>
+        <srccontr>Tree Canopy for Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey used the Multi-Resolution Land Characteristics (MRLC) Consortium's
+interactive viewer and download tool (found at http://www.mrlc.gov/mrlc2k_nlcd.asp) to download two raster
+tiff images showing the estimated percentages of tree canopy for the Indiana portion of the National Landcover
+Database (NLCD 2001).
+
+The "Data Preparation &gt; Mosiac Images" command from the ImageAnalysis extension (version 9.2, build 8.9.1.204) in
+ESRI ArcGIS 9.2 was used to mosaic the two images into one tiff image for Indiana. The "Data Preparation &gt; Subset Images"
+command was then used to clip the image to the Indiana boundary. The output image was then saved as an ESRI Grid
+named "TC2001USGS_IN". TC2001USGS_IN was then projected to Universal Transverse Mercator, Zone 16, NAD 1983.
+</procdesc>
+        <srcused>USGS tiff imagery, temporary mosiacked image, temporary grid</srcused>
+        <procdate>20070801</procdate>
+        <srcprod>TC2001USGS_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20070831</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>17907</rowcount>
+      <colcount>13294</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TC2001USGS_IN.VAT</enttypl>
+        <enttypd>GRID Value Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Estimated percentage of tree canopy</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Number of pixels with same value</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2007, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: TC2001USGS_IN: Estimated Percentage of Tree Canopy in Indiana in
+2001, Derived from the National Land Cover Database (NLCD 2001) (United States Geological Survey, 30-Meter
+Grid), digital representation by Chris Dintaman, 2007.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070801</metd>
+    <metrd>20070831</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It
+should not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone besides the IGS, this metadata file and the data set it describes may
+lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

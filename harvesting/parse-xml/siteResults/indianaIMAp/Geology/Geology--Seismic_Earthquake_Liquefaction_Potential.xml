@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>John Steinmetz (Data compiler)</origin>
+        <origin>Walter E. Gray (Data compiler)</origin>
+        <origin>Mary Parke (Data compiler)</origin>
+        <origin>Kim Sowder (GIS compiler)</origin>
+        <origin>Chris Dintaman (GIS compiler)</origin>
+        <origin>Denver Harper (GIS compiler</origin>
+        <pubdate>20110321</pubdate>
+        <title>
+EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN: Liquefaction Potential of Surficial Materials in Indiana (Indiana
+Geological Survey, 1:500,000, Polygon Shapefile)
+</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN.SHP was derived from the following shapefile:
+[SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN: Predicted Responses of Geologic Materials to
+Seismically Induced Ground Shaking (Indiana Geological Survey, 1:500,000, Polygon Shapefile)].
+
+The following published paper map was derived from EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN.SHP:
+Gray, W.E., Parke, Mary, and Steinmetz, J.C., 2011, Map of Indiana showing liquefaction potential
+of surficial materials: Indiana Geological Survey Miscellaneous Map 81.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN is a polygon shapefile that shows highly generalized categories (low, moderate,
+and high) of liquefaction potential, based on soil classes of the National Earthquake Hazards Reduction Program (NEHRP).
+
+Low liquefaction potential includes NEHRP Soil Class B (consisting of rock: sandstone, limestone, shale).
+
+Moderate liquefaction potential includes NEHRP Soil Class C (hard or stiff soil, or gravel) and part of
+NEHRP Soil Class D (stiff soil, stiff clay, and some gravel).
+
+High liquefaction potential includes parts of NEHRP Soil Class D (stiff soil, stiff clay, and some gravel), and all of
+NEHRP Soil Class E (soft soil and soft to medium clay) and F (lake and river deposits of sand and mud).
+
+The following is excerpted from Indiana Geological Survey Miscellaneous Map 81:
+"Liquefaction is a common ground-failure hazard associated with earthquakes. It is defined as the sudden and temporary
+loss of strength of a water-saturated sediment. This could result in the structural failure of buildings, bridges,
+and other structures."
+</abstract>
+      <purpose>
+EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN was created to provide a digital coverage of the predicted response
+of surficial geologic materials in Indiana to liquefaction induced by earthquakes. It is intended to be used by
+Indiana Department of Homeland Security, emergency planners, and responders on the state and local level as a general
+reference guide to identify potential areas of evaluated risks of liquefaction.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20030101</begdate>
+          <enddate>20101231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Geology</themekey>
+        <themekey>Surficial Geology</themekey>
+        <themekey>Quaternary</themekey>
+        <themekey>Stratigraphy</themekey>
+        <themekey>Earthquake</themekey>
+        <themekey>Ground shaking</themekey>
+        <themekey>Seismic</themekey>
+        <themekey>Soil classification</themekey>
+        <themekey>Liquefaction</themekey>
+        <themekey>National Earthquake Hazard Reductions Program (NEHRP)</themekey>
+        <themekey>Federal Emergency Management Agency (FEMA)</themekey>
+        <themekey>Indiana Department of Homeland Security (IDHS)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>State Geologist</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 through 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcMap 10.0 shapefile format</native>
+    <useconst>Geology--Seismic_Earthquake_Liquefaction_Potential</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The values of attributes were obtained from Indiana Geological Survey
+Miscellaneous Map 81 and are assumed to be accurate.
+</attraccr>
+    </attracc>
+    <logic>No tests were performed.</logic>
+    <complete>
+The digital shapefile was derived with minor modifications from a preexisting
+published paper map (Gray, Parke, and Steinmetz, 2011) and is assumed to embody the same definitions
+and generalizations as were used in the creation of the published map.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding horizontal positional accuracy
+of this shapefile. No quantitative tests were performed.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Was not a factor in the digital production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20110321</pubdate>
+            <title>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN: Predicted Responses of Geologic Materials to
+Seismically Induced Ground Shaking (Indiana Geological Survey, 1:500,000, Polygon Shapefile)
+</title>
+            <geoform>Vector digital</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2003</begdate>
+              <enddate>2008</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP</srccitea>
+        <srccontr>
+The predicted responses of geologic materials to seismically induced
+ground shaking in Indiana.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>2011</pubdate>
+            <title>
+Map of Indiana showing liquefaction potential of surficial materials, Indiana Geological Survey
+Miscellaneous Map 81
+</title>
+            <geoform>Paper map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>1400000</srcscale>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2003</begdate>
+              <enddate>2011</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Miscellaneous Map 81</srccitea>
+        <srccontr>The general liquefaction potential of surficial materials in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP was loaded in ESRI ArcMap 10.0 and renamed to
+"EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN.SHP." Polygons were aggregated based on NEHRP soil classes.
+The following attribute fields were deleted: "Area," "Perimeter," "MM49_0011," "MM49_0012,"
+"Symbol," and "Descriptio." A field named "Descriptio" was added. Using values included in a field named
+"NEHRP," values were added to the field named "Descriptio": surficial
+materials that were included in Soil Class B were assigned a value of "low liquefaction potential." Surficial
+materials that were included in Soil Class C were assigned a value of "moderate liquefaction potential." Surficial
+materials that were included in Soil Class D were subdivided into those that were deemed to have either "moderate
+liquefaction potential" or "high liquefaction potential." Surficial materials that were included in Soil Classes E
+and F were assigned values of "high liquefaction potential." The field named "NEHRP" was then deleted.
+</procdesc>
+        <srcused>SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP</srcused>
+        <procdate>2011</procdate>
+        <srcprod>EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Kim Sowder</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographic Services Supervisor</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5893</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sowderk@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20110609</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>63</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN.dbf</enttypl>
+        <enttypd>Polygon Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Descriptio</attrlabl>
+        <attrdef>Liquefaction potential, based on NEHRP soil classification</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Low liquefaction potential</edomv>
+            <edomvd>Includes NEHRP Soil Class B (consisting of rock: sandstone, limestone, shale)</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>Moderate liquefaction potential</edomv>
+            <edomvd>
+Includes NEHRP Soil Class C (hard or stiff soil, or gravel) and part of NEHRP Soil Class D
+(stiff soil, stiff clay, and some gravel)
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>High liquefaction potential</edomv>
+            <edomvd>
+Includes parts of NEHRP Soil Class D (stiff soil, stiff clay, and some gravel), and all
+of NEHRP Soil Class E (soft soil and soft to medium clay) and F (lake and river deposits of sand and mud)
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>lake</edomv>
+            <edomvd>Surficial materials are covered by water bodies. Liquefaction potential is unknown.</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 through 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [EARTHQUAKE_LIQUEFACTION_POTENTIAL_MM81_IN: Liquefaction Potential
+of Surficial Materials in Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110316</metd>
+    <metrd>20110609</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@exchange.indiana.edu</cntemail>
+        <hours>0800 through 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

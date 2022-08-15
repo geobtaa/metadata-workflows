@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Woolpert</origin>
+        <pubdate>20151030</pubdate>
+        <title>MD/PA Sandy Supplemental Lidar - Classified LAS 1.2</title>
+        <geoform>Lidar point cloud</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20141207</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141215</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141217</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141218</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141219</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141220</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141221</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141226</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141227</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141229</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141230</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20141231</caldate>
+            <time>unknown</time>
+          </sngdate>
+          <sngdate>
+            <caldate>20150102</caldate>
+            <time>unknown</time>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.332189</westbc>
+        <eastbc>-75.351858</eastbc>
+        <northbc>40.247437</northbc>
+        <southbc>38.560240</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Lidar</themekey>
+        <themekey>Classified LAS 1.2</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>MD</placekey>
+        <placekey>PA</placekey>
+        <placekey>Kent</placekey>
+        <placekey>Talbot</placekey>
+        <placekey>Carroll</placekey>
+        <placekey>Baltimore</placekey>
+        <placekey>Chester</placekey>
+      </place>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Woolpert</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>4454 Idea Center Blvd</address>
+          <city>Dayton</city>
+          <state>OH</state>
+          <postal>45430</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(937) 461-5660</cntvoice>
+        <cntfax>(937) 461-0743</cntfax>
+        <hours>8:00 a.m. to 5:00 p.m. Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7600); ArcMap 10.2; ArcCatalog 10.2; TerraScan ver. 15.001; TerraModeler ver. 15.001; Geocue 2014.1.21; LP360 2014.1. Approximate size of entire delivery dataset = 2.0TB</native>
+    <descript>
+      <abstract>MD_PA_SandyLiDAR2015</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>All formatted data cover the entire area specified for this project and are validated using a combination of commercial lidar processing software, GIS software, and proprietary programs to ensure proper formatting and loading prior to delivery.</logic>
+    <complete>The lidar data is visually inspected for completeness to ensure that are no void areas or missing data.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Compiled to meet 1.182 meters - (Kent(MD) &amp; Talbot(MD)), 1.36 meters  - (Carroll(MD), Baltimore(MD) &amp; Chester(PA)) horizontal accuracy at 95 percent confidence level.</horizpar>
+        <qhorizpa>
+          <horizpav>1.182 / 1.36 meters</horizpav>
+          <horizpae>Lidar system specifications are available in the project report</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>LAS data covering the USGS MD-PA Sandy Lidar 0.7 meter NPS Lidar Task Order was compared to independent survey control points to determine the FVA of the LAS Swath and of the Bare-Earth DEM. In addition, this LAS data was compared to independent supplemental points from categories: Bare Earth Open Terrain, Urban, Tall Weeds/Crops, Brush Lands and Trees, and Forested and Fully Grown. Raw LAS Swath Fundamental Vertical Accuracy (FVA) Tested 0.168 meters fundamental vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.079 meters (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines. Bare-Earth DEM Fundamental Vertical Accuracy (FVA) Tested 0.156 meters fundamental vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.08 meters (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.168 meters</vertaccv>
+          <vertacce>Raw LAS Swath Fundamental Vertical Accuracy (FVA) Tested 0.168 meters fundamental vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.086 (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the TIN using all points.</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.156 meters</vertaccv>
+          <vertacce>Bare-Earth DEM Fundamental Vertical Accuracy (FVA) Tested 0.156 meters fundamental vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.08 (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM.</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.072 meters</vertaccv>
+          <vertacce>Urban Land Cover Classification Supplemental Vertical Accuracy (SVA) Tested 0.072 meters supplemental vertical accuracy at the 95th percentile in the Urban supplemental class reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM. Urban Errors larger than 95th percentile include:
+Point 3012, Easting 439707.135, Northing 4410861.095, Z-Error 0.092 meters
+Point 3017, Easting 407915.672, Northing 4340138.976, Z-Error 0.075 meters
+</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.216 meters</vertaccv>
+          <vertacce>Tall Weeds/Crops Land Cover Classification Supplemental Vertical Accuracy (SVA) Tested 0.216 meters supplemental vertical accuracy at the 95th percentile in the Tall Weeds/Crops supplemental class reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM. There were no Tall Weeds/Crops Errors exceeding the 95th percentile. Tall Weeds/Crops Errors at the 95th percentile include:
+Point 4013, Easting 410434.749, Northing 4399541.052, Z-Error 0.225 meters
+Point 4022, Easting 406202.133, Northing 4288991.591, Z-Error 0.237 meters
+</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.265 meters</vertaccv>
+          <vertacce>Brushlands/Trees Land Cover Classification Supplemental Vertical Accuracy (SVA) Tested 0.265 meters supplemental vertical accuracy at the 95th percentile in the Brushlands/Trees supplemental class reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM. Brushlands/Trees Errors larger than 95th percentile include:
+Point 5008, Easting 427424.043, Northing 4436769.384, Z-Error 0.285 meters
+Point 5015, Easting 423751.282, Northing 4345809.393, Z-Error 0.267 meters</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.146 meters</vertaccv>
+          <vertacce>Forested and Fully Grown Land Cover Classification Supplemental Vertical Accuracy (SVA) Tested 0.146 meters supplemental vertical accuracy at the 95th percentile in the Forested/Fully Grown supplemental class reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM. Forested/Fully Grown Errors larger than 95th percentile include:
+Point 6105, Easting 341609.523, Northing 4382972.584, Z-Error 0.176 meters
+Point 6106, Easting 327284.969, Northing 4366677.952, Z-Error 0.215 meters
+Point 6119, Easting 433697.747, Northing 4349177.806, Z-Error 0.278 meters</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.216 meters</vertaccv>
+          <vertacce>Consolidated Vertical Accuracy (CVA) Tested 0.216 meters consolidated vertical accuracy at the 95th percentile level; reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM. CVA is based on the 95th percentile error in all land cover categories combined.
+Point 4013, Easting 410434.749, Northing 4399541.052, Z-Error 0.225 meters
+Point 4022, Easting 406202.133, Northing 4288991.591, Z-Error 0.237 meters
+Point 5006, Easting 334309.503, Northing 4363034.812, Z-Error 0.260 meters
+Point 5008, Easting 427424.043, Northing 4436769.384, Z-Error 0.285 meters
+Point 5015, Easting 423751.282, Northing 4345809.393, Z-Error 0.267 meters
+Point 5022, Easting 410604.081, Northing 4296472.997, Z-Error 0.262 meters
+Point 5023, Easting 413132.894, Northing 4299188.462, Z-Error 0.252 meters
+Point 5031, Easting 391304.943, Northing 4296874.538, Z-Error 0.250 meters
+Point 6119, Easting 433697.747, Northing 4349177.806, Z-Error 0.278 meters
+</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151030</pubdate>
+            <title>Lidar acquisition</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Lidar dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20141207</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>MD/PA Sandy Supplemental Lidar</srccitea>
+        <srccontr>This data set is the project specified acquired point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151030</pubdate>
+            <title>Survey Control Acquistion</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Control dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150114</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>MD/PA Sandy Supplemental Lidar</srccitea>
+        <srccontr>This data set is the project specified acquired ground control and QAQC control data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151030</pubdate>
+            <title>Lidar deliverable processing</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Lidar dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20141208</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>MD/PA Sandy Supplemental Lidar</srccitea>
+        <srccontr>This data set is the project specified lidar deliverables.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Using two Leica ALS70 (lidar) systems on board a Cessna 310 and Cessna 404 aircraft respectively, high density data, at a nominal pulse spacing (NPS) of 0.7 meters, were collected for this task order (approximately 1,813 square miles). Leica Specs - 
+For Kent &amp; Talbot (MD):
+AGL = 1,981 meters - Aircraft Speed = 150 Knots, Field of View (Full) = 40 degrees, Pulse Rate = 272 kHz, Scan Rate = 41.5 Hz, with an average side lap of 25%. Multiple returns were recorded for each laser pulse along with an intensity value for each return.
+For Carroll &amp; Baltimore (MD), Chester (PA):
+AGL = 2,286 meters - Aircraft Speed = 150 Knots, Field of View (Full) = 32 degrees, Pulse Rate = 239 kHz, Scan Rate = 40 Hz, with an average side lap of 25%. Multiple returns were recorded for each laser pulse along with an intensity value for each return.Seventeen (17) missions were flown between December 7, 2014 and January 2, 2015. Five (5) Global Navigation Satellite System (GNSS) Base Stations were used in support of the lidar data acquisition. Specific information regarding latitude, longitude, and ellipsoid height to the L1 phase center is included in the lidar processing report. The geoid used to reduce satellite derived elevations to orthometric heights was GEOID12A. Data for the task order is referenced to the UTM Zone 18N, North American Datum of 1983 (2011), and NAVD88, in meters. Once the data acquisition and GPS processing phases are complete, the lidar data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project. The SBET was used to reduce the lidar slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. The ALS70 calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of lidar data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw lidar data is reduced using the refined misalignment angles.</procdesc>
+        <srcused>MD/PA Sandy Supplemental Lidar - Acquisition</srcused>
+        <procdate>20141207</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The field crews utilized VRS RTK GPS by logging into the KeyNet RTK GPS Network to obtain real
+time corrections of the collected GPS data. This is a technique used in land surveying based on the use of
+carrier phase measurements of the GPS and GLONASS signals where a network calculated reference
+station provides the real-time corrections, providing up to centimeter-level accuracy. This methodology
+allowed for efficient survey grade observations for sensor calibrations and ground-truthing. Woolpert
+Woolpert, Inc. Sandy Supplemental
+March 2015 MD / PA QL2 Lidar
+USGS/NGTOC Section 1: Page 3 of 3
+utilized a single Trimble Navigation R8 dual-frequency geodetic GPS receiver at the rover end of the
+vector for this task. The survey was conducted using a 1-second epoch rate, in a fixed solution RTK
+mode with each GPS session lasting 120 epochs to 180 epochs</procdesc>
+        <srcused>MD/PA Sandy Supplemental Lidar - Acquisition ground control and QAQC control Acquisition</srcused>
+        <procdate>20150114</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogenous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" lidar returns. This process determined Default (Class 1), Ground (Class 2), Noise (Class 7), Water (Class 9), Ignored Ground (Class 10), Overlap Default (Class 17) and Overlap Ground (Class 18). The bare-earth (Class 2 - Ground) lidar points underwent a manual QA/QC step to verify the quality of the DEM as well as a peer-based QC review. This included a review of the DEM surface to remove artifacts and ensure topographic quality. Classification of water (class 9) and ignored ground (class 10) was completed via the use of the hydrologic breaklines collected for the hydro-flattening phase. The overlap classes were determined by first identifying the overlapping areas and reclassifying the LAS data by offset from a corridor. This allows the returns located on the edge of the swath to be removed from the bare earth coverage in an effort to produce a more uniform data density. The returns determined to be overlap including overlap default, ground, water, and ignored ground are then applied an overlap flag and reclassified to their respective standard classification value.. The surveyed ground control points are used to make vertical adjustments to the data set and to perform the accuracy checks and statistical analysis of the lidar dataset. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. The resulting deliverables for this task order consist of classified LAS file in LAS 1.2 format, Raw Swath LAS files in LAS 1.2 format, 1 meter pixel size DEM files in ERDAS IMG format, 1 meter pixel size 8-bit Intensity files in GeoTIFF format, and Hydrologic Breakline data in ESRI shape file format.</procdesc>
+        <srcused>MD/PA Sandy Supplemental Lidar - Deliverable Processing </srcused>
+        <procdate>20141208</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 2011 UTM Zone 18N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-75.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988(GEOID12A)</altdatum>
+        <altres>0.000100</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS/NGTOC</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1400 Independence Rd.</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(573) 308-3587</cntvoice>
+        <cntfax>Unknown</cntfax>
+        <hours>Unknown</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Woolpert prepared the original data as set forth in the Scope of Services, in accordance with reasonable care and due diligence as set forth in this Agreement, however, due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by any user of this data. Any use will be at the end-user’s sole risk.</distliab>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20151030</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Woolpert</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>4454 Idea Center Blvd.</address>
+          <city>Dayton</city>
+          <state>OH</state>
+          <postal>45430</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(937) 461-5660</cntvoice>
+        <cntfax>(937) 461-0743 </cntfax>
+        <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>Unclassified</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>Unclassified</metshd>
+    </metsi>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

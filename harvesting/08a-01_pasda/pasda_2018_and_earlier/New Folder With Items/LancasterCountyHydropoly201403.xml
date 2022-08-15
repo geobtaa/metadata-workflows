@@ -1,0 +1,252 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Lancaster County Hydropoly</title>
+        <geoform>vector digital data</geoform>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>201403</pubdate>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-76.725174</westbc>
+        <eastbc>-75.874299</eastbc>
+        <northbc>40.318617</northbc>
+        <southbc>39.711373</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Streams</themekey>
+        <themekey>Hydrography</themekey>
+        <themekey>Rivers</themekey>
+        <themekey>Stream Centerlines</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201403</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyHydropoly201403</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>29959</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Lancaster County Hydropoly</enttypl>
+        <enttypd>Attribute table for Hydrography Lines</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>WUP_SP</attrlabl>
+        <attrdef>Water Use Protection - Special Protection</attrdef>
+        <attrdefs>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>HQ</edomv>
+            <edomvd>High Quality Waters</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+          <edom>
+            <edomv>EV</edomv>
+            <edomvd>Exceptional Value Waters</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HYNAME</attrlabl>
+        <attrdef>Name of hydrographic feature</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Feature Names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WUP_AL</attrlabl>
+        <attrdef>Water Use Protection - Aquatic Life</attrdef>
+        <attrdefs>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>WWF</edomv>
+            <edomvd>Warm Water Fishes-Maintenance and propagation of fish species and additional flora and fauna which are indigenous to a warm water habitat.</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+          <edom>
+            <edomv>MF</edomv>
+            <edomvd>Migratory Fishes-Passage, maintenance and propagation of anadromous and catadromous fishes and other fishes which ascend to flowing waters to complete their life cycle.</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+          <edom>
+            <edomv>TSF</edomv>
+            <edomvd>Trout Stocking-Maintenance of stocked trout from February 15 to July 31 and maintenance and propagation of fish species and additional flora and fauna which are indigenous to a warm water habitat.</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+          <edom>
+            <edomv>CWF</edomv>
+            <edomvd>Cold Water Fishes-Maintenance or propagation, or both, of fish species including the family Salmonidae and additional flora and fauna which are indigenous to a cold water habitat.</edomvd>
+            <edomvds>Source: http://www.pacode.com/secure/data/025/chapter93/s93.3.html The Pennsylvania Code website reflects the Pennsylvania Code changes effective through 35 Pa.B. 6882 (December 17, 2005).</edomvds>
+          </edom>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HIDDEN</attrlabl>
+        <attrdef>Indicates if stream is visible or a hidden feature such as the centerline of a larger feature</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Visible feature</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Stream centerline of feature wider than 10 feet</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Hidden feature (present, but not visible on photography)</edomvd>
+          </edom>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140318</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

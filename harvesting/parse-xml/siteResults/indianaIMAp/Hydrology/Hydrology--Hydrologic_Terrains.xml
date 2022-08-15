@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Fleming, A.H., and others (Data compilers)</origin>
+        <origin>Reehling, P., and others (GIS compilers)</origin>
+        <pubdate>20020319</pubdate>
+        <title>
+HYDROGEOL_SETTINGS_IN: Hydrogeologic Terrains and Settings of Indiana (Indiana Geological Survey,
+1:100,000, Polygon Shapefile)
+</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+        </othercit>
+      </citeinfo>
+IGS Inventory Bar Code Number 11000044
+
+This shapefile was slightly modified from a coverage that was the basis for the following report:
+Fleming, A.H., Bonneau, P., Brown, S.E., Grove, G., Harper, D., Herring, W., Lewis, E.S.,
+Moeller, A.J., Powell, R., Reehling, P., Rupp, R.F., and Steen, W.J., 1995.  Atlas of
+Hydrogeologic Terrains and Settings of Indiana, Indiana Geological Survey, Final Report to
+the Office of Indiana State Chemist, Open-File Report 95-7.
+The coverage that was created by Fleming et al. was also included in the following CD-ROM
+publication:
+Indiana Natural Resources and Environmental GIS Data, Office of Indiana State Chemist,
+Purdue University, West Lafayette, Indiana 47907-1154, Bernie Engel (contact).
+<onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink></citation>
+    <descript>
+      <abstract>
+HYDROGEOL_SETTINGS_IN is a polygon shapefile that shows hydrogeologic terrains and settings of Indiana.
+The methodology of the investigation and definitions of terms are described in an associated report
+(Indiana Geological Survey, Open-File Report 95-7).
+</abstract>
+      <purpose>
+HYDROGEOL_SETTINGS_IN was derived from a coverage named "HGS."  HGS was created to provide
+a coverage showing generalized interpretations of regional hydrostratigraphic and hydraulic relationships
+in Indiana, as mapped at a scale of 1:100,000. The coverage was created by the Indiana Geological Survey
+as a product deliverable for an investigation funded by the Office of the Indiana State Chemist.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1990</begdate>
+          <enddate>1995</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey</themekey>
+        <themekey>IGS</themekey>
+        <themekey>Hydrogeology</themekey>
+        <themekey>Terrains</themekey>
+        <themekey>Settings</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>State Geologist</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>igsinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday - Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+ESRI ArcView 3.2a
+Windows NT version 4.0
+Approximately 5.94 MB
+</native>
+    <useconst>UNIQUEFILENAME</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Internal attributes are based on work maps of Fleming et al. (1995). Data were derived chiefly
+from water well records, supplemented locally by records of test borings and oil and gas wells,
+seismic data, rotary cuttings, and down-hole natural gamma-ray logs. Settings are generalized
+interpretations based on available data. Map units and contours represent an interpretation of
+inherently variable geologic conditions. Boundaries are approximate and transitional by
+definition. Conditions at specific sites may differ from those shown on the coverage.
+Five polygons have unknown settings; eleven polygons have unknown terrains.
+</attraccr>
+    </attracc>
+    <logic>Arc/Info polygon topology is present. No dangles or slivers present.</logic>
+    <complete>
+The geologic boundaries are transitional by definition, consequently their positions at the scale of
+the coverage are only a general approximation. Conditions at a specific site may differ from those
+shown on the coverage. The coverage is intended for use at the published scale (1:100,000) and should
+never constitute the sole source of information for a site-specific investigation. Five polygons have
+unknown settings; eleven polygons have unknown terrains.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding the horizontal positional accuracy of this coverage. The coordinates
+used in georeferencing HYDROGEOL_SETTINGS_IN were derived from 1:100,000 USGS topographic quadrangle maps. The
+geologic boundaries are transitional by definition, consequently their positions at the scale of
+the coverage are only a general approximation. Conditions at a specific site may differ from those
+shown on the coverage. The coverage is intended for use at the published scale (1:100,000) and
+should never constitute the sole source of information for a site-specific investigation.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the
+digital production of HYDROGEOL_SETTINGS_IN.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1995</pubdate>
+            <title>paper work maps</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+These work maps contributed to the following publication:
+Fleming, A.H., Bonneau, P., Brown, S.E., Grove, G., Harper, D., Herring, W., Lewis, E.S.,
+Moeller, A.J., Powell, R., Reehling, P., Rupp, R.F., and Steen, W.J., 1995. Atlas of
+Hydrogeologic Terrains and Settings of Indiana, Indiana Geological Survey, Final Report to
+the Office of Indiana State Chemist, Open-File Report 95-7.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>paper work map</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>1995</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IGS OFR 95-7</srccitea>
+        <srccontr>
+Water-well logs and other subsurface data of the Indiana Geological Survey were assembled,
+interpreted, and plotted onto work maps. Boundaries of hydrogeologic units were drawn onto the
+work maps.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1995</pubdate>
+            <title>
+Atlas of Hydrogeologic Terrains and Settings of Indiana, Indiana Geological Survey,
+Final Report to the Office of Indiana State Chemist, Open-File Report 95-7.
+</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+The following people contributed to Open-File Report 95-7:
+Fleming, A.H., Bonneau, P., Brown, S.E., Grove, G., Harper, D., Herring, W., Lewis, E.S.,
+Moeller, A.J., Powell, R., Reehling, P., Rupp, R.F., and Steen, W.J.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>Open-File Report 95-7 (paper copy)</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>1995</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IGS OFR 95-7</srccitea>
+        <srccontr>Open-File Report 95-7 was used to attribute the resultant data set.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Work map tracings were scanned and
+vectorized, using a CADCOR Tracer software package, by Peter Reehling, Indiana
+Geological Survey. Values for the attribute field titled "setting" were added to the
+coverage named HGS from the paper work maps by Peter Reehling.
+</procdesc>
+        <srcused>paper work map</srcused>
+        <procdate>1995</procdate>
+        <srcprod>HGS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Values for the attribute field titled "terrain" were added to
+HGS from the paper copy of IGS OFR 95-7 by Denver Harper using ESRI
+ArcInfo (v 7.2).
+</procdesc>
+        <srcused>IGS OFR 95-7</srcused>
+        <procdate>1995</procdate>
+        <srcprod>HGS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+HGS was reprojected from UTM zone 16, NAD27 to UTM zone 16, NAD83 using ESRI ArcInfo (v 8.1). This coverage was then clipped to
+another coverage named "INCLP83," a boundary coverage for the State of Indiana (compiled at
+a scale of 1:24,000). Since HGS and INCLP83 boundaries did not coincide perfectly with one
+another, some polygons along the state boundary were either slightly truncated or slightly
+extended to the new boundary.  In every case, the modifications were minor. The resulting
+shapefile was named "HYDROGEOL_SETTINGS_IN."
+</procdesc>
+        <srcused>HGS</srcused>
+        <procdate>20020319</procdate>
+        <srcprod>HYDROGEOL_SETTINGS_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@exchange.indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit) and
+MP (Metadata Parser) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20020319</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@exchange.indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1131</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HYDROGEOL_SETTINGS_IN.pat</enttypl>
+        <enttypd>Polygon Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Setting</attrlabl>
+        <attrdef>
+Map unit labels for hydrogeologic settings
+A NOTE ON GEOLOGIC NAMES AND TERMINOLOGY: From Fleming and others, 1994 and 1995:
+"The Indiana Geological Survey, like many similar organizations, recognizes the need for
+consistent usage of proper stratigraphic names for formations, landforms, and other
+geologic entities, as spelled out by the Code of Stratigraphic Nomenclature. The
+traditional policy has been to disallow printed use of any secondary, working tier of
+informal terminology, based on the belief that such usage might ultimately lead to the
+formalization of names that were never properly defined. Contrary to that policy, a
+plethora of "names" for terrains, landscapes, hydrogeologic settings, and various internal
+elements are used in this report. Relatively few formal names exist for glacial units in
+Indiana, and most of those that do are based on traditional rock-stratigraphic concepts
+or interpretations of landscapes that are, at best, marginally applicable to the broad,
+sequence-based approach employed in this study. Moreover, no formal names have ever been
+established for major hydrostratigraphic units or hydrogeologic settings in the state. The geographic
+extents of the individual sequences and settings described in this report, and
+the correlations of their major internal stratigraphic units beyond the immediate mapped
+confines of their respective terrains, are commonly unknown. Therefore, most of the "names"
+employed herein are part of an informal, working terminology for these glacial terrains,
+hydrogeologic settings, and their stratigraphic elements. The surnames of these "names" are
+uncapitalized to distinguish them from the few existing formal names that are used. In all
+cases, these "names" must be recognized as informal nonentities. Prior to this study, many
+of these "named" features represented "terra incognito", and the reconnaissance nature of
+this study did not afford as complete a definition as might be desired. Consequently this
+terminology is likely to remain in constant flux as new information is added and forces
+different interpretations and classifications."
+</attrdef>
+        <attrdefs>IGS OFR 95-7</attrdefs>
+        <attrdomv>
+          <udom>
+Character Field
+
+TERRAINS (all capital lettering) AND SETTINGS NORTH OF THE WISCONSIN GLACIAL BOUNDARY
+LAKE MICHIGAN RIM (LMRIM)
+Kankakee Lowland (K)
+Kankakee River Floodplain (O2K)
+Southern valley fringe (K1)
+Rensselaer sand plain (K2)
+Winemac channeled fringe (K3)
+Valparaiso Moraine (V)
+Till-capped moraine core (Vm)
+Tunnel valleys (tx)
+Inner collapsed fan head (F1Vc, F2Vc)
+Inner fan fringe (F1V)
+Exposed outer fan (F2V)
+Lake border (b)
+Coastal fringe (b1)
+Lake plain (b2)
+Till-cored upland (b2a)
+PLYMOUTH-BREMEN-NAPPANEE SUBBASIN (PBNSB)
+Plymouth upland (P)
+Till-capped fan (F1P)
+Collapsed fan complex (FxP)
+Plymouth fan (F2P)
+Miami Highway ridge (Pm)
+Kalamazoo Morainal System
+Exposed outwash fan (F2Z)
+Till-capped fan, southern segment (F1Z)
+Fan-head complex, southern segment (FxZ)
+Bremen lowland (Br)
+Small outwash channels and plains (BrO)
+Central lake basin (Brw)
+Bourbon upland (Tb)
+Till-cored morainal upland (Tmb)
+Rolling or hummocky topography on thin till (Tb)
+Etna Green fan, exposed (F2E)
+Etna Green fan, collapsed fan head (FxE)
+Nappanee upland-Wakarusa upland segment (N)
+Till-cored rolling upland (N)
+Till-capped fan (F1N)
+Till-cored morainal ridges (Nm)
+Foraker kame-fan complex (FxF)
+Nappanee upland-Middlebury complex (M)
+Exposed fan, pitted (F2M)
+Hummocky, till-capped fan (F1M)
+Pitted fan atop till-cored morainal ridges (F3M)
+Nappanee upland-Shipshewana moraine segment (S)
+Push ridge cored mostly by sand and gravel (Nms)
+Ramp (FxS)
+Exposed fan (F2S)
+ROCHESTER-WARSAW-TOPEKA SUBBASIN (RWTSB)
+Kosciusko morainal region (TK)
+Tunnel valleys (Ttv)
+Till-capped upland (TK)
+Morainal ridges (TmK)
+Warsaw-Wawasee outwash complex (OxW)
+Leesburg outwash plain (L)
+Collapsed fan head complex (FxL)
+Exposed fan and outwash plain (F2L)
+Rochester fan (R)
+Exposed fan (F2R)
+Outwash complex (OxR)
+Topeka fan (T)
+Till-capped fan (F1T)
+Exposed fan (F2T)
+Fan head complex (FxT)
+Packerton upland
+Morainal highlands (Lmu)
+Troughs (t)
+Upper Tippecanoe River Valley (O1Tu)
+STEUBEN-HUNTERTOWN-WAWASEE SUBBASIN (SHWSB)
+Huntertown terrain (H)
+Undifferentiated ablation sequences (H)
+Collapsed ridge-ice contact stratified complex (Hx)
+Hummocky till-capped fan (F1H)
+Pitted outwash fan (F2H)
+Collapsed fan-head complex(?) (FxH)
+Pitted fan atop disintegration topography (F3H)
+Wolf Lake outwash complex (OxH)
+Jamestown terrain
+Brighton fan (F2B)
+Pigeon River sluiceway (O1P)
+Sturgis fan (F2ST)
+Fawn River sluiceway (O1F)
+Angola fan
+Hummocky high-relief fan complex (FxA)
+Till-capped fan complex (Lm/FxA)
+Clear Lake window (F2C)
+Pleasant Lake fan (F2PL)
+Lake James trough system (tj)
+Summit Lake terrain
+Kendallville upland
+Morainal highlands (LmH)
+Undifferentiated troughs (t)
+Huntertown interlobate region (LH)
+MAUMEE SUBBASIN (MAUMEESB)
+Erie Lobe till plain (L)
+Lagro till plain (L)
+Till plain atop bedrock uplands (L/b)
+Channelled till plain (Lc)
+Loblolly trend (LwL)
+Outer fringe (Lf)
+Muncie esker (LcM)
+Erie Lobe end moraines (Lm) and related melt water features
+Union City moraine (LmUC)
+Mississinewa Moraine (LmM)
+Mississinewa River valley (O1M)
+North Manchester fan (F3N)
+Salamonie Moraine (LmS)
+Wabash Moraine, chiefly till-cored (LmW)
+Wabash Moraine, north limb (Huntertown segment) (LmWH)
+Wabash Moraine, north limb (till-outwash core) (LmWx)
+Cedar Creek Canyon (tunnel valley) (Ltv)
+Fish Creek fan (F2FC)
+Fort Wayne Moraine (LmFW)
+Fort Wayne fan (F2FW)
+St Joseph River valley (Allen Co) (O1SJ)
+Maumee Lacustrine Plain (M)
+Lake plain (Ml)
+Beach complex (Mb)
+CENTRAL TILL PLAIN (CTP)
+Iroquois morainal region
+Till ridges (Im, Ims)
+Till plains (I, Is)
+Tippecanoe Fan (F2TP, FxTP)
+Lower Tippecanoe River valley (O1Tl)
+Washed ablation complex (T3, Td)
+Frankfort segment
+Thick till plain (TF)
+Scircleville fan (F1S)
+Tunnel valleys (Tt)
+Kokomo segment
+Patterned till plain (TKK)
+Kokomo bedrock high (TKK/B, a/b)
+Deer Creek channel complex
+Deer Creek channel (OcD)
+Fringing channel complex (TcD)
+Wildcat Creek channel complex
+Wildcat Creek channel (OcW)
+Fringing channel complex (TcW)
+Wea Creek Fan (FxWC, F1WC, F2WC)
+West Fork segment
+White River outwash system (O1WW)
+Fringing washed till plain (TWW)
+Tributary meltwater channels (TcWW)
+Greenwood moraine (TmGW)
+Glenns Valley fan (F2GV)
+West Fork outwash plain (O2WW)
+East Fork-Whitewater segment
+New Castle tunnel valley system (TtN)
+Open, outwash-floored channels (OtN)
+Knightstown morainal region (TmKn)
+Eastern till plain (TEW, TEW/b)
+Whitewater River Valley, upper sluiceway (O1WH)
+Upper East Fork sluiceway system (O1EW)
+Tributary meltwater channels (TcEW)
+Bunker Hill moraine (TmBH)
+Greensburg morainal system (TmG)
+Lower Wabash segment
+Western till plain (Wl)
+Atherton Island moraine (Wlm)
+Shawnee Creek segment
+Washed till plain (TSC)
+Crawfordsville morainal system (TmC)
+Raccoon Creek segment
+Alamo Ridge and other morainal areas (TmA)
+Rolling till plain atop dissected bedrock (TR)
+Plainfield segment
+Rolling till plain over dissected bedrock (TP)
+Danville Ridge (TmD)
+White Lick sluiceway (O1WL)
+Sugar Creek Valley
+Upper sluiceway (O1SC)
+Fringing fans (FxSC)
+Lower rock-walled sluiceway (ObSC)
+Coal Creek sluiceway
+Veedersburg segment (O1CV)
+Graham Creek segment(O1CG)
+Raccoon Creek sluiceway
+Lower sluiceway (O1RC)
+Mecca segment (O1RM)
+Bedrock-walled segment (ObRC)
+Upper alluvial segment (aORC)
+TERRAIN-FRINGING OUTWASH PLAINS AND SLUICEWAYS
+St Joseph River outwash plain (O2S)
+Eastern segment, western segment
+Elkhart River outwash system (O2E)
+Howe outwash plain (O2H)
+Cedar Creek-Eel River sluiceway
+Cedar Creek segment (O1C)
+Huntertown segment (O1CH)
+Eel River segment (O1E)
+Wabash River Valley (Wa)
+Wabash-Erie Channel (Wa1, Wa1x)
+Carbonate rock sills (Wa2)
+Peru segment (Wa3)
+Battle Ground segment (Wa4)
+Attica segment (Wa5)
+Covington segment (Wa6)
+High-level channels (Wac)
+SETTINGS COMMON TO MULTIPLE SUBBASINS
+High-level (abandoned) meltwater channels, washed surfaces (w)
+Ice contact stratified deposits (ics, icx)
+Alluvial valleys (a)
+
+TERRAINS (all capital lettering) AND SETTINGS SOUTH OF THE WISCONSIN GLACIAL BOUNDARY
+SOUTHWESTERN GLACIATED REGION
+Brazil Segment
+Loess covered plain (JBl)
+Dissected loess plain (JBw)
+Cloverdale Segment
+Rolling till-capped upland over karst limestone (JC)
+Cataract Lake complex (OxC)
+Spencer complex (OxS)
+Glacial Lake Flatwoods (alF)
+Linton Segment
+Rolling till plain over dissected clastic bedrock (JL)
+American Bottoms segment
+Patchy till on highly dissected bedrock upland along glacial margin (JA)
+Upland outwash bodies (OJ)
+American Bottoms (alA)
+Richland Creek (alR)
+Washington Segment
+Rolling loess hills (JW)
+Prairie Creek basin (alPC)
+Princeton Segment
+Loess- and till-capped uplands (JPu)
+Loess-capped bedrock hills (Pu)
+Lowlands and relict lake basins (Pb)
+Glacial Lake Patoka (alP)
+SOUTHEASTERN GLACIATED REGION
+St Maurice Upland (JSM)
+Newpoint Plain (JN)
+Ohio-Whitewater Dissected Fringe
+Strongly dissected upland on exposed or thinly capped shale (JO)
+Washed slopes in front of late Wisconsin margin (JOw)
+Vernon Segment
+Dissected regional slope with thin patchy till over shale and limestone (JV)
+Muscatatuck Lowland (alM)
+Chestnut Ridge complex (OxCh)
+Knobstone Segment
+Dissected bedrock escarpment and upland with patchy till cap (JK)
+Martinsville fan-delta (FxM)
+Indian Creek (pre-Wisconsin) (alI)
+Bean Blossom Creek (alBB)
+Upland sand and gravel bodies and sand-till complexes (OJ)
+SOUTH-CENTRAL DRIFTLESS AREA
+Norman Upland (RN)
+Knobstone escarpment (RNk)
+Norman Upland-Mitchell Plain Transition (RNM)
+Mitchell Plain (RM)
+Chester Escarpment (Mitchell Plain-Crawford Upland Transition) (RCM)
+Crawford Upland (RC)
+Wabash Lowland (RW)
+BOTTOMLANDS
+Alluvial Bottoms (a, ab)
+Late Wisconsin slackwater lake basins (alW)
+Ohio River Valley (O1OH)
+Wabash River: New Harmony Segment (Wa7) (Wa7/d)
+Lower Whitewater River Valley
+Rock-walled sluiceway (ObWH)
+White River System
+East Fork outwash plain (O2EW) (O2EW/d)
+Bedrock-walled sluiceway of the East Fork (ObEW)
+Bedrock-walled sluiceway of the West Fork (ObWW)
+Lower alluvial valley of the West Fork and main trunk valley (OaWW) (OaWW/d)
+Big Walnut-Eel River Sluiceway
+Big Walnut Creek segment (O1BW)
+Glacial Lake Eminence (alE)
+Eel River "flats" (EF)
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Terrain</attrlabl>
+        <attrdef>Name of hydrogeologic terrain</attrdef>
+        <attrdefs>IGS OFR 95-7</attrdefs>
+        <attrdomv>
+          <udom>
+Character Field
+
+TERRAINS NORTH OF THE WISCONSIN GLACIAL BOUNDARY --
+LAKE MICHIGAN RIM (LMRIM)
+PLYMOUTH-BREMEN-NAPPANEE SUBBASIN (PBNSB)
+ROCHESTER-WARSAW-TOPEKA SUBBASIN (RWTSB)
+STEUBEN-HUNTERTOWN-WAWASEE SUBBASIN (SHWSB)
+MAUMEE SUBBASIN (MAUMEESB)
+CENTRAL TILL PLAIN (CTP)
+TERRAIN-FRINGING OUTWASH PLAINS AND SLUICEWAYS
+SETTINGS COMMON TO MULTIPLE SUBBASINS
+
+TERRAINS SOUTH OF THE WISCONSIN GLACIAL BOUNDARY --
+SOUTHWESTERN GLACIATED REGION
+SOUTHEASTERN GLACIATED REGION
+SOUTH-CENTRAL DRIFTLESS AREA
+BOTTOMLANDS
+</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Publication Sales Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>igsinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday - Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [HYDROGEOL_SETTINGS_IN: Hydrogeologic Terrains
+and Settings of Indiana (Indiana Geological Survey, 1:100,000, Polygon Shapefile)]
+WARRANTY
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020319</metd>
+    <metrd>20020508</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Walls</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geographer, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1346</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>awalls@exchange.indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday - Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

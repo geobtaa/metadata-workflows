@@ -1,0 +1,531 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Elk Management Areas 2017</title>
+        <geoform>vector digital data</geoform>
+        <origin>Pennsylvania Game Commission</origin>
+        <pubdate>2017</pubdate>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-78.802820</westbc>
+        <eastbc>-77.211938</eastbc>
+        <northbc>41.829650</northbc>
+        <southbc>40.941467</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elk</themekey>
+        <themekey>hunting</themekey>
+        <themekey>management</themekey>
+        <themekey>area</themekey>
+        <themekey>zones</themekey>
+        <themekey>wildlife</themekey>
+        <themekey>big game</themekey>
+        <themekey>PGC</themekey>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The User shall save the Commonwealth and The Pennsylvania Game Commission harmless from any suits, claims, or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the the data files or accompanying documentation.  The Commonwealth and The Pennsylvania Game Commission exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose.  These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance.</useconst>
+    <datacred>Pennsylvania Game Commission.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Thomas Mikibbin</cntper>
+          <cntorg>Pennsylvania Game Commission</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2001 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17110</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-705-8650</cntvoice>
+        <cntfax>717-787-3292</cntfax>
+        <cntemail>tmakibbin@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <descript>
+      <abstract>PGC_ElkManagementAreas2017</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>40.0</stdparll>
+            <stdparll>42.0</stdparll>
+            <longcm>-78.0</longcm>
+            <latprjo>39.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000003571654083600607</absres>
+            <ordres>0.000000003571654083600607</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Elk Management Areas 2017</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20170617</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Thomas Makibbin</cntper>
+          <cntorg>Pennsylvania Game Commission</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2001 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17110</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-705-8650</cntvoice>
+        <cntfax>717-787-3292</cntfax>
+        <cntemail>tmakibbin@state.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Thomas Makibbin</rpIndName>
+    <rpOrgName>Pennsylvania Game Commission</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-705-8650</voiceNum>
+        <faxNum>717-787-3292</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>2001 Elmerton Ave</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17110</postCode>
+        <country>US</country>
+        <eMailAdd>tmakibbin@state.pa.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170617</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Elk Management Areas 2017</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Game Commission</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Elk management area boundary in Pennsylvania</idAbs>
+    <idPurp>Boundary defines the elk managment area boundary and surrounds the elk managment or hunt zones in Pennsylvania.</idPurp>
+    <idCredit>Pennsylvania Game Commission.</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Thomas Mikibbin</rpIndName>
+      <rpOrgName>Pennsylvania Game Commission</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-705-8650</voiceNum>
+          <faxNum>717-787-3292</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>2001 Elmerton Ave</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17110</postCode>
+          <country>US</country>
+          <eMailAdd>tmakibbin@state.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>big game</keyword>
+      <keyword>zones</keyword>
+      <keyword>management</keyword>
+      <keyword>area</keyword>
+      <keyword>environment</keyword>
+      <keyword>PGC</keyword>
+      <keyword>wildlife</keyword>
+      <keyword>elk</keyword>
+      <keyword>hunting</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>big game</keyword>
+      <keyword>zones</keyword>
+      <keyword>management</keyword>
+      <keyword>area</keyword>
+      <keyword>environment</keyword>
+      <keyword>PGC</keyword>
+      <keyword>wildlife</keyword>
+      <keyword>elk</keyword>
+      <keyword>hunting</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>The User shall save the Commonwealth and The Pennsylvania Game Commission harmless from any suits, claims, or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the the data files or accompanying documentation. The Commonwealth and The Pennsylvania Game Commission exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-78.80282</westBL>
+          <eastBL>-77.211938</eastBL>
+          <southBL>40.941467</southBL>
+          <northBL>41.82965</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>1</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170918</CreaDate>
+    <CreaTime>13100800</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="fc6cf2b016cd8548e700555bc4012a30" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5F
+bGsgTWFuYWdlbWVudCBBcmVhcyAyMDE3PC90aXRsZT4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9y
+IGRpZ2l0YWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgICAgPG9yaWdpbj5QZW5uc3lsdmFuaWEgR2Ft
+ZSBDb21taXNzaW9uPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTc8L3B1YmRhdGU+DQog
+ICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5wYXNkYS5wc3UuZWR1Lzwvb25saW5rPg0KICAgICAg
+PC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0
+cmFjdD5FbGsgbWFuYWdlbWVudCBhcmVhIGJvdW5kYXJ5IGluIFBlbm5zeWx2YW5pYTwvYWJzdHJh
+Y3Q+DQogICAgICA8cHVycG9zZT5Cb3VuZGFyeSBkZWZpbmVzIHRoZSBlbGsgbWFuYWdtZW50IGFy
+ZWEgYm91bmRhcnkgYW5kIHN1cnJvdW5kcyB0aGUgZWxrIG1hbmFnbWVudCBvciBodW50IHpvbmVz
+IGluIFBlbm5zeWx2YW5pYS48L3B1cnBvc2U+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8c3Bkb20+
+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTc4LjgwMjgyMDwvd2VzdGJjPg0K
+ICAgICAgICA8ZWFzdGJjPi03Ny4yMTE5Mzg8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRoYmM+NDEu
+ODI5NjUwPC9ub3J0aGJjPg0KICAgICAgICA8c291dGhiYz40MC45NDE0Njc8L3NvdXRoYmM+DQog
+ICAgICA8L2JvdW5kaW5nPg0KICAgIDwvc3Bkb20+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRo
+ZW1lPg0KICAgICAgICA8dGhlbWVrdD5JU08gMTkxMTUgVG9waWMgQ2F0ZWdvcmllczwvdGhlbWVr
+dD4NCiAgICAgICAgPHRoZW1la2V5PmVsazwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5o
+dW50aW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pm1hbmFnZW1lbnQ8L3RoZW1la2V5
+Pg0KICAgICAgICA8dGhlbWVrZXk+YXJlYTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT56
+b25lczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT53aWxkbGlmZTwvdGhlbWVrZXk+DQog
+ICAgICAgIDx0aGVtZWtleT5iaWcgZ2FtZTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5Q
+R0M8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+ZW52aXJvbm1lbnQ8L3RoZW1la2V5Pg0K
+ICAgICAgPC90aGVtZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5Ob25lPC9hY2Nj
+b25zdD4NCiAgICA8dXNlY29uc3Q+VGhlIFVzZXIgc2hhbGwgc2F2ZSB0aGUgQ29tbW9ud2VhbHRo
+IGFuZCBUaGUgUGVubnN5bHZhbmlhIEdhbWUgQ29tbWlzc2lvbiBoYXJtbGVzcyBmcm9tIGFueSBz
+dWl0cywgY2xhaW1zLCBvciBhY3Rpb25zIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb2YgdGhlIGRh
+dGEgZmlsZXMgb3IgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24sIG9yIGFyaXNpbmcgb3V0IG9m
+IGFueSBkZWZlY3QgaW4gdGhlIHRoZSBkYXRhIGZpbGVzIG9yIGFjY29tcGFueWluZyBkb2N1bWVu
+dGF0aW9uLiAgVGhlIENvbW1vbndlYWx0aCBhbmQgVGhlIFBlbm5zeWx2YW5pYSBHYW1lIENvbW1p
+c3Npb24gZXhjbHVkZSBhbnkgYW5kIGFsbCBpbXBsaWVkIHdhcnJhbnRpZXMgYW5kIG1ha2Ugbm8g
+d2FycmFudHkgb3IgcmVwcmVzZW50YXRpb24gd2l0aCByZXNwZWN0IHRvIHRoZSBkYXRhIGZpbGVz
+IG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBpbmNsdWRpbmcgcXVhbGl0eSwgcGVyZm9y
+bWFuY2UsIG1lcmNoYW50YWJpbGl0eSwgb3IgZml0bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBv
+c2UuICBUaGVzZSBkYXRhIGZpbGVzIGFuZCBkb2N1bWVudGF0aW9uIGFyZSBwcm92aWRlZCAiYXMg
+aXMiIGFuZCB0aGUgVXNlciBhc3N1bWVzIHRoZSBlbnRpcmUgcmlzayBhcyB0byB0aGVpciBxdWFs
+aXR5IGFuZCBwZXJmb3JtYW5jZS48L3VzZWNvbnN0Pg0KICAgIDxkYXRhY3JlZD5QZW5uc3lsdmFu
+aWEgR2FtZSBDb21taXNzaW9uLjwvZGF0YWNyZWQ+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2lu
+ZG93cyA3IFZlcnNpb24gNi4xIChCdWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sgMTsgRVNSSSBBcmNH
+SVMgMTAuMC40LjQwMDA8L25hdGl2ZT4NCiAgICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4N
+CiAgICAgICAgPGNudHBlcnA+DQogICAgICAgICAgPGNudHBlcj5UaG9tYXMgTWlraWJiaW48L2Nu
+dHBlcj4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBHYW1lIENvbW1pc3Npb248L2Nu
+dG9yZz4NCiAgICAgICAgPC9jbnRwZXJwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8
+YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAg
+ICAgPGFkZHJlc3M+MjAwMSBFbG1lcnRvbiBBdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+
+SGFycmlzYnVyZzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+UGVubnN5bHZhbmlhPC9zdGF0ZT4N
+CiAgICAgICAgICA8cG9zdGFsPjE3MTEwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VW5p
+dGVkIFN0YXRlczwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9p
+Y2U+NzE3LTcwNS04NjUwPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD43MTctNzg3LTMyOTI8
+L2NudGZheD4NCiAgICAgICAgPGNudGVtYWlsPnRtYWtpYmJpbkBzdGF0ZS5wYS51czwvY250ZW1h
+aWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9wdGNvbnRhYz4NCiAgICA8dGltZXBlcmQ+DQog
+ICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxjYWxkYXRlPjIw
+MTc8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAg
+PC90aW1lcGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9n
+cmVzcz4NCiAgICAgIDx1cGRhdGU+QXMgbmVlZGVkPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQog
+IDwvaWRpbmZvPg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAg
+ICA8cHR2Y3RpbmY+DQogICAgICA8c2R0c3Rlcm0+DQogICAgICAgIDxzZHRzdHlwZT5HVC1wb2x5
+Z29uIGNvbXBvc2VkIG9mIGNoYWluczwvc2R0c3R5cGU+DQogICAgICAgIDxwdHZjdGNudD4xPC9w
+dHZjdGNudD4NCiAgICAgIDwvc2R0c3Rlcm0+DQogICAgPC9wdHZjdGluZj4NCiAgPC9zcGRvaW5m
+bz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxt
+YXBwcm9qPg0KICAgICAgICAgIDxtYXBwcm9qbj5BbGJlcnMgQ29uaWNhbCBFcXVhbCBBcmVhPC9t
+YXBwcm9qbj4NCiAgICAgICAgICA8YWxiZXJzPg0KICAgICAgICAgICAgPHN0ZHBhcmxsPjQwLjA8
+L3N0ZHBhcmxsPg0KICAgICAgICAgICAgPHN0ZHBhcmxsPjQyLjA8L3N0ZHBhcmxsPg0KICAgICAg
+ICAgICAgPGxvbmdjbT4tNzguMDwvbG9uZ2NtPg0KICAgICAgICAgICAgPGxhdHByam8+MzkuMDwv
+bGF0cHJqbz4NCiAgICAgICAgICAgIDxmZWFzdD4wLjA8L2ZlYXN0Pg0KICAgICAgICAgICAgPGZu
+b3J0aD4wLjA8L2Zub3J0aD4NCiAgICAgICAgICA8L2FsYmVycz4NCiAgICAgICAgPC9tYXBwcm9q
+Pg0KICAgICAgICA8cGxhbmNpPg0KICAgICAgICAgIDxwbGFuY2U+Y29vcmRpbmF0ZSBwYWlyPC9w
+bGFuY2U+DQogICAgICAgICAgPGNvb3JkcmVwPg0KICAgICAgICAgICAgPGFic3Jlcz4wLjAwMDAw
+MDAwMzU3MTY1NDA4MzYwMDYwNzwvYWJzcmVzPg0KICAgICAgICAgICAgPG9yZHJlcz4wLjAwMDAw
+MDAwMzU3MTY1NDA4MzYwMDYwNzwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQogICAg
+ICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFuYXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAg
+IDxob3JpemRuPkQgTm9ydGggQW1lcmljYW4gMTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlw
+cz5HUlMgMTk4MDwvZWxsaXBzPg0KICAgICAgICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhp
+cz4NCiAgICAgICAgPGRlbmZsYXQ+Mjk4LjI1NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2Vv
+ZGV0aWM+DQogICAgPC9ob3JpenN5cz4NCiAgPC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0
+YWlsZWQ+DQogICAgICA8ZW50dHlwPg0KICAgICAgICA8ZW50dHlwbD5FbGsgTWFuYWdlbWVudCBB
+cmVhcyAyMDE3PC9lbnR0eXBsPg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAg
+ICAgPGF0dHJsYWJsPkZJRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkludGVybmFsIGZl
+YXR1cmUgbnVtYmVyLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUg
+d2hvbGUgbnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsPkFDUkVTPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+U0hBUEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5GZWF0
+dXJlIGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+Q29vcmRpbmF0ZXMgZGVmaW5p
+bmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U0hBUEVfTGVuZzwvYXR0cmxhYmw+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNIQVBFX0Fy
+ZWE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5BcmVhIG9mIGZlYXR1cmUgaW4gaW50ZXJu
+YWwgdW5pdHMgc3F1YXJlZC48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5Fc3JpPC9hdHRy
+ZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlBvc2l0aXZlIHJlYWwg
+bnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAg
+IDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4NCiAgPC9lYWluZm8+
+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0ZD4yMDE3MDYxNzwvbWV0ZD4NCiAgICA8bWV0c3Rkbj5G
+R0RDIENvbnRlbnQgU3RhbmRhcmQgZm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0YTwvbWV0
+c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAgICA8bWV0
+dGM+bG9jYWwgdGltZTwvbWV0dGM+DQogICAgPG1ldGM+DQogICAgICA8Y250aW5mbz4NCiAgICAg
+ICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudHBlcj5UaG9tYXMgTWFraWJiaW48L2NudHBlcj4N
+CiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBHYW1lIENvbW1pc3Npb248L2NudG9yZz4N
+CiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5
+cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFk
+ZHJlc3M+MjAwMSBFbG1lcnRvbiBBdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+SGFycmlz
+YnVyZzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+UGVubnN5bHZhbmlhPC9zdGF0ZT4NCiAgICAg
+ICAgICA8cG9zdGFsPjE3MTEwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VW5pdGVkIFN0
+YXRlczwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+NzE3
+LTcwNS04NjUwPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD43MTctNzg3LTMyOTI8L2NudGZh
+eD4NCiAgICAgICAgPGNudGVtYWlsPnRtYWtpYmJpbkBzdGF0ZS5wYS51czwvY250ZW1haWw+DQog
+ICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICA8L21ldGFpbmZvPg0KICA8ZGlzdGluZm8+
+DQogICAgPGRpc3RyaWI+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAg
+ICAgICAgPGNudG9yZz5QZW5uc3lsdmFuaWEgU3BhdGlhbCBEYXRhIEFjY2VzcyAoUEFTREEpPC9j
+bnRvcmc+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAg
+PGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAg
+ICAgIDxhZGRyZXNzPjExNSBMYW5kIGFuZCBXYXRlciBidWlsZGluZzwvYWRkcmVzcz4NCiAgICAg
+ICAgICA8Y2l0eT5Vbml2ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5z
+eWx2YW5pYTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNjgwMjwvcG9zdGFsPg0KICAgICAg
+ICAgIDxjb3VudHJ5PlVuaXRlZCBTdGF0ZXM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4N
+CiAgICAgICAgPGNudHZvaWNlPig4MTQpIDg2NSAtIDg3OTI8L2NudHZvaWNlPg0KICAgICAgICA8
+Y250ZW1haWw+cGFzZGFAcHN1LmVkdTwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAg
+PC9kaXN0cmliPg0KICAgIDxkaXN0bGlhYj5UaGUgVVNFUiBzaGFsbCBpbmRlbW5pZnksIHNhdmUg
+aGFybWxlc3MsIGFuZCwgaWYgcmVxdWVzdGVkLCBkZWZlbmQgdGhvc2UgcGFydGllcyBpbnZvbHZl
+ZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSwgdGhl
+aXIgb2ZmaWNlcnMsIGFnZW50cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBz
+dWl0cywgY2xhaW1zLCBvciBhY3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBk
+YW1hZ2UgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxF
+UyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uIFRob3NlIHBhcnRpZXMgaW52b2x2
+ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBleGNsdWRlZCBhbnkgYW5k
+IGFsbCBpbXBsaWVkIHdhcnJhbnRpZXMsIGluY2x1ZGluZyB3YXJyYW50aWVzIG9yIG1lcmNoYW50
+YWJpbGl0eSBhbmQgZml0bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UgYW5kIG1ha2VzIG5v
+IHdhcnJhbnR5IG9yIHJlcHJlc2VudGF0aW9uLCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLCB3
+aXRoIHJlc3BlY3QgdG8gdGhlIEZJTEVTIG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBp
+bmNsdWRpbmcgaXRzIHF1YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZp
+dG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlLiBUaGUgRklMRVMgYW5kIGRvY3VtZW50YXRp
+b24gYXJlIHByb3ZpZGVkICJhcyBpcyIgYW5kIHRoZSBVU0VSIGFzc3VtZXMgdGhlIGVudGlyZSBy
+aXNrIGFzIHRvIGl0cyBxdWFsaXR5IGFuZCBwZXJmb3JtYW5jZS4gVGhvc2UgcGFydGllcyBpbnZv
+bHZlZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3
+aWxsIG5vdCBiZSBsaWFibGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNp
+ZGVudGFsLCBvciBjb25zZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBv
+ciBpbmFiaWxpdHkgdG8gdXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50
+YXRpb24uPC9kaXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

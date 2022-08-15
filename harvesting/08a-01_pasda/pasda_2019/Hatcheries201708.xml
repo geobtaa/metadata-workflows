@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Fish and Boat Commission</origin>
+        <pubdate>201708</pubdate>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink Sync="TRUE">http://www.pasda.psu.edu/</onlink>
+        <title>State Fish Hatcheries</title>
+        <ftname Sync="TRUE">PFBC_GIS.DBO.Hatcheries</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201708</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.427480</westbc>
+        <eastbc Sync="TRUE">-75.448060</eastbc>
+        <northbc Sync="TRUE">42.042620</northbc>
+        <southbc Sync="TRUE">40.103060</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.427480</leftbc>
+        <rightbc Sync="TRUE">-75.448060</rightbc>
+        <bottombc Sync="TRUE">40.103060</bottombc>
+        <topbc Sync="TRUE">42.042620</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Hatchery</themekey>
+        <themekey>Stocking</themekey>
+        <themekey>Trout</themekey>
+        <themekey>Warmwater/Coolwater</themekey>
+        <themekey>Steelhead</themekey>
+        <themekey>Salmon</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state.  If modifications are made to the data set, users are obligated to describe the types of modifications they have made.  Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>PFBC GIS</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <cntemail>RA-GIS@pa.lcl</cntemail>
+        <hours>8:00-4:00</hours>
+        <cntorgp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+          <cntper>PFBC GIS</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">SDE Feature Class</natvform>
+    <descript>
+      <abstract>Hatcheries201708</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <srcused>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <proccont>
+          <cntinfo>
+            <cntpos>PFBC GIS</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>1601 Elmerton Ave</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17110-9299</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>P O Box 67000</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17106-7000</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>717-705-7909</cntvoice>
+            <cntfax>717-705-7901</cntfax>
+            <cntemail>RA-GIS@pa.lcl</cntemail>
+            <cntorgp>
+              <cntorg>PA Fish and Boat Commission</cntorg>
+              <cntper>PFBC GIS</cntper>
+            </cntorgp>
+          </cntinfo>
+        </proccont>
+        <procdesc>The data set was created by geocoding the hatchery addresses and then verifying the locations with aerial photography.  The photography used was PA Map imagery where available and National Agricultural Imagery Program 2004 Color Infrared imagery in other areas.</procdesc>
+        <procsv>Arc/Info 9.1</procsv>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\Temp\Reg_HQ.xml</srcused>
+        <date Sync="TRUE">201708</date>
+        <time Sync="TRUE">09333600</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">K:\Projects\General_GIS\metadata_template.xml</srcused>
+        <date Sync="TRUE">201708</date>
+        <time Sync="TRUE">11125700</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <procdate Sync="TRUE">201708</procdate>
+        <proctime Sync="TRUE">16475600</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="PFBC_GIS.DBO.Hatcheries">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">14</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="PFBC_GIS.DBO.Hatcheries">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">14</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="PFBC_GIS.DBO.Hatcheries">
+      <enttyp>
+        <enttypl Sync="TRUE">PFBC_GIS.DBO.Hatcheries</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">14</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REGION</attrlabl>
+        <attalias Sync="TRUE">REGION</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>PFBC Bureau of Law Enforcement Region where hatchery is located</attrdef>
+        <attrdefs>PFBC Bureau of Law Enforcement</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ID</attrlabl>
+        <attalias Sync="TRUE">ID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+        <attrdef>Hatchery unique identifier</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>County location of hatchery</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FULL_NAME</attrlabl>
+        <attalias Sync="TRUE">FULL_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">35</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Complete name of hatchery</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Abbreviated name of hatcehry</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VISITOR_CENTER</attrlabl>
+        <attalias Sync="TRUE">VISITOR_CENTER</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Whether a Visitor Center is present at the facility</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TROUT</attrlabl>
+        <attalias Sync="TRUE">TROUT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Whether trout are raised at the hatchery</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WARM_COOL</attrlabl>
+        <attalias Sync="TRUE">WARM_COOL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Whether warmwater/coolwater species are raised at the hatchery</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Link</attrlabl>
+        <attalias Sync="TRUE">Link</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdefs>PFBC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Long_</attrlabl>
+        <attalias Sync="TRUE">Long_</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+        <attrdefs>PFBC</attrdefs>
+        <attrdef>Longitude of hatchery location</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Lat</attrlabl>
+        <attalias Sync="TRUE">Lat</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+        <attrdefs>PFBC</attrdefs>
+        <attrdef>Latitude of hatchery location</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">County_Link</attrlabl>
+        <attalias Sync="TRUE">County_Link</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">150</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdefs>PFBC</attrdefs>
+        <attrdef>Web page link containing more information about the County the hatchery is within</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STEEL_SALMON</attrlabl>
+        <attalias Sync="TRUE">STEEL_SALMON</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Whether steelhead/salmon are raised at the hatchery</attrdef>
+        <attrdefs>PFBC Bureau of Fisheries</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GlobalID</attrlabl>
+        <attalias Sync="TRUE">GlobalID</attalias>
+        <attrtype Sync="TRUE">GlobalID</attrtype>
+        <attwidth Sync="TRUE">38</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd Sync="TRUE">20110602</metd>
+    <metrd>201708</metrd>
+    <metfrd>As needed</metfrd>
+    <metc>
+      <cntinfo>
+        <cntpos>PFBC GIS</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <cntemail>RA-GIS@pa.lcl</cntemail>
+        <hours>8:00-4:00</hours>
+        <cntorgp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+          <cntper>PFBC GIS</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta>English</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <CreaDate>201708</CreaDate>
+    <CreaTime>16475600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>20110602</ModDate>
+    <ModTime>14511700</ModTime>
+    <SyncDate>20110602</SyncDate>
+    <SyncTime>14511700</SyncTime>
+    <MetaID>{A26052E9-BAB5-4175-9CEE-146F23DBCB18}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="201708" Time="171453">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams'</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110602</mdDateSt>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">PFBC_GIS.DBO.Hatcheries</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-80.42748</westBL>
+          <eastBL Sync="TRUE">-75.44806</eastBL>
+          <northBL Sync="TRUE">42.04262</northBL>
+          <southBL Sync="TRUE">40.10306</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.42748</westBL>
+      <eastBL Sync="TRUE">-75.44806</eastBL>
+      <northBL Sync="TRUE">42.04262</northBL>
+      <southBL Sync="TRUE">40.10306</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">Server=fbhbgisdev02; Service=5151/tcp; Database=PFBC_GIS; User=sa; Version=dbo.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </onLineSrc>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1983</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="PFBC_GIS.DBO.Hatcheries">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">14</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">7.210</transize>
+          <dssize Sync="TRUE">7.210</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building </address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

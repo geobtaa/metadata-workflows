@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Federal Emergency Management Agency (FEMA)</origin>
+        <origin>The Polis Center (Data Processor)</origin>
+        <pubdate>20110106</pubdate>
+        <title>
+SCHOOL_FACILITIES_MHMP_IN: School Facilities in Indiana, derived from Essential Facilities Data
+of the Multi-Hazard Mitigation Planning Data (The Polis Center, Point Shapefile)
+</title>
+        <geoform>Vector Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>The Polis Center</publish>
+        </pubinfo>
+        <othercit>
+The Federal Emergency Management Agency awarded Multi-Hazard Mitigation Planning (MHMP) Grants in 2003,
+2005, and 2007 to the Indiana Department of Homeland Security. The completeness section of the metadata identifies
+each county with the award year.  A total of 67 counties participated in the MHMP process.  The Disaster
+Mitigation Act of 2000 (DMA 2000) requires every jurisdiction in the United States to perform a natural hazard
+risk analysis and identify mitigation strategies to reduce the losses from future disasters. By completing a plan, the
+jurisdictions are eligible for funding to help implement mitigation projects.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SCHOOL_FACILITIES_MHMP_IN.SHP is a point shapefile that shows school facilities in Indiana, with the exception of some
+universities. SCHOOL_FACILITIES_MHMP_IN.SHP was derived from the shapefile named "HZSCHOOLS.SHP," which was provided to
+Indiana Geological Survey personnel by personnel of The Polis Center. This data set was derived by The Polis Center as part of
+several "DMA2000 Multi Hazard Mitigation Planning" (MHMP) projects, from data of the "Hazards U.S. Multi-Hazards"
+(Hazus-MH MR1, v 1.1) program (data from 2003) developed by the Federal Emergency Management Agency (FEMA). This
+data set is more complete in many counties in Indiana than the data set for essential facilities provided
+by FEMA with the Hazus-MH software.
+
+For more information on Hazus-MH, please see the following Web site:
+
+http://www.fema.gov/plan/prevent/hazus/hz_overview.shtm
+
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named
+"HZSCHOOLS.SHP":
+
+"The original Hazus-MH data from 2003 has been updated for sixty seven counties as part of the DMA2000 Multi-
+Hazard Mitigation Planning process. Local jurisdiction planning teams provided updated school facility location
+and attribute information to the Polis Center at IUPUI. The Polis Center used available aerial photography
+to place or adjust the locations of the facilities on top of the building rooftops."
+</abstract>
+      <purpose>
+The predecessor shapefile for SCHOOL_FACILITIES_MHMP_IN.SHP was produced by The Polis Center, as part of an essential
+facilities database for several DMA2000 Multi-Hazard Mitigation Planning (MHMP) projects to assist communities in
+preparing hazard mitigation planning document and procedures.
+
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named
+"HZSCHOOLS.SHP":
+
+"This data is used to estimate the damage (and resulting loss of functionality) associated with emergency
+response facilities for a given flood, hurricane, and/or earthquake scenario. By evaluating this information,
+the Hazus user can determine whether the emergency response capabilities of the region are likely to be
+overwhelmed by the flood, hurricane, and/or earthquake scenario."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2003</begdate>
+          <enddate>2008</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.9814935</westbc>
+        <eastbc>-84.86668139</eastbc>
+        <northbc>41.75538003</northbc>
+        <southbc>37.861339</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>location</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Hazards U.S.  (Hazus)</themekey>
+        <themekey>Hazards U.S. Multi-Hazard  (Hazus-MH)</themekey>
+        <themekey>Federal Emergency Management Agency (FEMA)</themekey>
+        <themekey>The Polis Center</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Multi-Hazard Mitigation Planning (MHMP)</themekey>
+        <themekey>school</themekey>
+        <themekey>education</themekey>
+        <themekey>charter school</themekey>
+        <themekey>career center</themekey>
+        <themekey>elementary school</themekey>
+        <themekey>middle school</themekey>
+        <themekey>high school</themekey>
+        <themekey>learning center</themekey>
+        <themekey>preschool</themekey>
+        <themekey>academy</themekey>
+        <themekey>catholic school</themekey>
+        <themekey>youth services center</themekey>
+        <themekey>education drug program</themekey>
+        <themekey>alternative school</themekey>
+        <themekey>kindergarten center</themekey>
+        <themekey>college</themekey>
+        <themekey>christian school</themekey>
+        <themekey>technical high school</themekey>
+        <themekey>intermediate school</themekey>
+        <themekey>primary grade school</themekey>
+        <themekey>adult education</themekey>
+        <themekey>theological seminary</themekey>
+        <themekey>institute</themekey>
+        <themekey>Montessori</themekey>
+        <themekey>vocational school</themekey>
+        <themekey>public school</themekey>
+        <themekey>private school</themekey>
+        <themekey>amish school</themekey>
+        <themekey>military academy</themekey>
+        <themekey>visual arts school</themekey>
+        <themekey>special education</themekey>
+        <themekey>parochial school</themekey>
+        <themekey>head start</themekey>
+        <themekey>school for the deaf</themekey>
+        <themekey>school for the blind</themekey>
+        <themekey>emergency services</themekey>
+        <themekey>essential facility</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Polis Center</cntorg>
+          <cntper>John Buechler</cntper>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>1200 Waterway Blvd</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46220</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-278-2433</cntvoice>
+        <cntfax>317-274-1830</cntfax>
+        <cntemail>jobuechl@iupui.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000, approximately 1.10 Mb</native>
+    <useconst>Infrastructure--Critical_Facilities_MHMP_Schools</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named
+"HZSCHOOLS.SHP":
+
+"The accuracy of the attributes is unknown. All attributes were not populated as part of the hazard mitigation planning effort."
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named
+"HZSCHOOLS.SHP":
+
+"The content of the data was determined by the local juridiction planning team. The data was used with Hazus-MH to perform
+Flood and Earthquake analyses."
+</logic>
+    <complete>
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named
+"HZSCHOOLS.SHP":
+
+"Completeness is based on the date of the Multi-Hazard Mitigation Plan (MHMPP).  The MHMPP was performed for each county and all
+incorporated communities within the jurisdiction.  Emergency responders were part of the local planning team and provided the content.
+
+Adams           2003 Default Hazus-MH
+
+Allen           2003 Default Hazus-MH
+
+Bartholomew     2003 Default Hazus-MH
+
+Benton          2003 Default Hazus-MH
+
+Blackford       2007 MHMPP
+
+Boone           2007 MHMPP
+
+Brown           2003 Default Hazus-MH
+
+Carroll         2003 Default Hazus-MH
+
+Cass            2007 MHMPP
+
+Clark           2005 MHMPP
+
+Clay            2005 MHMPP
+
+Clinton         2003 Default Hazus-MH
+
+Crawford        2003 MHMPP
+
+Daviess         2007 MHMPP
+
+Dearborn        2005 MHMPP
+
+Decatur         2005 MHMPP
+
+De Kalb         2003 Default Hazus-MH
+
+Delaware        2003 Default Hazus-MH
+
+Dubois          2007 MHMPP
+
+Elkhart         2003 Default Hazus-MH
+
+Fayette         2005 MHMPP
+
+Floyd           2005 MHMPP
+
+Fountain        2007 MHMPP
+
+Franklin        2005 MHMPP
+
+Fulton          2003 Default Hazus-MH
+
+Gibson          2005 MHMPP
+
+Grant           2007 MHMPP
+
+Greene          2005 MHMPP
+
+Hamilton        2003 Default Hazus-MH
+
+Hancock         2003 Default Hazus-MH
+
+Harrison        2005 MHMPP
+
+Hendricks       2003 Default Hazus-MH
+
+Henry           2005 MHMPP
+
+Howard          2003 Default Hazus-MH
+
+Huntington      2007 MHMPP
+
+Jackson         2005 MHMPP
+
+Jasper          2007 MHMPP
+
+Jay             2003 Default Hazus-MH
+
+Jefferson       2005 MHMPP
+
+Jennings        2005 MHMPP
+
+Johnson         2007 MHMPP
+
+Knox            2005 MHMPP
+
+Kosciusko       2007 MHMPP
+
+Lagrange        2007 MHMPP
+
+Lake            2007 MHMPP
+
+La Porte        2003 Default Hazus-MH
+
+Lawrence        2005 MHMPP
+
+Madison         2003 Default Hazus-MH
+
+Marion          2003 Default Hazus-MH
+
+Marshall        2007 MHMPP
+
+Martin          2005 MHMPP
+
+Miami           2007 MHMPP
+
+Monroe          2007 MHMPP
+
+Montgomery      2003 Default Hazus-MH
+
+Morgan          2007 MHMPP
+
+Newton          2007 MHMPP
+
+Noble           2003 Default Hazus-MH
+
+Ohio            2005 MHMPP
+
+Orange          2003 MHMPP
+
+Owen            2007 MHMPP
+
+Parke           2005 MHMPP
+
+Perry           2003 MHMPP
+
+Pike            2007 MHMPP
+
+Porter          2007 MHMPP
+
+Posey           2005 MHMPP
+
+Pulaski         2007 MHMPP
+
+Putnam          2005 MHMPP
+
+Randolph        2005 MHMPP
+
+Ripley          2005 MHMPP
+
+Rush            2007 MHMPP
+
+St Joseph       2007 MHMPP
+
+Scott           2005 MHMPP
+
+Shelby          2007 MHMPP
+
+Spencer         2003 MHMPP
+
+Starke          2007 MHMPP
+
+Steuben         2003 Default Hazus-MH
+
+Sullivan        2007 MHMPP
+
+Switzerland     2005 MHMPP
+
+Tippecanoe      2003 Default Hazus-MH
+
+Tipton          2007 MHMPP
+
+Union           2005 MHMPP
+
+Vanderburgh     2005 Earthquake Study
+
+Vermillion      2005 MHMPP
+
+Vigo            2005 MHMPP
+
+Wabash          2007 MHMPP
+
+Warren          2007 MHMPP
+
+Warrick         2005 MHMPP
+
+Washington      2003 Default Hazus-MH
+
+Wayne           2005 MHMPP
+
+Wells           2003 Default Hazus-MH
+
+White           2007 MHMPP
+
+Whitley         2007 MHMPP"
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Accuracy is not better than the source base data (Indiana 2005 aerial orthophotography) used for visual positioning of
+the features, which is 5 feet at the 95% confidence level for 1-foot imagery (1:2400) and not better than 2.5 feet at
+the 95% confidence level for 6-inch imagery (1:1200).
+
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named "HZSCHOOLS.SHP":
+
+"Indiana 2005 Aerial photography was used to place the school facility locations."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named "HZSCHOOLS.SHP":
+
+"The vertical positional accuracy was not a factor in the production of this shapefile."
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Federal Emergency Management Agency (FEMA)</origin>
+            <origin>National Institute of Building Sciences (NIBS)</origin>
+            <pubdate>2003</pubdate>
+            <title>
+Hazards U.S. Multi-Hazard (Hazus-MH MR1), version 1.1, The FEMA Tool for Estimating Losses from Earthquakes,
+Floods, and Hurricane Winds
+</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Federal Emergency Management Agency (FEMA); National Institute of Building Sciences (NIBS)</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2003</begdate>
+              <enddate>2003</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>EFCARE.SHP, arcHazus99</srccitea>
+        <srccontr>School facility locations provided by FEMA on the CD-ROM for Hazus-MH MR1(2003)</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>The Polis Center, IUPUI</origin>
+            <pubdate>2008</pubdate>
+            <title>HZSCHOOLS.SHP</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>The Polis Center</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Zip file containing an ESRI shapefile</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2003</begdate>
+              <enddate>2008</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>
+        </srccitea>
+        <srccontr>School facility locations provided by The Polis Center</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The following is excerpted from metadata supplied by The Polis Center for the source shapefile named "HZSCHOOLS.SHP":
+
+"For the counties that participated in the MHMP, the 2003 default Hazus-MH MR1 school facilities feature class was exported from
+Hazus-MH into a county personal geodatabase. The existing facilities were referenced with the aerial photography and
+points were moved to the building identified on the aerial photography. Additional sources provided by the county were
+used to add, delete, or modify the list of facilities. A report of the results was presented to planning team members
+who were given the opportunity to make changes and update attribute values. The planning team edits were made in the
+personal county geodatabase. At the completion of the planning effort, the county data was imported into the statewide
+hzschools feature class using CDMS, a data loading tool provided by FEMA. It was then exported to an ESRI Shapefile
+named "HZSCHOOLS.SHP"."
+</procdesc>
+        <srcused>Hazus-MH MR1(2003) - School Facilities (feature class)</srcused>
+        <procdate>2003 through 2008</procdate>
+        <srcprod>HZSCHOOLS.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>John Buechler</cntper>
+              <cntorg>The Polis Center</cntorg>
+            </cntperp>
+            <cntpos>GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>1200 Waterway Blvd</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46220</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-278-2433</cntvoice>
+            <cntfax>317-274-1830</cntfax>
+            <cntemail>jobuechl@iupui.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+HZSCHOOLS.SHP was provided to Indiana Geological Survey personnel by POLIS personnel on December 14, 2010. It
+was reprojected from "GCS North American 1983" datum (latitude/longitude in decimal degrees) to
+UTM Zone 16, NAD 1983 using the "Data Management Tools &gt; Projection and Transformations &gt; Feature &gt;
+Project" tool in ESRI ArcToolBox 10.0. It was then renamed to "SCHOOL_FACILITIES_MHMP_IN.SHP" to conform to
+internal naming conventions of the Indiana Geological Survey.
+</procdesc>
+        <srcused>HZSCHOOLS.SHP</srcused>
+        <procdate>20101214</procdate>
+        <srcprod>SCHOOL_FACILITIES_MHMP_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1)
+software written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all
+addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20110317</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>2656</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SCHOOL_FACILITIES_MHMP_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SchoolId</attrlabl>
+        <attrdef>School facility identification number from Hazus-MH</attrdef>
+        <attrdefs>FEMA, POLIS</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EfClass</attrlabl>
+        <attrdef>Occupancy Class</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>EFS1</edomv>
+            <edomvd>Grade schools Primary/High Schools</edomvd>
+            <edomvds>FEMA</edomvds>
+          </edom>
+          <edom>
+            <edomv>EFS2</edomv>
+            <edomvd>Colleges/Universities</edomvd>
+            <edomvds>FEMA</edomvds>
+          </edom>
+          <edom>
+            <edomv>SDFLT</edomv>
+            <edomvd>Default school</edomvd>
+            <edomvds>FEMA</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tract</attrlabl>
+        <attrdef>U.S. Census Tract identification Number (from Hazus-MH)</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Street address of the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>City in which the school facility is located</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zipcode</attrlabl>
+        <attrdef>ZIP Code for the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Statea</attrlabl>
+        <attrdef>State abbreviation for the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Contact</attrlabl>
+        <attrdef>Contact person for the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PhoneNumbe</attrlabl>
+        <attrdef>Phone number for the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YearBuilt</attrlabl>
+        <attrdef>Year in which the school facility was built. A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1800</rdommin>
+            <rdommax>2009</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumStories</attrlabl>
+        <attrdef>Number of stories or floors for the school facility. A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>4</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cost</attrlabl>
+        <attrdef>Replacement cost (in thousands of dollars). A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>12.92</rdommin>
+            <rdommax>28850</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumStudent</attrlabl>
+        <attrdef>Number or students reported by the school facility. A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>3431</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BackupPowe</attrlabl>
+        <attrdef>Information about whether this facility has back-up power capabilities ("0" = "no" and "1" = "Yes")</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ShelterCap</attrlabl>
+        <attrdef>Shelter Capacity for housing persons at the facility. A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>54</rdommin>
+            <rdommax>913</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>Area (in square feet) of the school facility. A value of zero indicates no data.</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>District</attrlabl>
+        <attrdef>District information for the school facility</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Kitchen</attrlabl>
+        <attrdef>Information about whether this facility has kitchen area ("0" = "no" and "1" = "Yes"))</attrdef>
+        <attrdefs>FEMA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Latitude coordinate ("GCS North American 1983" datum, decimal degrees) of the school facility</attrdef>
+        <attrdefs>FEMA, POLIS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>37.88066</rdommin>
+            <rdommax>41.7417</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Longitude coordinate ("GCS North American 1983" datum, decimal degrees) of the school facility</attrdef>
+        <attrdefs>FEMA, POLIS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-87.8935</rdommin>
+            <rdommax>-84.81512</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comment</attrlabl>
+        <attrdef>Comment field related to the attribute record</attrdef>
+        <attrdefs>POLIS</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales Coordinator</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the following source citation should be included: [SCHOOL_FACILITIES_MHMP_IN:
+School Facilities in Indiana, derived from Essential Facilities Data of the Multi-Hazard Mitigation
+Planning Data (The Polis Center, Point Shapefile)].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110112</metd>
+    <metrd>20110317</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

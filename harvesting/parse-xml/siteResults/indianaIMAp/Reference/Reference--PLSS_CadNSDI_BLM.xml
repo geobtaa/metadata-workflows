@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>U.S. Department of the Interior - Bureau of Land Management (BLM)</origin>
+        <pubdate>20140611</pubdate>
+        <title>
+PLSS_CadNSDI_BLM_IN.GDB: The Public Land Survey System of the Cadastral National Spatial Data Infrastructure for
+Indiana (Bureau of Land Management, 1:24,000, Esri File Geodatabase)
+</title>
+        <edition>2.0</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Springfield, Virginia</pubplace>
+          <publish>U.S. Department of the Interior - Bureau of Land Management (BLM) (Eastern States Office)</publish>
+        </pubinfo>
+        <othercit>
+This dataset was provided to IGS personnel on June 11, 2014 in an ESRI File Geodatabase format, and was originally named "IN_CadNSDI_V2.GDB."
+It was obtained from personnel of the Indiana Office of Technology and contractors for the Bureau of Land Management.
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+PLSS_CadNSDI_BLM_IN.GDB is is an Esri file geodatabse of the Public Land Survery System (PLSS) for Indiana, as provided by personnel
+of the Bureau of Land Management (BLM). The Cadastral National Spatial Data Infrastructure (CadNSDI) Survey Program of the BLM provides
+the official boundary surveys of all federal-interest lands in the United States, which is over 700 million acres, nationwide. The PLSS
+is the foundation for many survey-based geographic information systems.
+
+The following is excerpted from the metadata provided by the BLM for the source file geodatabase named  named "IN_CadNSDI_V2.GDB":
+
+"The CADNSDI or the Cadastral Publication Data Standard is the cadastral data component of the NSDI. This is the publication guideline
+for cadastral data that is intended to provide a common format and structure and content for cadastral information that can be made
+available across jurisdictional boundaries, providing a consistent and uniform cadastral data to meet business need that includes
+connections to the source information from the data stewards. The data stewards determine which data are published and should be contacted
+for any questions on data content or for additional information. The cadastral publication data is data provided by cadastral data
+producers in a standard form on a regular basis. Cadastral publication data has two primary components, land parcel data and
+cadastral reference data. It is important to recognize that the publication data are not the same as the operation and maintenance
+or production data. The production data is structured to optimize maintenance processes, is integrated with internal agency operations
+and contains much more detail than the publication data. The publication data is a subset of the more complete production data and is
+reformatted to meet a national standard so data can be integrated across jurisdictional boundaries and be presented in a consistent
+and standard form nationally."
+</abstract>
+      <purpose>
+PLSS_CadNSDI_BLM_IN.GDB was produced to create a seemless version of the Public Land Survery System, at the federal level. The BLM
+reformatted PLSS data supplied by the Indiana Geological Survey to meet a national standard of data that can be integrated across
+jurisdictional boundaries. The Esri file geodatabase structure of PLSS_CadNSDI_BLM_IN.GDB is representative of the BLM standardization
+of the PLSS for the entire country, and is considered the official boundary of all federal-interest lands in the United States.
+
+The following is excerpted from the metadata provided by the BLM for the source file geodatabase named  named "IN_CadNSDI_V2.GDB":
+
+"This data set represents the GIS Version of the Public Land Survey System including both rectangular and non-rectangular surveys.
+The metadata describes the lineage, sources and production methods for the data content. The definitions and structure of this data
+is compliant with FGDC Cadastral Data Content Standards and Guidelines for publication.
+
+"This data set is optimized for data publication and sharing rather than for specific "production" or operation and maintenance.
+This data set includes the following: PLSS Fully Intersected (all of the PLSS feature at the atomic or smallest polygon level),
+PLSS Townships, First Divisions and Second Divisions (the hierarchical break down of the PLSS Rectangular surveys) PLSS Special
+surveys (non rectangular components of the PLSS) Meandered Water, Corners and Conflicted Areas (known areas of gaps or overlaps
+between Townships or state boundaries). The Entity-Attribute section of this metadata describes these components in greater detail.
+
+"This data set was derived from a predecessor coverage named "IN_LANDSURVEY."  IN_LANDSURVEY is a digital representation of
+land survey features as represented on the USGS 1:24,000 digital raster graphic (DRG) series."
+</purpose>
+      <supplinf>
+PLSS_CadNSDI_BLM_IN.GDB was produced to create a seemless version of the Public Land Survery System (PLSS) at the federal level.
+The BLM reformatted PLSS data supplied by the Indiana Geological Survey to meet a national standard of data that can be integrated
+across jurisdictional boundaries. It contains three feature datasets named "CadastralReference," "CadastralReferenceLocal," and
+"Parcels." "CadastralReferenceLocal" and "Parcels" feature datasets contain no data but are retained in order to replicate the Esri
+file geodatabase data structure at the federal level at the request of BLM personnel.
+
+The feature dataset named "CadastralReference" contains ten file geodatabase feature classes named "ConflictedAreas," "MeanderedWater,"
+"MetadataGlance," "PLSSFirstDivision," "PLSSIntersected," "PLSSPoint," "PLSSSecondDivision," "PLSSSpecialSurvey," "PLSSTownship,"
+and "SurveySystem." Of these ten, the following feature datasets contain no data but are retained in order to replicate the Esri
+file geodatabase data structure at the federal level at the request of BLM personnel: "ConflictedAreas," "PLSSPoint," "PLSSSecondDivision,"
+and "PLSSSpecialSurvey."
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1952</begdate>
+          <enddate>2014</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Bureau of Land Management (BLM)</themekey>
+        <themekey>U.S. Department of the Interior (DOI)</themekey>
+        <themekey>land survey</themekey>
+        <themekey>congressional township</themekey>
+        <themekey>Public Land Survey System (PLSS)</themekey>
+        <themekey>state boundary</themekey>
+        <themekey>township</themekey>
+        <themekey>range</themekey>
+        <themekey>section</themekey>
+        <themekey>public survey</themekey>
+        <themekey>private survey</themekey>
+        <themekey>land grant</themekey>
+        <themekey>donation land claim</themekey>
+        <themekey>Clark Military Grant</themekey>
+        <themekey>Cathlinette Prairie Survey</themekey>
+        <themekey>location</themekey>
+        <themekey>Lower Prairie Surveys</themekey>
+        <themekey>Michigan Road Line</themekey>
+        <themekey>reserve</themekey>
+        <themekey>Vincennes Common</themekey>
+        <themekey>Upper Prairie Survey</themekey>
+        <themekey>United States Geological Survey (USGS)</themekey>
+        <themekey>Digital Raster Graphic (DRG)</themekey>
+        <themekey>basemap</themekey>
+        <themekey>cartography</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.2 file geodatabase format, approximately 36.4 Mb</native>
+    <useconst>Reference--PLSS_CadNSDI_BLM</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All information contained in this file geodatabase was supplied by personnel of the BLM and is assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>Data were supplied by personnel of the BLM and logical consistency is assumed to have been checked before official version was released.</logic>
+    <complete>All information contained in this file geodatabase was supplied by personnel of the BLM and is assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Accuracy is no better than that of the source shapefiles used to build PLSS_CadNSDI_BLM_IN.GDB.  The vector lines contained
+in the source shapefiles were corrected to DRG raster lines at an on-screen scale of 1:5,000 or better by IGS personnel.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy was not a factor in the digital production of the data set.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of the Interior - Bureau of Land Management (BLM)</origin>
+            <pubdate>20140609</pubdate>
+            <title>IN_CadNSDI_V2.GDB (BLMs official release of PLSS data for Indiana, Esri File Geodatabase)</title>
+            <edition>2.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Springfield, Virginia</pubplace>
+              <publish>U.S. Department of the Interior - Bureau of Land Management (BLM)</publish>
+            </pubinfo>
+            <othercit>None</othercit>
+            <onlink>http://www.geocommunicator.gov/GeoComm/lsis_home/home/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Network drive</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1952</begdate>
+              <enddate>2014</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IN_CadNSDI_V2.GDB</srccitea>
+        <srccontr>BLMs official release of PLSS data for Indiana, Esri File Geodatabase</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+An Esri file geodatabase named "IN_CadNSDI_V2.GDB" was provided to the Indiana Geological Survey (IGS) from BLM personnel on June 9, 2014.
+It was then reprojected to UTM Zone 16 coordinate system, and NAD 1983 vertical datum using Esri ArcCatalog. It was then renamed to
+"PLSS_CadNSDI_BLM_IN.GDB" in order to conform to the naming conventions of the IGS.
+</procdesc>
+        <srcused>IN_CadNSDI_V2.GDB</srcused>
+        <procdate>20140609</procdate>
+        <srcprod>PLSS_CadNSDI_BLM_IN.GDB</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by Peter N.
+Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were
+assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20140902</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>76346</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>IN_CadNSDI_V2.GDB</enttypl>
+        <enttypd>
+Esri File Geodatabase [contains attribute definitions for the following geodatabase feature classes:
+MeanderedWater (1 record), MetadataGlance (1105 records), PLSSFirstDivision (36,325 records), PLSSIntersected (36,490 records),
+PLSSTownship (1104 records), and SurveySystem (1321 records)]
+</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SURVTYP, Alias is "Survey Type Code" (MeanderedWater feature class)</attrlabl>
+        <attrdef>The survey types from the BLM GCDB, for this feature class the value should be "W" for Water</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT, Alias is "Survey Type Text" (MeanderedWater feature class)</attrlabl>
+        <attrdef>The survey type description, for this feature class the value is "Lake Michigan."</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (MeanderedWater feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (MeanderedWater feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLSSID, Alias is "Township Identifier" (MetadataGlance feature class)</attrlabl>
+        <attrdef>The concatenation of the principal meridian, township, range, and duplication code that form a unique ID value</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPLAB, Alias is "Township Label" (MetadataGlance feature class)</attrlabl>
+        <attrdef>The township and range label that is used for cartographic output or web display</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STEWARD, Alias is "Data Steward" (MetadataGlance feature class)</attrlabl>
+        <attrdef>Text description of the data steward for Indiana PLSS data ("State of Indiana")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REVISEDDATE, Alias is "Revised Date" (MetadataGlance feature class)</attrlabl>
+        <attrdef>Date of last revision by the data steward for Indiana PLSS data ("7/1/2013")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEABBR, Alias is "State Abbreviation" (MetadataGlance feature class)</attrlabl>
+        <attrdef>Two digit postal abbreviation of the State these data describe ("IN")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STWRDPLYID (MetadataGlance feature class)</attrlabl>
+        <attrdef>A unique identifier for the stewardship polygon features (contains only "Null" values)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STWRDPLYTP, Alias is "Stewardship Polygon Type" (MetadataGlance feature class)</attrlabl>
+        <attrdef>The type of polygon for the metadata at a glance. (Examples include "PLSS Township," "Survery Township," "County," or "City.")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STWRDLAB, Alias is "Stewardship Label" (MetadataGlance feature class)</attrlabl>
+        <attrdef>Cartographi label for the stewardship polygon (contains only "Null" values)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (MetadataGlance feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (MetadataGlance feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLSSID, Alias is "Township Identifier" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>The concatenation of the principal meridian, township, range, and duplication code that form a unique ID value for the township</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVID, Alias is "First Division Identifier" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>Unique identifier for the first division that is built by appending the first division elements on hte township identifier</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTYP, Alias is "First Division Type Code" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>This is a two character coded value for the type of first division, commonly a section, but may be a lot, parcel, tract or other division ("SN")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTXT, Alias is "First Division Type Text" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>The first division typoe as a text field ("section")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVNO, Alias is "First Division Number" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>This is a number, letter, or designator for the type of first division, commonly a section, of the PLSS Township (Section numbers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVDUP, Alias is "First Division Duplicate" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>This is a coded value to indicate whether the first division is a duplicated area or identifier ("0")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVLAB, Alias is "First Division Label" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>The label for the first division that is used for cartographic or web display purposes</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYP, Alias is "Survey Type Code" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>
+Code for the type of special survey typically from the codes for the BLM data collection - used in this
+feature to indicate if the feature is unsurveyed or unprotracted
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT, Alias is "Survey Type Text" (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>The description of the survey type code - may be a description of the survey type, or survey status in the case of this feature, without a code</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (PLSSFirstDivision feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEABBR, Alias is "State Abbreviation" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Two digit postal abbreviation of the State these data describe ("IN")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRINMERCD, Alias is "Principal Meridian Code" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Principal meridian code value from the BLM PM Code list ("1" or "2")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRINMER, Alias is "Principal Meridian Text" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Text description of the Principal meridian code value from the BLM PM Code list ("1st Meridian" or "2nd Meridian")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPNO, Alias is "Township Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Township number -  indicates the number of rows of townships, north or south from a Public Land Survey System Origin ("1st Meridian" or "2nd Meridian")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>001</rdommin>
+            <rdommax>038</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPFRAC, Alias is "Township Fraction" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Township fraction - created when there are gaps between surveyed Townships, or due to excess size in Townships that arose from executing original surveys</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDIR, Alias is "Township Direction" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Township direction - direction of a row of Townships from a Public Land Survey System Origin ("N" for North, "S" for South)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGENO, Alias is "Range Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Range number - indicates the number of columns of townships, east or west from a Public Land Survey System Origin</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>001</rdommin>
+            <rdommax>015</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGEFRAC, Alias is "Range Fraction" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Range fraction - created when there are gaps between surveyed Townships, or due to excess size in Townships that arose from executing original surveys</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGEDIR, Alias is "Range Direction" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Range direction - direction of a column of Townships from a Public Land Survey System Origin ("E" for East, "W" for West)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDPCD, Alias is "Township Duplicate" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>
+If there are multiple townships in a Public Land Survey System Origin, State and Survey Name, the Township Duplicate Status
+is used to establish uniqueness. (When more than one Public Land Survey System Township has the same Township and Range numbers and directions and
+fractions, and are in the same State, this attribute is used to distinguish among duplicate values.  A is the first duplicate, B the second etc.
+A 0 in this field indicates no duplicate).
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLSSID, Alias is "Township Identifier" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The concatenation of the principal meridian, township, range, and duplication code that form a unique ID value for the township</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STEWARD, Alias is "Data Steward" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Text description of the data steward for Indiana PLSS data ("State of Indiana")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPLAB, Alias is "Township Label" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The township and range label that is used for cartographic output or web display</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVID, Alias is "First Division Identifier" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Unique identifier for the first division that is built by appending the first division elements on the township identifier</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTYP, Alias is "First Division Type Code" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is a two character coded value for the type of first division, commonly a section, but may be a lot, parcel, tract or other division ("SN")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVTXT, Alias is "First Division Type Text" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The first division typoe as a text field ("section")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVNO, Alias is "First Division Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is a number, letter, or designator for the type of first division, commonly a section, of the PLSS Township (Section numbers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVDUP, Alias is "First Division Duplicate" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is a coded value to indicate whether the first division is a duplicated area or identifier ("0")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FRSTDIVLAB, Alias is "First Division Label" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The label for the first division that is used for cartographic or web display purposes</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVID, Alias is "Second Division Identifier" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Unique identifier for the second division (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVTYP, Alias is "Second Division Type Code" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is a two character coded value for the type of Second division (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVTXT, Alias is "Second Division Type Text" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The Second division type as a text field (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVNO, Alias is "Second Division Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is a number, letter, or designator for the type of Second division (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVSUF, Alias is "Second Division Suffix" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Second division suffix used to identify duplicates or suffix to the name (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVNOTE, Alias is "Second Division Note" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Notes about the second division of the PLSS (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SECDIVLAB, Alias is "Second Division Label" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The label for the second division that is used for cartographic or web display purposesn (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVID, Alias is "Survey Identifier" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Unique identifier for a PLSS Special Survey feature ("SEC" for all values in Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYP, Alias is "Survey Type Code" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Coded value of the type of special survey (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT, Alias is "Survey Type Text" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Text description for the type of special survey ("Section" for all values in Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRVNAME, Alias is "Survey Name for PLSS Areas" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>
+A common or otherwise recognized name for a portion of area of a PLSS Survey, for example the refugee lands
+in Ohio or in cases where a PLSS Township has a recognized name (No data values for Indiana)
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVNO, Alias is "Survey Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Special survey number or designator for non-rectangular PLSS areas (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSUF, Alias is "Survey Suffix" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Special survey suffix designation that makes the identification of the area unique (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVNOTE, Alias is "Survey Note" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>
+Notes about the polygon feature that are important for using or understanding the feature. For example
+from the BLM Survey Notes are A = Approximate Acreage, C = Conflict or Questionable, D = Non-added Acreage
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVDIV, Alias is "Special Survey Division" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The name or designation for any division of a PLSS Special Survey such as Lot in a Tract (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVLAB, Alias is "Survey Label" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Label that is used for cartographic output or web display (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QSEC, Alias is "Quarter Section" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Quarter section identifer, a two letter label (NE,SE,SW,SE) (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QQSEC, Alias is "Quarter Quarter Section" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>This is the quarter quarter PLSS reference (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GOVLOT, Alias is "Government Lot Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Government Lot numbers or identifiers (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCEREF, Alias is "Source Doc Link or Reference" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>
+The reference to the source document could be a reference to a map or plat or a deed, also could include
+document type (No data values for Indiana)
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCEDATE, Alias is "Source Doc Date" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The date of the source document (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREATX, Alias is "Record Area Test" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The record or recorded area as a text field, may include the units of area (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREANO, Alias is "Record Area Number" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The record or recorded area as a numeric field (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECRDAREANO, Alias is "GIS Area Acres" (PLSSIntersected feature class)</attrlabl>
+        <attrdef>The area of the feature in acres - computed from the GIS, this is not the record area (Units in Acres)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.253545</rdommin>
+            <rdommax>1212.197793</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (PLSSIntersected feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEABBR, Alias is "State Abbreviation" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Two digit postal abbreviation of the State these data describe ("IN")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRINMERCD, Alias is "Principal Meridian Code" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Principal meridian code value from the BLM PM Code list ("1" or "2")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRINMER, Alias is "Principal Meridian Text" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Text description of the Principal meridian code value from the BLM PM Code list ("1st Meridian" or "2nd Meridian")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPNO, Alias is "Township Number" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Township number -  indicates the number of rows of townships, north or south from a Public Land Survey System Origin ("1st Meridian" or "2nd Meridian")</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>001</rdommin>
+            <rdommax>038</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPFRAC, Alias is "Township Fraction" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Township fraction - created when there are gaps between surveyed Townships, or due to excess size in Townships that arose from executing original surveys</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDIR, Alias is "Township Direction" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Township direction - direction of a row of Townships from a Public Land Survey System Origin ("N" for North, "S" for South)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGENO, Alias is "Range Number" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Range number - indicates the number of columns of townships, east or west from a Public Land Survey System Origin</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>001</rdommin>
+            <rdommax>015</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGEFRAC, Alias is "Range Fraction" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Range fraction - created when there are gaps between surveyed Townships, or due to excess size in Townships that arose from executing original surveys</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RANGEDIR, Alias is "Range Direction" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Range direction - direction of a column of Townships from a Public Land Survey System Origin ("E" for East, "W" for West)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPDPCD, Alias is "Township Duplicate" (PLSSTownship feature class)</attrlabl>
+        <attrdef>
+If there are multiple townships in a Public Land Survey System Origin, State and Survey Name, the Township Duplicate Status
+is used to establish uniqueness. (When more than one Public Land Survey System Township has the same Township and Range numbers and directions and
+fractions, and are in the same State, this attribute is used to distinguish among duplicate values.  A is the first duplicate, B the second etc.
+A 0 in this field indicates no duplicate).
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLSSID, Alias is "Township Identifier" (PLSSTownship feature class)</attrlabl>
+        <attrdef>The concatenation of the principal meridian, township, range, and duplication code that form a unique ID value for the township</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TWNSHPLAB, Alias is "Township Label" (PLSSTownship feature class)</attrlabl>
+        <attrdef>The township and range label that is used for cartographic output or web display</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRVNAME, Alias is "Survey Name for PLSS Areas" (PLSSTownship feature class)</attrlabl>
+        <attrdef>
+A common or otherwise recognized name for a portion of area of a PLSS Survey, for example the refugee lands
+in Ohio or in cases where a PLSS Township has a recognized name (No data values for Indiana)
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYP, Alias is "Survey Type Code" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Coded value of the type of special survey (No data values for Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVTYPTXT, Alias is "Survey Type Text" (PLSSTownship feature class)</attrlabl>
+        <attrdef>Text description for the type of special survey ("Section" for all values in Indiana)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (PLSSTownship feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (PLSSTownship feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSID, Alias is "Survey System ID" (SurveySystem feature class)</attrlabl>
+        <attrdef>The primary key or identifier for Survey System Area</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSTYPE, Alias is "Survey System Type" (SurveySystem feature class)</attrlabl>
+        <attrdef>Survey System Type indicates the category or major class of the description</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSNM, Alias is "Survey System Name" (SurveySystem feature class)</attrlabl>
+        <attrdef>The Survey System Name - identifying name or number for a specific type of Survey System area</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSTYPE, Alias is "Survey System Code" (SurveySystem feature class)</attrlabl>
+        <attrdef>Contains any codes or indices for tracking or managing the survey system areas</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVSYSNM, Alias is "Survey System Note" (SurveySystem feature class)</attrlabl>
+        <attrdef>Contains any notes on the use, name or application of the survey system area</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVID, Alias is "Surv Sys First Division ID" (SurveySystem feature class)</attrlabl>
+        <attrdef>The Survey System First Division primary key or identifier</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVTYPE, Alias is "Surv Sys First Division Type" (SurveySystem feature class)</attrlabl>
+        <attrdef>
+Describes the classification of the First Division of the Survey System, this is not
+the same as the PLSS First Division
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTDIVNM, Alias is "Surv Sys First Division Name" (SurveySystem feature class)</attrlabl>
+        <attrdef>An alpha, numeric, or alpha-numeric designator used to identify the First Division of the Survey System</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVID, Alias is "Surv Sys Second Division ID" (SurveySystem feature class)</attrlabl>
+        <attrdef>The Survey System Second Division primary key or identifier</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVTYPE, Alias is "Surv Sys Second Division Type" (SurveySystem feature class)</attrlabl>
+        <attrdef>
+Describes the classification of the Second Division of the Survey System, this is not
+the same as the PLSS Second Division
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCNDIVNM, Alias is "Surv Sys Second Division Name" (SurveySystem feature class)</attrlabl>
+        <attrdef>The Survey System Third Division name or number</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVID, Alias is "Surv Sys Third Div ID" (SurveySystem feature class)</attrlabl>
+        <attrdef>The primary key or identifier for the Survey System third division</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVTYPE, Alias is "Surv Sys Third Div Type" (SurveySystem feature class)</attrlabl>
+        <attrdef>
+Describes the classification of the Third Division of the Survey System, this is not
+the same as the PLSS Third Division
+</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>THRDIVNM, Alias is "Surv Sys Third Div Name" (SurveySystem feature class)</attrlabl>
+        <attrdef>TheThird Division Type describes the classification of the Survey System Third Division</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length (SurveySystem feature class)</attrlabl>
+        <attrdef>Software computed measurement of the length of each polygon perimeter (Units are kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area (SurveySystem feature class)</attrlabl>
+        <attrdef>Software computed measurement of the area of each polygon perimeter (Units are square kilometers)</attrdef>
+        <attrdefs>U.S. Department of the Interior - Bureau of Land Management (BLM)</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>
+Monday through Friday, except holidays
+\
+</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT:
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be
+included: [PLSS_CadNSDI_BLM_IN.GDB: The Public Land Survey System of the Cadastral National Spatial Data Infrastructure for Indiana (Bureau of
+Land Management, 1:24,000, Esri File Geodatabase)].
+
+WARRANTY:
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY:
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140609</metd>
+    <metrd>20140902</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered
+or summarized. IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

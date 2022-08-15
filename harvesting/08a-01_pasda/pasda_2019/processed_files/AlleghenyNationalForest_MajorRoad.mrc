@@ -1,0 +1,1 @@
+00182nem a2200061Ia 4500008004100000520003900041552004000080040801u9999    xx         u        und d  aAlleghenyNationalForest_MajorRoad.  cFIDdInternal feature number., Esri

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Christina James (digital compiler)</origin>
+        <pubdate>20030902</pubdate>
+        <title>
+SAND_GRAVEL_RESOURCES_IN: Sand and Gravel Resource Potential in Mapped Surficial Material in Indiana (Indiana Geological
+Survey, 1:500,000, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>IGS inventory bar code number</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SAND_GRAVEL_RESOURCES_IN is a polygon shapefile that identifies sand and
+gravel permissive tracts in the surficial unconsolidated deposits of Indiana.  Permissive tracts
+have been defined by the U.S. Geological Survey (Open File Report 95-681, Singer, D.A., 1993, Basic
+concepts in three-part quantitative assessments of undiscovered mineral
+resources: Nonrenewable Resources, v. 2, no. 2, p. 69-81) as "areas where the geology
+permits the existence of mineral deposits (mineral resource potential) of a specific type... Noting that
+the possibility of the occurrence of the specified deposit type (mineral resource) outside the permissive
+tract should be negligible." This shapefile provides an approximate economic ranking of the sand and gravel resource
+potential of each mapped surficial unconsolidated deposit.  The resource potential of each map unit
+within the mapped surficial unconsolidated deposits is ranked as a "potential,"  "low potential," or
+"not a potential" resource. The definitions of these rankings are derived from Gray, H. H., 1973,
+Properties and uses of geologic materials in Indiana: Indiana Geological Survey Regional Geologic Map
+Supplementary Chart 1 and Carr, D. D., and Webb, W. M., 1970, Sand and gravel resources of Indiana:
+Indiana Geological Survey Bulletin 42-D, 31 p.  "Potential resource" indicates that the surficial
+unconsolidated deposits are likely to contain economic concentrations of sand and gravel,
+"low potential" indicates that the surficial unconsolidated deposits may contain economic concentrations
+of sand and gravel, and "not a potential resource" indicates that the surficial unconsolidated deposits
+do not contain economic concentrations of sand and gravel.
+</abstract>
+      <purpose>
+The purpose of SAND_GRAVEL_RESOURCES_IN is to provide a digital map layer, suitable for use in a GIS,
+that shows the mineral resource potential for sand and gravel in Indiana.
+</purpose>
+      <supplinf>
+This shapefile was derived by assigning qualitative permissive tract assessments to each outcrop
+area in Gray, H. H., 1989, Quaternary geologic map of Indiana: Indiana Geological Survey Miscellaneous Map
+49.  The attribute table data was derived from Gray, H. H., 1973, Properties and uses of geologic materials
+in Indiana: Indiana Geological Survey Regional Geologic Map Supplementary Chart 1 and Carr, D. D., and Webb,
+W. M., 1970, Sand and gravel resources of Indiana: Indiana Geological Survey Bulletin 42-D, 31 p.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19730101</begdate>
+          <enddate>19891231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>economic geology</themekey>
+        <themekey>industrial mineral</themekey>
+        <themekey>sand and gravel</themekey>
+        <themekey>sedimentology</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 8.3 shapefile format, approximately 3.1 Mb.</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>Geology--Industrial_Minerals_Sand_Gravel_Resources</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The accuracy of the rankings of the resource potential is
+consistent with the definitions provided in Gray, H. H., 1973, Properties and uses of geologic
+materials in Indiana, Regional Geologic Map Series Supplimentary Chart No. 1 and Carr,
+D. D., and Webb, W. M., 1970, Sand and gravel resources of Indiana: Indiana Geological Survey Bulletin
+42-D, 31 p.
+</attraccr>
+    </attracc>
+    <logic>ESRI ArcInfo polygon topology is present.</logic>
+    <complete>
+This shapefile includes all areas of "potential,"  "low potential," or
+"no potential" resources for sand and gravel deposits in Indiana.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of this shapefile is dependant on the
+accuracy of the map from which it was derived (Miscellaneous Map 49, Indiana Geological
+Survey). No quantitative tests were performed.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the
+production of the shapefile.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1973</pubdate>
+            <title>
+Gray, H. H., 1973, Properties and Uses of Geologic Materials in Indiana, Regional
+Geologic Map Series Supplimentary Chart No. 1, Indiana Geological Survey
+</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Chart</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1973</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>RGMS Supplimentary Chart No. 1</srccitea>
+        <srccontr>Indiana Geological Survey, Regional Geologic Map Series Supplimentary Chart No. 1</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1989</pubdate>
+            <title>Gray, H. H., 1989, Quaternary Geologic Map of Indiana, Indiana Geological Survey, Miscellaneous Map 49</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1989</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>6MM49</srccitea>
+        <srccontr>Indiana Geological Survey, Miscellaneous Map 49</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1970</pubdate>
+            <title>Sand and Gravel Resources of Indiana: Indiana Geological Survey Bulletin 42-D</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1970</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IGS Bulletin 42-D</srccitea>
+        <srccontr>Indiana Geological Survey, Bulletin 42-D</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Using existing ESRI ArcView shapefiles of Miscellaneous Map 49, the appropriate mapped
+surficial materials were grouped together into three groups to form the resource polygons. The mineral resource
+potential for sand and gravel was then assigned to the appropriate polygons in the attribute table.
+</procdesc>
+        <srcused>IGS MM49; RGMS Supplimentary Chart No. 1</srcused>
+        <procdate>20010108</procdate>
+        <srcprod>SAND_GRAVEL_RESOURCES_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Christina L. James</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Assistant Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cjames@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit) and
+MP (Metadata Parser) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20030909</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Indust_Minerals_sand_gravel.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Sand_gravel</attrlabl>
+        <attrdef>Mineral resource potential of sand and gravel</attrdef>
+        <attrdefs>RGMS Supplimentary Chart No. 1</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MinRes_pot</attrlabl>
+        <attrdef>Mineral resource potential for mapped area</attrdef>
+        <attrdefs>RGMS Supplimentary Chart No. 1</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2003, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any
+copying, adaptation, distribution, public performance, or public display of this information without the
+express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data.
+The following source citation must be included: SAND_GRAVEL_RESOURCES_IN: Sand and Gravel Resource
+Potential in Mapped Surficial Material in Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored
+will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition.
+If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties
+or conditions, expressed or implied, including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting from the use of this product is
+assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to,
+loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University,
+Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability
+to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20030902</metd>
+    <metrd>20040407</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

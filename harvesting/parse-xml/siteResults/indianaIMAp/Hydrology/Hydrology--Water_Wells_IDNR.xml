@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Natural Resources, Division of Water</origin>
+        <pubdate>20160616</pubdate>
+        <title>WATERWELLS_IDNR_IN: Water-Well Locations in Indiana (Indiana Department of Natural Resources, Point Shapefile)</title>
+        <edition>3.0</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources, Division of Water</origin>
+            <pubdate>20160616</pubdate>
+            <title>Indiana Online Water Well Record Database</title>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources</publish>
+            </pubinfo>
+            <onlink>http://www.in.gov/dnr/water/3595.htm</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+NOTE: The original data set named WATERWELLS_DNR_WATER_IN_100217.SHP was provided to Indiana Geological
+Survey personnel on February 17, 2010, personnel from the Indiana Department of Natural Resources, Division of
+Water, Resource Assessment Section.
+
+NOTE: An updated data set named WATERWELLS_DNR_WATER_IN_120312.SHP was provided to Indiana Geological
+Survey personnel on March 15, 2012, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation.
+
+NOTE: An updated data set named WATERWELLS_DNR_WATER_IN_130530.SHP was provided to Indiana Geological
+Survey personnel on July 23, 2013, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation.
+
+NOTE: An updated data set named WATERWELLS_DNR_WATER_IN_160616.SHP was provided to Indiana Geological
+Survey personnel on June 16, 2016, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation.
+
+The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_160616.SHP:
+
+"This file is a digital geospatial point feature class of both located water well records (which include UTM coordinates) and
+unlocated water well records (without UTM coordinates as of 200911).  The estimated locations used for the unlocated wells
+were based on the polygon centroid values for the smallest indicated section, quarter, quarter-quarter, or quarter-quarter-quarter
+section (as indicated in the database) for over 250,000 water well records and for about 26,000 of the 250,000 water well records
+the UTM's were obtained from address geocoding using the owners address, a generally more accurate method (see process steps below)."
+</abstract>
+      <purpose>
+The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_160616.SHP:
+
+"The Division of Water Ground Water Database has approximately 400,000 water well records, and of those, approximately 145,000
+have been field located and have x, y (UTM) coordinates.  The remaining records have no utms and cannot be easily utilized in
+a GIS format.  The purpose of this shapefile was to include those wells with UTM coordinates and to approximate the UTM coordinates
+for the others based on the most precise Township, Range, Section, quarter sections (TRS) locations available from office locating,
+which is effectively the centroid of the smallest known section or quarter sections; thus, increasing the amount of data available
+for display and analysis in a GIS format. This shapefile is combination of the located water well records and the water well records
+for which an estimated location was able to be determined using the methods described below.  This leaves less than 15,000 records
+with no UTM's associated with them. This shapefile and associated table has selected fields from the main digital water well database
+that are typically needed for most research."
+</purpose>
+      <supplinf>None</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1959</begdate>
+          <enddate>20160616</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1458</westbc>
+        <eastbc>-84.6920</eastbc>
+        <northbc>41.7740</northbc>
+        <southbc>37.7633</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>location</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Division of Water</themekey>
+        <themekey>water well</themekey>
+        <themekey>water supply</themekey>
+        <themekey>iLITH database</themekey>
+        <themekey>land survey</themekey>
+        <themekey>congressional township</themekey>
+        <themekey>Public Land Survey System (PLSS)</themekey>
+        <themekey>township</themekey>
+        <themekey>range</themekey>
+        <themekey>section</themekey>
+        <themekey>public survey</themekey>
+        <themekey>location</themekey>
+        <themekey>centroid locations</themekey>
+        <themekey>unlocated water well records</themekey>
+        <themekey>address geocoding</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources/Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W. Washington St., Rm. W271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4070</cntvoice>
+        <cntfax>317-233-4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>0800 to 1630 Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS shapefile format, Microsoft Windows XP, approximately 351 MB</native>
+    <useconst>Hydrology--Water_Wells_IDNR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_160616.SHP:
+
+"Records that did not have locations provided and whose locations could not be estimated using the public
+land survey system descriptions were removed from this version of the database."
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_160616.SHP:
+
+"Checks for duplicates (unique values in unique records) were performed on this data set. No checks on topology were performed on this data set."
+</logic>
+    <complete>This dataset it assumed to be complete, as-is, provided to the IGS from IDNR personnel.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from the metadata provided by IDNR for the source shapefile WATERWELLS_DNR_WATER_IN_160616.SHP:
+
+"Locations based only on the street address, driving directions, or other location information provided on the well record
+are considered unlocated records and have no x, y coordinates, only township, range, section, and quarter-quarter-quarter
+sections (if estimated).
+
+"The x, y coordinates are from the calculated centroid of the smallest possible individual polygon that matched the water
+well location data. Some records have no quarter sections and/or some of the polygons could not be subdivided, so the
+centroid of the section was used for those water well records. These are the least accurate coordinates and in a regular
+one-mile square section the x, y coordinates will generally be within a half-mile of the office located section, on
+irregular sections, the distance may be greater. The best location values are on the records with quarter-quarter-quarter
+sections and typically will be within 150 meters of the office located quarters.
+
+"A small number of the data points were checked for accuracy and methods used should keep the x, y coordinates within the
+proper section in most cases. However, due to the complexity and in cases redundancy in the public land survey system for
+Indiana some x, y pairs may not be located in the proper section or even the proper county. Other sources of error may be
+caused by misinterpretation of the driving directions or office locating.  Several areas have different survey systems than
+the Congressional TRS (Clark Military Grant, Military Donations, Meridian Road Lines, Indian Treaties etc.) and no attempt
+at this time was made to provide centroids for these areas.
+
+"Located records were primarily field located based on the location identified on the USGS 1:24,000 7.5 minute series topo
+map by the field locator. In some cases the structure or subdivsion may not be on the map and location is based on topography.
+So some error may be inherent in the field locations and points placed on the map ( a single point on a map may be 100 feet
+across). The scale is based USGS 1:24,000 7.5 minute series topographic maps. However, in most cases locations of mislocated
+wells can have large errors, with the reported locations having no meaning."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Vertical accuracy was not a factor in the digital production of the data set. No quantitative
+tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources, Division of Water</origin>
+            <pubdate>20160616</pubdate>
+            <title>WATERWELLS_DNR_WATER_IN_160616.SHP well locations from IDNR water-well-log database</title>
+            <edition>2</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1959</begdate>
+              <enddate>20160616</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IDNR Water well database</srccitea>
+        <srccontr>Well locations from IDNR water-well-log database</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Polygon shapefiles representing divisions in the Indiana PLSS were processed to remove non-alphanumeric
+characters from fields in the attribute tables describing the PLSS subsection location of the water well
+log (quarter-, quarter-quarter-, or quarter-quarter-quarter-section).
+</procdesc>
+        <srcused>poly_q.shp, poly_qq.shp, poly_qqq.shp</srcused>
+        <procdate>20080804</procdate>
+        <srcprod>poly_q.shp, poly_qq.shp, poly_qqq.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1356</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Polygon shapefiles representing divisions in the Indiana PLSS were spatially joined to LANDSURVEY_COUNTY_POLY_IN.shp using a
+one-to-many relationship, so sections and subsections on county boundaries could be identified. A new field was added to poly_q.shp, poly_qq.shp,
+poly_qqq.shp, and Landsurvey_Sections_Poly_IN.shp called "CONCAT," which concatenated the following fields of the attribute tables:
+TWP,TWPD,RNG,RNGD,PARCEL_ID,QTR,COUNTY. Each layer was then converted to points (polygon centroid locations). A check for duplicates in the CONCAT field
+was conducted to verify the uniqueness of this field for matching against the water well log database. Several errors were found in LANDSURVEY_COUNTY_POLY_IN.shp
+and were corrected before proceeding. Using the Calculate Geometry tool in ArcGIS, UTMX and UTMY values were calculated for each point in each section
+and subsection data layer.
+</procdesc>
+        <srcused>poly_q.shp, poly_qq.shp, poly_qqq.shp, Landsurvey_Sections_Poly_IN.shp, and LANDSURVEY_COUNTY_POLY_IN.shp</srcused>
+        <procdate>20080804</procdate>
+        <srcprod>q_county27_pts.shp, qq_county27_pts.shp, qqq_county27_pts.shp, sec_county27_pts.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1356</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The DNR.DBF table obtained from IDNR was imported into a Microsoft Access database called IDNR_waterwells.mdb for processing. A query
+was conducted to identify records with IDNR locations (UTM coordinates) and those without. A subset of the original fields were retained, including:
+REFNO, COMPDATE, OWNER, COUNTY, TWN, RNG, QUAR1, QUAR2, QUAR3, SEC, DEPTH, STATIC, PUMPRATE, BAILERRT, WELLUSE, UTMX, UTMY. DBF attribute tables of
+the section and subsection point files were imported to the Access database from the input shapefiles. A field called CONCAT was added to the unlocated
+well-log table to concatenate the fields: TWN, RNG, QUAR1, QUAR2, QUAR3, SEC, COUNTY. Relationships were defined in Access using the CONCAT field for
+the unlocated records and the section and subsection point locations. Queries were conducted for each subsection to assign UTM (NAD 27) coordinates to
+each unlocated well record based on the best available PLSS location. A field was added to each output query table called "LOC_SRC" and populated with
+the value "PLSS AND COUNTY MATCH" for each record matched with an estimated coordinate. A field was added to the query table for the located records
+called "LOC_SRC" and populated with the value "IDNR-WATER" to denote that the locations were sourced from IDNR.
+</procdesc>
+        <srcused>DNR.DBF, q_county27_pts.shp, qq_county27_pts.shp, qqq_county27_pts.shp, sec_county27_pts.shp</srcused>
+        <procdate>20080805</procdate>
+        <srcprod>IDNR_waterwells.mdb, LOCATED.DBF, UNLOC.DBF, qmatch.dbf,  qqmatch.dbf, qqqmatch.dbf, secmatch.dbf</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1356</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A table called ilith.dbf was imported into the Access database (IDNR_waterwells.mdb), and a query was performed to identify records
+in the original IDNR database with locations corrected during the compilation of the iLITH database. Eight hundred and eighty (880) UTM coordinates in
+the LOCATED table were replaced with iLITH locations and the LOC_SRC field for these records was populated with the value "ILITH." All water-well records
+with estimated coordinates were appended into a single table called "matched." This table was then appended to the LOCATED table to produce a single table
+with located and unlocated well records. In ArcGIS, the Add XY data utility was used to import the water-well locations (located and estimated). The data
+were exported to a shapefile with an assigned projection of UTM NAD27 Zone 16, which is the native projection of all the IDNR and original iLITH locations.
+The shapefile was then reprojected to UTM NAD83 Zone 16, and two new fields were added to the shapefile attribute table: UTMX83 and UTMY83. The Calculate
+Geometry utility was used to calculate the new UTMX and UTMY coordinates for the new UTM 1983 datum. The UTM NAD27 coordinate fields were deleted from
+the shapefile. The shapefile was clipped to the state boundary to retain only records contained within the boundary. The resulting shapefile was named
+Waterwells_IDNR_IN.shp
+</procdesc>
+        <srcused>IDNR_waterwells.mdb, qmatch.dbf, qqmatch.dbf, qqqmatch.dbf, secmatch.dbf, ilith.dbf</srcused>
+        <procdate>20080807</procdate>
+        <srcprod>matched.dbf, allpts27.shp, Waterwells_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1356</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday throught Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The attribute table for Waterwells_IDNR_IN.shp was modified to include an attribute called LOCATION to identify records with
+known versus estimated locations.
+</procdesc>
+        <srcused>Waterwells_IDNR_IN.dbf</srcused>
+        <procdate>20090623</procdate>
+        <srcprod>Waterwells_IDNR_IN.dbf</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Indiana University Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1356</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_100217.SHP"
+on April 21, 2010. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>WATERWELLS_DNR_WATER_IN_100217.SHP</srcused>
+        <procdate>20100421</procdate>
+        <srcprod>WATERWELLS_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_120312.SHP"
+on March 15, 2012. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>WATERWELLS_DNR_WATER_IN_120312.SHP</srcused>
+        <procdate>20120315</procdate>
+        <srcprod>WATERWELLS_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_130530.SHP"
+on July 23, 2013. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>WATERWELLS_DNR_WATER_IN_130530.SHP</srcused>
+        <procdate>20130723</procdate>
+        <srcprod>WATERWELLS_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from IDNR named "WATERWELLS_DNR_WATER_IN_160616.SHP"
+on June 16, 2016. IGS personnel then saved the file as "WATERWELLS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>WATERWELLS_DNR_WATER_IN_160616.SHP</srcused>
+        <procdate>20160616</procdate>
+        <srcprod>WATERWELLS_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software
+written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and
+corrected.
+</procdesc>
+        <procdate>20160707</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>407485</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WATERWELLS_IDNR_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>DBLREFNO</attrlabl>
+        <attrdef>Well Reference Number - A sequential unique identification number assigned to each water-well record, some numbers may missing</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>438415</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLAQUELV</attrlabl>
+        <attrdef>
+Aquifer Elevation in feet (mean sea level[ msl]), usually calculated by subtracting the bottom elevation of
+the lowest sand and gravel aquifer from the ground elevation (The value 0 or null likely represents no value in the field and values
+less than 350 or greater than 1257 are likely data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1165</rdommax>
+            <attrunit>feet (MSL)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLBAILERR</attrlabl>
+        <attrdef>
+Rate of water production, in gallons per minute, observed during a bailer test at the time of
+well installation (significance of negative values are not known, likely data-entry errors; values of 0 sometimes
+indicate dry holes and sometimes denote unreported values). Bailer tests are often conducted on wells with poor water
+production
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>8333</rdommax>
+            <attrunit>Gallons per minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLBEDROCK</attrlabl>
+        <attrdef>
+Depth to bedrock in feet ( The values 0 or null likely represents no value in the field and values
+less than 0 and greater than 500 are likely data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2100</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLPUMPRAT</attrlabl>
+        <attrdef>
+Rate of water production, in gallons per minute, observed during a pump test at the time of well
+installation (significance of negative values are not known, likely data-entry errors; values of 0 sometimes indicate
+dry holes and sometimes denote unreported values)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-513</rdommin>
+            <rdommax>9630</rdommax>
+            <attrunit>Gallons per minute</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLBEDRO_1</attrlabl>
+        <attrdef>
+Bedrock elevation in feet(msl), elevation from USGS topographic map, no attempt was made to
+update this field. Values of 0 or null likely represent no value in this field
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1121</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLSCREENL</attrlabl>
+        <attrdef>
+Screen Length (feet) in water well as reported by the driller (null or 0 values screen
+length was not reported or data-entry omissions, negative values are most likely data-entry errors and values
+greater than 50 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5</rdommin>
+            <rdommax>300000</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLSTATIC</attrlabl>
+        <attrdef>
+Static water level in well, in feet below ground surface (negative values denote water levels above
+ground surface under artesian pressure; 0 or null values represent sometime represent unreported statics or data-entry
+errors and typically values over 500 feet are considered data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-14</rdommin>
+            <rdommax>82946</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLDEPTH</attrlabl>
+        <attrdef>
+Well depth in feet (0 or null values represent unreported well depths; values below 10 feet and
+values over 500 feet are likely data-entry errors or oil and gas wells)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>8545</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STROWNER</attrlabl>
+        <attrdef>
+Name of Owner listed on water well record, provided by the driller or in some
+cases updated by the field locator
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STROWNERAD</attrlabl>
+        <attrdef>Owner address listed on water well record</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRRNG1</attrlabl>
+        <attrdef>Congressional Range, direction</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water (from the Public Land Survey System)</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRTWN1</attrlabl>
+        <attrdef>Congressional Township, direction</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water (from the Public Land Survey System)</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLSEC1</attrlabl>
+        <attrdef>Section number determined from USGS Topographic map</attrdef>
+        <attrdefs>
+Indiana Department of Natural Resources, Division of Water ( from the Public Land Survey
+System {Normal Range is 1 to 36, numbers above 36 may sometimes be assigned to INTRESERVENO [Irregular Survey Reserve Number]})
+</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>511</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLUTMY</attrlabl>
+        <attrdef>Y UTM (north-south) in NAD 27, Zone 16</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>361125</rdommin>
+            <rdommax>462510</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLUTMX</attrlabl>
+        <attrdef>X UTM (east-west) in NAD 27, Zone 16</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>404775</rdommin>
+            <rdommax>691940</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTRESERVE</attrlabl>
+        <attrdef>Irregular Survey Reserve Number - Public Land Survey System (0 or null values represent no vales reported)</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0 (also Null)</rdommin>
+            <rdommax>511</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRRESERVE</attrlabl>
+        <attrdef>Irregular Survey Reserve Name - Public Land Survey System</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRCOUNTY</attrlabl>
+        <attrdef>County name, provided by driller</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRTOPO</attrlabl>
+        <attrdef>Name of the USGS Topographical Map where the well is determined to be located</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLBAILERD</attrlabl>
+        <attrdef>
+Drawdown in feet after bail test (null and 0 values most likely indicate no data,
+negative values are most likely data-entry errors and values greater than 300 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-40</rdommin>
+            <rdommax>1345</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLBAILERH</attrlabl>
+        <attrdef>
+Reported hours the well was bail tested (0, null and negative values are most likely
+data-entry errors and values greater than 250 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1200</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLCASINGD</attrlabl>
+        <attrdef>
+Diameter of casing (inches) in water well as reported by the driller (0, null and negative
+values are most likely data-entry errors and values greater than 500 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5</rdommin>
+            <rdommax>4163</rdommax>
+            <attrunit>inches</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLCASINGL</attrlabl>
+        <attrdef>
+Length of casing (feet) in water well as reported by the driller (0, null and negative values
+are most likely data-entry errors and values greater than 500 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1</rdommin>
+            <rdommax>5020</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRCASINGM</attrlabl>
+        <attrdef>Casing material</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLGROUTT</attrlabl>
+        <attrdef>
+Depth to bottom of grout, from the ground surface in feet (0, null and negative values
+are most likely data-entry errors or no data, and values greater than 500 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-30</rdommin>
+            <rdommax>4160</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRGROUTM</attrlabl>
+        <attrdef>Grout method</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLLINERDI</attrlabl>
+        <attrdef>
+Diameter of liner (inches) in water well as reported by the driller (zero or null
+values are most likely data-entry errors or no data, and values greater than 500 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>6363</rdommax>
+            <attrunit>inches</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLLINERTO</attrlabl>
+        <attrdef>
+Length of liner (feet) in water well as reported by the driller (zero or null values are most
+likely data-entry errors or no data, and values greater than 500 are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2705</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLPUMPSET</attrlabl>
+        <attrdef>
+Depth of pump setting (feet) in the water well as reported by the driller
+(zero or null values are most likely data-entry errors or no data, and values greater than 500
+are likely also data-entry errors
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>4545</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLPUMPDW</attrlabl>
+        <attrdef>
+Drawdown in feet after pump test (0, null and negative values are most likely
+data-entry errors or no data and values greater than 500 are likely also data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-102</rdommin>
+            <rdommax>112279</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLPUMPHOU</attrlabl>
+        <attrdef>
+Reported hours the well was pump tested (0, null and negative values are most
+likely data-entry errors or no data and values greater than 500 are likely also data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5</rdommin>
+            <rdommax>10000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLSCREEND</attrlabl>
+        <attrdef>
+Diameter (inches) of screen in water well as reported by the driller
+(0, null and negative values are most likely data-entry errors or no data and values greater
+than 500 may possibly be data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1</rdommin>
+            <rdommax>84210</rdommax>
+            <attrunit>inches</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DTMCOMPDAT</attrlabl>
+        <attrdef>
+Date water well was completed (Dates with 1/1/XXXX are likely no data
+or data-entry error and dates later than 10/24/2009 may possibly be data-entry errors)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBLGRNDELE</attrlabl>
+        <attrdef>
+Ground elevation from USGS topographic map in feet (msl),  no attempt
+was made to update this field. (Values of 0 or null may represent no value in this field
+or data-entry error)
+</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1242</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STRPUMPTYP</attrlabl>
+        <attrdef>Type of well pump</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STROWNERTX</attrlabl>
+        <attrdef>Telephone number for owner of well</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTMX_NAD83</attrlabl>
+        <attrdef>X UTM</attrdef>
+        <attrdefs>water well located database is in NAD 83, Zone 16</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>404774</rdommin>
+            <rdommax>691939</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTMY_NAD83</attrlabl>
+        <attrdef>Y UTM</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>4181785</rdommin>
+            <rdommax>4625318</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOC_TYPE</attrlabl>
+        <attrdef>LOC_TYPE is the general method for determining the UTM coordinates.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Actual Location</edomv>
+            <edomvd>
+This is based primarily on field location of the well and placing the
+location on a USGS Topographical map and getting the UTM's form the map, or GPS, also diller provided.
+</edomvd>
+            <edomvds>Indiana Department of Natural Resources, Division of Water</edomvds>
+          </edom>
+          <edom>
+            <edomv>Estimated Location/Geocoding addresses</edomv>
+            <edomvd>UTM's are based on the Street Address (for details see process steps)</edomvd>
+            <edomvds>Indiana Department of Natural Resources, Division of Water</edomvds>
+          </edom>
+          <edom>
+            <edomv>Estimated Location/TRS_quarter_sections_county</edomv>
+            <edomvd>
+UTM's are based on the Township, RAnge, Section and County as determined by
+office staff, based on the drillers driving directions, owners address, driller maps, etc. (for details see process steps)
+</edomvd>
+            <edomvds>Indiana Department of Natural Resources, Division of Water</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REPORT</attrlabl>
+        <attrdef>Web URL for the report on file for each water well record</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Water</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+The attribute data is also a subset of he main IDNR-Division of Water, water-well database.
+It contains only the attributes that would most likely be needed for various groundwater research or site selection for
+water wells. The complete database is available on at : http://www.in.gov/dnr/water/3595.htm. This site has the full set
+of attributed located/unlocated and access information.
+</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[PRIMARY DISTRIBUTOR] Indiana Department of Natural Resources/Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W Washington Street, Room 271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 232 4070</cntvoice>
+        <cntfax>317 233 4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>8 to 4:30</hours>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[SECONDARY DISTRIBUTOR] Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying, adaptation, distribution, public
+performance, or public display of this information without the express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT:
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be
+included: [WATERWELLS_IDNR_IN: Water-well Locations in Indiana (Indiana Department of Natural Resources, Point Shapefile), 20160616].
+
+WARRANTY:
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY:
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability
+to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20090624</metd>
+    <metrd>20160707</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

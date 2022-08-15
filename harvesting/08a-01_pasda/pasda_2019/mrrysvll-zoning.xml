@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata GROUP="'murrysville'">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Municipality of Murrysville Community Development Office</origin>
+        <pubdate>19990801</pubdate>
+        <title>Zoning Districts</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Murrysville, Pennsylvania</pubplace>
+          <publish>Municipality of Murrysville Community Development Office</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>present</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-79.73</westbc>
+        <eastbc>-79.57</eastbc>
+        <northbc>40.53</northbc>
+        <southbc>40.40</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Zoning</themekey>
+        <themekey>Cadastral</themekey>
+        <themekey>Planning Cadastre</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Municipality of Murrysville</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>
+For use at 1:24,000 or smaller scale.
+
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided "as is" and the User assumes the entire risk as to their quality and performance
+
+These data should not be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.
+
+The zoning data represented in this layer should not be used as the sole method of determining the zoning of any one parcel or parcels.
+</useconst>
+    <ptcontac>
+      <cntinfo GROUP="'murrysville'">
+        <cntorgp>
+          <cntorg>Municipality of Murrysville Community Development Office</cntorg>
+          <cntper>Chris Rearick</cntper>
+        </cntorgp>
+        <cntpos>Information Specialist/Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>4100 Sardis Rd.</address>
+          <city>Murrysville</city>
+          <state>PA</state>
+          <postal>15668</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>724-327-2100 ext. 124</cntvoice>
+        <cntfax>724-327-2881</cntfax>
+        <cntemail>murry@nb.net</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>mrrysvll-zoning</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes have been checked by visual comparison of source against the hard copy zoning map approved by Council as well as zoning changes since the publication of the hard copy zoning map.</attraccr>
+    </attracc>
+    <logic>Data set topology exists.  No duplicate features.  All polygons closed as verified from hard copy plots.</logic>
+    <complete>Complete for all areas in the bounding coordinates except the Borough of Export.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Visual verification against parcel layer and hard copy zoning map.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Municipality of Murrysville</origin>
+            <pubdate>1992</pubdate>
+            <title>Zoning Districts of the Municipality of Murrysville</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Murrysville, PA</pubplace>
+              <publish>Fahringer,McCarty, and Grey Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>199211</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Zoning District Map</srccitea>
+        <srccontr>Locations of zoning district boundaries as of 1992</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Municipality of Murrysville</origin>
+            <pubdate>1998</pubdate>
+            <title>Murrysville Parcel Coverage</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Murrysville, PA</pubplace>
+              <publish>Municipality of Murrysville</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>400</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>through the present</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Murrysville parcels</srccitea>
+        <srccontr>Updated zoning data by parcel</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Initially, parcels were unioned according to zoning.  The hardcopy Zoning District Map was used to digitize in boundaries that crossed parcel lines.  The resulting digital map of zoning districts was compared with the preceding sources and cases involving zoning changes since 1992, when the Zoning District Map was last published, were reviewed and edited.  Relevant changes were made to the parcel based zoning data.</procdesc>
+        <srcused>Zoning District Map, Murrysville parcels</srcused>
+        <procdate>200001</procdate>
+        <proccont>
+          <cntinfo GROUP="'murrysville'">
+            <cntorgp>
+              <cntorg>Municipality of Murrysville Community Development Office</cntorg>
+              <cntper>Chris Rearick</cntper>
+            </cntorgp>
+            <cntpos>Information Specialist/Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>4100 Sardis Rd.</address>
+              <city>Murrysville</city>
+              <state>PA</state>
+              <postal>15668</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>724-327-2100 ext. 124</cntvoice>
+            <cntfax>724-327-2881</cntfax>
+            <cntemail>murry@nb.net</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>9</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+The table zoning.dbf contains the following fields:
+Zoning          Zoning Distict
+MinSetFront     Minimum front yard setback
+MinSetSide      Minimum side yard setback
+MinSetRear      Minimum rear yard setback
+MinLotSize      Minimum lot size
+MinFrontage     Minimum lot frontage
+</eaover>
+      <eadetcit>Municipality of Murrysville</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo GROUP="'murrysville'">
+        <cntorgp>
+          <cntorg>Municipality of Murrysville Community Development Office</cntorg>
+          <cntper>Chris Rearick</cntper>
+        </cntorgp>
+        <cntpos>Information Specialist/Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>4100 Sardis Rd.</address>
+          <city>Murrysville</city>
+          <state>PA</state>
+          <postal>15668</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>724-327-2100 ext. 124</cntvoice>
+        <cntfax>724-327-2881</cntfax>
+        <cntemail>murry@nb.net</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder GROUP="'murrysville'">
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>3.x</formvern>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>PC</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+      <ordering>Contact the above person and address.</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20000128</metd>
+    <metrd>20000131</metrd>
+    <metfrd>20000731</metfrd>
+    <metc>
+      <cntinfo GROUP="'murrysville'">
+        <cntorgp>
+          <cntorg>Municipality of Murrysville Community Development Office</cntorg>
+          <cntper>Chris Rearick</cntper>
+        </cntorgp>
+        <cntpos>Information Specialist/Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>4100 Sardis Rd.</address>
+          <city>Murrysville</city>
+          <state>PA</state>
+          <postal>15668</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>724-327-2100 ext. 124</cntvoice>
+        <cntfax>724-327-2881</cntfax>
+        <cntemail>murry@nb.net</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10133300</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

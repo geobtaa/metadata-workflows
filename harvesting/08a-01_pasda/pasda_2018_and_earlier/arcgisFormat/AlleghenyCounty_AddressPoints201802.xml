@@ -1,0 +1,825 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</origin>
+        <pubdate>201802</pubdate>
+        <title>Allegheny County Address Points 201802</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>911 Address Verification Project</sername>
+        </serinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <ftname Sync="TRUE">Addr</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201802</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.359053</westbc>
+        <eastbc>
+-79.683539</eastbc>
+        <northbc>
+40.684323</northbc>
+        <southbc>
+40.186501</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">1244877.600080</leftbc>
+        <rightbc Sync="TRUE">1428432.700119</rightbc>
+        <bottombc Sync="TRUE">321410.400251</bottombc>
+        <topbc Sync="TRUE">498108.800107</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>ADDRESSPOINTS</themekey>
+        <themekey>Address Points</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Ave.</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(412) 350-4774</cntvoice>
+        <cntfax>(412) 350-4754</cntfax>
+        <cntemail>GIShelp@alleghenycounty.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>AlleghenyCounty_AddressPoints201802</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Modified by GDR for the Allegheny County CAD project, October 2008.
+Data was subject to visual check by County GIS Staff for attribute accuracy.</attraccr>
+    </attracc>
+    <logic>Modified by GDR for the Allegheny County CAD project, October 2008.</logic>
+    <complete>Modified by GDR for the Allegheny County CAD project, October 2008.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>\\Entfsh02\fsh02_dcs_user$\t094246\My Documents\Metadata\BEST\addresspointsInternal.xml</srcused>
+        <procdate>201802</procdate>
+        <proctime>12262400</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=sqlinst1; Service=sde:sqlserver:sqlinst1\sqlinst1; Database=ALCO_PUB; User=PUB_VIEWER; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">201802</procdate>
+        <proctime Sync="TRUE">11190500</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm Name="Addr">
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>474492</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="Addr">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">521332</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="Addr">
+      <enttyp>
+        <enttypl>AlleghenyCounty_AddressPoints201802</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">521140</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>ST_SUFFIX</attrlabl>
+        <attrdef>Street Suffix</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ADDR_NUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ADDR_NUM</attrlabl>
+        <attrdef>Physical address of building</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ZIP_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ZIP_CODE</attrlabl>
+        <attrdef>Zip Code</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ST_PREFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ST_PREFIX</attrlabl>
+        <attrdef>Street Prefix</attrdef>
+        <attalias Sync="TRUE">ST_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ST_NAME</attrlabl>
+        <attrdef>Street name</attrdef>
+        <attalias Sync="TRUE">ST_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MUNICIPALI</attrlabl>
+        <attalias Sync="TRUE">MUNICIPALI</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>ST_TYPE</attrlabl>
+        <attrdef>Street Type</attrdef>
+        <attalias Sync="TRUE">ST_SUFFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FULL_ADDRE</attrlabl>
+        <attalias Sync="TRUE">FULL_ADDRE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">128</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>13.908</transize>
+          <dssize Sync="TRUE">13.916</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>201802</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County</cntorg>
+        </cntorgp>
+        <cntpos>Outreach Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Ave.</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(412) 350-4774</cntvoice>
+        <cntfax>(412) 350-4754</cntfax>
+        <cntemail>GIShelp@alleghenycounty.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <SyncDate>2013</SyncDate>
+    <SyncTime>11451900</SyncTime>
+    <ModDate>201802</ModDate>
+    <ModTime>11550900</ModTime>
+    <CreaDate>201802</CreaDate>
+    <CreaTime>12221600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\AlleghenyCounty_AddressPoints201802" dest="\\ceifiler1.emswin.psu.edu\psieecifsvol1\temp\201802\AlleghenyCounty_AddressPoints201802" date="20180224" time="09444800" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISProfile>ISO19139</ArcGISProfile>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Allegheny County</rpOrgName>
+    <rpPosName>Outreach Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(412) 350-4774</voiceNum>
+        <faxNum>(412) 350-4754</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>621 County Office Building</delPoint>
+        <delPoint>542 Forbes Ave.</delPoint>
+        <city>Pittsburgh</city>
+        <adminArea>PA</adminArea>
+        <postCode>15219</postCode>
+        <country>US</country>
+        <eMailAdd>GIShelp@alleghenycounty.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20180201</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc />
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Allegheny County Address Points 201802</resTitle>
+      <date>
+        <pubDate>2017-11-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group; Modified by GDR for the Allegheny County CAD project, October 2008.</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+      <datasetSeries>
+        <seriesName>911 Address Verification Project</seriesName>
+      </datasetSeries>
+    </idCitation>
+    <idAbs>This dataset contains Address Points in Allegheny County. The Address Points were created by GDR for the Allegheny County CAD project, October 2008. Data is updated by County staff as changes and corrections are found, on a continuous basis. Updates are sent to PASDA monthly.</idAbs>
+    <idPurp>Data was developed as part of the effort to establish large scale base data to support a Geographic Information System in Allegheny County</idPurp>
+    <idStatus>
+      <ProgCd value="007" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems</rpOrgName>
+      <rpPosName>GIS Manager</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(412) 350-4774</voiceNum>
+          <faxNum>(412) 350-4754</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>621 County Office Building</delPoint>
+          <delPoint>542 Forbes Ave.</delPoint>
+          <city>Pittsburgh</city>
+          <adminArea>PA</adminArea>
+          <postCode>15219</postCode>
+          <country>US</country>
+          <eMailAdd>GIShelp@alleghenycounty.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="001" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>Address Points</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>ADDRESSPOINTS</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Address Points</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>ADDRESSPOINTS</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <envirDesc>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.359053</westBL>
+          <eastBL>-79.683539</eastBL>
+          <southBL>40.186501</southBL>
+          <northBL>40.684323</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-11-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Data users are welcome to e-mail corrections to this dataset.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Modified by GDR for the Allegheny County CAD project, October 2008. Data was subject to visual check by County GIS Staff for attribute accuracy.</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcCitatn>
+          <citRespParty>
+            <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+        <geoObjCnt>474492</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="868092a5da84894c841b59e5c5247afd" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+QWxsZWdoZW55IENvdW50eSBEaXZpc2lvbiBvZiBDb21wdXRlciBTZXJ2aWNlcyBHZW9ncmFwaGlj
+IEluZm9ybWF0aW9uIFN5c3RlbXMgR3JvdXA7IE1vZGlmaWVkIGJ5IEdEUiBmb3IgdGhlIEFsbGVn
+aGVueSBDb3VudHkgQ0FEIHByb2plY3QsIE9jdG9iZXIgMjAwOC48L29yaWdpbj4NCiAgICAgICAg
+PHB1YmRhdGU+MjAxNzExPC9wdWJkYXRlPg0KICAgICAgICA8dGl0bGU+QWxsZWdoZW55IENvdW50
+eSBBZGRyZXNzIFBvaW50cyAyMDE3MTE8L3RpdGxlPg0KICAgICAgICA8Z2VvZm9ybT52ZWN0b3Ig
+ZGlnaXRhbCBkYXRhPC9nZW9mb3JtPg0KICAgICAgICA8c2VyaW5mbz4NCiAgICAgICAgICA8c2Vy
+bmFtZT45MTEgQWRkcmVzcyBWZXJpZmljYXRpb24gUHJvamVjdDwvc2VybmFtZT4NCiAgICAgICAg
+PC9zZXJpbmZvPg0KICAgICAgICA8b25saW5rPmh0dHA6Ly93d3cucGFzZGEucHN1LmVkdTwvb25s
+aW5rPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4N
+CiAgICAgIDxhYnN0cmFjdD5UaGlzIGRhdGFzZXQgY29udGFpbnMgQWRkcmVzcyBQb2ludHMgaW4g
+QWxsZWdoZW55IENvdW50eS4gVGhlIEFkZHJlc3MgUG9pbnRzIHdlcmUgY3JlYXRlZCBieSBHRFIg
+Zm9yIHRoZSBBbGxlZ2hlbnkgQ291bnR5IENBRCBwcm9qZWN0LCBPY3RvYmVyIDIwMDguIERhdGEg
+aXMgdXBkYXRlZCBieSBDb3VudHkgc3RhZmYgYXMgY2hhbmdlcyBhbmQgY29ycmVjdGlvbnMgYXJl
+IGZvdW5kLCBvbiBhIGNvbnRpbnVvdXMgYmFzaXMuIFVwZGF0ZXMgYXJlIHNlbnQgdG8gUEFTREEg
+bW9udGhseS48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+RGF0YSB3YXMgZGV2ZWxvcGVkIGFz
+IHBhcnQgb2YgdGhlIGVmZm9ydCB0byBlc3RhYmxpc2ggbGFyZ2Ugc2NhbGUgYmFzZSBkYXRhIHRv
+IHN1cHBvcnQgYSBHZW9ncmFwaGljIEluZm9ybWF0aW9uIFN5c3RlbSBpbiBBbGxlZ2hlbnkgQ291
+bnR5PC9wdXJwb3NlPg0KICAgICAgPHN1cHBsaW5mPkRhdGEgdXNlcnMgYXJlIHdlbGNvbWUgdG8g
+ZS1tYWlsIGNvcnJlY3Rpb25zIHRvIHRoaXMgZGF0YXNldC48L3N1cHBsaW5mPg0KICAgIDwvZGVz
+Y3JpcHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0
+ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDE3MTE8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0
+ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgICA8Y3VycmVudD5wdWJsaWNhdGlvbiBkYXRlPC9j
+dXJyZW50Pg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5J
+biB3b3JrPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRhdGU+Q29udGludWFsbHk8L3VwZGF0ZT4NCiAg
+ICA8L3N0YXR1cz4NCiAgICA8c3Bkb20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0
+YmM+DQotODAuMzU5MDUzPC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+DQotNzkuNjgzNTM5PC9l
+YXN0YmM+DQogICAgICAgIDxub3J0aGJjPg0KNDAuNjg0MzIzPC9ub3J0aGJjPg0KICAgICAgICA8
+c291dGhiYz4NCjQwLjE4NjUwMTwvc291dGhiYz4NCiAgICAgIDwvYm91bmRpbmc+DQogICAgPC9z
+cGRvbT4NCiAgICA8a2V5d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0PklT
+TyAxOTExNSBUb3BpYyBDYXRlZ29yaWVzPC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+QURE
+UkVTU1BPSU5UUzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5BZGRyZXNzIFBvaW50czwv
+dGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5wbGFubmluZ0NhZGFzdHJlPC90aGVtZWtleT4N
+CiAgICAgIDwvdGhlbWU+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8dXNlY29uc3Q+QWxsIHBhcnRp
+ZXMgYWNrbm93bGVkZ2UgdGhhdCB0aGUgZGF0YSBpcyBmb3IgaW5mb3JtYXRpb25hbCBwdXJwb3Nl
+cyBvbmx5LiBUaGUgZXhpc3RpbmcgZGlnaXRhbCBkYXRhIGlzIHNoaXBwZWQgYXMgaXMgYW5kIHRo
+ZXJlIGlzIG5vIGd1YXJhbnRlZSBhcyB0byBpdHMgY29tcGxldGVuZXNzIG9yIGFjY3VyYWN5LiBB
+bGxlZ2hlbnkgQ291bnR5IERpdmlzaW9uIG9mIENvbXB1dGVyIFNlcnZpY2VzIEdlb2dyYXBoaWMg
+SW5mb3JtYXRpb24gU3lzdGVtcyBHcm91cCBpcyBub3QgcmVzcG9uc2libGUgZm9yIGFueSByZWxp
+YW5jZSB1cG9uIHNhaWQgZGF0YS48L3VzZWNvbnN0Pg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxj
+bnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPkFsbGVnaGVueSBD
+b3VudHkgRGl2aXNpb24gb2YgQ29tcHV0ZXIgU2VydmljZXMgR2VvZ3JhcGhpYyBJbmZvcm1hdGlv
+biBTeXN0ZW1zPC9jbnRvcmc+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBvcz5H
+SVMgTWFuYWdlcjwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5
+cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFk
+ZHJlc3M+NjIxIENvdW50eSBPZmZpY2UgQnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAgICAgPGFk
+ZHJlc3M+NTQyIEZvcmJlcyBBdmUuPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlBpdHRzYnVy
+Z2g8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFs
+PjE1MjE5PC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VW5pdGVkIFN0YXRlczwvY291bnRy
+eT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+KDQxMikgMzUwLTQ3NzQ8
+L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4Pig0MTIpIDM1MC00NzU0PC9jbnRmYXg+DQogICAg
+ICAgIDxjbnRlbWFpbD5HSVNoZWxwQGFsbGVnaGVueWNvdW50eS51czwvY250ZW1haWw+DQogICAg
+ICA8L2NudGluZm8+DQogICAgPC9wdGNvbnRhYz4NCiAgICA8bmF0aXZlPk1pY3Jvc29mdCBXaW5k
+b3dzIFZpc3RhIFZlcnNpb24gNi4xIChCdWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sgMTsgRVNSSSBB
+cmNDYXRhbG9nIDkuMy4xLjQwMDA8L25hdGl2ZT4NCiAgPC9pZGluZm8+DQogIDxkYXRhcXVhbD4N
+CiAgICA8YXR0cmFjYz4NCiAgICAgIDxhdHRyYWNjcj5Nb2RpZmllZCBieSBHRFIgZm9yIHRoZSBB
+bGxlZ2hlbnkgQ291bnR5IENBRCBwcm9qZWN0LCBPY3RvYmVyIDIwMDguDQpEYXRhIHdhcyBzdWJq
+ZWN0IHRvIHZpc3VhbCBjaGVjayBieSBDb3VudHkgR0lTIFN0YWZmIGZvciBhdHRyaWJ1dGUgYWNj
+dXJhY3kuPC9hdHRyYWNjcj4NCiAgICA8L2F0dHJhY2M+DQogICAgPGxvZ2ljPk1vZGlmaWVkIGJ5
+IEdEUiBmb3IgdGhlIEFsbGVnaGVueSBDb3VudHkgQ0FEIHByb2plY3QsIE9jdG9iZXIgMjAwOC48
+L2xvZ2ljPg0KICAgIDxjb21wbGV0ZT5Nb2RpZmllZCBieSBHRFIgZm9yIHRoZSBBbGxlZ2hlbnkg
+Q291bnR5IENBRCBwcm9qZWN0LCBPY3RvYmVyIDIwMDguPC9jb21wbGV0ZT4NCiAgICA8bGluZWFn
+ZT4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWlu
+Zm8+DQogICAgICAgICAgICA8b3JpZ2luPkFsbGVnaGVueSBDb3VudHkgRGl2aXNpb24gb2YgQ29t
+cHV0ZXIgU2VydmljZXMgR2VvZ3JhcGhpYyBJbmZvcm1hdGlvbiBTeXN0ZW1zIEdyb3VwPC9vcmln
+aW4+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgPC9z
+cmNpbmZvPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+TWV0YWRhdGEgaW1w
+b3J0ZWQuPC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+XFxFbnRmc2gwMlxmc2gwMl9kY3Nf
+dXNlciRcdDA5NDI0NlxNeSBEb2N1bWVudHNcTWV0YWRhdGFcQkVTVFxhZGRyZXNzcG9pbnRzSW50
+ZXJuYWwueG1sPC9zcmN1c2VkPg0KICAgICAgICA8cHJvY2RhdGU+MjAxNzExPC9wcm9jZGF0ZT4N
+CiAgICAgICAgPHByb2N0aW1lPjEyMjYyNDAwPC9wcm9jdGltZT4NCiAgICAgIDwvcHJvY3N0ZXA+
+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFxdWFsPg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVj
+dD5Qb2ludDwvZGlyZWN0Pg0KICAgIDxwdHZjdGluZj4NCiAgICAgIDxzZHRzdGVybSBOYW1lPSJB
+ZGRyIj4NCiAgICAgICAgPHNkdHN0eXBlPkVudGl0eSBwb2ludDwvc2R0c3R5cGU+DQogICAgICAg
+IDxwdHZjdGNudD40NzQ0OTI8L3B0dmN0Y250Pg0KICAgICAgPC9zZHRzdGVybT4NCiAgICA8L3B0
+dmN0aW5mPg0KICA8L3NwZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAg
+PHBsYW5hcj4NCiAgICAgICAgPHBsYW5jaT4NCiAgICAgICAgICA8cGxhbmNlPmNvb3JkaW5hdGUg
+cGFpcjwvcGxhbmNlPg0KICAgICAgICAgIDxjb29yZHJlcD4NCiAgICAgICAgICAgIDxhYnNyZXM+
+MC4wMDAwMDA8L2Fic3Jlcz4NCiAgICAgICAgICAgIDxvcmRyZXM+MC4wMDAwMDA8L29yZHJlcz4N
+CiAgICAgICAgICA8L2Nvb3JkcmVwPg0KICAgICAgICAgIDxwbGFuZHU+c3VydmV5IGZlZXQ8L3Bs
+YW5kdT4NCiAgICAgICAgPC9wbGFuY2k+DQogICAgICA8L3BsYW5hcj4NCiAgICAgIDxnZW9kZXRp
+Yz4NCiAgICAgICAgPGhvcml6ZG4+Tm9ydGggQW1lcmljYW4gRGF0dW0gb2YgMTk4MzwvaG9yaXpk
+bj4NCiAgICAgICAgPGVsbGlwcz5HZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+
+DQogICAgICAgIDxzZW1pYXhpcz42Mzc4MTM3LjAwMDAwMDwvc2VtaWF4aXM+DQogICAgICAgIDxk
+ZW5mbGF0PjI5OC4yNTcyMjI8L2RlbmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9y
+aXpzeXM+DQogICAgPHZlcnRkZWY+DQogICAgICA8YWx0c3lzPg0KICAgICAgICA8YWx0cmVzPjEu
+MDAwMDAwPC9hbHRyZXM+DQogICAgICAgIDxhbHRlbmM+RXhwbGljaXQgZWxldmF0aW9uIGNvb3Jk
+aW5hdGUgaW5jbHVkZWQgd2l0aCBob3Jpem9udGFsIGNvb3JkaW5hdGVzPC9hbHRlbmM+DQogICAg
+ICA8L2FsdHN5cz4NCiAgICA8L3ZlcnRkZWY+DQogIDwvc3ByZWY+DQogIDxlYWluZm8+DQogICAg
+PGRldGFpbGVkIE5hbWU9IkFkZHIiPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+
+QWxsZWdoZW55Q291bnR5X0FkZHJlc3NQb2ludHMyMDE3MTE8L2VudHR5cGw+DQogICAgICAgIDxl
+bnR0eXB0IFN5bmM9IlRSVUUiPkZlYXR1cmUgQ2xhc3M8L2VudHR5cHQ+DQogICAgICAgIDxlbnR0
+eXBjIFN5bmM9IlRSVUUiPjUyMTE0MDwvZW50dHlwYz4NCiAgICAgIDwvZW50dHlwPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TVF9TVUZGSVg8L2F0dHJsYWJsPg0KICAgICAgICA8
+YXR0cmRlZj5TdHJlZXQgU3VmZml4PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRl
+cyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+RklEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5j
+PSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+U0hBUEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5GZWF0dXJlIGdl
+b21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAg
+ICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+Q29vcmRpbmF0ZXMgZGVmaW5pbmcgdGhl
+IGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPkFERFJfTlVNPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4x
+MjwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4N
+CiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5PQkpFQ1RJRDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5PQkpFQ1RJRDwvYXR0YWxp
+YXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5OdW1iZXI8L2F0dHJ0eXBlPg0KICAg
+ICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTA8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5BRERSX05VTTwvYXR0cmxhYmw+DQogICAg
+ICAgIDxhdHRyZGVmPlBoeXNpY2FsIGFkZHJlc3Mgb2YgYnVpbGRpbmc8L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAg
+ICAgIDx1ZG9tPlNlcXVlbnRpYWwgdW5pcXVlIHdob2xlIG51bWJlcnMgdGhhdCBhcmUgYXV0b21h
+dGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8
+YXR0YWxpYXMgU3luYz0iVFJVRSI+WklQX0NPREU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5
+cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9
+IlRSVUUiPjEyPC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+WklQX0NPREU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5aaXAgQ29k
+ZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8
+YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVy
+cyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0
+cmRvbXY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQog
+ICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8
+YXR0d2lkdGggU3luYz0iVFJVRSI+MTA8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRl
+cyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U1RfUFJFRklYPC9hdHRhbGlhcz4NCiAgICAgICAg
+PGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUi
+PjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNUX1BSRUZJ
+WDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlN0cmVldCBQcmVmaXg8L2F0dHJkZWY+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TVF9OQU1FPC9hdHRhbGlhcz4NCiAgICAgICAg
+PGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+U1RfTkFNRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlN0
+cmVldCBuYW1lPC9hdHRyZGVmPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U1RfVFlQ
+RTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NTA8L2F0dHdpZHRoPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5NVU5J
+Q0lQQUxJPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk1VTklDSVBB
+TEk8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjUwPC9hdHR3aWR0aD4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U1RfVFlQRTwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRyZGVmPlN0cmVldCBUeXBlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+U1RfU1VGRklYPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBl
+IFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJU
+UlVFIj44PC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmwgU3luYz0iVFJVRSI+RlVMTF9BRERSRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRh
+bGlhcyBTeW5jPSJUUlVFIj5GVUxMX0FERFJFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBl
+IFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJU
+UlVFIj4xMjg8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgIDwvZGV0YWlsZWQ+DQogIDwv
+ZWFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPHN0ZG9yZGVyPg0KICAgICAgPGRpZ2Zvcm0+DQog
+ICAgICAgIDxkaWd0aW5mbz4NCiAgICAgICAgICA8dHJhbnNpemU+MTMuOTA4PC90cmFuc2l6ZT4N
+CiAgICAgICAgPC9kaWd0aW5mbz4NCiAgICAgIDwvZGlnZm9ybT4NCiAgICA8L3N0ZG9yZGVyPg0K
+ICAgIDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAgICAg
+ICAgIDxjbnRvcmc+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3MgKFBBU0RBKTwvY250
+b3JnPg0KICAgICAgICA8L2NudHBlcnA+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxh
+ZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAg
+ICA8YWRkcmVzcz4xMTUgTGFuZCBhbmQgV2F0ZXIgYnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAg
+ICAgPGNpdHk+VW5pdmVyc2l0eSBQYXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5uc3ls
+dmFuaWE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTY4MDI8L3Bvc3RhbD4NCiAgICAgICAg
+ICA8Y291bnRyeT5Vbml0ZWQgU3RhdGVzPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQog
+ICAgICAgIDxjbnR2b2ljZT4oODE0KSA4NjUgLSA4NzkyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNu
+dGVtYWlsPnBhc2RhQHBzdS5lZHU8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwv
+ZGlzdHJpYj4NCiAgICA8ZGlzdGxpYWI+ICAgIFRoZSBVU0VSIHNoYWxsIGluZGVtbmlmeSwgc2F2
+ZSBoYXJtbGVzcywgYW5kLCBpZiByZXF1ZXN0ZWQsIGRlZmVuZCB0aG9zZSBwYXJ0aWVzIGludm9s
+dmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gb2YgdGhpcyBkYXRhLCB0
+aGVpciBvZmZpY2VycywgYWdlbnRzLCBhbmQgZW1wbG95ZWVzIGZyb20gYW5kIGFnYWluc3QgYW55
+IHN1aXRzLCBjbGFpbXMsIG9yIGFjdGlvbnMgZm9yIGluanVyeSwgZGVhdGgsIG9yIHByb3BlcnR5
+IGRhbWFnZSBhcmlzaW5nIG91dCBvZiB0aGUgdXNlIG9mIG9yIGFueSBkZWZlY3QgaW4gdGhlIEZJ
+TEVTIG9yIGFueSBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbi4gVGhvc2UgcGFydGllcyBpbnZv
+bHZlZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIGV4Y2x1ZGVkIGFueSBh
+bmQgYWxsIGltcGxpZWQgd2FycmFudGllcywgaW5jbHVkaW5nIHdhcnJhbnRpZXMgb3IgbWVyY2hh
+bnRhYmlsaXR5IGFuZCBmaXRuZXNzIGZvciBhIHBhcnRpY3VsYXIgcHVycG9zZSBhbmQgbWFrZXMg
+bm8gd2FycmFudHkgb3IgcmVwcmVzZW50YXRpb24sIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQs
+IHdpdGggcmVzcGVjdCB0byB0aGUgRklMRVMgb3IgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24s
+IGluY2x1ZGluZyBpdHMgcXVhbGl0eSwgcGVyZm9ybWFuY2UsIG1lcmNoYW50YWJpbGl0eSwgb3Ig
+Zml0bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UuIFRoZSBGSUxFUyBhbmQgZG9jdW1lbnRh
+dGlvbiBhcmUgcHJvdmlkZWQgImFzIGlzIiBhbmQgdGhlIFVTRVIgYXNzdW1lcyB0aGUgZW50aXJl
+IHJpc2sgYXMgdG8gaXRzIHF1YWxpdHkgYW5kIHBlcmZvcm1hbmNlLiBUaG9zZSBwYXJ0aWVzIGlu
+dm9sdmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gb2YgdGhpcyBkYXRh
+IHdpbGwgbm90IGJlIGxpYWJsZSBmb3IgYW55IGRpcmVjdCwgaW5kaXJlY3QsIHNwZWNpYWwsIGlu
+Y2lkZW50YWwsIG9yIGNvbnNlcXVlbnRpYWwgZGFtYWdlcyBhcmlzaW5nIG91dCBvZiB0aGUgdXNl
+IG9yIGluYWJpbGl0eSB0byB1c2UgdGhlIEZJTEVTIG9yIGFueSBhY2NvbXBhbnlpbmcgZG9jdW1l
+bnRhdGlvbi48L2Rpc3RsaWFiPg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+DQogICAgPG1l
+dGQ+MjAxNzExPC9tZXRkPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxj
+bnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+QWxsZWdoZW55IENvdW50eTwvY250b3JnPg0KICAg
+ICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+T3V0cmVhY2ggU3BlY2lhbGlzdDwvY250
+cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQg
+cGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NjIxIENvdW50
+eSBPZmZpY2UgQnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+NTQyIEZvcmJl
+cyBBdmUuPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlBpdHRzYnVyZ2g8L2NpdHk+DQogICAg
+ICAgICAgPHN0YXRlPlBBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE1MjE5PC9wb3N0YWw+
+DQogICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQog
+ICAgICAgIDxjbnR2b2ljZT4oNDEyKSAzNTAtNDc3NDwvY250dm9pY2U+DQogICAgICAgIDxjbnRm
+YXg+KDQxMikgMzUwLTQ3NTQ8L2NudGZheD4NCiAgICAgICAgPGNudGVtYWlsPkdJU2hlbHBAYWxs
+ZWdoZW55Y291bnR5LnVzPC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+
+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkcyBmb3IgRGlnaXRhbCBHZW9zcGF0
+aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9t
+ZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgICA8bWV0ZXh0bnM+DQog
+ICAgICA8b25saW5rPmh0dHA6Ly93d3cuZXNyaS5jb20vbWV0YWRhdGEvZXNyaXByb2Y4MC5odG1s
+PC9vbmxpbms+DQogICAgICA8bWV0cHJvZj5FU1JJIE1ldGFkYXRhIFByb2ZpbGU8L21ldHByb2Y+
+DQogICAgPC9tZXRleHRucz4NCiAgPC9tZXRhaW5mbz4NCiAgPGRhdGFJZEluZm8+DQogICAgPGlk
+Q2l0YXRpb24+DQogICAgICA8cmVzVGl0bGUgU3luYz0iRkFMU0UiPkFsbGVnaGVueUNvdW50eV9B
+ZGRyZXNzUG9pbnRzMjAxNzExPC9yZXNUaXRsZT4NCiAgICA8L2lkQ2l0YXRpb24+DQogICAgPGlk
+UHVycD5EYXRhIHdhcyBkZXZlbG9wZWQgYXMgcGFydCBvZiB0aGUgZWZmb3J0IHRvIGVzdGFibGlz
+aCBsYXJnZSBzY2FsZSBiYXNlIGRhdGEgdG8gc3VwcG9ydCBhIEdlb2dyYXBoaWMgSW5mb3JtYXRp
+b24gU3lzdGVtIGluIEFsbGVnaGVueSBDb3VudHk8L2lkUHVycD4NCiAgICA8aWRBYnM+Jmx0O0RJ
+ViBTVFlMRT0idGV4dC1hbGlnbjpMZWZ0OyImZ3Q7Jmx0O0RJViZndDsmbHQ7UCZndDsmbHQ7U1BB
+TiZndDtUaGlzIGRhdGFzZXQgY29udGFpbnMgQWRkcmVzcyBQb2ludHMgaW4gQWxsZWdoZW55IENv
+dW50eS4gVGhlIEFkZHJlc3MgUG9pbnRzIHdlcmUgY3JlYXRlZCBieSBHRFIgZm9yIHRoZSBBbGxl
+Z2hlbnkgQ291bnR5IENBRCBwcm9qZWN0LCBPY3RvYmVyIDIwMDguIERhdGEgaXMgdXBkYXRlZCBi
+eSBDb3VudHkgc3RhZmYgYXMgY2hhbmdlcyBhbmQgY29ycmVjdGlvbnMgYXJlIGZvdW5kLCBvbiBh
+IGNvbnRpbnVvdXMgYmFzaXMuIFVwZGF0ZXMgYXJlIHNlbnQgdG8gUEFTREEgbW9udGhseS4mbHQ7
+L1NQQU4mZ3Q7Jmx0Oy9QJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OzwvaWRBYnM+DQogICAg
+PHNlYXJjaEtleXM+DQogICAgICA8a2V5d29yZD5BRERSRVNTUE9JTlRTPC9rZXl3b3JkPg0KICAg
+ICAgPGtleXdvcmQ+QWRkcmVzcyBQb2ludHM8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5wbGFu
+bmluZ0NhZGFzdHJlPC9rZXl3b3JkPg0KICAgIDwvc2VhcmNoS2V5cz4NCiAgICA8cmVzQ29uc3Q+
+DQogICAgICA8Q29uc3RzPg0KICAgICAgICA8dXNlTGltaXQ+Jmx0O0RJViBTVFlMRT0idGV4dC1h
+bGlnbjpMZWZ0OyImZ3Q7Jmx0O0RJViZndDsmbHQ7UCZndDsmbHQ7U1BBTiZndDtBbGwgcGFydGll
+cyBhY2tub3dsZWRnZSB0aGF0IHRoZSBkYXRhIGlzIGZvciBpbmZvcm1hdGlvbmFsIHB1cnBvc2Vz
+IG9ubHkuIFRoZSBleGlzdGluZyBkaWdpdGFsIGRhdGEgaXMgc2hpcHBlZCBhcyBpcyBhbmQgdGhl
+cmUgaXMgbm8gZ3VhcmFudGVlIGFzIHRvIGl0cyBjb21wbGV0ZW5lc3Mgb3IgYWNjdXJhY3kuIEFs
+bGVnaGVueSBDb3VudHkgRGl2aXNpb24gb2YgQ29tcHV0ZXIgU2VydmljZXMgR2VvZ3JhcGhpYyBJ
+bmZvcm1hdGlvbiBTeXN0ZW1zIEdyb3VwIGlzIG5vdCByZXNwb25zaWJsZSBmb3IgYW55IHJlbGlh
+bmNlIHVwb24gc2FpZCBkYXRhLiZsdDsvU1BBTiZndDsmbHQ7L1AmZ3Q7Jmx0Oy9ESVYmZ3Q7Jmx0
+Oy9ESVYmZ3Q7PC91c2VMaW1pdD4NCiAgICAgIDwvQ29uc3RzPg0KICAgIDwvcmVzQ29uc3Q+DQog
+IDwvZGF0YUlkSW5mbz4NCiAgPEVzcmk+DQogICAgPFN5bmNEYXRlPjIwMTM8L1N5bmNEYXRlPg0K
+ICAgIDxTeW5jVGltZT4xMTQ1MTkwMDwvU3luY1RpbWU+DQogICAgPE1vZERhdGU+MjAxNzExPC9N
+b2REYXRlPg0KICAgIDxNb2RUaW1lPjExNTUwOTAwPC9Nb2RUaW1lPg0KICAgIDxDcmVhRGF0ZT4y
+MDE3MTE8L0NyZWFEYXRlPg0KICAgIDxDcmVhVGltZT4xMjIyMTYwMDwvQ3JlYVRpbWU+DQogICAg
+PFN5bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4NCiAgICA8QXJjR0lTc3R5bGU+RkdEQyBDU0RHTSBN
+ZXRhZGF0YTwvQXJjR0lTc3R5bGU+DQogICAgPERhdGFQcm9wZXJ0aWVzPg0KICAgICAgPGNvcHlI
+aXN0b3J5Pg0KICAgICAgICA8Y29weSBzb3VyY2U9IlxcY2VpZmlsZXIxLmVtc3dpbi5wc3UuZWR1
+XHBzaWVlY2lmc3ZvbDFcdGVtcFxBbGxlZ2hlbnlDb3VudHlfQWRkcmVzc1BvaW50czIwMTcxMSIg
+ZGVzdD0iXFxjZWlmaWxlcjEuZW1zd2luLnBzdS5lZHVccHNpZWVjaWZzdm9sMVx0ZW1wXDIwMTcx
+MVxBbGxlZ2hlbnlDb3VudHlfQWRkcmVzc1BvaW50czIwMTcxMSIgZGF0ZT0iMjAxNzExMjQiIHRp
+bWU9IjA5NDQ0ODAwIiAvPg0KICAgICAgPC9jb3B5SGlzdG9yeT4NCiAgICA8L0RhdGFQcm9wZXJ0
+aWVzPg0KICAgIDxBcmNHSVNQcm9maWxlPklTTzE5MTM5PC9BcmNHSVNQcm9maWxlPg0KICA8L0Vz
+cmk+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

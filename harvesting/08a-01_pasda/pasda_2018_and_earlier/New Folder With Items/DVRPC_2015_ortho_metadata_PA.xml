@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE metadata SYSTEM "csdgm2.dtd"-->
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>Unknown</pubdate>
+        <title>USGS High Resolution Orthoimages for DVRPC-PA</title>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20150402</begdate>
+          <enddate>20150418</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.1631804034882</westbc>
+        <eastbc>-74.7117238791928</eastbc>
+        <northbc>40.6205637716043</northbc>
+        <southbc>39.7148350428119</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>12 inch orthoimage</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>image map</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>PA</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Berks County</placekey>
+        <placekey>Chester County</placekey>
+        <placekey>Mid Atlantic</placekey>
+        <placekey>East Coast</placekey>
+        <placekey>US</placekey>
+        <placekey>PA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+    	None.   However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of its limitations.
+Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.
+    </useconst>
+    <datacred>Quantum Spatial, Inc.</datacred>
+    <native>
+    	Windows 7 OS; Microsoft Office products (Word, Excel, Internet Explorer, and Access);  MicroStation version 8;  Intergraph suite of products;  Esri ArcGIS 10;  UltraEdit;  Global Mapper;  GeoExpress 9
+    </native>
+    <descript>
+      <abstract>DVRPC_2015_ortho_metadata_PA</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+      	Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.
+      </attraccr>
+    </attracc>
+    <logic>
+    	All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.  Seamline mismatches are corrected unless the overall displacement is less than one pixel.
+    </logic>
+    <complete>
+    	Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free. Photography was flown during leaf-off in deciduous vegetation regions.
+    </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+  				Please see the Accuracy Analyst report for a detailed report showing the 57 control points measured to produce the NSSDA value of 0.737 meters.
+  			</horizpar>
+        <qhorizpa>
+          <horizpav>0.737</horizpav>
+          <horizpae>95% NSSDA confidence interval, meters</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>There is no vertical component for orthophotos.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>2015</pubdate>
+            <title>GPS Photo Control Survey</title>
+            <geoform>Model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2015</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONTROL</srccitea>
+        <srccontr>
+				Quantum Spatial performed a geodetic control survey in support of a digital orthophoto production project. The survey was done using the Global Positioning System (GPS). A combination of 68 quality assurance control points that were incorporated in the quality assurance testing of the aerotriangulation. Photo control points have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment.  All horizontal and vertical control was prepared under the supervision of a Professional Land Surveyor licensed in the States of New Jersey and Pennsylvania.
+			</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial, Inc.</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Georeferenced Single Frames</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>external hard drive</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20150402</begdate>
+              <enddate>20150418</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PHOTO</srccitea>
+        <srccontr>
+				Aerial imagery was acquired using Microsoft UltraCam Falcon and Eagle large format cameras with a flight design that included a total of 388 exposures in 15 flight lines. Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph. Aerial imagery was exposed at an altitude of 16,480' above mean terrain.
+			</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Aerotriangulation</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20150402</begdate>
+              <enddate>20150418</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>AT</srccitea>
+        <srccontr>
+				Softcopy aerotriangulation was performed utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image of the project. Smartbase was used.  Mean differential baseline lengths are as follows:
+				
+				For April 2, 2015 (UltraCam Falcon SN: 50811038) the mean baseline length was 55.285 kilometers.
+				For April 2, 2015 (UltraCam Eagle SN: 40312131) the mean baseline length was 53.38 kilometers.
+				For April 18, 2015 (UltraCam Falcon SN: 50811038) the mean baseline length was 41.045 kilometers.
+			</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Public Domain Elevation Surfaces</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>DEM/DTM</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2002</begdate>
+              <enddate>2009</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>A compilation of topographic land form elevation datasets developed through photogrammetric data capture and/or LiDAR provided from various sources for use in developing digital ortho imagery. Although the pilot was processed with DEMs, the final project will use higher quality surfaces.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+				Imagery Acquisition:
+				Digital aerial imagery was obtained using a large format Microsoft UltraCam Falcon and Eagle equipped with Airborne GPS/IMU covering the entire State of New Jersey.  A total of 15 flight lines with 388 frames were collected in the spring of 2015 in multi-spectral (RGB and NIR) 16 bits format.  The imagery was acquired at an altitude above mean terrain of 16,480' to yield a raw pixel resolution of 0.96' suitable for photogrammetric mapping and orthophoto production.  The imagery was collected during leaf off conditions in the spring of 2015 under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, flooding, and excessive soil moisture. The imagery is also mostly free from foliage, but leaves were beginning to come out towards the end of acquisition in May.  In order to minimize shadow conditions, imagery was obtained during the period of the day when the sun angle was greater than 35 degrees.  The imagery consisted of blue, green, red and near infrared bands.  Imagery for the photogrammetric mapping and digital orthophotos was captured according to the USGS Contract No. G10PC00026; USGS Task Order: G15PD00279; Requisition Reference Number: 0040202231 regarding, snow, haze and cloud cover, and modified as appropriate to accommodate the requirements specific to UltraCam technologies and as specified in this scope of work.
+			</procdesc>
+        <srcused>RAWs</srcused>
+        <procdate>2015</procdate>
+        <srcprod>Georefs</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+				Control / QC Checkpoint Creation:
+				A total of 68 ground based photo control points were established throughout the project area using a combination of conventional and GPS survey methods in order to support softcopy aerotriangulation and photogrammetric mapping meeting the accuracies specified in this Scope of Work.  This control supplemented the exposure station control obtained from the onboard Airborne Global Positioning System (ABGPS) and Inertial Measurement Unit (IMU). Photo control points established for this project have a combined local and network accuracy at 95% confidence of less than or equal to five (5) centimeters horizontally and vertically as determined by the residuals of the network adjustment. Ground control collection followed requirements set forth in USGS Contract No. G10PC00026; USGS Task Order: G15PD00279; Requisition Reference Number: 0040202231, and were modified as appropriate to accommodate the specifications related to ABGPS collection specific to these end photogrammetric mapping requirements. All horizontal and vertical control was prepared under the supervision of Professional Land Surveyors licensed in the states of New Jersey and Pennsylvania.
+			</procdesc>
+        <srcused>Geodetic control</srcused>
+        <procdate>2015</procdate>
+        <srcprod>Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+				Aerotriangulation Process:
+				Softcopy aerotriangulation was performed on 2 blocks of imagery. The airborne GPS/IMU data, GPS ground control, and image coordinate measurements were utilized to allow the direct computation of the exterior orientation parameters for each image frame to support the photogrammetric process and orthophoto production.  The adjusted Root Mean Square Error (RMSE) of all horizontal and vertical control points used for any single block adjustment was 1.0 foot or better.  At the same time, residuals on each refined image coordinate remain less than 10 microns and residuals on any horizontal or vertical control point did not exceed plus or minus 0.075 meters.  Within each block, the QA ground survey coordinates were within two times the RMSE (1 meter) of the corresponding AT derived coordinates.
+			</procdesc>
+        <srcused>ABGPS</srcused>
+        <srcused>Control</srcused>
+        <srcused>RAWs</srcused>
+        <procdate>2015</procdate>
+        <srcprod>AT</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+				Digital Terrain Model Creation:
+				This process involved the development of seamless topographic landform elevation dataset utilizing existing public domain elevation data sets to support the production of digital orthophotography that meet or exceed required orthophoto horizontal accuracy. Existing terrain surfaces utilized for this project included the maximum utilization of government supplied airborne topographic LiDAR bare earth data sets of various vintages, accuracies and post spacing as well as DEM data from the 2015 New Jersey Orthophoto Project as needed to complete a 2015 Statewide orthophoto DEM source. The topographic features included a grid of elevation points and may include break lines that define ridges, valleys, edge of water, transportation features and abrupt changes in elevation.  The final DTM is suitable for orthophoto production only (not suitable for contour generation).  The DTM is used to then generate a Triangulated Irregular Network (TIN) to support orthophoto production.
+			</procdesc>
+        <srcused>DTM</srcused>
+        <srcused>DEM</srcused>
+        <srcused>LiDAR</srcused>
+        <procdate>2015</procdate>
+        <srcprod>DTM/DEM</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+				Orthophotography Creation:
+				Utilizing all four bands [blue (B), green (G), red(R) and near infrared (IR)] digital orthorectification was performed using bilinear interpolation algorithms resulting in a spatial and radiometric transformation of the digital image from line/sample space into NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet. The interior and exterior orientation parameters from the aerotriangulation process were used to project each pixel into the ground coordinate system, while the ortho grade DEM/DTM was used to correct for relief displacement. Radiometric correction software and techniques were used to create orthophoto files that minimize the appearance of image seams and without loss of feature signature. Orthophotos are checked for geometric accuracy, image quality, and are tonally balanced to produce a uniform contrast and tone across the entire project. The individual overlapping orthophoto frames were mosaicked together.  The ortho photos meet a horizontal accuracy of 4 feet or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards.
+			</procdesc>
+        <srcused>Georefs</srcused>
+        <srcused>AT</srcused>
+        <srcused>Control</srcused>
+        <srcused>DTM/DEM</srcused>
+        <procdate>2015</procdate>
+        <srcprod>Orthos</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>pixel</rasttype>
+      <rowcount>8745</rowcount>
+      <colcount>5055</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1983</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <stdparll>40.96666666666667</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1</absres>
+            <ordres>1</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.2572221</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+      	Natural color orthoimagery is organized in three color bands or channels which represent the red, green, and blue (RGB) portions of the spectrum.  Each image pixel is assigned a triplet of numeric values, one for each color band.  Numeric values range from 0 to 255.
+      </eaover>
+      <eadetcit>U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20151228</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Customer Services</address>
+          <address>U.S. Geological Survey</address>
+          <address>EROS Data Center</address>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-800-252-4547</cntvoice>
+        <cnttdd>1-605-594-6933</cnttdd>
+        <cntfax>1-605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+        <cntinst>
+        	The above is the contact information for EROS Data Center in Sioux Falls, SD. This is the digital data storage and distribution center for the USGS. Metadata information can also be obtained through online services using The National Map Viewer, at http:/nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov.
+        </cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

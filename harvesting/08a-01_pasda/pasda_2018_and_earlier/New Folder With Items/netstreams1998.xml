@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Environmental Resources Research Institute</origin>
+        <pubdate>1998</pubdate>
+        <title>Networked streams of Pennsylvania</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, Pennsylvania</pubplace>
+          <publish>Pennsylvania Department of Environmental Protection</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1998</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.526526</westbc>
+        <eastbc>
+-74.690402</eastbc>
+        <northbc>
+42.267753</northbc>
+        <southbc>
+39.701383</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Originator asks to be credited in other derived products.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Barry M. Evans</cntper>
+          <cntorg>Environmental Resources Research Institute</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land  Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-863-0104</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>bme1@email.psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+    <descript>
+      <abstract>netstreams1998</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Conforms to National Mapping Program Geospatial Data Standards.  Attribute accuracy has been checked by visual comparison against source materials and peer review at ERRI.</attraccr>
+    </attracc>
+    <logic>Chain-node topology present. Verified visually.</logic>
+    <complete>Verified against source materials.  Entire stream network connected.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data compiled from sources conforming to National Map Accuracy Standards.  Checked visually against source materials.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Department of Transportation</origin>
+            <pubdate>1995</pubdate>
+            <title>Major rivers</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Transportation</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>cd-rom</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Telephone call to Dwight MacLean at PennDot, GIS Specialist, 717-787-6036</srccurr>
+        </srctime>
+        <srccitea>none</srccitea>
+        <srccontr>provided base data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>PennDOT coverage was brought into ARC/INFO and positions were corrected and stream networks were connected using a variety of authoritative hard copy maps and real-world observations.</procdesc>
+        <procdate>1997</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>Server=pasdaserve1.erri.psu.edu; Service=5151/tcp; Database=sde; User=sde; Version=SDE.DEFAULT</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\NetStreams1998.xml</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>124183</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.SDE.NetStreams</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREAMS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STREAMS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WRDS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHED_SUB2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHED_SUB3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAJORSHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ARCNUM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ONEWAY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRAHLER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SEGID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Coverage attribute tables contain the following for stream segments and nodes.
+NETSTREAMS.AAT:
+COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+    1  FNODE#                 4     5     B      -
+    5  TNODE#                 4     5     B      -
+    9  LPOLY#                 4     5     B      -
+   13  RPOLY#                 4     5     B      -
+   17  LENGTH                 8    18     F      5
+   25  NETSTREAMS#            4     5     B      -
+   29  NETSTREAMS-ID          4     5     B      -
+   33  WRDS#                  6     6     I      -
+   39  TYPE                   1     1     C      -
+NETSTREAMS.NAT:
+COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+    1  ARC#                   4     5     B      -
+    5  NETSTREAMS#            4     5     B      -
+    9  NETSTREAMS-ID          4     5     B      -</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+        <cntvoice>814-865-8792</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+          <filedec>zip</filedec>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20030218</metd>
+    <metrd>19980911</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water research building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10161200</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

@@ -1,0 +1,1467 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Fish and Boat Commission</origin>
+        <pubdate>201701</pubdate>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <title>PFBC Best Fishing Waters Streams</title>
+        <ftname Sync="TRUE">PFBC_GIS.DBO.fishing_hotspots</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201701</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.519250</westbc>
+        <eastbc Sync="TRUE">-74.953620</eastbc>
+        <northbc Sync="TRUE">42.254430</northbc>
+        <southbc Sync="TRUE">39.743440</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.519250</leftbc>
+        <rightbc Sync="TRUE">-74.953620</rightbc>
+        <bottombc Sync="TRUE">39.743440</bottombc>
+        <topbc Sync="TRUE">42.254430</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Fishing</themekey>
+        <themekey>Recreation</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state.  If modifications are made to the data set, users are obligated to describe the types of modifications they have made.  Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>PFBC GIS</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <cntemail>RA-GIS@pa.lcl</cntemail>
+        <hours>8:00-4:00</hours>
+        <cntorgp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+          <cntper>PFBC GIS</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">SDE Feature Class</natvform>
+    <descript>
+      <abstract>BestFishingWaters_Streams201701</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <srcused>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <proccont>
+          <cntinfo>
+            <cntpos>PFBC GIS</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>1601 Elmerton Ave</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17110-9299</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>P O Box 67000</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17106-7000</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>717-705-7909</cntvoice>
+            <cntfax>717-705-7901</cntfax>
+            <cntemail>RA-GIS@pa.lcl</cntemail>
+            <cntorgp>
+              <cntorg>PA Fish and Boat Commission</cntorg>
+              <cntper>PFBC GIS</cntper>
+            </cntorgp>
+          </cntinfo>
+        </proccont>
+        <procdesc>This layer was created by selecting the appropriate flowing waters and water bodies from existing PFBC GIS Layers, all of which were derived from the National Hydrography Dataset (NHD) layers.  Points were created by calculating the geographic centers of the water bodies and the mid-points of the flowing waters.</procdesc>
+        <procsv>ArcGIS 9.2</procsv>
+        <procdate>6/2007</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\Temp\Reg_HQ.xml</srcused>
+        <date Sync="TRUE">20070130</date>
+        <time Sync="TRUE">09333600</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">K:\Projects\General_GIS\metadata_template.xml</srcused>
+        <date Sync="TRUE">20070912</date>
+        <time Sync="TRUE">09473600</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <procdate Sync="TRUE">20081230</procdate>
+        <proctime Sync="TRUE">16485500</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE" />
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">328</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="Fishing_Hotspots201212">
+      <enttyp>
+        <enttypl>BestFishingWaters_Streams201701</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">328</enttypc>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>201701</metd>
+    <metfrd>As needed</metfrd>
+    <metc>
+      <cntinfo>
+        <cntpos>PFBC GIS</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <cntemail>RA-GIS@pa.lcl</cntemail>
+        <hours>8:00-4:00</hours>
+        <cntorgp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+          <cntper>PFBC GIS</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>20170121</CreaDate>
+    <CreaTime>10535400</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>20170121</ModDate>
+    <ModTime>10545400</ModTime>
+    <SyncDate>20130102</SyncDate>
+    <SyncTime>10520400</SyncTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20081230" Time="171452" Name="" export="">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams'</Process>
+        <Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120514" Time="143355" export="">DeleteRows "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots"</Process>
+        <Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120514" Time="143556" export="">DeleteRows "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots"</Process>
+        <Process Name="Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120514" Time="143812" export="">Append J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated;'Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated' "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots" NO_TEST "Name "Name" true true false 45 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Name,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,County,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,LargeMouth,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,SmallMouth,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,MusWallPik,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,StkTrout,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,WildTrout,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,PanFish,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,FamFishing,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Ice_Winter,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Child_Disa,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Link,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Link,-1,-1;Latitude "Latitude" true true false 8 Double 8 38 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Latitude,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 8 38 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Longitude,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Prim_Acc,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Prim_Acc,-1,-1;Description "Description" true true false 1073741822 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Description,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Description,-1,-1;GlobalID "GlobalID" false false true 38 GlobalID 0 0 ,First,#;Musky "Musky" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Musky,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Walleye,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Pike,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Ftr_Page,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page,-1,-1;Ftr_Page_Name "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Ftr_Page_Name,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Spec_Reg_1,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Reg_Link_1,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Spec_Reg_2,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_Updated,Reg_Link_2,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_2,-1,-1" #</Process>
+        <Process Name="Delete Rows" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120514" Time="145944" export="">DeleteRows "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots"</Process>
+        <Process Name="Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120514" Time="150456" export="">Append 'Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated' "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots" NO_TEST "Name "Name" true true false 45 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Link,-1,-1;Latitude "Latitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Prim_Acc,-1,-1;Description "Description" true true false 1073741822 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Description,-1,-1;GlobalID "GlobalID" false false true 38 GlobalID 0 0 ,First,#;Musky "Musky" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page,-1,-1;Ftr_Page_Name "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_2,-1,-1" #</Process>
+        <Process Name="Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120514" Time="160458" export="">Append J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02;'Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated' "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots" NO_TEST "Name "Name" true true false 45 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Name,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,County,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,LargeMouth,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,SmallMouth,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,MusWallPik,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,StkTrout,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,WildTrout,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,PanFish,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,FamFishing,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Ice_Winter,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Child_Disa,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Link,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Link,-1,-1;Latitude "Latitude" true true false 8 Double 8 38 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Latitude,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 8 38 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Longitude,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Prim_Acc,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Prim_Acc,-1,-1;Description "Description" true true false 1073741822 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Description,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Description,-1,-1;GlobalID "GlobalID" false false true 38 GlobalID 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,GlobalID,-1,-1;Musky "Musky" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Musky,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Walleye,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Pike,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Ftr_Page,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page,-1,-1;Ftr_Page_Name "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Ftr_Page_Name,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Spec_Reg_1,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Reg_Link_1,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Spec_Reg_2,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,J:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\WarmCoolHotSpotFisheries.mdb\Fishing_hotspots_originalFromDEV02,Reg_Link_2,-1,-1,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_2,-1,-1" #</Process>
+        <Process Name="Append" ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120514" Time="162218" export="">Append 'Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated' "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots" NO_TEST "Name "Name" true true false 45 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Link,-1,-1;Latitude "Latitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Prim_Acc,-1,-1;Description "Description" true true false 1073741822 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Description,-1,-1;GlobalID "GlobalID" false false true 38 GlobalID 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,GlobalID,-1,-1;Musky "Musky" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page,-1,-1;Ftr_Page_Name "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.Fishing_hotspots_Updated,Reg_Link_2,-1,-1" #</Process>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20121228" Time="093830" Name="" export="">FeatureClassToFeatureClass "Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots" A:\Projects\PASDA\PASDA_Fishing_Hotspots.mdb Fishing_Hotspots # "Name "Name" true true false 45 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Link,-1,-1;Latitude "Latitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 8 38 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Prim_Acc,-1,-1;Description "Description" true true false 1073741822 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Description,-1,-1;GlobalID "GlobalID" false false true 38 GlobalID 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,GlobalID,-1,-1;Musky "Musky" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Ftr_Page,-1,-1;Ftr_Page_Name "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,Database Connections\Fbhbgisdev02_Direct.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots,Reg_Link_2,-1,-1" #</Process>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20130102" Time="105146" Name="" export="">FeatureClassToFeatureClass D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots D:\DATA\PFBC Fishing_Hotspots.shp # "Name "Name" true true false 45 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Name,-1,-1;County "County" true true false 30 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,County,-1,-1;LargeMouth "LargeMouth" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,LargeMouth,-1,-1;SmallMouth "SmallMouth" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,SmallMouth,-1,-1;MusWallPik "MusWallPik" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,MusWallPik,-1,-1;StkTrout "StkTrout" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,StkTrout,-1,-1;WildTrout "WildTrout" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,WildTrout,-1,-1;PanFish "PanFish" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,PanFish,-1,-1;FamFishing "FamFishing" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,FamFishing,-1,-1;Ice_Winter "Ice_Winter" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Ice_Winter,-1,-1;Child_Disa "Child_Disa" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Child_Disa,-1,-1;Link "Link" true true false 150 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Link,-1,-1;Latitude "Latitude" true true false 8 Double 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Latitude,-1,-1;Longitude "Longitude" true true false 8 Double 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Longitude,-1,-1;Prim_Acc "Prim_Acc" true true false 100 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Prim_Acc,-1,-1;Musky "Musky" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Musky,-1,-1;Walleye "Walleye" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Walleye,-1,-1;Pike "Pike" true true false 5 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Pike,-1,-1;Ftr_Page "Ftr_Page" true true false 200 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Ftr_Page,-1,-1;Ftr_Page_N "Ftr_Page_Name" true true false 200 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Ftr_Page_Name,-1,-1;Spec_Reg_1 "Spec_Reg_1" true true false 100 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Spec_Reg_1,-1,-1;Reg_Link_1 "Reg_Link_1" true true false 100 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Reg_Link_1,-1,-1;Spec_Reg_2 "Spec_Reg_2" true true false 100 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Spec_Reg_2,-1,-1;Reg_Link_2 "Reg_Link_2" true true false 100 Text 0 0 ,First,#,D:\PASDA_Fishing_Hotspots.mdb\Fishing_Hotspots,Reg_Link_2,-1,-1" #</Process>
+      </lineage>
+      <itemProps>
+        <itemName Sync="TRUE">Fishing_Hotspots201212</itemName>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ULMUS\C$\DATA\BestFishingWaters_Lakes201701 (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemSize Sync="TRUE">0.009</itemSize>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-80.519250</westBL>
+          <eastBL Sync="TRUE">-74.786241</eastBL>
+          <southBL Sync="TRUE">39.734942</southBL>
+          <northBL Sync="TRUE">42.254430</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Geographic</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+        <peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-399.99999999999989&lt;/XOrigin&gt;&lt;YOrigin&gt;-399.99999999999989&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.24&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952117e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+      </coordRef>
+      <copyHistory>
+        <copy source="C:\DATA\BestFishingWaters_Lakes201701" dest="\\ULMUS\C$\DATA\BestFishingWaters_Lakes201701 (1)" date="20170121" time="10535400" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+    <resdesc>downloadable data</resdesc>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>PFBC GIS</rpIndName>
+    <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+    <rpPosName>PFBC GIS</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-705-7909</voiceNum>
+        <faxNum>717-705-7901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>P O Box 67000</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>PA</adminArea>
+        <postCode>17106-7000</postCode>
+        <country>US</country>
+        <eMailAdd>RA-GIS@pa.lcl</eMailAdd>
+      </cntAddress>
+      <cntHours>8:00-4:00</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170101</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorTran>
+        <onLineSrc>
+          <orDesc>downloadable data</orDesc>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>PFBC Best Fishing Waters Streams</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Fish and Boat Commission</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>“Pennsylvania’s Best Fishing Waters” program identifies proven waters for specific species.  This listing includes suggestions for distinct species within PA Streams.</idAbs>
+    <idPurp>Mapping and promotion of the various water bodies in Pennsylvania that are known to have good fishing opportunities.</idPurp>
+    <idCredit>Pennsylvania Fish and Boat Commission</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>PFBC GIS</rpIndName>
+      <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+      <rpPosName>PFBC GIS</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-705-7909</voiceNum>
+          <faxNum>717-705-7901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="physical">
+          <delPoint>1601 Elmerton Ave</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17110-9299</postCode>
+          <country>US</country>
+          <eMailAdd>RA-GIS@pa.lcl</eMailAdd>
+        </cntAddress>
+        <cntHours>8:00-4:00</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Recreation</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Recreation</keyword>
+      <keyword>Pennsylvania</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="012" />
+    </tpCat>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>This layer was created by selecting the appropriate flowing waters and water bodies from existing PFBC GIS Layers, all of which were derived from the National Hydrography Dataset (NHD) layers. Points were created by calculating the geographic centers of the water bodies and the mid-points of the flowing waters. Description field removed in Shapefile..... Field contains unusable characters in shapefiles. Geodatabase zipped in with ftp download.</suppInfo>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012" />
+    </maintFreq>
+    <dateNext />
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>This layer was created by selecting the appropriate flowing waters and water bodies from existing PFBC GIS Layers, all of which were derived from the National Hydrography Dataset (NHD) layers. Points were created by calculating the geographic centers of the water bodies and the mid-points of the flowing waters.</stepDesc>
+        <stepProc>
+          <rpIndName>PFBC GIS</rpIndName>
+          <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+          <rpPosName>PFBC GIS</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>717-705-7909</voiceNum>
+              <faxNum>717-705-7901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="postal">
+              <delPoint>P O Box 67000</delPoint>
+              <city>Harrisburg</city>
+              <adminArea>PA</adminArea>
+              <postCode>17106-7000</postCode>
+              <country>US</country>
+              <eMailAdd>RA-GIS@pa.lcl</eMailAdd>
+            </cntAddress>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="fa87ee60ebb93de4c5bd802fdadf6842" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvb3JpZ2luPg0KICAgICAgICA8
+cHViZGF0ZT4yMDE3MDE8L3B1YmRhdGU+DQogICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5wYXNk
+YS5wc3UuZWR1Lzwvb25saW5rPg0KICAgICAgICA8dGl0bGU+UEZCQyBCZXN0IEZpc2hpbmcgV2F0
+ZXJzIFN0cmVhbXM8L3RpdGxlPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0K
+ICAgIDxkZXNjcmlwdD4NCiAgICAgIDxsYW5nZGF0YT5FbmdsaXNoPC9sYW5nZGF0YT4NCiAgICAg
+IDxhYnN0cmFjdD7igJxQZW5uc3lsdmFuaWHigJlzIEJlc3QgRmlzaGluZyBXYXRlcnPigJ0gcHJv
+Z3JhbSBpZGVudGlmaWVzIHByb3ZlbiB3YXRlcnMgZm9yIHNwZWNpZmljIHNwZWNpZXMuwqAgVGhp
+cyBsaXN0aW5nIGluY2x1ZGVzIHN1Z2dlc3Rpb25zIGZvciBkaXN0aW5jdCBzcGVjaWVzIHdpdGhp
+biBQQSBTdHJlYW1zLjwvYWJzdHJhY3Q+DQogICAgICA8cHVycG9zZT5NYXBwaW5nIGFuZCBwcm9t
+b3Rpb24gb2YgdGhlIHZhcmlvdXMgd2F0ZXIgYm9kaWVzIGluIFBlbm5zeWx2YW5pYSB0aGF0IGFy
+ZSBrbm93biB0byBoYXZlIGdvb2QgZmlzaGluZyBvcHBvcnR1bml0aWVzLjwvcHVycG9zZT4NCiAg
+ICAgIDxzdXBwbGluZj5UaGlzIGxheWVyIHdhcyBjcmVhdGVkIGJ5IHNlbGVjdGluZyB0aGUgYXBw
+cm9wcmlhdGUgZmxvd2luZyB3YXRlcnMgYW5kIHdhdGVyIGJvZGllcyBmcm9tIGV4aXN0aW5nIFBG
+QkMgR0lTIExheWVycywgYWxsIG9mIHdoaWNoIHdlcmUgZGVyaXZlZCBmcm9tIHRoZSBOYXRpb25h
+bCBIeWRyb2dyYXBoeSBEYXRhc2V0IChOSEQpIGxheWVycy4gIFBvaW50cyB3ZXJlIGNyZWF0ZWQg
+YnkgY2FsY3VsYXRpbmcgdGhlIGdlb2dyYXBoaWMgY2VudGVycyBvZiB0aGUgd2F0ZXIgYm9kaWVz
+IGFuZCB0aGUgbWlkLXBvaW50cyBvZiB0aGUgZmxvd2luZyB3YXRlcnMuDQoNCkRlc2NyaXB0aW9u
+IGZpZWxkIHJlbW92ZWQgaW4gU2hhcGVmaWxlLi4uLi4gRmllbGQgY29udGFpbnMgdW51c2FibGUg
+Y2hhcmFjdGVycyBpbg0Kc2hhcGVmaWxlcy4gR2VvZGF0YWJhc2UgemlwcGVkIGluIHdpdGggZnRw
+IGRvd25sb2FkLjwvc3VwcGxpbmY+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQ+DQog
+ICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxjYWxkYXRlPjIw
+MTcwMTwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5mbz4NCiAg
+ICAgIDxjdXJyZW50Pmdyb3VuZCBjb25kaXRpb248L2N1cnJlbnQ+DQogICAgPC90aW1lcGVyZD4N
+CiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAg
+IDx1cGRhdGU+QXMgbmVlZGVkPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPGtleXdvcmRz
+Pg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5JU08gMTkxMTUgVG9waWMgQ2F0ZWdv
+cmllczwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PkZpc2hpbmc8L3RoZW1la2V5Pg0KICAg
+ICAgICA8dGhlbWVrZXk+UmVjcmVhdGlvbjwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5p
+bmxhbmRXYXRlcnM8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAg
+ICAgICAgPHBsYWNla2V5PlBlbm5zeWx2YW5pYTwvcGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0K
+ICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pk5vbmU8L2FjY2NvbnN0Pg0KICAgIDx1c2Vj
+b25zdD5Ob25lIHByb3ZpZGVkIGNyZWRpdCBpcyBnaXZlbiB0byB0aGUgUGVubnN5bHZhbmlhIEZp
+c2ggYW5kIEJvYXQgQ29tbWlzc2lvbiAoUEZCQykgYXMgbG9uZyBhcyB0aGUgZGF0YSBpcyBpbiBp
+dHMgb3JpZ2luYWwgdW5hbHRlcmVkIHN0YXRlLiAgSWYgbW9kaWZpY2F0aW9ucyBhcmUgbWFkZSB0
+byB0aGUgZGF0YSBzZXQsIHVzZXJzIGFyZSBvYmxpZ2F0ZWQgdG8gZGVzY3JpYmUgdGhlIHR5cGVz
+IG9mIG1vZGlmaWNhdGlvbnMgdGhleSBoYXZlIG1hZGUuICBVc2VycyBhcmUgbm90IHRvIG1pc3Jl
+cHJlc2VudCBQRkJDIGRhdGEgc2V0cywgbm9yIHRvIGltcGx5IHRoYXQgY2hhbmdlcyB0aGV5ICh1
+c2VycykgaGF2ZSBtYWRlIHdlcmUgYXBwcm92ZWQgYnkgdGhlIFBGQkMuPC91c2Vjb25zdD4NCiAg
+ICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudHBvcz5QRkJDIEdJUzwv
+Y250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+cGh5c2ljYWwg
+YWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+MTYwMSBFbG1lcnRvbiBBdmU8
+L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+SGFycmlzYnVyZzwvY2l0eT4NCiAgICAgICAgICA8
+c3RhdGU+UEE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTcxMTAtOTI5OTwvcG9zdGFsPg0K
+ICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAg
+ICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhZGRyZXNzPC9hZGRy
+dHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz5QIE8gQm94IDY3MDAwPC9hZGRyZXNzPg0KICAgICAg
+ICAgIDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBBPC9zdGF0ZT4N
+CiAgICAgICAgICA8cG9zdGFsPjE3MTA2LTcwMDA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRy
+eT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjcx
+Ny03MDUtNzkwOTwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcwNS03OTAxPC9jbnRm
+YXg+DQogICAgICAgIDxjbnRlbWFpbD5SQS1HSVNAcGEubGNsPC9jbnRlbWFpbD4NCiAgICAgICAg
+PGhvdXJzPjg6MDAtNDowMDwvaG91cnM+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxj
+bnRvcmc+UEEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9jbnRvcmc+DQogICAgICAgICAgPGNu
+dHBlcj5QRkJDIEdJUzwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICA8L2NudGlu
+Zm8+DQogICAgPC9wdGNvbnRhYz4NCiAgICA8ZGF0YWNyZWQ+UGVubnN5bHZhbmlhIEZpc2ggYW5k
+IEJvYXQgQ29tbWlzc2lvbjwvZGF0YWNyZWQ+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQog
+ICAgPGxpbmVhZ2U+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxzcmN1c2VkPlxcRkJIQkdJ
+U0FQUDAxXEdJU19EYXRhXFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGI8L3NyY3VzZWQ+
+DQogICAgICAgIDxwcm9jY29udD4NCiAgICAgICAgICA8Y250aW5mbz4NCiAgICAgICAgICAgIDxj
+bnRwb3M+UEZCQyBHSVM8L2NudHBvcz4NCiAgICAgICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAg
+ICAgICA8YWRkcnR5cGU+cGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgICAg
+IDxhZGRyZXNzPjE2MDEgRWxtZXJ0b24gQXZlPC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0
+eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+UEE8L3N0YXRlPg0KICAg
+ICAgICAgICAgICA8cG9zdGFsPjE3MTEwLTkyOTk8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNv
+dW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAg
+PGNudGFkZHI+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFkZHJlc3M8L2FkZHJ0
+eXBlPg0KICAgICAgICAgICAgICA8YWRkcmVzcz5QIE8gQm94IDY3MDAwPC9hZGRyZXNzPg0KICAg
+ICAgICAgICAgICA8Y2l0eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+
+UEE8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFsPjE3MTA2LTcwMDA8L3Bvc3RhbD4NCiAg
+ICAgICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRy
+Pg0KICAgICAgICAgICAgPGNudHZvaWNlPjcxNy03MDUtNzkwOTwvY250dm9pY2U+DQogICAgICAg
+ICAgICA8Y250ZmF4PjcxNy03MDUtNzkwMTwvY250ZmF4Pg0KICAgICAgICAgICAgPGNudGVtYWls
+PlJBLUdJU0BwYS5sY2w8L2NudGVtYWlsPg0KICAgICAgICAgICAgPGNudG9yZ3A+DQogICAgICAg
+ICAgICAgIDxjbnRvcmc+UEEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9jbnRvcmc+DQogICAg
+ICAgICAgICAgIDxjbnRwZXI+UEZCQyBHSVM8L2NudHBlcj4NCiAgICAgICAgICAgIDwvY250b3Jn
+cD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQogICAgICAgIDxw
+cm9jZGVzYz5UaGlzIGxheWVyIHdhcyBjcmVhdGVkIGJ5IHNlbGVjdGluZyB0aGUgYXBwcm9wcmlh
+dGUgZmxvd2luZyB3YXRlcnMgYW5kIHdhdGVyIGJvZGllcyBmcm9tIGV4aXN0aW5nIFBGQkMgR0lT
+IExheWVycywgYWxsIG9mIHdoaWNoIHdlcmUgZGVyaXZlZCBmcm9tIHRoZSBOYXRpb25hbCBIeWRy
+b2dyYXBoeSBEYXRhc2V0IChOSEQpIGxheWVycy4gIFBvaW50cyB3ZXJlIGNyZWF0ZWQgYnkgY2Fs
+Y3VsYXRpbmcgdGhlIGdlb2dyYXBoaWMgY2VudGVycyBvZiB0aGUgd2F0ZXIgYm9kaWVzIGFuZCB0
+aGUgbWlkLXBvaW50cyBvZiB0aGUgZmxvd2luZyB3YXRlcnMuPC9wcm9jZGVzYz4NCiAgICAgICAg
+PHByb2Nzdj5BcmNHSVMgOS4yPC9wcm9jc3Y+DQogICAgICAgIDxwcm9jZGF0ZT42LzIwMDc8L3By
+b2NkYXRlPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+
+DQogIDxlYWluZm8+DQogICAgPGRldGFpbGVkIE5hbWU9IkZpc2hpbmdfSG90c3BvdHMyMDEyMTIi
+Pg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+QmVzdEZpc2hpbmdXYXRlcnNfU3Ry
+ZWFtczIwMTcwMTwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3luYz0iVFJVRSI+RmVhdHVy
+ZSBDbGFzczwvZW50dHlwdD4NCiAgICAgICAgPGVudHR5cGMgU3luYz0iVFJVRSI+MzI4PC9lbnR0
+eXBjPg0KICAgICAgPC9lbnR0eXA+DQogICAgPC9kZXRhaWxlZD4NCiAgPC9lYWluZm8+DQogIDxt
+ZXRhaW5mbz4NCiAgICA8bWV0ZD4yMDE3MDE8L21ldGQ+DQogICAgPG1ldGZyZD5BcyBuZWVkZWQ8
+L21ldGZyZD4NCiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250cG9zPlBG
+QkMgR0lTPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5w
+aHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz4xNjAxIEVsbWVy
+dG9uIEF2ZTwvYWRkcmVzcz4NCiAgICAgICAgICA8YWRkcmVzcz5QIE8gQm94IDY3MDAwPC9hZGRy
+ZXNzPg0KICAgICAgICAgIDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRl
+PlBBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE3MTEwLTkyOTk8L3Bvc3RhbD4NCiAgICAg
+ICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAg
+PGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYWRkcmVzczwvYWRkcnR5cGU+
+DQogICAgICAgICAgPGFkZHJlc3M+UCBPIEJveCA2NzAwMDwvYWRkcmVzcz4NCiAgICAgICAgICA8
+Y2l0eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQogICAg
+ICAgICAgPHBvc3RhbD4xNzEwNi03MDAwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VVNB
+PC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT43MTctNzA1
+LTc5MDk8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4PjcxNy03MDUtNzkwMTwvY250ZmF4Pg0K
+ICAgICAgICA8Y250ZW1haWw+UkEtR0lTQHBhLmxjbDwvY250ZW1haWw+DQogICAgICAgIDxob3Vy
+cz44OjAwLTQ6MDA8L2hvdXJzPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3Jn
+PlBBIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvY250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+
+UEZCQyBHSVM8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgPC9jbnRpbmZvPg0K
+ICAgIDwvbWV0Yz4NCiAgICA8bWV0YWM+Tm9uZTwvbWV0YWM+DQogICAgPG1ldHVjPk5vbmU8L21l
+dHVjPg0KICAgIDxtZXRleHRucz4NCiAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5lc3JpLmNvbS9t
+ZXRhZGF0YS9lc3JpcHJvZjgwLmh0bWw8L29ubGluaz4NCiAgICAgIDxtZXRwcm9mPkVTUkkgTWV0
+YWRhdGEgUHJvZmlsZTwvbWV0cHJvZj4NCiAgICA8L21ldGV4dG5zPg0KICA8L21ldGFpbmZvPg0K
+ICA8RXNyaT4NCiAgICA8Q3JlYURhdGU+MjAxNzAxMjE8L0NyZWFEYXRlPg0KICAgIDxDcmVhVGlt
+ZT4xMDUzNTQwMDwvQ3JlYVRpbWU+DQogICAgPFN5bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4NCiAg
+ICA8TW9kRGF0ZT4yMDE3MDEyMTwvTW9kRGF0ZT4NCiAgICA8TW9kVGltZT4xMDU0NTQwMDwvTW9k
+VGltZT4NCiAgICA8U3luY0RhdGU+MjAxMzAxMDI8L1N5bmNEYXRlPg0KICAgIDxTeW5jVGltZT4x
+MDUyMDQwMDwvU3luY1RpbWU+DQogICAgPERhdGFQcm9wZXJ0aWVzPg0KICAgICAgPGxpbmVhZ2U+
+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9IkM6XFByb2dyYW0gRmlsZXNcQXJjR0lTXEFy
+Y1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBUb29scy50YnhcQWRkR2xvYmFsSURz
+IiBEYXRlPSIyMDA4MTIzMCIgVGltZT0iMTcxNDUyIj5BZGRHbG9iYWxJRHMgJ0RhdGFiYXNlIENv
+bm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZC
+Q19NYXBwaW5nXFBGQkNfR0lTLkRCTy5BY2Nlc3MnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uQUZNX0FyZWFzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBG
+QkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkFG
+TV9PZmZpY2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVW
+MDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJpb2xvZ2lzdF9S
+ZXBvcnRzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJvYXRpbmdfU3BlY1Jl
+Z19MYWtlcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAy
+LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5Cb2F0aW5nX1NwZWNS
+ZWdfUHRzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJvYXRpbmdfU3BlY1Jl
+Z19TdHJlYW1zJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVW
+MDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkNsYXNzQV9TdHJl
+YW1zJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2Rl
+XFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkNvbW1pc3Npb25lcl9EaXN0
+cmljdHMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5z
+ZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uQ29vcF9udXJzZXJpZXMn
+OydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRGFtc19SdW5vZlJpdmVyJzsnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkVyaWVfVHJpYnV0YXJpZXMnOydEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRXJpZV9UcmlidXRhcmllc19wdCc7J0RhdGFiYXNl
+IENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8u
+UEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5FcmllVHJpYnNfT3BlbkZpc2hpbmdfcG9seSc7J0Rh
+dGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJ
+Uy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5FcmllVHJpYnNfT3BlbkZpc2hpbmdfcHQn
+OydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaF9wYXNzYWdlJzsnRGF0YWJh
+c2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMnOydEYXRhYmFzZSBD
+b25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uSGFiaXRhdF9NZ210X0FyZWFzJzsnRGF0YWJhc2UgQ29u
+bmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJD
+X01hcHBpbmdcUEZCQ19HSVMuREJPLkhhYml0YXRfTWdtdF9BcmVhc19PZmZpY2VzJzsnRGF0YWJh
+c2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkhhdGNoZXJpZXMnOydEYXRhYmFzZSBDb25uZWN0
+aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFw
+cGluZ1xQRkJDX0dJUy5EQk8uTGFrZXNfUEZCQ0RhdGFiYXNlJzsnRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLkxha2VzX1BvaW50JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVj
+dGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19H
+SVMuREJPLkxhd0VuZm9yY2VtZW50X1JlZ2lvbnMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uTWFpbnRlbmFuY2VfUmVnaW9ucyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5l
+Y3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5QQV9GaXNoX0RhdGFiYXNlJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLlBGQkNfR0lTX0RCT19BcHByb3ZlZF9Ucm91dF9XYXRlcmJvZGllcyc7J0RhdGFiYXNlIENv
+bm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZC
+Q19NYXBwaW5nXFBGQkNfR0lTLkRCTy5QRkJDX0dJU19EQk9fQXBwcm92ZWRfVHJvdXRfV2F0ZXJi
+b2RpZXNfcHQnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYw
+Mi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJP
+X0FwcHJvdmVkX1Ryb3V0X1dhdGVycyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24g
+dG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRC
+Ty5QRkJDX0dJU19EQk9fRmlzaGluZ19TcGVjUmVnX0xha2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLlBGQkNfR0lTX0RCT19GaXNoaW5nX1NwZWNSZWdfTGFrZXNfUG9pbnQn
+OydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0Zpc2hpbmdf
+U3BlY1JlZ19TdHJlYW1zJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhC
+R0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlBGQkNf
+UHJvcGVydGllcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RF
+VjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5SZWdfSFEnOydE
+YXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2
+JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBG
+QkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlN0cmVhbXNfUEZCQ01hbmFnZWRf
+MjAwNyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNk
+ZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5TdHJlYW1zX1BGQkNTdG9j
+a2VkXzIwMDgnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYw
+Mi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uVHJvdXRfTmF0dXJh
+bFJlcHJvZHVjdGlvbic7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJ
+U0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5XYXRlclRy
+YWlsc19saW5lJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVW
+MDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldDT19EaXN0cmlj
+dHMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVc
+UEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uV2lsZGVybmVzc19Ucm91dF9T
+dHJlYW1zJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVyaWVz
+X0xha2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVyaWVz
+X0xha2VzX1B0JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVW
+MDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVy
+aWVzX1N0cmVhbXMnICdEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNE
+RVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uQWNjZXNzJzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkFGTV9BcmVhcyc7J0RhdGFiYXNlIENv
+bm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZC
+Q19NYXBwaW5nXFBGQkNfR0lTLkRCTy5BRk1fT2ZmaWNlcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25z
+XENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5n
+XFBGQkNfR0lTLkRCTy5CaW9sb2dpc3RfUmVwb3J0cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5Cb2F0aW5nX1NwZWNSZWdfTGFrZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xD
+b25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQ
+RkJDX0dJUy5EQk8uQm9hdGluZ19TcGVjUmVnX1B0cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5Cb2F0aW5nX1NwZWNSZWdfU3RyZWFtcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25z
+XENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5n
+XFBGQkNfR0lTLkRCTy5DbGFzc0FfU3RyZWFtcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5l
+Y3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5Db21taXNzaW9uZXJfRGlzdHJpY3RzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29u
+bmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZC
+Q19HSVMuREJPLkNvb3BfbnVyc2VyaWVzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLkRhbXNfUnVub2ZSaXZlcic7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8g
+RkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5F
+cmllX1RyaWJ1dGFyaWVzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhC
+R0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkVyaWVf
+VHJpYnV0YXJpZXNfcHQnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJH
+SVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRXJpZVRy
+aWJzX09wZW5GaXNoaW5nX3BvbHknOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRv
+IEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8u
+RXJpZVRyaWJzX09wZW5GaXNoaW5nX3B0JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLmZpc2hfcGFzc2FnZSc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJI
+QkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNo
+aW5nX2hvdHNwb3RzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lT
+REVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkhhYml0YXRf
+TWdtdF9BcmVhcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RF
+VjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5IYWJpdGF0X01n
+bXRfQXJlYXNfT2ZmaWNlcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJI
+QkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5IYXRj
+aGVyaWVzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkxha2VzX1BGQkNEYXRh
+YmFzZSc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNk
+ZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5MYWtlc19Qb2ludCc7J0Rh
+dGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJ
+Uy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5MYXdFbmZvcmNlbWVudF9SZWdpb25zJzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLk1haW50ZW5hbmNlX1JlZ2lvbnMnOydE
+YXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEFfRmlzaF9EYXRhYmFzZSc7J0RhdGFi
+YXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5QRkJDX0dJU19EQk9fQXBwcm92ZWRfVHJvdXRf
+V2F0ZXJib2RpZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNE
+RVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNf
+REJPX0FwcHJvdmVkX1Ryb3V0X1dhdGVyYm9kaWVzX3B0JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+Q29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdc
+UEZCQ19HSVMuREJPLlBGQkNfR0lTX0RCT19BcHByb3ZlZF9Ucm91dF9XYXRlcnMnOydEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0Zpc2hpbmdfU3BlY1JlZ19M
+YWtlcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNk
+ZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5QRkJDX0dJU19EQk9fRmlz
+aGluZ19TcGVjUmVnX0xha2VzX1BvaW50JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLlBGQkNfR0lTX0RCT19GaXNoaW5nX1NwZWNSZWdfU3RyZWFtcyc7J0RhdGFiYXNlIENvbm5l
+Y3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19N
+YXBwaW5nXFBGQkNfR0lTLkRCTy5QRkJDX1Byb3BlcnRpZXMnOydEYXRhYmFzZSBDb25uZWN0aW9u
+c1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGlu
+Z1xQRkJDX0dJUy5EQk8uUmVnX0hRJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0
+byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJP
+LlN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNic7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rp
+b24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lT
+LkRCTy5TdHJlYW1zX1BGQkNNYW5hZ2VkXzIwMDcnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uU3RyZWFtc19QRkJDU3RvY2tlZF8yMDA4JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+Q29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdc
+UEZCQ19HSVMuREJPLlRyb3V0X05hdHVyYWxSZXByb2R1Y3Rpb24nOydEYXRhYmFzZSBDb25uZWN0
+aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFw
+cGluZ1xQRkJDX0dJUy5EQk8uV2F0ZXJUcmFpbHNfbGluZSc7J0RhdGFiYXNlIENvbm5lY3Rpb25z
+XENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5n
+XFBGQkNfR0lTLkRCTy5XQ09fRGlzdHJpY3RzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVj
+dGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19H
+SVMuREJPLldpbGRlcm5lc3NfVHJvdXRfU3RyZWFtcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5XV0NXX0Zpc2hlcmllc19MYWtlcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5XV0NXX0Zpc2hlcmllc19MYWtlc19QdCc7J0RhdGFiYXNlIENvbm5lY3Rpb25z
+XENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5n
+XFBGQkNfR0lTLkRCTy5XV0NXX0Zpc2hlcmllc19TdHJlYW1zJzwvUHJvY2Vzcz4NCiAgICAgICAg
+PFByb2Nlc3MgTmFtZT0iRGVsZXRlIFJvd3MiIFRvb2xTb3VyY2U9IkM6XFByb2dyYW0gRmlsZXMg
+KHg4NilcQXJjR0lTXERlc2t0b3AxMC4wXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdl
+bWVudCBUb29scy50YnhcRGVsZXRlUm93cyIgRGF0ZT0iMjAxMjA1MTQiIFRpbWU9IjE0MzM1NSI+
+RGVsZXRlUm93cyAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVc
+UEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19ob3RzcG90cyI8
+L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIE5hbWU9IkRlbGV0ZSBSb3dzIiBUb29sU291cmNl
+PSJDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEFyY0dJU1xEZXNrdG9wMTAuMFxBcmNUb29sYm94XFRv
+b2xib3hlc1xEYXRhIE1hbmFnZW1lbnQgVG9vbHMudGJ4XERlbGV0ZVJvd3MiIERhdGU9IjIwMTIw
+NTE0IiBUaW1lPSIxNDM1NTYiPkRlbGV0ZVJvd3MgIkRhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJn
+aXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJP
+LmZpc2hpbmdfaG90c3BvdHMiPC9Qcm9jZXNzPg0KICAgICAgICA8UHJvY2VzcyBOYW1lPSJBcHBl
+bmQiIFRvb2xTb3VyY2U9IkM6XFByb2dyYW0gRmlsZXMgKHg4NilcQXJjR0lTXERlc2t0b3AxMC4w
+XEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBUb29scy50YnhcQXBwZW5kIiBE
+YXRlPSIyMDEyMDUxNCIgVGltZT0iMTQzODEyIj5BcHBlbmQgSjpcUHJvamVjdHNcRmlzaGVyaWVz
+XEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hl
+cmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVkOydEYXRhYmFzZSBDb25uZWN0aW9uc1xG
+YmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRh
+dGVkJyAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19ob3RzcG90cyIgTk9fVEVT
+VCAiTmFtZSAiTmFtZSIgdHJ1ZSB0cnVlIGZhbHNlIDQ1IFRleHQgMCAwICxGaXJzdCwjLEo6XFBy
+b2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJt
+Q29vbEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxOYW1lLC0x
+LC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lT
+LkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTmFtZSwtMSwtMTtDb3VudHkgIkNvdW50eSIg
+dHJ1ZSB0cnVlIGZhbHNlIDMwIFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmll
+c1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNo
+ZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxDb3VudHksLTEsLTEsRGF0YWJhc2Ug
+Q29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdf
+aG90c3BvdHNfVXBkYXRlZCxDb3VudHksLTEsLTE7TGFyZ2VNb3V0aCAiTGFyZ2VNb3V0aCIgdHJ1
+ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJ
+U0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmll
+cy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLExhcmdlTW91dGgsLTEsLTEsRGF0YWJhc2Ug
+Q29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdf
+aG90c3BvdHNfVXBkYXRlZCxMYXJnZU1vdXRoLC0xLC0xO1NtYWxsTW91dGggIlNtYWxsTW91dGgi
+IHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmll
+c1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNo
+ZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxTbWFsbE1vdXRoLC0xLC0xLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsU21hbGxNb3V0aCwtMSwtMTtNdXNXYWxsUGlrICJNdXNXYWxs
+UGlrIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90
+RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTXVzV2FsbFBpaywtMSwtMSxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8u
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLE11c1dhbGxQaWssLTEsLTE7U3RrVHJvdXQgIlN0a1Ry
+b3V0IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90
+RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3RrVHJvdXQsLTEsLTEsRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZp
+c2hpbmdfaG90c3BvdHNfVXBkYXRlZCxTdGtUcm91dCwtMSwtMTtXaWxkVHJvdXQgIldpbGRUcm91
+dCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVy
+aWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZp
+c2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFdpbGRUcm91dCwtMSwtMSxEYXRh
+YmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlz
+aGluZ19ob3RzcG90c19VcGRhdGVkLFdpbGRUcm91dCwtMSwtMTtQYW5GaXNoICJQYW5GaXNoIiB0
+cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNc
+R0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVy
+aWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUGFuRmlzaCwtMSwtMSxEYXRhYmFzZSBD
+b25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19o
+b3RzcG90c19VcGRhdGVkLFBhbkZpc2gsLTEsLTE7RmFtRmlzaGluZyAiRmFtRmlzaGluZyIgdHJ1
+ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJ
+U0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmll
+cy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLEZhbUZpc2hpbmcsLTEsLTEsRGF0YWJhc2Ug
+Q29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdf
+aG90c3BvdHNfVXBkYXRlZCxGYW1GaXNoaW5nLC0xLC0xO0ljZV9XaW50ZXIgIkljZV9XaW50ZXIi
+IHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmll
+c1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNo
+ZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxJY2VfV2ludGVyLC0xLC0xLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsSWNlX1dpbnRlciwtMSwtMTtDaGlsZF9EaXNhICJDaGlsZF9E
+aXNhIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90
+RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsQ2hpbGRfRGlzYSwtMSwtMSxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8u
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLENoaWxkX0Rpc2EsLTEsLTE7TGluayAiTGluayIgdHJ1
+ZSB0cnVlIGZhbHNlIDE1MCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNc
+R0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVy
+aWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTGluaywtMSwtMSxEYXRhYmFzZSBDb25u
+ZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3Rz
+cG90c19VcGRhdGVkLExpbmssLTEsLTE7TGF0aXR1ZGUgIkxhdGl0dWRlIiB0cnVlIHRydWUgZmFs
+c2UgOCBEb3VibGUgOCAzOCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJf
+VXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxG
+aXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTGF0aXR1ZGUsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNf
+VXBkYXRlZCxMYXRpdHVkZSwtMSwtMTtMb25naXR1ZGUgIkxvbmdpdHVkZSIgdHJ1ZSB0cnVlIGZh
+bHNlIDggRG91YmxlIDggMzggLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVy
+X1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJc
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLExvbmdpdHVkZSwtMSwtMSxEYXRhYmFzZSBDb25uZWN0
+aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90
+c19VcGRhdGVkLExvbmdpdHVkZSwtMSwtMTtQcmltX0FjYyAiUHJpbV9BY2MiIHRydWUgdHJ1ZSBm
+YWxzZSAxMDAgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVy
+X1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJc
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFByaW1fQWNjLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rp
+b25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3Rz
+X1VwZGF0ZWQsUHJpbV9BY2MsLTEsLTE7RGVzY3JpcHRpb24gIkRlc2NyaXB0aW9uIiB0cnVlIHRy
+dWUgZmFsc2UgMTA3Mzc0MTgyMiBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJp
+ZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90Rmlz
+aGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsRGVzY3JpcHRpb24sLTEsLTEsRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZp
+c2hpbmdfaG90c3BvdHNfVXBkYXRlZCxEZXNjcmlwdGlvbiwtMSwtMTtHbG9iYWxJRCAiR2xvYmFs
+SUQiIGZhbHNlIGZhbHNlIHRydWUgMzggR2xvYmFsSUQgMCAwICxGaXJzdCwjO011c2t5ICJNdXNr
+eSIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVy
+aWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZp
+c2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLE11c2t5LC0xLC0xLERhdGFiYXNl
+IENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5n
+X2hvdHNwb3RzX1VwZGF0ZWQsTXVza3ksLTEsLTE7V2FsbGV5ZSAiV2FsbGV5ZSIgdHJ1ZSB0cnVl
+IGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVy
+X1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJc
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFdhbGxleWUsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNf
+VXBkYXRlZCxXYWxsZXllLC0xLC0xO1Bpa2UgIlBpa2UiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQg
+MCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hl
+cmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hpbmdfaG90c3Bv
+dHNfVXBkYXRlZCxQaWtlLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9E
+aXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUGlrZSwtMSwt
+MTtGdHJfUGFnZSAiRnRyX1BhZ2UiIHRydWUgdHJ1ZSBmYWxzZSAyMDAgVGV4dCAwIDAgLEZpcnN0
+LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rp
+b25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19VcGRhdGVk
+LEZ0cl9QYWdlLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Qu
+c2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsRnRyX1BhZ2UsLTEsLTE7
+RnRyX1BhZ2VfTmFtZSAiRnRyX1BhZ2VfTmFtZSIgdHJ1ZSB0cnVlIGZhbHNlIDIwMCBUZXh0IDAg
+MCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJp
+ZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3Rz
+X1VwZGF0ZWQsRnRyX1BhZ2VfTmFtZSwtMSwtMSxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lz
+ZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLEZ0
+cl9QYWdlX05hbWUsLTEsLTE7U3BlY19SZWdfMSAiU3BlY19SZWdfMSIgdHJ1ZSB0cnVlIGZhbHNl
+IDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBk
+YXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdfMSwtMSwtMSxEYXRhYmFzZSBDb25uZWN0aW9u
+c1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19V
+cGRhdGVkLFNwZWNfUmVnXzEsLTEsLTE7UmVnX0xpbmtfMSAiUmVnX0xpbmtfMSIgdHJ1ZSB0cnVl
+IGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5
+ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1k
+YlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMSwtMSwtMSxEYXRhYmFzZSBDb25u
+ZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3Rz
+cG90c19VcGRhdGVkLFJlZ19MaW5rXzEsLTEsLTE7U3BlY19SZWdfMiAiU3BlY19SZWdfMiIgdHJ1
+ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNc
+R0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVy
+aWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdfMiwtMSwtMSxEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGlu
+Z19ob3RzcG90c19VcGRhdGVkLFNwZWNfUmVnXzIsLTEsLTE7UmVnX0xpbmtfMiAiUmVnX0xpbmtf
+MiIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90
+RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMiwtMSwtMSxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8u
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFJlZ19MaW5rXzIsLTEsLTEiICM8L1Byb2Nlc3M+DQog
+ICAgICAgIDxQcm9jZXNzIE5hbWU9IkRlbGV0ZSBSb3dzIiBUb29sU291cmNlPSJDOlxQcm9ncmFt
+IEZpbGVzICh4ODYpXEFyY0dJU1xEZXNrdG9wMTAuMFxBcmNUb29sYm94XFRvb2xib3hlc1xEYXRh
+IE1hbmFnZW1lbnQgVG9vbHMudGJ4XERlbGV0ZVJvd3MiIERhdGU9IjIwMTIwNTE0IiBUaW1lPSIx
+NDU5NDQiPkRlbGV0ZVJvd3MgIkRhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJl
+Y3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90
+c3BvdHMiPC9Qcm9jZXNzPg0KICAgICAgICA8UHJvY2VzcyBOYW1lPSJBcHBlbmQiIFRvb2xTb3Vy
+Y2U9IkM6XFByb2dyYW0gRmlsZXMgKHg4NilcQXJjR0lTXERlc2t0b3AxMC4wXEFyY1Rvb2xib3hc
+VG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBUb29scy50YnhcQXBwZW5kIiBEYXRlPSIyMDEyMDUx
+NCIgVGltZT0iMTUwNDU2Ij5BcHBlbmQgJ0RhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYw
+Ml9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQnICJEYXRh
+YmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZC
+Q19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzIiBOT19URVNUICJOYW1lICJO
+YW1lIiB0cnVlIHRydWUgZmFsc2UgNDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVj
+dGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3Bv
+dHNfVXBkYXRlZCxOYW1lLC0xLC0xO0NvdW50eSAiQ291bnR5IiB0cnVlIHRydWUgZmFsc2UgMzAg
+VGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVj
+dC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxDb3VudHksLTEsLTE7
+TGFyZ2VNb3V0aCAiTGFyZ2VNb3V0aCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0
+LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMu
+REJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxMYXJnZU1vdXRoLC0xLC0xO1NtYWxsTW91dGgg
+IlNtYWxsTW91dGgiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNl
+IENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5n
+X2hvdHNwb3RzX1VwZGF0ZWQsU21hbGxNb3V0aCwtMSwtMTtNdXNXYWxsUGlrICJNdXNXYWxsUGlr
+IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9u
+c1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19V
+cGRhdGVkLE11c1dhbGxQaWssLTEsLTE7U3RrVHJvdXQgIlN0a1Ryb3V0IiB0cnVlIHRydWUgZmFs
+c2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJf
+RGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFN0a1Ryb3V0
+LC0xLC0xO1dpbGRUcm91dCAiV2lsZFRyb3V0IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAs
+Rmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJD
+X0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFdpbGRUcm91dCwtMSwtMTtQYW5GaXNo
+ICJQYW5GaXNoIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBD
+b25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19o
+b3RzcG90c19VcGRhdGVkLFBhbkZpc2gsLTEsLTE7RmFtRmlzaGluZyAiRmFtRmlzaGluZyIgdHJ1
+ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJo
+Ymdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRl
+ZCxGYW1GaXNoaW5nLC0xLC0xO0ljZV9XaW50ZXIgIkljZV9XaW50ZXIiIHRydWUgdHJ1ZSBmYWxz
+ZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9E
+aXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsSWNlX1dpbnRl
+ciwtMSwtMTtDaGlsZF9EaXNhICJDaGlsZF9EaXNhIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAg
+MCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQ
+RkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLENoaWxkX0Rpc2EsLTEsLTE7TGlu
+ayAiTGluayIgdHJ1ZSB0cnVlIGZhbHNlIDE1MCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBD
+b25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19o
+b3RzcG90c19VcGRhdGVkLExpbmssLTEsLTE7TGF0aXR1ZGUgIkxhdGl0dWRlIiB0cnVlIHRydWUg
+ZmFsc2UgOCBEb3VibGUgOCAzOCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lz
+ZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLExh
+dGl0dWRlLC0xLC0xO0xvbmdpdHVkZSAiTG9uZ2l0dWRlIiB0cnVlIHRydWUgZmFsc2UgOCBEb3Vi
+bGUgOCAzOCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0
+LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLExvbmdpdHVkZSwtMSwt
+MTtQcmltX0FjYyAiUHJpbV9BY2MiIHRydWUgdHJ1ZSBmYWxzZSAxMDAgVGV4dCAwIDAgLEZpcnN0
+LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMu
+REJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxQcmltX0FjYywtMSwtMTtEZXNjcmlwdGlvbiAi
+RGVzY3JpcHRpb24iIHRydWUgdHJ1ZSBmYWxzZSAxMDczNzQxODIyIFRleHQgMCAwICxGaXJzdCwj
+LERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRC
+Ty5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsRGVzY3JpcHRpb24sLTEsLTE7R2xvYmFsSUQgIkds
+b2JhbElEIiBmYWxzZSBmYWxzZSB0cnVlIDM4IEdsb2JhbElEIDAgMCAsRmlyc3QsIztNdXNreSAi
+TXVza3kiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5l
+Y3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNw
+b3RzX1VwZGF0ZWQsTXVza3ksLTEsLTE7V2FsbGV5ZSAiV2FsbGV5ZSIgdHJ1ZSB0cnVlIGZhbHNl
+IDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0Rp
+cmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxXYWxsZXllLC0x
+LC0xO1Bpa2UgIlBpa2UiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsUGlrZSwtMSwtMTtGdHJfUGFnZSAiRnRyX1BhZ2UiIHRydWUg
+dHJ1ZSBmYWxzZSAyMDAgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJo
+Ymdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRl
+ZCxGdHJfUGFnZSwtMSwtMTtGdHJfUGFnZV9OYW1lICJGdHJfUGFnZV9OYW1lIiB0cnVlIHRydWUg
+ZmFsc2UgMjAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNk
+ZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsRnRy
+X1BhZ2VfTmFtZSwtMSwtMTtTcGVjX1JlZ18xICJTcGVjX1JlZ18xIiB0cnVlIHRydWUgZmFsc2Ug
+MTAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9E
+aXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdf
+MSwtMSwtMTtSZWdfTGlua18xICJSZWdfTGlua18xIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRleHQg
+MCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2Rl
+XFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMSwtMSwtMTtT
+cGVjX1JlZ18yICJTcGVjX1JlZ18yIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxGaXJz
+dCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lT
+LkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdfMiwtMSwtMTtSZWdfTGlua18y
+ICJSZWdfTGlua18yIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMiwtMSwtMSIgIzwvUHJvY2Vzcz4NCiAgICAg
+ICAgPFByb2Nlc3MgTmFtZT0iQXBwZW5kIiBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVzICh4
+ODYpXEFyY0dJU1xEZXNrdG9wMTAuMFxBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1l
+bnQgVG9vbHMudGJ4XEFwcGVuZCIgRGF0ZT0iMjAxMjA1MTQiIFRpbWU9IjE2MDQ1OCI+QXBwZW5k
+IEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9u
+c1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxG
+cm9tREVWMDI7J0RhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBG
+QkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQnICJEYXRhYmFzZSBDb25uZWN0aW9u
+c1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzIiBOT19URVNUICJOYW1lICJOYW1lIiB0cnVlIHRydWUg
+ZmFsc2UgNDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVy
+X1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJc
+RmlzaGluZ19ob3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixOYW1lLC0xLC0xLERhdGFiYXNlIENv
+bm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hv
+dHNwb3RzX1VwZGF0ZWQsTmFtZSwtMSwtMTtDb3VudHkgIkNvdW50eSIgdHJ1ZSB0cnVlIGZhbHNl
+IDMwIFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRh
+dGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hp
+bmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIsQ291bnR5LC0xLC0xLERhdGFiYXNlIENvbm5l
+Y3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNw
+b3RzX1VwZGF0ZWQsQ291bnR5LC0xLC0xO0xhcmdlTW91dGggIkxhcmdlTW91dGgiIHRydWUgdHJ1
+ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXll
+cl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRi
+XEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIsTGFyZ2VNb3V0aCwtMSwtMSxEYXRh
+YmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlz
+aGluZ19ob3RzcG90c19VcGRhdGVkLExhcmdlTW91dGgsLTEsLTE7U21hbGxNb3V0aCAiU21hbGxN
+b3V0aCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlz
+aGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3Bv
+dEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixTbWFsbE1v
+dXRoLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBG
+QkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU21hbGxNb3V0aCwtMSwtMTtNdXNX
+YWxsUGlrICJNdXNXYWxsUGlrIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxK
+OlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNc
+V2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJv
+bURFVjAyLE11c1dhbGxQaWssLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAy
+X0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxNdXNXYWxs
+UGlrLC0xLC0xO1N0a1Ryb3V0ICJTdGtUcm91dCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAg
+LEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVz
+X1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19v
+cmlnaW5hbEZyb21ERVYwMixTdGtUcm91dCwtMSwtMSxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhi
+Z2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVk
+LFN0a1Ryb3V0LC0xLC0xO1dpbGRUcm91dCAiV2lsZFRyb3V0IiB0cnVlIHRydWUgZmFsc2UgNSBU
+ZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xG
+aXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hv
+dHNwb3RzX29yaWdpbmFsRnJvbURFVjAyLFdpbGRUcm91dCwtMSwtMSxEYXRhYmFzZSBDb25uZWN0
+aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90
+c19VcGRhdGVkLFdpbGRUcm91dCwtMSwtMTtQYW5GaXNoICJQYW5GaXNoIiB0cnVlIHRydWUgZmFs
+c2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBk
+YXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNo
+aW5nX2hvdHNwb3RzX29yaWdpbmFsRnJvbURFVjAyLFBhbkZpc2gsLTEsLTEsRGF0YWJhc2UgQ29u
+bmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90
+c3BvdHNfVXBkYXRlZCxQYW5GaXNoLC0xLC0xO0ZhbUZpc2hpbmcgIkZhbUZpc2hpbmciIHRydWUg
+dHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNM
+YXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMu
+bWRiXEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIsRmFtRmlzaGluZywtMSwtMSxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8u
+RmlzaGluZ19ob3RzcG90c19VcGRhdGVkLEZhbUZpc2hpbmcsLTEsLTE7SWNlX1dpbnRlciAiSWNl
+X1dpbnRlciIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNc
+RmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90
+U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixJY2Vf
+V2ludGVyLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2Rl
+XFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsSWNlX1dpbnRlciwtMSwtMTtD
+aGlsZF9EaXNhICJDaGlsZF9EaXNhIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3Qs
+IyxKOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlv
+bnNcV2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFs
+RnJvbURFVjAyLENoaWxkX0Rpc2EsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2Rl
+djAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxDaGls
+ZF9EaXNhLC0xLC0xO0xpbmsgIkxpbmsiIHRydWUgdHJ1ZSBmYWxzZSAxNTAgVGV4dCAwIDAgLEZp
+cnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1Nl
+Y3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19vcmln
+aW5hbEZyb21ERVYwMixMaW5rLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYw
+Ml9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTGluaywt
+MSwtMTtMYXRpdHVkZSAiTGF0aXR1ZGUiIHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDM4ICxG
+aXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19T
+ZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfb3Jp
+Z2luYWxGcm9tREVWMDIsTGF0aXR1ZGUsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdp
+c2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxM
+YXRpdHVkZSwtMSwtMTtMb25naXR1ZGUgIkxvbmdpdHVkZSIgdHJ1ZSB0cnVlIGZhbHNlIDggRG91
+YmxlIDggMzggLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNc
+RmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19o
+b3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixMb25naXR1ZGUsLTEsLTEsRGF0YWJhc2UgQ29ubmVj
+dGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3Bv
+dHNfVXBkYXRlZCxMb25naXR1ZGUsLTEsLTE7UHJpbV9BY2MgIlByaW1fQWNjIiB0cnVlIHRydWUg
+ZmFsc2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXll
+cl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNoZXJpZXMubWRi
+XEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIsUHJpbV9BY2MsLTEsLTEsRGF0YWJh
+c2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hp
+bmdfaG90c3BvdHNfVXBkYXRlZCxQcmltX0FjYywtMSwtMTtEZXNjcmlwdGlvbiAiRGVzY3JpcHRp
+b24iIHRydWUgdHJ1ZSBmYWxzZSAxMDczNzQxODIyIFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2pl
+Y3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29v
+bEhvdFNwb3RGaXNoZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIs
+RGVzY3JpcHRpb24sLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVj
+dC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxEZXNjcmlwdGlvbiwt
+MSwtMTtHbG9iYWxJRCAiR2xvYmFsSUQiIGZhbHNlIGZhbHNlIHRydWUgMzggR2xvYmFsSUQgMCAw
+ICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBG
+QkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsR2xvYmFsSUQsLTEsLTE7TXVza3kg
+Ik11c2t5IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xG
+aXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RT
+cG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJvbURFVjAyLE11c2t5
+LC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNf
+R0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTXVza3ksLTEsLTE7V2FsbGV5ZSAiV2Fs
+bGV5ZSIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlz
+aGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3Bv
+dEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixXYWxsZXll
+LC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNf
+R0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsV2FsbGV5ZSwtMSwtMTtQaWtlICJQaWtl
+IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJp
+ZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90Rmlz
+aGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJvbURFVjAyLFBpa2UsLTEsLTEs
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJP
+LkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxQaWtlLC0xLC0xO0Z0cl9QYWdlICJGdHJfUGFnZSIg
+dHJ1ZSB0cnVlIGZhbHNlIDIwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQcm9qZWN0c1xGaXNoZXJp
+ZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2FybUNvb2xIb3RTcG90Rmlz
+aGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJvbURFVjAyLEZ0cl9QYWdlLC0x
+LC0xLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lT
+LkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsRnRyX1BhZ2UsLTEsLTE7RnRyX1BhZ2VfTmFt
+ZSAiRnRyX1BhZ2VfTmFtZSIgdHJ1ZSB0cnVlIGZhbHNlIDIwMCBUZXh0IDAgMCAsRmlyc3QsIyxK
+OlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNc
+V2FybUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJv
+bURFVjAyLEZ0cl9QYWdlX05hbWUsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2Rl
+djAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxGdHJf
+UGFnZV9OYW1lLC0xLC0xO1NwZWNfUmVnXzEgIlNwZWNfUmVnXzEiIHRydWUgdHJ1ZSBmYWxzZSAx
+MDAgVGV4dCAwIDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0
+ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGlu
+Z19ob3RzcG90c19vcmlnaW5hbEZyb21ERVYwMixTcGVjX1JlZ18xLC0xLC0xLERhdGFiYXNlIENv
+bm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hv
+dHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdfMSwtMSwtMTtSZWdfTGlua18xICJSZWdfTGlua18xIiB0
+cnVlIHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLEo6XFByb2plY3RzXEZpc2hlcmll
+c1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xXYXJtQ29vbEhvdFNwb3RGaXNo
+ZXJpZXMubWRiXEZpc2hpbmdfaG90c3BvdHNfb3JpZ2luYWxGcm9tREVWMDIsUmVnX0xpbmtfMSwt
+MSwtMSxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJ
+Uy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFJlZ19MaW5rXzEsLTEsLTE7U3BlY19SZWdf
+MiAiU3BlY19SZWdfMiIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxKOlxQ
+cm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcV2Fy
+bUNvb2xIb3RTcG90RmlzaGVyaWVzLm1kYlxGaXNoaW5nX2hvdHNwb3RzX29yaWdpbmFsRnJvbURF
+VjAyLFNwZWNfUmVnXzIsLTEsLTEsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0Rp
+cmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxTcGVjX1JlZ18y
+LC0xLC0xO1JlZ19MaW5rXzIgIlJlZ19MaW5rXzIiIHRydWUgdHJ1ZSBmYWxzZSAxMDAgVGV4dCAw
+IDAgLEZpcnN0LCMsSjpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVy
+aWVzX1NlY3Rpb25zXFdhcm1Db29sSG90U3BvdEZpc2hlcmllcy5tZGJcRmlzaGluZ19ob3RzcG90
+c19vcmlnaW5hbEZyb21ERVYwMixSZWdfTGlua18yLC0xLC0xLERhdGFiYXNlIENvbm5lY3Rpb25z
+XEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1Vw
+ZGF0ZWQsUmVnX0xpbmtfMiwtMSwtMSIgIzwvUHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgTmFt
+ZT0iQXBwZW5kIiBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVzICh4ODYpXEFyY0dJU1xEZXNr
+dG9wMTAuMFxBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1lbnQgVG9vbHMudGJ4XEFw
+cGVuZCIgRGF0ZT0iMjAxMjA1MTQiIFRpbWU9IjE2MjIxOCI+QXBwZW5kICdEYXRhYmFzZSBDb25u
+ZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3Rz
+cG90c19VcGRhdGVkJyAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5z
+ZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19ob3RzcG90
+cyIgTk9fVEVTVCAiTmFtZSAiTmFtZSIgdHJ1ZSB0cnVlIGZhbHNlIDQ1IFRleHQgMCAwICxGaXJz
+dCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lT
+LkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTmFtZSwtMSwtMTtDb3VudHkgIkNvdW50eSIg
+dHJ1ZSB0cnVlIGZhbHNlIDMwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25z
+XEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1Vw
+ZGF0ZWQsQ291bnR5LC0xLC0xO0xhcmdlTW91dGggIkxhcmdlTW91dGgiIHRydWUgdHJ1ZSBmYWxz
+ZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9E
+aXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsTGFyZ2VNb3V0
+aCwtMSwtMTtTbWFsbE1vdXRoICJTbWFsbE1vdXRoIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAg
+MCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQ
+RkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLFNtYWxsTW91dGgsLTEsLTE7TXVz
+V2FsbFBpayAiTXVzV2FsbFBpayIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMs
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJP
+LkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxNdXNXYWxsUGlrLC0xLC0xO1N0a1Ryb3V0ICJTdGtU
+cm91dCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVj
+dGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3Bv
+dHNfVXBkYXRlZCxTdGtUcm91dCwtMSwtMTtXaWxkVHJvdXQgIldpbGRUcm91dCIgdHJ1ZSB0cnVl
+IGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2Rl
+djAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxXaWxk
+VHJvdXQsLTEsLTE7UGFuRmlzaCAiUGFuRmlzaCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAg
+LEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZC
+Q19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxQYW5GaXNoLC0xLC0xO0ZhbUZpc2hp
+bmcgIkZhbUZpc2hpbmciIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNo
+aW5nX2hvdHNwb3RzX1VwZGF0ZWQsRmFtRmlzaGluZywtMSwtMTtJY2VfV2ludGVyICJJY2VfV2lu
+dGVyIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0
+aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90
+c19VcGRhdGVkLEljZV9XaW50ZXIsLTEsLTE7Q2hpbGRfRGlzYSAiQ2hpbGRfRGlzYSIgdHJ1ZSB0
+cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdp
+c2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxD
+aGlsZF9EaXNhLC0xLC0xO0xpbmsgIkxpbmsiIHRydWUgdHJ1ZSBmYWxzZSAxNTAgVGV4dCAwIDAg
+LEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZC
+Q19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxMaW5rLC0xLC0xO0xhdGl0dWRlICJM
+YXRpdHVkZSIgdHJ1ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMzggLEZpcnN0LCMsRGF0YWJhc2Ug
+Q29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdf
+aG90c3BvdHNfVXBkYXRlZCxMYXRpdHVkZSwtMSwtMTtMb25naXR1ZGUgIkxvbmdpdHVkZSIgdHJ1
+ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMzggLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+RmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBk
+YXRlZCxMb25naXR1ZGUsLTEsLTE7UHJpbV9BY2MgIlByaW1fQWNjIiB0cnVlIHRydWUgZmFsc2Ug
+MTAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9E
+aXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUHJpbV9BY2Ms
+LTEsLTE7RGVzY3JpcHRpb24gIkRlc2NyaXB0aW9uIiB0cnVlIHRydWUgZmFsc2UgMTA3Mzc0MTgy
+MiBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGly
+ZWN0LnNkZVxQRkJDX0dJUy5EQk8uRmlzaGluZ19ob3RzcG90c19VcGRhdGVkLERlc2NyaXB0aW9u
+LC0xLC0xO0dsb2JhbElEICJHbG9iYWxJRCIgZmFsc2UgZmFsc2UgdHJ1ZSAzOCBHbG9iYWxJRCAw
+IDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVc
+UEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxHbG9iYWxJRCwtMSwtMTtNdXNr
+eSAiTXVza3kiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENv
+bm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hv
+dHNwb3RzX1VwZGF0ZWQsTXVza3ksLTEsLTE7V2FsbGV5ZSAiV2FsbGV5ZSIgdHJ1ZSB0cnVlIGZh
+bHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAy
+X0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBkYXRlZCxXYWxsZXll
+LC0xLC0xO1Bpa2UgIlBpa2UiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERh
+dGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5G
+aXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUGlrZSwtMSwtMTtGdHJfUGFnZSAiRnRyX1BhZ2UiIHRy
+dWUgdHJ1ZSBmYWxzZSAyMDAgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+RmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLkZpc2hpbmdfaG90c3BvdHNfVXBk
+YXRlZCxGdHJfUGFnZSwtMSwtMTtGdHJfUGFnZV9OYW1lICJGdHJfUGFnZV9OYW1lIiB0cnVlIHRy
+dWUgZmFsc2UgMjAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJn
+aXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQs
+RnRyX1BhZ2VfTmFtZSwtMSwtMTtTcGVjX1JlZ18xICJTcGVjX1JlZ18xIiB0cnVlIHRydWUgZmFs
+c2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYw
+Ml9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19S
+ZWdfMSwtMSwtMTtSZWdfTGlua18xICJSZWdfTGlua18xIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRl
+eHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Qu
+c2RlXFBGQkNfR0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMSwtMSwt
+MTtTcGVjX1JlZ18yICJTcGVjX1JlZ18yIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxG
+aXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNf
+R0lTLkRCTy5GaXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsU3BlY19SZWdfMiwtMSwtMTtSZWdfTGlu
+a18yICJSZWdfTGlua18yIiB0cnVlIHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLERh
+dGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5G
+aXNoaW5nX2hvdHNwb3RzX1VwZGF0ZWQsUmVnX0xpbmtfMiwtMSwtMSIgIzwvUHJvY2Vzcz4NCiAg
+ICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iYzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxhcmNnaXNc
+ZGVza3RvcDEwLjBcQXJjVG9vbGJveFxUb29sYm94ZXNcQ29udmVyc2lvbiBUb29scy50YnhcRmVh
+dHVyZUNsYXNzVG9GZWF0dXJlQ2xhc3MiIERhdGU9IjIwMTIxMjI4IiBUaW1lPSIwOTM4MzAiPkZl
+YXR1cmVDbGFzc1RvRmVhdHVyZUNsYXNzICJEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2
+MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNo
+aW5nX2hvdHNwb3RzIiBBOlxQcm9qZWN0c1xQQVNEQVxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1k
+YiBGaXNoaW5nX0hvdHNwb3RzICMgIk5hbWUgIk5hbWUiIHRydWUgdHJ1ZSBmYWxzZSA0NSBUZXh0
+IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNk
+ZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3Rz
+LE5hbWUsLTEsLTE7Q291bnR5ICJDb3VudHkiIHRydWUgdHJ1ZSBmYWxzZSAzMCBUZXh0IDAgMCAs
+Rmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJD
+X0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLENvdW50
+eSwtMSwtMTtMYXJnZU1vdXRoICJMYXJnZU1vdXRoIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAg
+MCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQ
+RkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLExh
+cmdlTW91dGgsLTEsLTE7U21hbGxNb3V0aCAiU21hbGxNb3V0aCIgdHJ1ZSB0cnVlIGZhbHNlIDUg
+VGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVj
+dC5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19ob3Rz
+cG90cyxTbWFsbE1vdXRoLC0xLC0xO011c1dhbGxQaWsgIk11c1dhbGxQaWsiIHRydWUgdHJ1ZSBm
+YWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYw
+Ml9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hp
+bmdfaG90c3BvdHMsTXVzV2FsbFBpaywtMSwtMTtTdGtUcm91dCAiU3RrVHJvdXQiIHRydWUgdHJ1
+ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNk
+ZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZp
+c2hpbmdfaG90c3BvdHMsU3RrVHJvdXQsLTEsLTE7V2lsZFRyb3V0ICJXaWxkVHJvdXQiIHRydWUg
+dHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJn
+aXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJP
+LmZpc2hpbmdfaG90c3BvdHMsV2lsZFRyb3V0LC0xLC0xO1BhbkZpc2ggIlBhbkZpc2giIHRydWUg
+dHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJn
+aXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJP
+LmZpc2hpbmdfaG90c3BvdHMsUGFuRmlzaCwtMSwtMTtGYW1GaXNoaW5nICJGYW1GaXNoaW5nIiB0
+cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xG
+YmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lT
+LkRCTy5maXNoaW5nX2hvdHNwb3RzLEZhbUZpc2hpbmcsLTEsLTE7SWNlX1dpbnRlciAiSWNlX1dp
+bnRlciIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVj
+dGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQ
+RkJDX0dJUy5EQk8uZmlzaGluZ19ob3RzcG90cyxJY2VfV2ludGVyLC0xLC0xO0NoaWxkX0Rpc2Eg
+IkNoaWxkX0Rpc2EiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNl
+IENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01h
+cHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMsQ2hpbGRfRGlzYSwtMSwtMTtMaW5r
+ICJMaW5rIiB0cnVlIHRydWUgZmFsc2UgMTUwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENv
+bm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMsTGluaywtMSwtMTtMYXRpdHVkZSAiTGF0
+aXR1ZGUiIHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDM4ICxGaXJzdCwjLERhdGFiYXNlIENv
+bm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMsTGF0aXR1ZGUsLTEsLTE7TG9uZ2l0dWRl
+ICJMb25naXR1ZGUiIHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDM4ICxGaXJzdCwjLERhdGFi
+YXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJD
+X01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMsTG9uZ2l0dWRlLC0xLC0xO1By
+aW1fQWNjICJQcmltX0FjYyIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8u
+UEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLFByaW1fQWNjLC0xLC0x
+O0Rlc2NyaXB0aW9uICJEZXNjcmlwdGlvbiIgdHJ1ZSB0cnVlIGZhbHNlIDEwNzM3NDE4MjIgVGV4
+dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcRmJoYmdpc2RldjAyX0RpcmVjdC5z
+ZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19ob3RzcG90
+cyxEZXNjcmlwdGlvbiwtMSwtMTtHbG9iYWxJRCAiR2xvYmFsSUQiIGZhbHNlIGZhbHNlIHRydWUg
+MzggR2xvYmFsSUQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYw
+Ml9EaXJlY3Quc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hp
+bmdfaG90c3BvdHMsR2xvYmFsSUQsLTEsLTE7TXVza3kgIk11c2t5IiB0cnVlIHRydWUgZmFsc2Ug
+NSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGly
+ZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hv
+dHNwb3RzLE11c2t5LC0xLC0xO1dhbGxleWUgIldhbGxleWUiIHRydWUgdHJ1ZSBmYWxzZSA1IFRl
+eHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Qu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3Bv
+dHMsV2FsbGV5ZSwtMSwtMTtQaWtlICJQaWtlIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAs
+Rmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJD
+X0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLFBpa2Us
+LTEsLTE7RnRyX1BhZ2UgIkZ0cl9QYWdlIiB0cnVlIHRydWUgZmFsc2UgMjAwIFRleHQgMCAwICxG
+aXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXEZiaGJnaXNkZXYwMl9EaXJlY3Quc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMsRnRyX1Bh
+Z2UsLTEsLTE7RnRyX1BhZ2VfTmFtZSAiRnRyX1BhZ2VfTmFtZSIgdHJ1ZSB0cnVlIGZhbHNlIDIw
+MCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGly
+ZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hv
+dHNwb3RzLEZ0cl9QYWdlX05hbWUsLTEsLTE7U3BlY19SZWdfMSAiU3BlY19SZWdfMSIgdHJ1ZSB0
+cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhi
+Z2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRC
+Ty5maXNoaW5nX2hvdHNwb3RzLFNwZWNfUmVnXzEsLTEsLTE7UmVnX0xpbmtfMSAiUmVnX0xpbmtf
+MSIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0
+aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLFJlZ19MaW5rXzEsLTEsLTE7U3BlY19SZWdfMiAi
+U3BlY19SZWdfMiIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19N
+YXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLFNwZWNfUmVnXzIsLTEsLTE7UmVn
+X0xpbmtfMiAiUmVnX0xpbmtfMiIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3Qs
+IyxEYXRhYmFzZSBDb25uZWN0aW9uc1xGYmhiZ2lzZGV2MDJfRGlyZWN0LnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5maXNoaW5nX2hvdHNwb3RzLFJlZ19MaW5rXzIs
+LTEsLTEiICM8L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9ImM6XHByb2dy
+YW0gZmlsZXMgKHg4NilcYXJjZ2lzXGRlc2t0b3AxMC4wXEFyY1Rvb2xib3hcVG9vbGJveGVzXENv
+bnZlcnNpb24gVG9vbHMudGJ4XEZlYXR1cmVDbGFzc1RvRmVhdHVyZUNsYXNzIiBEYXRlPSIyMDEz
+MDEwMiIgVGltZT0iMTA1MTQ2Ij5GZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyBEOlxQQVNEQV9G
+aXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzIEQ6XERBVEFcUEZCQyBGaXNoaW5n
+X0hvdHNwb3RzLnNocCAjICJOYW1lICJOYW1lIiB0cnVlIHRydWUgZmFsc2UgNDUgVGV4dCAwIDAg
+LEZpcnN0LCMsRDpcUEFTREFfRmlzaGluZ19Ib3RzcG90cy5tZGJcRmlzaGluZ19Ib3RzcG90cyxO
+YW1lLC0xLC0xO0NvdW50eSAiQ291bnR5IiB0cnVlIHRydWUgZmFsc2UgMzAgVGV4dCAwIDAgLEZp
+cnN0LCMsRDpcUEFTREFfRmlzaGluZ19Ib3RzcG90cy5tZGJcRmlzaGluZ19Ib3RzcG90cyxDb3Vu
+dHksLTEsLTE7TGFyZ2VNb3V0aCAiTGFyZ2VNb3V0aCIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAw
+IDAgLEZpcnN0LCMsRDpcUEFTREFfRmlzaGluZ19Ib3RzcG90cy5tZGJcRmlzaGluZ19Ib3RzcG90
+cyxMYXJnZU1vdXRoLC0xLC0xO1NtYWxsTW91dGggIlNtYWxsTW91dGgiIHRydWUgdHJ1ZSBmYWxz
+ZSA1IFRleHQgMCAwICxGaXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3BvdHMubWRiXEZpc2hp
+bmdfSG90c3BvdHMsU21hbGxNb3V0aCwtMSwtMTtNdXNXYWxsUGlrICJNdXNXYWxsUGlrIiB0cnVl
+IHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3Rz
+Lm1kYlxGaXNoaW5nX0hvdHNwb3RzLE11c1dhbGxQaWssLTEsLTE7U3RrVHJvdXQgIlN0a1Ryb3V0
+IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hv
+dHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLFN0a1Ryb3V0LC0xLC0xO1dpbGRUcm91dCAiV2ls
+ZFRyb3V0IiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNo
+aW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLFdpbGRUcm91dCwtMSwtMTtQYW5GaXNo
+ICJQYW5GaXNoIiB0cnVlIHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9G
+aXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLFBhbkZpc2gsLTEsLTE7RmFtRmlz
+aGluZyAiRmFtRmlzaGluZyIgdHJ1ZSB0cnVlIGZhbHNlIDUgVGV4dCAwIDAgLEZpcnN0LCMsRDpc
+UEFTREFfRmlzaGluZ19Ib3RzcG90cy5tZGJcRmlzaGluZ19Ib3RzcG90cyxGYW1GaXNoaW5nLC0x
+LC0xO0ljZV9XaW50ZXIgIkljZV9XaW50ZXIiIHRydWUgdHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxG
+aXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3BvdHMubWRiXEZpc2hpbmdfSG90c3BvdHMsSWNl
+X1dpbnRlciwtMSwtMTtDaGlsZF9EaXNhICJDaGlsZF9EaXNhIiB0cnVlIHRydWUgZmFsc2UgNSBU
+ZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hv
+dHNwb3RzLENoaWxkX0Rpc2EsLTEsLTE7TGluayAiTGluayIgdHJ1ZSB0cnVlIGZhbHNlIDE1MCBU
+ZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hv
+dHNwb3RzLExpbmssLTEsLTE7TGF0aXR1ZGUgIkxhdGl0dWRlIiB0cnVlIHRydWUgZmFsc2UgOCBE
+b3VibGUgMCAwICxGaXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3BvdHMubWRiXEZpc2hpbmdf
+SG90c3BvdHMsTGF0aXR1ZGUsLTEsLTE7TG9uZ2l0dWRlICJMb25naXR1ZGUiIHRydWUgdHJ1ZSBm
+YWxzZSA4IERvdWJsZSAwIDAgLEZpcnN0LCMsRDpcUEFTREFfRmlzaGluZ19Ib3RzcG90cy5tZGJc
+RmlzaGluZ19Ib3RzcG90cyxMb25naXR1ZGUsLTEsLTE7UHJpbV9BY2MgIlByaW1fQWNjIiB0cnVl
+IHRydWUgZmFsc2UgMTAwIFRleHQgMCAwICxGaXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3Bv
+dHMubWRiXEZpc2hpbmdfSG90c3BvdHMsUHJpbV9BY2MsLTEsLTE7TXVza3kgIk11c2t5IiB0cnVl
+IHRydWUgZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3Rz
+Lm1kYlxGaXNoaW5nX0hvdHNwb3RzLE11c2t5LC0xLC0xO1dhbGxleWUgIldhbGxleWUiIHRydWUg
+dHJ1ZSBmYWxzZSA1IFRleHQgMCAwICxGaXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3BvdHMu
+bWRiXEZpc2hpbmdfSG90c3BvdHMsV2FsbGV5ZSwtMSwtMTtQaWtlICJQaWtlIiB0cnVlIHRydWUg
+ZmFsc2UgNSBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxG
+aXNoaW5nX0hvdHNwb3RzLFBpa2UsLTEsLTE7RnRyX1BhZ2UgIkZ0cl9QYWdlIiB0cnVlIHRydWUg
+ZmFsc2UgMjAwIFRleHQgMCAwICxGaXJzdCwjLEQ6XFBBU0RBX0Zpc2hpbmdfSG90c3BvdHMubWRi
+XEZpc2hpbmdfSG90c3BvdHMsRnRyX1BhZ2UsLTEsLTE7RnRyX1BhZ2VfTiAiRnRyX1BhZ2VfTmFt
+ZSIgdHJ1ZSB0cnVlIGZhbHNlIDIwMCBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5n
+X0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLEZ0cl9QYWdlX05hbWUsLTEsLTE7U3BlY19S
+ZWdfMSAiU3BlY19SZWdfMSIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxE
+OlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLFNwZWNfUmVnXzEs
+LTEsLTE7UmVnX0xpbmtfMSAiUmVnX0xpbmtfMSIgdHJ1ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAg
+MCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNoaW5nX0hvdHNwb3Rz
+LFJlZ19MaW5rXzEsLTEsLTE7U3BlY19SZWdfMiAiU3BlY19SZWdfMiIgdHJ1ZSB0cnVlIGZhbHNl
+IDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNwb3RzLm1kYlxGaXNo
+aW5nX0hvdHNwb3RzLFNwZWNfUmVnXzIsLTEsLTE7UmVnX0xpbmtfMiAiUmVnX0xpbmtfMiIgdHJ1
+ZSB0cnVlIGZhbHNlIDEwMCBUZXh0IDAgMCAsRmlyc3QsIyxEOlxQQVNEQV9GaXNoaW5nX0hvdHNw
+b3RzLm1kYlxGaXNoaW5nX0hvdHNwb3RzLFJlZ19MaW5rXzIsLTEsLTEiICM8L1Byb2Nlc3M+DQog
+ICAgICA8L2xpbmVhZ2U+DQogICAgICA8aXRlbVByb3BzPg0KICAgICAgICA8aW1zQ29udGVudFR5
+cGU+MDAyPC9pbXNDb250ZW50VHlwZT4NCiAgICAgIDwvaXRlbVByb3BzPg0KICAgICAgPGNvcHlI
+aXN0b3J5Pg0KICAgICAgICA8Y29weSBzb3VyY2U9IkM6XERBVEFcQmVzdEZpc2hpbmdXYXRlcnNf
+TGFrZXMyMDE3MDEiIGRlc3Q9IlxcVUxNVVNcQyRcREFUQVxCZXN0RmlzaGluZ1dhdGVyc19MYWtl
+czIwMTcwMSAoMSkiIGRhdGU9IjIwMTcwMTIxIiB0aW1lPSIxMDUzNTQwMCIgLz4NCiAgICAgIDwv
+Y29weUhpc3Rvcnk+DQogICAgPC9EYXRhUHJvcGVydGllcz4NCiAgICA8QXJjR0lTc3R5bGU+RkdE
+QyBDU0RHTSBNZXRhZGF0YTwvQXJjR0lTc3R5bGU+DQogICAgPHNjYWxlUmFuZ2U+DQogICAgICA8
+bWluU2NhbGU+MTUwMDAwMDAwPC9taW5TY2FsZT4NCiAgICAgIDxtYXhTY2FsZT41MDAwPC9tYXhT
+Y2FsZT4NCiAgICA8L3NjYWxlUmFuZ2U+DQogICAgPEFyY0dJU1Byb2ZpbGU+RkdEQzwvQXJjR0lT
+UHJvZmlsZT4NCiAgPC9Fc3JpPg0KICA8ZGF0YUlkSW5mbz4NCiAgICA8aWRDaXRhdGlvbj4NCiAg
+ICAgIDxyZXNUaXRsZSBTeW5jPSJGQUxTRSI+UEZCQyBCZXN0IEZpc2hpbmcgV2F0ZXJzIFN0cmVh
+bXM8L3Jlc1RpdGxlPg0KICAgIDwvaWRDaXRhdGlvbj4NCiAgICA8aWRQdXJwPk1hcHBpbmcgYW5k
+IHByb21vdGlvbiBvZiB0aGUgdmFyaW91cyB3YXRlciBib2RpZXMgaW4gUGVubnN5bHZhbmlhIHRo
+YXQgYXJlIGtub3duIHRvIGhhdmUgZ29vZCBmaXNoaW5nIG9wcG9ydHVuaXRpZXMuPC9pZFB1cnA+
+DQogICAgPGlkQWJzPiZsdDtESVYgU1RZTEU9InRleHQtYWxpZ246TGVmdDsiJmd0OyZsdDtESVYm
+Z3Q7Jmx0O0RJViZndDsmbHQ7UCZndDsmbHQ7U1BBTiZndDsmbHQ7U1BBTiZndDvigJxQZW5uc3ls
+dmFuaWHigJlzIEJlc3QgRmlzaGluZyBXYXRlcnPigJ0gcHJvZ3JhbSBpZGVudGlmaWVzIHByb3Zl
+biB3YXRlcnMgZm9yIHNwZWNpZmljIHNwZWNpZXMuwqAgVGhpcyBsaXN0aW5nIGluY2x1ZGVzIHN1
+Z2dlc3Rpb25zIGZvciBkaXN0aW5jdCBzcGVjaWVzIHdpdGhpbiBQQSBTdHJlYW1zLiZsdDsvU1BB
+TiZndDsmbHQ7L1NQQU4mZ3Q7Jmx0Oy9QJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OyZsdDsv
+RElWJmd0OzwvaWRBYnM+DQogICAgPGlkQ3JlZGl0PlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0
+IENvbW1pc3Npb248L2lkQ3JlZGl0Pg0KICAgIDxzZWFyY2hLZXlzPg0KICAgICAgPGtleXdvcmQ+
+RmlzaGluZzwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPlJlY3JlYXRpb248L2tleXdvcmQ+DQog
+ICAgICA8a2V5d29yZD5pbmxhbmRXYXRlcnM8L2tleXdvcmQ+DQogICAgPC9zZWFyY2hLZXlzPg0K
+ICAgIDxyZXNDb25zdD4NCiAgICAgIDxDb25zdHM+DQogICAgICAgIDx1c2VMaW1pdD4mbHQ7RElW
+IFNUWUxFPSJ0ZXh0LWFsaWduOkxlZnQ7IiZndDsmbHQ7RElWJmd0OyZsdDtESVYmZ3Q7Jmx0O1Am
+Z3Q7Jmx0O1NQQU4mZ3Q7Tm9uZSBwcm92aWRlZCBjcmVkaXQgaXMgZ2l2ZW4gdG8gdGhlIFBlbm5z
+eWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gKFBGQkMpIGFzIGxvbmcgYXMgdGhlIGRh
+dGEgaXMgaW4gaXRzIG9yaWdpbmFsIHVuYWx0ZXJlZCBzdGF0ZS4gSWYgbW9kaWZpY2F0aW9ucyBh
+cmUgbWFkZSB0byB0aGUgZGF0YSBzZXQsIHVzZXJzIGFyZSBvYmxpZ2F0ZWQgdG8gZGVzY3JpYmUg
+dGhlIHR5cGVzIG9mIG1vZGlmaWNhdGlvbnMgdGhleSBoYXZlIG1hZGUuIFVzZXJzIGFyZSBub3Qg
+dG8gbWlzcmVwcmVzZW50IFBGQkMgZGF0YSBzZXRzLCBub3IgdG8gaW1wbHkgdGhhdCBjaGFuZ2Vz
+IHRoZXkgKHVzZXJzKSBoYXZlIG1hZGUgd2VyZSBhcHByb3ZlZCBieSB0aGUgUEZCQy4mbHQ7L1NQ
+QU4mZ3Q7Jmx0Oy9QJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OzwvdXNl
+TGltaXQ+DQogICAgICA8L0NvbnN0cz4NCiAgICA8L3Jlc0NvbnN0Pg0KICA8L2RhdGFJZEluZm8+
+DQogIDxkaXN0aW5mbz4NCiAgICA8ZGlzdHJpYj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8
+Y250cGVycD4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBTcGF0aWFsIERhdGEgQWNj
+ZXNzIChQQVNEQSk8L2NudG9yZz4NCiAgICAgICAgPC9jbnRwZXJwPg0KICAgICAgICA8Y250YWRk
+cj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRk
+cnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+MTE1IExhbmQgYW5kIFdhdGVyIGJ1aWxkaW5nPC9h
+ZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PlVuaXZlcnNpdHkgUGFyazwvY2l0eT4NCiAgICAgICAg
+ICA8c3RhdGU+UGVubnN5bHZhbmlhPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE2ODAyPC9w
+b3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VW5pdGVkIFN0YXRlczwvY291bnRyeT4NCiAgICAg
+ICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+KDgxNCkgODY1IC0gODc5MjwvY250dm9p
+Y2U+DQogICAgICAgIDxjbnRlbWFpbD5wYXNkYUBwc3UuZWR1PC9jbnRlbWFpbD4NCiAgICAgIDwv
+Y250aW5mbz4NCiAgICA8L2Rpc3RyaWI+DQogICAgPGRpc3RsaWFiPlRoZSBVU0VSIHNoYWxsIGlu
+ZGVtbmlmeSwgc2F2ZSBoYXJtbGVzcywgYW5kLCBpZiByZXF1ZXN0ZWQsIGRlZmVuZCB0aG9zZSBw
+YXJ0aWVzIGludm9sdmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gb2Yg
+dGhpcyBkYXRhLCB0aGVpciBvZmZpY2VycywgYWdlbnRzLCBhbmQgZW1wbG95ZWVzIGZyb20gYW5k
+IGFnYWluc3QgYW55IHN1aXRzLCBjbGFpbXMsIG9yIGFjdGlvbnMgZm9yIGluanVyeSwgZGVhdGgs
+IG9yIHByb3BlcnR5IGRhbWFnZSBhcmlzaW5nIG91dCBvZiB0aGUgdXNlIG9mIG9yIGFueSBkZWZl
+Y3QgaW4gdGhlIEZJTEVTIG9yIGFueSBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbi4gVGhvc2Ug
+cGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIGV4
+Y2x1ZGVkIGFueSBhbmQgYWxsIGltcGxpZWQgd2FycmFudGllcywgaW5jbHVkaW5nIHdhcnJhbnRp
+ZXMgb3IgbWVyY2hhbnRhYmlsaXR5IGFuZCBmaXRuZXNzIGZvciBhIHBhcnRpY3VsYXIgcHVycG9z
+ZSBhbmQgbWFrZXMgbm8gd2FycmFudHkgb3IgcmVwcmVzZW50YXRpb24sIGVpdGhlciBleHByZXNz
+IG9yIGltcGxpZWQsIHdpdGggcmVzcGVjdCB0byB0aGUgRklMRVMgb3IgYWNjb21wYW55aW5nIGRv
+Y3VtZW50YXRpb24sIGluY2x1ZGluZyBpdHMgcXVhbGl0eSwgcGVyZm9ybWFuY2UsIG1lcmNoYW50
+YWJpbGl0eSwgb3IgZml0bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UuIFRoZSBGSUxFUyBh
+bmQgZG9jdW1lbnRhdGlvbiBhcmUgcHJvdmlkZWQgImFzIGlzIiBhbmQgdGhlIFVTRVIgYXNzdW1l
+cyB0aGUgZW50aXJlIHJpc2sgYXMgdG8gaXRzIHF1YWxpdHkgYW5kIHBlcmZvcm1hbmNlLiBUaG9z
+ZSBwYXJ0aWVzIGludm9sdmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24g
+b2YgdGhpcyBkYXRhIHdpbGwgbm90IGJlIGxpYWJsZSBmb3IgYW55IGRpcmVjdCwgaW5kaXJlY3Qs
+IHNwZWNpYWwsIGluY2lkZW50YWwsIG9yIGNvbnNlcXVlbnRpYWwgZGFtYWdlcyBhcmlzaW5nIG91
+dCBvZiB0aGUgdXNlIG9yIGluYWJpbGl0eSB0byB1c2UgdGhlIEZJTEVTIG9yIGFueSBhY2NvbXBh
+bnlpbmcgZG9jdW1lbnRhdGlvbi4NCjwvZGlzdGxpYWI+DQogICAgPHJlc2Rlc2M+ZG93bmxvYWRh
+YmxlIGRhdGE8L3Jlc2Rlc2M+DQogIDwvZGlzdGluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

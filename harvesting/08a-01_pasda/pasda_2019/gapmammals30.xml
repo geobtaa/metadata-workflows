@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Wayne L. Myers, Joseph A. Bishop</origin>
+        <pubdate>2000</pubdate>
+        <title>Pennsylvania conservation gap mammal habitat models; 30 meter resolution</title>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Wayne L. Myers</origin>
+            <pubdate>2000</pubdate>
+            <title>Pennsylvania conservation gap analysis vertebrate species habitat models</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1993</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-81.00815292</westbc>
+        <eastbc>-74.19768625</eastbc>
+        <northbc>42.75504061</northbc>
+        <southbc>38.87123889</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>conservation gap analysis</themekey>
+        <themekey>gap analysis</themekey>
+        <themekey>mammals</themekey>
+        <themekey>vertebrate species</themekey>
+        <themekey>biological</themekey>
+        <themekey>habitat range</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst GROUP="'pasda'">These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Wayne L. Myers</cntper>
+          <cntorg>Office for Remote Sensing of Earth Resources</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-863-0002</cntvoice>
+        <cntemail>wlm@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Habitat matrices compiled by Robert P. Brooks, Pennsylvania State University.  Reviewed by: Cal Butchkowski, Pennsylvania Game Commission (bats); Michael Gannon, Pennsylvania State University (bats); James Hart, Shippensburg University; Matt Lavallo, Pennsylvania Game Commission (bobcat, elk); Joseph Merritt, Powdermill Nature Reserve, Carnegie Museum of Natural History; Thomas Serfass, Frostburg State University; Richard Yahner, Pennsylvania State University</datacred>
+    <descript>
+      <abstract>gapmammals30</abstract>
+    </descript>
+  </idinfo>
+  <dataqual GROUP="'gap'">
+    <attracc>
+      <attraccr>Habitat matrices determining key environmental factors were developed and delivered to expert reviewers for comment.  These matrices are the basis for all resulting conditional statements regarding the final result in the habitat model layer.  Validation sets were based on checklists derived from observational studies.  Full information on these studies can be found in the project report available from: http://www.gappage.psu.edu</attraccr>
+    </attracc>
+    <complete>Complete coverage for the state of Pennsylvania.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Corresponds to accuracy of source derived from 30x30 meter grid classification of satellite imagery as shifted to match other data.  Some verification and clarification of position and classification has been done through overlay with USGS Digital Orthophotograph quarter-quadrangles</horizpar>
+        <qhorizpa>
+          <horizpav>100</horizpav>
+          <horizpae>This value is an estimate in meters based on potential registration errors introduced by shifting the TM data to match ancillary data.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wayne L. Myers, Joseph A. Bishop</origin>
+            <pubdate>1999</pubdate>
+            <title>Vegetative land cover for Pennsylvania, 30 meter resolution</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>vegetative land cover</srccitea>
+        <srccontr>vegetation types</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joseph A. Bishop</origin>
+            <pubdate>1998</pubdate>
+            <title>Urban Areas of Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+            <onlink>ftp://www.pasda.psu.edu/pub/pasda/urban/urban.zip</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Environmental Resource Research Institute</origin>
+                <pubdate>199807</pubdate>
+                <title>Pennsylvania Gap Analysis Project</title>
+                <pubinfo>
+                  <pubplace>University Park, Pa</pubplace>
+                  <publish>Environmental Resource Research Institute</publish>
+                </pubinfo>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>urbanized land</srccitea>
+        <srccontr>areas of human activity and disturbance</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wayne L. Myers, Joseph A. Bishop</origin>
+            <pubdate>1999</pubdate>
+            <title>Land cover/urbanized lands for Pennsylvania</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>land cover/urbanized</srccitea>
+        <srccontr>combination of land cover and urbanized land further classifies habitat possibilities by including urban and suburban areas containing vegetation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey (USGS), EROS Data Center</origin>
+            <pubdate>1999</pubdate>
+            <title>National Elevation Dataset for Pennsylvania</title>
+            <edition>1</edition>
+            <pubinfo>
+              <pubplace>Sioux Falls, SD</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>digital elevation model</srccitea>
+        <srccontr>elevations for habitat classification and derivation of slope and aspect identification</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection Agency Environmental Monitoring and Assessment Program (EMAP)</origin>
+            <pubdate>1998</pubdate>
+            <title>EMAP Hexagonal Tessellation for Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Gap Analysis Program. Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/documents.cgi/gap/gap-pahex.xml</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>hexagon areas</srccitea>
+        <srccontr>635 sq.km. hexagon grid used by Gap for compilation of species occurrence</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1998</pubdate>
+            <title>Streams of Pennsylvania</title>
+            <edition>1</edition>
+            <pubinfo>
+              <pubplace>Harrisburg, Pennsylvania</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Pennsylvania streams</srccitea>
+        <srccontr>stream size and location for habitat classification and derivation of buffered layers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wayne L. Myers, Joseph A. Bishop</origin>
+            <pubdate>2000</pubdate>
+            <title>Wetland areas in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+            <lworkcit>
+            </lworkcit>
+            <lworkcit>
+              <citeinfo>
+                <origin>Multi-Resolution Land Characteristics Consortium (MRLC)</origin>
+                <pubdate>1993</pubdate>
+                <title>MRLC Landsat Thematic Mapper scenes, Pennsylvania</title>
+                <geoform>remote-sensing image</geoform>
+                <pubinfo>
+                  <pubplace>unknown</pubplace>
+                  <publish>MRLC</publish>
+                </pubinfo>
+                <onlink>http://www.epa.gov/docs/grd/mrlc/</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>wetlands</srccitea>
+        <srccontr>location of wetland areas and for derivation of buffered layers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joseph A. Bishop</origin>
+            <pubdate>1999</pubdate>
+            <title>Topographic positions in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, Pa.</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>topographic position</srccitea>
+        <srccontr>slope and elevation information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joseph A. Bishop</origin>
+            <pubdate>2000</pubdate>
+            <title>Disturbed Lands in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, Pa.</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Disturbed lands</srccitea>
+        <srccontr>identification of agricultural and paved areas</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joseph A. Bishop</origin>
+            <pubdate>2000</pubdate>
+            <title>Ordered small watersheds of Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, Pa.</pubplace>
+              <publish>Pennsylvania Gap Analysis Program.  Environmental Resources Research Institute, The Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ordered watersheds</srccitea>
+        <srccontr>watershed boundaries and stream order (size) data to inform the models</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>R.M. DeGraaf and D.D. Rudis</origin>
+            <pubdate>1986</pubdate>
+            <title>New England wildlife: habitat, natural history and distribution</title>
+            <geoform>book</geoform>
+            <serinfo>
+              <sername>Pennsylvania General Technical Report</sername>
+              <issue>NE-108</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Broomall, PA</pubplace>
+              <publish>U.S. Dept. of Agriculture, Forest Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srccontr>Background information for habitat matrices</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>C. Jones, R.S. Hoffman, D.W. Rice, M.D. Engstrom, R.D. Bradley, D.J. Schmidly, C.A. Jones and R.J. Baker</origin>
+            <pubdate>1997</pubdate>
+            <title>Revised checklist of North American mammals north of Mexico, 1997</title>
+            <geoform>book</geoform>
+            <serinfo>
+              <sername>Museum of Texas Tech University Occasional Papers</sername>
+              <issue>173:1-19</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Tex.</pubplace>
+              <publish>Museum of Texas Tech University</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srccontr>Background information for habitat matrices</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>J.F. Merritt</origin>
+            <pubdate>1987</pubdate>
+            <title>Guide to the mammals of Pennsylvania</title>
+            <geoform>book</geoform>
+            <pubinfo>
+              <pubplace>Pittsburgh, PA</pubplace>
+              <publish>Carnegie Museum of Natural History, University of Pittsburgh Press</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srccontr>Background information for habitat matrices</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Habitat matrices were developed for each of the three animal groups.  Columns represented the potential habitat variables mentioned in the data layer descriptions and rows represent individual species.  Each species row includes the species
+Other than noted exceptions variables are coded with numbers that range from one to four which rates each variable as to its relevance to that specific habitat model.  The code descriptions are as follows:
+1 = habitat type required by species (primary use)
+2 = habitat type may be used by species (secondary use)
+3 = habitat type not used by species (avoided)
+4 = not applicable to species (variable not used in model)
+In addition to the previously described variables a minimum area variable was included to help locate areas suitable for species that are sensitive to landscape fragmentation.  Minimum area was calculated via a three-step process with the Spatial Analyst. The first step isolated and labeled potential habitat patches; the second step calculated the actual area (ha) of each habitat patch; and, the third step removed patches that were either too big or too small to be habitat.  This variable was frequently used for birds that are known only to nest in habitat larger than a minimum size.  The matrix lists the minimum size in hectares.  Also, a few reptile species included this variable in their model.  For reptiles the variable had a coded value that indicated a minimum or maximum area of open water for habitat.  The codes are as follows:
+1 = less than 4 ha
+2 = greater than 4 ha
+Each matrix includes a notes [NOTES] or special requirements column as well.  Some notes were accounted for in the modeling process while others listed habitat characteristics that were too small to be addressed by the available data layers.
+</procdesc>
+        <procdate>1999</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Joseph A. Bishop</cntper>
+              <cntorg>Environmental Resources Research Institute</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>Environmental Resources Research Institute, The Pennsylvania State University, Land and Water Building</address>
+              <city>University Park</city>
+              <state>Pennsylvania</state>
+              <postal>16802</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>814-863-0291</cntvoice>
+            <cntemail>jab190@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The modeling process for each species proceeded as a series of conditional statements constructed to identify habitat and eliminated non-habitat areas.  The previously mentioned layers were manipulated with the Spatial Analyst extension of ArcView geographic information system (GIS) software to process the models within a raster GIS environment.  Each layer was converted into an ARC/INFO grid format containing grid cells with a 30m resolution.   Upon review of the habitat matrix for a species the exact sequence of conditional statements was established.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The Vegetative Land Cover was reclassified based on matrix values.  Non-habitat values (3's) for all model variables noted immediately.  An area of non-habitat for any variable will not be altered by another variable.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Note variables coded as "4 - Not applicable" to the model.  It's important to envision the interactions of the variables.  If, for example, an urban variable has a code of 4 then the Vegetation Land Cover would take precedence over those areas that would otherwise be treated as urban.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Wetlands, including streams, were typically addressed next.  The coincidence of a wetland coded 2, secondary habitat, and the vegetation coded-1, primary habitat, returned a code 2.  This is coupled with the coincidence of a wetland coded 1, primary habitat, and the vegetation coded 2, secondary habitat, returning a code 1.  A wetland coded 3, non-habitat, will return a code 3.</procdesc>
+        <srcused>wetlands</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Stream modifying conditions were addressed next.  This step either selected streams outside the proper size class and removed or degraded the classification within the stream buffer or degraded the stream buffer based on the disturbance level of the stream buffer.  This was always a degrading process.  Streams initially classed as primary or secondary would be reduced to secondary or non-habitat respectively.</procdesc>
+        <srcused>Pennsylvania streams</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Due to their destructive influence urban areas are always treated as a degrading layer.  If urban areas have been classed as secondary all coincident areas previously primary habitat will be returned as secondary.  Also, urban areas classed as non-habitat will always have a value of 3.</procdesc>
+        <srcused>urbanized land</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The minimum area and elevation variables were considered next.  Steps 3-5 can be thought of as variables that modify other variables where minimum area and elevation are more extractive.  Any area too small (or large) or outside the correct elevation and /or topographic position zone will be converted to non-habitat.</procdesc>
+        <srcused>digital elevation model</srcused>
+        <srcused>topographic position</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Eight mammal species are listed as wetland dependent as noted in the [NOTES] column in the habitat matrix.  Smoky shrew (Sorex fumeus), Longtail shrew (Sorex dispar) and Star-nose mole (Condylura cristata) used the 100m buffer layers and Northern water shrew (Sorex palustris), American beaver (Castor canadensis), Common muskrat (Ondatra zibethicus), American mink (Mustela vison) and River otter (Lutra canadensis) required the 30m buffer layers.  The Bobcat (Lynx rufus) included an aspect range in its model.  Aspects from 60 to 150 degrees were coded as primary habitat.  Its affect on the model was to promote any previously coded secondary habitat, within this range, to primary habitat.  Also aspects within the range from 240 to 330 degrees were coded as non-habitat.  Other aspect ranges were unaffected.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The process of locating potential habitat for each vertebrate species includes identifying each species' potential range in Pennsylvania as well.  Early in the process of PA-GAP The Nature Conservancy compiled a database of species' occurrences for Pennsylvania.  Based on current and historic information species presence was tabulated in each of 211 hexagonal areas that form a lattice over Pennsylvania.  These hexagons were originally designed as a sampling unit for the EPA's regional EMAP program and have an area of 635 km2.  All hexagons that contained records for a particular species formed that species' preliminary range.   Once these hexagons were selected surrounded unselected hexagons, or "holes", were also added to the original set.  Finally, to eliminate the unnatural appearance of the hexagon boundaries, this hexagon layer was used to select all watersheds from the small watersheds layer.  The layer was the same layer used to create the fish habitat models.  All watersheds whose centers were contained within the hexagon boundary created a new boundary.  With a series of ARC/INFO commands the set of watersheds that were selected were copied into a new layer and their internal boundaries were dissolved to form each species' accepted potential range.  Each range was checked and, if necessary, edited for final processing.</procdesc>
+        <srcused>EPA hexagon grids, ordered watersheds</srcused>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Once the potential range map was complete the true potential habitat map could be created.  Each potential range map was converted from its original ARC/INFO vector format into an ARC/INFO grid format.  Areas of non-potential range were assigned a NODATA value and this layer was used to MASK areas of Pennsylvania outside each species potential range.  A simple grid process created the final potential habitat layer for each species from the combination of the potential range layer and the original habitat layer initially calculated for the entire state.  This step was completed for all vertebrate species with restrictive ranges and omitted for ubiquitous species.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>To meet the national Gap specifications each final (30m) potential habitat grid was generalized to form a habitat grid with 90m cells.  Using the ARCINFO grid module two commands were used to process each final habitat.  The BLOCKMIN command classified groups of nine 30m cells into nine cells with the same value using the lowest cell value.  This command preserved the primary and secondary habitats when they occurred.  The second command, RESAMPLE, generalized the grid by forming one cell from each nine-cell group.</procdesc>
+        <procdate>2000</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>33</stdparll>
+            <stdparll>45</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>39</latprjo>
+            <feast>0</feast>
+            <fnorth>0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>30</absres>
+            <ordres>30</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+Grid cells coded for habitat suitability
+1 = Primary habitat
+2 = Secondary habitat
+3 = Non-habitat
+NODATA = Outside potential range
+</eaover>
+      <eadetcit>See detailed description of PA GAP Analysis Project.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>ftp://www.pasda.psu.edu/pub/pasda/gap/species/30meter/mammals/pa30_amalc02020.zip</resdesc>
+    <distliab GROUP="'pasda'">The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo GROUP="'gap'">
+          <formname>ARCInfo GRID</formname>
+          <formvern>7.x</formvern>
+          <formcont>ArcInfo Grid directory with Info Directory with zip compression applied to retain directory structure of original GRID.  To extract use unzip, WinZIP, pkunzip or similar utility to decompress with full directory structure.</formcont>
+          <filedec>Zip compression</filedec>
+          <transize>ca.4 MB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>megabytes</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20000227</metd>
+    <metrd>20020708</metrd>
+    <metc GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu </cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>15005600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

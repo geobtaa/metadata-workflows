@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <MetaID>{11613EEC-6BB1-4708-BCAB-E1146F0CA16C}</MetaID>
+    <CreaDate>20030415</CreaDate>
+    <CreaTime>13172500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20030415</SyncDate>
+    <SyncTime>13183100</SyncTime>
+    <ModDate>20080611</ModDate>
+    <ModTime>14164400</ModTime>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+    <citation>
+      <citeinfo>
+        <origin>American Forests</origin>
+        <pubdate>March 2003</pubdate>
+        <title>Delaware Valley Land Cover 1985</title>
+        <ftname Sync="TRUE">tm85_cls7_final1.img</ftname>
+        <geoform Sync="TRUE">remote-sensing image</geoform>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/amerforest/amerfor-tm85_cls7_final1.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>ground condition</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>1985</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-76.151420</westbc>
+        <eastbc Sync="TRUE">-74.381169</eastbc>
+        <northbc Sync="TRUE">40.609183</northbc>
+        <southbc Sync="TRUE">39.508766</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">402584.750000</leftbc>
+        <rightbc Sync="TRUE">552352.250000</rightbc>
+        <bottombc Sync="TRUE">4373850.250000</bottombc>
+        <topbc Sync="TRUE">4495374.250000</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Trees</themekey>
+        <themekey>Landcover</themekey>
+        <themekey>Forest</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+      </theme>
+      <place>
+        <placekey>Philadelphia</placekey>
+        <placekey>Delaware Valley</placekey>
+        <placekey>Bucks County</placekey>
+        <placekey>Chester County</placekey>
+        <placekey>Glouscester County</placekey>
+        <placekey>Mercer County</placekey>
+        <placekey>Camden County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Burlington County</placekey>
+      </place>
+      <temporal>
+        <tempkey>1985</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <natvform Sync="TRUE">Raster Dataset</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>American Forests</cntorg>
+          <cntper>Ken Gorton</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>PO Box 2000</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20013</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>202-955-4500</cntvoice>
+        <cntfax>202-955-4588</cntfax>
+        <cntemail>kgorton@amfor.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>delawarevalley_landcover1985</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">tm85_cls7_final1.img</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="002">
+      </SpatRepTypCd>
+    </spatRpType>
+    <geoBox esriExtentType="native">
+      <westBL Sync="TRUE">402584.75</westBL>
+      <eastBL Sync="TRUE">552352.25</eastBL>
+      <northBL Sync="TRUE">4495374.25</northBL>
+      <southBL Sync="TRUE">4373850.25</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-76.15142</westBL>
+      <eastBL Sync="TRUE">-74.381169</eastBL>
+      <northBL Sync="TRUE">40.609183</northBL>
+      <southBL Sync="TRUE">39.508766</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Tim Tarvin</cntper>
+          <cntorg>American Forests</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20013</postal>
+          <address>PO Box 2000</address>
+        </cntaddr>
+        <cntvoice>202-955-4500</cntvoice>
+        <cntpos>GIS Analyst</cntpos>
+        <cntfax>202-955-4588</cntfax>
+        <cntemail>ttarvin@amfor.org</cntemail>
+        <hours>M-F 9-5</hours>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20080611</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\Apple\Share\Programs\Urban Forests\Projects\Philadelphia\ClassificationRevisited\1985\tm85_cls7_final1.img</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Raster Dataset</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Raster</direct>
+    <rastinfo>
+      <rasttype Sync="TRUE">Pixel</rasttype>
+      <rowcount Sync="TRUE">4264</rowcount>
+      <colcount Sync="TRUE">5255</colcount>
+      <rastxsz Sync="TRUE">28.500000</rastxsz>
+      <rastysz Sync="TRUE">28.500000</rastysz>
+      <rastbpp Sync="TRUE">8</rastbpp>
+      <vrtcount Sync="TRUE">1</vrtcount>
+      <rastorig Sync="TRUE">Upper Left</rastorig>
+      <rastcmap Sync="TRUE">TRUE</rastcmap>
+      <rastcomp Sync="TRUE">None</rastcomp>
+      <rastband Sync="TRUE">1</rastband>
+      <rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+      <rastplyr Sync="TRUE">TRUE</rastplyr>
+      <rastifor Sync="TRUE">ERDAS IMAGINE</rastifor>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+        <projcsn Sync="TRUE">WGS_1984_UTM_Zone_18N</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">row and column</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">28.500000</absres>
+            <ordres Sync="TRUE">28.500000</ordres>
+          </coordrep>
+        </planci>
+        <gridsys>
+          <gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone Sync="TRUE">18</utmzone>
+            <transmer>
+              <sfctrmer Sync="TRUE">0.999600</sfctrmer>
+              <longcm Sync="TRUE">-75.000000</longcm>
+              <latprjo Sync="TRUE">0.000000</latprjo>
+              <feast Sync="TRUE">500000.000000</feast>
+              <fnorth Sync="TRUE">0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">D_WGS_1984</horizdn>
+        <ellips Sync="TRUE">WGS_1984</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">WGS_1984_UTM_Zone_18N</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <GridSpatRep>
+      <numDims Sync="TRUE">2</numDims>
+      <axDimProps>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="002">
+            </DimNameTypCd>
+          </dimName>
+          <dimSize Sync="TRUE">5255</dimSize>
+          <dimResol Sync="TRUE">28.5</dimResol>
+        </Dimen>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="001">
+            </DimNameTypCd>
+          </dimName>
+          <dimSize Sync="TRUE">4264</dimSize>
+          <dimResol Sync="TRUE">28.5</dimResol>
+        </Dimen>
+      </axDimProps>
+      <cellGeo>
+        <CellGeoCd Sync="TRUE" value="002">
+        </CellGeoCd>
+      </cellGeo>
+      <tranParaAv Sync="TRUE">1</tranParaAv>
+    </GridSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Layer_1">
+      <enttyp>
+        <enttypl Sync="TRUE">Layer_1</enttypl>
+        <enttypt Sync="TRUE">Table</enttypt>
+        <enttypc Sync="TRUE">8</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">ObjectID</attrlabl>
+        <attalias Sync="TRUE">ObjectID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Value</attrlabl>
+        <attalias Sync="TRUE">Value</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Count</attrlabl>
+        <attalias Sync="TRUE">Count</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Class_names</attrlabl>
+        <attalias Sync="TRUE">Class_names</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">32</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Red</attrlabl>
+        <attalias Sync="TRUE">Red</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Green</attrlabl>
+        <attalias Sync="TRUE">Green</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Blue</attrlabl>
+        <attalias Sync="TRUE">Blue</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Opacity</attrlabl>
+        <attalias Sync="TRUE">Opacity</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Area</attrlabl>
+        <attalias Sync="TRUE">Area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

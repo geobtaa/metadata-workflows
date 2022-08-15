@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Environmental Resources Research Institute</origin>
+        <pubdate>1996-01-01</pubdate>
+        <title>Pennsylvania Major Rivers 1996</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Environnmental Protection</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Pennsylvania Department of Environmental Protection</origin>
+            <pubdate>1996-05-01</pubdate>
+            <title>Pennsylvania GIS Compendium</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/search.cgi?k=GIS+compendium</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates />
+      </timeinfo>
+      <current>unknown</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>with ongoing updates</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.541800</westbc>
+        <eastbc>-74.687900</eastbc>
+        <northbc>42.269500</northbc>
+        <southbc>39.719890</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>major rivers</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>rivers</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Environmental Resources Research Institute</cntorg>
+          <cntper>George Baumer</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntvoice>814-863-5541</cntvoice>
+        <cntemail>gmb@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo />
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+    <descript>
+      <abstract>compendium-215c1835-1bee-11e8-b3f0-1866da3917eb___unknown</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Department of Transportation</origin>
+            <pubdate>1995-01-01</pubdate>
+            <title>Major rivers</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>cd-rom</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>none</srccitea>
+        <srccontr>1:24,000 USGS maps on mylar and type 10 mapping</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Converted Intergraph Microstation files to ARCINFO format.
+CD-rom titled Pennsylvania Carto/GIS contains both Intergraph and ESRI formatted
+files</procdesc>
+        <procdate>1995-01-01</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm />
+    </ptvctinf>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.ADD1.PaMajorRivers1996</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>MAJORRIVER</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Environmental Protection</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 2063</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105</postal>
+        </cntaddr>
+        <cntvoice>717-783-2300</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Not for commercial use or resale.
+The User shall save the Commonwealth and the Pennsylvania State University
+harmless from any suits, claims or actions arising out of the use of the
+data files or accompanying documentation, or arising out of any defectin
+the data files or accompanying documentation.
+The Commonwealth and the Pennsylvania State University excludes any and all
+implied warranties and makes no warranty or representation with respect to
+the data files or accompanying documentation, including quality,
+performance, merchantability, or fitness for a particular purpose. These
+data files and documentation are provided AS IS and the User assumes
+the entire risk as to their quality and performance</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/Info Export</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/compendium/</networkr>
+              </networka>
+            </computer>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>2005-11-17</metd>
+    <metrd>1999-10-08</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>215c1835-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

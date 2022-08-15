@@ -1,0 +1,1936 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial</origin>
+        <pubdate>20161205</pubdate>
+        <title>USGS QL2 LiDAR for Dauphin County, PA 2016 </title>
+        <geoform>Lidar point cloud</geoform>
+        <onlink> http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20160324</begdate>
+          <enddate>20161122</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.0447212896727</westbc>
+        <eastbc>-76.5208427032109</eastbc>
+        <northbc>40.6738130223421</northbc>
+        <southbc>40.1109641653215</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc>2165000.000000</leftbc>
+        <rightbc>2310000.000000</rightbc>
+        <topbc>490000.000000</topbc>
+        <bottombc>285000.000000</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Elevation data</themekey>
+        <themekey>Lidar</themekey>
+        <themekey>Hydrology</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+        <placekey>Dauphin County</placekey>
+      </place>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>
+			None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Data Acquisition Department</cntorg>
+          <cntper>Chris Holder</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>cholder@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+			MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; Esri ArcGIS 10; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System
+			\\PSIHQ_NX3200\Projects\Projects\28552_USGS_Dauphin_Co 1.11 GB and \\matrix\matrix\LIDAR\28552_USGS_Dauphin_Co_PA_3DEP_BAA 816 GB
+		</native>
+    <descript>
+      <abstract>USGSLiDAR_DauphinCoPA_2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Data cover the entire area specified for this project.</logic>
+    <complete>
+			These raw LAS data files include all data points collected.
+		    No points have been removed or excluded.
+		    A visual qualitative assessment was performed to ensure data completeness.
+		    No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.
+		</complete>
+    <posacc>
+      <vertacc>
+        <vertaccr>
+					The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
+					The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
+					The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 35 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.
+				</vertaccr>
+        <qvertpa>
+          <vertaccv>0.059</vertaccv>
+          <vertacce>
+						The raw NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.099 meters (0.030 feet) and AccuracyZ to be 0.193 meters (0.059 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.053</vertaccv>
+          <vertacce>
+						The NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.089 meters (0.027 feet) and AccuracyZ to be 0.174 meters (0.053 feet). This meets the required AccuracyZ value of 19.6 cm NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.078</vertaccv>
+          <vertacce>
+						The VVA was tested using 25 independent survey points located in vegetated terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the DEM surface were measured for the x,y location of each check point. Elevations interpolated from the DEM surface were then compared to the elevation values of the surveyed control. The VVA was computed to be 0.257 meters (0.078 feet). This meets the required value of 29.4 cm VVA at 95th percentile level using the 95th percentile of the absolute value of all vertical errors in all combined vegetation classes as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</title>
+            <pubinfo>
+              <pubplace>Lexington, KY</pubplace>
+              <publish>Quantum Spatial</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srccitea>
+        <srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Lidar RAW Data for Dauphin County, PA QL2 2016</title>
+            <geoform>lidar data</geoform>
+            <pubinfo>
+              <pubplace>Quantum Spatial</pubplace>
+              <publish>2016</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20160324</begdate>
+              <enddate>20161122</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_Data</srccitea>
+        <srccontr>This data source was used to populate the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>20161205</pubdate>
+            <title>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</title>
+            <pubinfo>
+              <pubplace>Lexington, KY</pubplace>
+              <publish>Quantum Spatial</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srccitea>
+        <srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+					Lidar Pre-Processing:
+					Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to acceptable levels. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file. The results of the final calibration, NVA accuracy assessments and the "raw" swaths were forwarded to the client to obtain a Notice To Proceed on classification and derivative product generation.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused>
+        <procdate>2016</procdate>
+        <srcprod>LiDAR datasets with USGS classifications</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+				    Lidar Post-Processing:
+				    The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area.
+				    All classification tags are stored in the original swath files.
+				    After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+				    Classified LAS Creation:
+				    The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points.  After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization.
+				    All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10).  All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed.  All bridge decks were classified to Class 17.
+				    All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS.  The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications.
+				    All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler.  Global Mapper was used as a final check of the bare earth dataset.  GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth.  Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Classified LAS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+				    Hydro-Flattened Breakline Creation: 
+				    Class 2 LiDAR was used to create a bare earth surface model.  The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 100 foot nominal width and Inland Ponds and Lakes of 2 acres or greater surface area.
+				    Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality.
+				    Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software.
+				    All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature.  These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10).
+				    The continuous breakline files were then translated to Esri file geodatabase format using Esri conversion tools.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Hydro-Flattened Breaklines</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+				    Hydro-Flattened Bare-Earth Raster DEM Creation: 
+				    Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 2.5-foot raster DEM.  Using automated scripting routines within ArcMap, an ERDAS Imagine .IMG file was created for each tile.  Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Hydro-Flattened Bare-Earth Raster DEMs</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+					Intensity Image Creation:
+					GeoCue software was used to create the deliverable intensity images with a 2.5-foot cell size.  All overlap classes were ignored during this process.  This helps to ensure a more aesthetically pleasing image.
+					The GeoCue software was then used to verify full project coverage as well.  TIF/TWF files were then provided as the deliverable for this dataset requirement.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Intensity Images</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+					Contour Creation:
+					Using automated scripting routines within ArcMap, a terrain surface was created using the ground (ASPRS Class 2) LiDAR data as well as the hydro-flattening breaklines.  This surface was then used to generate the final 2-foot continuous contour dataset in Esri file geodatabase format.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</srcused>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Contours</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+					Esri Terrain Dataset Creation:
+					Class 2 LiDAR along with the hydro-flattened breaklines were used to produce a multi-resolution, triangulated irregular network (TIN)-based surface. Each LAS file, overall hydro-flattened breakline file, and AOI was stored as a feature class in a feature dataset within an Esri file geodatabase.
+				</procdesc>
+        <srcused>PA_DauphinCounty_QL2_2016_LiDAR_Data</srcused>
+        <srcused>Breaklines</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Esri Terrain Dataset</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <stdparll>40.96666666666667</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20161205</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+          <cntper>Sarah Zibart</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>szibart@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None.</metac>
+    <metuc>None.</metuc>
+    <metsi>
+      <metscs>None.</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>NONE</metshd>
+    </metsi>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <CreaDate>20170301</CreaDate>
+    <CreaTime>14565000</CreaTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata" dest="\\ALCES\DATA\dauphin\28552_DauphinCoPA_ProjectLevel_Metadata (1)" date="20170301" time="14565000" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Sarah Zibart</rpIndName>
+    <rpOrgName>Quantum Spatial</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>859-277-8700</voiceNum>
+        <faxNum>859-277-8901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>523 Wellington Way</delPoint>
+        <city>Lexington</city>
+        <adminArea>KY</adminArea>
+        <postCode>40503</postCode>
+        <country>US</country>
+        <eMailAdd>szibart@quantumspatial.com</eMailAdd>
+      </cntAddress>
+      <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+      <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20161205</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USGS QL2 LiDAR for Dauphin County, PA 2016</resTitle>
+      <date>
+        <pubDate>2016-12-05</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Quantum Spatial</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Geographic Extent: Dauphin County, Pennsylvania, covering approximately 555 square miles. Dataset Description: The Dauphin County, PA 2016 QL2 LiDAR project called for the planning, acquisition, processing and derivative products of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet; NAVD1988 (Geoid 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 711 individual 5,000-foot x 5,000-foot tiles. Tile names use the following naming schema: "YYYYXXXXPAd" where YYYY is the first 3 characters of the tile's upper left corner Y-coordinate, XXXX - the first 4 characters of the tile's upper left corner X-coordinate, PA = Pennsylvania, and d = 'N' for North or 'S' for South. Corresponding 2.5-foot gridded hydro-flattened bare earth raster tiled DEM files and intensity image files were created using the same 5,000-foot x 5,000-foot schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. Continuous 2-foot contours were produced in Esri file geodatabase format. Ground Conditions: LiDAR collection began in Spring 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, Quantum Spatial established a total of 84 control points (24 calibration control points and 60 QC checkpoints). These were used to calibrate the LIDAR to known ground locations established throughout the project area.</idAbs>
+    <idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create breaklines and raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened digital elevation model (DEM) with a 2.5-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, intensity images, 3D breaklines, hydro-flattened DEMs, and contours as necessary.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Chris Holder</rpIndName>
+      <rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>859-277-8700</voiceNum>
+          <faxNum>859-277-8901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>523 Wellington Way</delPoint>
+          <city>Lexington</city>
+          <adminArea>KY</adminArea>
+          <postCode>40503</postCode>
+          <country>US</country>
+          <eMailAdd>cholder@quantumspatial.com</eMailAdd>
+        </cntAddress>
+        <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+        <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>US</keyword>
+      <keyword>Dauphin County</keyword>
+      <keyword>United States</keyword>
+      <keyword>PA</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Hydrology</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>US</keyword>
+      <keyword>Dauphin County</keyword>
+      <keyword>Hydrology</keyword>
+      <keyword>United States</keyword>
+      <keyword>PA</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Elevation data</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+        <othConsts>No restrictions apply to this data.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="006" />
+    </tpCat>
+    <envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; Esri ArcGIS 10; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\28552_USGS_Dauphin_Co 1.11 GB and \\matrix\matrix\LIDAR\28552_USGS_Dauphin_Co_PA_3DEP_BAA 816 GB</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-77.0447212896727</westBL>
+          <eastBL>-76.5208427032109</eastBL>
+          <southBL>40.1109641653215</southBL>
+          <northBL>40.6738130223421</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmBegin>2016-03-24</tmBegin>
+              <tmEnd>2016-11-22</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>USGS Contract: G10PC00016 Task Order Number: G16PD00443 CONTRACTOR: Quantum Spatial Lidar data were acquired and calibrated by Quantum Spatial. All follow-on processing was completed by the prime contractor. A four-tile area around Three Mile Island required a re-flight. Steam plumes over the area limited the amount of points returned, resulting in voids in the data set. Data falling within the following tiles was re-acquired on November 22, 2016: 30502250PAS, 30502255PAS, 30002250PAS, and 30002255PAS.</suppInfo>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>None.</classSys>
+      <handDesc>NONE</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Data cover the entire area specified for this project.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Nonvegetated Vertical Accuracy (NVA) be computed for DEM files. The NVA was tested with 35 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level. The specifications require that Vegetated Vertical Accuracy (VVA) be computed for DEM files. The VVA was tested with 35 independent survey points distributed throughout the project area and located in vegetated terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the VVA be 29.4 cm or better at the 95th percentile.</measDesc>
+      <evalMethDesc>The raw NVA was tested using 35 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the "Survey Accuracy Requirements" and "Field Methodology" sections in the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.099 meters (0.030 feet) and AccuracyZ to be 0.193 meters (0.059 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.059</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Hydro-Flattened Bare-Earth Raster DEM Creation: Class 2 LiDAR in conjunction with the hydro breaklines were used to create a 2.5-foot raster DEM. Using automated scripting routines within ArcMap, an ERDAS Imagine .IMG file was created for each tile. Each surface is reviewed using Global Mapper to check for any surface anomalies or incorrect elevations found within the surface.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Hydro-Flattened Bare-Earth Raster DEMs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Esri Terrain Dataset Creation: Class 2 LiDAR along with the hydro-flattened breaklines were used to produce a multi-resolution, triangulated irregular network (TIN)-based surface. Each LAS file, overall hydro-flattened breakline file, and AOI was stored as a feature class in a feature dataset within an Esri file geodatabase.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Breaklines</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Esri Terrain Dataset</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Intensity Image Creation: GeoCue software was used to create the deliverable intensity images with a 2.5-foot cell size. All overlap classes were ignored during this process. This helps to ensure a more aesthetically pleasing image. The GeoCue software was then used to verify full project coverage as well. TIF/TWF files were then provided as the deliverable for this dataset requirement.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Intensity Images</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Lidar Post-Processing: The calibrated and controlled lidar swaths were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files. Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. All classification tags are stored in the original swath files. After completion of classification and final QC approval, the NVA and VVA for the project are calculated. Sample areas for each land cover type present in the project area were extracted and forwarded to the client, along with the results of the accuracy tests. Upon acceptance, the complete classified lidar swath files were delivered to the client.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Lidar Pre-Processing: Airborne GPS and IMU data were merged to develop a Single Best Estimate (SBET) of the lidar system trajectory for each lift. Lidar ranging data were initially calibrated using previous best parameters for this instrument and aircraft. Relative calibration was evaluated using advanced plane-matching analysis and parameter corrections derived. This was repeated iteratively until residual errors between overlapping swaths, across all project lifts, was reduced to acceptable levels. Data were then block adjusted to match surveyed calibration control. Raw data NVA were checked using independently surveyed checkpoints. Swath overage points were identified and tagged within each swath file. The results of the final calibration, NVA accuracy assessments and the "raw" swaths were forwarded to the client to obtain a Notice To Proceed on classification and derivative product generation.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>LiDAR datasets with USGS classifications</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Hydro-Flattened Breakline Creation: Class 2 LiDAR was used to create a bare earth surface model. The surface model was then used to heads-up digitize 2D breaklines of inland streams and rivers with a 100 foot nominal width and Inland Ponds and Lakes of 2 acres or greater surface area. Elevation values were assigned to all Inland Ponds and Lakes, Inland Pond and Lake Islands, Inland Stream and River Islands, using TerraModeler functionality. Elevation values were assigned to all Inland streams and rivers using Quantum Spatial proprietary software. All ground (ASPRS Class 2) LiDAR data inside of the collected inland breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature. These points were moved from ground (ASPRS Class 2) to Ignored Ground (ASPRS Class 10). The continuous breakline files were then translated to Esri file geodatabase format using Esri conversion tools.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Hydro-Flattened Breaklines</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Classified LAS Creation: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper was used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Classified LAS</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Contour Creation: Using automated scripting routines within ArcMap, a terrain surface was created using the ground (ASPRS Class 2) LiDAR data as well as the hydro-flattening breaklines. This surface was then used to generate the final 2-foot continuous contour dataset in Esri file geodatabase format.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Contours</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report of LiDAR Quality Control Points: Dauphin County, PA Lidar Task Order</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_qc_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Lexington, KY</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Survey Report of LiDAR Ground Control Points: Dauphin County, PA LiDAR Task Order</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_gnd_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Lexington, KY</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Lidar RAW Data for Dauphin County, PA QL2 2016</resTitle>
+          <resAltTitle>PA_DauphinCounty_QL2_2016_LiDAR_Data</resAltTitle>
+          <date>
+            <pubDate>2016-12-05</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>2016</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Quantum Spatial</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>lidar data</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Period>
+                  <tmBegin>2016-03-24</tmBegin>
+                  <tmEnd>2016-11-22</tmEnd>
+                </TM_Period>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="3430ed0389fc82a4668e40cfef4fc7e0" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTYxMjA1PC9wdWJk
+YXRlPg0KICAgICAgICA8dGl0bGU+VVNHUyBRTDIgTGlEQVIgZm9yIERhdXBoaW4gQ291bnR5LCBQ
+QSAyMDE2IDwvdGl0bGU+DQogICAgICAgIDxnZW9mb3JtPkxpZGFyIHBvaW50IGNsb3VkPC9nZW9m
+b3JtPg0KICAgICAgICA8b25saW5rPiBodHRwOi8vd3d3LnBhc2RhLnBzdS5lZHUvPC9vbmxpbms+
+DQogICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAg
+ICAgPGFic3RyYWN0Pkdlb2dyYXBoaWMgRXh0ZW50OiBEYXVwaGluIENvdW50eSwgUGVubnN5bHZh
+bmlhLCBjb3ZlcmluZyBhcHByb3hpbWF0ZWx5IDU1NSBzcXVhcmUgbWlsZXMuIA0KRGF0YXNldCBE
+ZXNjcmlwdGlvbjogVGhlIERhdXBoaW4gQ291bnR5LCBQQSAyMDE2IFFMMiBMaURBUiBwcm9qZWN0
+IGNhbGxlZCBmb3IgdGhlIHBsYW5uaW5nLCBhY3F1aXNpdGlvbiwgcHJvY2Vzc2luZyBhbmQgZGVy
+aXZhdGl2ZSBwcm9kdWN0cyBvZiBMSURBUiBkYXRhIHRvIGJlIGNvbGxlY3RlZCAgYXQgYSBub21p
+bmFsIHB1bHNlIHNwYWNpbmcgKE5QUykgb2YgMC43IG1ldGVycy4gUHJvamVjdCBzcGVjaWZpY2F0
+aW9ucyBhcmUgYmFzZWQgb24gdGhlIFUuUy4gR2VvbG9naWNhbCBTdXJ2ZXkgTmF0aW9uYWwgR2Vv
+c3BhdGlhbCBQcm9ncmFtIEJhc2UgTElEQVIgU3BlY2lmaWNhdGlvbiwgVmVyc2lvbiAxLjIuIFRo
+ZSBkYXRhIHdhcyBkZXZlbG9wZWQgYmFzZWQgb24gYSBob3Jpem9udGFsIHByb2plY3Rpb24vZGF0
+dW0gb2YgTkFEODMgKDIwMTEpIFN0YXRlIFBsYW5lIFBlbm5zeWx2YW5pYSBTb3V0aCBab25lLCBV
+UyBzdXJ2ZXkgZmVldDsgTkFWRDE5ODggKEdlb2lkIDEyQiksIFVTIHN1cnZleSBmZWV0LiBMaURB
+UiBkYXRhIHdhcyBkZWxpdmVyZWQgaW4gUkFXIGZsaWdodCBsaW5lIHN3YXRoIGZvcm1hdCwgcHJv
+Y2Vzc2VkIHRvIGNyZWF0ZSBDbGFzc2lmaWVkIExBUyAxLjQgRmlsZXMgZm9ybWF0dGVkIHRvIDcx
+MSBpbmRpdmlkdWFsIDUsMDAwLWZvb3QgeCA1LDAwMC1mb290IHRpbGVzLiBUaWxlIG5hbWVzIHVz
+ZSB0aGUgZm9sbG93aW5nIG5hbWluZyBzY2hlbWE6ICJZWVlZWFhYWFBBZCIgd2hlcmUgWVlZWSBp
+cyB0aGUgZmlyc3QgMyBjaGFyYWN0ZXJzIG9mIHRoZSB0aWxlJ3MgdXBwZXIgbGVmdCBjb3JuZXIg
+WS1jb29yZGluYXRlLCBYWFhYIC0gdGhlIGZpcnN0IDQgY2hhcmFjdGVycyBvZiB0aGUgdGlsZSdz
+IHVwcGVyIGxlZnQgY29ybmVyIFgtY29vcmRpbmF0ZSwgUEEgPSBQZW5uc3lsdmFuaWEsIGFuZCBk
+ID0gJ04nIGZvciBOb3J0aCBvciAnUycgZm9yIFNvdXRoLiBDb3JyZXNwb25kaW5nIDIuNS1mb290
+IGdyaWRkZWQgaHlkcm8tZmxhdHRlbmVkIGJhcmUgZWFydGggcmFzdGVyIHRpbGVkIERFTSBmaWxl
+cyBhbmQgaW50ZW5zaXR5IGltYWdlIGZpbGVzIHdlcmUgY3JlYXRlZCB1c2luZyB0aGUgc2FtZSA1
+LDAwMC1mb290IHggNSwwMDAtZm9vdCBzY2hlbWEuIEh5ZHJvLWZsYXR0ZW5lZCBicmVha2xpbmVz
+IHdlcmUgcHJvZHVjZWQgaW4gRXNyaSBmaWxlIGdlb2RhdGFiYXNlIGZvcm1hdC4gQ29udGludW91
+cyAyLWZvb3QgY29udG91cnMgd2VyZSBwcm9kdWNlZCBpbiBFc3JpIGZpbGUgZ2VvZGF0YWJhc2Ug
+Zm9ybWF0Lg0KCQkJR3JvdW5kIENvbmRpdGlvbnM6IExpREFSIGNvbGxlY3Rpb24gYmVnYW4gaW4g
+U3ByaW5nIDIwMTYsIHdoaWxlIG5vIHNub3cgd2FzIG9uIHRoZSBncm91bmQgYW5kIHJpdmVycyB3
+ZXJlIGF0IG9yIGJlbG93IG5vcm1hbCBsZXZlbHMuICBJbiBvcmRlciB0byBwb3N0IHByb2Nlc3Mg
+dGhlIExpREFSIGRhdGEgdG8gbWVldCB0YXNrIG9yZGVyIHNwZWNpZmljYXRpb25zLCBRdWFudHVt
+IFNwYXRpYWwgZXN0YWJsaXNoZWQgYSB0b3RhbCBvZiA4NCBjb250cm9sIHBvaW50cyAoMjQgY2Fs
+aWJyYXRpb24gY29udHJvbCBwb2ludHMgYW5kIDYwIFFDIGNoZWNrcG9pbnRzKS4gVGhlc2Ugd2Vy
+ZSB1c2VkIHRvIGNhbGlicmF0ZSB0aGUgTElEQVIgdG8ga25vd24gZ3JvdW5kIGxvY2F0aW9ucyBl
+c3RhYmxpc2hlZCB0aHJvdWdob3V0IHRoZSBwcm9qZWN0IGFyZWEuPC9hYnN0cmFjdD4NCiAgICAg
+IDxwdXJwb3NlPg0KCQkJQ2xhc3NpZmllZCBMQVMgZmlsZXMgYXJlIHVzZWQgdG8gc2hvdyB0aGUg
+bWFudWFsbHkgcmV2aWV3ZWQgYmFyZSBlYXJ0aCBzdXJmYWNlLiAgVGhpcyBhbGxvd3MgdGhlIHVz
+ZXIgdG8gY3JlYXRlIGJyZWFrbGluZXMgYW5kIHJhc3RlciBERU1zLiANCgkJCVRoZSBwdXJwb3Nl
+IG9mIHRoZXNlIGxpZGFyIGRhdGEgd2FzIHRvIHByb2R1Y2UgaGlnaCBhY2N1cmFjeSAzRCBoeWRy
+by1mbGF0dGVuZWQgZGlnaXRhbCBlbGV2YXRpb24gbW9kZWwgKERFTSkgd2l0aCBhIDIuNS1mb290
+IGNlbGwgc2l6ZS4NCgkJCVRoZXNlIHJhdyBsaWRhciBwb2ludCBjbG91ZCBkYXRhIHdlcmUgdXNl
+ZCB0byBjcmVhdGUgY2xhc3NpZmllZCBsaWRhciBMQVMgZmlsZXMsIGludGVuc2l0eSBpbWFnZXMs
+IDNEIGJyZWFrbGluZXMsIGh5ZHJvLWZsYXR0ZW5lZCBERU1zLCBhbmQgY29udG91cnMgYXMgbmVj
+ZXNzYXJ5Lg0KCQk8L3B1cnBvc2U+DQogICAgICA8bGlkYXI+DQogICAgICAgIDxsZHJpbmZvPg0K
+ICAgICAgICAgIDxsZHJzcGVjPlVTR1MtTkdQIEJhc2UgU3BlY2lmaWNhdGlvbiB2MS4yPC9sZHJz
+cGVjPg0KICAgICAgICAgIDxsZHJzZW5zPkxlaWNhX0FMU183MDwvbGRyc2Vucz4NCiAgICAgICAg
+ICA8bGRybWF4bnI+MzwvbGRybWF4bnI+DQogICAgICAgICAgPGxkcm5wcz4wLjY3PC9sZHJucHM+
+DQogICAgICAgICAgPGxkcmRlbnM+Mi4yNjwvbGRyZGVucz4NCiAgICAgICAgICA8bGRyYW5wcz4w
+LjY3PC9sZHJhbnBzPg0KICAgICAgICAgIDxsZHJhZGVucz4yLjI2PC9sZHJhZGVucz4NCiAgICAg
+ICAgICA8bGRyZmx0aHQ+MjA3NTwvbGRyZmx0aHQ+DQogICAgICAgICAgPGxkcmZsdHNwPjE1MDwv
+bGRyZmx0c3A+DQogICAgICAgICAgPGxkcnNjYW5hPjQwPC9sZHJzY2FuYT4NCiAgICAgICAgICA8
+bGRyc2NhbnI+NTMuNDwvbGRyc2NhbnI+DQogICAgICAgICAgPGxkcnB1bHNyPjI2My40PC9sZHJw
+dWxzcj4NCiAgICAgICAgICA8bGRycHVsc2Q+NDwvbGRycHVsc2Q+DQogICAgICAgICAgPGxkcnB1
+bHN3PjAuNDc8L2xkcnB1bHN3Pg0KICAgICAgICAgIDxsZHJ3YXZlbD4xMDY0PC9sZHJ3YXZlbD4N
+CiAgICAgICAgICA8bGRybXBpYT4xPC9sZHJtcGlhPg0KICAgICAgICAgIDxsZHJibWRpdj4wLjI1
+PC9sZHJibWRpdj4NCiAgICAgICAgICA8bGRyc3dhdHc+MTUxMC40ODwvbGRyc3dhdHc+DQogICAg
+ICAgICAgPGxkcnN3YXRvPjEyLjM0PC9sZHJzd2F0bz4NCiAgICAgICAgICA8bGRyZ2VvaWQ+ZzIw
+MTJidTAuYmluPC9sZHJnZW9pZD4NCiAgICAgICAgPC9sZHJpbmZvPg0KICAgICAgICA8bGRyaW5m
+b183MTYxPg0KICAgICAgICAgIDxsZHJzcGVjPlVTR1MtTkdQIEJhc2UgU3BlY2lmaWNhdGlvbiB2
+MS4yPC9sZHJzcGVjPg0KICAgICAgICAgIDxsZHJzZW5zPkxlaWNhX0FMU183MDwvbGRyc2Vucz4N
+CiAgICAgICAgICA8bGRybWF4bnI+MzwvbGRybWF4bnI+DQogICAgICAgICAgPGxkcm5wcz4wLjY4
+PC9sZHJucHM+DQogICAgICAgICAgPGxkcmRlbnM+Mi4xNDwvbGRyZGVucz4NCiAgICAgICAgICA8
+bGRyYW5wcz4wLjY4PC9sZHJhbnBzPg0KICAgICAgICAgIDxsZHJhZGVucz4yLjE0PC9sZHJhZGVu
+cz4NCiAgICAgICAgICA8bGRyZmx0aHQ+MjEwMDwvbGRyZmx0aHQ+DQogICAgICAgICAgPGxkcmZs
+dHNwPjE1NTwvbGRyZmx0c3A+DQogICAgICAgICAgPGxkcnNjYW5hPjQwPC9sZHJzY2FuYT4NCiAg
+ICAgICAgICA8bGRyc2NhbnI+NTMuNDwvbGRyc2NhbnI+DQogICAgICAgICAgPGxkcnB1bHNyPjI2
+MC40PC9sZHJwdWxzcj4NCiAgICAgICAgICA8bGRycHVsc2Q+NDwvbGRycHVsc2Q+DQogICAgICAg
+ICAgPGxkcnB1bHN3PjAuNDg8L2xkcnB1bHN3Pg0KICAgICAgICAgIDxsZHJ3YXZlbD4xMDY0PC9s
+ZHJ3YXZlbD4NCiAgICAgICAgICA8bGRybXBpYT4xPC9sZHJtcGlhPg0KICAgICAgICAgIDxsZHJi
+bWRpdj4wLjI1PC9sZHJibWRpdj4NCiAgICAgICAgICA8bGRyc3dhdHc+MTUyOC42NzwvbGRyc3dh
+dHc+DQogICAgICAgICAgPGxkcnN3YXRvPjEwLjcyPC9sZHJzd2F0bz4NCiAgICAgICAgICA8bGRy
+Z2VvaWQ+ZzIwMTJidTAuYmluPC9sZHJnZW9pZD4NCiAgICAgICAgPC9sZHJpbmZvXzcxNjE+DQog
+ICAgICAgIDxsZHJhY2N1cj4NCiAgICAgICAgICA8bGRyY2hhY2M+MC4xOTY8L2xkcmNoYWNjPg0K
+ICAgICAgICAgIDxyYXdudmE+MC4wNTk8L3Jhd252YT4NCiAgICAgICAgICA8cmF3bnZhbj4zNTwv
+cmF3bnZhbj4NCiAgICAgICAgICA8Y2xzbnZhPjAuMDUzPC9jbHNudmE+DQogICAgICAgICAgPGNs
+c252YW4+MzU8L2Nsc252YW4+DQogICAgICAgICAgPGNsc3Z2YT4wLjA3ODwvY2xzdnZhPg0KICAg
+ICAgICAgIDxjbHN2dmFuPjI1PC9jbHN2dmFuPg0KICAgICAgICA8L2xkcmFjY3VyPg0KICAgICAg
+ICA8bGFzaW5mbz4NCiAgICAgICAgICA8bGFzdmVyPjEuNDwvbGFzdmVyPg0KICAgICAgICAgIDxs
+YXNwcmY+NjwvbGFzcHJmPg0KICAgICAgICAgIDxsYXN3aGVsZD5XaXRoaGVsZCAoaWdub3JlKSBw
+b2ludHMgd2VyZSBpZGVudGlmaWVkIGluIHRoZXNlIGZpbGVzIHVzaW5nIHRoZSBzdGFuZGFyZCBM
+QVMgV2l0aGhlbGQgYml0PC9sYXN3aGVsZD4NCiAgICAgICAgICA8bGFzb2xhcD5Td2F0aCAib3Zl
+cmFnZSIgcG9pbnRzIHdlcmUgaWRlbnRpZmllZCBpbiB0aGVzZSBmaWxlcyB1c2luZyB0aGUgc3Rh
+bmRhcmQgTEFTIG92ZXJsYXAgYml0PC9sYXNvbGFwPg0KICAgICAgICAgIDxsYXNpbnRyPjE2PC9s
+YXNpbnRyPg0KICAgICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT4xPC9j
+bGFzY29kZT4NCiAgICAgICAgICAgIDxjbGFzaXRlbT5Qcm9jZXNzZWQsIGJ1dCB1bmNsYXNzaWZp
+ZWQ8L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNz
+Pg0KICAgICAgICAgICAgPGNsYXNjb2RlPjI8L2NsYXNjb2RlPg0KICAgICAgICAgICAgPGNsYXNp
+dGVtPkJhcmUtZWFydGggZ3JvdW5kPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xhc2NsYXNzPg0K
+ICAgICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT43PC9jbGFzY29kZT4N
+CiAgICAgICAgICAgIDxjbGFzaXRlbT5Mb3cgbm9pc2U8L2NsYXNpdGVtPg0KICAgICAgICAgIDwv
+bGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAgICAgICAgPGNsYXNjb2RlPjg8
+L2NsYXNjb2RlPg0KICAgICAgICAgICAgPGNsYXNpdGVtPk1vZGVsIEtleTwvY2xhc2l0ZW0+DQog
+ICAgICAgICAgPC9sYXNjbGFzcz4NCiAgICAgICAgICA8bGFzY2xhc3M+DQogICAgICAgICAgICA8
+Y2xhc2NvZGU+OTwvY2xhc2NvZGU+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+V2F0ZXI8L2NsYXNp
+dGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAg
+ICAgICAgPGNsYXNjb2RlPjEwPC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxjbGFzaXRlbT5JZ25v
+cmVkIEdyb3VuZDwvY2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFzcz4NCiAgICAgICAgICA8
+bGFzY2xhc3M+DQogICAgICAgICAgICA8Y2xhc2NvZGU+MTc8L2NsYXNjb2RlPg0KICAgICAgICAg
+ICAgPGNsYXNpdGVtPkJyaWRnZSBEZWNrczwvY2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFz
+cz4NCiAgICAgICAgICA8bGFzY2xhc3M+DQogICAgICAgICAgICA8Y2xhc2NvZGU+MTg8L2NsYXNj
+b2RlPg0KICAgICAgICAgICAgPGNsYXNpdGVtPkhpZ2ggbm9pc2U8L2NsYXNpdGVtPg0KICAgICAg
+ICAgIDwvbGFzY2xhc3M+DQogICAgICAgIDwvbGFzaW5mbz4NCiAgICAgIDwvbGlkYXI+DQogICAg
+ICA8c3VwcGxpbmY+DQoJCQlVU0dTIENvbnRyYWN0OiBHMTBQQzAwMDE2ICBUYXNrIE9yZGVyIE51
+bWJlcjogRzE2UEQwMDQ0Mw0KCQkJQ09OVFJBQ1RPUjogUXVhbnR1bSBTcGF0aWFsDQoJCQlMaWRh
+ciBkYXRhIHdlcmUgYWNxdWlyZWQgYW5kIGNhbGlicmF0ZWQgYnkgUXVhbnR1bSBTcGF0aWFsLg0K
+CQkJQWxsIGZvbGxvdy1vbiBwcm9jZXNzaW5nIHdhcyBjb21wbGV0ZWQgYnkgdGhlIHByaW1lIGNv
+bnRyYWN0b3IuDQoJCQlBIGZvdXItdGlsZSBhcmVhIGFyb3VuZCBUaHJlZSBNaWxlIElzbGFuZCBy
+ZXF1aXJlZCBhIHJlLWZsaWdodC4gU3RlYW0gcGx1bWVzIG92ZXIgdGhlIGFyZWEgbGltaXRlZCB0
+aGUgYW1vdW50IG9mIHBvaW50cyByZXR1cm5lZCwgcmVzdWx0aW5nIGluIHZvaWRzIGluIHRoZSBk
+YXRhIHNldC4gRGF0YSBmYWxsaW5nIHdpdGhpbiB0aGUgZm9sbG93aW5nIHRpbGVzIHdhcyByZS1h
+Y3F1aXJlZCBvbiBOb3ZlbWJlciAyMiwgMjAxNjogMzA1MDIyNTBQQVMsIDMwNTAyMjU1UEFTLCAz
+MDAwMjI1MFBBUywgYW5kIDMwMDAyMjU1UEFTLg0KCQk8L3N1cHBsaW5mPg0KICAgIDwvZGVzY3Jp
+cHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8cm5nZGF0ZXM+
+DQogICAgICAgICAgPGJlZ2RhdGU+MjAxNjAzMjQ8L2JlZ2RhdGU+DQogICAgICAgICAgPGVuZGRh
+dGU+MjAxNjExMjI8L2VuZGRhdGU+DQogICAgICAgIDwvcm5nZGF0ZXM+DQogICAgICA8L3RpbWVp
+bmZvPg0KICAgICAgPGN1cnJlbnQ+Z3JvdW5kIGNvbmRpdGlvbjwvY3VycmVudD4NCiAgICA8L3Rp
+bWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNz
+Pg0KICAgICAgPHVwZGF0ZT5Ob25lIHBsYW5uZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1cz4NCiAg
+ICA8c3Bkb20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTc3LjA0NDcyMTI4
+OTY3Mjc8L3dlc3RiYz4NCiAgICAgICAgPGVhc3RiYz4tNzYuNTIwODQyNzAzMjEwOTwvZWFzdGJj
+Pg0KICAgICAgICA8bm9ydGhiYz40MC42NzM4MTMwMjIzNDIxPC9ub3J0aGJjPg0KICAgICAgICA8
+c291dGhiYz40MC4xMTA5NjQxNjUzMjE1PC9zb3V0aGJjPg0KICAgICAgPC9ib3VuZGluZz4NCiAg
+ICAgIDxsYm91bmRuZz4NCiAgICAgICAgPGxlZnRiYz4yMTY1MDAwLjAwMDAwMDwvbGVmdGJjPg0K
+ICAgICAgICA8cmlnaHRiYz4yMzEwMDAwLjAwMDAwMDwvcmlnaHRiYz4NCiAgICAgICAgPHRvcGJj
+PjQ5MDAwMC4wMDAwMDA8L3RvcGJjPg0KICAgICAgICA8Ym90dG9tYmM+Mjg1MDAwLjAwMDAwMDwv
+Ym90dG9tYmM+DQogICAgICA8L2xib3VuZG5nPg0KICAgIDwvc3Bkb20+DQogICAgPGtleXdvcmRz
+Pg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5Ob25lPC90aGVtZWt0Pg0KICAgICAg
+ICA8dGhlbWVrZXk+RWxldmF0aW9uIGRhdGE8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+
+TGlkYXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+SHlkcm9sb2d5PC90aGVtZWtleT4N
+CiAgICAgIDwvdGhlbWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWt0Pk5vbmU8L3Bs
+YWNla3Q+DQogICAgICAgIDxwbGFjZWtleT5Vbml0ZWQgU3RhdGVzPC9wbGFjZWtleT4NCiAgICAg
+ICAgPHBsYWNla2V5PlVTPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlBlbm5zeWx2YW5p
+YTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5QQTwvcGxhY2VrZXk+DQogICAgICAgIDxw
+bGFjZWtleT5EYXVwaGluIENvdW50eTwvcGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0KICAgIDwv
+a2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pk5vIHJlc3RyaWN0aW9ucyBhcHBseSB0byB0aGlzIGRh
+dGEuPC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+DQoJCQlOb25lLiBIb3dldmVyLCB1c2VycyBz
+aG91bGQgYmUgYXdhcmUgdGhhdCB0ZW1wb3JhbCBjaGFuZ2VzIG1heSBoYXZlIG9jY3VycmVkIHNp
+bmNlIHRoaXMgZGF0YXNldCB3YXMgY29sbGVjdGVkIGFuZCB0aGF0IHNvbWUgcGFydHMgb2YgdGhl
+c2UgZGF0YSBtYXkgbm8gbG9uZ2VyIHJlcHJlc2VudCBhY3R1YWwgc3VyZmFjZSBjb25kaXRpb25z
+LiBVc2VycyBzaG91bGQgbm90IHVzZSB0aGVzZSBkYXRhIGZvciBjcml0aWNhbCBhcHBsaWNhdGlv
+bnMgd2l0aG91dCBhIGZ1bGwgYXdhcmVuZXNzIG9mIGl0cyBsaW1pdGF0aW9ucy4gQWNrbm93bGVk
+Z2VtZW50IG9mIHRoZSBVLlMuIEdlb2xvZ2ljYWwgU3VydmV5IHdvdWxkIGJlIGFwcHJlY2lhdGVk
+IGZvciBwcm9kdWN0cyBkZXJpdmVkIGZyb20gdGhlc2UgZGF0YS4NCgkJPC91c2Vjb25zdD4NCiAg
+ICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAg
+ICAgPGNudG9yZz5RdWFudHVtIFNwYXRpYWwsIERhdGEgQWNxdWlzaXRpb24gRGVwYXJ0bWVudDwv
+Y250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+Q2hyaXMgSG9sZGVyPC9jbnRwZXI+DQogICAgICAg
+IDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxp
+bmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz41MjMgV2VsbGlu
+Z3RvbiBXYXk8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+TGV4aW5ndG9uPC9jaXR5Pg0KICAg
+ICAgICAgIDxzdGF0ZT5LWTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD40MDUwMzwvcG9zdGFs
+Pg0KICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0K
+ICAgICAgICA8Y250dm9pY2U+ODU5LTI3Ny04NzAwPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZh
+eD44NTktMjc3LTg5MDE8L2NudGZheD4NCiAgICAgICAgPGNudGVtYWlsPmNob2xkZXJAcXVhbnR1
+bXNwYXRpYWwuY29tPC9jbnRlbWFpbD4NCiAgICAgICAgPGhvdXJzPk1vbmRheSB0aHJvdWdoIEZy
+aWRheSA4OjAwIEFNIHRvIDU6MDAgUE0gKEVhc3Rlcm4gVGltZSk8L2hvdXJzPg0KICAgICAgICA8
+Y250aW5zdD5JZiB1bmFibGUgdG8gcmVhY2ggdGhlIGNvbnRhY3QgYnkgdGVsZXBob25lLCBwbGVh
+c2Ugc2VuZCBhbiBlbWFpbC4gWW91IHNob3VsZCBnZXQgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91
+cnMuPC9jbnRpbnN0Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogICAgPG5h
+dGl2ZT4NCgkJCU1pY3JvU3RhdGlvbiBWZXJzaW9uIDg7IFRlcnJhU2NhbiBWZXJzaW9uIDE1OyBU
+ZXJyYU1vZGVsZXIgVmVyc2lvbiAxNTsgR2VvQ3VlIFZlcnNpb24gMjAxNC4xLjIxLjE7IEVzcmkg
+QXJjR0lTIDEwOyBHbG9iYWwgTWFwcGVyIDE2OyBMZWljYSBDbG91ZCBQcm8gMS4yOyBXaW5kb3dz
+IDcgT3BlcmF0aW5nIFN5c3RlbQ0KCQkJXFxQU0lIUV9OWDMyMDBcUHJvamVjdHNcUHJvamVjdHNc
+Mjg1NTJfVVNHU19EYXVwaGluX0NvIDEuMTEgR0IgYW5kIFxcbWF0cml4XG1hdHJpeFxMSURBUlwy
+ODU1Ml9VU0dTX0RhdXBoaW5fQ29fUEFfM0RFUF9CQUEgODE2IEdCDQoJCTwvbmF0aXZlPg0KICA8
+L2lkaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsb2dpYz5EYXRhIGNvdmVyIHRoZSBlbnRpcmUg
+YXJlYSBzcGVjaWZpZWQgZm9yIHRoaXMgcHJvamVjdC48L2xvZ2ljPg0KICAgIDxjb21wbGV0ZT4N
+CgkJCVRoZXNlIHJhdyBMQVMgZGF0YSBmaWxlcyBpbmNsdWRlIGFsbCBkYXRhIHBvaW50cyBjb2xs
+ZWN0ZWQuDQoJCSAgICBObyBwb2ludHMgaGF2ZSBiZWVuIHJlbW92ZWQgb3IgZXhjbHVkZWQuDQoJ
+CSAgICBBIHZpc3VhbCBxdWFsaXRhdGl2ZSBhc3Nlc3NtZW50IHdhcyBwZXJmb3JtZWQgdG8gZW5z
+dXJlIGRhdGEgY29tcGxldGVuZXNzLg0KCQkgICAgTm8gdm9pZCBhcmVhcyBvciBtaXNzaW5nIGRh
+dGEgZXhpc3QuIFRoZSByYXcgcG9pbnQgY2xvdWQgaXMgb2YgZ29vZCBxdWFsaXR5IGFuZCBkYXRh
+IHBhc3NlcyBOb252ZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgc3BlY2lmaWNhdGlvbnMuDQoJ
+CTwvY29tcGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDx2ZXJ0YWNjPg0KICAgICAgICA8dmVy
+dGFjY3I+DQoJCQkJCVRoZSBzcGVjaWZpY2F0aW9ucyByZXF1aXJlIHRoYXQgb25seSByYXcgTm9u
+dmVnZXRhdGVkIFZlcnRpY2FsIEFjY3VyYWN5IChOVkEpIGJlIGNvbXB1dGVkIGZvciByYXcgbGlk
+YXIgcG9pbnQgY2xvdWQgc3dhdGggZmlsZXMuIFRoZSByYXcgTlZBIHdhcyB0ZXN0ZWQgd2l0aCAz
+NSBpbmRlcGVuZGVudCBzdXJ2ZXkgcG9pbnRzIGRpc3RyaWJ1dGVkIHRocm91Z2hvdXQgdGhlIHBy
+b2plY3QgYXJlYSBhbmQgbG9jYXRlZCBpbiBvcGVuIHRlcnJhaW4uIFRoZXNlIGNoZWNrcG9pbnRz
+IHdlcmUgbm90IHVzZWQgaW4gdGhlIGNhbGlicmF0aW9uIG9yIHBvc3QtcHJvY2Vzc2luZyBvZiB0
+aGUgbGlkYXIgcG9pbnQgY2xvdWQgZGF0YS4gU3BlY2lmaWNhdGlvbnMgZm9yIHRoaXMgcHJvamVj
+dCByZXF1aXJlIHRoYXQgdGhlIHJhdyBOVkEgYmUgMTkuNiBjbSBvciBiZXR0ZXIgQWNjdXJhY3la
+IGF0IDk1IHBlcmNlbnQgY29uZmlkZW5jZSBsZXZlbC4NCgkJCQkJVGhlIHNwZWNpZmljYXRpb25z
+IHJlcXVpcmUgdGhhdCBOb252ZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgKE5WQSkgYmUgY29t
+cHV0ZWQgZm9yIERFTSBmaWxlcy4gVGhlIE5WQSB3YXMgdGVzdGVkIHdpdGggMzUgaW5kZXBlbmRl
+bnQgc3VydmV5IHBvaW50cyBkaXN0cmlidXRlZCB0aHJvdWdob3V0IHRoZSBwcm9qZWN0IGFyZWEg
+YW5kIGxvY2F0ZWQgaW4gb3BlbiB0ZXJyYWluLiBUaGVzZSBjaGVja3BvaW50cyB3ZXJlIG5vdCB1
+c2VkIGluIHRoZSBjYWxpYnJhdGlvbiBvciBwb3N0LXByb2Nlc3Npbmcgb2YgdGhlIGxpZGFyIHBv
+aW50IGNsb3VkIGRhdGEuIFNwZWNpZmljYXRpb25zIGZvciB0aGlzIHByb2plY3QgcmVxdWlyZSB0
+aGF0IHRoZSBOVkEgYmUgMTkuNiBjbSBvciBiZXR0ZXIgQWNjdXJhY3laIGF0IDk1IHBlcmNlbnQg
+Y29uZmlkZW5jZSBsZXZlbC4NCgkJCQkJVGhlIHNwZWNpZmljYXRpb25zIHJlcXVpcmUgdGhhdCBW
+ZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgKFZWQSkgYmUgY29tcHV0ZWQgZm9yIERFTSBmaWxl
+cy4gVGhlIFZWQSB3YXMgdGVzdGVkIHdpdGggMzUgaW5kZXBlbmRlbnQgc3VydmV5IHBvaW50cyBk
+aXN0cmlidXRlZCB0aHJvdWdob3V0IHRoZSBwcm9qZWN0IGFyZWEgYW5kIGxvY2F0ZWQgaW4gdmVn
+ZXRhdGVkIHRlcnJhaW4uIFRoZXNlIGNoZWNrcG9pbnRzIHdlcmUgbm90IHVzZWQgaW4gdGhlIGNh
+bGlicmF0aW9uIG9yIHBvc3QtcHJvY2Vzc2luZyBvZiB0aGUgbGlkYXIgcG9pbnQgY2xvdWQgZGF0
+YS4gU3BlY2lmaWNhdGlvbnMgZm9yIHRoaXMgcHJvamVjdCByZXF1aXJlIHRoYXQgdGhlIFZWQSBi
+ZSAyOS40IGNtIG9yIGJldHRlciBhdCB0aGUgOTV0aCBwZXJjZW50aWxlLg0KCQkJCTwvdmVydGFj
+Y3I+DQogICAgICAgIDxxdmVydHBhPg0KICAgICAgICAgIDx2ZXJ0YWNjdj4wLjA1OTwhLS1tZXRl
+cnM7IHJhdyBOVkEgYXQgOTUgcGVyY2VudCBDb25maWRlbmNlIEludGVydmFsLS0+PC92ZXJ0YWNj
+dj4NCiAgICAgICAgICA8dmVydGFjY2U+DQoJCQkJCQlUaGUgcmF3IE5WQSB3YXMgdGVzdGVkIHVz
+aW5nIDM1IGluZGVwZW5kZW50IHN1cnZleSBwb2ludHMgbG9jYXRlZCBpbiBvcGVuIHRlcnJhaW4u
+IFRoZSBzdXJ2ZXllZCBjaGVja3BvaW50cyB3ZXJlIGRpc3RyaWJ1dGVkIHRocm91Z2hvdXQgdGhl
+IHByb2plY3QgYXJlYSBhbmQgc3VydmV5ZWQgdXNpbmcgR05TUyBwcm9jZWR1cmVzIGFuZCBtZXRo
+b2RvbG9naWVzIHRoYXQgcHJvdmlkZSByZWxpYWJsZSBhbmQgY29uc2lzdGVudCByZXN1bHRzIHRv
+IG1lZXQgdGhlIHByb2plY3QncyBhY2N1cmFjeSByZXF1aXJlbWVudHMuIFBsZWFzZSBzZWUgdGhl
+ICJTdXJ2ZXkgQWNjdXJhY3kgUmVxdWlyZW1lbnRzIiBhbmQgIkZpZWxkIE1ldGhvZG9sb2d5IiBz
+ZWN0aW9ucyBpbiB0aGUgU3VydmV5IFJlcG9ydCBmb3IgbW9yZSBpbmZvcm1hdGlvbi4gRWxldmF0
+aW9ucyBmcm9tIHRoZSB1bmNsYXNzaWZpZWQgbGlkYXIgc3VyZmFjZSB3ZXJlIG1lYXN1cmVkIGZv
+ciB0aGUgeCx5IGxvY2F0aW9uIG9mIGVhY2ggY2hlY2sgcG9pbnQuIEVsZXZhdGlvbnMgaW50ZXJw
+b2xhdGVkIGZyb20gdGhlIHVuY2xhc3NpZmllZCBsaWRhciBzdXJmYWNlIHdlcmUgdGhlbiBjb21w
+YXJlZCB0byB0aGUgZWxldmF0aW9uIHZhbHVlcyBvZiB0aGUgc3VydmV5ZWQgY29udHJvbC4gVGhl
+IFJNU0V6IHdhcyBjb21wdXRlZCB0byBiZSAwLjA5OSBtZXRlcnMgKDAuMDMwIGZlZXQpIGFuZCBB
+Y2N1cmFjeVogdG8gYmUgMC4xOTMgbWV0ZXJzICgwLjA1OSBmZWV0KS4gVGhpcyBtZWV0cyB0aGUg
+cmVxdWlyZWQgQWNjdXJhY3laIHZhbHVlIG9mIDE5LjYgY20gcmF3IE5WQSBhdCA5NSBwZXJjZW50
+IGNvbmZpZGVuY2UgbGV2ZWwgdXNpbmcgKFJNU0V6ICogMS45NjAwKSBhcyBkZWZpbmVkIGJ5IHRo
+ZSBOYXRpb25hbCBTdGFuZGFyZHMgZm9yIFNwYXRpYWwgRGF0YSBBY2N1cmFjeSAoTlNTREEpOyBh
+c3Nlc3NlZCBhbmQgcmVwb3J0ZWQgdXNpbmcgTmF0aW9uYWwgRGlnaXRhbCBFbGV2YXRpb24gUHJv
+Z3JhbSAoTkRFUCkvQVNQUlMgR3VpZGVsaW5lcy4NCgkJCQkJPC92ZXJ0YWNjZT4NCiAgICAgICAg
+PC9xdmVydHBhPg0KICAgICAgICA8cXZlcnRwYT4NCiAgICAgICAgICA8dmVydGFjY3Y+MC4wNTM8
+IS0tbWV0ZXJzOyBOVkEgYXQgdGhlIDk1IHBlcmNlbnQgQ29uZmlkZW5jZSBJbnRlcnZhbC0tPjwv
+dmVydGFjY3Y+DQogICAgICAgICAgPHZlcnRhY2NlPg0KCQkJCQkJVGhlIE5WQSB3YXMgdGVzdGVk
+IHVzaW5nIDM1IGluZGVwZW5kZW50IHN1cnZleSBwb2ludHMgbG9jYXRlZCBpbiBvcGVuIHRlcnJh
+aW4uIFRoZSBzdXJ2ZXllZCBjaGVja3BvaW50cyB3ZXJlIGRpc3RyaWJ1dGVkIHRocm91Z2hvdXQg
+dGhlIHByb2plY3QgYXJlYSBhbmQgc3VydmV5ZWQgdXNpbmcgR05TUyBwcm9jZWR1cmVzIGFuZCBt
+ZXRob2RvbG9naWVzIHRoYXQgcHJvdmlkZSByZWxpYWJsZSBhbmQgY29uc2lzdGVudCByZXN1bHRz
+IHRvIG1lZXQgdGhlIHByb2plY3QncyBhY2N1cmFjeSByZXF1aXJlbWVudHMuIFBsZWFzZSBzZWUg
+dGhlICJTdXJ2ZXkgQWNjdXJhY3kgUmVxdWlyZW1lbnRzIiBhbmQgIkZpZWxkIE1ldGhvZG9sb2d5
+IiBzZWN0aW9ucyBpbiB0aGUgU3VydmV5IFJlcG9ydCBmb3IgbW9yZSBpbmZvcm1hdGlvbi4gRWxl
+dmF0aW9ucyBmcm9tIHRoZSBERU0gc3VyZmFjZSB3ZXJlIG1lYXN1cmVkIGZvciB0aGUgeCx5IGxv
+Y2F0aW9uIG9mIGVhY2ggY2hlY2sgcG9pbnQuIEVsZXZhdGlvbnMgaW50ZXJwb2xhdGVkIGZyb20g
+dGhlIERFTSBzdXJmYWNlIHdlcmUgdGhlbiBjb21wYXJlZCB0byB0aGUgZWxldmF0aW9uIHZhbHVl
+cyBvZiB0aGUgc3VydmV5ZWQgY29udHJvbC4gVGhlIFJNU0V6IHdhcyBjb21wdXRlZCB0byBiZSAw
+LjA4OSBtZXRlcnMgKDAuMDI3IGZlZXQpIGFuZCBBY2N1cmFjeVogdG8gYmUgMC4xNzQgbWV0ZXJz
+ICgwLjA1MyBmZWV0KS4gVGhpcyBtZWV0cyB0aGUgcmVxdWlyZWQgQWNjdXJhY3laIHZhbHVlIG9m
+IDE5LjYgY20gTlZBIGF0IDk1IHBlcmNlbnQgY29uZmlkZW5jZSBsZXZlbCB1c2luZyAoUk1TRXog
+KiAxLjk2MDApIGFzIGRlZmluZWQgYnkgdGhlIE5hdGlvbmFsIFN0YW5kYXJkcyBmb3IgU3BhdGlh
+bCBEYXRhIEFjY3VyYWN5IChOU1NEQSk7IGFzc2Vzc2VkIGFuZCByZXBvcnRlZCB1c2luZyBOYXRp
+b25hbCBEaWdpdGFsIEVsZXZhdGlvbiBQcm9ncmFtIChOREVQKS9BU1BSUyBHdWlkZWxpbmVzLg0K
+CQkJCQk8L3ZlcnRhY2NlPg0KICAgICAgICA8L3F2ZXJ0cGE+DQogICAgICAgIDxxdmVydHBhPg0K
+ICAgICAgICAgIDx2ZXJ0YWNjdj4wLjA3ODwhLS1tZXRlcnM7IFZWQSBhdCB0aGUgOTV0aCBQZXJj
+ZW50aWxlLS0+PC92ZXJ0YWNjdj4NCiAgICAgICAgICA8dmVydGFjY2U+DQoJCQkJCQlUaGUgVlZB
+IHdhcyB0ZXN0ZWQgdXNpbmcgMjUgaW5kZXBlbmRlbnQgc3VydmV5IHBvaW50cyBsb2NhdGVkIGlu
+IHZlZ2V0YXRlZCB0ZXJyYWluLiBUaGUgc3VydmV5ZWQgY2hlY2twb2ludHMgd2VyZSBkaXN0cmli
+dXRlZCB0aHJvdWdob3V0IHRoZSBwcm9qZWN0IGFyZWEgYW5kIHN1cnZleWVkIHVzaW5nIEdOU1Mg
+cHJvY2VkdXJlcyBhbmQgbWV0aG9kb2xvZ2llcyB0aGF0IHByb3ZpZGUgcmVsaWFibGUgYW5kIGNv
+bnNpc3RlbnQgcmVzdWx0cyB0byBtZWV0IHRoZSBwcm9qZWN0J3MgYWNjdXJhY3kgcmVxdWlyZW1l
+bnRzLiBQbGVhc2Ugc2VlIHRoZSAiU3VydmV5IEFjY3VyYWN5IFJlcXVpcmVtZW50cyIgYW5kICJG
+aWVsZCBNZXRob2RvbG9neSIgc2VjdGlvbnMgaW4gdGhlIFN1cnZleSBSZXBvcnQgZm9yIG1vcmUg
+aW5mb3JtYXRpb24uIEVsZXZhdGlvbnMgZnJvbSB0aGUgREVNIHN1cmZhY2Ugd2VyZSBtZWFzdXJl
+ZCBmb3IgdGhlIHgseSBsb2NhdGlvbiBvZiBlYWNoIGNoZWNrIHBvaW50LiBFbGV2YXRpb25zIGlu
+dGVycG9sYXRlZCBmcm9tIHRoZSBERU0gc3VyZmFjZSB3ZXJlIHRoZW4gY29tcGFyZWQgdG8gdGhl
+IGVsZXZhdGlvbiB2YWx1ZXMgb2YgdGhlIHN1cnZleWVkIGNvbnRyb2wuIFRoZSBWVkEgd2FzIGNv
+bXB1dGVkIHRvIGJlIDAuMjU3IG1ldGVycyAoMC4wNzggZmVldCkuIFRoaXMgbWVldHMgdGhlIHJl
+cXVpcmVkIHZhbHVlIG9mIDI5LjQgY20gVlZBIGF0IDk1dGggcGVyY2VudGlsZSBsZXZlbCB1c2lu
+ZyB0aGUgOTV0aCBwZXJjZW50aWxlIG9mIHRoZSBhYnNvbHV0ZSB2YWx1ZSBvZiBhbGwgdmVydGlj
+YWwgZXJyb3JzIGluIGFsbCBjb21iaW5lZCB2ZWdldGF0aW9uIGNsYXNzZXMgYXMgZGVmaW5lZCBi
+eSB0aGUgTmF0aW9uYWwgU3RhbmRhcmRzIGZvciBTcGF0aWFsIERhdGEgQWNjdXJhY3kgKE5TU0RB
+KTsgYXNzZXNzZWQgYW5kIHJlcG9ydGVkIHVzaW5nIE5hdGlvbmFsIERpZ2l0YWwgRWxldmF0aW9u
+IFByb2dyYW0gKE5ERVApL0FTUFJTIEd1aWRlbGluZXMuDQoJCQkJCTwvdmVydGFjY2U+DQogICAg
+ICAgIDwvcXZlcnRwYT4NCiAgICAgIDwvdmVydGFjYz4NCiAgICA8L3Bvc2FjYz4NCiAgICA8bGlu
+ZWFnZT4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0
+ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2luPlF1YW50dW0gU3BhdGlhbDwvb3JpZ2luPg0KICAg
+ICAgICAgICAgPHB1YmRhdGU+MjAxNjEyMDU8L3B1YmRhdGU+DQogICAgICAgICAgICA8dGl0bGU+
+U3VydmV5IFJlcG9ydCBvZiBMaURBUiBHcm91bmQgQ29udHJvbCBQb2ludHM6IERhdXBoaW4gQ291
+bnR5LCBQQSBMaURBUiBUYXNrIE9yZGVyPC90aXRsZT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0K
+ICAgICAgICAgICAgICA8cHVicGxhY2U+TGV4aW5ndG9uLCBLWTwvcHVicGxhY2U+DQogICAgICAg
+ICAgICAgIDxwdWJsaXNoPlF1YW50dW0gU3BhdGlhbDwvcHVibGlzaD4NCiAgICAgICAgICAgIDwv
+cHViaW5mbz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+DQogICAg
+ICAgIDx0eXBlc3JjPm9ubGluZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+DQogICAgICAg
+ICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAgIDxjYWxk
+YXRlPjIwMTY8L2NhbGRhdGU+DQogICAgICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAgPC90
+aW1laW5mbz4NCiAgICAgICAgICA8c3JjY3Vycj5ncm91bmQgY29uZGl0aW9uPC9zcmNjdXJyPg0K
+ICAgICAgICA8L3NyY3RpbWU+DQogICAgICAgIDxzcmNjaXRlYT5QQV9EYXVwaGluQ291bnR5X1FM
+Ml8yMDE2X0xpREFSX2duZF9jdHJsPC9zcmNjaXRlYT4NCiAgICAgICAgPHNyY2NvbnRyPlRoaXMg
+ZGF0YSBzb3VyY2Ugd2FzIHVzZWQgKGFsb25nIHdpdGggdGhlIGFpcmJvcm5lIEdQUy9JTVUgRGF0
+YSkgdG8gYWlkIGluIHRoZSBnZW9yZWZlcmVuY2luZyBvZiB0aGUgbGlkYXIgcG9pbnQgY2xvdWQg
+ZGF0YS48L3NyY2NvbnRyPg0KICAgICAgPC9zcmNpbmZvPg0KICAgICAgPHNyY2luZm8+DQogICAg
+ICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgICAgIDxvcmlnaW4+
+UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgICAgICA8cHViZGF0ZT4yMDE2MTIwNTwv
+cHViZGF0ZT4NCiAgICAgICAgICAgIDx0aXRsZT5MaWRhciBSQVcgRGF0YSBmb3IgRGF1cGhpbiBD
+b3VudHksIFBBIFFMMiAyMDE2PC90aXRsZT4NCiAgICAgICAgICAgIDxnZW9mb3JtPmxpZGFyIGRh
+dGE8L2dlb2Zvcm0+DQogICAgICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICAgICAgPHB1YnBs
+YWNlPlF1YW50dW0gU3BhdGlhbDwvcHVicGxhY2U+DQogICAgICAgICAgICAgIDxwdWJsaXNoPjIw
+MTY8L3B1Ymxpc2g+DQogICAgICAgICAgICA8L3B1YmluZm8+DQogICAgICAgICAgPC9jaXRlaW5m
+bz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgICA8dHlwZXNyYz5vbmxpbmU8L3R5cGVzcmM+
+DQogICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDx0aW1laW5mbz4NCiAgICAgICAgICAgIDxy
+bmdkYXRlcz4NCiAgICAgICAgICAgICAgPGJlZ2RhdGU+MjAxNjAzMjQ8L2JlZ2RhdGU+DQogICAg
+ICAgICAgICAgIDxlbmRkYXRlPjIwMTYxMTIyPC9lbmRkYXRlPg0KICAgICAgICAgICAgPC9ybmdk
+YXRlcz4NCiAgICAgICAgICA8L3RpbWVpbmZvPg0KICAgICAgICAgIDxzcmNjdXJyPmdyb3VuZCBj
+b25kaXRpb248L3NyY2N1cnI+DQogICAgICAgIDwvc3JjdGltZT4NCiAgICAgICAgPHNyY2NpdGVh
+PlBBX0RhdXBoaW5Db3VudHlfUUwyXzIwMTZfTGlEQVJfRGF0YTwvc3JjY2l0ZWE+DQogICAgICAg
+IDxzcmNjb250cj5UaGlzIGRhdGEgc291cmNlIHdhcyB1c2VkIHRvIHBvcHVsYXRlIHRoZSBsaWRh
+ciBwb2ludCBjbG91ZCBkYXRhLjwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8
+c3JjaW5mbz4NCiAgICAgICAgPHNyY2NpdGU+DQogICAgICAgICAgPGNpdGVpbmZvPg0KICAgICAg
+ICAgICAgPG9yaWdpbj5RdWFudHVtIFNwYXRpYWw8L29yaWdpbj4NCiAgICAgICAgICAgIDxwdWJk
+YXRlPjIwMTYxMjA1PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPkNvbnRyb2wgU3VydmV5
+IFJlcG9ydCBvZiBMaURBUiBRdWFsaXR5IENvbnRyb2wgUG9pbnRzOiBEYXVwaGluIENvdW50eSwg
+UEEgTGlkYXIgVGFzayBPcmRlcjwvdGl0bGU+DQogICAgICAgICAgICA8cHViaW5mbz4NCiAgICAg
+ICAgICAgICAgPHB1YnBsYWNlPkxleGluZ3RvbiwgS1k8L3B1YnBsYWNlPg0KICAgICAgICAgICAg
+ICA8cHVibGlzaD5RdWFudHVtIFNwYXRpYWw8L3B1Ymxpc2g+DQogICAgICAgICAgICA8L3B1Ymlu
+Zm8+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgICA8
+dHlwZXNyYz5vbmxpbmU8L3R5cGVzcmM+DQogICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDx0
+aW1laW5mbz4NCiAgICAgICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgICAgICA8Y2FsZGF0ZT4y
+MDE2PC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgICAgIDwvdGltZWlu
+Zm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3JjY3Vycj4NCiAgICAg
+ICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+UEFfRGF1cGhpbkNvdW50eV9RTDJfMjAx
+Nl9MaURBUl9xY19jdHJsPC9zcmNjaXRlYT4NCiAgICAgICAgPHNyY2NvbnRyPlRoaXMgZGF0YSBz
+b3VyY2Ugd2FzIHVzZWQgdG8gUUMgYW5kIHZlcnRpY2FsbHkgYWRqdXN0IHRoZSBsaWRhciBwb2lu
+dCBjbG91ZCBkYXRhLjwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8cHJvY3N0
+ZXA+DQogICAgICAgIDxwcm9jZGVzYz4NCgkJCQkJTGlkYXIgUHJlLVByb2Nlc3Npbmc6DQoJCQkJ
+CUFpcmJvcm5lIEdQUyBhbmQgSU1VIGRhdGEgd2VyZSBtZXJnZWQgdG8gZGV2ZWxvcCBhIFNpbmds
+ZSBCZXN0IEVzdGltYXRlIChTQkVUKSBvZiB0aGUgbGlkYXIgc3lzdGVtIHRyYWplY3RvcnkgZm9y
+IGVhY2ggbGlmdC4gTGlkYXIgcmFuZ2luZyBkYXRhIHdlcmUgaW5pdGlhbGx5IGNhbGlicmF0ZWQg
+dXNpbmcgcHJldmlvdXMgYmVzdCBwYXJhbWV0ZXJzIGZvciB0aGlzIGluc3RydW1lbnQgYW5kIGFp
+cmNyYWZ0LiBSZWxhdGl2ZSBjYWxpYnJhdGlvbiB3YXMgZXZhbHVhdGVkIHVzaW5nIGFkdmFuY2Vk
+IHBsYW5lLW1hdGNoaW5nIGFuYWx5c2lzIGFuZCBwYXJhbWV0ZXIgY29ycmVjdGlvbnMgZGVyaXZl
+ZC4gVGhpcyB3YXMgcmVwZWF0ZWQgaXRlcmF0aXZlbHkgdW50aWwgcmVzaWR1YWwgZXJyb3JzIGJl
+dHdlZW4gb3ZlcmxhcHBpbmcgc3dhdGhzLCBhY3Jvc3MgYWxsIHByb2plY3QgbGlmdHMsIHdhcyBy
+ZWR1Y2VkIHRvIGFjY2VwdGFibGUgbGV2ZWxzLiBEYXRhIHdlcmUgdGhlbiBibG9jayBhZGp1c3Rl
+ZCB0byBtYXRjaCBzdXJ2ZXllZCBjYWxpYnJhdGlvbiBjb250cm9sLiBSYXcgZGF0YSBOVkEgd2Vy
+ZSBjaGVja2VkIHVzaW5nIGluZGVwZW5kZW50bHkgc3VydmV5ZWQgY2hlY2twb2ludHMuIFN3YXRo
+IG92ZXJhZ2UgcG9pbnRzIHdlcmUgaWRlbnRpZmllZCBhbmQgdGFnZ2VkIHdpdGhpbiBlYWNoIHN3
+YXRoIGZpbGUuIFRoZSByZXN1bHRzIG9mIHRoZSBmaW5hbCBjYWxpYnJhdGlvbiwgTlZBIGFjY3Vy
+YWN5IGFzc2Vzc21lbnRzIGFuZCB0aGUgInJhdyIgc3dhdGhzIHdlcmUgZm9yd2FyZGVkIHRvIHRo
+ZSBjbGllbnQgdG8gb2J0YWluIGEgTm90aWNlIFRvIFByb2NlZWQgb24gY2xhc3NpZmljYXRpb24g
+YW5kIGRlcml2YXRpdmUgcHJvZHVjdCBnZW5lcmF0aW9uLg0KCQkJCTwvcHJvY2Rlc2M+DQogICAg
+ICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwyXzIwMTZfTGlEQVJfZ25kX2N0cmw8L3Ny
+Y3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE2PC9wcm9jZGF0ZT4NCiAgICAgICAgPHNyY3By
+b2Q+TGlEQVIgZGF0YXNldHMgd2l0aCBVU0dTIGNsYXNzaWZpY2F0aW9uczwvc3JjcHJvZD4NCiAg
+ICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudG9y
+Z3A+DQogICAgICAgICAgICAgIDxjbnRvcmc+UXVhbnR1bSBTcGF0aWFsPC9jbnRvcmc+DQogICAg
+ICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAg
+PGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAg
+PGFkZHJlc3M+NTIzIFdlbGxpbmd0b24gV2F5PC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0
+eT5MZXhpbmd0b248L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5LWTwvc3RhdGU+DQogICAg
+ICAgICAgICAgIDxwb3N0YWw+NDA1MDM8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50cnk+
+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNudHZv
+aWNlPjg1OS0yNzctODcwMDwvY250dm9pY2U+DQogICAgICAgICAgICA8Y250ZmF4Pjg1OS0yNzct
+ODkwMTwvY250ZmF4Pg0KICAgICAgICAgICAgPGhvdXJzPk1vbmRheSB0aHJvdWdoIEZyaWRheSA4
+OjAwIEFNIHRvIDU6MDAgUE0gKEVhc3Rlcm4gVGltZSk8L2hvdXJzPg0KICAgICAgICAgICAgPGNu
+dGluc3Q+SWYgdW5hYmxlIHRvIHJlYWNoIHRoZSBjb250YWN0IGJ5IHRlbGVwaG9uZSwgcGxlYXNl
+IHNlbmQgYW4gZW1haWwuIFlvdSBzaG91bGQgZ2V0IGEgcmVzcG9uc2Ugd2l0aGluIDI0IGhvdXJz
+LjwvY250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQog
+ICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+DQoJ
+CQkJICAgIExpZGFyIFBvc3QtUHJvY2Vzc2luZzoNCgkJCQkgICAgVGhlIGNhbGlicmF0ZWQgYW5k
+IGNvbnRyb2xsZWQgbGlkYXIgc3dhdGhzIHdlcmUgcHJvY2Vzc2VkIHVzaW5nIGF1dG9tYXRpYyBw
+b2ludCBjbGFzc2lmaWNhdGlvbiByb3V0aW5lcyBpbiBwcm9wcmlldGFyeSBzb2Z0d2FyZS4gVGhl
+c2Ugcm91dGluZXMgb3BlcmF0ZSBhZ2FpbnN0IHRoZSBlbnRpcmUgY29sbGVjdGlvbiAoYWxsIHN3
+YXRocywgYWxsIGxpZnRzKSwgZWxpbWluYXRpbmcgY2hhcmFjdGVyIGRpZmZlcmVuY2VzIGJldHdl
+ZW4gZmlsZXMuIERhdGEgd2VyZSB0aGVuIGRpc3RyaWJ1dGVkIGFzIHZpcnR1YWwgdGlsZXMgdG8g
+ZXhwZXJpZW5jZWQgbGlkYXIgYW5hbHlzdHMgZm9yIGxvY2FsaXplZCBhdXRvbWF0aWMgY2xhc3Np
+ZmljYXRpb24sIG1hbnVhbCBlZGl0aW5nLCBhbmQgcGVlci1iYXNlZCBRQyBjaGVja3MuIFN1cGVy
+dmlzb3J5IFFDIG1vbml0b3Jpbmcgb2Ygd29yayBpbiBwcm9ncmVzcyBhbmQgY29tcGxldGVkIGVk
+aXRpbmcgZW5zdXJlZCBjb25zaXN0ZW5jeSBvZiBjbGFzc2lmaWNhdGlvbiBjaGFyYWN0ZXIgYW5k
+IGFkaGVyZW5jZSB0byBwcm9qZWN0IHJlcXVpcmVtZW50cyBhY3Jvc3MgdGhlIGVudGlyZSBwcm9q
+ZWN0IGFyZWEuDQoJCQkJICAgIEFsbCBjbGFzc2lmaWNhdGlvbiB0YWdzIGFyZSBzdG9yZWQgaW4g
+dGhlIG9yaWdpbmFsIHN3YXRoIGZpbGVzLg0KCQkJCSAgICBBZnRlciBjb21wbGV0aW9uIG9mIGNs
+YXNzaWZpY2F0aW9uIGFuZCBmaW5hbCBRQyBhcHByb3ZhbCwgdGhlIE5WQSBhbmQgVlZBIGZvciB0
+aGUgcHJvamVjdCBhcmUgY2FsY3VsYXRlZC4gU2FtcGxlIGFyZWFzIGZvciBlYWNoIGxhbmQgY292
+ZXIgdHlwZSBwcmVzZW50IGluIHRoZSBwcm9qZWN0IGFyZWEgd2VyZSBleHRyYWN0ZWQgYW5kIGZv
+cndhcmRlZCB0byB0aGUgY2xpZW50LCBhbG9uZyB3aXRoIHRoZSByZXN1bHRzIG9mIHRoZSBhY2N1
+cmFjeSB0ZXN0cy4gVXBvbiBhY2NlcHRhbmNlLCB0aGUgY29tcGxldGUgY2xhc3NpZmllZCBsaWRh
+ciBzd2F0aCBmaWxlcyB3ZXJlIGRlbGl2ZXJlZCB0byB0aGUgY2xpZW50Lg0KCQkJCTwvcHJvY2Rl
+c2M+DQogICAgICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwyXzIwMTZfTGlEQVJfZ25k
+X2N0cmw8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwyXzIw
+MTZfTGlEQVJfRGF0YTwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTY8L3Byb2NkYXRl
+Pg0KICAgICAgICA8c3JjcHJvZD5QQV9EYXVwaGluQ291bnR5X1FMMl8yMDE2X0xpREFSX0RhdGE8
+L3NyY3Byb2Q+DQogICAgICAgIDxwcm9jY29udD4NCiAgICAgICAgICA8Y250aW5mbz4NCiAgICAg
+ICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgICAgICA8Y250b3JnPlF1YW50dW0gU3BhdGlhbDwv
+Y250b3JnPg0KICAgICAgICAgICAgICA8Y250cGVyPlJ5YW4gR3JpZmZpbjwvY250cGVyPg0KICAg
+ICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgICAg
+IDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgICAg
+IDxhZGRyZXNzPjUyMyBXZWxsaW5ndG9uIFdheTwvYWRkcmVzcz4NCiAgICAgICAgICAgICAgPGNp
+dHk+TGV4aW5ndG9uPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+S1k8L3N0YXRlPg0KICAg
+ICAgICAgICAgICA8cG9zdGFsPjQwNTAzPC9wb3N0YWw+DQogICAgICAgICAgICAgIDxjb3VudHJ5
+PlVTQTwvY291bnRyeT4NCiAgICAgICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxjbnR2
+b2ljZT44NTktMjc3LTg3MDA8L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNudGZheD44NTktMjc3
+LTg5MDE8L2NudGZheD4NCiAgICAgICAgICAgIDxjbnRlbWFpbD5yZ3JpZmZpbkBxdWFudHVtc3Bh
+dGlhbC5jb208L2NudGVtYWlsPg0KICAgICAgICAgICAgPGhvdXJzPk1vbmRheSB0aHJvdWdoIEZy
+aWRheSA4OjAwIEFNIHRvIDU6MDAgUE0gKEVhc3Rlcm4gVGltZSk8L2hvdXJzPg0KICAgICAgICAg
+ICAgPGNudGluc3Q+SWYgdW5hYmxlIHRvIHJlYWNoIHRoZSBjb250YWN0IGJ5IHRlbGVwaG9uZSwg
+cGxlYXNlIHNlbmQgYW4gZW1haWwuIFlvdSBzaG91bGQgZ2V0IGEgcmVzcG9uc2Ugd2l0aGluIDI0
+IGhvdXJzLjwvY250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2Nv
+bnQ+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rl
+c2M+DQoJCQkJICAgIENsYXNzaWZpZWQgTEFTIENyZWF0aW9uOg0KCQkJCSAgICBUaGUgYmFyZSBl
+YXJ0aCBzdXJmYWNlIGlzIHRoZW4gbWFudWFsbHkgcmV2aWV3ZWQgdG8gZW5zdXJlIGNvcnJlY3Qg
+Y2xhc3NpZmljYXRpb24gb24gdGhlIENsYXNzIDIgKEdyb3VuZCkgcG9pbnRzLiAgQWZ0ZXIgdGhl
+IGJhcmUtZWFydGggc3VyZmFjZSBpcyBmaW5hbGl6ZWQsIGl0IGlzIHRoZW4gdXNlZCB0byBnZW5l
+cmF0ZSBhbGwgaHlkcm8tYnJlYWtsaW5lcyB0aHJvdWdoIGhlYWRzLXVwIGRpZ2l0aXphdGlvbi4N
+CgkJCQkgICAgQWxsIGdyb3VuZCAoQVNQUlMgQ2xhc3MgMikgTGlEQVIgZGF0YSBpbnNpZGUgb2Yg
+dGhlIExha2UgUG9uZCBhbmQgRG91YmxlIExpbmUgRHJhaW4gaHlkcm8gZmxhdHRlbmluZyBicmVh
+a2xpbmVzIHdlcmUgdGhlbiBjbGFzc2lmaWVkIHRvIHdhdGVyIChBU1BSUyBDbGFzcyA5KSB1c2lu
+ZyBUZXJyYVNjYW4gbWFjcm8gZnVuY3Rpb25hbGl0eS4gIEEgYnVmZmVyIG9mIDMgZmVldCB3YXMg
+YWxzbyB1c2VkIGFyb3VuZCBlYWNoIGh5ZHJvLWZsYXR0ZW5lZCBmZWF0dXJlIHRvIGNsYXNzaWZ5
+IHRoZXNlIGdyb3VuZCAoQVNQUlMgQ2xhc3MgMikgcG9pbnRzIHRvIElnbm9yZWQgZ3JvdW5kIChB
+U1BSUyBDbGFzcyAxMCkuICBBbGwgTGFrZSBQb25kIElzbGFuZCBhbmQgRG91YmxlIExpbmUgRHJh
+aW4gSXNsYW5kIGZlYXR1cmVzIHdlcmUgY2hlY2tlZCB0byBlbnN1cmUgdGhhdCB0aGUgZ3JvdW5k
+IChBU1BSUyBDbGFzcyAyKSBwb2ludHMgd2VyZSByZWNsYXNzaWZpZWQgdG8gdGhlIGNvcnJlY3Qg
+Y2xhc3NpZmljYXRpb24gYWZ0ZXIgdGhlIGF1dG9tYXRlZCBjbGFzc2lmaWNhdGlvbiB3YXMgY29t
+cGxldGVkLiAgQWxsIGJyaWRnZSBkZWNrcyB3ZXJlIGNsYXNzaWZpZWQgdG8gQ2xhc3MgMTcuDQoJ
+CQkJICAgIEFsbCBvdmVybGFwIGRhdGEgd2FzIHByb2Nlc3NlZCB0aHJvdWdoIGF1dG9tYXRlZCBm
+dW5jdGlvbmFsaXR5IHByb3ZpZGVkIGJ5IFRlcnJhU2NhbiB0byBjbGFzc2lmeSB0aGUgb3Zlcmxh
+cHBpbmcgZmxpZ2h0IGxpbmUgZGF0YSB0byBhcHByb3ZlZCBjbGFzc2VzIGJ5IFVTR1MuICBUaGUg
+b3ZlcmxhcCBkYXRhIHdhcyBpZGVudGlmaWVkIHVzaW5nIHRoZSBPdmVybGFwIEZsYWcsIHBlciBM
+QVMgMS40IHNwZWNpZmljYXRpb25zLg0KCQkJCSAgICBBbGwgZGF0YSB3YXMgbWFudWFsbHkgcmV2
+aWV3ZWQgYW5kIGFueSByZW1haW5pbmcgYXJ0aWZhY3RzIHJlbW92ZWQgdXNpbmcgZnVuY3Rpb25h
+bGl0eSBwcm92aWRlZCBieSBUZXJyYVNjYW4gYW5kIFRlcnJhTW9kZWxlci4gIEdsb2JhbCBNYXBw
+ZXIgd2FzIHVzZWQgYXMgYSBmaW5hbCBjaGVjayBvZiB0aGUgYmFyZSBlYXJ0aCBkYXRhc2V0LiAg
+R2VvQ3VlIHdhcyB0aGVuIHVzZWQgdG8gY3JlYXRlIHRoZSBkZWxpdmVyYWJsZSBpbmR1c3RyeS1z
+dGFuZGFyZCBMQVMgZmlsZXMgZm9yIGJvdGggdGhlIEFsbCBQb2ludCBDbG91ZCBEYXRhIGFuZCB0
+aGUgQmFyZSBFYXJ0aC4gIFF1YW50dW0gU3BhdGlhbCBwcm9wcmlldGFyeSBzb2Z0d2FyZSB3YXMg
+dXNlZCB0byBwZXJmb3JtIGZpbmFsIHN0YXRpc3RpY2FsIGFuYWx5c2lzIG9mIHRoZSBjbGFzc2Vz
+IGluIHRoZSBMQVMgZmlsZXMsIG9uIGEgcGVyIHRpbGUgbGV2ZWwgdG8gdmVyaWZ5IGZpbmFsIGNs
+YXNzaWZpY2F0aW9uIG1ldHJpY3MgYW5kIGZ1bGwgTEFTIGhlYWRlciBpbmZvcm1hdGlvbi4NCgkJ
+CQk8L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5QQV9EYXVwaGluQ291bnR5X1FMMl8yMDE2
+X0xpREFSX3FjX2N0cmw8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3Vu
+dHlfUUwyXzIwMTZfTGlEQVJfRGF0YTwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTY8
+L3Byb2NkYXRlPg0KICAgICAgICA8c3JjcHJvZD5DbGFzc2lmaWVkIExBUzwvc3JjcHJvZD4NCiAg
+ICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudG9y
+Z3A+DQogICAgICAgICAgICAgIDxjbnRvcmc+UXVhbnR1bSBTcGF0aWFsPC9jbnRvcmc+DQogICAg
+ICAgICAgICAgIDxjbnRwZXI+UnlhbiBHcmlmZmluPC9jbnRwZXI+DQogICAgICAgICAgICA8L2Nu
+dG9yZ3A+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0eXBlPm1h
+aWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+NTIz
+IFdlbGxpbmd0b24gV2F5PC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0eT5MZXhpbmd0b248
+L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5LWTwvc3RhdGU+DQogICAgICAgICAgICAgIDxw
+b3N0YWw+NDA1MDM8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5
+Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNudHZvaWNlPjg1OS0yNzct
+ODcwMDwvY250dm9pY2U+DQogICAgICAgICAgICA8Y250ZmF4Pjg1OS0yNzctODkwMTwvY250ZmF4
+Pg0KICAgICAgICAgICAgPGNudGVtYWlsPnJncmlmZmluQHF1YW50dW1zcGF0aWFsLmNvbTwvY250
+ZW1haWw+DQogICAgICAgICAgICA8aG91cnM+TW9uZGF5IHRocm91Z2ggRnJpZGF5IDg6MDAgQU0g
+dG8gNTowMCBQTSAoRWFzdGVybiBUaW1lKTwvaG91cnM+DQogICAgICAgICAgICA8Y250aW5zdD5J
+ZiB1bmFibGUgdG8gcmVhY2ggdGhlIGNvbnRhY3QgYnkgdGVsZXBob25lLCBwbGVhc2Ugc2VuZCBh
+biBlbWFpbC4gWW91IHNob3VsZCBnZXQgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91cnMuPC9jbnRp
+bnN0Pg0KICAgICAgICAgIDwvY250aW5mbz4NCiAgICAgICAgPC9wcm9jY29udD4NCiAgICAgIDwv
+cHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz4NCgkJCQkgICAg
+SHlkcm8tRmxhdHRlbmVkIEJyZWFrbGluZSBDcmVhdGlvbjogDQoJCQkJICAgIENsYXNzIDIgTGlE
+QVIgd2FzIHVzZWQgdG8gY3JlYXRlIGEgYmFyZSBlYXJ0aCBzdXJmYWNlIG1vZGVsLiAgVGhlIHN1
+cmZhY2UgbW9kZWwgd2FzIHRoZW4gdXNlZCB0byBoZWFkcy11cCBkaWdpdGl6ZSAyRCBicmVha2xp
+bmVzIG9mIGlubGFuZCBzdHJlYW1zIGFuZCByaXZlcnMgd2l0aCBhIDEwMCBmb290IG5vbWluYWwg
+d2lkdGggYW5kIElubGFuZCBQb25kcyBhbmQgTGFrZXMgb2YgMiBhY3JlcyBvciBncmVhdGVyIHN1
+cmZhY2UgYXJlYS4NCgkJCQkgICAgRWxldmF0aW9uIHZhbHVlcyB3ZXJlIGFzc2lnbmVkIHRvIGFs
+bCBJbmxhbmQgUG9uZHMgYW5kIExha2VzLCBJbmxhbmQgUG9uZCBhbmQgTGFrZSBJc2xhbmRzLCBJ
+bmxhbmQgU3RyZWFtIGFuZCBSaXZlciBJc2xhbmRzLCB1c2luZyBUZXJyYU1vZGVsZXIgZnVuY3Rp
+b25hbGl0eS4NCgkJCQkgICAgRWxldmF0aW9uIHZhbHVlcyB3ZXJlIGFzc2lnbmVkIHRvIGFsbCBJ
+bmxhbmQgc3RyZWFtcyBhbmQgcml2ZXJzIHVzaW5nIFF1YW50dW0gU3BhdGlhbCBwcm9wcmlldGFy
+eSBzb2Z0d2FyZS4NCgkJCQkgICAgQWxsIGdyb3VuZCAoQVNQUlMgQ2xhc3MgMikgTGlEQVIgZGF0
+YSBpbnNpZGUgb2YgdGhlIGNvbGxlY3RlZCBpbmxhbmQgYnJlYWtsaW5lcyB3ZXJlIHRoZW4gY2xh
+c3NpZmllZCB0byB3YXRlciAoQVNQUlMgQ2xhc3MgOSkgdXNpbmcgVGVycmFTY2FuIG1hY3JvIGZ1
+bmN0aW9uYWxpdHkuICBBIGJ1ZmZlciBvZiAzIGZlZXQgd2FzIGFsc28gdXNlZCBhcm91bmQgZWFj
+aCBoeWRyby1mbGF0dGVuZWQgZmVhdHVyZS4gIFRoZXNlIHBvaW50cyB3ZXJlIG1vdmVkIGZyb20g
+Z3JvdW5kIChBU1BSUyBDbGFzcyAyKSB0byBJZ25vcmVkIEdyb3VuZCAoQVNQUlMgQ2xhc3MgMTAp
+Lg0KCQkJCSAgICBUaGUgY29udGludW91cyBicmVha2xpbmUgZmlsZXMgd2VyZSB0aGVuIHRyYW5z
+bGF0ZWQgdG8gRXNyaSBmaWxlIGdlb2RhdGFiYXNlIGZvcm1hdCB1c2luZyBFc3JpIGNvbnZlcnNp
+b24gdG9vbHMuDQoJCQkJPC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+UEFfRGF1cGhpbkNv
+dW50eV9RTDJfMjAxNl9MaURBUl9xY19jdHJsPC9zcmN1c2VkPg0KICAgICAgICA8c3JjdXNlZD5Q
+QV9EYXVwaGluQ291bnR5X1FMMl8yMDE2X0xpREFSX0RhdGE8L3NyY3VzZWQ+DQogICAgICAgIDxw
+cm9jZGF0ZT4yMDE2PC9wcm9jZGF0ZT4NCiAgICAgICAgPHNyY3Byb2Q+SHlkcm8tRmxhdHRlbmVk
+IEJyZWFrbGluZXM8L3NyY3Byb2Q+DQogICAgICAgIDxwcm9jY29udD4NCiAgICAgICAgICA8Y250
+aW5mbz4NCiAgICAgICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgICAgICA8Y250b3JnPlF1YW50
+dW0gU3BhdGlhbDwvY250b3JnPg0KICAgICAgICAgICAgICA8Y250cGVyPlJ5YW4gR3JpZmZpbjwv
+Y250cGVyPg0KICAgICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudGFkZHI+DQog
+ICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQog
+ICAgICAgICAgICAgIDxhZGRyZXNzPjUyMyBXZWxsaW5ndG9uIFdheTwvYWRkcmVzcz4NCiAgICAg
+ICAgICAgICAgPGNpdHk+TGV4aW5ndG9uPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+S1k8
+L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFsPjQwNTAzPC9wb3N0YWw+DQogICAgICAgICAg
+ICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgICAgIDwvY250YWRkcj4NCiAgICAg
+ICAgICAgIDxjbnR2b2ljZT44NTktMjc3LTg3MDA8L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNu
+dGZheD44NTktMjc3LTg5MDE8L2NudGZheD4NCiAgICAgICAgICAgIDxjbnRlbWFpbD5yZ3JpZmZp
+bkBxdWFudHVtc3BhdGlhbC5jb208L2NudGVtYWlsPg0KICAgICAgICAgICAgPGhvdXJzPk1vbmRh
+eSB0aHJvdWdoIEZyaWRheSA4OjAwIEFNIHRvIDU6MDAgUE0gKEVhc3Rlcm4gVGltZSk8L2hvdXJz
+Pg0KICAgICAgICAgICAgPGNudGluc3Q+SWYgdW5hYmxlIHRvIHJlYWNoIHRoZSBjb250YWN0IGJ5
+IHRlbGVwaG9uZSwgcGxlYXNlIHNlbmQgYW4gZW1haWwuIFlvdSBzaG91bGQgZ2V0IGEgcmVzcG9u
+c2Ugd2l0aGluIDI0IGhvdXJzLjwvY250aW5zdD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAg
+ICAgIDwvcHJvY2NvbnQ+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAg
+ICAgICA8cHJvY2Rlc2M+DQoJCQkJICAgIEh5ZHJvLUZsYXR0ZW5lZCBCYXJlLUVhcnRoIFJhc3Rl
+ciBERU0gQ3JlYXRpb246IA0KCQkJCSAgICBDbGFzcyAyIExpREFSIGluIGNvbmp1bmN0aW9uIHdp
+dGggdGhlIGh5ZHJvIGJyZWFrbGluZXMgd2VyZSB1c2VkIHRvIGNyZWF0ZSBhIDIuNS1mb290IHJh
+c3RlciBERU0uICBVc2luZyBhdXRvbWF0ZWQgc2NyaXB0aW5nIHJvdXRpbmVzIHdpdGhpbiBBcmNN
+YXAsIGFuIEVSREFTIEltYWdpbmUgLklNRyBmaWxlIHdhcyBjcmVhdGVkIGZvciBlYWNoIHRpbGUu
+ICBFYWNoIHN1cmZhY2UgaXMgcmV2aWV3ZWQgdXNpbmcgR2xvYmFsIE1hcHBlciB0byBjaGVjayBm
+b3IgYW55IHN1cmZhY2UgYW5vbWFsaWVzIG9yIGluY29ycmVjdCBlbGV2YXRpb25zIGZvdW5kIHdp
+dGhpbiB0aGUgc3VyZmFjZS4NCgkJCQk8L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5QQV9E
+YXVwaGluQ291bnR5X1FMMl8yMDE2X0xpREFSX3FjX2N0cmw8L3NyY3VzZWQ+DQogICAgICAgIDxz
+cmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwyXzIwMTZfTGlEQVJfRGF0YTwvc3JjdXNlZD4NCiAg
+ICAgICAgPHByb2NkYXRlPjIwMTY8L3Byb2NkYXRlPg0KICAgICAgICA8c3JjcHJvZD5IeWRyby1G
+bGF0dGVuZWQgQmFyZS1FYXJ0aCBSYXN0ZXIgREVNczwvc3JjcHJvZD4NCiAgICAgICAgPHByb2Nj
+b250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudG9yZ3A+DQogICAgICAg
+ICAgICAgIDxjbnRvcmc+UXVhbnR1bSBTcGF0aWFsPC9jbnRvcmc+DQogICAgICAgICAgICAgIDxj
+bnRwZXI+UnlhbiBHcmlmZmluPC9jbnRwZXI+DQogICAgICAgICAgICA8L2NudG9yZ3A+DQogICAg
+ICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBo
+eXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+NTIzIFdlbGxpbmd0b24g
+V2F5PC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0eT5MZXhpbmd0b248L2NpdHk+DQogICAg
+ICAgICAgICAgIDxzdGF0ZT5LWTwvc3RhdGU+DQogICAgICAgICAgICAgIDxwb3N0YWw+NDA1MDM8
+L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAg
+ICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNudHZvaWNlPjg1OS0yNzctODcwMDwvY250dm9p
+Y2U+DQogICAgICAgICAgICA8Y250ZmF4Pjg1OS0yNzctODkwMTwvY250ZmF4Pg0KICAgICAgICAg
+ICAgPGNudGVtYWlsPnJncmlmZmluQHF1YW50dW1zcGF0aWFsLmNvbTwvY250ZW1haWw+DQogICAg
+ICAgICAgICA8aG91cnM+TW9uZGF5IHRocm91Z2ggRnJpZGF5IDg6MDAgQU0gdG8gNTowMCBQTSAo
+RWFzdGVybiBUaW1lKTwvaG91cnM+DQogICAgICAgICAgICA8Y250aW5zdD5JZiB1bmFibGUgdG8g
+cmVhY2ggdGhlIGNvbnRhY3QgYnkgdGVsZXBob25lLCBwbGVhc2Ugc2VuZCBhbiBlbWFpbC4gWW91
+IHNob3VsZCBnZXQgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91cnMuPC9jbnRpbnN0Pg0KICAgICAg
+ICAgIDwvY250aW5mbz4NCiAgICAgICAgPC9wcm9jY29udD4NCiAgICAgIDwvcHJvY3N0ZXA+DQog
+ICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz4NCgkJCQkJSW50ZW5zaXR5IEltYWdl
+IENyZWF0aW9uOg0KCQkJCQlHZW9DdWUgc29mdHdhcmUgd2FzIHVzZWQgdG8gY3JlYXRlIHRoZSBk
+ZWxpdmVyYWJsZSBpbnRlbnNpdHkgaW1hZ2VzIHdpdGggYSAyLjUtZm9vdCBjZWxsIHNpemUuICBB
+bGwgb3ZlcmxhcCBjbGFzc2VzIHdlcmUgaWdub3JlZCBkdXJpbmcgdGhpcyBwcm9jZXNzLiAgVGhp
+cyBoZWxwcyB0byBlbnN1cmUgYSBtb3JlIGFlc3RoZXRpY2FsbHkgcGxlYXNpbmcgaW1hZ2UuDQoJ
+CQkJCVRoZSBHZW9DdWUgc29mdHdhcmUgd2FzIHRoZW4gdXNlZCB0byB2ZXJpZnkgZnVsbCBwcm9q
+ZWN0IGNvdmVyYWdlIGFzIHdlbGwuICBUSUYvVFdGIGZpbGVzIHdlcmUgdGhlbiBwcm92aWRlZCBh
+cyB0aGUgZGVsaXZlcmFibGUgZm9yIHRoaXMgZGF0YXNldCByZXF1aXJlbWVudC4NCgkJCQk8L3By
+b2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5QQV9EYXVwaGluQ291bnR5X1FMMl8yMDE2X0xpREFS
+X3FjX2N0cmw8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwy
+XzIwMTZfTGlEQVJfRGF0YTwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTY8L3Byb2Nk
+YXRlPg0KICAgICAgICA8c3JjcHJvZD5JbnRlbnNpdHkgSW1hZ2VzPC9zcmNwcm9kPg0KICAgICAg
+ICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAgICAgICA8Y250b3JncD4N
+CiAgICAgICAgICAgICAgPGNudG9yZz5RdWFudHVtIFNwYXRpYWw8L2NudG9yZz4NCiAgICAgICAg
+ICAgICAgPGNudHBlcj5SeWFuIEdyaWZmaW48L2NudHBlcj4NCiAgICAgICAgICAgIDwvY250b3Jn
+cD4NCiAgICAgICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgICAgICA8YWRkcnR5cGU+bWFpbGlu
+ZyBhbmQgcGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgICAgICA8YWRkcmVzcz41MjMgV2Vs
+bGluZ3RvbiBXYXk8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxjaXR5PkxleGluZ3RvbjwvY2l0
+eT4NCiAgICAgICAgICAgICAgPHN0YXRlPktZPC9zdGF0ZT4NCiAgICAgICAgICAgICAgPHBvc3Rh
+bD40MDUwMzwvcG9zdGFsPg0KICAgICAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQog
+ICAgICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250dm9pY2U+ODU5LTI3Ny04NzAw
+PC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+ODU5LTI3Ny04OTAxPC9jbnRmYXg+DQog
+ICAgICAgICAgICA8Y250ZW1haWw+cmdyaWZmaW5AcXVhbnR1bXNwYXRpYWwuY29tPC9jbnRlbWFp
+bD4NCiAgICAgICAgICAgIDxob3Vycz5Nb25kYXkgdGhyb3VnaCBGcmlkYXkgODowMCBBTSB0byA1
+OjAwIFBNIChFYXN0ZXJuIFRpbWUpPC9ob3Vycz4NCiAgICAgICAgICAgIDxjbnRpbnN0PklmIHVu
+YWJsZSB0byByZWFjaCB0aGUgY29udGFjdCBieSB0ZWxlcGhvbmUsIHBsZWFzZSBzZW5kIGFuIGVt
+YWlsLiBZb3Ugc2hvdWxkIGdldCBhIHJlc3BvbnNlIHdpdGhpbiAyNCBob3Vycy48L2NudGluc3Q+
+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAgICA8L3Byb2Njb250Pg0KICAgICAgPC9wcm9j
+c3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPg0KCQkJCQlDb250b3Vy
+IENyZWF0aW9uOg0KCQkJCQlVc2luZyBhdXRvbWF0ZWQgc2NyaXB0aW5nIHJvdXRpbmVzIHdpdGhp
+biBBcmNNYXAsIGEgdGVycmFpbiBzdXJmYWNlIHdhcyBjcmVhdGVkIHVzaW5nIHRoZSBncm91bmQg
+KEFTUFJTIENsYXNzIDIpIExpREFSIGRhdGEgYXMgd2VsbCBhcyB0aGUgaHlkcm8tZmxhdHRlbmlu
+ZyBicmVha2xpbmVzLiAgVGhpcyBzdXJmYWNlIHdhcyB0aGVuIHVzZWQgdG8gZ2VuZXJhdGUgdGhl
+IGZpbmFsIDItZm9vdCBjb250aW51b3VzIGNvbnRvdXIgZGF0YXNldCBpbiBFc3JpIGZpbGUgZ2Vv
+ZGF0YWJhc2UgZm9ybWF0Lg0KCQkJCTwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPlBBX0Rh
+dXBoaW5Db3VudHlfUUwyXzIwMTZfTGlEQVJfcWNfY3RybDwvc3JjdXNlZD4NCiAgICAgICAgPHNy
+Y3VzZWQ+UEFfRGF1cGhpbkNvdW50eV9RTDJfMjAxNl9MaURBUl9EYXRhPC9zcmN1c2VkPg0KICAg
+ICAgICA8cHJvY2RhdGU+MjAxNjwvcHJvY2RhdGU+DQogICAgICAgIDxzcmNwcm9kPkNvbnRvdXJz
+PC9zcmNwcm9kPg0KICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAg
+ICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICAgICAgPGNudG9yZz5RdWFudHVtIFNwYXRpYWw8
+L2NudG9yZz4NCiAgICAgICAgICAgICAgPGNudHBlcj5SeWFuIEdyaWZmaW48L2NudHBlcj4NCiAg
+ICAgICAgICAgIDwvY250b3JncD4NCiAgICAgICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgICAg
+ICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgICAg
+ICA8YWRkcmVzcz41MjMgV2VsbGluZ3RvbiBXYXk8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxj
+aXR5PkxleGluZ3RvbjwvY2l0eT4NCiAgICAgICAgICAgICAgPHN0YXRlPktZPC9zdGF0ZT4NCiAg
+ICAgICAgICAgICAgPHBvc3RhbD40MDUwMzwvcG9zdGFsPg0KICAgICAgICAgICAgICA8Y291bnRy
+eT5VU0E8L2NvdW50cnk+DQogICAgICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250
+dm9pY2U+ODU5LTI3Ny04NzAwPC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+ODU5LTI3
+Ny04OTAxPC9jbnRmYXg+DQogICAgICAgICAgICA8Y250ZW1haWw+cmdyaWZmaW5AcXVhbnR1bXNw
+YXRpYWwuY29tPC9jbnRlbWFpbD4NCiAgICAgICAgICAgIDxob3Vycz5Nb25kYXkgdGhyb3VnaCBG
+cmlkYXkgODowMCBBTSB0byA1OjAwIFBNIChFYXN0ZXJuIFRpbWUpPC9ob3Vycz4NCiAgICAgICAg
+ICAgIDxjbnRpbnN0PklmIHVuYWJsZSB0byByZWFjaCB0aGUgY29udGFjdCBieSB0ZWxlcGhvbmUs
+IHBsZWFzZSBzZW5kIGFuIGVtYWlsLiBZb3Ugc2hvdWxkIGdldCBhIHJlc3BvbnNlIHdpdGhpbiAy
+NCBob3Vycy48L2NudGluc3Q+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAgICA8L3Byb2Nj
+b250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2Nk
+ZXNjPg0KCQkJCQlFc3JpIFRlcnJhaW4gRGF0YXNldCBDcmVhdGlvbjoNCgkJCQkJQ2xhc3MgMiBM
+aURBUiBhbG9uZyB3aXRoIHRoZSBoeWRyby1mbGF0dGVuZWQgYnJlYWtsaW5lcyB3ZXJlIHVzZWQg
+dG8gcHJvZHVjZSBhIG11bHRpLXJlc29sdXRpb24sIHRyaWFuZ3VsYXRlZCBpcnJlZ3VsYXIgbmV0
+d29yayAoVElOKS1iYXNlZCBzdXJmYWNlLiBFYWNoIExBUyBmaWxlLCBvdmVyYWxsIGh5ZHJvLWZs
+YXR0ZW5lZCBicmVha2xpbmUgZmlsZSwgYW5kIEFPSSB3YXMgc3RvcmVkIGFzIGEgZmVhdHVyZSBj
+bGFzcyBpbiBhIGZlYXR1cmUgZGF0YXNldCB3aXRoaW4gYW4gRXNyaSBmaWxlIGdlb2RhdGFiYXNl
+Lg0KCQkJCTwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPlBBX0RhdXBoaW5Db3VudHlfUUwy
+XzIwMTZfTGlEQVJfRGF0YTwvc3JjdXNlZD4NCiAgICAgICAgPHNyY3VzZWQ+QnJlYWtsaW5lczwv
+c3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTY8L3Byb2NkYXRlPg0KICAgICAgICA8c3Jj
+cHJvZD5Fc3JpIFRlcnJhaW4gRGF0YXNldDwvc3JjcHJvZD4NCiAgICAgICAgPHByb2Njb250Pg0K
+ICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgICAg
+IDxjbnRvcmc+UXVhbnR1bSBTcGF0aWFsPC9jbnRvcmc+DQogICAgICAgICAgICAgIDxjbnRwZXI+
+UnlhbiBHcmlmZmluPC9jbnRwZXI+DQogICAgICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgICAg
+ICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2Fs
+PC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+NTIzIFdlbGxpbmd0b24gV2F5PC9h
+ZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0eT5MZXhpbmd0b248L2NpdHk+DQogICAgICAgICAg
+ICAgIDxzdGF0ZT5LWTwvc3RhdGU+DQogICAgICAgICAgICAgIDxwb3N0YWw+NDA1MDM8L3Bvc3Rh
+bD4NCiAgICAgICAgICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9j
+bnRhZGRyPg0KICAgICAgICAgICAgPGNudHZvaWNlPjg1OS0yNzctODcwMDwvY250dm9pY2U+DQog
+ICAgICAgICAgICA8Y250ZmF4Pjg1OS0yNzctODkwMTwvY250ZmF4Pg0KICAgICAgICAgICAgPGNu
+dGVtYWlsPnJncmlmZmluQHF1YW50dW1zcGF0aWFsLmNvbTwvY250ZW1haWw+DQogICAgICAgICAg
+ICA8aG91cnM+TW9uZGF5IHRocm91Z2ggRnJpZGF5IDg6MDAgQU0gdG8gNTowMCBQTSAoRWFzdGVy
+biBUaW1lKTwvaG91cnM+DQogICAgICAgICAgICA8Y250aW5zdD5JZiB1bmFibGUgdG8gcmVhY2gg
+dGhlIGNvbnRhY3QgYnkgdGVsZXBob25lLCBwbGVhc2Ugc2VuZCBhbiBlbWFpbC4gWW91IHNob3Vs
+ZCBnZXQgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91cnMuPC9jbnRpbnN0Pg0KICAgICAgICAgIDwv
+Y250aW5mbz4NCiAgICAgICAgPC9wcm9jY29udD4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9s
+aW5lYWdlPg0KICA8L2RhdGFxdWFsPg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5Qb2ludDwv
+ZGlyZWN0Pg0KICAgIDxwdHZjdGluZj4NCiAgICAgIDxzZHRzdGVybT4NCiAgICAgICAgPHNkdHN0
+eXBlPlBvaW50PC9zZHRzdHlwZT4NCiAgICAgIDwvc2R0c3Rlcm0+DQogICAgPC9wdHZjdGluZj4N
+CiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+
+DQogICAgICAgIDxncmlkc3lzPg0KICAgICAgICAgIDxncmlkc3lzbj5TdGF0ZSBQbGFuZSBDb29y
+ZGluYXRlIFN5c3RlbTwvZ3JpZHN5c24+DQogICAgICAgICAgPHNwY3M+DQogICAgICAgICAgICA8
+c3Bjc3pvbmU+MzcwMjwvc3Bjc3pvbmU+DQogICAgICAgICAgICA8bGFtYmVydGM+DQogICAgICAg
+ICAgICAgIDxzdGRwYXJsbD4zOS45MzMzMzMzMzMzMzMzMzwvc3RkcGFybGw+DQogICAgICAgICAg
+ICAgIDxzdGRwYXJsbD40MC45NjY2NjY2NjY2NjY2Nzwvc3RkcGFybGw+DQogICAgICAgICAgICAg
+IDxsb25nY20+LTc3Ljc1PC9sb25nY20+DQogICAgICAgICAgICAgIDxsYXRwcmpvPjM5LjMzMzMz
+MzMzMzMzMzM0PC9sYXRwcmpvPg0KICAgICAgICAgICAgICA8ZmVhc3Q+MTk2ODUwMC4wPC9mZWFz
+dD4NCiAgICAgICAgICAgICAgPGZub3J0aD4wLjA8L2Zub3J0aD4NCiAgICAgICAgICAgIDwvbGFt
+YmVydGM+DQogICAgICAgICAgPC9zcGNzPg0KICAgICAgICA8L2dyaWRzeXM+DQogICAgICAgIDxw
+bGFuY2k+DQogICAgICAgICAgPHBsYW5jZT5jb29yZGluYXRlIHBhaXI8L3BsYW5jZT4NCiAgICAg
+ICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMDE8L2Fic3Jlcz4NCiAgICAg
+ICAgICAgIDxvcmRyZXM+MC4wMTwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQogICAg
+ICAgICAgPHBsYW5kdT5zdXJ2ZXkgZmVldDwvcGxhbmR1Pg0KICAgICAgICA8L3BsYW5jaT4NCiAg
+ICAgIDwvcGxhbmFyPg0KICAgICAgPGdlb2RldGljPg0KICAgICAgICA8aG9yaXpkbj5Ob3J0aCBB
+bWVyaWNhbiBEYXR1bSBvZiAxOTgzICgyMDExKTwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5H
+ZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42
+Mzc4MTM3LjA8L3NlbWlheGlzPg0KICAgICAgICA8ZGVuZmxhdD4yOTguMjU3MjIyMTAxPC9kZW5m
+bGF0Pg0KICAgICAgPC9nZW9kZXRpYz4NCiAgICA8L2hvcml6c3lzPg0KICAgIDx2ZXJ0ZGVmPg0K
+ICAgICAgPGFsdHN5cz4NCiAgICAgICAgPGFsdGRhdHVtPk5vcnRoIEFtZXJpY2FuIFZlcnRpY2Fs
+IERhdHVtIG9mIDE5ODggKEdlb2lkIDEyQik8L2FsdGRhdHVtPg0KICAgICAgICA8YWx0cmVzPjAu
+MDE8L2FsdHJlcz4NCiAgICAgICAgPGFsdHVuaXRzPmZlZXQ8L2FsdHVuaXRzPg0KICAgICAgICA8
+YWx0ZW5jPkV4cGxpY2l0IGVsZXZhdGlvbiBjb29yZGluYXRlIGluY2x1ZGVkIHdpdGggaG9yaXpv
+bnRhbCBjb29yZGluYXRlczwvYWx0ZW5jPg0KICAgICAgPC9hbHRzeXM+DQogICAgPC92ZXJ0ZGVm
+Pg0KICA8L3NwcmVmPg0KICA8bWV0YWluZm8+DQogICAgPG1ldGQ+MjAxNjEyMDU8L21ldGQ+DQog
+ICAgPG1ldGM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAg
+PGNudG9yZz5RdWFudHVtIFNwYXRpYWw8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPlNhcmFo
+IFppYmFydDwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0K
+ICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlw
+ZT4NCiAgICAgICAgICA8YWRkcmVzcz41MjMgV2VsbGluZ3RvbiBXYXk8L2FkZHJlc3M+DQogICAg
+ICAgICAgPGNpdHk+TGV4aW5ndG9uPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5LWTwvc3RhdGU+
+DQogICAgICAgICAgPHBvc3RhbD40MDUwMzwvcG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5PlVT
+QTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+ODU5LTI3
+Ny04NzAwPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD44NTktMjc3LTg5MDE8L2NudGZheD4N
+CiAgICAgICAgPGNudGVtYWlsPnN6aWJhcnRAcXVhbnR1bXNwYXRpYWwuY29tPC9jbnRlbWFpbD4N
+CiAgICAgICAgPGhvdXJzPk1vbmRheSB0aHJvdWdoIEZyaWRheSA4OjAwIEFNIHRvIDU6MDAgUE0g
+KEVhc3Rlcm4gVGltZSk8L2hvdXJzPg0KICAgICAgICA8Y250aW5zdD5JZiB1bmFibGUgdG8gcmVh
+Y2ggdGhlIGNvbnRhY3QgYnkgdGVsZXBob25lLCBwbGVhc2Ugc2VuZCBhbiBlbWFpbC4gWW91IHNo
+b3VsZCBnZXQgYSByZXNwb25zZSB3aXRoaW4gMjQgaG91cnMuPC9jbnRpbnN0Pg0KICAgICAgPC9j
+bnRpbmZvPg0KICAgIDwvbWV0Yz4NCiAgICA8bWV0c3Rkbj5GR0RDIENvbnRlbnQgU3RhbmRhcmQg
+Zm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5G
+R0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAgICA8bWV0YWM+Tm9uZS48L21ldGFjPg0KICAg
+IDxtZXR1Yz5Ob25lLjwvbWV0dWM+DQogICAgPG1ldHNpPg0KICAgICAgPG1ldHNjcz5Ob25lLjwv
+bWV0c2NzPg0KICAgICAgPG1ldHNjPlVuY2xhc3NpZmllZDwvbWV0c2M+DQogICAgICA8bWV0c2hk
+Pk5PTkU8L21ldHNoZD4NCiAgICA8L21ldHNpPg0KICA8L21ldGFpbmZvPg0KICA8ZGlzdGluZm8+
+DQogICAgPGRpc3RyaWI+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAg
+ICAgICAgPGNudG9yZz5QZW5uc3lsdmFuaWEgU3BhdGlhbCBEYXRhIEFjY2VzcyAoUEFTREEpPC9j
+bnRvcmc+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAg
+PGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAg
+ICAgIDxhZGRyZXNzPjExNSBMYW5kIGFuZCBXYXRlciBidWlsZGluZzwvYWRkcmVzcz4NCiAgICAg
+ICAgICA8Y2l0eT5Vbml2ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5z
+eWx2YW5pYTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNjgwMjwvcG9zdGFsPg0KICAgICAg
+ICAgIDxjb3VudHJ5PlVuaXRlZCBTdGF0ZXM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4N
+CiAgICAgICAgPGNudHZvaWNlPig4MTQpIDg2NSAtIDg3OTI8L2NudHZvaWNlPg0KICAgICAgICA8
+Y250ZW1haWw+cGFzZGFAcHN1LmVkdTwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAg
+PC9kaXN0cmliPg0KICAgIDxkaXN0bGlhYj5UaGUgVVNFUiBzaGFsbCBpbmRlbW5pZnksIHNhdmUg
+aGFybWxlc3MsIGFuZCwgaWYgcmVxdWVzdGVkLCBkZWZlbmQgdGhvc2UgcGFydGllcyBpbnZvbHZl
+ZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSwgdGhl
+aXIgb2ZmaWNlcnMsIGFnZW50cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBz
+dWl0cywgY2xhaW1zLCBvciBhY3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBk
+YW1hZ2UgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxF
+UyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uIFRob3NlIHBhcnRpZXMgaW52b2x2
+ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBleGNsdWRlZCBhbnkgYW5k
+IGFsbCBpbXBsaWVkIHdhcnJhbnRpZXMsIGluY2x1ZGluZyB3YXJyYW50aWVzIG9yIG1lcmNoYW50
+YWJpbGl0eSBhbmQgZml0bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UgYW5kIG1ha2VzIG5v
+IHdhcnJhbnR5IG9yIHJlcHJlc2VudGF0aW9uLCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLCB3
+aXRoIHJlc3BlY3QgdG8gdGhlIEZJTEVTIG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBp
+bmNsdWRpbmcgaXRzIHF1YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZp
+dG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlLiBUaGUgRklMRVMgYW5kIGRvY3VtZW50YXRp
+b24gYXJlIHByb3ZpZGVkICJhcyBpcyIgYW5kIHRoZSBVU0VSIGFzc3VtZXMgdGhlIGVudGlyZSBy
+aXNrIGFzIHRvIGl0cyBxdWFsaXR5IGFuZCBwZXJmb3JtYW5jZS4gVGhvc2UgcGFydGllcyBpbnZv
+bHZlZCB3aXRoIHRoZSBkZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3
+aWxsIG5vdCBiZSBsaWFibGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNp
+ZGVudGFsLCBvciBjb25zZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBv
+ciBpbmFiaWxpdHkgdG8gdXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50
+YXRpb24uPC9kaXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCiAgPEVzcmk+DQogICAgPENyZWFEYXRl
+PjIwMTcwMzAxPC9DcmVhRGF0ZT4NCiAgICA8Q3JlYVRpbWU+MTQ1NjUwMDA8L0NyZWFUaW1lPg0K
+ICAgIDxBcmNHSVNzdHlsZT5GR0RDIENTREdNIE1ldGFkYXRhPC9BcmNHSVNzdHlsZT4NCiAgICA8
+U3luY09uY2U+VFJVRTwvU3luY09uY2U+DQogICAgPERhdGFQcm9wZXJ0aWVzPg0KICAgICAgPGNv
+cHlIaXN0b3J5Pg0KICAgICAgICA8Y29weSBzb3VyY2U9IkQ6XERBVEFcZGF1cGhpblwyODU1Ml9E
+YXVwaGluQ29QQV9Qcm9qZWN0TGV2ZWxfTWV0YWRhdGEiIGRlc3Q9IlxcQUxDRVNcREFUQVxkYXVw
+aGluXDI4NTUyX0RhdXBoaW5Db1BBX1Byb2plY3RMZXZlbF9NZXRhZGF0YSAoMSkiIGRhdGU9IjIw
+MTcwMzAxIiB0aW1lPSIxNDU2NTAwMCIgLz4NCiAgICAgIDwvY29weUhpc3Rvcnk+DQogICAgPC9E
+YXRhUHJvcGVydGllcz4NCiAgPC9Fc3JpPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -1,0 +1,210 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Correctional Facilities (Poly)</title>
+        <geoform>vector digital data</geoform>
+        <onlink>Server=geodb2.phila.gov; Service=5151; User=gis_police; Version=SDE.DEFAULT</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-75.199515</westbc>
+        <eastbc>-75.012117</eastbc>
+        <northbc>40.041140</northbc>
+        <southbc>39.939416</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyPolice_Correctional_Facilities</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>10</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000062912879024903285</absres>
+            <ordres>0.0000062912879024903285</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Correctional_Facilities</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Staff</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY1</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY2</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIP_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WARDEN_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WARDEN_PHO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_TYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INMATE_AVG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STAFF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Facility1</attrlabl>
+        <attrdef>Name of second facility on property</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Facility2</attrlabl>
+        <attrdef>FY2001 Average inmate population for the facility</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Type of person facility accepts (either male or female, adult or juvenile)</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ZIP_Code</attrlabl>
+        <attrdef>Number of staff assigned to each facility, as of 6/2002</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Warden_Nam</attrlabl>
+        <attrdef>Name of warden in charge of facility</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Warden_Pho</attrlabl>
+        <attrdef>Office phone number for warden in charge of facility</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Inmate_Typ</attrlabl>
+        <attrdef>ZIP Code of facility</attrdef>
+        <attrdefs>PPS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Inmate_Avg</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Attributes present describe the location and use of the correctional facility, and all were provided by the Philadelphia Prison System.</eaover>
+      <eadetcit>Bob Eskind, public information, Philadelphia Prison System 215-686-7888</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160524</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

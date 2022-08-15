@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological &amp; Water Survey (Data originator)</origin>
+        <pubdate>20170912</pubdate>
+        <title>WATER_BALANCE_NETWORK_IN.SHP: Meteorological, Soil-Water, and Groundwater Monitoring Stations in Indiana (Indiana Geological &amp; Water Survey, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological &amp; Water Survey</publish>
+        </pubinfo>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+WATER_BALANCE_NETWORK_IN.SHP is a point shapefile that shows the locations of thirteen meteorological, soil-water, and groundwater monitoring stations
+maintained by personnel of the Center for Geospatial Data Analysis, Indiana Geological &amp; Water Survey (IGS). Each of the monitoring stations has been located
+in a unique hydrogeologic setting in Indiana. Meteorological sensors include tipping bucket rain gages, air temperature and relative humidity sensors,
+pyranometers and net radiometers (used to measure natural solar radiation fluxes), and anemometers. Unsaturated-zone instrumentation is installed at nine
+of the glaciated terrain sites and includes soil-moisture and temperature sensors (at most sites, located at depths of one foot to six feet below the ground
+surface). Monitoring wells are also installed with pressure transducers to track shallow water-table fluctuations at stations where soil-moisture sensors
+are installed. The data that are collected provide essential information for expanding the understanding of soil moisture and climate interactions. Attributes
+include station names, soil texture, soil parent material, landscape description, vegetation, and a Website URL that allows users to access real-time
+water-balance data for each individual monitoring station.
+</abstract>
+      <purpose>The layer was created to provide locations of the Indiana Water Balance Network monitoring stations in Indiana, suitable for use in GIS.</purpose>
+      <supplinf>
+WATER_BALANCE_NETWORK_IN.SHP was updated on September 12, 2017 with the addition of a new monitoring site (Brownsburg_N2) as well as
+with updated attribute information for each site.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20170912</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.272266</westbc>
+        <eastbc>-85.108841</eastbc>
+        <northbc>41.583415</northbc>
+        <southbc>39.178623</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>climatologyMeterologyAtmosphere</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>streamflow</themekey>
+        <themekey>Indiana Geological &amp; Water Survey (IGS)</themekey>
+        <themekey>Center for Geospatial Data Analysis (CGDA)</themekey>
+        <themekey>Indiana Water Balance Network (IWBN)</themekey>
+        <themekey>real-time weather data</themekey>
+        <themekey>rain gauge</themekey>
+        <themekey>air temperature</themekey>
+        <themekey>soil temperature</themekey>
+        <themekey>relative humidity</themekey>
+        <themekey>pyranometer</themekey>
+        <themekey>net radiometer</themekey>
+        <themekey>anemometer</themekey>
+        <themekey>soil-moisture sensor</themekey>
+        <themekey>water table</themekey>
+        <themekey>unsaturated-zone</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Rush County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.4 shapefile format, approximately 28 Kb</native>
+    <useconst>Hydrology--Monitoring_Indiana_Water_Balance_Network</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All attributes values were manually entered by IGS personnel, and are assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>All fields were checked to ensure that all records are populated.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All locations have been field-checked by IGS personnel using standard survey-grade GPS equipment.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Elevations were collected by IGS personnel using standard survey-grade GPS equipment.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological &amp; Water Survey</origin>
+            <pubdate>20170912</pubdate>
+            <title>The Indiana Water Balance Network (13 monitoring stations in Indiana)</title>
+            <geoform>Unpublished digital data</geoform>
+            <onlink>https://igs.indiana.edu/CGDA/waterBalanceNetwork.cfm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20170912</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IWBN monitoring stations</srccitea>
+        <srccontr>Locations, names, Website URLs, and ID numbers of the IWBN monitoring stations</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+CGDA/IGS personnel collected GPS location information at each of the twelve locations of the monitoring stations of the Indiana Water Balance Network.
+Using ArcMap, an Esri point shapefile named "WATER_BALANCE_NETWORK_IN.SHP" was created using the GPS locations. The attribute table was then populated
+with information specific to each site, including site name, descriptions of soil, soil parent material, landform and vegetation, and a URL that allows
+users to access real-time weather and water-flux data for each individual monitoring station.
+</procdesc>
+        <srcused>Unpublished GPS locations</srcused>
+        <procdate>20170222</procdate>
+        <srcprod>WATER_BALANCE_NETWORK_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5456</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+WATER_BALANCE_NETWORK_IN.SHP was updated to include a new monitoring site location named "Brownsburg_N2" (alias "School Branch Control). Additionally, the attribute
+values were updated with new URLs that allow users to access real-time weather and water-flux data for each monitoring station.
+</procdesc>
+        <srcused>WATER_BALANCE_NETWORK_IN.SHP, Unpublished GPS locations</srcused>
+        <procdate>20170912</procdate>
+        <srcprod>WATER_BALANCE_NETWORK_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5456</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) an MP (Metadata Parser, v. 2.7.1) software written by Peter Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20170925</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5456</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>13</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0</absres>
+            <ordres>0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WATER_BALANCE_NETWORK_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Site_Name</attrlabl>
+        <attrdef>Name for monitoring station (based on geographic location)</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Alias</attrlabl>
+        <attrdef>Alias name for monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>Elevation (above sea level, in feet) of the monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>589.527</rdommin>
+            <rdommax>1099.377</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>X_UTM83</attrlabl>
+        <attrdef>X-coordinate (Easting) of the monitoring station (UTM ZONE 16, NAD1983)</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>477337.117134</rdommin>
+            <rdommax>657668.254643</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Y_UTM83</attrlabl>
+        <attrdef>X-coordinate (Northing) of the monitoring station (UTM ZONE 16, NAD1983)</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4338191.23705</rdommin>
+            <rdommax>4603520.13238</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WebURL</attrlabl>
+        <attrdef>URL for the Web site with real-time monitoring data for the monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoilTextur</attrlabl>
+        <attrdef>Soil texture descriptions for each monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoilParent</attrlabl>
+        <attrdef>Description of the Soil parent material for each monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Landscape</attrlabl>
+        <attrdef>Description of the geologic landform for each monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Vegetation</attrlabl>
+        <attrdef>Description of the type of vegetation for each monitoring station</attrdef>
+        <attrdefs>Indiana Geological &amp; Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+
+CREDIT
+
+It is requested that the Indiana Geological &amp; Water Survey be cited in any products generated from this data. The following source citation should be included:
+[WATER_BALANCE_NETWORK_IN.SHP: Meteorological, Soil-Water, and Groundwater Monitoring Stations in Indiana (Indiana Geological &amp; Water Survey, Point Shapefile), 20170912].
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality,
+or suitability to a particular purpose  or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana
+Geological &amp; Water Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to,
+loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological &amp; Water Survey is not responsible for claims
+by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20170222</metd>
+    <metrd>20170925</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological &amp; Water Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5456</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

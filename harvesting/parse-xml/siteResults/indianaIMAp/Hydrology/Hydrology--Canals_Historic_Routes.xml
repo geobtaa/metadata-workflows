@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bernardin-Lochmueller &amp; Associates</origin>
+        <pubdate>20000729</pubdate>
+        <title>
+CANALS_HISTORIC_ROUTES_IN: Historic Canal Routes in
+Indiana (Bernardin-Lochmueller &amp; Associates,
+Line Coverage)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Evansville, Indiana</pubplace>
+          <publish>Bernardin, Lochmueller and Associates, INC</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of Bernardin, Lochmueller and Associates, Inc. (BLA) by Stan Schmitt.  The data was originally provided in hard copy format and then digitized into an ESRI shapefile format, and was named CANALS_HISTORIC_ROUTES_SW. As part of the development of the State Wide GIS of Indiana, this file was expanded to include additional areas that were not part of the SW Indiana GIS and renamed
+Canal_Historic_Routes_IN.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Data depicts the locations of three historic canals in
+Indiana, the Wabash-Erie Canal, White Water Canal and the Central Canal. These canals
+were constructed and used for transportation between
+1830-1870. Canal historians have searched county
+courthouse records and archived state engineering reports
+to plot canal routes on USGS 7.5 minute quadrangles.
+Some portions of the canal routes are unknown
+and approximated as indicated in the table. In many
+locations canals have been filled in and covered by
+development. is collected only from southern Indiana border
+through Vigo and Marion counties.
+</abstract>
+      <purpose>
+This data was collected by Bernardin-Lochmueller and
+Associates, IN; to depict the locations of canals in
+Indiana.  Canal locations indicate the
+possibility historic structures.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1830</begdate>
+          <enddate>1870</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Past ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.611422</westbc>
+        <eastbc>-84.754852</eastbc>
+        <northbc>41.182445</northbc>
+        <southbc>37.949260</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>transportation</themekey>
+        <themekey>economy</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Canal</themekey>
+        <themekey>Wabash-Erie Canal</themekey>
+        <themekey>Central Canal</themekey>
+        <themekey>Water Supply</themekey>
+        <themekey>White Water Canal</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Allen</placekey>
+        <placekey>Carroll</placekey>
+        <placekey>Cass</placekey>
+        <placekey>Clay</placekey>
+        <placekey>Daviess</placekey>
+        <placekey>Dearborn</placekey>
+        <placekey>Fayette</placekey>
+        <placekey>Fountain</placekey>
+        <placekey>Franklin</placekey>
+        <placekey>Gibson</placekey>
+        <placekey>Greene</placekey>
+        <placekey>Huntington</placekey>
+        <placekey>Johnson</placekey>
+        <placekey>Marion</placekey>
+        <placekey>Miami</placekey>
+        <placekey>Morgan</placekey>
+        <placekey>Owen</placekey>
+        <placekey>Parke</placekey>
+        <placekey>Pike</placekey>
+        <placekey>Tippecanoe</placekey>
+        <placekey>Vanderburgh</placekey>
+        <placekey>Vigo</placekey>
+        <placekey>Wabash</placekey>
+        <placekey>Warrick</placekey>
+        <placekey>Wayne</placekey>
+        <placekey>Whitley</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Cinda Bonds</cntper>
+        </cntorgp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+        <hours>8am-5pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ArcView version 3.2 shapefile format</native>
+    <useconst>Hydrology--Canals_Historic_Routes</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Deductive Estimate: Accuracy is estimated to be good.
+Quality is dependant on historian knowledge and availabiliy
+of historic records.
+</attraccr>
+    </attracc>
+    <logic>All lines are snapped and entered correctly.</logic>
+    <complete>
+All finished, connected canal routes within the study area
+of Indiana are mapped. Many sections were
+destroyed and covered by development. South of the Central
+Canal, there are six disjunct canal sections that were
+planned to be connected. These sections are not mapped.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The collector of the data descriptions estimated the error
+at approximately 100 feet. Users should expect error
+between 50-300 feet at various locations. Tables indicate
+sections of routes that are unknown and estimated.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>None.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Stan Schmitt, Canal Historian</origin>
+            <pubdate>Unknown</pubdate>
+            <title>USGS Quadrangles Route Maps</title>
+            <edition>Unknown</edition>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Evansville, IN</pubplace>
+              <publish>Unknown</publish>
+            </pubinfo>
+            <othercit>
+Stan Schmitt has worked as a Indiana canal historian for
+over 20 years and is an active member of the Indiana Canal Society.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1830</begdate>
+              <enddate>1873</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>historic record descriptions</srccurr>
+        </srctime>
+        <srccitea>Canal maps</srccitea>
+        <srccontr>
+Canal routes penciled on USGS quads were digitized onscreen
+into ArcView GIS using visual landmarks. This is the only
+information source of this detail known to exist in a map format.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Stan Schmitt plotted historic canal routes on USGS quads by
+researching archived historic records. Schmitt's USGS
+routes were traced onto company USGS quads to create route
+maps. Company route maps were digitized onscreen into
+ArcView GIS using DRGs of quads and visual landmarks. No
+paper was scanned or registered.
+</procdesc>
+        <srcused>Canal Maps</srcused>
+        <procdate>20000403</procdate>
+        <srcprod>Canal GIS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+            <hours>8am-5pm</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A shapefile named "CANALS" was obtained by the Indiana Geological Survey (IGS) from
+Bernardin, Lochmueller, &amp; Assoc. Inc. Personnel of IGS clipped the shapefile to a coverage
+named "SWCLP83," which contains the area within the
+boundaries of the southwestern 26 counties in the state of Indiana, compiled at a scale
+of 1:24,000. The Geoprocessing Wizard in ArcView was used to perform the clipping operation.
+The clipped shapefile was renamed "CANALS_HISTORIC_ROUTES_SW."
+</procdesc>
+        <srcused>canals.shp</srcused>
+        <procdate>20000922</procdate>
+        <srcprod>canals_historic_routes_sw.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Technician</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N. Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>IN</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@exchange.indiana.edu</cntemail>
+            <hours>0800 - 1700 EST, M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The original shapefile CANALS_HISTORIC_ROUTES_SW was used and then additional digitization work was done
+by using Stan Schmitt's USGS routes were traced onto company USGS quads to create route
+maps. Company route maps were digitized onscreen into ArcView GIS using DRGs of quads and visual landmarks. No
+paper was scanned or registered.  This file was then saved as Canals_Historic_Routes_IN
+</procdesc>
+        <srcused>CANALS_HISTORIC_ROUTES_SW.shp</srcused>
+        <procdate>20000922</procdate>
+        <srcprod>canals_historic_routes_in.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+              <cntper>Neal Schroeder</cntper>
+            </cntorgp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected.
+</procdesc>
+        <procdate>20040927</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>35</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>canals_historic_routes_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Canal_name</attrlabl>
+        <attrdef>Name of the Canal</attrdef>
+        <attrdefs>Historic Records</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Descriptio</attrlabl>
+        <attrdef>Descriptions of Canal subsections</attrdef>
+        <attrdefs>Historic records</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Unkwn_loc</attrlabl>
+        <attrdef>Indicates if Route is estimated</attrdef>
+        <attrdefs>Historic records</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>False</edomv>
+            <edomvd>False</edomvd>
+            <edomvds>The route is known</edomvds>
+          </edom>
+          <edom>
+            <edomv>True</edomv>
+            <edomvd>True</edomvd>
+            <edomvds>The route is estimated</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Cinda Bonds</cntper>
+        </cntorgp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>
+MAP DISCLAIMER: This map was compiled by
+Bernardin-Lochmueller &amp; Associates, Inc. using data
+believed to be accurate; however, a degree of error is
+inherent in all maps. This product is distributed "as is"
+without warranties of any kind, either expressed or
+implied, including but not limited to warranties of
+suitability of a particular purpose or use. Users must
+assume responsibility to determine the appropriate use of
+the data. No attempt has been made in either the design or
+production of these maps to define the limits or
+jurisdicition of any federal, state, or local government.
+These maps are intended for use only at the published
+scale. A detailed on-the-ground survey and historical
+analysis may differ from this map. Land ownership changes
+continually, so additional lands or changes in ownership
+beyond the data currentness will not be reflected on this
+map.
+LIMITATION OF WARRANTIES AND LIABILITY: The risk or
+liability resulting from the use of this product is assumed
+by the user. Bernardin-Lochmueller &amp; Associates shares no
+liability with product users indirect, incidental, special,
+or consequential damages whatsoever, including, but not
+limited to, loss of revenue or profit, lost or damaged
+data, or other comercial or economic loss.
+Bernardin-Lochmueller &amp; Assoicates are not responsible for
+claims made by a third party.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040927</metd>
+    <metrd>20040927</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer/Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>nschroeder@blainc.com</cntemail>
+        <hours>8am-5pm</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

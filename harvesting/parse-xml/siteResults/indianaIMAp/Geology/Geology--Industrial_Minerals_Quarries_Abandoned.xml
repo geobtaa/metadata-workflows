@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Walter Hasenmueller (Data Compiler)</origin>
+        <origin>Curtis H. Ault (Data Compiler)</origin>
+        <origin>Paul Irwin (Data Processor)</origin>
+        <origin>Denver Harper (Data Processor)</origin>
+        <pubdate>20030530</pubdate>
+        <title>QUARRIES_ABANDONED_IN: Abandoned Quarries in Indiana (Indiana Geological Survey, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was derived from information from the following CD-ROM publication:
+Hasenmueller, W.A., and Ault, C.H., 2001, Abandoned Industrial Minerals Quarries in
+Indiana, 2nd Edition, Digital Version, Computer Database 2, Indiana Geological Survey.
+</othercit>
+        <lworkcit>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>200107</pubdate>
+            <title>Abandoned Industrial Minerals Quarries in Indiana, 2nd Edition, Digital Version, Computer Database 2</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+QUARRIES_ABANDONED_IN was derived from a comma-delimited text file named "QUALOC.TXT" contained on the following CD-ROM publication:
+Hasenmueller, W.A., and Ault, C.H., 2001, Abandoned Industrial Minerals Quarries in Indiana, 2nd Edition, Digital Version,
+Computer Database 2, Indiana Geological Survey. The field named "QUANUM" can be used to link this data to the following tables
+available in the publication cited above: bibliography (QUAREF.TXT), history of operation (QUAHIS.TXT), and stratigraphy (QUASTR.TXT).
+It contains all abandoned quarry locations within QUALOC.TXT that have locational information that is adequate to determine UTM
+coordinate values.
+</abstract>
+      <purpose>
+QUARRIES_ABANDONED_IN was created to provide a digital coverage of abandoned industrial minerals quarries in Indiana, suitable for use
+in a GIS.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1850</begdate>
+          <enddate>1998</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>1998</current>
+    </timeperd>
+    <status>
+      <progress>In Work</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.9324</westbc>
+        <eastbc>-86.2569</eastbc>
+        <northbc>39.8521</northbc>
+        <southbc>37.8626</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>abandoned quarry</themekey>
+        <themekey>aggregate</themekey>
+        <themekey>building stone</themekey>
+        <themekey>crushed stone</themekey>
+        <themekey>crushed stone quarry</themekey>
+        <themekey>dimension limestone</themekey>
+        <themekey>dimension sandstone</themekey>
+        <themekey>dimension stone</themekey>
+        <themekey>dimension stone quarry</themekey>
+        <themekey>economic</themekey>
+        <themekey>economic geology</themekey>
+        <themekey>geology</themekey>
+        <themekey>industrial mineral</themekey>
+        <themekey>lightweight aggregate</themekey>
+        <themekey>limestone</themekey>
+        <themekey>mineral resource</themekey>
+        <themekey>mineralogy</themekey>
+        <themekey>mining</themekey>
+        <themekey>pit</themekey>
+        <themekey>quarry</themekey>
+        <themekey>sedimentology</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+ArcView version 3.3 shapefile format, approximately 224 Kb, Microsoft
+Windows 2000 Version 5.1 (Build 2600), ESRI ArcCatalog 8.2.0.700
+</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>Geology--Industrial_Minerals_Quarries_Abandoned</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The quarry sites included in this coverage were identified by IGS field geologists or taken from
+literature sources judged to be reliable by IGS geologists.
+</attraccr>
+    </attracc>
+    <logic>
+Duplicate features may exist in this data set. Quarries which are abandoned and reopened under a new
+name may be represented more than once in the data set.
+</logic>
+    <complete>
+There are 1,134 quarries listed in the original QUALOC.TXT file. QUARRIES_ABANDONED_IN contains 1,071 of
+those quarries. Quarries were omitted from the data set where the section was not given in QUALOC.TXT,
+or where there was uncertainty regarding the locational information contained in QUALOC.TXT. In addition,
+one quarry was located in a nonexistent section and that quarry was dropped from this data set.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Most of the quarry location coordinates were obtained using Geographix Software and a land grid
+developed by White Star, Inc. (Denver, CO). The locations will be no more precise than the 3rd
+quarter section, or the number of quarter sections in the field named "Qtr." Locations with no
+quarter sections, or those located in the noncongressional locations such as reserves, donations,
+and the Clark Military Grants were located by hand in approximately the correct locations.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>2001</pubdate>
+            <title>QUALOC.TXT</title>
+            <geoform>Digital tabular data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Comma-delimited ASCII text file</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1850</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>1998</srccurr>
+        </srctime>
+        <srccitea>
+Hasenmueller, W.A., and Ault, C.H., 2001, Abandoned Industrial Minerals
+Quarries in Indiana, 2nd Edition, Digital Version, Computer Database 2, Indiana Geological Survey.
+</srccitea>
+        <srccontr>Quarry name, locational information, and selected mining data were extracted from QUALOC.TXT.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The file QUALOC.TXT was imported into Microsoft Access. Locations from this file were modified to create
+up to three quarter sections that best described the location. These modifications are contained in the field
+named "Loc_qtr." A text file was then created with locations using the Congressional Land Survey System
+(section, township, and range), and this text file was processed with GES97 software, GeoGraphix, Inc., using a
+land grid created by White Star, Inc. to obtain coordinate locations in UTM Zone 16 NAD27. The text file was then
+imported to an ArcInfo coverage and the coordinates were then converted to UTM Zone 16 NAD83 using ESRI
+ArcMap 8.3. The coverage was exported as a text file and joined to the original data in Microsoft Access.
+The text file named "QUARRIES.TXT" was exported which combined the original data and the UTM coordinate locations.
+</procdesc>
+        <srcused>QUALOC.TXT</srcused>
+        <procdate>20030609</procdate>
+        <srcprod>QUARRIES.TXT</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Paul Irwin</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5812</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>irwinp@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+QUARRIES.TXT was added as a table into ESRI ArcView 3.3, and the "Add Event Theme" function was used to convert the table
+to QUARRIES_ABANDONED_IN.SHP.
+</procdesc>
+        <srcused>QUARRIES.TXT</srcused>
+        <procdate>20030616</procdate>
+        <srcprod>QUARRIES_ABANDONED_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20030818</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>1071</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>QUARRIES_ABANDONED_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quanum</attrlabl>
+        <attrdef>Database identification number used to link to various other tables</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cty</attrlabl>
+        <attrdef>Indiana County name where abandoned quarry is located</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Qdr</attrlabl>
+        <attrdef>U.S. Geological Survey 7.5-minute quadrangle sheet name where abandoned quarry is located</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Qtr</attrlabl>
+        <attrdef>
+Subdivision(s) that indicate(s) where the abandoned quarry or pit is located within a
+land survey unit; subdivisions arranged smallest to largest
+</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Loc_qtr</attrlabl>
+        <attrdef>
+Subdivision(s) that indicate(s) where the abandoned quarry or pit is located within a
+land survey unit. Subdivisions are arranged smallest to largest. This field was added to facilitate the generation
+of UTM coordinates from Geographix software
+</attrdef>
+        <attrdefs>Paul Irwin (IGS)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sectype</attrlabl>
+        <attrdef>The type of land survey unit in which the abandoned quarry is located</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CMG</edomv>
+            <edomvd>Clark Military Grant</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Don.</edomv>
+            <edomvd>Donation</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Grant</edomv>
+            <edomvd>Grant</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Res.</edomv>
+            <edomvd>Reservation</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Sec.</edomv>
+            <edomvd>Section</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Secnum</attrlabl>
+        <attrdef>Numerical designation of the land survey unit</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Twpnum</attrlabl>
+        <attrdef>Township number.</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Twpdir</attrlabl>
+        <attrdef>
+Direction of the township relative to the regional baseline for
+Indiana (Buckingham's Baseline)
+</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>North</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>South</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rngnum</attrlabl>
+        <attrdef>Range number.</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rngdir</attrlabl>
+        <attrdef>
+Direction of the range relative to the regional meridian (Second
+Principal Meridian)
+</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>East</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>West</edomvd>
+            <edomvds>Computer Database 2</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elev</attrlabl>
+        <attrdef>
+The elevation (in feet) of a reference point in or near the quarry used as the
+starting point for stratigraphic measurements
+</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Avgthk</attrlabl>
+        <attrdef>The average thickness (in feet) of the quarried rock unit</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+        <attrdef>Area (in acres) of the abandoned quarry</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Totprod</attrlabl>
+        <attrdef>Total known production of the quarry (short tons)</attrdef>
+        <attrdefs>Computer Database 2</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Utmx83</attrlabl>
+        <attrdef>UTM Zone 16, Nad 83 x-coordinate generated by Geographix software</attrdef>
+        <attrdefs>Geographix software</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Utmy83</attrlabl>
+        <attrdef>UTM Zone 16, Nad 83 y-coordinate generated by Geographix software</attrdef>
+        <attrdefs>Geographix software</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products
+generated from this data set.  The following citation should be included:
+QUARRIES_ABANDONED_IN: Abandoned Quarries in Indiana (Indiana Geological
+Survey, Point Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to, Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, IN 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20030530</metd>
+    <metrd>20040407</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

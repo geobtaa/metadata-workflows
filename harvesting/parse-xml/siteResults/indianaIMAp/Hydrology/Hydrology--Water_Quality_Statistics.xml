@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>(editor): Bernardin, Lochmueller and Associates</origin>
+        <origin>(creator): U. S. Environmental Protection Agency</origin>
+        <pubdate>20040301</pubdate>
+        <title>
+WATER_QUALITY_STATISTICS_EPA_IN: Water Quality Monitoring and Data Summaries Indiana, Derived
+from EPA BASINS (United States Environmental Protection Agency, Point Shapefile)
+</title>
+        <edition>USEPA BASINS 3</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Evansville, Indiana</pubplace>
+          <publish>Bernardin, Lochmueller and Associates</publish>
+        </pubinfo>
+        <othercit>
+Data was obtained from the USEPA BASINS 3.0 Region 5 CD, website
+&lt;http://www.epa.gov/OST/BASINS/&gt;, and was developed by the USEPA,
+Office of Water, OST.  BASINS created this file from the
+STORET data system, www.epa.gov/storet.
+References_Cited- U.S. Environmental Protection Agency (1992). "Office
+of Water Environmental and Program Information Systems Compendium", Office
+of Water, U.S. EPA, Washington, D.C."
+</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+WATER_QUALITY_STATISTICS_EPA_IN is a point shapefile developed by
+the USEPA BASINS 3.0 program and edited by Bernardin, Lochmueller and Associates. Points
+represent monitoring stations attributed as occurring within the state of Indiana or along
+the Ohio River in Kentucky and Ohio. Joinable tables must be utilized to access data at specific stations
+for specific parameters.
+
+US Environmental Protection Agency BASINS metadata reports -
+
+"This data set provides statistical summaries of water quality monitoring
+for 47 physical and chemical-related parameters. The parameter specific
+statistics were computed by station for 5-year intervals from 1970 to 1994
+and a three year interval from 1995 to 1997. The data are extracted from
+the U.S. EPA Storage and Retrieval of US Waters Parametric Data (STORET)
+which is contributed by a number of organizations including federal, state,
+interstate agencies, universities, contractors, individuals and water laboratories.
+Data updates are performed weekly. Each provider of data is responsible
+for the data it submits to STORET. For distribution with BASINS v.2.0,
+the spatial attributes of the database were prepared in Arcview shape file
+format while selected relational attributes were prepared in Arcview DBF
+file format."
+</abstract>
+      <purpose>
+To provide general information on water quality statistics at monitoring stations in Indiana.
+US Environmental Protection Agency BASINS metadata reports -
+
+"The STORET database serves as a repository of waterway parametric data,
+including information on ambient, intensive survey, effluent and biological
+water quality."
+"Intended use of data: This data set was prepared to support the
+U.S. EPA BASINS (Better Assessment Science Integrating Point and Nonpoint
+Sources) System.
+</purpose>
+      <supplinf>
+This dataset, as well as many others, was compiled
+for mapping and download as part of the Indiana Statewide GIS Database
+funded by the Indiana Department of Transportation.  Many publicly
+available datasets were created, edited, and compiled inclusion in the
+Statewide Database Website where users can download data or map online
+using ArcIMS. Many public data sources, not created in conjunction with
+the statewide project,  were obtained by website download, contacting
+originators, and creating spatial files from tabular data.  A range of
+layer editing was used, specific to each layer, from full creation, to
+data cleaning, to only reformatting metadata.  The level of editing done
+by BLA or IGS is fully disclosed in the process steps of this metadata;
+credit for the information is retained by the originator.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19970101</begdate>
+          <enddate>19971231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>STORET 1997</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0157</westbc>
+        <eastbc>-86.8562</eastbc>
+        <northbc>38.5276</northbc>
+        <southbc>37.3724</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesarus</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Water Quality</themekey>
+        <themekey>Storage and Retrieval of US Waters Parametric Data</themekey>
+        <themekey>STORET</themekey>
+        <themekey>Water Resources Development Act</themekey>
+        <themekey>U. S. Environmental Protection Agency</themekey>
+        <themekey>USEPA</themekey>
+        <themekey>BASINS</themekey>
+        <themekey>Clean Water</themekey>
+        <themekey>dissolved oxygen</themekey>
+        <themekey>pH</themekey>
+        <themekey>chemistry</themekey>
+        <themekey>watershed</themekey>
+        <themekey>nitrogen</themekey>
+        <themekey>phosphorus</themekey>
+        <themekey>chloride</themekey>
+        <themekey>sulfate</themekey>
+        <themekey>arsenic</themekey>
+        <themekey>lead</themekey>
+        <themekey>mercury</themekey>
+        <themekey>PCB</themekey>
+        <themekey>DDT</themekey>
+        <themekey>herbicides</themekey>
+        <themekey>pesticides</themekey>
+        <themekey>chemicals</themekey>
+        <themekey>impaired</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>Whitley County</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Hardin County</placekey>
+        <placekey>Meade County</placekey>
+        <placekey>Gallatin County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Hamilton County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer, Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>nschroeder@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ArcView version 3.x shapefile format</native>
+    <useconst>Hydrology--Water_Quality_Statistics</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No information was included in original BASINS 3.0 metadata.</attraccr>
+    </attracc>
+    <logic>
+No information was included in the original BASINS 3.0 metadata. It is
+possible that multiple points occur concurrently at the same location.
+</logic>
+    <complete>
+The monitoring stations included in this file are subset of the
+national dataset consisting of stations listed as occurring in Indiana
+and along the Ohio River in Kentucky and Ohio.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Observing positional accuracy suggests that this layer is
+best used at smaller scales.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+No information was included in the original BASINS 3.0 metadata.
+Vertical accuracy does not appear to be a factor in the digital
+production of the data set.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USEPA, STORET</origin>
+            <pubdate>19970101</pubdate>
+            <title>STORET MEAN program</title>
+            <geoform>digital vector data</geoform>
+            <pubinfo>
+              <pubplace>WAshington, DC</pubplace>
+              <publish>USEPA, Office of Water, OST</publish>
+            </pubinfo>
+            <onlink>&lt;http://www.epa.gov/waters</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>EPA IBM mainframe</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19970101</begdate>
+              <enddate>19970101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>STORET</srccurr>
+        </srctime>
+        <srccitea>STORET</srccitea>
+        <srccontr>All information was obtained from the source data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+US Environmental Protection Agency BASINS metadata reports -
+
+"The BASINS Water Quality Monitoring and Data Summaries for the conterminous
+U.S. are created by retrieving the source data from the STORET database
+using the STORET MEAN program. Monitoring stations characterized as ambient
+stream, lake, reservoir, canal, estuary or ocean were selected. Summary
+statistics were computed by the program by station for 5-year intervals
+from 1970-1994 and for the period from 1995-1997. Statistics include number
+of observations, standard deviation, mean, 15th, 25th, 50th, 75th and 85th
+percentiles. A BASINS water quality station ID was assigned to each station
+in order to facilitate links and joins within BASINS between station data
+and the monitoring data summary.
+For distribution with BASINS v2.0, ARCVIEW shapefiles which included
+the spatial extent of each of the ten U.S. EPA Regions, plus the 8-digit
+hydrologic units that crossed region boundaries were prepared to indicate
+the geographic locations of the monitoring stations within the region."
+</procdesc>
+        <srcused>STORET</srcused>
+        <procdate>19980126</procdate>
+        <srcprod>BASINS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Unknown</cntper>
+              <cntorg>Tetra Tech, Inc.</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>10306 Eaton Place, Suite 340</address>
+              <city>Fairfax</city>
+              <state>Virginia</state>
+              <postal>22030</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-385-6000</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A file named "WQ_STAT" was obtained by Bernardin, Lochmueller &amp; Associates from the
+USEPA BASINS 3.0 Region 5 CD, &lt;http://www.epa.gov/OST/BASINS/&gt;. The file was selected
+to points attributed as being in Indiana and transformed from Geographic to UTM,
+Zone 16, meters. Some empty fields were deleted.
+</procdesc>
+        <srcused>BASINS, WQ_STAT</srcused>
+        <procdate>20030101</procdate>
+        <srcprod>WATER_QUALITY_STATISTICS_EPA_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Metadata provided by the orignator to accompany the unedited data
+obtained by BLA, was used to create the FGDC compliant metadata which
+accompanies this file.  Information from orignial metadata was used to
+fill the fields in the FGDC form and other information regarding any edits
+made by BLA to the original file are documented.  Because information in
+this metadata is provided by the originator, occasionally, field information may
+not comply with FGDC field definitions, although the overall form is FGDC compliant.
+Errors are corrected when possible, but if doubt exists the field was populated
+by whatever information was provided by the orignator.  Fields where errors have been
+more frequent include Data Quality Information and Entity and Attribute Information.
+</procdesc>
+        <srcused>WQ_STAT</srcused>
+        <procdate>20040301</procdate>
+        <srcprod>WATER_QUALITY_STATISTICS_EPA_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Attribute information has been altered from the original. The original Enumerated_Domain
+values provided no value to the corresponding table(s).  A Glossary of Terms was downloaded
+from the EPA website (http://www.epa.gov./storpub/legacy/glossary.htm) and used to yield a
+more intuitive description of each Enumerated_Domain of each corresponding Attribute.
+</procdesc>
+        <procdate>20040402</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin-Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit. v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected.
+</procdesc>
+        <procdate>20041117</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>IN</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>2187</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WATER_QUALITY_STATISTICS_EPA_IN.DBF</enttypl>
+        <enttypd>Water Quality Monitoring Stations and Data Summaries primary attribute table</enttypd>
+        <enttypds>STORET</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>BASINS assigned unique station number</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION</attrlabl>
+        <attrdef>station code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY</attrlabl>
+        <attrdef>agency code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>description of location</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CU</attrlabl>
+        <attrdef>cataloging unit code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>Character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEG</attrlabl>
+        <attrdef>reach file v1 segment number</attrdef>
+        <attrdefs>EPA Envirofacts Oracle Database</attrdefs>
+        <attrdomv>
+          <udom>character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MILEP</attrlabl>
+        <attrdef>reach file v1 mile point</attrdef>
+        <attrdefs>EPA Envirofacts Oracle Database</attrdefs>
+        <attrdomv>
+          <udom>floating point value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ONOFF</attrlabl>
+        <attrdef>on/off reach indicator</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>county name coordinate</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STFIPS</attrlabl>
+        <attrdef>state FIPS code</attrdef>
+        <attrdefs>EPA Envirofacts Oracle Database</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State Postal Abbreviation</attrdef>
+        <attrdefs>EPA Envirofacts Oracle Database</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+        <attrdef>Latitude in Decimal Degrees</attrdef>
+        <attrdefs>STORET</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONG</attrlabl>
+        <attrdef>Longitude in Decimal Degrees</attrdef>
+        <attrdefs>STORET</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>station type</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STCOFIPS</attrlabl>
+        <attrdef>State and County FIPS Code</attrdef>
+        <attrdefs>EPA Envirofacts Oracle Database</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BWQID</attrlabl>
+        <attrdef>BASINS assigned unique station number</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BCU</attrlabl>
+        <attrdef>BASINS assigned cataloging unit</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WQ_D7074, WQ_D7579, WQ_D8084, WQ_D8589, WQ_D9094, WQ_D9597</enttypl>
+        <enttypd>Water Quality observations related tables that contain annual estimated</enttypd>
+        <enttypds>STORET</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>BASINS assigned unique station number</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION</attrlabl>
+        <attrdef>station code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY</attrlabl>
+        <attrdef>agency code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID values</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BWQID</attrlabl>
+        <attrdef>BASINS assigned unique station number</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARAMETER</attrlabl>
+        <attrdef>EPA STORET parameter code</attrdef>
+        <attrdefs>STORET</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NO OBS</attrlabl>
+        <attrdef>number of observations</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>Integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MEAN</attrlabl>
+        <attrdef>mean value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A15TH_P</attrlabl>
+        <attrdef>15th percentile value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A25TH_P</attrlabl>
+        <attrdef>25th percentile value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A50TH_P</attrlabl>
+        <attrdef>50th percentile value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A75TH_P</attrlabl>
+        <attrdef>75th percentile value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A85TH_P</attrlabl>
+        <attrdef>85th percentile value</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STD</attrlabl>
+        <attrdef>standard deviation</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <udom>floating point number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BCU</attrlabl>
+        <attrdef>BASINS assigned cataloging unit code</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WQ_PARM</enttypl>
+        <enttypd>Water Quality parameter tables</enttypd>
+        <enttypds>STORET</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>PARM_CODE</attrlabl>
+        <attrdef>EPA STORET parameter code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARM_NAME</attrlabl>
+        <attrdef>parameter name</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNITS</attrlabl>
+        <attrdef>units</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_TYP</attrlabl>
+        <attrdef>sample type</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_REF_LVL</attrlabl>
+        <attrdef>upper reference level</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LW_REF_LVL `</attrlabl>
+        <attrdef>lower reference level</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNKNOWN</attrlabl>
+        <attrdef>type of standard</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REF_LVLSRC</attrlabl>
+        <attrdef>reference level source</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WQ_P7074, WQ_P7579, WQ_P8084, WQ_P8589, WQ_P9094, WQ_P9597</enttypl>
+        <enttypd>Water Quality data parameters</enttypd>
+        <enttypds>STORET</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>PARM_CODE</attrlabl>
+        <attrdef>EPA STORET parameter code</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARM_NAME</attrlabl>
+        <attrdef>parameter name</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNITS</attrlabl>
+        <attrdef>units</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_TYP</attrlabl>
+        <attrdef>sample type</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UP_REF_LVL</attrlabl>
+        <attrdef>upper reference level</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LW_REF_LVL `</attrlabl>
+        <attrdef>lower reference level</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNKNOWN</attrlabl>
+        <attrdef>type of standard</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REF_LVLSRC</attrlabl>
+        <attrdef>reference level source</attrdef>
+        <attrdefs>STORET online documentation</attrdefs>
+        <attrdomv>
+          <udom>character ID value</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>
+WATER_QUALITY_STATISTICS_EPA_IN: Water Quality Monitoring and Data Summaries Southwestern
+Indiana, Derived from EPA BASINS (United States Environmental Protection Agency, Point Shapefile)
+</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended
+to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+LIMITATION OF LIABILITY
+The product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user.
+Bernardin, Lochmueller and Associates shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin, Lochmueller and Associates
+is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20041027</metd>
+    <metrd>20041117</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer/Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>IN</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>cbonds@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the BLA/IGS.  It should not to be altered
+or summarized.  BLA/IGS does not support secondary distribution.  If this
+data set was received from anyone besides the BLA/IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

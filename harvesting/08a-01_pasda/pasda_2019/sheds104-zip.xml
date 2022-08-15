@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Environmental Resources Research Institute</origin>
+        <pubdate>1998-01-01</pubdate>
+        <title>Pennsylvania - 104 State Water Plan watersheds, 1998</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Environmental Protection</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/watersheds/sheds104.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1998-01-01</begdate>
+          <enddate>1998-01-01</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.521667</westbc>
+        <eastbc>-74.690292</eastbc>
+        <northbc>42.270088</northbc>
+        <southbc>39.719334</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>none</addrtype>
+        </cntaddr>
+      </cntinfo>
+    </ptcontac>
+    <secinfo />
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+    <descript>
+      <abstract>sheds104-zip</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attributes complete and accurate as verified by visual comparison with sources.</attraccr>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>All 104 major watersheds included</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Verified by visual comparison with sources.  Overlaid on smallsheds coverage to correct boundary information.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania State Water Plan Division</origin>
+            <pubdate>1983-01-01</pubdate>
+            <title>State Water Plan</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania State Water Plan Division</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>unknown</srcscale>
+        <typesrc>unknown</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1983-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>swp map</srccitea>
+        <srccontr>attribute values for sheds</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1997-05-03</pubdate>
+            <title>Pennsylvania - small watersheds</title>
+            <edition>1997</edition>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>ftp://www.pasda.psu.edu/pub/pasda/watersheds/smallsheds.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1997-05-03</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>smallsheds</srccitea>
+        <srccontr>corrected boundary information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>State water plan map was digitised and indentification information for watersheds was added to the table.  Coverage was overlaid on the smallsheds coverage and boundaries of the major watersheds were corrected to match.</procdesc>
+        <procdate>1998-01-01</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm />
+    </ptvctinf>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.SDE.MajorSheds104</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPLIT</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>WSHED</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Area()</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Includes data in the following tables:
+MAJORSHEDS.PAT:
+COLUMN   ITEM NAME        
+    1  AREA               
+    5  PERIMETER          
+    9  MAJORSHEDS#        From State Water Plan
+   13  MAJORSHEDS-ID      From State Water Plan
+MAJORSHEDS.AAT:
+COLUMN   ITEM NAME        
+    1  FNODE#             
+    5  TNODE#             
+    9  LPOLY#             
+   13  RPOLY#             
+   17  LENGTH             
+   21  MAJORSHEDS#        From State Water Plan
+   25  MAJORSHEDS-ID      From State Water Plan
+MAJORSHEDS.PATPOLY:
+COLUMN   ITEM NAME        
+    1  AREA               
+    5  PERIMETER          
+    9  POLY#              
+   13  POLY-ID            
+   17  RINGS_OK           
+   24  RINGS_NOK          
+   31  SHEDS104_          
+   39  SHEDS104_I         
+   47  SWPID              From State Water Plan
+   51  MAJOR_STRE         Name of major stream in watershed</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/watersheds/sheds104.zip</networkr>
+              </networka>
+            </computer>
+            <accinstr>See: http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2003-02-18</metd>
+    <metrd>1999-10-13</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr />
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>1d9b8d39-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

@@ -1,0 +1,435 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA-FSA Aerial Photography Field Office</origin>
+        <pubdate>2013</pubdate>
+        <title>National Agricultural Imagery Program (1-meter resolution) 2013- Four Band</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Salt Lake City, Utah</pubplace>
+          <publish>USDA FSA Aerial Photography Field Office</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/data/naip/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2013</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Photography Source Image Dates.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.519400</westbc>
+        <eastbc>-76.925107</eastbc>
+        <northbc>40.132201</northbc>
+        <southbc>39.673934</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>farming</themekey>
+        <themekey>Digital Ortho rectified Image</themekey>
+        <themekey>Mosaic</themekey>
+        <themekey>Quarter Quadrangle Centered</themekey>
+        <themekey>Ortho Rectification</themekey>
+        <themekey>Compression</themekey>
+        <themekey>MrSID</themekey>
+        <themekey>JPEG 2000</themekey>
+        <themekey>NAIP</themekey>
+        <themekey>Compliance</themekey>
+        <themekey>Aerial Compliance</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>PA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+None, The USDA-FSA Aerial Photography Field Office asks to
+be credited in derived products.
+If defects are found in the NAIP imagery during the warranty
+period such as horizontal offsets, replacement imagery may be
+provided. Imagery containing defects that require the
+acquisition of new imagery, such as excessive cloud cover,
+specular reflectance, etc., will not be replaced within a
+NAIP project year.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-844-2922</cntvoice>
+        <cntfax>801-956-3653</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>None</browsen>
+      <browsed>None</browsed>
+      <browset>None</browset>
+    </browse>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.6.1500</native>
+    <descript>
+      <abstract>NAIP2013</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>
+NAIP 3.75 minute tile file names are based
+on the USGS quadrangle naming convention.
+</logic>
+    <complete>None</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>FSA Digital Orthophoto Specifications.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A  2d only</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA-FSA Aerial Photography Field Office</origin>
+            <pubdate>2013</pubdate>
+            <title>PA</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>CD/DVD</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2013</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Majority Aerial Photography Date</srccurr>
+        </srctime>
+        <srccitea>MrSID / JPEG2000 compressed image.</srccitea>
+        <srccontr>Mosaicked County Image</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The imagery was collected using ADS40-SH51 and ADS40-SH52 digital sensors.
+Collection was performed using a combination of twin-engine aircraft flying
+at an average flying height of 17,500 and 27,000 ft above mean terrain with 23% sidelap,
+giving the collected data nominal ground sampling distance of 0.55 and 0.85 meters.
+Based-upon the CCD Array configuration present in the ADS40 digital sensor,
+imagery for each flight line is 12,000-pixels in width.  Red, Green, Blue,
+Near-Infrared and Panchromatic image bands were collected.
+
+Collected data was downloaded to portable hard drives and shipped to the processing
+facility daily.  Raw flight data was extracted from external data drives using GPro
+software. Airborne GPS / IMU data was post-processed using IPAS, PosPac and/or TerraPos
+software and reviewed to ensure sufficient accuracy for project requirements.
+
+Using GPro and Pictovera software, planar rectified images were generated from the collected data
+for use in image quality review.  The planar rectified images were generated at five meter
+resolution using a two standard deviation histogram stretch.  Factors considered during
+this review included but were not limited to the presence of smoke and/or cloud cover,
+contrails, light conditions, sun glint and any sensor or hardware-related issues that
+potentially could result in faulty data.  When necessary, image strips identified as not
+meeting image quality specifications were re-flown to obtain suitable imagery.
+
+Aerotriangulation blocks were defined primarily by order of acquisition and consisted of
+four to seventeen strips.  Image tie points providing the observations for the least
+squares bundle adjustment were selected from the images using an autocorrelation algorithm.
+Photogrammetric control points consisted of photo identifiable control points, collected
+using GPS field survey techniques.  The control points were loaded in to a softcopy workstation
+and measured in the acquired image strips.  A least squares bundle adjustment of image pass
+points, control points and the ABGPS was performed to develop an aerotriangulation solution
+for each block using Pictovera software.  Upon final bundle adjustment, the triangulated strips
+were ortho-rectified to the USGS NED DEM for the project area.  The images
+were re-sampled from the raw resolution of 0.55 meters and 0.85 meters to the required resolution of 1.0 meters.
+
+Positional accuracy was reviewed in the rectified imagery by visually verifying the horizontal
+positioning of the known photo-identifiable survey locations using ArcGIS software.
+
+The red, green, blue, and NIR bands were combined to generate a final ortho-rectified image strip.
+The ADS40 sensor collects twelve bit image data which requires radiometric adjustment for output
+in standard eight bit image channels.  The ortho-rectified image strips were produced with the
+full 12 bit data range, allowing radiometric adjustment to 8 bit range to be performed on a strip
+by strip basis during the final mosaicking steps.
+
+The imagery was mosaicked using manual seamline generation in Orthovista Seam Editor (OVSE).
+The 12 bit data range was adjusted for display in standard eight bit image channels by defining
+a piecewise histogram stretch using OrthoVista software.  A constant stretch was defined for
+each image collection period, and then strip by strip adjustments were made as needed to account
+for changes in sun angle and azimuth during the collection period.  Strip adjustments were also
+made to match the strips histograms as closely as possible to APFO specified histogram metrics and
+color balance requirements.  Automated balancing algorithms were applied to account for bi-directional
+reflectance as a final step before the conversion to 8 bit data range.
+
+APFO specified DOQQs were extracted from the final mosaic in GeoTIFF format.  4-Band DOQQs were
+produced and 3-Band RGB CCMs were created.  DOQQs corresponding to an individual CCM were
+reviewed for overall color balance within the CCM.  Local corrections were made where necessary
+to ensure uniformity within the CCM.  In the case of DOQQs occurring in more than one CCM,
+a separate version of the image was generated and balanced for each CCM it occurred in.
+The color balanced DOQQs were then compressed to MrSID Generation 3 format at 15:1 compression ratio
+to create a composite CCM.
+</procdesc>
+        <procdate>2013</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>PA</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>49667</rowcount>
+      <colcount>49602</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1.000000</absres>
+            <ordres>1.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>24 bit pixels, 3 band color (RGB) represent brightness values 0-255.</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Supervisor Customer Service Section</cntper>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-844-2922</cntvoice>
+        <cntfax>801-956-3653</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>Mosaicked County Image for COUNTY, PA</resdesc>
+    <distliab>
+In no event shall the creators, custodians, or distributors
+of this information be liable for any damages arising out
+of its use (or the inability to use it).
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Compressed County Mosaic</formname>
+          <formcont>Natural Color</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>None</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+          <offoptn>
+            <offmedia>DVD-R</offmedia>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+          <offoptn>
+            <offmedia>USB/Firewire/SATA External Hard Drive</offmedia>
+            <recfmt>NTFS</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>
+Contact the USDA-FSA Aerial Photography Field Office
+for more information.
+</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2013</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>2013</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-844-2922</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <ModDate>20140228</ModDate>
+    <ModTime>9242900</ModTime>
+    <CreaDate>20140228</CreaDate>
+    <CreaTime>09205100</CreaTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\DATA\NAIP20130</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <imsContentType export="False">
+        </imsContentType>
+      </itemProps>
+      <copyHistory>
+        <copy source="M:\pasda\UCI_Metadata\NAIP_CountyMosaics2013" dest="\\ALCES\D$\DATA\NAIP2013\NAIP_CountyMosaics2013" date="20140228" time="09205100" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <mdDateSt Sync="TRUE">20140228</mdDateSt>
+  <dataIdInfo>
+    <idPurp>The NAIP imagery is available for distribution within
+60 days of the end of a flying season and is intended
+to provide current information of agricultural conditions
+in support of USDA farm programs. For USDA Farm Service
+Agency, the 1 meter GSD product provides an ortho image
+base for Common Land Unit boundaries and other data sets.
+The NAIP imagery is generally acquired in projects
+covering full states in cooperation with state
+government and other federal agencies who use the
+imagery for a variety of purposes including land use
+planning and natural resource assessment.  The NAIP is
+also used for disaster response often providing the most
+current pre-event imagery.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This data set contains imagery from the National Agriculture Imagery Program (NAIP). The NAIP acquires digital ortho imagery during the agricultural growing seasons in the continental U.S.. A primary goal of the NAIP program is to enable availability of ortho imagery within one year of acquisition. The NAIP provides two main products: 1 meter ground sample distance (GSD) ortho imagery rectified to a horizontal accuracy within +/- 5 meters of reference digital ortho quarter quads (DOQQ's) from the National Digital Ortho Program (NDOP) or from the National Agriculture Imagery Program (NAIP); 1 meter GSD ortho imagery rectified within +/- 6 meters to true ground. The tiling format of NAIP imagery is based on a 3.75' x 3.75' quarter quadrangle with a 300 meter buffer on all four sides. The NAIP imagery is formatted to the UTM coordinate system using the North American Datum of 1983 (NAD83). The NAIP imagery may contain as much as 10% cloud cover per tile. This file was generated by compressing NAIP imagery that cover the county extent. Two types of compression may be used for NAIP imagery: MrSID and JPEG 2000. Target value for the compression ratio is (15:1).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCitation xmlns="">
+      <resTitle>National Agricultural Imagery Program (1-meter resolution) 2013</resTitle>
+    </idCitation>
+    <searchKeys>
+      <keyword>farming</keyword>
+      <keyword>Digital Ortho rectified Image</keyword>
+      <keyword>Mosaic</keyword>
+      <keyword>Quarter Quadrangle Centered</keyword>
+      <keyword>Ortho Rectification</keyword>
+      <keyword>Compression</keyword>
+      <keyword>MrSID</keyword>
+      <keyword>JPEG 2000</keyword>
+      <keyword>NAIP</keyword>
+      <keyword>Compliance</keyword>
+      <keyword>Aerial Compliance</keyword>
+      <keyword>Imagery/Base Maps/Earth Cover</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts xmlns="">
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None, The USDA-FSA Aerial Photography Field Office asks to be credited in derived products. If defects are found in the NAIP imagery during the warranty period such as horizontal offsets, replacement imagery may be provided. Imagery containing defects that require the acquisition of new imagery, such as excessive cloud cover, specular reflectance, etc., will not be replaced within a NAIP project year.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataExt xmlns="">
+      <geoEle>
+        <GeoBndBox esriExtentType="search" />
+      </geoEle>
+    </dataExt>
+    <dataChar>
+      <CharSetCd value="004">
+      </CharSetCd>
+    </dataChar>
+  </dataIdInfo>
+  <mdChar>
+    <CharSetCd value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005">
+    </ScopeCd>
+  </mdHrLv>
+</metadata>

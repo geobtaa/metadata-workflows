@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Philadelphia</origin>
+        <pubdate>20111018</pubdate>
+        <title>High Resolution Landcover, Philadelphia PA, 2008</title>
+        <geoform>remote-sensing image</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <ftname Sync="TRUE">landcover_2008_philadelphia.img</ftname>
+        <origin>University of Vermont Spatial Analysis Laboratory</origin>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2008</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-75.284177</westbc>
+        <eastbc>
+-74.954025</eastbc>
+        <northbc>
+40.143805</northbc>
+        <southbc>
+39.861282</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">2660573.499900</leftbc>
+        <rightbc Sync="TRUE">2750113.545000</rightbc>
+        <bottombc Sync="TRUE">204650.199600</bottombc>
+        <topbc Sync="TRUE">304943.169300</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Land cover</themekey>
+        <themekey>UTC</themekey>
+        <themekey>Urban</themekey>
+        <themekey>tree canopy</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Philadelphia</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2008</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+        </cntperp>
+        <cntpos>Geospatial Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Room 220</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>University of Vermont Spatial Analysis Laboratory</datacred>
+    <native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3500</native>
+    <natvform Sync="TRUE">Raster Dataset</natvform>
+    <descript>
+      <abstract>PhiladelphiaLandCoverRaster2008</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No accuracy assessment was conducted, but the dataset was subject to a thorough manual quality control (QC).  30700 corrections were made to the classification.  Accuracy assessments from previous UTC land cover datasets indicate that the use OBIA techniques in combination with a detailed QC yield an overall accuracy of 95% or better.</attraccr>
+    </attracc>
+    <logic>Valid raster dataset.</logic>
+    <complete>Complete for Philadelphia based on 2010 boundary.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>2008</pubdate>
+            <title>True Color Orthophotography</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>8000</srcscale>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>True Color Orthophotography</srccitea>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20100318</pubdate>
+            <title>Planimetric Data</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>unknown</srcscale>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2010</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Planimetric data</srccitea>
+        <srccontr>building footprints, road polygons, and hydrography</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20101222</pubdate>
+            <title>LiDAR Data</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>8000</srcscale>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20080325</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20080513</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>2008 LiDAR LAS Data</srccitea>
+        <srccontr>elevation and statistical surfaces</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Object based image analysis (OBIA) using a rule-based expert system</procdesc>
+        <procdate>20101030</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Manual corrections to land cover classification</procdesc>
+        <procdate>201011</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>T:\TestSites\PA\Philadelphia\Temp\Metada_XMLs\20101222_Philadelphia_landcover_metadata.xml</srcused>
+        <procdate>20101223</procdate>
+        <proctime>10563500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">T:\TestSites\PA\Philadelphia\Data\Metadata\metadata_landcover.xml</srcused>
+        <procdate Sync="TRUE">20110804</procdate>
+        <proctime Sync="TRUE">17301400</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>100306</rowcount>
+      <colcount>89553</colcount>
+      <vrtcount>1</vrtcount>
+      <rastxsz Sync="TRUE">0.999900</rastxsz>
+      <rastysz Sync="TRUE">0.999900</rastysz>
+      <rastbpp Sync="TRUE">8</rastbpp>
+      <rastorig Sync="TRUE">Upper Left</rastorig>
+      <rastcmap Sync="TRUE">TRUE</rastcmap>
+      <rastcomp Sync="TRUE">None</rastcomp>
+      <rastband Sync="TRUE">1</rastband>
+      <rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+      <rastplyr Sync="TRUE">TRUE</rastplyr>
+      <rastifor Sync="TRUE">IMAGINE Image</rastifor>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>0.999900</absres>
+            <ordres>0.999900</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">Lambert Conformal Conic</projcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="landcover_2008_philadelphia.img.vat">
+      <enttyp>
+        <enttypl>
+Land Cover</enttypl>
+        <enttypd>UTC</enttypd>
+        <enttypt Sync="TRUE">Table</enttypt>
+        <enttypc Sync="TRUE">8</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ObjectID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land cover code</attrdef>
+        <attrdefs>UTC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Tree Canopy</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Grass/Shrub</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Bare Soil</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Water</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Buildings</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Roads/Railroads</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Other Paved Surfaces</edomvd>
+          </edom>
+        </attrdomv>
+        <attalias Sync="TRUE">Value</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef># pixels per land cover class</attrdef>
+        <attrdefs>Internal</attrdefs>
+        <attalias Sync="TRUE">Count</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Red</attrlabl>
+        <attalias Sync="TRUE">Red</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Green</attrlabl>
+        <attalias Sync="TRUE">Green</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Blue</attrlabl>
+        <attalias Sync="TRUE">Blue</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Class_names</attrlabl>
+        <attalias Sync="TRUE">Class_names</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">13</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+    <overview>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>pasda@psu.edu </cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20111019</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+        </cntperp>
+        <cntpos>Geospatial Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 220</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>20111025</CreaDate>
+    <CreaTime>09505500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110804</SyncDate>
+    <SyncTime>17302300</SyncTime>
+    <ModDate>20110804</ModDate>
+    <ModTime>17305400</ModTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\BuildRasterAttributeTable" Date="20110804" Time="230800">BuildRasterAttributeTable T:\TestSites\PA\Philadelphia\Data\LandCover\landcover_2008_philadelphia.img NONE</Process>
+      </lineage>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\Mirror\pasdaroot\pasda\UCI_Metadata\PhiladelphiaLandCoverRaster2008</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\Philly\PhiladelphiaLandCoverRaster2008" dest="\\Mirror\pasdaroot\pasda\UCI_Metadata\PhiladelphiaLandCoverRaster2008" date="20111025" time="09505600">
+        </copy>
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3500</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">landcover_2008_philadelphia.img</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="002">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">2660573.4999</westBL>
+          <eastBL Sync="TRUE">2750113.545</eastBL>
+          <northBL Sync="TRUE">304943.1693</northBL>
+          <southBL Sync="TRUE">204650.1996</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-75.284173</westBL>
+      <eastBL Sync="TRUE">-74.954036</eastBL>
+      <northBL Sync="TRUE">40.143799</northBL>
+      <southBL Sync="TRUE">39.861285</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\quadrula\FOS\TestSites\PA\Philadelphia\Data\LandCover\landcover_2008_philadelphia.img</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Raster Dataset</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">Lambert Conformal Conic</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <GridSpatRep>
+      <numDims Sync="TRUE">2</numDims>
+      <cellGeo>
+        <CellGeoCd Sync="TRUE" value="002">
+        </CellGeoCd>
+      </cellGeo>
+      <tranParaAv Sync="TRUE">1</tranParaAv>
+      <axDimProps>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="002">
+            </DimNameTypCd>
+          </dimName>
+          <dimSize Sync="TRUE">89549</dimSize>
+          <dimResol>
+            <value Sync="TRUE">0.9999</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Foot_US</uomName>
+                <conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="001">
+            </DimNameTypCd>
+          </dimName>
+          <dimSize Sync="TRUE">100303</dimSize>
+          <dimResol>
+            <value Sync="TRUE">0.9999</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Foot_US</uomName>
+                <conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+      </axDimProps>
+    </GridSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20110804</mdDateSt>
+</metadata>

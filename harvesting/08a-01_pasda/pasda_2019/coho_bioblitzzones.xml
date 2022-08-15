@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20041118</CreaDate>
+    <CreaTime>14530800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20041222</SyncDate>
+    <SyncTime>14401600</SyncTime>
+    <ModDate>20080611</ModDate>
+    <ModTime>13495300</ModTime>
+    <MetaID>{BDEB05B1-C1D8-43DA-AAEF-3B32B4CA1F67}</MetaID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <origin>Ephraim Zimmerman, Western Pennsylvania Conservancy</origin>
+        <pubdate>20040501</pubdate>
+        <title>Bioblitz zones for Erie Bluffs State Park</title>
+        <ftname Sync="TRUE">coho_bioblitzzones</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+    <timeperd>
+      <current>ground condition</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.403909</westbc>
+        <eastbc Sync="TRUE">-80.370036</eastbc>
+        <northbc Sync="TRUE">42.024289</northbc>
+        <southbc Sync="TRUE">42.003993</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">549365.083594</leftbc>
+        <rightbc Sync="TRUE">552153.964364</rightbc>
+        <bottombc Sync="TRUE">4650197.817016</bottombc>
+        <topbc Sync="TRUE">4652431.406654</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>Bioblitz</themekey>
+        <themekey>Zone</themekey>
+        <themekey>State Parks</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekey>Erie County</placekey>
+        <placekey>State Parks</placekey>
+        <placekey>Erie Bluffs</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+          <cntper>Community Ecologist</cntper>
+        </cntorgp>
+        <cntvoice>(412) 288-2777</cntvoice>
+        <cntfax>(412) 281-1792</cntfax>
+        <hours>M-F 8am-5pm</hours>
+        <cntpos>Community Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 4th Avenue</address>
+          <city>Pittsburgh</city>
+          <state>Pennsylvania</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>ezimmerman@paconserve.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>USGS 7.5' topographic quadrangle series</datacred>
+    <descript>
+      <abstract>coho_bioblitzzones</abstract>
+    </descript>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\pgh-rc\gisdata\heritage_projects\coho bioblitz\coho\eb_with_metadata\coho_bioblitzzones.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.006</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">C:\Coho\utm27u17\coho_complexes2</srcused>
+        <date Sync="TRUE">20040714</date>
+        <time Sync="TRUE">11374300</time>
+        <procdate>2004</procdate>
+      </procstep>
+    </lineage>
+    <logic>ESRI polygon geometry exists.</logic>
+    <complete>Complete.  All areas have the correct unique code and name.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Polygons were digitized on-screen using USGS quadrangles and aerial photos for reference.  The Community Ecologist drew the polygon boundaries based on their professional judgement of the reference layers and their direct experience of the site.</horizpar>
+      </horizpa>
+    </posacc>
+    <attracc>
+      <attraccr>Attributes have been checked to be the ones distributed at the 2004 Erie Bluffs Bioblitzes.</attraccr>
+    </attracc>
+  </dataqual>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">coho_bioblitzzones</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">549365.083594</westBL>
+          <eastBL Sync="TRUE">552153.964364</eastBL>
+          <northBL Sync="TRUE">4652431.406654</northBL>
+          <southBL Sync="TRUE">4650197.817016</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.403909</westBL>
+      <eastBL Sync="TRUE">-80.370036</eastBL>
+      <northBL Sync="TRUE">42.024289</northBL>
+      <southBL Sync="TRUE">42.003993</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+          <cntper>Conservation Data Manager</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <address>209 Fourth Avenue</address>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(412) 288-2777</cntvoice>
+        <cntpos>Data Management</cntpos>
+        <cntemail>kcarlson@paconserve.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metd>20060124</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.006</transize>
+          <dssize Sync="TRUE">0.006</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Western Pennsylvania Conservancy policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Western Pennsylvania Conservancy for its own internal business purposes.  The Western Pennsylvania Conservancy does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Western Pennsylvania Conservancy shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Western Pennsylvania Conservancy, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Western Pennsylvania Conservancy warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.</distliab>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="coho_bioblitzzones">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">5</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="coho_bioblitzzones">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">5</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+        <projcsn Sync="TRUE">NAD_1927_UTM_Zone_17N</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000004</absres>
+            <ordres Sync="TRUE">0.000004</ordres>
+          </coordrep>
+        </planci>
+        <gridsys>
+          <gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone Sync="TRUE">17</utmzone>
+            <transmer>
+              <sfctrmer Sync="TRUE">0.999600</sfctrmer>
+              <longcm Sync="TRUE">-81.000000</longcm>
+              <latprjo Sync="TRUE">0.000000</latprjo>
+              <feast Sync="TRUE">500000.000000</feast>
+              <fnorth Sync="TRUE">0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1927_UTM_Zone_17N</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="coho_bioblitzzones">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">5</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="coho_bioblitzzones">
+      <enttyp>
+        <enttypl Sync="TRUE">coho_bioblitzzones</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">5</enttypc>
+        <enttypd>Survey zones for the 2004 Erie Bluffs Bioblitzes</enttypd>
+        <enttypds>Western Pennsylvania Conservancy</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Id</attrlabl>
+        <attalias Sync="TRUE">Id</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+        <attrdef>Zone ID number</attrdef>
+        <attrdefs>Western Pennsyvania Conservancy</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COMPLEX</attrlabl>
+        <attalias Sync="TRUE">COMPLEX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Complex Code Letter</attrdef>
+        <attrdefs>Western Pennsylvania Conservancy</attrdefs>
+        <attrdomv>
+          <udom>Unique letter for each zone.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COMPLEX_NA</attrlabl>
+        <attalias Sync="TRUE">COMPLEX_NA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>Full Zone Name</attrdef>
+        <attrdefs>Western Pennsylvania Conservancy</attrdefs>
+        <attrdomv>
+          <udom>Free text.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>This dataset contains polygons delineating reference zones for data collected during the 2004 Erie Bluffs bioblitzes.</dsoverv>
+      <eaover>Attributes consists of unique polgon/zone identifiers.</eaover>
+    </overview>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

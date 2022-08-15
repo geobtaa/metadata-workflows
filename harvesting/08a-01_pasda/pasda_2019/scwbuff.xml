@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Environmental Resources Research Institute</origin>
+        <pubdate>1996</pubdate>
+        <title>Spring Creek Watershed buffer boundaries</title>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>Environmental Resources Research Institute</publish>
+        </pubinfo>
+        <othercit>
+        </othercit>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/springcreek/scwbuff.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1996</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>
+telephone call to Environmental Resources Research
+Institute
+</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-78.0000</westbc>
+        <eastbc>-77.6250</eastbc>
+        <northbc>41.0000</northbc>
+        <southbc>40.6250</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>boundaries</themekey>
+        <themekey>buffer zones</themekey>
+        <themekey>Biota</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Spring Creek Watershed</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst GROUP="'scw'">
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Mike Anderson</cntper>
+          <cntorg>Environmental Resources Research Institute</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntvoice>814-863-3530</cntvoice>
+        <cntemail>mca@orser9.erri.psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>scwbuff</abstract>
+    </descript>
+  </idinfo>
+  <spref GROUP="'scw'">
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <longcm>-75</longcm>
+              <latprjo>0</latprjo>
+              <feast>500000</feast>
+              <fnorth>0</fnorth>
+              <sfequat>0.9996</sfequat>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.5286</absres>
+            <ordres>1.5286</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntvoice>(814) 865-8792</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab GROUP="'pasda'">The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Shapefile</formname>
+          <filedec>zip compression</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/springcreek/</networkr>
+              </networka>
+            </computer>
+            <accinstr>See: http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>19961108</metd>
+    <metrd>19970111</metrd>
+    <metc GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>13172600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

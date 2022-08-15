@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Commerce, United States Census Bureau (Data creator)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20131118</pubdate>
+        <title>SCHOOL_DISTRICTS_2013_USCB_IN: School Districts for Indiana in 2013 (United States Census Bureau, 1:500,000, Polygon Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey (IGS)</publish>
+        </pubinfo>
+        <othercit>
+SCHOOL_DISTRICTS_2013_USCB_IN.SHP was derived and modified from a pre-existing ESRI shapefile that was downloaded
+as a zip file named "TL_2013_18_UNSD.ZIP" (unified school districts) from the following URL of the U.S. Census Bureau:
+http://www.census.gov/cgi-bin/geo/shapefiles2013/main
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The following is excerpted from an online document produced by the U.S. Census Bureau pertaining to unified school
+districts published in 2000 (found at http://www.census.gov/geo/www/cob/sd_metadata.html):
+
+"School districts are geographic entities within which state, county, or local officials provide public educational
+services for the area's residents. The U.S. Census Bureau obtains the boundaries and names for school districts from
+state officials. The U.S. Census Bureau first provided data for school districts in the 1970 census. For Census 2000,
+the U.S. Census Bureau tabulated data for three types of school districts: elementary, secondary, and unified.
+
+Each school district is assigned a five-digit code that is unique within state. School district codes are assigned by
+the Department of Education and are not necessarily in alphabetical order by school district name."
+</abstract>
+      <purpose>SCHOOL_DISTRICTS_2013_USCB_IN.SHP was created to provide a GIS data layer of school districts in Indiana, current as of 2013.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20131118</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0972</westbc>
+        <eastbc>-84.6884</eastbc>
+        <northbc>41.7734</northbc>
+        <southbc>37.7606</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>United States Department of Commerce (USDOC)</themekey>
+        <themekey>United States Census Bureau (USCB)</themekey>
+        <themekey>TIGER/Line</themekey>
+        <themekey>school district</themekey>
+        <themekey>unified school district</themekey>
+        <themekey>polygon</themekey>
+        <themekey>school</themekey>
+        <themekey>vector</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Windows 7 Enterprise operating system; ESRI ArcGIS 10.2 shapefile; approximately 3.64 Mb</native>
+    <useconst>Infrastructure--Schools_Districts_2013_USCB</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+No formal metadata in the format of the Federal Geographic Data Committee (FGDC) was provided by the U.S. Census Bureau pertaining to the source data for this shapefile.
+
+The following is excerpted from the U.S. Census Bureau Web document produced by the U.S. Census Bureau
+pertaining to school districts published in 2000 (http://www.census.gov/geo/www/cob/sd_metadata.html):
+
+"School districts are geographic entities within which state, county, or local officials provide public educational
+services for the area's residents. The U.S. Census Bureau obtains the boundaries and names for school districts from
+tate officials. The U.S. Census Bureau first provided data for school districts in the 1970 census. For Census 2000,
+the U.S. Census Bureau tabulated data for three types of school districts: elementary, secondary, and unified.
+
+Each school district is assigned a five-digit code that is unique within state. School district codes are assigned by
+the Department of Education and are not necessarily in alphabetical order by school district name."
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>
+No formal metadata in the format of the Federal Geographic Data Committee (FGDC) was provided by the U.S. Census Bureau pertaining to the source data for this shapefile.
+
+The following is excerpted from the U.S. Census Bureau Web document produced by the U.S. Census Bureau
+pertaining to school districts published in 2000 (http://www.census.gov/geo/www/cob/sd_metadata.html):
+
+"School districts are geographic entities within which state, county, or local officials provide public educational
+services for the area's residents. The U.S. Census Bureau obtains the boundaries and names for school districts from
+tate officials. The U.S. Census Bureau first provided data for school districts in the 1970 census. For Census 2000,
+the U.S. Census Bureau tabulated data for three types of school districts: elementary, secondary, and unified.
+
+Each school district is assigned a five-digit code that is unique within state. School district codes are assigned by
+the Department of Education and are not necessarily in alphabetical order by school district name."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No information was provided by the U.S. Census Bureau pertaining to the horizontal positional accuracy of the source data.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20131118</pubdate>
+            <title>Unified School Districts for Indiana in 2013</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Operations Branch</publish>
+            </pubinfo>
+            <othercit>This source file can be downloaded at the following URL: http://www.census.gov/cgi-bin/geo/shapefiles2013/main</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20131118</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>TL_2013_18_UNSD.ZIP</srccitea>
+        <srccontr>Unified School Districts for Indiana in 2013</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+STL_2013_18_UNSD.ZIP was downloaded from the USCB and unzipped. ESRI ArcToolBox was then used to reproject the shapefile to UTM, Zone 16,
+NAD 1983, and and the output shapefile was named SCHOOL_DISTRICTS_2013_USCB_IN.SHP. ESRI ArcMap was then used to edit the shapefile, and
+the following fields were deleted from the attribute table: "STATEFP," "UNSDLEA," "LSAD," "MTFCC," "SDTYPE," "FUNCSTAT," "ALAND," "AWATER,"
+"INTPTLAT," and "INTPTLON."
+</procdesc>
+        <srcused>TL_2013_18_UNSD.ZIP, TL_2013_18_UNSD.SHP</srcused>
+        <procdate>20131118</procdate>
+        <srcprod>SCHOOL_DISTRICTS_2013_USCB_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(United States Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20131122</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>292</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SCHOOL_DISTRICTS_2013_USCB_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Feature identification number</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Polygon</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID</attrlabl>
+        <attrdef>7-digit numeric identification number of unified school district (two digit state ID plus 5 digit school district ID)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of unified school district</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOGRADE</attrlabl>
+        <attrdef>Description of the lowest grade administered by the school district (KG = Kindergarten, PK = Pre-kindergarten)</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HIGRADE</attrlabl>
+        <attrdef>Description of the highest grade administered by the school district (all values are 12, indicating "12th grade")</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>
+Numeric Field
+</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be
+included: [SCHOOL_DISTRICTS_2013_USCB_IN: School Districts for Indiana in 2013 (United States Census Bureau, 1:500,000, Polygon Shapefile),
+digital representation by Chris Dintaman, 2013.]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20131118</metd>
+    <metrd>20131122</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or
+summarized. IGS does not support secondary distribution. If this data set was received from anyone other than the IGS, this metadata file and the
+data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

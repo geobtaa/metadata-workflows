@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey and the U.S. Environmental Protection Agency (Data author)</origin>
+        <origin>Indiana Department of Natural Resources (Data provider)</origin>
+        <origin>Indiana Geographic Information Office (Data provider)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20161130</pubdate>
+        <title>
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN: Unclassified Drainage Flowlines in Watersheds of Indiana (U. S. Geological Survey,
+1:2,400, Line Shapefile)
+</title>
+        <edition>Local-Resolution National Hydrography Dataset, 2016 (scale 1:2,400)</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>United States Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP is derived from the feature class named "NHD_LOCALRES_UNCLASSIFIED_IN" of the Local-Resolution
+National Hydrography Dataset, created by the United States Geological Survey (USGS) and the United States Environmental Protection
+Agency (EPA). Personnel of the Indiana Department of Natural Resources (IDNR) provided the Indiana Geological Survey an ESRI file
+geodatabase named NHD_LOCALRES_131004_IN.MDB on October 8, 2013. This data was subsequently updated on December 16, 2013, March 27, 2014,
+September 5, 2014, November 6, 2014, March 6, 2015, August 6, 2015, September 21, 2015, March 3, 2016, and November 30, 2016.
+
+This dataset is complete and includes data for all of the following thirty-eight HUC08 subbasins in Indiana:
+Auglaize (0410007), Blue-Sinking (05140104), Chicago (07120003), Driftwood (05120204), Eel (05120104), Eel (05120203),
+Flatrock-Haw (05120205), Highland-Pigeon (05140202), Iroquois (07120002), Kankakee (07120001) Little Calumet-Galien (04040001),
+Lower East Fork White (05120208), Lower Great Miami (05080002), Lower Ohio-Little Pigeon (05140201), Lower Wabash (05120113),
+Lower White (05120202), Middle Wabash-Busseron (05120111), Middle Wabash-Deer (05120105), Middle Wabash-Little Vermilion (05120108),
+Middle Ohio-Laughery (05090203), Mississinewa (05120103), Muscatatuck (05120207), Patoka (05120209), Salamonie (05120102),
+Silver-Little Kentucky (05140101), St. Joseph (04050001), St. Joseph-Maumee (04100003), St. Mary’s (04100004), Sugar (05120110),
+Tippecanoe (05120106), Upper East Fork White (05120206), Upper Great Miami (05080001), Upper Maumee (04100005),
+Upper Wabash (05120101), Upper White (05120201), Vermilion (05120109), Whitewater (05080003), Wildcat (05120107).
+
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP is intended to be used with three associated shapefiles named
+"HYDROGRAPHY_LOCALRES_FLOWLINE_CLASSIFIED_NHD_IN.SHP," "HYDROGRAPHY_LOCALRES_WATERBODYDISCRETE_NHD_IN.SHP ,"
+and "HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP."
+
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"In order to meet the USGS NHD data model for flowlines, all new flowlines resulting from the Indiana NHD local
+resolution upgrade project that could not be categorized (artificial path, canal/ditch, coastline, connector, pipeline, stream/river perennial,
+stream/river intermittent, or underground conduit) were given an FTYPE of Stream/River and an FCODE of Stream/River (46000). Those features
+are considered to be Unclassified Flowlines and were loaded into this dataset. Records from the reprojected NHDFlowline feature class where
+FCODE = 46000 were loaded into this dataset. An 'INDIANA_CLASS' field was added to the feature class and all records were given a value
+of 'Unclassified Flowline.' The FCODE and FTYPE fields were then deleted. All records from the source NHDFlowlines where FCODE &lt;&gt; 46000 can be
+found in the Classified Flowline dataset."
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP is a line shapefile that contains unclassified drainage flowlines in watersheds in
+and around Indiana. HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_USGS.SHP is derived from the local-resolution version of the National
+Hydrography Dataset (NHD), and is current as of November 30, 2016.
+
+This dataset is complete and includes data for all of the following thirty-eight HUC08 subbasins in Indiana:
+Auglaize (0410007), Blue-Sinking (05140104), Chicago (07120003), Driftwood (05120204), Eel (05120104), Eel (05120203),
+Flatrock-Haw (05120205), Highland-Pigeon (05140202), Iroquois (07120002), Kankakee (07120001) Little Calumet-Galien (04040001),
+Lower East Fork White (05120208), Lower Great Miami (05080002), Lower Ohio-Little Pigeon (05140201), Lower Wabash (05120113),
+Lower White (05120202), Middle Wabash-Busseron (05120111), Middle Wabash-Deer (05120105), Middle Wabash-Little Vermilion (05120108),
+Middle Ohio-Laughery (05090203), Mississinewa (05120103), Muscatatuck (05120207), Patoka (05120209), Salamonie (05120102),
+Silver-Little Kentucky (05140101), St. Joseph (04050001), St. Joseph-Maumee (04100003), St. Mary’s (04100004), Sugar (05120110),
+Tippecanoe (05120106), Upper East Fork White (05120206), Upper Great Miami (05080001), Upper Maumee (04100005),
+Upper Wabash (05120101), Upper White (05120201), Vermilion (05120109), Whitewater (05080003), Wildcat (05120107).
+
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"In order to meet the USGS NHD data model for flowlines, all new flowlines resulting from the Indiana NHD local resolution upgrade project that
+could not be categorized (artificial path, canal/ditch, coastline, connector, pipeline, stream/river perennial, stream/river intermittent, or
+underground conduit) were given an FTYPE of Stream/River and an FCODE of Stream/River (46000). Those features are considered to be Unclassified
+Flowlines and were loaded into this dataset. Records from the reprojected NHDFlowline feature class where FCODE = 46000 were loaded into
+this dataset. An 'INDIANA_CLASS' field was added to the feature class and all records were given a value of 'Unclassified Flowline.' The 'FCODE'
+and 'FTYPE' attribute fields were then deleted. All records from the source NHDFlowlines where 'FCODE' &lt;&gt; 46000 can be found in the Classified
+Flowline dataset."
+
+"The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or
+reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000-scale and exists at
+that scale for the whole country. This high-resolution NHD, generally developed at 1:24,000/1:12,000 scale, adds detail to the
+original 1:100,000-scale NHD. (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000
+scale.)  Local resolution NHD is being developed where partners and data exist. The NHD contains reach codes for networked features,
+flow direction, names, and centerline representations for areal water bodies. Reaches are also defined on waterbodies and the
+approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the
+National Spatial Data Infrastructure framework criteria established by the Federal Geographic Data Committee."
+</abstract>
+      <purpose>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"The NHD is a national framework for assigning reach addresses to water-related entities, such as industrial discharges, drinking water
+supplies, fish habitat areas, wild and scenic rivers. Reach addresses establish the locations of these entities relative to one another
+within the NHD surface water drainage network, much like addresses on streets. Once linked to the NHD by their reach addresses, the
+upstream/downstream relationships of these water-related entities--and any associated information about them--can be analyzed using
+software tools ranging from spreadsheets to geographic information systems (GIS). GIS can also be used to combine NHD-based network
+analysis with other data layers, such as soils, land use and population, to help understand and display their respective effects upon
+one another. Furthermore, because the NHD provides a nationally consistent framework for addressing and analysis, water-related information
+linked to reach addresses by one organization (national, state, local) can be shared with other organizations and easily integrated into
+many different types of applications to the benefit of all."
+</purpose>
+      <supplinf>
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP is intended to be used with three associated shapefiles named
+"HYDROGRAPHY_LOCALRES_FLOWLINE_CLASSIFIED_NHD_IN.SHP," "HYDROGRAPHY_LOCALRES_WATERBODYDISCRETE_NHD_IN.SHP ,"
+and "HYDROGRAPHY_LOCALRES_WATERBODYLINEAR_NHD_IN.SHP."
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20161130</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Incomplete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.850107</westbc>
+        <eastbc>-83.561901</eastbc>
+        <northbc>46.102346</northbc>
+        <southbc>37.129680</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>hydrography</themekey>
+        <themekey>stream</themekey>
+        <themekey>river</themekey>
+        <themekey>canal</themekey>
+        <themekey>ditch</themekey>
+        <themekey>artificial path</themekey>
+        <themekey>connector</themekey>
+        <themekey>pipeline</themekey>
+        <themekey>watershed</themekey>
+        <themekey>reach</themekey>
+        <themekey>branch</themekey>
+        <themekey>run</themekey>
+        <themekey>creek</themekey>
+        <themekey>drainage</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>HUC08 subbasin</themekey>
+        <themekey>local resolution (1:2,400)</themekey>
+        <themekey>National Hydrography Dataset (NHD)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Indiana Geographic Information Office</themekey>
+        <themekey>United States Geological Survey (USGS)</themekey>
+        <themekey>United States Environmental Protection Agency (EPA)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Kentucky</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>United States Geological Survey (USGS)</cntorg>
+          <cntper>David Nail</cntper>
+        </cntorgp>
+        <cntpos>USGS Geospatial Liaison to Indiana</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>5957 Lakeside Boulevard</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46278</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 290 3333 (ext 122)</cntvoice>
+        <cntfax>317 290 3313</cntfax>
+        <cntemail>dnail@usgs.gov</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.3 shapefile format, approximately 1.58 Gb</native>
+    <useconst>Hydrology--Water_Bodies_Flowlines_Unclassified_LocalRes</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"The accuracy of the attributes of the source 1:24,000 scale NHD cannot be verified but the Digital Line Graph (DLG)
+data that the 1:24,000 scale NHD attributes come from is estimated to be 98.5 percent. Prior to conflation, the
+Indiana Geographic Information Council's Waters Working Group reviewed the 1:24,000 scale NHD for the entire state
+of Indiana and corrected GNIS name errors. As part of the conflation process, GNIS names on the local resolution NHD
+reaches were validated against the 1:24,000 scale NHD. Prior to conflation, Feature types were checked against the
+source 1:24,000 scale NHD. Feature types, characteristics, and other attributes conform to the Standards for National
+Hydrography Dataset - High Resolution (USGS, 1999) as of the date they were loaded into the database."
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"Points, nodes, lines, and areas conform to topological rules. Lines intersect only at nodes, and all nodes anchor the ends
+of lines. Lines do not overshoot or undershoot other lines where they are supposed to meet. There are no duplicate lines.
+Lines bound areas and lines identify the areas to the left and right of the lines. Gaps and overlaps among areas do not exist.
+All areas close."
+</logic>
+    <complete>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"The reader should be aware that in preparing local-resolution NHD for the State of Indiana, AECOM Technology
+Services, Inc. (ATS) has relied upon the accuracy and completeness of the information that has been provided
+to it for review, and that no third party is entitled to rely upon ATS’ work product, as the work is intended
+for the use of the client only. The completeness of the data reflects the HUC 8 level published in the WBD geodatabase.
+Features found on the ground may have been eliminated or generalized from the 1:24,000 scale NHD data because of scale
+and legibility constraints. In general, streams were collected to the 6 acre basin limit, or the highest upstream
+limit of the 1:24,000 scale NHD, whichever was greater. Features collected outside of the HUC 8 basin were done so
+because newer terrain data shows that the HUC 8 basin limit is no longer accurate. Lake/pond features that were 10,890
+square feet or greater in area, or that were part of the 1:24,000 scale NHD and were still visible in the imagery,
+were collected. Swamp/marsh features were collected if a 1:24,000 scale NHD feature existed and could be verified in
+the imagery. Ftypes of Pipeline with an Fcode of 42803 Pipeline: Pipeline Type = Aqueduct; Relationship to
+Surface = Underground indicate urban areas in which stormwater data is unavailable, and 3 or more underground connections
+could be inferred from the imagery and terrain data. Fcodes may have changed from the 1:24,000 scale NHD and have
+been defined in agreement with the USGS and the Indiana Geographic Information Council’s Waters Working Group. Fcodes
+will remain the same unless determined to have been incorrectly coded in the 1:24,000 scale NHD. All Stream/river features
+that do not have a corresponding 1:24,000 scale NHD will have a generic Stream/river FCode. Note, however, that these
+general rules were applied unevenly among basins during compilation. Transport reaches are defined on nearly all features
+of type stream/river, canal/ditch, artificial path, and connector. Waterbody reaches are defined on all lake/pond features.
+New local resolution NHD streams whose headwaters are in Indiana and flow into a bordering state were captured using imagery
+and terrain data that overlapped into the adjacent state. The features were digitized until they reached the first
+confluence within the 1:24,000 scale NHD feature. The 1:24,000 scale NHD reach that crossed the state boundaries was
+then copied into the local resolution NHD dataset and broken at the new confluences. The entire reach was copied in order
+for it to be coded as a "Modify" during the conflation process. New features whose head waters start in a bordering state
+and flow into Indiana will start at the border. Features that start in a bordering state and meander in and out of the
+state along the border are captured from the highest headwater intersection with the border and continue downstream only
+if the feature confluences with another feature in Indiana. When a 1:24,000 NHDFlowline feature crosses the boundary it
+is smoothed at the boundary as to not appear jagged. New and existing NHD Waterbody features that intersect the Indiana
+state boundary are digitized across the state boundary. NHDArea features that cross the state boundary are smoothed at
+the state boundary to avoid a jagged look. Detailed capture conditions are provided for every feature type in the Standards
+for National Hydrography Dataset - High Resolution (USGS, 1999), available online through http://mapping.usgs.gov/standards/."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"The horizontal accuracy of the local resolution NHD meets the parameters of the National Map Accuracy Standards (NMAS)
+for 1"=100' (1:1,200) or 1"=200' (1:2,400) scale mapping, depending on whether the scale of the Imagery is half-foot or
+1 foot, respectively (see Process Description for additional information). Three levels of horizontal positioning QC
+were performed, including a self-check, an independent review and a final review. Excluding operator error, horizontal accuracy
+is based on the source terrain and imagery data used to create the dataset. All source data (Terrain and Imagery) meets the
+National Standard for Spatial Data Accuracy (NSSDA) at a scale of 1:1,200 or 1:2,400."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The following is excerpted from metadata provided by the USGS for the local-resolution NHD feature class named "NHD_LOCALRES_UNCLASSIFIED_IN":
+
+"No vertical data will be part of the local resolution dataset."
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey  (USGS)</origin>
+            <pubdate>20161130</pubdate>
+            <title>Local-Resolution National Hydrography Dataset (NHD_LOCALRES_161130.MDB)</title>
+            <geoform>Vector data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>United States Geological Survey</publish>
+            </pubinfo>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>2400</srcscale>
+        <typesrc>ESRI File Geodatabase (NHD_LOCALRES_161130.MDB)</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20161130</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NHD_LOCALRES_161130.MDB (polyline feature class - NHD_LOCALRES_UNCLASSIFIED_IN)</srccitea>
+        <srccontr>
+This dataset is complete and includes data showing all unclassified flowlines for all of the following thirty-eight HUC08 subbasins in Indiana:
+Auglaize (0410007), Blue-Sinking (05140104), Chicago (07120003), Driftwood (05120204), Eel (05120104), Eel (05120203),
+Flatrock-Haw (05120205), Highland-Pigeon (05140202), Iroquois (07120002), Kankakee (07120001) Little Calumet-Galien (04040001),
+Lower East Fork White (05120208), Lower Great Miami (05080002), Lower Ohio-Little Pigeon (05140201), Lower Wabash (05120113),
+Lower White (05120202), Middle Wabash-Busseron (05120111), Middle Wabash-Deer (05120105), Middle Wabash-Little Vermilion (05120108),
+Middle Ohio-Laughery (05090203), Mississinewa (05120103), Muscatatuck (05120207), Patoka (05120209), Salamonie (05120102),
+Silver-Little Kentucky (05140101), St. Joseph (04050001), St. Joseph-Maumee (04100003), St. Mary’s (04100004), Sugar (05120110),
+Tippecanoe (05120106), Upper East Fork White (05120206), Upper Great Miami (05080001), Upper Maumee (04100005),
+Upper Wabash (05120101), Upper White (05120201), Vermilion (05120109), Whitewater (05080003), Wildcat (05120107).
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The processes used to create and maintain high-resolution NHD data can be found in the table called "NHDMetadata". Because NHD data can be
+downloaded using several user-defined areas, the process descriptions can vary for each download. The NHDMetadata table contains a list of
+all the process descriptions that apply to a particular download. These process descriptions are linked using the DuuID to the
+NHDFeatureToMetadata table which contains the com_ids of all the features within the download. In addition, another table, the
+NHDSourceCitation, can also be linked through the DuuID to determine the sources used to create or update NHD data.
+</procdesc>
+        <procdate>2013</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>processor</cntper>
+              <cntorg>USGS National Geospatial Technical Operations Center - Denver (USGSNGTOCD)</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>P.O. Box 25046</address>
+              <city>Denver</city>
+              <state>Colorado</state>
+              <postal>80225-0046</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>888 275 8747</cntvoice>
+            <cntemail>none provided</cntemail>
+            <hours>0700 to 1500 Mountain Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The following process was done by subbasin in 2013. Validated the high resolution NHD network connectivity using checks originally
+developed to QC the flow network for medium resolution NHDPlus. The QC checks are grouped into the following categories:
+Invalid Geometry; Database Integrity; Flow; Spatial; and Feature to Feature rules. Within each of these categories there are
+numerous QC checks that assign each potential error a Severity Level of "Severe (1)", "Warning (3)", or "Informational (5)". Each
+severe error is corrected before a job is submitted to the NHD Geodatabase. For the Network Improvement project the QC software was
+run by HUC-2 (NHD Region) and a report of all the potential errors was created under contract by Horizon Systems, the developer of
+the QC software. USGS NGTOC Denver personnel reviewed each HUC-4 (NHD Sub-Region) and identified the errors that needed to be fixed.
+Network Improvement editing was done by the USGS NGTOC Denver personnel. See Metadata contact info for details.
+</procdesc>
+        <procdate>2013</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>processor</cntper>
+              <cntorg>USGS National Geospatial Technical Operations Center - Denver (USGSNGTOCD)</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>P.O. Box 25046</address>
+              <city>Denver</city>
+              <state>Colorado</state>
+              <postal>80225-0046</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>888 275 8747</cntvoice>
+            <cntemail>none provided</cntemail>
+            <hours>0700 to 1500 Mountain Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Update GNIS ids and names to match the current GNIS ids/names database.</procdesc>
+        <procdate>2013</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>processor</cntper>
+              <cntorg>Indiana Office of Technology (INIOT)</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>100 North Senate Avenue, (N551 Government Center North)</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46402</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317 234 5889</cntvoice>
+            <cntemail>gio@iot.in.gov</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The following process was done by subbasin in 2012 and 2013. Create local resolution NHD from the best available DEM and natural
+color imagery data available at time of processing. Five-foot DEMs derived either from five foot 2005 ISTAR DEMs, 1.5 meter 2009
+Lidar, 1.5 meter 2011 Lidar, 1.5 meter 2012 Lidar, or 1.5 meter 2013 Lidar. Year and resolution of natural color imagery data used
+were 1-foot 2005, 6-inch 2005, 1-foot 2011, 6-inch 2011, 1-foot 2012, 6-inch 2012. Six-acre reference streams were created using
+the DEMs as the terrain source. Local resolution NHD features were created using these 6 acre streams and the 1:24,000 scale NHD
+as a reference, and were adjusted to match the imagery or terrain data, depending upon which provided the most accurate and
+up-to-date horizontal location. Conflation was completed using the USGS’ NHD GeoConflation tools. The 1:24,000 scale NHD was used
+as the source and the new local resolution NHD was used as the target. Reach codes and associated attributes were conflated from
+the 1:24,000 scale NHD features to the local resolution drainage network and 2-D waterbodies. Several checks were performed
+to validate the reach transfer process. Any reach codes that could not be maintained are tracked in the ReachCrossReference
+table. New reaches that do not exist in the data were defined according to reach delineation rules
+(see http://nhd.usgs.gov/chapter1/index.html). New waterbody reaches were assigned to 2-D lake/pond and reservoir features that
+do not exist in the 1:24,000 scale NHD. New reaches were assigned reach code values that are sequentially ordered to 2-D and
+then 1-D reaches.  New local resolution reach codes are larger than any existing 1:24,000 reach code in the associated Catalog Unit.
+</procdesc>
+        <procdate>20130603</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>processor</cntper>
+              <cntorg>Indiana Office of Technology (INIOT)</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>100 North Senate Avenue, (N551 Government Center North)</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46402</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317 234 5889</cntvoice>
+            <cntemail>gio@iot.in.gov</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The following process was done by subbasin in 2013: After subbasin is successfully uploaded to USGS NHD geodatabase, the
+subbasin is downloaded from USGS; the NHDArea, NHDFlowline, and NHDWaterbody feature classes are reprojected to UTM NAD 83
+Zone 16N; the reprojected features were then loaded into this dataset.
+</procdesc>
+        <procdate>20130904</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Mike Martin</cntper>
+              <cntorg>Indiana Department of Natural Resources (IDNR)</cntorg>
+            </cntperp>
+            <cntpos>Agency GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 W Washington Street (Room 280)</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46402</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317 232 4068</cntvoice>
+            <cntemail>mmartin@dnr.in.gov</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_121004.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on October 8, 2013. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_121004.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20131008</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_131216.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on December 28, 2013. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_131216.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20131228</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_140327.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on April 1, 2014. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_140327.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20140401</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_140905.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on September 5, 2014. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_140905.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20140905</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_141106.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on November 6, 2014. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_141106.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20141106</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_150306.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on March 6, 2015. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_150306.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20150306</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_150806.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on August 6, 2015. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_150806.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20150806</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_150921.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on September 21, 2015. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_150921.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20150921</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_160303.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on March 3, 2016. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_FLOWLINE_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_FLOWLINE_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_160303.MDB (NHD_LOCALRES_FLOWLINE_IN - polyline feature class)</srcused>
+        <procdate>20160303</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI geodatabase named "NHD_LOCALRES_161130.MDB" from personnel of the Indiana
+Department of Natural Resources (IDNR) on November 30, 2016. It was opened in ESRI ArcCatalog and contained the local-resolution NHD polyline
+feature class named "NHD_LOCALRES_UNCLASSIFIED_IN." The feature class was exported to an ESRI shapefile format and was named
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP to follow internal naming conventions of the IGS. It should also be noted that portions of
+the metadata provided for the feature class NHD_LOCALRES_UNCLASSIFIED_IN were used to construct the metadata document for the shapefile named
+HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP.
+</procdesc>
+        <srcused>NHD_LOCALRES_161130.MDB (NHD_LOCALRES_UNCLASSIFIED_IN - polyline feature class)</srcused>
+        <procdate>20161130</procdate>
+        <srcprod>HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit. v 2.6.1) and MP (Metadata Parser, v 2.7.1) software
+written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20161228</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>1472630</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Software defined field</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Permanent_</attrlabl>
+        <attrdef>Permament Identifier - unique</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FDate</attrlabl>
+        <attrdef>Undefined date</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/4/2012</rdommin>
+            <rdommax>10/21/2016</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Resolution (all values = 2)</attrlabl>
+        <attrdef>Coded value delineating the resolution of the mapping (1:2,400)</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+        <attrdef>Geographic Names Information System - Identification number</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_Name</attrlabl>
+        <attrdef>Geographic Names Information System - Name of feature</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTHKM</attrlabl>
+        <attrdef>Length of waterbody in units of kilometers</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.001543</rdommin>
+            <rdommax>3.452334</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ReachCode</attrlabl>
+        <attrdef>Reach common identifier; blanks indicate added features</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FlowDir</attrlabl>
+        <attrdef>Undefined determination of flow direction for feature segment</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WBAREA_PER</attrlabl>
+        <attrdef>Undefined Permament Identifier - unique</attrdef>
+        <attrdefs>United States Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+        <attrdef>Length of the perimeter of the waterbody in units of meters</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.553017</rdommin>
+            <rdommax>3431.513379</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+Acknowledgment of the USGS and EPA would be appreciated in products derived from these data. It is also requested that the Indiana Geological Survey
+be cited in any products generated from this data set. The following source citation should be included: [HYDROGRAPHY_LOCALRES_FLOWLINE_UNCLASSIFIED_NHD_IN:
+Unclassified Drainage Flowlines in Watersheds of Indiana (U. S. Geological Survey, 1:2,400, Line Shapefile), Indiana Geological Survey, 20161130.]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including,
+but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or
+consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss.
+Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser
+shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20131008</metd>
+    <metrd>20161228</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

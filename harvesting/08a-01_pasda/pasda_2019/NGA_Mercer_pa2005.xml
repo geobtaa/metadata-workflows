@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata PUBLIC "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd" "csdgm2.dtd"[]>
+<?xml-stylesheet href="FGDC_V2.xsl" type="text/xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS)</origin>
+        <pubdate>
+          2005
+        </pubdate>
+        <title>USGS High Resolution Orthoimage for Mercer County, PA, Urban Area</title>
+        <geoform>remote sensing image</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>
+            200504
+          </caldate>
+        </sngdate>
+      </timeinfo>
+      <current>
+        ground condition
+      </current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.55</westbc>
+        <eastbc>-79.99</eastbc>
+        <northbc>41.50</northbc>
+        <southbc>41.06</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>0.3 meter orthoimage</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>image map</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>index</themekey>
+        <themekey>Tile Index</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions (Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>
+          US
+        </placekey>
+        <placekey>Mercer County</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>
+          PA
+        </placekey>
+      </place>
+      <place>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None. Acknowledgment of the U.S. Geological Survey (USGS) would be appreciated for products derived from these data.</useconst>
+    <datacred>
+      This dataset was created in support of the USGS and NGA.  The data will support "The National Map" of the USGS and  NGA's Homeland Security mission.
+The following companies produced the data to support this task -
+EarthData International of Maryland, LLC
+    </datacred>
+    <native>
+      Leica ADS40 Digital Camera System
+ISTAR Digital Image Processing Software 
+Z/I Imaging Orthopro 4.0
+Windows NT/2000 Systems
+    </native>
+    <descript>
+      <abstract>NGA_Mercer_pa2005</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The digital imagery for each acquisition sortie is differentially rectified to produce orthophotography for the Red, Green, and Blue channels at a resolution of 0.3-meter per pixel. As a part of the ISTAR workflow, the data from the color channels is edge sharpened using the nadir panchromatic channel. The orthophoto mosaics are inspected for accuracy issues that fall in the following categories:
+
+     Aerotriangulation related
+     DSM related
+
+Accuracy issues will be investigated through review and correction of the DSM or triangulation adjustment. Once the imagery has passed quality control review, final radiometric adjustments are performed to create a uniform overall appearance.</attraccr>
+    </attracc>
+    <logic>All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.  Seamline mismatches are not corrected unless the overall displacement exceeds one meter.</logic>
+    <complete>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free. Photography was flown during leaf-off in deciduous vegetation regions. Coastal areas and international boundary regions may have areas without images (void areas) in parts of the coverage. These void areas have a radiometric value of either zero (black) or 128 (uniform gray).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          Compliance with the accuracy standard was ensured by the placement of photo identifiable ground control points and the collection of airborne GPS data.  Using several tools that are part of the ISTAR workflow, a digital surface model (DSM) was correlated at a post spacing of 2 meter depending on terrain and land cover. The ISTAR correlation algorithm computes the X,Y,Z value for each DSM post utilizing every stereo angle that is available. A series of DSM files were created for each acquisition block, one for each stereo look angle. A mosaic was then created from the separate DSM files where the best vertical value for each posting was selected from all look angles compared against the aerotriangulation adjustment which is incorporated into the mosaic. EarthData will then edit the surface to the level required to support the orthophoto production.  An RMS value was determined by comparing the position of USGS ground test points to their photo-id'ed position in the rectified imagery. This value represents an estimate of the accuracy of the horizontal coordinate measurements in the tile expressed in meters.
+        </horizpar>
+        <qhorizpa>
+          <horizpav>
+            0.40
+          </horizpav>
+          <horizpae>
+            The horizontal accuracy of the orthorectified images is mainly determined by the accuracy of the aerotriangulation and digital surface model (DSM).  For each rectified image (lift), an RMSE value for all of the standard errors of the tie/pass/control points located in that image (lift) and computed by the aerotriangulation solution was calculated.  The DSM accuracy assessment was achieved by comparing the aerotriangulation-derived elevation with the elevation of the DSM.  In addition, visual examination was employed to assess all tiles and its relative edge match.  All results were examined for consistency and its compliance with the NSSDA accuracy standard.
+          </horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+              EarthData International, LLC
+            </origin>
+            <pubdate>
+              2005
+            </pubdate>
+            <title>
+              Leica ADS40 Digital Color Imagery
+            </title>
+          </citeinfo>
+        </srccite>
+        <srcscale>
+          46154
+        </srcscale>
+        <typesrc>digital tape media</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+              20050408
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          Imagery
+        </srccitea>
+        <srccontr>
+          Digital source imagery for tile production
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+              EarthData International, LLC
+            </origin>
+            <pubdate>
+              2005
+            </pubdate>
+            <title>
+              Pittsburgh, PA Digital Surface Model
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          Digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                200504
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          DSM
+        </srccitea>
+        <srccontr>
+          Used to provide ground elevations for the orthorectification process
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+              TerraSurv, Inc.
+            </origin>
+            <pubdate>
+              2005
+            </pubdate>
+            <title>
+              Ground Control Survey of Pittsburgh, PA
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          Digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                20050427
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          GPS
+        </srccitea>
+        <srccontr>
+          The control provides a means for referencing the project source imagery to a geodetic reference frame.
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+          Source imagery:  ADS40 Digital Camera Imagery.  Control:  Airborne GPS/IMU supplemented with photo identifiable field control.  Aerotriangulation:  ISTAR software package.  Elevation Model:  ISTAR software package.  Radiometric Balancing:  ISTAR software package and COTS Software (PhotoShop). Orthorectification:  ISTAR software package.  Mosaic:  ISTAR software package and Z/I Imaging OrthoPro software package.  
+
+The following section describes the ISTAR digital image production sequence. This is a mature, stable workflow and incorporates all production components into an integrated series of tools to accomplish photogrammetric mensuration, aerotriangulation, elevation model development, ortho production and finishing. Production processes are fully documented in accordance with ISO9001 mandates.
+
+The following is a step-by-step description of the ISTAR production workflow used to develop digital orthophotography to support the Pittsurgh, PA task:
+
+1.  The unprocessed ADS40 data and accompanying GPS and IMU data for one or more sorties is downloaded from the portable hard disks and checked to verify that no files are corrupted and that all data can be downloaded. 
+
+2.  The GPS/IMU parameters for each sortie are optimized using the ground control points and the error calibration map. The horizontal and vertical positions of all ground control points in the block are observed in each channel (R,G,B, IR, S1 Pan ,S2 Pan and Nadir Pan). 
+
+3.  Aerotriangulation is accomplished using the CLB tool that is a component of the ISTAR process. The ground control, GPS and IMU information is ingested and tie points between strips are identified. Normally, only three (3) tie points are needed between adjacent flight lines.  
+
+4.  CLB produces a bundle adjustment for each data sortie. A digital file containing the RMSE computations of the adjustment is derived and available as a deliverable. The results of the adjustment are verified through the development of a sub-sampled panchromatic mosaic for the data sortie. The mosaic is corrected using the aerotriangulation points only. This mosaic is inspected by the photogrammetric technician to identify any gross errors in the adjustment as well as the identification of any voids or image quality problems.
+
+5.  Using several tools that are part of the ISTAR workflow, a digital surface model (DSM) is correlated at a post spacing of 2 meter depending on terrain and land cover. The ISTAR correlation algorithm computes the X,Y,Z value for each DSM post utilizing every stereo angle that is available. A series of DSM files are created for acquisition block, one for each stereo look angle. A mosaic is then created from the separate DSM files where the best vertical value for each posting is selected from all look angles compared against the aerotriangulation adjustment which is incorporated into the mosaic. EarthData will then edit the surface to the level required to support the orthophoto production.
+
+6.  The digital imagery for each acquisition sortie is differentially rectified to produce orthophotography for the Red, Green, and Blue channels at a resolution of 0.3-meter per pixel. As a part of the ISTAR workflow, the data from the color channels is edge sharpened using the nadir panchromatic channel. The orthophoto mosaics are inspected for accuracy issues that fall in the following categories:
+
+     Aerotriangulation related
+     DSM related
+
+Accuracy issues will be investigated through review and correction of the DSM or triangulation adjustment. Once the imagery has passed quality control review, final radiometric adjustments are performed to create a uniform overall appearance. The final 1500-meter X 1500-meter tiles are clipped out and the imagery is output in GeoTIFF format. GeoTIFF files will include the following GeoTIFF tags and keys:
+     Model Tiepoint Tag
+     Model Pixel Scale Tag
+     GT Model Type Geo Key
+     GT Raster Type Geo Key
+     Projected CST Type Geo Key
+     PCS Citation Geo Key
+     Proj Linear Units Geo Key
+
+7.  The completed digital orthophotos are checked for image quality.  Minor artifacts will be corrected using Adobe Photoshop in an interactive editing session.  Digital files are assigned final names derived from the southwest corner of each tile and are based on the National UTM Grid.
+
+8.  The project manager is responsible for coordinating and performing quality control on the project FGDC compliant metadata.  File level metadata is provided in .xml format.
+        </procdesc>
+        <procdate>
+          20050509
+        </procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>
+              17
+            </utmzone>
+            <transmer>
+              <sfctrmer>0.9996</sfctrmer>
+              <longcm>-81.000000</longcm>
+              <latprjo>00.000000</latprjo>
+              <feast>500000.0</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>
+            row and column
+          </plance>
+          <coordrep>
+            <absres>
+              0.3
+            </absres>
+            <ordres>
+              0.3
+            </ordres>
+          </coordrep>
+          <plandu>
+            meters
+          </plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>
+          North American Datum of 1983
+        </horizdn>
+        <ellips>
+          Geodetic Reference System 80
+        </ellips>
+        <semiaxis>
+          6378137
+        </semiaxis>
+        <denflat>
+          298.2572221
+        </denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Natural color orthoimagery is organized in three color bands or channels which represent the red, green, and blue (RGB) portions of the spectrum.  Each image pixel is assigned a triplet of numeric values, one for each color band.  Numeric values range from 0 to 255. Areas where data is incomplete due to lack of full image coverage are represented with the numeric value of 0.</eaover>
+      <eadetcit>U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Customer Services</address>
+          <address>U.S. Geological Survey</address>
+          <address>EROS Data Center</address>
+          <address>47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-800-252-4547</cntvoice>
+        <cnttdd>1-605-594-6933</cnttdd>
+        <cntfax>1-605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+        <cntinst>The above is the contact information for EROS Data Center in Sioux Falls, SD. This is the digital data storage and distribution center for the USGS. To view and order the Urban Area High Resolution imagery data sets directly, go online to The National Map Seamless Data Distribution System at http://seamless.usgs.gov.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Urban Area High Resolution Orthoimagery</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey no warranty expressed or implied is made by the USGS regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition. Customers are entitled to exchanges or refunds for unsatisfactory products for a period of 60 days from the date of over-the-counter sale or shipment. Returned products must be accompanied by the original purchase receipt.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>
+      20050816
+    </metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>EROS Data Center
+47914 252nd Street</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-800-252-4547</cntvoice>
+        <cnttdd>1-605-594-6933</cnttdd>
+        <cntfax>1-605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+        <cntinst>The above is the contact information for EROS Data Center in Sioux Falls, SD. This is the digital data storage and distribution center for the USGS. Metadata information can also be obtained through online services using The National Map Viewer, at http:/nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10084700</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

@@ -1,0 +1,460 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</origin>
+        <pubdate>201703</pubdate>
+        <title>Explore PA Trails - Water Trails</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201703</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Downloadable data</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.611184</westbc>
+        <eastbc>-74.689450</eastbc>
+        <northbc>42.007803</northbc>
+        <southbc>39.720850</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Water Trail, Paddling, Canoe, Kayak, Boating, Access, Inland Waters</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <descript>
+      <abstract>ExplorePAtrails_WaterTrails201703</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>26</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ExplorePAtrails_WaterTrails201703</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WT_Name</attrlabl>
+        <attrdef>Water Trail Name</attrdef>
+        <attrdefs>PFBC Bureau of Boating and Education</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PFBC_ID</attrlabl>
+        <attrdef>Water Trail Unique Identifier (for mapping purposes)</attrdef>
+        <attrdefs>PFBC Bureau of Boating and Education</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>0.776</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201703</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>GIS Specialist</rpIndName>
+    <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-787-7672</voiceNum>
+        <faxNum>717-717-9577</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17105-8475</postCode>
+        <country>US</country>
+        <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170306</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Explore PA Trails - Water Trails</resTitle>
+      <date>
+        <pubDate>2017-02-07</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>GIS Specialist, Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Water trails are boat routes suitable for canoes, kayaks and small motorized watercraft. Like conventional trails, water trails are recreational corridors between specific locations. Water trails are comprised of access points, boat launches, day use sites, and -- in some cases -- overnight camping areas. Each water trail is unique, a reflection of Pennsylvania's diverse geology, ecology and communities. Visit http://www.fishandboat.com/Boat/WaterTrails/Pages/default.aspxfor more information.</idAbs>
+    <idPurp>Allows for mapping on a statewide or regional scale of water trail extents in Pennsylvania.</idPurp>
+    <idCredit>Pennsylvania Fish and Boat Commission</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="006" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>Water Trail</keyword>
+      <keyword>Paddling</keyword>
+      <keyword>Canoe</keyword>
+      <keyword>Kayak</keyword>
+      <keyword>Boating</keyword>
+      <keyword>Access</keyword>
+      <keyword>Inland Waters</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Water Trail</keyword>
+      <keyword>Paddling</keyword>
+      <keyword>Canoe</keyword>
+      <keyword>Kayak</keyword>
+      <keyword>Boating</keyword>
+      <keyword>Access</keyword>
+      <keyword>Inland Waters</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.611184</westBL>
+          <eastBL>-74.68945</eastBL>
+          <southBL>39.72085</southBL>
+          <northBL>42.007803</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Downloadable data</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-02-07</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="002" />
+        </geoObjTyp>
+        <geoObjCnt>26</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170307</CreaDate>
+    <CreaTime>08512800</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="ca296f53c3031b5ff535a24cf19e8b03" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+R0lTIFNwZWNpYWxpc3QsIFBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIENvbnNlcnZhdGlvbiBh
+bmQgTmF0dXJhbCBSZXNvdXJjZXM8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAyMDc8
+L3B1YmRhdGU+DQogICAgICAgIDx0aXRsZT5FeHBsb3JlIFBBIFRyYWlscyAtIFdhdGVyIFRyYWls
+czwvdGl0bGU+DQogICAgICAgIDxnZW9mb3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+
+DQogICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAg
+ICAgPGFic3RyYWN0PldhdGVyIHRyYWlscyBhcmUgYm9hdCByb3V0ZXMgc3VpdGFibGUgZm9yIGNh
+bm9lcywga2F5YWtzIGFuZCBzbWFsbCBtb3Rvcml6ZWQgd2F0ZXJjcmFmdC4gTGlrZSBjb252ZW50
+aW9uYWwgdHJhaWxzLCB3YXRlciB0cmFpbHMgYXJlIHJlY3JlYXRpb25hbCBjb3JyaWRvcnMgYmV0
+d2VlbiBzcGVjaWZpYyBsb2NhdGlvbnMuIFdhdGVyIHRyYWlscyBhcmUgY29tcHJpc2VkIG9mIGFj
+Y2VzcyBwb2ludHMsIGJvYXQgbGF1bmNoZXMsIGRheSB1c2Ugc2l0ZXMsIGFuZCAtLSBpbiBzb21l
+IGNhc2VzIC0tIG92ZXJuaWdodCBjYW1waW5nIGFyZWFzLiBFYWNoIHdhdGVyIHRyYWlsIGlzIHVu
+aXF1ZSwgYSByZWZsZWN0aW9uIG9mIFBlbm5zeWx2YW5pYSdzIGRpdmVyc2UgZ2VvbG9neSwgZWNv
+bG9neSBhbmQgY29tbXVuaXRpZXMuIFZpc2l0IGh0dHA6Ly93d3cuZmlzaGFuZGJvYXQuY29tL0Jv
+YXQvV2F0ZXJUcmFpbHMvUGFnZXMvZGVmYXVsdC5hc3B4Zm9yIG1vcmUgaW5mb3JtYXRpb24uPC9h
+YnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPkFsbG93cyBmb3IgbWFwcGluZyBvbiBhIHN0YXRld2lk
+ZSBvciByZWdpb25hbCBzY2FsZSBvZiB3YXRlciB0cmFpbCBleHRlbnRzIGluIFBlbm5zeWx2YW5p
+YS48L3B1cnBvc2U+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQ+DQogICAgICA8dGlt
+ZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxjYWxkYXRlPjIwMTcwMjA3PC9j
+YWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQogICAgICA8L3RpbWVpbmZvPg0KICAgICAgPGN1
+cnJlbnQ+RG93bmxvYWRhYmxlIGRhdGE8L2N1cnJlbnQ+DQogICAgPC90aW1lcGVyZD4NCiAgICA8
+c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRh
+dGU+UXVhcnRlcmx5PC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPHNwZG9tPg0KICAgICAg
+PGJvdW5kaW5nPg0KICAgICAgICA8d2VzdGJjPi04MC42MTExODQ8L3dlc3RiYz4NCiAgICAgICAg
+PGVhc3RiYz4tNzQuNjg5NDUwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQyLjAwNzgwMzwv
+bm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+MzkuNzIwODUwPC9zb3V0aGJjPg0KICAgICAgPC9i
+b3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAg
+ICAgICAgPHRoZW1la3Q+Tm9uZTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PldhdGVyIFRy
+YWlsLCBQYWRkbGluZywgQ2Fub2UsIEtheWFrLCBCb2F0aW5nLCBBY2Nlc3MsIElubGFuZCBXYXRl
+cnM8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Nj
+b25zdD5Ob25lPC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+Tm9uZSBwcm92aWRlZCBjcmVkaXQg
+aXMgZ2l2ZW4gdG8gdGhlIFBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gKFBG
+QkMpIGFzIGxvbmcgYXMgdGhlIGRhdGEgaXMgaW4gaXRzIG9yaWdpbmFsIHVuYWx0ZXJlZCBzdGF0
+ZS4gSWYgbW9kaWZpY2F0aW9ucyBhcmUgbWFkZSB0byB0aGUgZGF0YSBzZXQsIHVzZXJzIGFyZSBv
+YmxpZ2F0ZWQgdG8gZGVzY3JpYmUgdGhlIHR5cGVzIG9mIG1vZGlmaWNhdGlvbnMgdGhleSBoYXZl
+IG1hZGUuIFVzZXJzIGFyZSBub3QgdG8gbWlzcmVwcmVzZW50IFBGQkMgZGF0YSBzZXRzLCBub3Ig
+dG8gaW1wbHkgdGhhdCBjaGFuZ2VzIHRoZXkgKHVzZXJzKSBoYXZlIG1hZGUgd2VyZSBhcHByb3Zl
+ZCBieSB0aGUgUEZCQy48L3VzZWNvbnN0Pg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxjbnRpbmZv
+Pg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBEZXBh
+cnRtZW50IG9mIENvbnNlcnZhdGlvbiBhbmQgTmF0dXJhbCBSZXNvdXJjZXM8L2NudG9yZz4NCiAg
+ICAgICAgICA8Y250cGVyPkdJUyBTcGVjaWFsaXN0PC9jbnRwZXI+DQogICAgICAgIDwvY250b3Jn
+cD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBo
+eXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz40MDAgTWFya2V0IFN0cmVldCwg
+NXRoIEZsb29yLCBQLk8uIEJveCA4NDc1PC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PkhhcnJp
+c2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5pYTwvc3RhdGU+DQogICAg
+ICAgICAgPHBvc3RhbD4xNzEwNS04NDc1PC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VVM8
+L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjcxNy03ODct
+NzY3MjwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcxNy05NTc3PC9jbnRmYXg+DQog
+ICAgICAgIDxjbnRlbWFpbD5SQS1leHBsb3JlcGF0cmFpbHNAcGEuZ292PC9jbnRlbWFpbD4NCiAg
+ICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxkYXRhY3JlZD5QZW5uc3lsdmFu
+aWEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9kYXRhY3JlZD4NCiAgICA8bmF0aXZlPk1pY3Jv
+c29mdCBXaW5kb3dzIDcgVmVyc2lvbiA2LjEgKEJ1aWxkIDc2MDEpIFNlcnZpY2UgUGFjayAxOyBF
+c3JpIEFyY0dJUyAxMC4yLjIuMzU1MjwvbmF0aXZlPg0KICA8L2lkaW5mbz4NCiAgPHNwZG9pbmZv
+Pg0KICAgIDxkaXJlY3Q+VmVjdG9yPC9kaXJlY3Q+DQogICAgPHB0dmN0aW5mPg0KICAgICAgPHNk
+dHN0ZXJtPg0KICAgICAgICA8c2R0c3R5cGU+U3RyaW5nPC9zZHRzdHlwZT4NCiAgICAgICAgPHB0
+dmN0Y250PjI2PC9wdHZjdGNudD4NCiAgICAgIDwvc2R0c3Rlcm0+DQogICAgPC9wdHZjdGluZj4N
+CiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxnZW9ncmFw
+aD4NCiAgICAgICAgPGxhdHJlcz44Ljk4MzE1Mjg0MTE5NTIxMzNlLTAwOTwvbGF0cmVzPg0KICAg
+ICAgICA8bG9uZ3Jlcz44Ljk4MzE1Mjg0MTE5NTIxMzNlLTAwOTwvbG9uZ3Jlcz4NCiAgICAgICAg
+PGdlb2d1bml0PkRlY2ltYWwgRGVncmVlczwvZ2VvZ3VuaXQ+DQogICAgICA8L2dlb2dyYXBoPg0K
+ICAgICAgPGdlb2RldGljPg0KICAgICAgICA8aG9yaXpkbj5EIE5vcnRoIEFtZXJpY2FuIDE5ODM8
+L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R1JTIDE5ODA8L2VsbGlwcz4NCiAgICAgICAgPHNl
+bWlheGlzPjYzNzgxMzcuMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjIx
+MDE8L2RlbmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3By
+ZWY+DQogIDxlYWluZm8+DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAg
+PGVudHR5cGw+RXhwbG9yZVBBdHJhaWxzX1dhdGVyVHJhaWxzMjAxNzAzPC9lbnR0eXBsPg0KICAg
+ICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBlX0xlbmc8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5MZW5ndGggb2YgZmVhdHVyZSBpbiBpbnRlcm5h
+bCB1bml0cy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+RklEPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dHJkZWY+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0K
+ICAgICAgICA8YXR0cmRlZnM+RXNyaTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAg
+ICAgICAgICA8dWRvbT5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1
+dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U2hhcGU8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5GZWF0dXJlIGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAg
+PHVkb20+Q29vcmRpbmF0ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAg
+PC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+V1RfTmFtZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPldhdGVyIFRyYWlsIE5hbWU8
+L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5QRkJDIEJ1cmVhdSBvZiBCb2F0aW5nIGFuZCBF
+ZHVjYXRpb248L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5QRkJDX0lEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+V2F0ZXIgVHJh
+aWwgVW5pcXVlIElkZW50aWZpZXIgKGZvciBtYXBwaW5nIHB1cnBvc2VzKTwvYXR0cmRlZj4NCiAg
+ICAgICAgPGF0dHJkZWZzPlBGQkMgQnVyZWF1IG9mIEJvYXRpbmcgYW5kIEVkdWNhdGlvbjwvYXR0
+cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk9C
+SkVDVElEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+SW50ZXJuYWwgZmVhdHVyZSBudW1i
+ZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICAg
+IDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1i
+ZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+U0hBUEVfTEVOPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICA8
+L2VhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxkaXN0bGlhYj5TZWUgYWNjZXNzIGFuZCB1c2Ug
+Y29uc3RyYWludHMgaW5mb3JtYXRpb24uPC9kaXN0bGlhYj4NCiAgICA8c3Rkb3JkZXI+DQogICAg
+ICA8ZGlnZm9ybT4NCiAgICAgICAgPGRpZ3RpbmZvPg0KICAgICAgICAgIDxmb3JtbmFtZT5TREUg
+RmVhdHVyZSBDbGFzczwvZm9ybW5hbWU+DQogICAgICAgICAgPHRyYW5zaXplPjAuNzc2PC90cmFu
+c2l6ZT4NCiAgICAgICAgPC9kaWd0aW5mbz4NCiAgICAgIDwvZGlnZm9ybT4NCiAgICA8L3N0ZG9y
+ZGVyPg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+DQogICAgPG1ldGQ+MjAxNzAzMDY8L21l
+dGQ+DQogICAgPG1ldGM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAg
+ICAgICAgPGNudG9yZz5QZW5uc3lsdmFuaWEgRGVwYXJ0bWVudCBvZiBDb25zZXJ2YXRpb24gYW5k
+IE5hdHVyYWwgUmVzb3VyY2VzPC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5HSVMgU3BlY2lh
+bGlzdDwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAg
+ICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAg
+ICAgPGFkZHJlc3M+NDAwIE1hcmtldCBTdHJlZXQsIDV0aCBGbG9vciwgUC5PLiBCb3ggODQ3NTwv
+YWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgIDxz
+dGF0ZT5QZW5uc3lsdmFuaWE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTcxMDUtODQ3NTwv
+cG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5PlVTPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFk
+ZHI+DQogICAgICAgIDxjbnR2b2ljZT43MTctNzg3LTc2NzI8L2NudHZvaWNlPg0KICAgICAgICA8
+Y250ZmF4PjcxNy03MTctOTU3NzwvY250ZmF4Pg0KICAgICAgICA8Y250ZW1haWw+UkEtZXhwbG9y
+ZXBhdHJhaWxzQHBhLmdvdjwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRj
+Pg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBmb3IgRGlnaXRhbCBHZW9zcGF0
+aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9t
+ZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgPC9tZXRhaW5mbz4NCjwv
+bWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

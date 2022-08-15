@@ -1,0 +1,636 @@
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20100528</CreaDate>
+    <CreaTime>08585200</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110104</SyncDate>
+    <SyncTime>11280600</SyncTime>
+    <ModDate>20110104</ModDate>
+    <ModTime>12552500</ModTime>
+    <MetaID>{4AC4D6C0-1F47-4E84-9906-466CFC8D80D4}</MetaID>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">Unconsolidated_Deposits</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">539796.003300</westBL>
+          <eastBL Sync="TRUE">615207.403600</eastBL>
+          <southBL Sync="TRUE">4633158.617300</southBL>
+          <northBL Sync="TRUE">4681322.329000</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\PC-36\D\AlleghenyCollege\Unconsolidated_Deposits.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemSize Sync="TRUE">0.000</itemSize>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_17N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-81.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26917]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26917&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100727" Time="094120">FeatureClassToFeatureClass M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation C:\WorkSpace\Metadata\Richards\Richards_1987.gdb Unconsolidated_Deposits # "MIN_THICKNESS "MIN_THICKNESS" true true false 2 Short 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation,MIN_THICKNESS,-1,-1;MAX_THICKNESS "MAX_THICKNESS" true true false 2 Short 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation,MAX_THICKNESS,-1,-1;INTERPRETATION "INTERPRETATION" true true false 25 Text 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation,INTERPRETATION,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb\Thickness_Glacial_Deposits\Contacts_Interpretation,Shape_Area,-1,-1" #</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110104" Time="112807">CopyFeatures D:\AlleghenyCollege\Richards_1987.gdb\Unconsolidated_Deposits D:\AlleghenyCollege\Unconsolidated_Deposits.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny College</origin>
+        <pubdate>20100727</pubdate>
+        <title>Thickness of Unconsolidated Deposits of Erie County, Pennsylvania</title>
+        <ftname Sync="TRUE">Contacts_Interpretation</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <edition>1.0</edition>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100727</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.520604</westbc>
+        <eastbc Sync="TRUE">-79.602871</eastbc>
+        <northbc Sync="TRUE">42.283103</northbc>
+        <southbc Sync="TRUE">41.841946</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">539796.003300</leftbc>
+        <rightbc Sync="TRUE">615207.403600</rightbc>
+        <bottombc Sync="TRUE">4633158.617300</bottombc>
+        <topbc Sync="TRUE">4681322.329000</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Glossary of Geology (Fifth edition) 2005. Klaus K.E. Neuendorf, James P. Mehl, Jr., and Julia A. Jackson, editors; Washington D.C.: The American Geological Institute, 800 pp.</themekt>
+        <themekey>surficial deposits</themekey>
+        <themekey>isopach map</themekey>
+        <themekey>unconsolidated</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Erie County</placekey>
+      </place>
+      <temporal>
+        <tempkey>Cenozoic</tempkey>
+        <tempkey>Quaternary</tempkey>
+      </temporal>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The data for thickness of unconsolidated deposits may be used provided that credit for the original (unaltered) dataset is given to Allegheny College.  Users shall clearly indicate the source of the data.  Users who modify the data in any way are obligated to describe the types of modifications they have made, including modifications to hard-copy maps.  Users are not to misrepresent the Allegheny College dataset, nor to imply that changes they (users) have made were approved by Allegheny College.
+
+This dataset contains errors that are an artifact of the interpretation, source material, and conversion process.  The data and documentation are provided "as is".  The data set was created at a scale of 1:62,500; application of this dataset should be at a scale equal to or smaller than the source scale.
+
+Allegheny College makes no warranty of representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance, or accuracy.  Allegheny College will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the user or inability to use the data or any accompanying documentation.  Users discovering errors or making corrections to the data are requested to report such errors to the Allegheny College GIS Manager at chris.shaffer@allegheny.edu.</useconst>
+    <natvform Sync="TRUE">File Geodatabase Feature Class</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 N. Main St., Box E</address>
+          <city>Meadville</city>
+          <state>Pennsylvania</state>
+          <postal>16335</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 332-2719</cntvoice>
+        <cntfax>(814) 332-5314</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <hours>8 am to 5 pm, Mon-Fri</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Sediment thickness contours and associated attribute information are from the "Map Showing the Thickness of Unconsolidated Deposits, Location of Water Wells, and Seismic-Refraction Cross Sections", which is Plate 2 in the Pennsylvania Geological Survey Water Resources Report 62 (Groundwater Resources of Erie County) by Richards et al., 1987. General digital work (digitizing, attributing, and proofing) was performed by Allegheny College students Erin Cavagnero and Mingyuan Song. Specific digital work (transforming, adjusting, and documenting) and project oversight was conducted by Christopher L. Shaffer, GIS Manager, Allegheny College and Dr. Rachel O'Brien, Associate Professor of Geology, Allegheny College. Authorship for this work should be referenced as: Shaffer, C.L., R. O'Brien, E.M. Cavagnaro, and M. Song, 2010. Thickness of Unconsolidated Deposits of Erie County, Pennsylvania: A digitized version of the Richards et al. 1987 map.</datacred>
+    <descript>
+      <abstract>AlleghenyCollege_UnconsolidatedDeposits1987</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.0.2414</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" country="US">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Unconsolidated_Deposits</resTitle>
+      <presForm>
+        <PresFormCd value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <westBL Sync="TRUE">-80.520604</westBL>
+          <eastBL Sync="TRUE">-79.602871</eastBL>
+          <northBL Sync="TRUE">42.283103</northBL>
+          <southBL Sync="TRUE">41.841946</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.520604</westBL>
+      <eastBL Sync="TRUE">-79.602871</eastBL>
+      <northBL Sync="TRUE">42.283103</northBL>
+      <southBL Sync="TRUE">41.841946</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <descKeys>
+      <thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66">
+      </thesaName>
+      <keyword Sync="TRUE">002</keyword>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Meadville</city>
+          <state>Pennsylvania</state>
+          <postal>16335</postal>
+          <address>520 N. Main St., Box E</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 332-2719</cntvoice>
+        <cntpos>GIS Manager</cntpos>
+        <cntfax>(814) 332-5314</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <hours>8 am to 5 pm, Mon-Fri</hours>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20110104</metd>
+    <metrd>20100727</metrd>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distliab>These data files and documentation are provided "as is," and the user assumes the entire risk as to their quality and performance. 
+
+Allegheny College makes no guarantee or warranty concerning the accuracy of information contained in the geographic data or accompanying documentation.  Allegheny College further makes no warrantees, either expressed or implied, as to any other matter whatsoever, including, without limitation, the completeness or condition of the product, or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user. 
+
+Allegheny College makes no warranty, expressed or implied, regarding the use of the data files or accompanying documentation on any other computer system, nor does the act of distribution constitute any such warranty. 
+
+The user shall save the Allegheny College harmless from any suits, claims, or actions arising out of the use of or any defect in the data files or accompanying documentation. 
+
+Allegheny College assumes no legal liability for the accuracy, completeness, or usefulness of the data files and accompanying documentation.  In no event shall Allegheny College have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data. 
+
+Not for commercial resale.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>File Geodatabase</formname>
+          <formvern>ArcGIS 9.3.1</formvern>
+          <transize>1.36 MB</transize>
+          <dssize>1.36 MB</dssize>
+        </digtinfo>
+      </digform>
+      <fees>Free</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100727</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\allegheny.edu\gatormaps$\Academics\WorkStudy\Geology\Digitize\W062_PL2_ErieCounty.gdb</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distFormat>
+      <formatName Sync="TRUE">Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">0.000</transSize>
+    </distTranOps>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Unconsolidated_Deposits">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">4</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000100</absres>
+            <ordres Sync="TRUE">0.000100</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">0.000100</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE" code="26917">NAD_1983_UTM_Zone_17N</identCode>
+        <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+        <idVersion Sync="TRUE">7.4.1</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="Contacts_Interpretation">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="002">
+          </GeoObjTypCd>
+          <geoObjCnt Sync="TRUE">0</geoObjCnt>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">343</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Unconsolidated_Deposits">
+      <enttyp>
+        <enttypl Sync="TRUE">Unconsolidated_Deposits</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+        <enttypd>The polygons in this dataset represent thicknesses of sediments.</enttypd>
+        <enttypds>Richards et al., 1987</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MIN_THICKN</attrlabl>
+        <attalias Sync="TRUE">MIN_THICKN</attalias>
+        <attrtype Sync="TRUE">SmallInteger</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">4</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MAX_THICKN</attrlabl>
+        <attalias Sync="TRUE">MAX_THICKN</attalias>
+        <attrtype Sync="TRUE">SmallInteger</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">4</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INTERPRETA</attrlabl>
+        <attalias Sync="TRUE">INTERPRETA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+        <attalias Sync="TRUE">Shape_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Area</attrlabl>
+        <attalias Sync="TRUE">Shape_Area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview />
+  </eainfo>
+  <mdDateSt Sync="TRUE">20110104</mdDateSt>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Map Showing the Thickness of Unconsolidated Deposits, Locations of Selected Wells, and Seismic-Refraction Cross Sections</title>
+            <pubinfo />
+            <lworkcit>
+              <citeinfo>
+                <pubdate>1987</pubdate>
+                <title>Groundwater Resources of Erie County, Pennsylvania</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Commonwealth of Pennsylvania, Department of Environmental Resources, Bureau of Topographic and Geologic Survey </publish>
+                </pubinfo>
+                <othercit>Water Resource Report 62</othercit>
+                <origin>David B. Richards, H. Jack McCoy, John T. Gallaher</origin>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>62,500</srcscale>
+        <typesrc>paper, scanned image</typesrc>
+        <srccitea>Richards et al., 1987</srccitea>
+        <srccontr>Map showing the thickness of unconsolidated deposits as published on W62, Plate 2.</srccontr>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1987</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Christopher L. Shaffer</cntper>
+              <cntorg>Allegheny College</cntorg>
+            </cntperp>
+            <cntpos>GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>520 N. Main St., Box E</address>
+              <city>Meadville</city>
+              <state>Pennsylvania</state>
+              <postal>16335</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>(814) 332-2719</cntvoice>
+            <cntfax>(814) 332-5314</cntfax>
+            <cntemail>chris.shaffer@allegheny.edu</cntemail>
+            <hours>8 am to 5 pm, Mon-Fri</hours>
+          </cntinfo>
+        </proccont>
+        <procsv>ArcGIS Desktop 9.3.1</procsv>
+        <srcused>Richards et al., 1987</srcused>
+        <procdate>Sept 2009 to July 2010</procdate>
+        <procdesc>This dataset was captured, edited, and verified by two Allegheny College students working under faculty and staff supervision.  The work spanned from September 2009 to July 2010; technical and financial support was provided by Allegheny College.  The base map for the thickness of unconsolidated deposits dataset is the published "Map Showing the Thickness of Unconsolidated Deposits, Locations of Selected Wells, and Seismic-Refraction Cross Sections" by Richards et al., 1987.
+
+The following processing steps were performed using ESRI's ArcGIS Desktop 9.3.1 software.  First, a digital copy (w062_pl2.sid) of the Richards et al., 1987 map was downloaded from the Pennsylvania Geologic Survey (PAGS) website.  The image file did not include a world file, and therefore needed to be georeferenced in order for map overlay to occur.  The image was examined and four control points (latitude and longitude lines near the outside edges of the map) were identified and coordinates recorded in degrees, minutes, and seconds.  A shapefile was then created and points were plotted at the exact coordinate locations.  This was accomplished by displaying digital copies of 1:24,000 USGS topographic maps, which were projected into UTM Zone 17N NAD 1983, and using the software to place points on the map at the recorded coordinates.  Next, the image within an unknown spatial reference was overlaid onto the projected point shapefile and georeferenced to real-world coordinates using the point shapefile as guide for inputting the X and Y source coordinates.  In addition, snapping was used to ensure data integrity and a 1st order polynomial (affine) transformation was applied.  The resulting RMS error was 2.2 meters.  Once georeferenced, a world file was created to store map coordinate information for the image file.
+
+Next, a file geodatabase, feature dataset, and line feature class were created.  A feature dataset was chosen in order that 1) the same coordinate system was applied to all feature classes and 2) topology rules might be integrated into the database.  The coordinate system of the feature dataset was defined as UTM Zone 17N NAD 1983.  The line feature class was added to the map and an edit session was started.  The map scale was set to 1:5,000 and was maintained to ensure consistency throughout the digitizing process.  Using the Sketch tools, lines were digitized by tracing over the study area boundary and contact lines as depicted on the map.  First, the boundary of the study area was drawn.  Next, the contacts representing lines of equal thickness of sediment thickness were drawn.  Snapping was used to ensure that the contact lines touched the study area boundary and island polygons closed correctly.  This process took nine months to complete, as the students only worked a few hours each week.
+
+Once digitizing was complete, a line topology class was created to ensure data integrity.  The following topology rules were applied: must not overlap, must not intersect, must not have dangles, must not self-overlap, and must not self-intersect.  Topology was validated and errors (overshoots, undershoots, and incorrect intersections) were corrected using the topology editing tools provided by the software.  Next, a polygon feature class was built using the features in the line feature class.  A polygon topology class was created to ensure data integrity.  The following topology rules were applied: must not overlap and must not have gaps.  Topology was validated and errors (sliver polygons and holes) were corrected.  In some instances, small polygons needed to be added, removed, or modified within the feature class.
+
+To allow for descriptive information to be added to the geographic features, attribute fields were added and attribute domains were established.  The following fields were added to the layer attribute table: minimum thickness, maximum thickness, and interpretation.  Range domains were created for the minimum and maximum thickness fields and a coded value domain was created for the interpretation field.  These domains helped to increase efficiency in attributing and to ensure that only acceptable values were entered.  Next, the domains were applied to their respective fields.  After an edit session was started, individual polygons were selected and attribute values were assigned according to the legend as depicted on the Richards et al., 1987 map.  Once complete, all of the polygons were selected and the attribute values were validated.  If erroneous values existed, they were corrected and edits were saved.
+
+To ensure both digitizing and attribute accuracy, a poster-sized printout of the digitized map was visually compared to the Richards et al., 1987 map and digitizing and attributing errors were identified and corrected.  This process involved modifying polygon boundaries, validating topology, and adjusting attribute values as necessary.  Polygons representing offshore areas of Lake Erie were not assigned values, but were instead left as &lt;Null&gt;.  Once the datasets were deemed error free, the polygon feature class was exported into a new file geodatabase and metadata documentation was constructed.
+
+Users should note that a 25 foot contour line is missing from the area on Presque Isle; this error occurs in the original published map and has not been changed in the digitizing process.</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>The published thickness of unconsolidated deposits map (Richards et al., 1987) is the basis for the polygon attributes.  Allegheny College visually compared assigned attributes against the published source map.  Based on this review, the attributes are believed to be accurate.</attraccr>
+    </attracc>
+    <logic>Complete chain-node topology is present.  The dataset was checked for polygon closure, erroneous or duplicate arcs, incorrect intersections, overshoots and undershoots, label errors, and node errors.</logic>
+    <complete>The dataset represents thickness of unconsolidated deposits for Erie County, Pennsylvania.  Polygons and attributes have been assigned to represent the published thickness of unconsolidated deposits map (Richards et al., 1987).  No changes or updates have been made in the compilation process.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal positional accuracy of the dataset is that of the 1987 "Map Showing the Thickness of Unconsolidated Deposits, Locations of Selected Wells, and Seismic-Refraction Cross Sections", which was compiled and published at a scale of 1:62,500.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiq1zeRW6OxYfL94k8L9T/TrWbLd/aI5
+v9ITCg/xd8Z6Dp2POTyKxqV4Qduo0rm3RRRWwgooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAopkkixrlj16AdTWVJqRuLkW0EibjngP0x1yRyT9MDryayqVo09xpXL91eR2qMWIyOv
+oPT8fYcmsa71m4W1ecQExgcZcIGJ6D5Sxz7fmBUEUcskz/aRtCM2J3XMR+YgYAPBwB17561emsRf
+NGJN7xxsGHnKMMcHjbgZ5wefQVwVMVJvsilEolrhEElwP9Jh8u4SMcKobIaMAcEgBufx7UWi+Yky
+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
+ACiiigAooooAKKKKACiiigAooooAKKKKAP/Z</Data>
+    </Thumbnail>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park </city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792 </cntvoice>
+        <cntemail>pasda@psu.edu </cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab> The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City Planning Commission (PCPC) Department - GIS Division</origin>
+        <pubdate>201201</pubdate>
+        <title>Enterprise Zones for Philadelphia</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201201</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-75.242849</westbc>
+        <eastbc>
+-75.011168</eastbc>
+        <northbc>
+40.046813</northbc>
+        <southbc>
+39.873432</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>enterprise zone</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Boundaries</themekey>
+      </theme>
+      <place>
+        <placekey>City of Philadelphia</placekey>
+        <placekey>Philadelphia</placekey>
+      </place>
+    </keywords>
+    <accconst>City of Philadelphia employees only</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Maryanne Longacre</cntper>
+          <cntorg>Philadelphia City Planning Commission - GIS Division</cntorg>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1515 Arch Street - 13th Floor</address>
+          <city>Philadelphia</city>
+          <state>Pennsylvania</state>
+          <postal>19102</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>215-683-4609</cntvoice>
+        <cntfax>215-683-4630</cntfax>
+        <cntemail>maryann.longacre@phila.gov</cntemail>
+        <hours>8:30 AM - 4:30 PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>PhiladelphiaEnterpriseZones201201</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>None completed</attraccr>
+    </attracc>
+    <logic>None completed</logic>
+    <lineage>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\Philly\enterzones_polygon.shp.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\Philly\enterzones_polygon2.shp.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>4</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.933333</stdparll>
+              <stdparll>40.966667</stdparll>
+              <longcm>-77.750000</longcm>
+              <latprjo>39.333333</latprjo>
+              <feast>1968500.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000128</absres>
+            <ordres>0.000128</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+enterzones_polygon</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTERZONES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTERZON_1</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>City of Philadelphia - Non-Commercial Data Distribution Committee</cntorg>
+        </cntperp>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>This dataset contains errors that are an artifact of the interpretation, source material and conversion process. The data and documentation are provided "as is." The City of Philadelphia (CITY) makes no warranty or representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance or accuracy. The CITY will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the data or any accompanying documentation. The CITY is working to correct errors found in its datasets. Users discovering errors or making corrections to the data are requested to report such errors to the CITY at 215-686-5031 or e-mail to marion.storey@phila.gov</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.019</transize>
+        </digtinfo>
+      </digform>
+      <ordering>Please contact the Paul Reisner at 215-686-5071 for access to this data set.</ordering>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>City of Philadelphia - GIS Working Group</cntorg>
+        </cntperp>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset contains errors that are an artifact of the interpretation, source material and conversion process. The data and documentation are provided "as is." The City of Philadelphia (CITY) makes no warranty or representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance or accuracy. The CITY will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the data or any accompanying documentation. The CITY is working to correct errors found in its datasets. Users discovering errors or making corrections to the data are requested to report such errors to the CITY at 215-686-XXXX</distliab>
+    <stdorder>
+      <ordering>THE CITY OF PHILADELPHIA DOES NOT CURRENTLY HAVE A COMMERCIAL DISTRIBUTION POLICY.</ordering>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>201201</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Philadelphia City Planning Commission - GIS Division</cntorg>
+          <cntper>Pauline Bogush</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>1515 Arch Street - 13th Floor</address>
+          <city>Philadelphia</city>
+          <state>Pennsylvania</state>
+          <postal>19102</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>215-683-4662</cntvoice>
+        <cntfax>215-683-4630</cntfax>
+        <cntemail>pauline.bogush@phila.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>12471100</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

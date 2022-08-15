@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Spatial Data Access</origin>
+        <pubdate>2003</pubdate>
+        <title>3.75-minute quarter quadrangle boundary index for Pennsylvania</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>Pennsylvania Spatial Data Access</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/indexes/pa_quarterquads_200304.zip</onlink>
+        <onlink>http://www.pasda.psu.edu/data/indexes/pa_quarterquads_200304.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20030423</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.562306</westbc>
+        <eastbc>
+-74.624606</eastbc>
+        <northbc>
+42.312558</northbc>
+        <southbc>
+39.687579</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>location</themekey>
+        <themekey>Boundaries</themekey>
+      </theme>
+      <theme>
+        <themekey>indexes</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>quarter quadrangle</themekey>
+        <themekey>3.75 minute quads</themekey>
+        <themekey>DOQQ index</themekey>
+      </theme>
+      <place>
+        <placekt>GNIS</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>paquarterquads2003</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy of the attribution has been checked through comparison, both visual and through comparison with tabular available from USGS EROS data center and information obtained from header (.hdr) files of USGS/PaGS DOQQ imagery.</attraccr>
+    </attracc>
+    <logic>All polygons closed.</logic>
+    <complete>Contains quarter quadrangles covering the state of Pennsylvania.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Linework follows DOQQ lat/long lines.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Thomas Whitfield, PA. Bureau of Topographical and Geological Survey</origin>
+            <pubdate>Unpublished Material</pubdate>
+            <title>Quarter Quadrangle boundaries boundaries</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>quarterquads</srccitea>
+        <srccontr>positions and name information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Quarterquads shapefile was imported to Geodatabase format using ArcCatalog software (8.2).  Flight date information was obtained from DOQQ .hdr files where available or through USGS EarthExplorer when necessary.  Through a series of queries and joins performed using MS-Access 2000, this information was appended to the attribute tables</procdesc>
+        <srcused>quarterquads</srcused>
+        <procdate>2003</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Pfeiffer</cntper>
+              <cntorg>Pennsylvania Spatial Data Access</cntorg>
+            </cntperp>
+            <cntpos>Metadata Coordinator</cntpos>
+            <cntvoice>814-865-8792</cntvoice>
+            <cntemail>cxp7@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\indexes\pa_quarterquads_200304.xml</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>3432</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+pa_quarterquads_200304</enttypl>
+        <enttypd>3.75 minute quarter quadrangle</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUAD_ID</attrlabl>
+        <attrdef>Textual Quarter-Quad id used on PASDA</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QTR</attrlabl>
+        <attrdef>Textual quarter identifier for 7.5 minute quad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QUAD_QTR</attrlabl>
+        <attrdef>USGS Quarter Quad ID.  Combination of USGS quad code and quarter identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QTR_NUMB</attrlabl>
+        <attrdef>Numeric ID identifying quarter within USGS 7.5 minute quad</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Northwest quadrant</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Northeast quadrant</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Southeast quadrant</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Southwest quadrant</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUADNUM</attrlabl>
+        <attrdef>USGS code for 7.5 minute quadrangle</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>QUADNAME</attrlabl>
+        <attrdef>7.5 minute quadrangle name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Primary county covered by quarterquad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY2</attrlabl>
+        <attrdef>Additional county covered by quarterquad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY3</attrlabl>
+        <attrdef>Additional county covered by quarterquad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY4</attrlabl>
+        <attrdef>Additional county covered by quarterquad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>napp2</attrlabl>
+        <attrdef>Acquisition Date of DOQQ image from NAPP II collection</attrdef>
+        <begdatea>4/1992</begdatea>
+        <enddatea>4/1995</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>napp3</attrlabl>
+        <attrdef>Acquisition Date of DOQQ image from NAPP III collection produced to date</attrdef>
+        <begdatea>3/1999</begdatea>
+      </attr>
+      <attr>
+        <attrlabl>latest</attrlabl>
+        <attrdef>Date of latest available image for quarterquad</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntvoice>(814) 865-8792</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shape-file</formname>
+          <filedec>zip compression</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>pa_quarterquads_200304</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20030423</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntvoice>(814) 865-8792</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>12202900</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>John Hill (Data compiler)</origin>
+        <origin>Kim Sowder (GIS compiler)</origin>
+        <origin>Chris Dintaman (GIS compiler)</origin>
+        <origin>Denver Harper (GIS compiler</origin>
+        <pubdate>20110321</pubdate>
+        <title>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN: Predicted Responses of Geologic Materials to
+Seismically Induced Ground Shaking (Indiana Geological Survey, 1:500,000, Polygon Shapefile)
+</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP was derived from the following preexisting shapefiles:
+SURFICIAL_GEOL_MM49_IN: Quaternary Geologic Map of Indiana (Indiana Geological Survey, 1:500,000,
+Polygon Shapefile)
+BEDROCK_GEOL_MM48_IN: Bedrock Geology of Indiana (Indiana Geological Survey, 1:500,000,
+Polygon Shapefile)
+
+The following published paper map was derived from SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP:
+Hill, John, 2008, Map of Indiana showing predicted responses of geologic materials to
+seismically induced ground shaking: Indiana Geological Survey Report of Progress 35, Plate 1.
+
+The published paper map is associated with the following published report:
+Hill, John, and Foshee, B. D., 2008, A preliminary guide to the responses of geologic materials in Indiana to
+seismically induced ground shaking: Indiana Geological Survey Report of Progress 35, 39 p.
+
+The legend of Report of Progress 35, Plate 1, differs from the attributes of the predecessor
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.SHP.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN is a polygon shapefile that shows the distribution and
+classification of National Earthquake Hazards Reduction Program (NEHRP) soil types. This shapefile represents
+the first attempt to assign reasonable NEHRP soil classifications to the geologic materials
+throughout Indiana.
+
+The NEHRP soil classifications are based on geologic and engineering response to earthquake-induced ground
+shaking. NEHRP links the physical properties of soils, such as shear strength and effect on shear-wave
+velocity propagation, to ensure a uniform classification for nonlithified materials in the context of their
+performance when subjected to seismically induced ground shaking. Ranked A through F, the correct NEHRP soil
+class is best determined from the average shear-wave velocity of the soil column.
+
+Attributes include the following NEHRP soil classes (Hill and Foshee, 2008, Table 1, p. 5):
+
+A - Hard rock; average shear-wave velocity greater than 1,500 meters per second; amplification factor equal to 0.08.
+Note that Class A is not present in Indiana.
+
+B - Rock; average shear-wave velocity 760 to 1,500 meters per second; amplification factor equal to 1.0.
+
+C - Hard and (or) stiff to very stiff soils, including most gravel; average shear-wave velocity 360 to 760 meters
+per second; amplification factor equal to 1.1 to 1.2.
+
+D - Sands, silts, and (or) stiff to very stiff clays, and some gravel; average shear-wave velocity 180 to 360
+meters per second; amplification factor equal to 1.2 to 1.6.
+
+E - Small to moderate thickness (10 to 50 feet), soft to medium-stiff clay, plasticity index greater than 20,
+moisture greater than 40 percent; average shear-wave velocity is less than 180 meters per second; amplification
+factor equal to 1.2 to 2.5.
+
+F - Soils vulnerable to potential failure or collapse under seismic loading, including liquifiable soils, quick
+and sensitive clays, and collapsible, weakly cemented soils; average shear-wave velocity is not applicable; amplification
+factor is not applicable.
+
+The following is excerpted from Indiana Geological Survey Report of Progress 35:
+
+"The distribution and classification of soil types are essential to understanding the response of geologic
+materials to ground shaking induced by earthquakes. Thirty-seven shear-wave velocities were measured in soft
+sediments at various localities throughout Indiana, twenty-eight sites of which were measured using downhole
+methods in freshly augered and cased wells. Purdue University provided eight additional shear-wave profiles
+from eight sites in their Agricultural Centers; also included is a profile from one other site in Vanderburgh
+County. These data, coupled with the thickness of the unconsolidated materials, were used to determine the
+potential amplification of earthquake-induced ground shaking. This report begins the process of defining the
+response of geologic materials to ground shaking induced by an earthquake having an epicenter within Indiana
+or nearby states. It is intended to be a tool to enhance the performance of the computer program HAZUS,
+developed by the U.S. Federal Emergency Management Agency to model the effects of earthquakes and to assess
+damage scenarios.
+
+"Plate 1 of this report, a map of Indiana at a scale of 1:500,000 showing the predicted response of geologic
+materials to seismically induced ground shaking, is intended only for regional planning purposes and is not a
+substitute for on-site shear-wave measurements and geotechnical data. Continued field work is anticipated, the
+results of which will enhance the accuracy and value of the map."
+</abstract>
+      <purpose>
+SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN was created to provide a digital coverage of the predicted response
+of geologic materials in Indiana to ground shaking induced by earthquakes.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20030101</begdate>
+          <enddate>20081231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Geology</themekey>
+        <themekey>Surficial Geology</themekey>
+        <themekey>Quaternary</themekey>
+        <themekey>Stratigraphy</themekey>
+        <themekey>Earthquake</themekey>
+        <themekey>Ground shaking</themekey>
+        <themekey>Seismic</themekey>
+        <themekey>Soil classification</themekey>
+        <themekey>Shear-wave velocity</themekey>
+        <themekey>National Earthquake Hazard Reductions Program (NEHRP)</themekey>
+        <themekey>Federal Emergency Management Agency (FEMA)</themekey>
+        <themekey>Indiana Department of Homeland Security (IDHS)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>State Geologist</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday - Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcMap 10.0 shapefile format</native>
+    <useconst>Geology--Seismic_Shaking_Materials_Response</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The values of attributes were obtained from Indiana Geological Survey
+Report of Progress 35 and are assumed to be accurate.
+</attraccr>
+    </attracc>
+    <logic>No tests were performed.</logic>
+    <complete>
+The digital shapefile was derived with minor modifications from a preexisting
+published paper map (Hill, 2008) and is assumed to embody the same definitions and generalizations
+as were used in the creation of the published map.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding horizontal positional accuracy
+of this shapefile. No quantitative tests were performed.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Vertical positional accuracy was not a factor in the digital
+production of this shapefile.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20020320</pubdate>
+            <title>
+SURFICIAL_GEOL_MM49_IN: Quaternary Geologic Map of Indiana (Indiana Geological Survey, 1:500,000,
+Polygon Shapefile)
+</title>
+            <geoform>Vector digital</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1989</begdate>
+              <enddate>1989</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>SURFICIAL_GEOL_MM49_IN.SHP</srccitea>
+        <srccontr>The general geologic character of surficial materials in Indiana.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20101105</pubdate>
+            <title>BEDROCK_GEOL_MM48_IN: Bedrock Geology of Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile)</title>
+            <geoform>Vector digital</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1987</begdate>
+              <enddate>1987</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>BEDROCK_GEOL_MM48_IN.SHP</srccitea>
+        <srccontr>The general geologic character of bedrock strata in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Using ESRI ArcMap, the shapefile named "SURFICIAL_GEOL_MM49_IN" was exported to a shapefile named
+"SURFICIAL_GEOLOGY." In an Edit session, a field was added named "NEHRP." Values of NEHRP soil classes
+were assigend by personnel of the Indiana Geological Survey, based on the field named "DESCRIPTIO."
+</procdesc>
+        <srcused>SURFICIAL_GEOL_MM49_IN.SHP</srcused>
+        <procdate>2008</procdate>
+        <srcprod>SURFICIAL_GEOLOGY.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Kim Sowder</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographic Services Supervisor</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5893</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sowderk@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Using ESRI ArcMap, the shapefile named "SURFICIAL_GEOLOGY" was exported to a shapefile named
+"NEHRP_SURFICIAL_GEOLOGY."
+</procdesc>
+        <srcused>SURFICIAL_GEOLOGY.SHP</srcused>
+        <procdate>2011</procdate>
+        <srcprod>NEHRP_SURFICIAL_GEOLOGY.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Kim Sowder</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographic Services Supervisor</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5893</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>sowderk@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Using ESRI ArcCatalog, the shapefile named "NEHRP_SURFICIAL_GEOLOGY" was renamed as a shapefile named
+"Seismic_Shaking_Predicted_Response_RP35_IN." Fields named "AREA," "PERIMETER," "SYMBOL," "MM49_0011" and
+"MP49_0012" were deleted.
+</procdesc>
+        <srcused>NEHRP_SURFICIAL_GEOLOGY.SHP</srcused>
+        <procdate>2011</procdate>
+        <srcprod>Seismic_Shaking_Predicted_Response_RP35_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20110609</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@exchange.indiana.edu</cntemail>
+            <hours>0800 through 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3505</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN.dbf</enttypl>
+        <enttypd>Polygon Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Descriptio</attrlabl>
+        <attrdef>Generalized description of soil and (or) unconsolidated material</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NEHRP</attrlabl>
+        <attrdef>
+NEHRP soil classification, based on geologic and engineering response
+to earthquake-induced ground shaking
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>
+Hard rock; average shear-wave velocity greater
+than 1,500 meters per second; amplification factor equal to 0.08. Note that Class A
+is not present in Indiana.
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>
+Rock; average shear-wave velocity 760 to 1,500
+meters per second; amplification factor equal to 1.0
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>
+Hard and (or) stiff to very stiff soils, including most
+gravel; average shear-wave velocity 360 to 760 meters per second; amplification factor
+equal to 1.1 to 1.2
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>
+Sands, silts, and (or) stiff to very stiff clays, and some
+gravel; average shear-wave velocity 180 to 360 meters per second; amplification factor equal
+to 1.2 to 1.6
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>
+Small to moderate thickness (10 to 50 feet), soft to medium-stiff
+clay, plasticity index greater than 20, moisture greater than 40 percent; average shear-wave velocity
+is less than 180 meters per second; amplification factor equal to 1.2 to 2.5
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>
+Soils vulnerable to potential failure or collapse under seismic
+loading, including liquifiable soils, quick and sensitive clays, and collapsible, weakly cemented
+soils; average shear-wave velocity is not applicable; amplification factor is not applicable
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AvgSWVel</attrlabl>
+        <attrdef>Range of average shear-wave velocities (units are "meters per second")</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday - Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [SEISMIC_SHAKING_PREDICTED_RESPONSE_RP35_IN: Predicted Responses of
+Geologic Materials to Seismically Induced Ground Shaking (Indiana Geological
+Survey, 1:500,000, Polygon Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110316</metd>
+    <metrd>20110609</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@exchange.indiana.edu</cntemail>
+        <hours>0800 through 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

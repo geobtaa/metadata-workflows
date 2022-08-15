@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <origin>Lynn Gaines</origin>
+        <pubdate>201304</pubdate>
+        <title>Philadelphia Police Service Areas</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>04/29/13</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.284167</westbc>
+        <eastbc>-74.954039</eastbc>
+        <northbc>40.143797</northbc>
+        <southbc>39.861287</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115.3 Topic Categories</themekt>
+        <themekey>PSA</themekey>
+        <themekey>Police</themekey>
+        <themekey>Service</themekey>
+        <themekey>Areas</themekey>
+        <themekey>District</themekey>
+        <themekey>society</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees, which arise from use of this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Lynn Gaines</cntper>
+          <cntorg>Crime Mapping &amp; Analysis Unit</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist II</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>850 Race St</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19106</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>215-686-1577</cntvoice>
+        <cntfax>215-686-3337</cntfax>
+        <cntemail>lynn.gaines@phila.gov</cntemail>
+        <hours>8 - 4</hours>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>Philadelphia_Police_Service_Areas201304</abstract>
+    </descript>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage>file://Service=sde:oracle10g; User=gis_police; Version=SDE.DEFAULT</linkage>
+          <protocol>Local Area Network</protocol>
+          <orDesc>002</orDesc>
+        </onLineSrc>
+        <transSize>0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distFormat>
+      <formatName>SDE Feature Class</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">0.182</transSize>
+    </distTranOps>
+  </distInfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <procdate>20091007</procdate>
+        <proctime>10593900</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <procdate>20091016</procdate>
+        <proctime>12042700</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>M:\MAPPING\Projects\FIX_POLYGON_COVERAGES\New_Polys\PSA</srcused>
+        <procdate>20091027</procdate>
+        <proctime>15471500</proctime>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Lynn Gaines</cntper>
+              <cntorg>Crime Mapping &amp; Analysis Unit</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist II</cntpos>
+            <cntvoice>215-686-1577</cntvoice>
+            <cntfax>215-686-3337</cntfax>
+            <cntemail>lynn.gaines@phila.gov</cntemail>
+            <hours>8-4</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>These polygons were traced using the sector boundaries as a reference. All PSA boundaries follow sector boundaries, so the trace tool was used in an edit session to create each polgyon.</procdesc>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Lynn Gaines</cntper>
+              <cntorg>Crime Mapping &amp; Analysis Unit</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist II</cntpos>
+            <cntvoice>215-686-1577</cntvoice>
+            <cntfax>215-686-3337</cntfax>
+            <cntemail>lynn.gaines@phila.gov</cntemail>
+            <hours>8-4</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>Assigned Attribute data for each PSA polygon that was traced.</procdesc>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Michael Urciuoli</cntper>
+              <cntorg>Info Systems</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntvoice>215-686-1577</cntvoice>
+            <cntfax>215-686-3337</cntfax>
+            <cntemail>michael.urciuoli@phila.gov</cntemail>
+            <hours>9-5</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>PSA boundaries that encompassed the old 22nd &amp; 23rd districts were altered for the new activated 22nd district that now encompasses both districts.</procdesc>
+        <procdate>1/5/2010</procdate>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Michael Urciuoli</cntper>
+              <cntorg>Crime Mapping &amp; Analysis Unit</cntorg>
+            </cntperp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>750 Race Street</address>
+              <city>Philadelphia</city>
+              <state>PA</state>
+              <postal>19106</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>215-686-1577</cntvoice>
+            <cntfax>215-686-3337</cntfax>
+            <cntemail>michael.urciuoli@phila.gov</cntemail>
+            <hours>9-5</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>19th District PSA boundaries have been changed and updated as of 5/10/10.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>Service=sde:oracle10g; User=gis_police; Version=SDE.DEFAULT</srcused>
+        <procdate>20110912</procdate>
+        <proctime>10212200</proctime>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Michael Urciuoli</cntper>
+              <cntorg>Philadelphia Police HQ</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntvoice>215-686-1577</cntvoice>
+            <cntfax>215-686-3337</cntfax>
+            <cntemail>michael.urciuoli@phila.gov</cntemail>
+            <hours>9-5</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>25th District PSA boundaries have been changed and updated on 4/29/13</procdesc>
+        <procdate>4/29/13</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <dataIdInfo>
+    <envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; Esri ArcGIS 10.1.1.3143</envirDesc>
+    <dataLang>
+      <languageCode value="en" />
+      <countryCode value="US" />
+    </dataLang>
+    <idCitation>
+      <resTitle>GIS_POLICE.Police_Service_Areas</resTitle>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL>2660574.99701</westBL>
+          <eastBL>2750112.778564</eastBL>
+          <northBL>304942.42744</northBL>
+          <southBL>204651.046987</southBL>
+          <exTypeCode>1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL>-75.284167</westBL>
+      <eastBL>-74.954039</eastBL>
+      <northBL>40.143797</northBL>
+      <southBL>39.861287</southBL>
+      <exTypeCode>1</exTypeCode>
+    </geoBox>
+    <idPurp>There are currently 65 Police Service Areas (PSA) boundaries in Philadelphia with two to four per District. These boundaries replaced a much smaller boundary, Sectors in 2009.  In several Districts, PSA's split Sector boundaries and therefore a historical comparison would not necessarily be accurate.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;These polygon features were created by the Crime Mapping &amp;amp; Analysis Unit and they represent an initiative by the Philadelphia Police Department that started in 2009. A Police District can have up to 4 PSA's and as few as 2. There is a Police Lieutenant assigned to each PSA and officers are limited to patrol their specific boundary with the goal of familiarity with the area residents and businesses.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;25th District PSA (Police Service Areas) boundaries were updated on 4/29/13&lt;/SPAN&gt;&lt;/P&gt;&lt;UL STYLE="margin:0 0 0 0;padding:0 0 0 0;"&gt;&lt;LI&gt;&lt;P STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Key attribute field names and descriptions&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;P /&gt;&lt;TABLE&gt;&lt;TBODY&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Field Name&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Data Type&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Description&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;ID&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Long Integer&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;ID&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;DISTRICT_&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Text&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;District Number&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;PSA_NUM&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Text&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;PSA Number&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;OLD_SECTOR&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Text&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Old Sector Code&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;DESCRIPT&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Text&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;TD&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Description&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;P /&gt;&lt;P /&gt;&lt;UL STYLE="margin:0 0 0 0;padding:0 0 0 0;"&gt;&lt;LI&gt;&lt;P STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Coordinate system&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;UL STYLE="margin:0 0 0 0;padding:0 0 0 0;"&gt;&lt;LI&gt;&lt;P STYLE="font-weight:bold;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;Lambert Conformal Conic, US foot, StatePlane Pennsylvania South, NAD 1983&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>Lynn Gaines, Philadelphia Police Department</idCredit>
+    <searchKeys>
+      <keyword>PSA</keyword>
+      <keyword>Police</keyword>
+      <keyword>Service</keyword>
+      <keyword>Areas</keyword>
+      <keyword>District</keyword>
+      <keyword>boundaries</keyword>
+      <keyword>boundary</keyword>
+      <keyword>Sector</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees, which arise from use of this data.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>1</exTypeCode>
+          <westBL>-75.284167</westBL>
+          <eastBL>-74.954039</eastBL>
+          <northBL>40.143797</northBL>
+          <southBL>39.861288</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <metainfo>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Lynn Gaines</cntper>
+          <cntorg>Crime Mapping &amp; Analysis Unit</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Philadelphia</city>
+          <state>Pennsylvania</state>
+          <postal>19106</postal>
+          <address>Police Headquarters, 8th Race Sts.</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>215-686-1577</cntvoice>
+        <cntpos>GIS Specialist II</cntpos>
+        <cntfax>215-686-3337</cntfax>
+        <cntemail>lynn.gaines@phila.gov</cntemail>
+        <hours>8-4</hours>
+      </cntinfo>
+    </metc>
+    <metd>20100510</metd>
+    <metrd>20130429</metrd>
+    <metfrd>20140429</metfrd>
+  </metainfo>
+  <mdLang>
+    <languageCode value="en" />
+    <countryCode value="US" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="005" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdHrLvName>dataset</mdHrLvName>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.000</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="4" Sync="TRUE">
+        </efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">66</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>65</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <plandu>survey feet</plandu>
+          <coordrep>
+            <absres>0.000328</absres>
+            <ordres>0.000328</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres>1.000000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode value="2272" code="2272">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+        <idCodeSpace>EPSG</idCodeSpace>
+        <idVersion>7.11.2</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="Police_Service_Areas">
+        <geoObjTyp>
+          <GeoObjTypCd value="002" Sync="TRUE">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">66</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE">
+        </TopoLevCd>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Police_Service_Areas">
+      <enttyp>
+        <enttypl>Philadelphia Police Service Areas 201304</enttypl>
+        <enttypd>Public Service Areas</enttypd>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">66</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attalias Sync="TRUE">AREA</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter</attrdef>
+        <attalias Sync="TRUE">PERIMETER</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PSACOV_</attrlabl>
+        <attrdef>Coverage #</attrdef>
+        <attalias Sync="TRUE">PSACOV_</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PSACOV_ID</attrlabl>
+        <attrdef>Coverage ID</attrdef>
+        <attalias Sync="TRUE">PSACOV_ID</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>ID</attrdef>
+        <attalias Sync="TRUE">ID</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT__</attrlabl>
+        <attrdef>District</attrdef>
+        <attalias Sync="TRUE">DISTRICT__</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PSA_NUM</attrlabl>
+        <attrdef>PSA #</attrdef>
+        <attalias Sync="TRUE">PSA_NUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>OLD_SECTOR</attrlabl>
+        <attrdef>Old Sector Letters</attrdef>
+        <attalias Sync="TRUE">OLD_SECTOR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPT</attrlabl>
+        <attrdef>Description</attrdef>
+        <attalias Sync="TRUE">DESCRIPT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_AREA</attrlabl>
+        <attalias Sync="TRUE">SHAPE_AREA</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_LEN</attrlabl>
+        <attalias Sync="TRUE">SHAPE_LEN</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt>20130429</mdDateSt>
+  <Esri>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">Police_Service_Areas</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">2660574.997010</westBL>
+          <eastBL Sync="TRUE">2750112.778564</eastBL>
+          <southBL Sync="TRUE">204651.048627</southBL>
+          <northBL Sync="TRUE">304942.427440</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemSize Sync="TRUE">0.182</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\DATA\Philly\update4_30_13\Police_Service_Areas.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,1968500.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-77.75],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,39.93333333333333],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,40.96666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.33333333333334],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2272]]&lt;/WKT&gt;&lt;XOrigin&gt;-119214200&lt;/XOrigin&gt;&lt;YOrigin&gt;-96198500&lt;/YOrigin&gt;&lt;XYScale&gt;37163717.489134133&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2272&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20130430</SyncDate>
+    <SyncTime>15055500</SyncTime>
+    <ModDate>20130430</ModDate>
+    <ModTime>15055500</ModTime>
+  </Esri>
+</metadata>

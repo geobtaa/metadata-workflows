@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Joseph A. Bishop</origin>
+        <pubdate>1998</pubdate>
+        <title>Pennsylvania Conservation Stewardship</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>University Park, Pa</pubplace>
+          <publish>Pennsylvania Gap Analysis Project, Environmental Resources Research Institute</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/gap/steward/pasteward.zip</onlink>
+        <onlink>http://www.pasda.psu.edu/data/gap/steward/pasteward.zip</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Environmental Resource Research Institute</origin>
+            <pubdate>199807</pubdate>
+            <title>Pennsylvania Gap Analysis Project</title>
+            <pubinfo>
+              <pubplace>University Park, Pa</pubplace>
+              <publish>Environmental Resource Research Institute</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1998</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.528580</westbc>
+        <eastbc>
+-74.732280</eastbc>
+        <northbc>
+42.173700</northbc>
+        <southbc>
+39.720570</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <place>
+        <placekt>GNIS</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Joseph A. Bishop</cntper>
+          <cntorg>Environmental Resources Research Institute</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Environmental Resources Research Institute, The Pennsylvania State University, Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-863-0291</cntvoice>
+        <cntemail>jab190@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+    <descript>
+      <abstract>gapstewardship1999</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Confirmed visually by review and through use.</attraccr>
+      <qattracc>
+        <attraccv>unknown</attraccv>
+        <attracce>N/A</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon topology exists.</logic>
+    <complete>Complete within the borders of Pennsylvania</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Compiled from sources meeting National Map Accuracy Standards for 1:24,000 scale data.  Boundaries check and corrected through matching of adjoining stewardship areas and roads from from the various sources used in derivation.</horizpar>
+        <qhorizpa>
+          <horizpav>25</horizpav>
+          <horizpae>Estimate (meters) based on accuracy of source materials and corrections made through aligning boundaries of adjacent conservation lands.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1998</pubdate>
+            <title>State parks in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>ftp://penne.deasy.psu.edu/pub/pasda/compendium/sparks.zip</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>sparks</srccitea>
+        <srccontr>Base data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>State gamelands in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>ftp://penne.deasy.psu.edu/pub/pasda/compendium/sgamlnds.zip</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>sgamlnds</srccitea>
+        <srccontr>Based data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>State forests in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>ftp://penne.deasy.psu.edu/pub/pasda/compendium/sforest.zip</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>sforest</srccitea>
+        <srccontr>Based data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>National Forests in Pennsylvania</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1992</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>nforest</srccitea>
+        <srccontr>National Forest boundaries</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>County Park Boundaries</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>cparks</srccitea>
+        <srccontr>Base data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>National Landmarks in Pennsylvania</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>nlndmrk</srccitea>
+        <srccontr>Base data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>National Parks in Pennsylvania</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>npark</srccitea>
+        <srccontr>Base data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>National Wildlife Preserves in Pennsylvania</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>nwildpr</srccitea>
+        <srccontr>Base data referenced for source data for current set.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996</pubdate>
+            <title>Pennsylvania major roads</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/documents.cgi/compendium/majrrds.xml</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>199605</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>roads</srccitea>
+        <srccontr>Data used for locating and aligning boundaries of adjacent properties</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Source coverages were combined into a single coverage and boundaries were corrected in accordance to Department of Conservation of Natural Resources and Game Commission maps showing locations of privately owned and other conservation lands not included in source coverages.</procdesc>
+        <srcused>sparks</srcused>
+        <srcused>sgamlnds</srcused>
+        <srcused>sforest</srcused>
+        <srcused>nforest</srcused>
+        <srcused>cparks</srcused>
+        <srcused>nlndmrk</srcused>
+        <srcused>npark</srcused>
+        <srcused>nwildpr</srcused>
+        <procdate>1998</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Joseph A. Bishop</cntper>
+              <cntorg>Environmental Resources Research Institute</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>Environmental Resources Research Institute, The Pennsylvania State University, Land and Water Building</address>
+              <city>University Park</city>
+              <state>Pennsylvania</state>
+              <postal>16802</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>814-863-0291</cntvoice>
+            <cntemail>jab190@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>Server=pasdaserve1.erri.psu.edu; Service=5151/tcp; Database=sde; User=sde; Version=SDE.DEFAULT</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\GAP.xml</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>2666</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.SDE.GAP_Stewardship_1999</enttypl>
+        <enttypd>Areas of public or private land maintained as conservation areas</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>System record identifier</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SDE.SDE.GAP_Stewardship_1999.AREA</attrlabl>
+        <attrdef>Internal system generated geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Area of polygon in coverage units</attrdef>
+        <attrdefs>calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGDL2_</attrlabl>
+        <attrdef>perimeter of polygon in coverage units</attrdef>
+        <attrdefs>calculated</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGDL2_ID</attrlabl>
+        <attrdef>Internal sequential polygon ID</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MANAGER</attrlabl>
+        <attrdef>User-defined polygon ID number</attrdef>
+        <attrdefs>PA GAP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OWNER</attrlabl>
+        <attrdef>National Gap Analysis Project code for land manager type</attrdef>
+        <attrdefs>National Gap Analysis Program</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>National Gap Analysis Program coding for type of land owner</attrdef>
+        <attrdefs>National Gap Analysis Program</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DIVISION</attrlabl>
+        <attrdef>Land Management Status Code</attrdef>
+        <attrdefs>National Gap Analysis Program</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Human disturbance of habitat legally prohibited (excepting managed access and/or interpretation) and non-human disturbance is not controlled unless it threatens human life or property.</edomvd>
+            <edomvds>National Gap Analysis Program</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Naturalistic areas with a legal mandate prohibiting conversion to humanistic/cultural development.</edomvd>
+            <edomvds>National Gap Analysis Program</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Any additional permanent conversion of lands to humanistic/cultural development uses is restricted by legal mandates.</edomvd>
+            <edomvds>National Gap Analysis Program</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>No legal restriction on additional permanent conversion of lands.</edomvd>
+            <edomvds>National Gap Analysis Program</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Private lands</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNIT</attrlabl>
+        <attrdef>Name of the steward agency, or "private"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PA_MGMT_CO</attrlabl>
+        <attrdef>Name of conservation land unit</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GAP_MGMT_C</attrlabl>
+        <attrdef>Two digit code assigned by Pennsylvania Gap Analysis project.  First digit corresponds to GAP-MGMT_CODE definition, see the description of domain values for definitions of this digit.  Second digit further classifies land management criteria according to the definitions included here.</attrdef>
+        <attrdefs>Pennsylvania Gap Analysis Project</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1.1</edomv>
+            <edomvd>Hunting not permitted by management plan</edomvd>
+          </edom>
+          <edom>
+            <edomv>1.2</edomv>
+            <edomvd>Hunting permitted by management plan</edomvd>
+          </edom>
+          <edom>
+            <edomv>2.1</edomv>
+            <edomvd>A management plan exists which either emphasizes the protection of habitat or deemphasizes timber production.  The plan also restricts surface mining</edomvd>
+          </edom>
+          <edom>
+            <edomv>2.2</edomv>
+            <edomvd>A management plan exists which emphasizes timber production and/or suface mining is not restricted</edomvd>
+          </edom>
+          <edom>
+            <edomv>3.1</edomv>
+            <edomvd>Naturalistic landscapes</edomvd>
+          </edom>
+          <edom>
+            <edomv>3.2</edomv>
+            <edomvd>Mixture of naturalistic and/or humanistic/cultural development landscapes</edomvd>
+          </edom>
+          <edom>
+            <edomv>4.1</edomv>
+            <edomvd>Areas with a stewardship or management plan</edomvd>
+          </edom>
+          <edom>
+            <edomv>4.2</edomv>
+            <edomvd>Areas lacking a stewardship or management plan</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNIQUE_ID</attrlabl>
+        <attrdef>National Gap Analysis Project Land Management Status Code</attrdef>
+        <attrdefs>Naitonal Gap Analysis Project</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Human disturbance of habitat legally prohibited (excepting managed access and/or interpretation) and non-human disturbance is not controlled unless it threatens human life or property</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Naturalistic areas with a legal mandate prohipiting conversion to humanistic/cultural development</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Any additional permanent conversion of lands to humanistic/cultural development uses is restricted by legal mandates</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>No legal restrictions on additional permanent conversion of lands.</edomvd>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Private lands</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COLOR</attrlabl>
+        <attrdef>Parcel identifier if any</attrdef>
+        <attrdefs>County agencies</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LCODE</attrlabl>
+        <attrdef>Color id, keyed from LCODE value, for use with legend files</attrdef>
+        <attrdefs>PA GAP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACODE</attrlabl>
+        <attrdef>Alphabetic code indicating type of stewardship</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>CL</edomv>
+            <edomvd>County and Local Parks</edomvd>
+          </edom>
+          <edom>
+            <edomv>NB</edomv>
+            <edomvd>National Battlefield</edomvd>
+          </edom>
+          <edom>
+            <edomv>NFEF</edomv>
+            <edomvd>National Experimental Forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>NFSA</edomv>
+            <edomvd>National Forest Scenic Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>NFWA</edomv>
+            <edomvd>National Forest Wilderness Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>NHP</edomv>
+            <edomvd>National Historic Park</edomvd>
+          </edom>
+          <edom>
+            <edomv>NHS</edomv>
+            <edomvd>National Heritage Site</edomvd>
+          </edom>
+          <edom>
+            <edomv>NM</edomv>
+            <edomvd>National Memorial</edomvd>
+          </edom>
+          <edom>
+            <edomv>NMP</edomv>
+            <edomvd>National Military Park</edomvd>
+          </edom>
+          <edom>
+            <edomv>NNL</edomv>
+            <edomvd>National Natural Landmark</edomvd>
+          </edom>
+          <edom>
+            <edomv>NRA</edomv>
+            <edomvd>National Recreation Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>NWR</edomv>
+            <edomvd>National Wildlife Refuge</edomvd>
+          </edom>
+          <edom>
+            <edomv>OPC</edomv>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Privately owned conservancy</edomvd>
+          </edom>
+          <edom>
+            <edomv>PANC</edomv>
+            <edomvd>Pennsylvania Chapter of the Nature Conservancy</edomvd>
+          </edom>
+          <edom>
+            <edomv>PI</edomv>
+            <edomvd>Private Inholding</edomvd>
+          </edom>
+          <edom>
+            <edomv>SFNA</edomv>
+            <edomvd>State Forest Natural Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>SFOR</edomv>
+            <edomvd>State Forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>SFWA</edomv>
+            <edomvd>State Forest Wilderness Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>SGL</edomv>
+            <edomvd>State Game Land</edomvd>
+          </edom>
+          <edom>
+            <edomv>SPK</edomv>
+            <edomvd>State Park</edomvd>
+          </edom>
+          <edom>
+            <edomv>SPNA</edomv>
+            <edomvd>State Parks Natural Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>WPAC</edomv>
+            <edomvd>Western Pennsylvania Conservancy</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AKA</attrlabl>
+        <attrdef>Alternate stewardship code</attrdef>
+        <attrdefs>See description of "LCODE" Attribute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ANALGROUP</attrlabl>
+        <attrdef>Alternative name for conservation land area</attrdef>
+        <attrdefs>PA GAP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CONSERVANCY</edomv>
+            <edomvd>Private conservancy lands</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>LOCAL</edomv>
+            <edomvd>Local or county government holdings</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>NPS</edomv>
+            <edomvd>National Park Service holdings</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>PA_SF</edomv>
+            <edomvd>Pennsylvania State Forest</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>PA_SGL</edomv>
+            <edomvd>Pennsylvania State Game Lands</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>PA_SP</edomv>
+            <edomvd>Pennsylvania State Park</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>PRI_INHOLD</edomv>
+            <edomvd>Privately held hands</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>USFS</edomv>
+            <edomvd>United States Forest Service</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <edom>
+            <edomv>USFWS</edomv>
+            <edomvd>United States Fish and Wildlife Service</edomvd>
+            <edomvds>PA GAP</edomvds>
+          </edom>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SE_ROW_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Area()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>ftp://www.pasda.psu.edu/pub/pasda/gap/steward/pasteward.zip</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <formvern>3.x</formvern>
+          <filedec>Zip compression</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20030219</metd>
+    <metrd>20000329</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu </cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>15012100</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

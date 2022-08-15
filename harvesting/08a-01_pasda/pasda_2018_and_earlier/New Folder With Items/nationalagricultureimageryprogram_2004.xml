@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USDA-FSA Aerial Photography Field Office</origin>
+        <pubdate>20041228</pubdate>
+        <title>National Agricultural Imagery Program (1-meter resolution)</title>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <pubplace>Salt Lake City, Utah</pubplace>
+          <publish>USDA FSA Aerial Photography Field Office</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/data/naip/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20040612, 20040823</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Majority years of Photography Dates.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.65</westbc>
+        <eastbc>-74.58</eastbc>
+        <northbc>42.40</northbc>
+        <southbc>39.55</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Digital Georectified Image</themekey>
+        <themekey>Mosaic</themekey>
+        <themekey>Georeferenced Image</themekey>
+        <themekey>Quarter Quadrangle Centered</themekey>
+        <themekey>Georectification</themekey>
+        <themekey>compression</themekey>
+        <themekey>MrSID</themekey>
+        <themekey>NAIP</themekey>
+        <themekey>Compliance</themekey>
+        <themekey>Aerial Compliance</themekey>
+        <themekey>Farming</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Pennsylvania</placekey>
+        <placekey>USDA</placekey>
+        <placekey>FSA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+Users should be aware that this is an interim release.  The
+interim compressed county mosaic may contain defects and have
+horizontal accuracy less than the specified tolerances.
+Defective imagery may be replaced within one year of image
+acquisition date.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-973-3500</cntvoice>
+        <cntfax>801-975-3529</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>nationalagricultureimageryprogram_2004</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>
+NAIP 3.75 minute tile file names are based
+on the USGS quadrangle naming convention.
+</logic>
+    <complete>None</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>FSA Digital Orthophoto Specs.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>N/A  2d only</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aerial Photography Field Office</origin>
+            <pubdate>20041228</pubdate>
+            <title>naip_1-1_1c_s_pa_001_2004_1</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>40000</srcscale>
+        <typesrc>CD</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040612, 20040823</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Majority Aerial Photography Date</srccurr>
+        </srctime>
+        <srccitea>MrSID compressed image</srccitea>
+        <srccontr>Mosaicked County Image</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The production procedures for mosaicking digital orthophoto quadrangles into orthoimages can vary according to the work project area.  The following steps apply to the mosaicking process in general.  Image Tone Adjustment - The area of coverage that images are attched within are individual counties.  Image tone adjustment is performed for two primary reasons:  1.  To produce a well contrasted image so that users are not required to adjust the tone upon display or to create an enhancement lookup table upon delivery. 2.  To reduce visible tone differences between mosaic seam lines. Methods of Image tone adjustment: Manual Contrast Adjustment -  Each input digital orthophoto quadrangle image is viewed and, if necessary, the contrast and brightness is adjusted. Automatic Contrast Adjustment - Each input digital orthophoto quadrangle within a county is also run through an automatic tone or range adjustment that drives all input images toward a common value.  The intention is to reduce vignetting and "hot spots" from the source photography, and to minimize tone differences along mosaic seam lines. Seam Feathering - Tone adjustment between input digital orthophoto quadrangles is adjusted along a gradation a specified distance out from the seam line.  This smoothes or feathers abrupt tone differences which would otherwise highlight seam lines. Defining Mosaic Seam Lines - Input digital orthophoto quadrangles are displayed pairwise so the operator can decide where, within the overedge area, to place the seam lines.  In general, the goal is to reduce visible seam lines due to differences in source photography. Specifically, the goal is to: 1) Present single contiguous      agricultural fields as though they are from a single date of source photography.  2) To minimize the visible effects of geometric misalignments between digital orthophoto quadrangles, such as an offset in linear field boundaries where adjoining digital orthophoto quadrangles meet.       The operator continually emulates image tone differences and geometric misalignments between adjoining digital orthophoto quadrangles and interactively places the seam where both are minimized.  Digital orthophoto quadrangles are edge matched, or seamed, across county boundaries. Mosaic Generation -  Image 7.5 minute quad tiles are either generated individually and sequentially as work progresses through a project, or cut out from a larger mosaic after it is generated.  Since the imagery is being resampled to the same coordinate system, nearest neighbor resampling is used. Rules for Seam Line Placement: 1. Misalignments less than 3 meters with same photography dates. - No Restrictions on seam line placement. 2. Misalignments less than 3 meters with different photography dates. - Place seam in non-agricultural areas such as roadway easements, waterways etc.. - Place seam in same apparent landcover type or conditions in agricultural areas such as pastures, fallow fields or cropped fields.  3. Misalignments greater than 3 meters with same photography dates. - If possible, avoid crossing linear features in agricultural areas with seam line. 4. Misalignments greater than 3 meters with different photography dates. - If possible, avoid crossing linear features in  agricultural areas with seam line. - Place seam in non-agricultural areas such as roadway easements, waterways etc.. - Place seam in same apparent landcover type or conditions in agricultural areas such as pastures, fallow fields or cropped fields.</procdesc>
+        <procdate>20041228</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>DOQQ</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>49657</rowcount>
+      <colcount>49745</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1.000000</absres>
+            <ordres>1.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Band_1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Band_2</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Band_3</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>24-bit pixels, 3 band color (RGB) represent brightness values 0 - 255</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Supervisor Sales Services Branch</cntper>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-975-3500</cntvoice>
+        <cntfax>801-975-3529</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>
+In no event shall the creators, custodians, or distributors of this
+information be liable for any damages arising out of its use
+(or the inability to use it).
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Compressed County Mosaic</formname>
+          <formcont>MrSID</formcont>
+          <transize>131.674</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>None</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>Contact the Aerial Photography Field Office for more information</fees>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab GROUP="'pasda'">The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+        </digtinfo>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20050315</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA-FSA Aerial Photography Field Office</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2222 West 2300 South</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119-2020</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-975-3500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10154800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

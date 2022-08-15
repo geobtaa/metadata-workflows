@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20050810</CreaDate>
+    <CreaTime>10034700</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <DataProperties>
+      <lineage>
+        <Process Name="Create Feature Class" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20050809" Time="112827">CreateFeatureclass C:\Geodatabase_work\TGLancastergdb.mdb\Administrative Cemetery_2 # revised_cem_Layer SAME_AS_TEMPLATE SAME_AS_TEMPLATE "{B286C06B-0879-11D2-AACA-00C04FA33C20};1821093.98809314 -300883.242758088 1953.12499818101;0 100000;0 100000" # 0 0 0 C:\Geodatabase_work\TGLancastergdb.mdb\Administrative\Cemetery_2</Process>
+        <Process Name="Append" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20050809" Time="112827">Append revised_cem_Layer C:\Geodatabase_work\TGLancastergdb.mdb\Administrative\Cemetery_2 TEST C:\Geodatabase_work\TGLancastergdb.mdb\Administrative\Cemetery_2</Process>
+        <Process Name="FeatureClassToFeatureClass_4" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20050809" Time="112828">FeatureClassToFeatureClass "C:\Documents and Settings\mccawlel\Desktop\revised_cem.shp" C:\Geodatabase_work\TGLancastergdb.mdb\Administrative Cemetery_2 # "AREA AREA HIDDEN;PERIMETER PERIMETER HIDDEN;CEMETERY_ CEMETERY_ HIDDEN;CEMETERY_I CEMETERY_I HIDDEN;NAME NAME VISIBLE;ALT_NAME ALT_NAME VISIBLE;ID_LABEL ID_LABEL VISIBLE;VERMETH VERMETH VISIBLE;MUNI MUNI VISIBLE;NOTE80 NOTE80 VISIBLE" SAME_AS_TEMPLATE SAME_AS_TEMPLATE # 0 C:\Geodatabase_work\TGLancastergdb.mdb\Administrative\Cemetery_2</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20081125" Time="153951">CopyFeatures "Database Connections\gisro@lc_land@lcsde1.sde\LC_Land.GISADMIN.Administrative\LC_Land.GISADMIN.Cemetery" C:\Work\Backup\projects\PASDA\LC_Land_GISADMIN_Cemetery.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+    <MetaID>{06727441-D8ED-4E39-AFE4-694E5040F0BC}</MetaID>
+    <SyncDate>20081222</SyncDate>
+    <SyncTime>10272500</SyncTime>
+    <ModDate>20100415</ModDate>
+    <ModTime>09221400</ModTime>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County - Cemetery</title>
+        <ftname Sync="TRUE">LancasterCountyCemetery200812</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-76.720729</westbc>
+        <eastbc Sync="TRUE">-75.903248</eastbc>
+        <northbc Sync="TRUE">40.290563</northbc>
+        <southbc Sync="TRUE">39.723122</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">2257987.104361</leftbc>
+        <rightbc Sync="TRUE">2483712.499891</rightbc>
+        <bottombc Sync="TRUE">147338.797298</bottombc>
+        <topbc Sync="TRUE">350406.345548</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Cemeteries</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <place>
+        <placekey>Lancaster County</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>Access to this data is limited to internal use with Lancaster County government and to those who have signed the Lancaster County GIS data license agreement.</accconst>
+    <useconst>For use at 1:2400 or smaller scale. 
+For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance 
+
+These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS</cntorg>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>50 North Duke St., PO Box 83480 </address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480 </postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 391-7550</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>LancasterCountyCemetery200812</abstract>
+    </descript>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Lancaster\update12_18_08\LancasterCountyCemetery200812.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.091</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Original polygons captured from 1993 photography by ADR.  All original polygons remain, although some cannot be verified with more recent photography.</procdesc>
+        <date Sync="TRUE">20050810</date>
+        <time Sync="TRUE">10034700</time>
+      </procstep>
+      <srcinfo>
+        <srcscale>2400</srcscale>
+        <typesrc>Aerial Photography</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+      </srcinfo>
+    </lineage>
+    <logic>Topology exists for coverage. The same number of polygons exist in the exported shapefile. No polygon overlap.</logic>
+    <complete>Complete from aerial photography.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy conforms to National Mapping Accuracy Standards of planimetric and topographic mapping data at a design scale of 1"=200'. 
+</horizpar>
+        <qhorizpa>
+          <horizpav>Positional accuracy of +/- 7 feet for 90% of features </horizpav>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">LancasterCountyCemetery200812</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">2257987.104361</westBL>
+          <eastBL Sync="TRUE">2483712.499891</eastBL>
+          <northBL Sync="TRUE">350406.345548</northBL>
+          <southBL Sync="TRUE">147338.797298</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-76.720729</westBL>
+      <eastBL Sync="TRUE">-75.903248</eastBL>
+      <northBL Sync="TRUE">40.290563</northBL>
+      <southBL Sync="TRUE">39.723122</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+          <cntorg>Lancaster County GIS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+          <city>REQUIRED: The city of the address.</city>
+          <state>REQUIRED: The state or province of the address.</state>
+          <postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+        </cntaddr>
+        <cntvoice>(717) 391-7550</cntvoice>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20100415</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <resdesc>Distributed in ESRI shapefile format via CD</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.091</transize>
+          <dssize Sync="TRUE">0.091</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="LancasterCountyCemetery200812">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">426</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="LancasterCountyCemetery200812">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">426</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">1.000000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="LancasterCountyCemetery200812">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">426</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="LancasterCountyCemetery200812">
+      <enttyp>
+        <enttypl>Cemetery</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">426</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">75</attwidth>
+        <attrdef>Cemetery Name</attrdef>
+        <attrdefs>Churches and Cemeteries of Lancaster County, Pennsylvania by A. Hunter Rineer, Jr. published by Lancaster County Historical Society</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ALT_NAME</attrlabl>
+        <attalias Sync="TRUE">ALT_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">101</attwidth>
+        <attrdef>Alternate names used</attrdef>
+        <attrdefs>Churches and Cemeteries of Lancaster County, Pennsylvania by A. Hunter Rineer, Jr. published by Lancaster County Historical Society</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NOTE80</attrlabl>
+        <attalias Sync="TRUE">NOTE80</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Identifying notes from 1980 publication of source document</attrdef>
+        <attrdefs>Churches and Cemeteries of Lancaster County, Pennsylvania by A. Hunter Rineer, Jr. published by Lancaster County Historical Society</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>GC</edomv>
+            <edomvd>Good Condition</edomvd>
+          </edom>
+          <edom>
+            <edomv>SE</edomv>
+            <edomvd>Should Exist (High Probability, but no certainty)</edomvd>
+          </edom>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Destroyed</edomvd>
+          </edom>
+          <edom>
+            <edomv>PC</edomv>
+            <edomvd>Poor Condition, but still exists</edomvd>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>Area overgrown, may or may not exist</edomvd>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Cemetery maintained and tended to</edomvd>
+          </edom>
+          <edom>
+            <edomv>PO</edomv>
+            <edomvd>Plowed over or buried, usually no trace exists</edomvd>
+          </edom>
+          <edom>
+            <edomv>NV</edomv>
+            <edomvd>Most likely doesn't exist or is inaccessible</edomvd>
+          </edom>
+          <edom>
+            <edomv>GM</edomv>
+            <edomvd>Graves moved from cemetery location to another location</edomvd>
+          </edom>
+          <edom>
+            <edomv>AC</edomv>
+            <edomvd>Cemetery adjoins church</edomvd>
+          </edom>
+          <edom>
+            <edomv>CC</edomv>
+            <edomvd>Stones cemented in concrete, may have been moved from original location</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">VERMETH</attrlabl>
+        <attalias Sync="TRUE">VERMETH</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>Verification Method</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Cemetery location verified on 1998 and/or 2001 aerial photography</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+          <edom>
+            <edomv>AI</edomv>
+            <edomvd>Aerial photos inconclusive, see Notes80 column for more details</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MB</edomv>
+            <edomvd>Cemetery exists, aerials reveal need to modify polygon boundaries</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+          <edom>
+            <edomv>FC/MB</edomv>
+            <edomvd>Field Check required in order to modify polygon boundaries</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+          <edom>
+            <edomv>A(FC/MB)</edomv>
+            <edomvd>Field Check required in order to identify cemetery name, but location good</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+          <edom>
+            <edomv>AI(FC/MB)</edomv>
+            <edomvd>No cemetery visible on aerials, may be one nearby, needs field check</edomvd>
+            <edomvds>Lancaster County GIS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">SHAPE_area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_area</attrlabl>
+        <attalias Sync="TRUE">SHAPE_len</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_len</attrlabl>
+        <attalias Sync="TRUE">SHAPE_len</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20100415</mdDateSt>
+</metadata>

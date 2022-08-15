@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County Geodetic Monuments</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-76.688513</westbc>
+        <eastbc>
+-75.950732</eastbc>
+        <northbc>
+40.297103</northbc>
+        <southbc>
+39.768161</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geodetic control</themekey>
+        <themekey>geodetic monuments</themekey>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>none.</accconst>
+    <useconst>For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <ptcontac>
+      <cntinfo>
+        <cntaddr>
+          <address>50 North Duke St.</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PO Box 83480</address>
+          <city>Lancaster </city>
+          <state>PA</state>
+          <postal>17608-3480 </postal>
+          <country>USA </country>
+        </cntaddr>
+        <cntperp>
+          <cntper>Linda McCawley </cntper>
+          <cntorg>Lancaster County GIS </cntorg>
+        </cntperp>
+        <cntpos>Senior GIS Analyst </cntpos>
+        <cntvoice>(717) 391-7550 </cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us </cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>LancasterCountyMonuments200812</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Monuments surveyed in 1993.  Verification of existence in 2000.</procdesc>
+        <srcused>aerials</srcused>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\lancater_license\lancco_monument.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>239</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.933333</stdparll>
+              <stdparll>40.966667</stdparll>
+              <longcm>-77.750000</longcm>
+              <latprjo>39.333333</latprjo>
+              <feast>1968500.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+monument</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MONUMENT_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MONUMENT_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>N1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LC_93_0139</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>N5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>N7</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>N9</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>X_COORD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y_COORD</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pasdadev.erri.psu.edu/lanc/lancdownload2.cgi/lancco_monument</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Steve Gochenaur</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>gochenas@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Not for commercial use or resale. The User shall save Lancaster County, the Commonwealth and the Pennsylvania State University harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. Lancaster County, the Commonwealth and the Pennsylvania State University excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+          <formvern>7.2.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>3-1/2 inch floppy disk</offmedia>
+            <reccap>
+              <recden>1.44</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>PC</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Arcview Shapefile</formname>
+          <formvern>3.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>DXF</formname>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>$25 for premastered CD containing shapefiles.  Custom requests for small area DXF files available for $40/hour processing fee, $10/CD or $1/floppy media charge.</fees>
+      <ordering>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</ordering>
+    </stdorder>
+    <stdorder>
+      <nondig>Hard copy maps can be ordered and created  from Lancaster County GIS</nondig>
+      <digform>
+        <digtinfo>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>8 1/2" x 11" - $5
+11" x 17" - $25
+
+Standard map 33 1/2" x 45" - $75;  discount rate $50
+Mylar map 33 1/2" x 45" - $100;  discount rate $75
+
+Custom maps available at a charge of $40/hr.
+
+Copies of existing maps $25.00</fees>
+      <ordering>Acquire, complete and return Map Request form available at: http://www.co.lancaster.pa.us/GISforms.htm</ordering>
+    </stdorder>
+    <custom>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</custom>
+  </distinfo>
+  <metainfo>
+    <metd>200812</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20090105</ModDate>
+    <ModTime>12174700</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20090105</mdDateSt>
+</metadata>

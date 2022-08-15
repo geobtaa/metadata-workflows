@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>Unpublished Material</pubdate>
+        <title>WPC Drainage area polygons for each RF3 river reach</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <ftname Sync="TRUE">WPC_RF3minisheds</ftname>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <origin>David Homans</origin>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.592198</westbc>
+        <eastbc Sync="TRUE">-74.682027</eastbc>
+        <northbc Sync="TRUE">42.271548</northbc>
+        <southbc Sync="TRUE">39.648952</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.592198</leftbc>
+        <rightbc Sync="TRUE">-74.682027</rightbc>
+        <bottombc Sync="TRUE">39.648952</bottombc>
+        <topbc Sync="TRUE">42.271548</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Rivers</themekey>
+        <themekey>water</themekey>
+        <themekey>streams</themekey>
+        <themekey>PAD</themekey>
+        <themekey>Pennsylvania Aquatic Community Classification</themekey>
+        <themekey>RF3</themekey>
+        <themekey>EPA river reach </themekey>
+        <themekey>drainage unit</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Mid-Atlantic</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Natural Heritage Program (Western Pennsylvania Conservancy)</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.
+</useconst>
+    <descript>
+      <abstract>WPC_RF3minisheds</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>reg2shedpoly</title>
+            <othercit>Individual drainage areas for each rf3 watershed in EPA region 2 developed by Tom Fitzhugh and modified to include drainage area classes by Arlene Olivero.</othercit>
+            <origin>Arlene Olivero</origin>
+            <pubdate>200209</pubdate>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>All polygons that were touching Pennsylvania were selected from each EPA region reach watershed and were saved as new shape files.</procdesc>
+        <procsv>ArcView 3.2</procsv>
+        <srcused>reg5shedpoly</srcused>
+        <procdate>200403</procdate>
+        <srcused>reg4shedpoly</srcused>
+        <srcused>reg2shedpoly</srcused>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>200209</pubdate>
+            <title>reg4shedpoly</title>
+            <othercit>Individual drainage areas for each rf3 watershed in EPA region 4 developed by Tom Fitzhugh and modified to include drainage area classes by Arlene Olivero.</othercit>
+            <origin>Arlene Olivero</origin>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Arlene Olivero</origin>
+            <title>reg5shedpoly</title>
+            <othercit>Individual drainage areas for each rf3 watershed in EPA region 5 developed by Tom Fitzhugh and modified to include drainage area classes by Arlene Olivero.</othercit>
+            <pubdate>Unknown</pubdate>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>All shapefiles created from previous step were merged into a single file.</procdesc>
+        <procsv>ArcView 3.2 Geoprocessing extension</procsv>
+        <procdate>200403</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>All Undesignated rf3 reach IDs were replaced with autonumbers.</procdesc>
+        <procsv>MS Access 2000</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Polygons were disolved based on RF3 reach ID inorder to make this field a primary identifier key.</procdesc>
+        <procsv>ArcView 3.2 Geoprocessing extension</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">C:\LocalGISfiles\DDnad27\Final\RF3minisheds</srcused>
+        <date Sync="TRUE">20040713</date>
+        <time Sync="TRUE">13091300</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Shapefile was reprojected into NAD27 decimal degrees from Custom Pennsylvania Albers</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+    <logic>unknown</logic>
+    <complete>Complete.</complete>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="WPC_RF3minisheds">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">48994</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="WPC_RF3minisheds">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">48994</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="WPC_RF3minisheds">
+      <enttyp>
+        <enttypl Sync="TRUE">WPC_RF3minisheds</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">48994</enttypc>
+        <enttypd>Drainage area polygons for each RF3 river reach flowing in Pennsylvania.</enttypd>
+        <enttypds>PAD</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RF3RCHID</attrlabl>
+        <attalias Sync="TRUE">RF3RCHID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">17</attwidth>
+        <attrdef>Unique ID for each rf3 watershed polygon.  In the form HUC 8 number (sans leading 0); stream number; segment rivermile</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Polygon ID</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attalias Sync="TRUE">AREA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Polygon area</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Area</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attalias Sync="TRUE">PERIMETER</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Polygon perimeter</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Perimeter</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REG5SHEDPO</attrlabl>
+        <attalias Sync="TRUE">REG5SHEDPO</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REG5SHED_1</attrlabl>
+        <attalias Sync="TRUE">REG5SHED_1</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GRID_CODE</attrlabl>
+        <attalias Sync="TRUE">GRID_CODE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ARCIDNUM</attrlabl>
+        <attalias Sync="TRUE">ARCIDNUM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TERM</attrlabl>
+        <attalias Sync="TRUE">TERM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SEQNO</attrlabl>
+        <attalias Sync="TRUE">SEQNO</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LEVEL</attrlabl>
+        <attalias Sync="TRUE">LEVEL</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SRCHFLG</attrlabl>
+        <attalias Sync="TRUE">SRCHFLG</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WTSHD</attrlabl>
+        <attalias Sync="TRUE">WTSHD</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREACLASS</attrlabl>
+        <attalias Sync="TRUE">AREACLASS</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DOWNAREACL</attrlabl>
+        <attalias Sync="TRUE">DOWNAREACL</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Unknown</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AUTOID</attrlabl>
+        <attalias Sync="TRUE">AUTOID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>ID number</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>automatically generated ID number</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>Drainage area polygons for each RF3 river reach flowing in Pennsylvania.</dsoverv>
+      <eaover>Attributes include area, perimeter and several unknowns.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">71.953</transize>
+          <dssize Sync="TRUE">71.953</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100323</metd>
+    <metc>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Coservancy; Natural Heritage Program</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <CreaDate>20040713</CreaDate>
+    <CreaTime>12451500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20100323</SyncDate>
+    <SyncTime>10240600</SyncTime>
+    <ModDate>20100323</ModDate>
+    <ModTime>11005300</ModTime>
+    <MetaID>{9F07298A-C5E5-4033-ABA3-DC5A4E4842B1}</MetaID>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">WPC_RF3minisheds</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-80.592198</westBL>
+          <eastBL Sync="TRUE">-74.682027</eastBL>
+          <northBL Sync="TRUE">42.271548</northBL>
+          <southBL Sync="TRUE">39.648952</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.592198</westBL>
+      <eastBL Sync="TRUE">-74.682027</eastBL>
+      <northBL Sync="TRUE">42.271548</northBL>
+      <southBL Sync="TRUE">39.648952</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PASDA-WX\E$\PASDA\mxds\Shapes\Aquatic Community Classification Project\WPC_RF3minisheds.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">71.953</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1927</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="WPC_RF3minisheds">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">48994</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20100323</mdDateSt>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

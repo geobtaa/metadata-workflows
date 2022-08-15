@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Licia Weber (Data compiler)</origin>
+        <origin>Rebecca Meyer (Data compiler)</origin>
+        <pubdate>20140411</pubdate>
+        <title>
+COAL_MINE_MINED_OUT_COLCHESTER_IN_2014: Mined-Out Areas in the Colchester Coal Member in Indiana
+(Indiana Geological Survey, 1:24,000, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This shapefile contains information that is related to two additional
+GIS data sets produced by the Indiana Geological Survey:
+1) COAL_MINE_UNDERGROUND_IN: Underground Coal Mines in Indiana (Indiana
+Geological Survey, 1:24,000, Polygon Shapefile)
+2) COAL_MINE_SURFACE_IN: Surface Coal Mines in Indiana (Indiana
+Geological Survey, 1:24,000, Polygon Shapefile)
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 is a polygon-based ESRI ArcGIS shapefile that shows
+the location and extent of the mined-out areas in the Colchester Coal Member in the coal region
+of west-central and southwestern Indiana. COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 includes mine
+locations from documented surface and underground mines that operated in Indiana
+since the late 1800s. COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 is attributed to allow the mine
+polygons to be differentiated based on mine number, county name, and mine type (surface or underground).
+</abstract>
+      <purpose>
+COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 is a composite of all surface and underground mined-out areas in the Colchester
+Coal Member in Indiana. COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 incorporates all Colchester Coal Member surface and
+underground mined-out areas compiled by the Indiana Geological Survey (IGS) digitized from maps collected from the Indiana Department of Natural
+Resources Division of Reclamation, the Indiana Bureau of Mines, coal companies, field maps and notes of IGS geologists,
+IGS publications, several series of aerial photographs, and U.S. Geological Survey 7.5-minute quadrangle maps.
+All mined-out data included in COAL_MINE_MINED_OUT_COLCHESTER_IN_2014 are organized in a GIS using ArcGIS software
+of the Environmental Systems Research Institute (ESRI) on the Windows platform. Scale of source data ranges from
+1:4,800 to 1:100,000. COAL_MINE_SURFACE_IN includes attributes that allow the mine polygons to be differentiated
+based on mine number, county name, and mine type (surface or underground).
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>18831231</begdate>
+          <enddate>20101231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>20131231</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annual</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.5369</westbc>
+        <eastbc>-86.5040</eastbc>
+        <northbc>40.2158</northbc>
+        <southbc>37.8483</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>economy</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>coal mine</themekey>
+        <themekey>mining</themekey>
+        <themekey>surface mine</themekey>
+        <themekey>strip mine</themekey>
+        <themekey>underground mine</themekey>
+        <themekey>coal</themekey>
+        <themekey>mine reclamation</themekey>
+        <themekey>Coal Mine Information System (CMIS)</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Pennsylvanian</themekey>
+        <themekey>Carbondale Group</themekey>
+        <themekey>Linton Formation</themekey>
+        <themekey>Colchester Coal Member</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Warrick County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.0 shapefile format</native>
+    <useconst>Geology--Coal_Colchester_Mined_Out_Areas</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Two tests for attribute consistency were performed by IGS personnel
+using the QueryBuilder Tool in ArcView.
+(1) Completeness of values was verified. No values were left blank.
+(2) Validity of values was verified. All features were attributed with values in the appropriate
+range and format.
+</attraccr>
+    </attracc>
+    <logic>
+Two tests for attribute consistency were performed by IGS personnel
+using the QueryBuilder Tool in ArcView.
+(1) Completeness of values was verified. No values were left blank.
+(2) Validity of values was verified. All features were attributed with values in the appropriate
+range and format.
+</logic>
+    <complete>
+All surface and underground mined-out areas in the Colchester Coal Member in Indiana included
+in this shapefile were compiled as part of the Indiana Coal Mine Information System (CMIS)
+project at the Indiana Geological Survey. The CMIS is an integrated geographic information
+system and database management system created to maintain spatial and tabular
+data related to coal mines in the Indiana portion of the Illinois Basin. The
+CMIS includes spatial mine data compiled from all known sources including: company
+mine maps (from the Indiana Division of Reclamation, Indiana Bureau of Mines, coal companies),
+field maps and notes of IGS geologists, IGS publications, several series of aerial photographs,
+and U.S. Geological Survey 7.5-minute quadrangle maps. In compiling data for the CMIS,
+every effort was made to ensure data accuracy and completeness. However, it is known
+that undocumented surface mining has occurred in the study area. Also, because of
+inconsistency in source map quality and completeness, the actual extent of surface
+mining may not coincide with the boundaries portrayed in this shapefile. A detailed on-
+the-ground survey and historical analysis of a specific site may differ from this
+shapefile.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Mined-out areas included in this shapefile were compiled from several sources
+with varying map scales. Thus, the horizontal positional accuracy of individual
+polygons may vary. If highly detailed mine location and layout information is
+needed, contact the Indiana Geological Survey for additional information. Because
+of inconsistency in source map quality and completeness, the actual extent of
+surface mining may not coincide with the boundaries portrayed in this shapefile.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the creation of COAL_MINE_MINED_OUT_COLCHESTER_IN_2014.
+No quantitative tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1987</pubdate>
+            <title>1:24,000-scale surface and underground coal mine maps</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>18831231</begdate>
+              <enddate>19871231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Surface and underground mine quadrangle maps</srccitea>
+        <srccontr>Polygons showing mined areas</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Mined-out areas in the Colchester Coal Member from a variety of sources including company
+mine maps, field maps and notes of IGS geologists, IGS publications, several series
+of aerial photographs, and U.S. Geological Survey 7.5-minute topographic maps were
+rescaled and hand-plotted on 1:24,000-scale quadrangle maps. This data set,
+comprising of more than 100 quadrangle maps, was compiled by IGS personnel in the
+mid-1980s to create the first complete compilation of surface and underground mine locations
+in Indiana.
+</procdesc>
+        <procdate>1985-1988</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Licia Weber</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>IN</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1364</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>weber@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Polygons from the Indiana Geological Survey 1:24,000-scale surface and underground mine coal
+maps were digitized by Indiana Geological Survey personnel in the late
+1980s to create the first coal mine GIS for the IGS and the Indiana Division
+of Reclamation. Outlines were digitized using ESRI PC ArcInfo and georeferenced
+using eight tics from 1:24,000-scale quadrangle maps.
+</procdesc>
+        <procdate>1988-1991</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Licia Weber</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>IN</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1364</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>weber@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Data from the early coal mine GIS were converted to a new GIS format and
+updated with new mine data. Using ESRI ArcInfo ver. 7.2.1, polygons were extracted
+from the old GIS coverages and integrated into a new REGION-based GIS format.
+Each polygon was attributed with source information, dates of mining, and coal
+seam data. The resulting reformatted mine coverages (more than 4,000 including underground
+and surface coal mines) constitute the primary mine GIS data for the Indiana
+Coal Mine Information System, an integrated geographic information system
+and database management system. In addition to the reformatting, more than 1,000 mine
+coverages were added to the GIS, including approximately 225 new surface mines, 20
+new underground mines, and nearly 1,200 historic underground mine entrance locations.
+</procdesc>
+        <procdate>1997-1999</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Licia Weber</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1364</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+CMIS mine data were updated with information collected for the Directory of Coal
+Mines and Producers in Indiana - 2000. The update included approximately 40 surface
+mine polygons and 5 underground mine polygons. Most data were received in digital
+format from mining companies and converted to suitable format by IGS personnel.
+</procdesc>
+        <procdate>20000501</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Licia Weber</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1364</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Mine coverages from the Indiana Coal Mine Information System were appended using
+an AML running in ESRI ArcInfo version 7.2.1. This coverage was then projected to UTM zone
+16 NAD 83 using the ESRI ArcView Projector extension.The resulting coverage included all mines
+in the Indiana coal region. COAL_MINE_SURFACE_IN was created in ESRI ArcView by using the ESRI ArcView
+QueryBuilder to select only surface mines and then by using the convert-to-shapefile
+command to create a new shapefile from the selected data.
+</procdesc>
+        <procdate>20000729</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Licia Weber</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1364</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>weber@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>ArcInfo surface mine coverages were converted to an ESRI personal geodatabase feature data set.</procdesc>
+        <procdate>2002</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Active surface and underground mines outlines, and mined-out areas were digitized to update
+the data from affected-area maps collected annually from the Indiana Department of Natural Resources,
+Division of Reclamation and the Indiana Bureau of Mines.
+</procdesc>
+        <procdate>2002 to 2007</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Active surface mine outlines and underground mines outlines, and mined-out areas
+were digitized to update the data from affected-area maps collected
+annually from the Indiana Department of Natural Resources, Division of Reclamation
+and the Indiana Bureau of Mines.
+</procdesc>
+        <procdate>2008</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Active surface mine and underground mines outlines, and mined-out areas outlines were
+digitized to update the data from affected-area maps collected annually from the Indiana
+Department of Natural Resources, Division of Reclamation and the Indiana Bureau of Mines.
+</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Mined-out areas in the Colchester Coal Member in Indiana were extracted and the
+COAL_MINE_ACTIVE_COLCHESTER_IN_2014 was created.
+</procdesc>
+        <procdate>2014</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit) and
+MP (Metadata Parser) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20140411</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rebecca Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 6641</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>328</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>COAL_MINE_MINED_OUT_COLCHESTER_IN_2014.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_area</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_len</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>IGS ID Number</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7903</rdommin>
+            <rdommax>11066</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mine_Numbe</attrlabl>
+        <attrdef>IGS Mine ID Number</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>202073</rdommin>
+            <rdommax>800968</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County_Nam</attrlabl>
+        <attrdef>County name</attrdef>
+        <attrdefs>IGS</attrdefs>
+        <attrdomv>
+          <udom>Character Field.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mine_Type</attrlabl>
+        <attrdef>The type of a mine</attrdef>
+        <attrdefs>IGS</attrdefs>
+        <attrdomv>
+          <udom>
+Valid values are "surface" or "underground"
+</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>igsinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products
+generated from this data.  The following citation should be included:
+COAL_MINE_MINED_OUT_COLCHESTER_IN_2014: Mined-Out Areas in the Colchester Coal Member
+in Indiana (Indiana Geological Survey, 1:24,000, Polygon Shapefile),
+data compilation by Licia Weber and Rebecca Meyer, 2014.
+
+WARRANTY
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to, Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20140411</metd>
+    <metrd>201140413</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Agnieszka Drobniak</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>474052208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 8505</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>agdrobni@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

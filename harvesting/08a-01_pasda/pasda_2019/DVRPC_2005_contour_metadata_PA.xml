@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Delaware Valley Regional Planning Commission </origin>
+        <pubdate>20061205</pubdate>
+        <title>DVRPC's 2005 Topographic Contours</title>
+        <pubinfo>
+          <pubplace>Mt. Laurel, NJ</pubplace>
+          <publish>BAE Systems</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20050404</begdate>
+          <enddate>20050410</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.137</westbc>
+        <eastbc>-74.772</eastbc>
+        <northbc>40.677</northbc>
+        <southbc>39.772</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Contours</themekey>
+        <themekey>Topographic Contours</themekey>
+        <themekey>Elevation Contours</themekey>
+        <themekey>Elevation</themekey>
+        <themekey>Spot Elevations</themekey>
+        <themekey>Control Points</themekey>
+        <themekey>DTM/DEM</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>DVRPC Region</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Bucks County</placekey>
+        <placekey>Chester County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Philadelphia County</placekey>
+      </place>
+    </keywords>
+    <accconst>Must contact DVRPC.</accconst>
+    <useconst>The Delaware Valley Regional Planning Commission (DVRPC) excludes any and all implied warranties of merchantability and fitness.  No guarantees are expressed or implied as to the use or application of the digital information supplied.  DVRPC assumes no responsibility to maintain them in any manner or form.  DVRPC will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the material supplied, or arising out of any inaccuracy or defect in the digital information supplied.  Recipients of DVRPC digital files are not entitled to any file revisions, updates, corrections, or new releases.  Recipients of DVRPC digital files are expressly prohibited from copying or releasing these files to any other individuals or agencies, under any circumstances.  Recipients of DVRPC digital files are expressly prohibited from displaying for view or making these files available for download from the Internet or World Wide Web, under any circumstances.  Recipients of DVRPC digital files will credit DVRPC as the source of the data when producing maps, publications, reports, or other documents that utilize DVRPC files.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sandra Elfreth-Howery</cntper>
+          <cntorg>BAE Systems ADR</cntorg>
+        </cntperp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>124 Gaither Drive</address>
+          <address>Suite 100</address>
+          <city>Mt. Laurel</city>
+          <state>NJ</state>
+          <postal>08054</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>856-793-4287</cntvoice>
+        <cntfax>856-866-7800</cntfax>
+        <cntemail>sandra.elfreth-howery@baesystems.com</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>BAE Systems</datacred>
+    <descript>
+      <abstract>DVRPC_2005_contour_metadata_PA</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The accuracy of the ground control is confirmed by the evaluation of the results of the analytical bundle adjustment.  The residuals of the final adjustment ensured compliance with NSSDA standards.  The Pre Adjustment Gross Error Detection Statistical Test (Data Snooping, with a confidence level of 99.9%) has been applied to all observations included in the aerial triangulations. To detect small gross errors, during Adjustment Robust Estimators were used with the same confidence level and a power of the test of 1-beta=0.2. Systematic errors were eliminated through self calibration and through Additional Parameters. Their numerical stability, statistical significance, internal and external reliability were checked using Student-t test with the same confidence level and Variance/Co-variance analysis. Finally, the arrived variance factor was submitted to a Chi-square test against the pre-adjustment variance factor using a confidence level 99.9%.  Evaluation of the DEM includes checking the terrain data for spikes and wells, omissions, and other anomalies that do not meet the project accuracy requirements.  The horizontal and vertical accuracy has been tested by comparing the coordinates of well-defined points in the dataset with coordinates of the same points from an independent source of higher accuracy.</attraccr>
+    </attracc>
+    <logic>All files are inspected by the Production Manager to ensure that they conform to the specified file naming conventions, all files load in their correct geographic position, all files conform to the project specifications.  The data has been checked for duplicate features, correct edge matching, overshoots, undershoots, offsets, overall cartographic appearance.</logic>
+    <complete>The data has been checked to ensure that the boundary and the content has been covered in its entirety.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard.  The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The DEM data meets the required vertical accuracy necessary to ensure that the contours meet NMAS for 1"=200', 5' CI mapping.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>BAE Systems</origin>
+            <pubdate>20000401</pubdate>
+            <title>GPS Photo Control Survey</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20000401</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>GPS Ground Control</srccitea>
+        <srccontr>To be utilized in the analytical aerotriangulation process.  All horizontal and vertical control was prepared under the supervision of licensed Professional Land Surveyors.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Earth Data International</origin>
+            <pubdate>20050410</pubdate>
+            <title>Digital Color Aerial Photography</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>2400</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20050404</begdate>
+              <enddate>20050410</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Aerial Photography</srccitea>
+        <srccontr>Color Aerial photography to be used in the creation of digital orthophotos.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Horizontal and Vertical control points were acquired utilizing GPS collection techniques.  All control was prepared under the supervision of licensed Professional Land Surveyors.</procdesc>
+        <procdate>20000401</procdate>
+        <srcprod>GPS Ground Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Color aerial imagery captured with the Leica ADS40 digital camera system and PAV30 gyro stabilized mount.  The photography was captured at a flying height of 9,500' utilizing GPS and IMU technology and conforms to ASPRS's Draft Aerial Photography Standards (1995).</procdesc>
+        <procdate>20050416</procdate>
+        <srcprod>Aerial Photography</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The airborne GPS data were processed and integrated with the IMU. The results were imported into the ISTAR system for use in the aerotriangulation. The ADS40 imagery was downloaded onto the server and brought over to the UNIX based ISTAR system. The ground control was used in conjunction with the processed ABGPS results for the aerotriangulation. The properly formatted ISTAR results were used for subsequent processing.</procdesc>
+        <srcused>GPS Ground Control</srcused>
+        <srcused>Aerial Photography</srcused>
+        <procdate>20050601</procdate>
+        <srcprod>Analytical Aerotriangulation</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The procedure utilized for the development of the DTM/DEM consisted of experienced photogrammetric technicians manually collecting masspoints and breaklines at a sufficient density that will ensure accurate generation of five foot contours as stated in the project specifications.  Existing "Contour Grade DEMs" were available from previous Chester County and City of Philadelphia projects.  These DEMs were reviewed and updated as necessary to reflect the terrain conditions of the new 2005 imagery to insure that the resulting contours meet NMAS for 1"=200', 5' CI mapping.</procdesc>
+        <srcused>Aerial Photography</srcused>
+        <srcused>Analytical Aerotriangulation</srcused>
+        <procdate>20061105</procdate>
+        <srcprod>DEM</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Five foot contours were generated from the DEM using 3D Analyst in ArcMap.</procdesc>
+        <srcused>Aerial Photography</srcused>
+        <srcused>Analytical Aerotriangulation</srcused>
+        <srcused>DEM</srcused>
+        <procdate>20061205</procdate>
+        <srcprod>Topography</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.933333</stdparll>
+            <stdparll>40.966667</stdparll>
+            <longcm>-77.750000</longcm>
+            <latprjo>39.333333</latprjo>
+            <feast>1968500.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1.000000</absres>
+            <ordres>1.000000</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Attribute values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>All features were captured in conformance with accepted photogrammetric mapping procedures.  This data set contains the following features:  breakline, digital_elevation_model_point, control_point, obscured_area, elevation_contour_line, spot_elevation_point.</eaover>
+      <eadetcit>Where applicable, all data conforms to the Proposal for 2005 Aerial Photography Project presented to the Delaware Valley Regional Planning Commission August 5, 2004.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Delaware Valley Regional Planning Commission</cntorg>
+          <cntper>Glenn McNichol</cntper>
+        </cntorgp>
+        <cntpos>Senior GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>190 N. Independence Mall West</address>
+          <address>8th Floor</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19106</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>215-592-1800</cntvoice>
+        <cntfax>215-592-9125</cntfax>
+        <cntemail>gmcnichol@dvrpc.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Recipients of DVRPC digital files are expressly prohibited from copying or releasing these files to any other individuals or agencies, under any circumstances.  Recipients of DVRPC digital files are expressly prohibited from displaying for view or making these files available for  download from the Internet or World Wide Web, under any circumstances.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070807</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>BAE Systems</cntorg>
+          <cntper>William Kunkle</cntper>
+        </cntorgp>
+        <cntpos>Geospatial Lead Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>124 Gaither Drive</address>
+          <address>Suite 100</address>
+          <city>Mt. Laurel</city>
+          <state>NJ</state>
+          <postal>08054</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>856-793-4277</cntvoice>
+        <cntfax>856-866-7800</cntfax>
+        <cntemail>william.kunkle@baesystems.com</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>14303200</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+  </distinfo>
+</metadata>

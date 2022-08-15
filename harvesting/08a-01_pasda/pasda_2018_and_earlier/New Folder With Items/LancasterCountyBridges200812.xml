@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County - Bridges</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <othercit>This data was originally published in 1993 and created photogrammetrically by Aerial Data Reduction Associates, Inc.  Updated countywide with 1998 photography by Aerial Data Reduction Associates, Inc. In 2005 covered and non-covered bridges were combined into on dataset.</othercit>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <ftname Sync="TRUE">LancasterCountyBridges200812</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-76.722888</westbc>
+        <eastbc Sync="TRUE">-75.898884</eastbc>
+        <northbc Sync="TRUE">40.315260</northbc>
+        <southbc Sync="TRUE">39.720830</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">2257389.336096</leftbc>
+        <rightbc Sync="TRUE">2484742.004913</rightbc>
+        <bottombc Sync="TRUE">146525.066892</bottombc>
+        <topbc Sync="TRUE">359397.046103</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>Bridges</themekey>
+        <themekey>Covered Bridges</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekey>Lancaster County</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>Access to this data is limited to internal use with Lancaster County government and to those who have signed the Lancaster County GIS data license agreement.</accconst>
+    <useconst>
+The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance 
+
+These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS</cntorg>
+        </cntperp>
+        <cntpos>Senior GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St.</address>
+          <address>PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <crossref>
+      <citeinfo>
+        <title>Bridges</title>
+      </citeinfo>
+    </crossref>
+    <descript>
+      <abstract>LancasterCountyBridges200812</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Verified visually using aerial photography and through field reconnaissance</attraccr>
+    </attracc>
+    <logic>Topology Exists</logic>
+    <complete>The data was created using countywide 1 inch to 1600 foot aerial photography  The data extends to at least the County border and will include a buffer of approximately 250' or greater.  All bridges visible at this scale were included in the dataset.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy conforms to National Mapping Accuracy Standards of planimetric and topographic mapping data at a design scale of 1"=200'</horizpar>
+        <qhorizpa>
+          <horizpav>Positional accuracy of +/- 7 feet for 90% of features</horizpav>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>2400</srcscale>
+        <typesrc>Aerial Photographs</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>Features digitized from aerial photography using photogrammetric equipment in 1993 and 1998.  Supplemented and revised by Lancaster County GIS from information gathered through assessment, fieldwork and surveys.</procdesc>
+        <procdate>1999</procdate>
+      </procstep>
+    </lineage>
+    <cloud>None</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="LancasterCountyBridges200812">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">1412</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="LancasterCountyBridges200812">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1412</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="LancasterCountyBridges200812">
+      <attr>
+        <attrlabl Sync="TRUE">TYPE</attrlabl>
+        <attalias Sync="TRUE">TYPE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <attrdef>Identifies bridge and covered or non-covered</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Covered Bridge</edomvd>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>non-covered bridge</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <enttyp>
+        <enttypl>Bridges</enttypl>
+        <enttypd>Attribute table for Bridge Polygons</enttypd>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1412</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">SHAPE_area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_area</attrlabl>
+        <attalias Sync="TRUE">SHAPE_len</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_len</attrlabl>
+        <attalias Sync="TRUE">SHAPE_len</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.276</transize>
+          <dssize Sync="TRUE">0.276</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100415</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Lancaster County GIS</cntorg>
+          <cntper>Jean Juengling</cntper>
+        </cntorgp>
+        <cntpos>Consultant/GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St.</address>
+          <address>PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 391-7550</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+  </metainfo>
+  <Esri>
+    <MetaID>{0CD78F00-AD46-48DA-AEC4-2F6529F672BB}</MetaID>
+    <CreaDate>20060605</CreaDate>
+    <CreaTime>13041600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20081222</SyncDate>
+    <SyncTime>10113000</SyncTime>
+    <ModDate>20100415</ModDate>
+    <ModTime>09211900</ModTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20081125" Time="155606">CopyFeatures "Database Connections\gisro@lc_land@lcsde1.sde\LC_Land.GISADMIN.Transportation\LC_Land.GISADMIN.Bridges" C:\Work\Backup\projects\PASDA\LC_Land_GISADMIN_Bridges.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">LancasterCountyBridges200812</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">2257389.336096</westBL>
+          <eastBL Sync="TRUE">2484742.004913</eastBL>
+          <northBL Sync="TRUE">359397.046103</northBL>
+          <southBL Sync="TRUE">146525.066892</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-76.722888</westBL>
+      <eastBL Sync="TRUE">-75.898884</eastBL>
+      <northBL Sync="TRUE">40.31526</northBL>
+      <southBL Sync="TRUE">39.72083</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Lancaster\update12_18_08\LancasterCountyBridges200812.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.276</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="LancasterCountyBridges200812">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">1412</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20100415</mdDateSt>
+</metadata>

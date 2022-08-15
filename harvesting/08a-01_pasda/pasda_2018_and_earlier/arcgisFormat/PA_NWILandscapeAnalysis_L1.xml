@@ -1,0 +1,364 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>PA_NWI Landscape Analysis_L1</title>
+        <geoform>vector digital data</geoform>
+        <origin>Pennsylvania State University</origin>
+        <pubdate>2015</pubdate>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-80.733927</westbc>
+        <eastbc>-74.591901</eastbc>
+        <northbc>42.342085</northbc>
+        <southbc>39.559696</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Landscape Analysis (Level 1). Pennsylvania Mapped Wetlands.</themekey>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>Riparia Center, Department of Geography. Pennsylvania State University.
+
+Last Updated: October 2015</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Riparia Center, Department of Geography. Pennsylvania State University</cntorg>
+        </cntorgp>
+        <cntemail>cxf31@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <current>publication date</current>
+    </timeperd>
+    <descript>
+      <abstract>PA_NWILandscapeAnalysis_L1</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>168080</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <albers>
+            <stdparll>40.0</stdparll>
+            <stdparll>42.0</stdparll>
+            <longcm>-78.0</longcm>
+            <latprjo>39.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000003571654083600607</absres>
+            <ordres>0.000000003571654083600607</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PA_NWI_LandAnalysis</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ATTRIBUTE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WETLAND_TY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HECTARES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Type_Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Type_Numb</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>T2_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>T2_Numb</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HUC8_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANWI_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BUFF_DIST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANWI_ID_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DEVELOPED_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DEVELOPED1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DEVELOPE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DEVELOPE_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BARREN__RO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FOREST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHRUB_SCRU</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PASTURE_HA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CULTIVATED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WETLANDS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUM_Area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_WATER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_DEVELO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_DEVE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_DEVE_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_DEVE_3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_BARREN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_FOREST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_SHRUB_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_PASTUR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_CULTIV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_WETLAN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LDI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANWI_ID_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATER_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NOT_FOREST</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CORE_FORES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDGE_FORES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUM_Area_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_WATER_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_NOT_FO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_CORE_F</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PER_EDGE_F</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANWI_ID_3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Strahler7</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUM_AllRoa</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RoadDens_k</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Le_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>2016</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <dataIdInfo>
+    <idPurp>The purpose of this dataset is to characterize all mapped wetlands from the NWI (2014) of the Commonwealth of Pennsylvania through a Level 1 Landscape Analysis. Wetland sites are defined as 1-km radius circles around the center point of each wetland polygon. The following indicators are quantified at each wetland site: Area (m2) and percentage (%) of each land use class, landscape development intensity (LDI) index, road density (km/km2), and percentage of impervious surface.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Overview: Input data used in the analysis: National Wetland Inventory (2014, 1:24,000), US Fish and Wildlife Service, National Wetlands Inventory (FWS/NWI). Two derived Land Use/Land Cover datasets (2011, 30-meter resolution), Multi-resolution LandCover Consortium, National Land Cover Database.TIGER/Lines Shapefiles (2009, United States Census Bureau)Attributes: The layer's attribute table has the following items:NWI original attributesPANWI_ID: Unique ID assigned to each wetland centroidBuffer_Distance: 1000m (1km) radius circle from the centroid of each wetland polygon(1) LU/LC Classes (m2, %): Water, Developed open space, Developed low intensity, Developed medium intensity, Developed high intensity, Barren rock/clay/sand, Forest, Shrub/scrub, Pasture/hay, Cultivated crops, and Wetlands, Total area.(2) LU/LC Classes (m2, %)*: Water, Not forest, Core forest, Edge forest, Total areaLandscape Development Intensity Index (LDI)Road Length (m) per Code and Total, Road Density (km/km2)* Slight differences in total number of pixels per class when comparing to (1) LU/LC classes due to data manipulation.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>Riparia Center, Department of Geography. Pennsylvania State University.
+
+Last Updated: October 2015</idCredit>
+    <idCitation>
+      <resTitle>PA_NWI Landscape Analysis_L1</resTitle>
+    </idCitation>
+    <searchKeys>
+      <keyword>Landscape Analysis (Level 1). Pennsylvania Mapped Wetlands.</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+  </dataIdInfo>
+  <Esri>
+    <ModDate>20160818</ModDate>
+    <ModTime>9552900</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <mdHrLv>
+    <ScopeCd value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

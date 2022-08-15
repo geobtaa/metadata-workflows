@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Natural Heritage Data Center, Indiana Department of Natural Resources (Data creator)</origin>
+        <pubdate>20180212</pubdate>
+        <title>MANAGED_LANDS_IDNR_IN: Managed Lands in Indiana (Indiana Department of Natural Resources, 1:24,000, Polygon Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Natural Heritage Data Center, Indiana Department of Natural Resources</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of Indiana Geological and Water Survey (IGS) on December 28. 2007 by the Indiana Natural Heritage Data Center,
+Indiana Department of Natural Resources personnel. An updated data set was received on April 16, 2009, April 21, 2010, September 20, 2010,
+March 15, 2012, March 26, 2013, November 8, 2013, May 19, 2014, March 4, 2015, November 10, 2015, June 16, 2016, April 19, 2017, and February
+12. 2018. The data was provided in an Esri shapefile format, and was named "MANAGEDLANDS_DNR_INHD_IN_180212.SHP". This file was approved
+for public distribution by the Natural Heritage Data Center.
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Managed_Lands_IDNR_IN is an Esri polygon shapefile that contains managed land areas in Indiana, provided by personnel of the Indiana
+Natural Heritage Data Center, Indiana Department of Natural Resources (INHDC-IDNR) as of February 12, 2018. Attributes include contact
+information for land managers, as well as whether the land is open to the general public or if access is restricted. For additional
+information regarding lands owned by federal agencies, local agencies, and non-profit organizations, as well as conservation
+easements, persons should contact the IDNR Indiana Natural Heritage Data Center (317-232-4052).
+
+The following is excerpted from the metadata provided by INHDC-IDNR for the source shapefile MANAGEDLANDS_DNR_INHD_IN_180212.SHP:
+
+"ManagedLands_DNR_INHD_IN is a subset of ManagedLandsAll_DNR_INHD_IN, excluding those areas that are listed as conservation
+easements or listed as closed.
+
+"ManagedLandsAll_DNR is the Indiana Natural Heritage Data Center Managed Areas dataset. It includes natural and recreation areas
+which are owned or managed by the Indiana Department of Natural Resources, federal agencies, local agencies, and non-profit
+organizations. It also includes private lands with Conservation Easements owned by IDNR.
+
+"NATURAL AREAS THAT ARE NOT OWNED NOR MANAGED BY DNR ARE ADDED AS DATA IS AVAILABLE. IT IS BY NO MEANS A COMPLETE AND COMPREHENSIVE
+DATASET FOR ALL SUCH AREAS IN THE STATE.
+
+"The Indiana Natural Heritage Data Center Managed Area Database is a digital, geospatial file containing information on Indiana's
+significant protected natural areas. All counties in the state are represented."
+</abstract>
+      <purpose>
+To provide the locations of lands owned or managed by the Indiana Department of Natural Resources as a GIS layer.
+
+The following is excerpted from the metadata provided by INHDC-IDNR for the source shapefile MANAGEDLANDS_DNR_INHD_IN_180212.SHP:
+
+"This file was created as a statewide inventory of significant natural areas"
+</purpose>
+      <supplinf>
+The following is excerpted from the metadata provided by INHDC-IDNR for the source shapefile MANAGEDLANDS_DNR_INHD_IN_180212.SHP:
+
+"The Indiana Natural Heritage Database and its derivatives,"..."are made available on an "as is" basis, without express
+or implied warranty of any sort, including specifically any implied warranties of fitness for particular purposes,
+warranties of merchantability, or warranties relating to the accuracy or completeness of the database. It is distributed
+in the form of digital printouts. Subsets of the data are regularly distributed to organizations and which the Indiana
+Natural Heritage Data Center has data use agreements. Efforts are made to keep the Indiana Department of Natural
+Resources lands up-to-date. Other organization owned lands are updated whenever information is made available to the
+Department, so should be verified by those organizations as to its accurateness and completeness."
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180212</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.134790</westbc>
+        <eastbc>-84.734683</eastbc>
+        <northbc>41.774012</northbc>
+        <southbc>37.766556</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>environment</themekey>
+        <themekey>location</themekey>
+        <themekey>society</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>managed land</themekey>
+        <themekey>public land</themekey>
+        <themekey>national park</themekey>
+        <themekey>recreation</themekey>
+        <themekey>park</themekey>
+        <themekey>forest</themekey>
+        <themekey>reservoir</themekey>
+        <themekey>nature preserve</themekey>
+        <themekey>land trust</themekey>
+        <themekey>nature conservancy</themekey>
+        <themekey>managed area</themekey>
+        <themekey>natural area</themekey>
+        <themekey>significant area</themekey>
+        <themekey>state park</themekey>
+        <themekey>state forest</themekey>
+        <themekey>state recreation area</themekey>
+        <themekey>Fish and Wildlife Area (FWA)</themekey>
+        <themekey>Indiana Geological and Water Survey (IGS)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Indiana Natural Heritage Data Center</themekey>
+        <themekey>state historic site</themekey>
+        <themekey>local park</themekey>
+        <themekey>national forest</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+        <placekey>Indiana</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources, Division of Nature Preserves, Indiana Natural Heritage Data Center</cntorg>
+          <cntper>Cloyce L. Hedge</cntper>
+        </cntorgp>
+        <cntpos>Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 West Washington Street, Room W267</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4052</cntvoice>
+        <cntfax>317-233-0133</cntfax>
+        <cntemail>chedge@dnr.state.in.us</cntemail>
+        <hours>8am-4:30pm EST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Enterprise, Service Pack 1; ESRI ArcCatalog 10.3, 4.57 Mb</native>
+    <useconst>Environment--Managed_Lands_IDNR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>For more information, contact Indiana Natural Heritage Data Center, 317-232-4052.</attraccr>
+    </attracc>
+    <logic>For more information, contact Indiana Natural Heritage Data Center, 317-232-4052.</logic>
+    <complete>
+All lands owned or managed by IDNR in Indiana are represented in this dataset with the exception of conservation easements owned
+by IDNR on private lands, closed sites, and sites or preserves of sensitive areas of notable vulnerability.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>For more information, contact Indiana Natural Heritage Data Center, 317-232-4052.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Natural Heritage Data Center, Indiana Department of Natural Resources</origin>
+            <pubdate>20180212</pubdate>
+            <title>MANAGEDLANDS_DNR_INHD_IN_180212.SHP</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Natural Heritage Data Center, Indiana Department of Natural Resources</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Electronic mail</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20180212</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>MANAGEDLANDS_DNR_INHD_IN_180212.SHP</srccitea>
+        <srccontr>Current 2018 INHDC managed lands file</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Original dataset created by digitizing from topographic maps in the early 1990s. 1,648 labeled polygons.
+Process was done by Indiana Department of Natural Resources, Irv Goldblatt.
+</procdesc>
+        <srcused>USGS Topographic maps</srcused>
+        <procdate>19900101</procdate>
+        <srcprod>Managed Lands 1990</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+Updates to original dataset: increase to 1,700 labeled polygons. Most additions were local parks with LWCF funds attached to them. Data from deed record
+maps (Div. of Engineering) were drawn on USGS Topologic maps and digitized adding to previously existing Managed Areas Database. Process was done by
+Indiana Department of Natural Resources, Jeff Ewick.
+</procdesc>
+        <srcused>Managed Lands 1990</srcused>
+        <srcused>USGS Topographic maps</srcused>
+        <procdate>19900101</procdate>
+        <srcprod>Managed Lands 1990 update</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>ArcInfo coverage converted to shapefile. Updated by the Division of Nature Preserves as new dedicated Nature Preserves were added.</procdesc>
+        <srcused>Managed Lands 1990 update</srcused>
+        <procdate>unknown</procdate>
+        <srcprod>man1296</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Ron Hellmich</cntper>
+              <cntorg>Indiana Department of Natural Resources Division of Nature Preserves</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 W Washington Street, Room 267</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-8059</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Polygons with duplicate attributes were merged. Several fields were deleted and new fields were added.</procdesc>
+        <srcused>man1296.shp</srcused>
+        <procdate>20030101</procdate>
+        <srcprod>man1296.shp 2003</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Mike Martin</cntper>
+              <cntorg>Indiana Department of Natural Resources</cntorg>
+            </cntperp>
+            <cntpos>Agency GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 W Washington Street, Room 280</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4068</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.in.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Updated polygons for property owned by the Division of Forestry:
+1. man1296 manager = forestry and dedicated =y: 19 records = DedicatedForestry_man1296
+2. erase from StateForests [man1296 = Deam Lake, Starve Hollow] = ForestLessSra
+3. erase from man1296 Vallonia      StateForests Jackson-Washington = newVallonia
+4. erase from ForestLessSra      DedicatedForestry_man1296 = ForestLessSra_Dedicated
+5. delete from man1296 Vallonia, Clark, Selmier, Ferdinand, GS, JW, Martin, MM, OP, Salamonie River State Forest, Francis Slocum State Forest, Yellowwood, Wyandotte, HC
+6. add to man1296  ForestLessSra_Dedicated, newVallonia
+7. change managers for nature preserves
+8. update attributes
+</procdesc>
+        <srcused>man1296.shp 2003</srcused>
+        <procdate>20040615</procdate>
+        <srcprod>man1296.shp 2004</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Mike Martin</cntper>
+              <cntorg>Indiana Department of Natural Resources</cntorg>
+            </cntperp>
+            <cntpos>Agency GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 W Washington Street, Room 280</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4068</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.in.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Queries were used to create a subset of the dataset containing only those lands owned or managed by IDNR.  This ensures that IDNR can guarantee the accuracy of the
+spatial data and attributes. Non-IDNR lands (federal, non-profit, etc.) may be accessed within the entire dataset by request from IDNR, Indiana Natural Heritage Data
+Center, 317-232-4052.
+</procdesc>
+        <srcused>man1296.shp 2004</srcused>
+        <procdate>20070830</procdate>
+        <srcprod>IndianaDNR_ManagedLands.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Mike Martin</cntper>
+              <cntorg>Indiana Department of Natural Resources</cntorg>
+            </cntperp>
+            <cntpos>Agency GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 W Washington Street, Room 280</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4068</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.in.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+BLA personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "IndianaDNR_ManagedLands.shp" on August 30, 2007.  BLA personnel then saved
+the file as “MANAGED_LANDS_IDNR_IN.shp” and edited the existing metadata. The following empty or duplicate fields were removed - UNITACRE, SITECODE, DNR_CE.
+</procdesc>
+        <srcused>IndianaDNR_ManagedLands.shp</srcused>
+        <procdate>20070830</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_NP_STATEWIDE-GIS.SHP" on December 28, 2007.  IGS personnel then
+saved the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata. The following empty or duplicate fields were removed: "UNITACRE," "SITECODE," and "DNR_CE."
+</procdesc>
+        <srcused>IndianaDNR_ManagedLands.shp</srcused>
+        <procdate>20071228</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_NP_STATEWIDE-GIS.SHP" on April 16, 2009. IGS personnel then saved
+the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN090416.SHP</srcused>
+        <procdate>20090421</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_100420.SHP" on April 21, 2010. IGS personnel then saved
+the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_100420.SHP</srcused>
+        <procdate>20100421</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_100920.SHP" on September 20, 2010.
+IGS personnel then saved the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_100920.SHP</srcused>
+        <procdate>20100921</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_120315.SHP" on March 15, 2012.
+IGS personnel then saved the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_120315.SHP</srcused>
+        <procdate>20120315</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_130326.SHP" on March 26, 2013. IGS personnel
+then saved the file as "MANAGED_LANDS_IDNR_IN.SHP" and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_130326.SHP</srcused>
+        <procdate>20130326</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_131016.SHP" on November 08, 2013. IGS personnel
+then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_131016.SHP</srcused>
+        <procdate>20131108</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_140519.SHP" on May 19, 2014.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_140519.SHP</srcused>
+        <procdate>20140519</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_150304.SHP" on March 4, 2015.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_150304.SHP</srcused>
+        <procdate>20150304</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_151110.SHP" on November 10, 2015.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_151110.SHP</srcused>
+        <procdate>20151110</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_160616.SHP" on June 16, 2016.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_160616.SHP</srcused>
+        <procdate>20160616</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_170419.SHP" on April 20, 2017.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_170419.SHP</srcused>
+        <procdate>20170420</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an Esri shapefile from Indiana Natural Heritage Data Center named "MANAGEDLANDS_DNR_INHD_IN_180212.SHP" on February 13, 2018.
+IGS personnel then renamed the file as "MANAGED_LANDS_IDNR_IN.SHP" to conform to internaml naming conventions of the Indiana Geological and Water Survey
+and edited the existing metadata.
+</procdesc>
+        <srcused>MANAGEDLANDS_DNR_INHD_IN_180212.SHP</srcused>
+        <procdate>20180213</procdate>
+        <srcprod>MANAGED_LANDS_IDNR_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software written by
+Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20180220</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>2188</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MANAGED_LANDS_IDNR_IN.DBF</enttypl>
+        <enttypd>Shapefile attribute table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>number field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNITNAME</attrlabl>
+        <attrdef>Name of Property</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Name of property</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MANAGER</attrlabl>
+        <attrdef>Managing Entity of the property</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Name of person(s) or group whom oversee the property</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OWNER</attrlabl>
+        <attrdef>Owner of the Property</attrdef>
+        <attrdefs>INHDC-IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>F / *</edomv>
+            <edomvd>Federal</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>L / *</edomv>
+            <edomvd>Local</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>P / *</edomv>
+            <edomvd>Private</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>O / *</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>S / *</edomv>
+            <edomvd>State</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACCESS_</attrlabl>
+        <attrdef>Defines what type of access there is to the site (either 'Open - Per Restrictions' or 'Restricted')</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Access type</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DEDICATED_</attrlabl>
+        <attrdef>If the site is a dedicated state nature preserve</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Y = Yes, the area is a dedicated nature preserve</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>N = No, the site is not a dedicated nature preserve</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>"blank"</edomv>
+            <edomvd>Unknown</edomvd>
+            <edomvds>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PRGM_MGR</attrlabl>
+        <attrdef>Land manager</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>managing agency</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUBUNIT</attrlabl>
+        <attrdef>Name of this parcel, may or may not be same as the unitname.</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>subset of a larger unit</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTACT_PH</attrlabl>
+        <attrdef>Contact phone number</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MGR_ADDRES</attrlabl>
+        <attrdef>Managing entity's address</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MGR_CITY</attrlabl>
+        <attrdef>Managing entity's city</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MGR_STATE</attrlabl>
+        <attrdef>Managing entity's state</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MGR_ZIP</attrlabl>
+        <attrdef>Managing entity's zip code</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Acres of the subunit (may be multiple polygons)</attrdef>
+        <attrdefs>Indiana Natural Heritage Data Center - Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_AREA</attrlabl>
+        <attrdef>Area in square meters</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+        <attrdef>Perimeter in meters</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources, Division of Nature Preserves, Indiana Natural Heritage Data Center</cntorg>
+          <cntper>Ronald P. Hellmich</cntper>
+        </cntorgp>
+        <cntpos>Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W Washington Street, Room W267</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-8059</cntvoice>
+        <cntfax>317-233-0133</cntfax>
+        <cntemail>rhellmich@dnr.IN.gov</cntemail>
+        <hours>8am-4:30pm EST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended to be used only for general planning purposes. Detailed planning
+or analysis will require more accurate data
+</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[SECONDARY DISTRIBUTOR] Indiana Geological and Water Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday to Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended to be used only for general planning purposes. Detailed planning or analysis will require more accurate data.
+
+CREDIT
+
+It is requested that the Indiana Geological and Water Survey be cited in any products generated from this data set. The following source citation should be included:
+[Managed_Lands_IDNR_IN.SHP: Managed Lands in Indiana (Indiana Department of Natural Resources, 1:24,000, Polygon Shapefile), 20180212].
+
+Please also acknowledge the Indiana Natural Heritage Data Center, Indiana Department of Natural Resources, 20180212
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological
+and Water Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue
+or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological and Water Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20071228</metd>
+    <metrd>20180220</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

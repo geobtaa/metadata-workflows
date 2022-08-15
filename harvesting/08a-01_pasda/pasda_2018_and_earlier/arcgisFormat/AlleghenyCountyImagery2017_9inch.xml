@@ -1,0 +1,520 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Allegheny County Imagery 2017</title>
+        <geoform>remote-sensing image</geoform>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+        <pubdate>2017</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-80.085650</westbc>
+        <eastbc>-80.048712</eastbc>
+        <northbc>40.600694</northbc>
+        <southbc>40.572534</southbc>
+      </bounding>
+    </spdom>
+    <accconst>Call for details.</accconst>
+    <useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.</useconst>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <keywords>
+      <place>
+        <placekey>Allegheny County</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Pittsburgh</placekey>
+      </place>
+      <theme>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>aerial photograph</themekey>
+        <themekey>digital image map</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>digital orthophoto</themekey>
+        <themekey>orthophoto</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems Group</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>542 Forbes Avenue</address>
+          <city>Pittsburgh</city>
+          <state>Pennsylvania</state>
+          <postal>15219-2952</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>412 350-4774</cntvoice>
+        <cntfax>412 350-4754</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <descript>
+      <abstract>AlleghenyCountyImagery2017_9inch</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>20246</rowcount>
+      <colcount>20246</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>2017</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <Esri>
+    <CreaDate>20171208</CreaDate>
+    <CreaTime>10230300</CreaTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2017 (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2017" dest="\\psieefiler.ems.psu.edu\psieecifsvol1\AlleghenyCountyImagery2017 (1)" date="20171208" time="10230300" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ModDate>20171208</ModDate>
+    <ModTime>10243700</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(814) 865 - 8792</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>115 Land and Water building</delPoint>
+        <city>University Park</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170923</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Allegheny County Imagery 2017</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>remote-sensing image</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Orthophotos of Allegheny County, Pennsylvania - An orthoimage is remotely sensed image data that has been positionally corrected for camera lens distortion, vertical displacement and variations in aircraft altitude and orientation. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>Aerial survey of Allegheny County,Pennsylvania. Orthophotos serve a variety of purposes, from interim maps to field references for earth science investigations and analysis. The digital orthophoto is useful as a layer of a geographic information system and as a tool for revision of digital line graphs and topographic maps.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Allegheny County Division of Computer Services Geographic Information Systems Group</rpOrgName>
+      <rpPosName>GIS Manager</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>412 350-4774</voiceNum>
+          <faxNum>412 350-4754</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>542 Forbes Avenue</delPoint>
+          <city>Pittsburgh</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>15219-2952</postCode>
+          <country>US</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Allegheny County</keyword>
+      <keyword>Pittsburgh</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+      <keyword>rectified photograph</keyword>
+      <keyword>rectified image</keyword>
+      <keyword>aerial photograph</keyword>
+      <keyword>digital image map</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+      <keyword>digital orthophoto</keyword>
+      <keyword>orthophoto</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Allegheny County</keyword>
+      <keyword>rectified photograph</keyword>
+      <keyword>rectified image</keyword>
+      <keyword>aerial photograph</keyword>
+      <keyword>digital image map</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+      <keyword>Pittsburgh</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>digital orthophoto</keyword>
+      <keyword>orthophoto</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+        <othConsts>Call for details.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County is not responsible for any reliance upon said data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.08565</westBL>
+          <eastBL>-80.048712</eastBL>
+          <southBL>40.572534</southBL>
+          <northBL>40.600694</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>These color orthoimages were produced at 1-foot pixel resolution. Each orthoimage provides imagery for a 10,000 x 10,000 ft. block on the ground. The projected coordinate system is Pennsylvania State Plane South with a NAD83 datum. There is no image overlap been adjacent files. The orthoimage filenames were derived from the northwest corner of each ortho tile using the first four digits of the northing and easting coordinates referenced to the Pennsylvania State Plane coordinate system, followed by the State designator "PA," and the State Plane zone designator "S."</suppInfo>
+    <tpCat>
+      <TopicCatCd value="010" />
+    </tpCat>
+  </dataIdInfo>
+  <spatRepInfo>
+    <Georect>
+      <numDims>2</numDims>
+      <axisDimension type="001">
+        <dimSize>20246</dimSize>
+      </axisDimension>
+      <axisDimension type="002">
+        <dimSize>20246</dimSize>
+      </axisDimension>
+      <cellGeo>
+        <CellGeoCd value="002" />
+      </cellGeo>
+    </Georect>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="78c0f6763997ebf18a4c6e5d854be1c9" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5B
+bGxlZ2hlbnkgQ291bnR5IEltYWdlcnkgMjAxNzwvdGl0bGU+DQogICAgICAgIDxnZW9mb3JtPnJl
+bW90ZS1zZW5zaW5nIGltYWdlPC9nZW9mb3JtPg0KICAgICAgICA8b3JpZ2luPkFsbGVnaGVueSBD
+b3VudHkgRGl2aXNpb24gb2YgQ29tcHV0ZXIgU2VydmljZXMgR2VvZ3JhcGhpYyBJbmZvcm1hdGlv
+biBTeXN0ZW1zIEdyb3VwPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTc8L3B1YmRhdGU+
+DQogICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5wYXNkYS5wc3UuZWR1PC9vbmxpbms+DQogICAg
+ICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPHNwZG9tPg0KICAgICAgPGJvdW5k
+aW5nPg0KICAgICAgICA8d2VzdGJjPi04MC4wODU2NTA8L3dlc3RiYz4NCiAgICAgICAgPGVhc3Ri
+Yz4tODAuMDQ4NzEyPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQwLjYwMDY5NDwvbm9ydGhi
+Yz4NCiAgICAgICAgPHNvdXRoYmM+NDAuNTcyNTM0PC9zb3V0aGJjPg0KICAgICAgPC9ib3VuZGlu
+Zz4NCiAgICA8L3NwZG9tPg0KICAgIDxhY2Njb25zdD5DYWxsIGZvciBkZXRhaWxzLjwvYWNjY29u
+c3Q+DQogICAgPHVzZWNvbnN0PkFsbCBwYXJ0aWVzIGFja25vd2xlZGdlIHRoYXQgdGhlIGRhdGEg
+aXMgZm9yIGluZm9ybWF0aW9uYWwgcHVycG9zZXMgb25seS4gVGhlIGV4aXN0aW5nIGRpZ2l0YWwg
+ZGF0YSBpcyBzaGlwcGVkIGFzIGlzIGFuZCB0aGVyZSBpcyBubyBndWFyYW50ZWUgYXMgdG8gaXRz
+IGNvbXBsZXRlbmVzcyBvciBhY2N1cmFjeS4gQWxsZWdoZW55IENvdW50eSBpcyBub3QgcmVzcG9u
+c2libGUgZm9yIGFueSByZWxpYW5jZSB1cG9uIHNhaWQgZGF0YS48L3VzZWNvbnN0Pg0KICAgIDxu
+YXRpdmU+TWljcm9zb2Z0IFdpbmRvd3MgNyBWZXJzaW9uIDYuMSAoQnVpbGQgNzYwMSkgU2Vydmlj
+ZSBQYWNrIDE7IEVTUkkgQXJjR0lTIDEwLjAuNC40MDAwPC9uYXRpdmU+DQogICAgPGtleXdvcmRz
+Pg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrZXk+aW1hZ2VyeUJhc2VNYXBzRWFydGhD
+b3ZlcjwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5kaWdpdGFsIG9ydGhvcGhvdG88L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+ZGlnaXRhbCBpbWFnZSBtYXA8L3RoZW1la2V5Pg0K
+ICAgICAgICA8dGhlbWVrZXk+YWVyaWFsIHBob3RvZ3JhcGg8L3RoZW1la2V5Pg0KICAgICAgICA8
+dGhlbWVrZXk+cmVjdGlmaWVkIHBob3RvZ3JhcGg8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+cmVjdGlmaWVkIGltYWdlPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la3Q+SVNPIDE5MTE1
+IFRvcGljIENhdGVnb3JpZXM8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5vcnRob3Bob3Rv
+PC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFj
+ZWtleT5BbGxlZ2hlbnkgQ291bnR5PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlBlbm5z
+eWx2YW5pYTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5QaXR0c2J1cmdoPC9wbGFjZWtl
+eT4NCiAgICAgIDwvcGxhY2U+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8cHRjb250YWM+DQogICAg
+ICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5BbGxlZ2hl
+bnkgQ291bnR5IERpdmlzaW9uIG9mIENvbXB1dGVyIFNlcnZpY2VzIEdlb2dyYXBoaWMgSW5mb3Jt
+YXRpb24gU3lzdGVtcyBHcm91cDwvY250b3JnPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAg
+IDxjbnRwb3M+R0lTIE1hbmFnZXI8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAg
+ICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAg
+ICAgICAgIDxhZGRyZXNzPjU0MiBGb3JiZXMgQXZlbnVlPC9hZGRyZXNzPg0KICAgICAgICAgIDxj
+aXR5PlBpdHRzYnVyZ2g8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5pYTwvc3Rh
+dGU+DQogICAgICAgICAgPHBvc3RhbD4xNTIxOS0yOTUyPC9wb3N0YWw+DQogICAgICAgICAgPGNv
+dW50cnk+VW5pdGVkIFN0YXRlczwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAg
+ICA8Y250dm9pY2U+NDEyIDM1MC00Nzc0PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD40MTIg
+MzUwLTQ3NTQ8L2NudGZheD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAg
+IDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD5PcnRob3Bob3RvcyBvZiBBbGxlZ2hlbnkgQ291
+bnR5LCBQZW5uc3lsdmFuaWEgLSAgQW4gb3J0aG9pbWFnZSBpcyByZW1vdGVseSBzZW5zZWQgaW1h
+Z2UgZGF0YSB0aGF0IGhhcyBiZWVuIHBvc2l0aW9uYWxseSBjb3JyZWN0ZWQgZm9yIGNhbWVyYSBs
+ZW5zIGRpc3RvcnRpb24sIHZlcnRpY2FsIGRpc3BsYWNlbWVudCBhbmQgdmFyaWF0aW9ucyBpbiBh
+aXJjcmFmdCBhbHRpdHVkZSBhbmQgb3JpZW50YXRpb24uICBPcnRob2ltYWdlcnkgY29tYmluZXMg
+dGhlIGltYWdlIGNoYXJhY3RlcmlzdGljcyBvZiBhIHBob3RvZ3JhcGggd2l0aCB0aGUgZ2VvbWV0
+cmljIHF1YWxpdGllcyBvZiBhIG1hcC48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+QWVyaWFs
+IHN1cnZleSBvZiBBbGxlZ2hlbnkgQ291bnR5LFBlbm5zeWx2YW5pYS4gT3J0aG9waG90b3Mgc2Vy
+dmUgYSB2YXJpZXR5IG9mIHB1cnBvc2VzLCBmcm9tIGludGVyaW0gbWFwcyB0byBmaWVsZCByZWZl
+cmVuY2VzIGZvciBlYXJ0aCBzY2llbmNlIGludmVzdGlnYXRpb25zIGFuZCBhbmFseXNpcy4gVGhl
+IGRpZ2l0YWwgb3J0aG9waG90byBpcyB1c2VmdWwgYXMgYSBsYXllciBvZiBhIGdlb2dyYXBoaWMg
+aW5mb3JtYXRpb24gc3lzdGVtIGFuZCBhcyBhIHRvb2wgZm9yIHJldmlzaW9uIG9mIGRpZ2l0YWwg
+bGluZSBncmFwaHMgYW5kIHRvcG9ncmFwaGljIG1hcHMuPC9wdXJwb3NlPg0KICAgICAgPHN1cHBs
+aW5mPlRoZXNlIGNvbG9yIG9ydGhvaW1hZ2VzIHdlcmUgcHJvZHVjZWQgYXQgMS1mb290IHBpeGVs
+IHJlc29sdXRpb24uIEVhY2ggb3J0aG9pbWFnZSBwcm92aWRlcyBpbWFnZXJ5IGZvciBhIDEwLDAw
+MCB4IDEwLDAwMCBmdC4gYmxvY2sgb24gdGhlIGdyb3VuZC4gVGhlIHByb2plY3RlZCBjb29yZGlu
+YXRlIHN5c3RlbSBpcyBQZW5uc3lsdmFuaWEgU3RhdGUgUGxhbmUgU291dGggd2l0aCBhIE5BRDgz
+IGRhdHVtLiBUaGVyZSBpcyBubyBpbWFnZSBvdmVybGFwIGJlZW4gYWRqYWNlbnQgZmlsZXMuIFRo
+ZSBvcnRob2ltYWdlIGZpbGVuYW1lcyB3ZXJlIGRlcml2ZWQgZnJvbSB0aGUgbm9ydGh3ZXN0IGNv
+cm5lciBvZiBlYWNoIG9ydGhvIHRpbGUgdXNpbmcgdGhlIGZpcnN0IGZvdXIgZGlnaXRzIG9mIHRo
+ZSBub3J0aGluZyBhbmQgZWFzdGluZyBjb29yZGluYXRlcyByZWZlcmVuY2VkIHRvIHRoZSBQZW5u
+c3lsdmFuaWEgU3RhdGUgUGxhbmUgY29vcmRpbmF0ZSBzeXN0ZW0sIGZvbGxvd2VkIGJ5IHRoZSBT
+dGF0ZSBkZXNpZ25hdG9yICJQQSwiIGFuZCB0aGUgU3RhdGUgUGxhbmUgem9uZSBkZXNpZ25hdG9y
+ICJTLiI8L3N1cHBsaW5mPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAg
+PHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDE3PC9j
+YWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQogICAgICA8L3RpbWVpbmZvPg0KICAgICAgPGN1
+cnJlbnQ+cHVibGljYXRpb24gZGF0ZTwvY3VycmVudD4NCiAgICA8L3RpbWVwZXJkPg0KICAgIDxz
+dGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0
+ZT5BcyBuZWVkZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1cz4NCiAgPC9pZGluZm8+DQogIDxzcGRv
+aW5mbz4NCiAgICA8ZGlyZWN0PlJhc3RlcjwvZGlyZWN0Pg0KICAgIDxyYXN0aW5mbz4NCiAgICAg
+IDxyYXN0dHlwZT5QaXhlbDwvcmFzdHR5cGU+DQogICAgICA8cm93Y291bnQ+MjAyNDY8L3Jvd2Nv
+dW50Pg0KICAgICAgPGNvbGNvdW50PjIwMjQ2PC9jb2xjb3VudD4NCiAgICA8L3Jhc3RpbmZvPg0K
+ICA8L3NwZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPHBsYW5hcj4N
+CiAgICAgICAgPG1hcHByb2o+DQogICAgICAgICAgPG1hcHByb2puPkxhbWJlcnQgQ29uZm9ybWFs
+IENvbmljPC9tYXBwcm9qbj4NCiAgICAgICAgICA8bGFtYmVydGM+DQogICAgICAgICAgICA8c3Rk
+cGFybGw+MzkuOTMzMzMzMzMzMzMzMzM8L3N0ZHBhcmxsPg0KICAgICAgICAgICAgPHN0ZHBhcmxs
+PjQwLjk2NjY2NjY2NjY2NjY3PC9zdGRwYXJsbD4NCiAgICAgICAgICAgIDxsb25nY20+LTc3Ljc1
+PC9sb25nY20+DQogICAgICAgICAgICA8bGF0cHJqbz4zOS4zMzMzMzMzMzMzMzMzNDwvbGF0cHJq
+bz4NCiAgICAgICAgICAgIDxmZWFzdD4xOTY4NTAwLjA8L2ZlYXN0Pg0KICAgICAgICAgICAgPGZu
+b3J0aD4wLjA8L2Zub3J0aD4NCiAgICAgICAgICA8L2xhbWJlcnRjPg0KICAgICAgICA8L21hcHBy
+b2o+DQogICAgICAgIDxwbGFuY2k+DQogICAgICAgICAgPHBsYW5jZT5jb29yZGluYXRlIHBhaXI8
+L3BsYW5jZT4NCiAgICAgICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMDAw
+MDAwMDI2OTA3OTY0NzQ1MjQ4NTk4PC9hYnNyZXM+DQogICAgICAgICAgICA8b3JkcmVzPjAuMDAw
+MDAwMDI2OTA3OTY0NzQ1MjQ4NTk4PC9vcmRyZXM+DQogICAgICAgICAgPC9jb29yZHJlcD4NCiAg
+ICAgICAgPC9wbGFuY2k+DQogICAgICA8L3BsYW5hcj4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAg
+ICAgPGhvcml6ZG4+RCBOb3J0aCBBbWVyaWNhbiAxOTgzPC9ob3JpemRuPg0KICAgICAgICA8ZWxs
+aXBzPkdSUyAxOTgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42Mzc4MTM3LjA8L3NlbWlh
+eGlzPg0KICAgICAgICA8ZGVuZmxhdD4yOTguMjU3MjIyMTAxPC9kZW5mbGF0Pg0KICAgICAgPC9n
+ZW9kZXRpYz4NCiAgICA8L2hvcml6c3lzPg0KICA8L3NwcmVmPg0KICA8bWV0YWluZm8+DQogICAg
+PG1ldGQ+MjAxNzA5MjM8L21ldGQ+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJk
+IGZvciBEaWdpdGFsIEdlb3NwYXRpYWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+
+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRj
+Pg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAg
+ICAgIDxjbnRvcmc+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3MgKFBBU0RBKTwvY250
+b3JnPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxh
+ZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAg
+ICA8YWRkcmVzcz4xMTUgTGFuZCBhbmQgV2F0ZXIgYnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAg
+ICAgPGNpdHk+VW5pdmVyc2l0eSBQYXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5uc3ls
+dmFuaWE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTY4MDI8L3Bvc3RhbD4NCiAgICAgICAg
+ICA8Y291bnRyeT5Vbml0ZWQgU3RhdGVzPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQog
+ICAgICAgIDxjbnR2b2ljZT4oODE0KSA4NjUgLSA4NzkyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNu
+dGVtYWlsPnBhc2RhQHBzdS5lZHU8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwv
+bWV0Yz4NCiAgPC9tZXRhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxkaXN0cmliPg0KICAgICAg
+PGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+UGVubnN5bHZh
+bmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3MgKFBBU0RBKTwvY250b3JnPg0KICAgICAgICA8L2NudG9y
+Z3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBw
+aHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz4xMTUgTGFuZCBh
+bmQgV2F0ZXIgYnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+VW5pdmVyc2l0eSBQ
+YXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5uc3lsdmFuaWE8L3N0YXRlPg0KICAgICAg
+ICAgIDxwb3N0YWw+MTY4MDI8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5Vbml0ZWQgU3Rh
+dGVzPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT4oODE0
+KSA4NjUgLSA4NzkyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPnBhc2RhQHBzdS5lZHU8
+L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvZGlzdHJpYj4NCiAgICA8ZGlzdGxp
+YWI+VGhlIFVTRVIgc2hhbGwgaW5kZW1uaWZ5LCBzYXZlIGhhcm1sZXNzLCBhbmQsIGlmIHJlcXVl
+c3RlZCwgZGVmZW5kIHRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQg
+YW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEsIHRoZWlyIG9mZmljZXJzLCBhZ2VudHMsIGFu
+ZCBlbXBsb3llZXMgZnJvbSBhbmQgYWdhaW5zdCBhbnkgc3VpdHMsIGNsYWltcywgb3IgYWN0aW9u
+cyBmb3IgaW5qdXJ5LCBkZWF0aCwgb3IgcHJvcGVydHkgZGFtYWdlIGFyaXNpbmcgb3V0IG9mIHRo
+ZSB1c2Ugb2Ygb3IgYW55IGRlZmVjdCBpbiB0aGUgRklMRVMgb3IgYW55IGFjY29tcGFueWluZyBk
+b2N1bWVudGF0aW9uLiBUaG9zZSBwYXJ0aWVzIGludm9sdmVkIHdpdGggdGhlIGRldmVsb3BtZW50
+IGFuZCBkaXN0cmlidXRpb24gZXhjbHVkZWQgYW55IGFuZCBhbGwgaW1wbGllZCB3YXJyYW50aWVz
+LCBpbmNsdWRpbmcgd2FycmFudGllcyBvciBtZXJjaGFudGFiaWxpdHkgYW5kIGZpdG5lc3MgZm9y
+IGEgcGFydGljdWxhciBwdXJwb3NlIGFuZCBtYWtlcyBubyB3YXJyYW50eSBvciByZXByZXNlbnRh
+dGlvbiwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZCwgd2l0aCByZXNwZWN0IHRvIHRoZSBGSUxF
+UyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwgaW5jbHVkaW5nIGl0cyBxdWFsaXR5LCBw
+ZXJmb3JtYW5jZSwgbWVyY2hhbnRhYmlsaXR5LCBvciBmaXRuZXNzIGZvciBhIHBhcnRpY3VsYXIg
+cHVycG9zZS4gVGhlIEZJTEVTIGFuZCBkb2N1bWVudGF0aW9uIGFyZSBwcm92aWRlZCAiYXMgaXMi
+IGFuZCB0aGUgVVNFUiBhc3N1bWVzIHRoZSBlbnRpcmUgcmlzayBhcyB0byBpdHMgcXVhbGl0eSBh
+bmQgcGVyZm9ybWFuY2UuIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2ZWxvcG1l
+bnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEgd2lsbCBub3QgYmUgbGlhYmxlIGZvciBh
+bnkgZGlyZWN0LCBpbmRpcmVjdCwgc3BlY2lhbCwgaW5jaWRlbnRhbCwgb3IgY29uc2VxdWVudGlh
+bCBkYW1hZ2VzIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb3IgaW5hYmlsaXR5IHRvIHVzZSB0aGUg
+RklMRVMgb3IgYW55IGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLjwvZGlzdGxpYWI+DQogIDwv
+ZGlzdGluZm8+DQogIDxFc3JpPg0KICAgIDxDcmVhRGF0ZT4yMDE3MDkzMDwvQ3JlYURhdGU+DQog
+ICAgPENyZWFUaW1lPjA5NTk1ODAwPC9DcmVhVGltZT4NCiAgICA8QXJjR0lTc3R5bGU+SVNPIDE5
+MTM5IE1ldGFkYXRhIEltcGxlbWVudGF0aW9uIFNwZWNpZmljYXRpb248L0FyY0dJU3N0eWxlPg0K
+ICAgIDxTeW5jT25jZT5UUlVFPC9TeW5jT25jZT4NCiAgICA8RGF0YVByb3BlcnRpZXM+DQogICAg
+ICA8Y29weUhpc3Rvcnk+DQogICAgICAgIDxjb3B5IHNvdXJjZT0iRDpcREFUQVxBbGxlZ2hlbnlD
+b3VudHlcQWxsZWdoZW55Q291bnR5SW1hZ2VyeTIwMTdfVGlsZUluZGV4IiBkZXN0PSJcXEFMQ0VT
+XEQkXERBVEFcQWxsZWdoZW55Q291bnR5SW1hZ2VyeTIwMTdfVGlsZUluZGV4IiBkYXRlPSIyMDE3
+MDkzMCIgdGltZT0iMDk1OTU4MDAiIC8+DQogICAgICA8L2NvcHlIaXN0b3J5Pg0KICAgIDwvRGF0
+YVByb3BlcnRpZXM+DQogIDwvRXNyaT4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

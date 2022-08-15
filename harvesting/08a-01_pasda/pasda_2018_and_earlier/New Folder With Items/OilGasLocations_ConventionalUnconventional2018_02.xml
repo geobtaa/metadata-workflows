@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>201802</CreaDate>
+    <CreaTime>11125800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20180211</SyncDate>
+    <SyncTime>11112500</SyncTime>
+    <ModDate>20180211</ModDate>
+    <ModTime>11112500</ModTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20180211" Time="103423">FeatureClassToFeatureClass "Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V" Y:\PASDA_UPDATES\2013_Updates\DEP_OG_Wells_6_2013.gdb DEP_OIL_AND_GAS_WELLS # "PERMIT_NUM 'PERMIT_NUM' true true false 50 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,PERMIT_NUM,-1,-1;WELL_NAME 'WELL_NAME' true true false 100 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_NAME,-1,-1;OPERATOR 'OPERATOR' true true false 100 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,OPERATOR,-1,-1;OPER_NUM 'OPER_NUM' true true false 20 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,OPER_NUM,-1,-1;WELL_TYPE 'WELL_TYPE' true true false 50 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_TYPE,-1,-1;WELL_TYPEC 'WELL_TYPEC' true true false 20 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_TYPECD,-1,-1;WELL_STAT 'WELL_STAT' true true false 50 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_STAT,-1,-1;WELL_STATC 'WELL_STATC' true true false 20 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_STATCD,-1,-1;PERM_DATE 'PERM_DATE' true true false 36 Date 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,PERM_DATE,-1,-1;SPUD_DATE 'SPUD_DATE' true true false 36 Date 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,SPUD_DATE,-1,-1;CONSV_IND 'CONSV_IND' true true false 5 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,CONSV_IND,-1,-1;COUNTY 'COUNTY' true true false 30 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,COUNTY,-1,-1;COUNTY_ID 'COUNTY_ID' true true false 4 Long 0 5 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,COUNTY_ID,-1,-1;MCD 'MCD' true true false 150 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,MCD,-1,-1;MCD_TYPE 'MCD_TYPE' true true false 5 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,MCD_TYPE,-1,-1;MCD_CD 'MCD_CD' true true false 10 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,MCD_CD,-1,-1;LATITUDE 'LATITUDE' true true false 8 Double 8 38 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,LATITUDE,-1,-1;LONGITUDE 'LONGITUDE' true true false 8 Double 8 38 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,LONGITUDE,-1,-1;PRMRY_FID 'PRMRY_FID' true true false 4 Long 0 10 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,PRMRY_FID,-1,-1;UNCNV_IND 'UNCNV_IND' true true false 5 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,UNCNV_IND,-1,-1;SURFACE_EL 'SURFACE_EL' true true false 4 Long 0 10 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,SURFACE_ELEV,-1,-1;WELL_CONFI 'WELL_CONFI' true true false 80 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_CONFIG_CD,-1,-1;COAL_INDIC 'COAL_INDIC' true true false 40 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,COAL_INDICATOR,-1,-1;PLUG_C_DAT 'PLUG_C_DAT' true true false 36 Date 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,PLUG_C_DATE,-1,-1;WELL_PAD 'WELL_PAD' true true false 100 Text 0 0 ,First,#,Database Connections\PGNET.sde\GDC.DEP_OIL_AND_GAS_WELLS_V,WELL_PAD,-1,-1" # Y:\PASDA_UPDATES\2013_Updates\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20180211" Time="110314">FeatureClassToFeatureClass D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS D:\dataD DEP_OIL_AND_GAS_WELLS.shp # "PERMIT_NUM "PERMIT_NUM" true true false 50 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,PERMIT_NUM,-1,-1;WELL_NAME "WELL_NAME" true true false 100 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_NAME,-1,-1;OPERATOR "OPERATOR" true true false 100 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,OPERATOR,-1,-1;OPER_NUM "OPER_NUM" true true false 20 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,OPER_NUM,-1,-1;WELL_TYPE "WELL_TYPE" true true false 50 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_TYPE,-1,-1;WELL_TYPEC "WELL_TYPEC" true true false 20 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_TYPEC,-1,-1;WELL_STAT "WELL_STAT" true true false 50 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_STAT,-1,-1;WELL_STATC "WELL_STATC" true true false 20 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_STATC,-1,-1;PERM_DATE "PERM_DATE" true true false 8 Date 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,PERM_DATE,-1,-1;SPUD_DATE "SPUD_DATE" true true false 8 Date 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,SPUD_DATE,-1,-1;CONSV_IND "CONSV_IND" true true false 5 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,CONSV_IND,-1,-1;COUNTY "COUNTY" true true false 30 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,COUNTY,-1,-1;COUNTY_ID "COUNTY_ID" true true false 4 Long 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,COUNTY_ID,-1,-1;MCD "MCD" true true false 150 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,MCD,-1,-1;MCD_TYPE "MCD_TYPE" true true false 5 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,MCD_TYPE,-1,-1;MCD_CD "MCD_CD" true true false 10 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,MCD_CD,-1,-1;LATITUDE "LATITUDE" true true false 8 Double 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,LATITUDE,-1,-1;LONGITUDE "LONGITUDE" true true false 8 Double 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,LONGITUDE,-1,-1;PRMRY_FID "PRMRY_FID" true true false 4 Long 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,PRMRY_FID,-1,-1;UNCNV_IND "UNCNV_IND" true true false 5 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,UNCNV_IND,-1,-1;SURFACE_EL "SURFACE_EL" true true false 4 Long 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,SURFACE_EL,-1,-1;WELL_CONFI "WELL_CONFI" true true false 80 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_CONFI,-1,-1;COAL_INDIC "COAL_INDIC" true true false 40 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,COAL_INDIC,-1,-1;PLUG_C_DAT "PLUG_C_DAT" true true false 8 Date 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,PLUG_C_DAT,-1,-1;WELL_PAD "WELL_PAD" true true false 100 Text 0 0 ,First,#,D:\dataD\DEP_OG_Wells_6_2013.gdb\DEP_OIL_AND_GAS_WELLS,WELL_PAD,-1,-1" #</Process>
+      </lineage>
+      <itemProps>
+        <itemName Sync="TRUE">OilGasLocations_ConventionalUnconventional2013_06</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <itemSize Sync="TRUE">3.943</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\DATA\DEP\June_update\OilGasLocations_ConventionalUnconventional2013_06</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-8963303.243700</westBL>
+          <eastBL Sync="TRUE">-8340529.024100</eastBL>
+          <southBL Sync="TRUE">4824898.404100</southBL>
+          <northBL Sync="TRUE">5201120.413300</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+        <projcsn Sync="TRUE">WGS_1984_Web_Mercator_Auxiliary_Sphere</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;WGS_1984_Web_Mercator_Auxiliary_Sphere&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Mercator_Auxiliary_Sphere&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,0.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,0.0],PARAMETER[&amp;quot;Auxiliary_Sphere_Type&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3857]]&lt;/WKT&gt;&lt;XOrigin&gt;-20037700&lt;/XOrigin&gt;&lt;YOrigin&gt;-30241100&lt;/YOrigin&gt;&lt;XYScale&gt;148923141.92838538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3857&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+      </coordRef>
+      <copyHistory>
+        <copy source="D:\DATA\DEP\OilGasLocations_ConventionalUnconventional2013_06" dest="\\ALCES\D$\DATA\DEP\June_update\OilGasLocations_ConventionalUnconventional2013_06" date="20180211" time="11125800">
+        </copy>
+      </copyHistory>
+    </DataProperties>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Environmental Protection</origin>
+        <pubdate>201802</pubdate>
+        <title>Oil &amp; Gas Locations - Conventional Unconventional</title>
+        <ftname Sync="TRUE">DEP_OIL_AND_GAS_WELLS</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>06/10/2013</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>active</progress>
+      <update>Daily</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.518723</westbc>
+        <eastbc Sync="TRUE">-74.924247</eastbc>
+        <northbc Sync="TRUE">42.267408</northbc>
+        <southbc Sync="TRUE">39.716973</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-8963303.243700</leftbc>
+        <rightbc Sync="TRUE">-8340529.024100</rightbc>
+        <bottombc Sync="TRUE">4824898.404100</bottombc>
+        <topbc Sync="TRUE">5201120.413300</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>efacts, oil, gas, Oil &amp; Gas Location</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>Display and Query</accconst>
+    <useconst>Commonwealth of Pennsylvania  Department of Environmental Protection Disclaimer for Data the user shall save the Commonwealth harmless from any suits, claims, or actions arising out of the use of the data files or accompanying documentation, or arising out of any defects in the datafiles or accompanying documentation.
+
+The Commonwealth excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fits for a particular purpose.  These data files and documentation are provided "as is" and the user assumes the entire risk as to their quality and performance.</useconst>
+    <natvform Sync="TRUE">File Geodatabase Feature Class</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gail Jackson </cntper>
+          <cntorg>DEP Geo Spatial Data Center</cntorg>
+        </cntperp>
+        <cntpos>IT General Administrator 2</cntpos>
+        <cntvoice>717-772-5890</cntvoice>
+        <cntemail>gajackson@pa.gov</cntemail>
+        <hours>8 am to 4:30 pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>OilGasLocations_ConventionalUnconventional2018_02</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="eng" country="USA">
+      </languageCode>
+      <countryCode value="USA" Sync="TRUE">
+      </countryCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">OilGasLocations_ConventionalUnconventional2013_06</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-8963303.2437</westBL>
+          <eastBL Sync="TRUE">-8340529.0241</eastBL>
+          <northBL Sync="TRUE">5201120.4133</northBL>
+          <southBL Sync="TRUE">4824898.4041</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.518723</westBL>
+      <eastBL Sync="TRUE">-74.924247</eastBL>
+      <northBL Sync="TRUE">42.267408</northBL>
+      <southBL Sync="TRUE">39.716973</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <descKeys>
+      <thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66">
+      </thesaName>
+      <keyword Sync="TRUE">002</keyword>
+    </descKeys>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+          <westBL Sync="TRUE">-80.518723</westBL>
+          <eastBL Sync="TRUE">-74.924247</eastBL>
+          <northBL Sync="TRUE">42.267408</northBL>
+          <southBL Sync="TRUE">39.716973</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <address>115 Land and Water building</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20180211</metd>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="eng">
+    </languageCode>
+    <countryCode value="USA" Sync="TRUE">
+    </countryCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\pa.lcl\epshares\GIS\PASDA_UPDATES\2013_Updates\DEP_OG_Wells_6_2013.gdb</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distFormat>
+      <formatName Sync="TRUE">Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">3.943</transSize>
+    </distTranOps>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE">
+        </efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">147657</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn>GCS_North_American_1983</geogcsn>
+        <projcsn>albers_dep</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres>0.000125</absres>
+            <ordres>0.000125</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres>0.000122</altres>
+        <altdatum>None</altdatum>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE" code="3857" value="3857">WGS_1984_Web_Mercator_Auxiliary_Sphere</identCode>
+        <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+        <idVersion Sync="TRUE">7.4.1</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="OilGasLocations_ConventionalUnconventional2013_06">
+        <geoObjTyp>
+          <GeoObjTypCd value="004" Sync="TRUE">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">147657</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE">
+        </TopoLevCd>
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="OilGasLocations_ConventionalUnconventional2013_06">
+      <enttyp>
+        <enttypl>Oil Gas Locations Conventional Unconventional 2013_06</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">147657</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERMIT_NUM</attrlabl>
+        <attalias Sync="TRUE">PERMIT_NUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Permit Number associated with the well</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_NAME</attrlabl>
+        <attalias Sync="TRUE">WELL_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>name given to the well by DEP or the Operator</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OPERATOR</attrlabl>
+        <attalias Sync="TRUE">OPERATOR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>name of the current operator for the well</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OPER_NUM</attrlabl>
+        <attalias Sync="TRUE">OPER_NUM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Operator Number associated with the current operator</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_TYPE</attrlabl>
+        <attalias Sync="TRUE">WELL_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>describes the type of well</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_STAT</attrlabl>
+        <attalias Sync="TRUE">WELL_STAT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef> current status of the well</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_TYPEC</attrlabl>
+        <attalias Sync="TRUE">WELL_TYPEC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>code associated with the Well type</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERM_DATE</attrlabl>
+        <attalias Sync="TRUE">PERM_DATE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>date associated with the permit number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_STATC</attrlabl>
+        <attalias Sync="TRUE">WELL_STATC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SPUD_DATE</attrlabl>
+        <attalias Sync="TRUE">SPUD_DATE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>drilling commencement date, or proposed drilling commencement date as reported by the operator</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CONSV_IND</attrlabl>
+        <attalias Sync="TRUE">CONSV_IND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>indicates whether thie wellbore penetrates the Onondaga horizon as defined in the PA Oil &amp; Gas Conservation Law</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>county the well is permitted in</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY_ID</attrlabl>
+        <attalias Sync="TRUE">COUNTY_ID</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>code associated to the county</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MCD</attrlabl>
+        <attalias Sync="TRUE">MCD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">150</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>municipality that the well is in</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MCD_TYPE</attrlabl>
+        <attalias Sync="TRUE">MCD_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>type of municipality that the well is in</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MCD_CD</attrlabl>
+        <attalias Sync="TRUE">MCD_CD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>code associated to the municipality name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LATITUDE</attrlabl>
+        <attalias Sync="TRUE">LATITUDE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>latitude of the well bore hole</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONGITUDE</attrlabl>
+        <attalias Sync="TRUE">LONGITUDE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>longitude of the well bore hole</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PRMRY_FID</attrlabl>
+        <attalias Sync="TRUE">PRMRY_FID</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>system generated id associated with the primary facility record for this well in the DEP eFACTS database</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UNCNV_IND</attrlabl>
+        <attalias Sync="TRUE">UNCNV_IND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>indicates whether this is a conventional or unconventional well</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_PAD</attrlabl>
+        <attalias Sync="TRUE">WELL_PAD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>name of the well pad on which the well is located</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SURFACE_EL</attrlabl>
+        <attalias Sync="TRUE">SURFACE_EL</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>ground elevation at the well head location</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WELL_CONFI</attrlabl>
+        <attalias Sync="TRUE">WELL_CONFI</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">80</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>indicates the well configuration</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COAL_INDIC</attrlabl>
+        <attalias Sync="TRUE">COAL_INDIC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>indicates if the well is in a coal or non coal region</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PLUG_C_DAT</attrlabl>
+        <attalias Sync="TRUE">PLUG_C_DAT</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>well plug completion date</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20180211</mdDateSt>
+</metadata>

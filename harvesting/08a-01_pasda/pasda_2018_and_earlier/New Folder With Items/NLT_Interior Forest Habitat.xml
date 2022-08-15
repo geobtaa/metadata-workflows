@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Natural Lands Trust with input data from PA DEP.</origin>
+        <pubdate>May 2006</pubdate>
+        <title>Interior Forest Habitat</title>
+        <edition>first</edition>
+        <geoform>raster digital data</geoform>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/nlt</onlink>
+        <onlink>http://www.natlands.org</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992-2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-78.356474</westbc>
+        <eastbc>
+-74.540675</eastbc>
+        <northbc>
+41.491614</northbc>
+        <southbc>
+39.197635</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Forest</themekey>
+        <themekey>SmartConservation</themekey>
+        <themekey>Expanded Piedmont</themekey>
+        <themekey>Terrestrial Resources</themekey>
+        <themekey>Interior Forest</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekey>Piedmont</placekey>
+        <placekey>Expanded Piedmont</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Diane Rosencrance</cntper>
+          <cntorg>Natural Lands Trust</cntorg>
+        </cntperp>
+        <cntpos>GIS Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1031 Palmers Mill Road</address>
+          <city>Media</city>
+          <state>Pennsylvania</state>
+          <postal>19063</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>610-353-5587</cntvoice>
+        <cntemail>drosencrance@natlands.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.1.0.722</native>
+    <descript>
+      <abstract>NLT_Interior Forest Habitat</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Create Forest land cover grid
+Reclassify
+input: " 'study area'_LC_2000" (use most recent land cover)
+field: value
+
+	Old Value			New Value
+	1 (water		  	No Data
+`	2 (Low Dens Urban)	 	No Data
+	3 (High Dens Urban)	   	No Data
+	4 (Hay Pasture)	   		No Data
+	5 (Row Crops)		   	No Data
+	6 not in area		     	 -----
+	7 (Coniferous Forest)	         	1
+	8 (Mixed Forest)	         	1
+	9 (Deciduous Forest)	         	1
+	10 (Woody Wetland)	         	1
+	11 (Emergent Wetland)       	No Data
+	12 (Quarries)			No Data
+	13 (Coal Mine)			No Data
+	14 not in area		     	----
+	15 transitional			No Data
+
+Save as: " 'study area'_Forest_LC"
+in \individual_grid\'study area'\Forest_LandCover\
+
+** Use the appropriate gridcode that represents forest land cover, the gridcode will probably be different in updated land cover
+
+Convert to feature
+Input: " 'study area'_Forest_LC"
+Save as: " 'studyarea'_Forest_Landcover"
+In: \'study area'\shapefiles\
+
+Buffer to create exterior forest
+Use Buffer wizard tool in ArcMap
+Input: " 'studyarea'_Forest_Landcover"
+At a distance of 300 feet 
+Dissolve barriers - yes
+Only inside the polygon
+Save as: " 'study area'_Exterior_Forest"
+In: \'studyarea'\shapefiles\
+
+Convert exterior forest to raster
+Input: " 'study area'_Exterior_Forest"
+Save as: " 'study area'_ExtFor"
+In: \'study area'\individual_grid\exterior_forest\
+
+
+
+Reclassify to set NoData area to "1"
+Use mask : 'Study area'
+Input: " 'study area'_ExtForest"
+Old Value		New Value
+0 (Buffer)		0
+NoData	 (Other Area)	1
+Save as: " 'study area'_ExtForest"
+In \'study area'\individual_grid\exterior_forest\reclass\
+
+Multiply Forest Land Cover x Exterior Forest
+makes a grid where the no data/buffer of exterior forest is removed from Forest Land Cover
+Raster calc: (['study area'_ExtForest] x ['study area'_Forest_LC])
+save as: " 'study area'_IntForest"
+in \'study area'\individual_grid \Interior Forest\
+
+Perform Region Group 
+Region group assigns a unique number to each group of adjacent cells with the same value 
+Raster calc: Region Group ({'study area'_IntForest])
+save as: " 'study area'_IntFor_RG"
+in \'study area'\individual_grid \Interior_Forest_regiongroup\
+
+Perform Zonal Area 
+Zonal Area assigns area in square meters (using UTM meters) to unique numbers
+Raster calc: Zonal Area (['study area'_IntFor_RG])
+save as: " 'study area'_IntFor_ZA"
+in \'study area'\individual_grid \Interior_Forest_zonalarea\
+
+Convert area to Acres
+Raster calc: (['study area'_IntFor_ZA] / 4050)
+Save as: " 'study area'_IntFor_Acr"
+in \study area\individual_grid\ Interior_Forest_acreage\
+
+Reclassify to assign conservation value (peer/biological)
+Use 'study area' as mask
+
+	Old Value		New Value
+	0-25 			0
+	25-50 			1
+	50 - 100 		2
+	100 - 150 		3
+	150 - 225 		4
+	225 - 300 		5
+	300 - 400 		6
+	400 - 500 		7
+	500 - 750 		8
+	750 - 1000 		9
+	&gt;1000			10  
+	No data		    	0</procdesc>
+        <procdate>2003-2005</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Aquatic\riparian buffer quality expanded piedmont.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Aquatic\water quality 303d 305b.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Aquatic\Forested Water Quality.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Aquatic\Fish Habitat.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Aquatic\Herp Aquatic Habitat.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Terrestrial\Herps Terrestrial Habitat.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Terrestrial\Mammals Habitat.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Terrestrial\Important Bird Areas.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Terrestrial\Important Mammal Areas.xml</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>8320</rowcount>
+      <colcount>10625</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+rclass5</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>downloadabledata</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>2.098</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building </address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20060517</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Natural Lands Trust</cntorg>
+          <cntper>Diane Rosencrance</cntper>
+        </cntorgp>
+        <cntpos>GIS Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1031 Palmers Mill Road</address>
+          <city>Media</city>
+          <state>PA</state>
+          <postal>19063</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>610-353-5587</cntvoice>
+        <cntemail>drosencrance@natlands.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10363400</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

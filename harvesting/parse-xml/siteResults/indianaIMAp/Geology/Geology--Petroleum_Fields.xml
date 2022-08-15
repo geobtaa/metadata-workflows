@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <pubdate>20150108</pubdate>
+        <title>PETROLEUM_FIELDS_IGS_IN.SHP: Petroleum Reservoir Fields (Oil and Gas) in Indiana (Indiana Geological Survey, 1:63,360, Polygon Shapefile)</title>
+        <edition>2015qtr1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This dataset was created by comparing digital lines from IGS Miscellaneous Map 58 (MM58) with one quarter mile buffers of
+producitve petroleum wells. New petroleum field outlines were then manually digitized on screen using the shape information from MM58 and the
+buffer extents. In some cases, the IGS Petroleum Exploration Map (PEM) series was consulted to verify spatial and attribute data. Petroleum
+well information was queried from the Indiana Geological Survey Petroleum Well Database, which is a component of the IGS Petroleum Database
+Management System (PDMS).
+
+NOTE: As of January 8, 2015, the Indiana Geological Survey began scheduling regular quarterly updates for this dataset. Therefore, this information
+is only as current as the publication date of this data set. If more current data are needed, please use the subscription-based services of the
+PDMS Web site: ( http://igs.indiana.edu/PDMS/ ).
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+PETROLEUM_FIELDS_IGS_IN.SHP is an Esri polygon shapefile that depicts the locations and extents of all petroleum reservoir fields in Indiana, as of
+January 8, 2015. PETROLEUM_FIELDS_IGS_IN.SHP shows boundaries of petroleum reservoir fields that enclose petroleum wells that are classified as producing
+from a single field, but does not necessarily indicate the maximum extent of the producing reservoir field.
+</abstract>
+      <purpose>
+PETROLEUM_FIELDS_IGS_IN.SHP was created to provide the Indiana Geological Survey and the public with a functional digital representation of petroleum
+reservoir fields in Indiana for use in geographic information systems.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150108</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1571</westbc>
+        <eastbc>-84.7080</eastbc>
+        <northbc>41.7664</northbc>
+        <southbc>37.7688</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>economy</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Petroleum Database Management System (PDMS)</themekey>
+        <themekey>petroleum reservoir</themekey>
+        <themekey>petroleum</themekey>
+        <themekey>oil</themekey>
+        <themekey>gas</themekey>
+        <themekey>gas storage</themekey>
+        <themekey>petroleum field</themekey>
+        <themekey>economic geology</themekey>
+        <themekey>energy resources</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS point shapefile (version 10.2), Windows 7, 1.0 MB</native>
+    <useconst>Geology--Petroleum_Fields</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The attributes associated with the item FIELD_NAME were transcribed from labels shown on the Indiana Geological Survey's existing Petroleum Exploration Maps.
+Therefore, attribute accuracy of this coverage is dependent on the accuracy of the original maps. The attribute accuracy was tested by manual comparison of
+the source with hard copy plots and (or) symbolized display of the digital petroleum fields data on screen. Despite the use of careful procedures and proofing
+of the entered data, human error always remains a possibility.
+</attraccr>
+    </attracc>
+    <logic>Polygon topology is present</logic>
+    <complete>This dataset is assumed to be complete up to the publication date, but is continually being updated by IGS personnel.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Petroleum reservoir field boundaries are derived from the locations of specific wells in the IGS Petroleum Well Database, a component of the Petroluem Database
+Management System (PDMS). Therefore, the horizontal positional accuracy of this dataset is dependent on the locational accuracy of those well locations. The petroleum
+well locations have varying levels of accuracy. Location coordinates of wells contained within the Indiana Geological Survey’s Petroleum Database Management System
+are believed to be reasonably accurate when portrayed on a scale of 1 inch to 1 mile (1:63,360).  Although the coordinates for a great many locations in the database
+have been very accurately determined, past practices and inherent limitations on the accuracy with which a well was spotted on a 1:24,000-scale USGS topographic map have
+resulted in well coordinates that locate wells a small distance from their actual locations. Depending on circumstances, this distance could be as great as 100 feet,
+or rarely, somewhat more. In general, such locations are sufficiently accurate for most petroleum exploration and field mapping purposes. Additionally, it is important
+to note that new and revised data continually are being entered into the Petroleum Well Database and, despite the use of careful procedures and proofing of the
+entered data, human error always remains a possibility.  Every effort is made to correct errors and discrepancies whenever they are identified, but it is the responsibility
+of the user to verify any information to the extent it is deemed important.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the digital production of this dataset.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1998</pubdate>
+            <title>IGS Miscellaneous Map 58, Map Showing Oil, Gas, and Gas Storage Fields in Indiana (MM58)</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>This is statewide map which delineates the petroleum fields in Indiana.</othercit>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>550000</srcscale>
+        <typesrc>Stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>MM58</srccitea>
+        <srccontr>
+This source provided the basis for the shape of field outlines digitized to create this dataset. Because MM58 was drawn at 1:550,000 on a now-obsolete
+basemap, the field outlines had to be re-digitized. Lines from MM58 provided a guide for that digitization, but the lines were not simply copied.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20150108</pubdate>
+            <title>Petroleum Database Management System (PDMS)</title>
+            <geoform>Microsoft Access Database</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+Only a select set of wells from the PDMS were used to generate buffers to use as guides for digitizing petroleum field outlines. All productive
+wells were used including those with the following symbol classifications: oil, gas, oil and gas, shut-in gas, gas storage, gas storage formerly oil, gas storage
+formerly gas, water injection, water injection formerly oil, water injection formerly gas, water injection formerly oil and gas, salt water disposal formerly oil,
+salt water disposal formerly gas, nonpotable water supply formerly oil, and nonpotable water supply formerly gas. Also included are the modifying statuses; abandoned,
+completion type uncertain, and (or) location uncertain.
+
+Location coordinates of wells contained within the Indiana Geological Survey’s Petroleum Database Management System and their corresponding locations as shown on maps
+are believed to be reasonably accurate when portrayed on a scale of 1 inch to 1 mile (1:63,360). Although the coordinates for a great many locations in the database
+have been very accurately determined, past practices and inherent limitations on the accuracy with which a well was spotted on a 1:24,000-scale USGS topographic map
+have resulted in well coordinates that locate wells a small distance from their actual locations.  Depending on circumstances, this distance could be as great as 100
+feet, or rarely, somewhat more. In general, such locations are sufficiently accurate for most petroleum exploration and field mapping purposes. Additionally, it is
+important to note that new and revised data continually are being entered into the Petroleum Database Management System and, despite the use of careful procedures
+and proofing of the entered data, human error always remains a possibility. Every effort is made to correct errors and discrepancies whenever they are identified,
+but it is the responsibility of the user to verify any information to the extent it is deemed important.
+</othercit>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>63,360</srcscale>
+        <typesrc>Database</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150108</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>PDMS</srccitea>
+        <srccontr>
+This source provided the location and attribute information for petroleum wells which were buffered to create layers showing the approximate extent
+of petroleum reservoir field boundaries (one quarter mile radius around producing wells).
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>2000</pubdate>
+            <title>Petroleum Exploration Map (PEM) series</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+The Petroleum Exploration Map (PEM) series published by the Indiana Geological Survey is a set of 92 county maps that depict locations of
+known petroleum wells, petroleum fields, and gas storage projects. The maps are printed at 1:63,360-scale and utilize the old "General Highway and Transportation" base,
+which is known to contain a significant degree of horizontal spatial error.
+</othercit>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>63,360</srcscale>
+        <typesrc>Stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>PEM</srccitea>
+        <srccontr>
+This source is the original basis for lines originally digitized to produce IGS MM58. For PETROLEUM_FIELDS_IGS_IN.SHP, the PEMs were used to verify
+spatial and attribute field information. Lines were not digitized from these maps to create PETROLEUM_FIELDS_IGS_IN.SHP.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+This process step outlines the procedures used to update the petroleum reservoir field boundaries. The Petroleum Database Management System
+is continually being updated. As petroleum wells are added and well locations are updated, PETROLEUM_FIELDS_IGS_IN.SHP often needs to be revised. This is carried
+out by IGS personnel who edit PETROLEUM_FIELDS_IGS_IN.SHP when necessary. PETROLEUM_FIELDS_IGS_IN.SHP reservoir field boundaries are updated by using the
+most current petroleum well record data to buffer boundaries around petroleum wells that are classified as producing from a specific reservoir field, as contained
+in the IGS Petroleum Well Database, a component of the Petroleum Database Management System (PDMS).
+</procdesc>
+        <srcused>PDMS well records from the IGS Petroleum Well Database</srcused>
+        <procdate>20150108</procdate>
+        <srcprod>PETROLEUM_FIELDS_IGS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Charles W. Zuppann</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Petroleum Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5412</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>czuppann@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United States
+Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150130</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>_Method: Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>627</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PETROLEUM_FIELDS_IGS_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FIELD_NAME</attrlabl>
+        <attrdef>Name of petroleum field</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA_METER</attrlabl>
+        <attrdef>Identification number of the well (IGS, internal)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>305087.37683</rdommin>
+            <rdommax>12034836100.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA_ACRES</attrlabl>
+        <attrdef>Identification number of the well (IGS, internal)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>75.388424</rdommin>
+            <rdommax>2973860.583224</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>F_TYPE_NEW</attrlabl>
+        <attrdef>Type of petroleum reservoir field</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>G</edomv>
+            <edomvd>petroleum field consisting of Gas production</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>petroleum field consisting of Oil production</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>OG</edomv>
+            <edomvd>petroleum field consisting of Oil and Gas production</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IGS_FIELD_</attrlabl>
+        <attrdef>Identification number for the petroleum reservoir field (Indiana Geological Survey, internal)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_AREA</attrlabl>
+        <attrdef>Area of the petroleum field polygon (square meters)</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>305087.37683</rdommin>
+            <rdommax>12034836100.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+        <attrdef>Length of the perimeter of the polygon boundary (meters)</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2275.879339</rdommin>
+            <rdommax>963177.603807</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday-Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be included:
+[PETROLEUM_FIELDS_IGS_IN.SHP: Petroleum Reservoir Fields (Oil and Gas) in Indiana (Indiana Geological Survey, 1:63,360, Polygon Shapefile), 20150108].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship
+for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+Walnut Grove Avenue, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not
+limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed
+by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey
+is not responsible for claims by a third party. The  maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150108</metd>
+    <metrd>20150130</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

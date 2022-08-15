@@ -1,0 +1,298 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Green Stormwater Infrastructure Projects</title>
+        <geoform>vector digital data</geoform>
+        <origin>Philadelphia Water Department</origin>
+        <pubdate>201302</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-75.271777</westbc>
+        <eastbc>-75.006610</eastbc>
+        <northbc>40.089812</northbc>
+        <southbc>39.879061</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Green Stormwater Infrastructure</themekey>
+        <themekey>GSI</themekey>
+        <themekey>Green City Clean Waters</themekey>
+        <themekey>Big Green Map</themekey>
+        <themekey>Stormwater Tree Trench</themekey>
+        <themekey>Stormwater Planter</themekey>
+        <themekey>Stormwater Bumpout</themekey>
+        <themekey>Rain Garden</themekey>
+        <themekey>Stormwater Basin</themekey>
+        <themekey>Infiltration Storage Trench</themekey>
+        <themekey>Porous Paving</themekey>
+        <themekey>Swale</themekey>
+        <themekey>Cistern or Rain Barrel</themekey>
+        <themekey>Green Roof</themekey>
+        <themekey>society</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The City of Philadelphia makes no representation about the accuracy of any specific information in this GIS data and is provided “as is” and without Warranty of any kind. The user of this data will assume complete responsibility for any and all occurrences resulting from its use or display and will hold the City of Philadelphia harmless from any and all claims, demands, liabilities, obligations, damages, suits, judgments or settlements, including reasonable costs and attorneys' fees, that arise from use of this data.</useconst>
+    <datacred>Philadelphia Water Department, Office of Watersheds
+1101 Market St. 4th Fl. Philadelphia PA, 19107
+215-685-6246
+maryellen.mccarty@phila.gov
+</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Maryellen Mccarty</cntper>
+          <cntorg>Philadelphia Water Department, Office of Watersheds</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1101 Market St. 4th Fl.</address>
+          <city>Philadelphia</city>
+          <state>Pennsylvania</state>
+          <postal>19107</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>215-685-6246 </cntvoice>
+        <cntemail>maryellen.mccarty@phila.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201302</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <descript>
+      <abstract>Philadelphia_Green_Storm_Water_Infrastructure201302</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>277</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Philadelphia_Green_Storm_Water_Infrastructure201302</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATERSHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_PLANTER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNCIL_DI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PRIMARY_FE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_TREE_TR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_BUMPOUT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_BASIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RAIN_GARDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SWALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INFILTRATI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POROUS_PAV</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SW_WETLAND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GREEN_ROOF</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CISTERN_RA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OTHER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LONGITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LATITUDE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINK_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINK_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Key attribute field names and descriptions
+
+NAME - Label name of the project
+
+STATUS - Constructed or In design
+
+WATERSHED - Watershed
+
+COUNCIL_DISTRICT - City Council District
+
+PRIMARY_FEATURE - Main GSI Feature on site (many GSI system features can be present) SW_TREE_TRENCH - Stormwater Tree Trench is on site
+
+SW_PLANTER - Stormwater Planter is on site
+
+SW_BUMPOUT - Stormwater Bumpout is on site
+
+RAIN_GARDEN - Rain Garden is on site
+
+SW_BASIN - Stormwater Basin is on site
+
+INFILTRATION_TRENCH - Infiltration Storage Trench is on site
+
+POROUS_PAVING - Porous Paving is on site
+
+SWALE - Swale is on site
+
+SW_WETLAND - Stormwater Wetland is on site
+
+CISTERN_RAIN_BARREL - Cistern or Rain Barrel is on site
+
+GREEN_ROOF - Green Roof is on site
+
+OTHER - Other GSI project is on site
+
+LINK - Website Link
+</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>201302</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

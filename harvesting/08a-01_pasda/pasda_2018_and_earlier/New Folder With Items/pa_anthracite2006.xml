@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata GROUP="'coal'">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Dept. of Environmental Protection, Bureau of Mining and Reclamation (BMR)</origin>
+        <pubdate>2006</pubdate>
+        <title>Historical Anthracite coal seam, mining and permit data by quadrangle for the state of Pennsylvania, 2006</title>
+        <edition>2.2</edition>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Dept. of Environmental Protection, Bureau of Mining and Reclamation</publish>
+        </pubinfo>
+        <othercit>Complete Access database files and tables of abbreviations are available.  See 'Cross Reference.'</othercit>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd GROUP="'coal'">
+      <timeinfo>
+        <sngdate>
+          <caldate>2006</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.375</westbc>
+        <eastbc>-76.25</eastbc>
+        <northbc>40.875</northbc>
+        <southbc>40.75</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geology geo geologic geological</themekey>
+        <themekey>mining</themekey>
+        <themekey>coal</themekey>
+        <themekey>Anthracite</themekey>
+        <themekey>Geoscientific Information</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Ashland Quadrangle</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst GROUP="'coal'">THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND.  THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.</useconst>
+    <ptcontac GROUP="'coal'">
+      <cntinfo>
+        <cntperp>
+          <cntper>Keith Previc</cntper>
+          <cntorg>Pennsylvania Bureau of Mining and Reclamation</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Department of Environmental Protection, Bureau of Mining and Reclamation, Division of Environmental Analysis and Support</address>
+          <address>P.O. Box 8461</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105-8461</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-783-9585</cntvoice>
+        <cntemail>kprevic@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref GROUP="'coal'">
+      <citeinfo>
+        <origin>Pennsylvania Bureau of Mining and Reclamation (BMR)</origin>
+        <pubdate>2006</pubdate>
+        <title>BMR supporting database files for Historical coal seam, mining and permit data for Pennsylvania</title>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Bureau of Mining and Reclamation</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/coal/BMR_Support</onlink>
+        <onlink>http://www.pasda.psu.edu/data/coal/BMR_Support</onlink>
+      </citeinfo>
+    </crossref>
+    <descript>
+      <abstract>pa_anthracite2006</abstract>
+    </descript>
+  </idinfo>
+  <dataqual GROUP="'coal'">
+    <attracc>
+      <attraccr>Coverages show the extent of permitting to the best of the draftsman's ability.  Denied permits originally drawn on the mylars in red cross hatch were sometimes mistaken for WPA mapped mines.  This is particularly true in the north west part of the Bituminous coal field and the entire Anthracite field.  There are NO WPA mapped mines in the Anthracite field.</attraccr>
+    </attracc>
+    <logic>Polygon topology present.</logic>
+    <complete>Coverage is believed to be complete for all areas with mining or permitting activities, with the following known exceptions: in Cool Spring quad B needs region built and in Reynoldsville quad Ca needs regions built.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>WPA mapping from 1930's may be unreliable and coverages may appear distorted.  These coverages are presented to give a reasonable guideline (+/-90) feet of what is on the ground in that area.  No attempt was made to correlate coal seams when the quads were digitized.  Some coverages for coal seams may appear where the coal seam does not exist.  Care should be taken when these anomalies are discovered.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Bureau of Mining and Reclamation</origin>
+            <pubdate>1998</pubdate>
+            <title>Mylar map system</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, Pennsylvania</pubplace>
+              <publish>Pennsylvania Bureau of Mining and Reclamation</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1930</begdate>
+              <enddate>1998</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>mylars</srccitea>
+        <srccontr>Source for digitization and scanning</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digitized information drafted onto the 1:24,000 scale mylars using ARC/INFO</procdesc>
+        <srcused>mylars</srcused>
+        <procdate>1998</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rick Day</cntper>
+              <cntorg>Pennsylvania State University Land Analysis Lab</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>450 Agricultural Sciences and Industries Building</address>
+              <city>University Park</city>
+              <state>PA</state>
+              <postal>16802</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-814-863-1615</cntvoice>
+            <cntfax>1-814-863-7043</cntfax>
+            <cntemail>r4d@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">E:\Metadata\ant-ashland_pa</srcused>
+        <date Sync="TRUE">20061024</date>
+        <time Sync="TRUE">09492700</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>90</absres>
+            <ordres>90</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.40000</semiaxis>
+        <denflat>294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo GROUP="'coal'">
+    <overview>
+      <eaover>
+Tables include identification numbers to be used with accompanying database files.
+Coal seams are abbreviated as follows:
+    Bituminous General          bitu
+    Sharon                      shar
+    Quakertown                  quak
+    Mercer                      mer
+    BrookvilleScrubgrass        A
+    Clarion #2                  clar2
+    Clarion #3 -                clar3
+    Lower Kittanning - B        B
+    Middle Kittanning - C       C
+    Upper Kittanning - C'       CPr
+    Lower Freeport - D          D
+    Upper Freeport - E          E
+    Mahoning - F                F
+    Humbert                     Hum
+    Brush Creek                 brck
+    Lower Bakerstown            lbak
+    Upper Bakerstown            ubak
+    Ames - Harlem               ames
+    Federal Hill                fed
+    Barton                      bar
+    Wellersburg                 well
+    Lower Clarysville           lclar
+    Upper Clarysville           uclar
+    Lonaconing                  lona
+    Hoffman                     hoff
+    Franklin                    frank
+    Little Pittsburgh           lpitt
+    Morantown                   mora
+    Pittsburgh                  Pitt
+    Pittsburgh Rider            pittr
+    Blue Lick                   blue
+    Redstone                    red
+    Redstone Rider              redr
+    Sewickley                   sew
+    Sewickley Rider             sewr
+    Uniontown                   unin
+    Little Waynesburg           lway
+    Waynesburg                  way
+    Waynesburg A                wayan
+    Waynesburg B                waybn
+    Washington                  wash
+    Jollytown                   joll
+    Bloss                       bloss
+    Seymour                     sey 
+    Bear Creek                  bear
+    Cushing                     cush
+    Morgan                      morg
+</eaover>
+      <eadetcit>BMR</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo GROUP="'coal'">
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARCE (ARC/INFO Export)</formname>
+          <formvern>7.1.1</formvern>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>see Online Linkage in Identification information section of metadata</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo GROUP="'coal'">
+    <metc>
+      <cntinfo>
+        <cntpos>Metadata Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metd Sync="TRUE">20080612</metd>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10442600</ModTime>
+    <MetaID>{A4D29C73-A8C1-48F6-A5DC-F595A342297A}</MetaID>
+    <CreaDate>20061024</CreaDate>
+    <CreaTime>09492700</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

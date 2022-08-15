@@ -1,0 +1,570 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Southeastern Pennsylvania Transportation Authority</origin>
+        <pubdate>2016</pubdate>
+        <title>SEPTA Stops By Line Spring 2016</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.septa.com/index.html </onlink>
+        <ftname Sync="TRUE">SEPTAStopsByLineSpring2016</ftname>
+        <pubinfo>
+          <pubplace>Philadelphia, PA</pubplace>
+          <publish>SEPTA</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2016</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-75.358756</westbc>
+        <eastbc Sync="TRUE">-75.074163</eastbc>
+        <northbc Sync="TRUE">40.113652</northbc>
+        <southbc Sync="TRUE">39.903336</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">2639242.888263</leftbc>
+        <rightbc Sync="TRUE">2716861.919470</rightbc>
+        <bottombc Sync="TRUE">218949.007694</bottombc>
+        <topbc Sync="TRUE">293368.111181</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Philadelphia, PA</placekey>
+      </place>
+    </keywords>
+    <accconst>Must contact SEPTA.</accconst>
+    <useconst>The Southeastern Pennsylvania Transportation Authority (SEPTA) excludes any and all implied warranties of merchantability and fitness.  No guarantees are expressed or implied as to the use or application of the digital information supplied.  DVRPC assumes no responsibility to maintain them in any manner or form.
+
+DVRPC will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the material supplied, or arising out of any inaccuracy or defect in the digital information supplied.
+
+Recipients of DVRPC digital files are not entitled to any file revisions, updates, corrections, or new releases.
+
+Recipients of DVRPC digital files are expressly prohibited from copying or releasing these files to any other individuals or agencies, under any circumstances.
+
+Recipients of DVRPC digital files are expressly prohibited from displaying for view or making these files available for download from the Internet or World Wide Web, under any circumstances.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Andy Ferry</cntper>
+          <cntorg>Southeastern Pennsylvania Transportation Authority</cntorg>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntemail>aferry@septa.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Recipients of SEPTA digital files will credit SEPTA as the source of the data when producing maps, publications, reports, or other documents that utilize SEPTA files.</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>SEPTAStopsByLineSpring2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE" />
+        <time Sync="TRUE">13191100</time>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Southeastern Pennsylvania Transportation Authority</origin>
+            <title>Highspeed_Stations</title>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="SEPTAStopsByLineSpring2016">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">74</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="SEPTAStopsByLineSpring2016">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">74</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="SEPTAStopsByLineSpring2016">
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">AT_SUFFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ATSTREET</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Cross Street associated with subway station</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AT_SUFFIX</attrlabl>
+        <attalias Sync="TRUE">STOP_DIREC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>suffix of cross street of subway stop</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STOP_DIREC</attrlabl>
+        <attalias Sync="TRUE">TAXI_STAND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Direction of train at each location</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TAXI_STAND</attrlabl>
+        <attalias Sync="TRUE">REST_ROOM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there room for idle taxi service?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REST_ROOM</attrlabl>
+        <attalias Sync="TRUE">SHELTER</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there a rest room located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHELTER</attrlabl>
+        <attalias Sync="TRUE">PARKING</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there a shelter located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PARKING</attrlabl>
+        <attalias Sync="TRUE">PLATFORM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there parking located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PLATFORM</attrlabl>
+        <attalias Sync="TRUE">BENCH</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there a platform located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BENCH</attrlabl>
+        <attalias Sync="TRUE">ELEVATOR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Are there benches located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ELEVATOR</attrlabl>
+        <attalias Sync="TRUE">ESCALATOR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there an elevator located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ESCALATOR</attrlabl>
+        <attalias Sync="TRUE">LINE_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Is there an escalator located at stop?</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LINE_NAME</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>Name of subway line</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">SEQUENCE</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atprecis Sync="TRUE">5</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SEQUENCE</attrlabl>
+        <attalias Sync="TRUE">STOP_NAME</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+        <attrdef>Order in which the train stops at that location</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <enttyp>
+        <enttypl>SEPTAStopsByLineSpring</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">74</enttypc>
+        <enttypd>This data set shows the train stops for all Philadelphia subway systems</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">STOP_NAME</attrlabl>
+        <attalias Sync="TRUE">ONSTREET</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Listed subway stop name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ONSTREET</attrlabl>
+        <attalias Sync="TRUE">ON_SUFFIX</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Street subway station is located on</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ON_SUFFIX</attrlabl>
+        <attalias Sync="TRUE">ATSTREET</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <attrdef>Suffix of Street located on</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Andy Ferry</cntper>
+          <cntorg>SEPTA</cntorg>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>1234 Market Street</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19107-3780</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>aferry@septa.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Recipients of SEPTA digital files are expressly prohibited from copying or releasing these files to any other individuals or agencies, under any circumstances.
+
+Recipients of SEPTA digital files are expressly prohibited from displaying for view or making these files available for  download from the Internet or World Wide Web, under any circumstances.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.000</transize>
+          <dssize Sync="TRUE">0.002</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2016</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Southeastern Pennsylvania Transportation Authority</cntorg>
+          <cntper>Nathan Miller</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>190 N. Independence Mall West</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19106-1520</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>215-580-7800</cntvoice>
+        <cntemail>nmiller@septa.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <CreaDate>20160308</CreaDate>
+    <CreaTime>11303200</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090520</SyncDate>
+    <SyncTime>14190300</SyncTime>
+    <ModDate>20160308</ModDate>
+    <ModTime>11341900</ModTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090520" Time="093716" Name="" export="">CopyFeatures "Database Connections\SEPTAGIS Connection to pwin-app-04.sde\Vector.SEPTAGIS.Transit\Vector.SEPTAStopsByLineSpring2016" "S:\ServicePlanningGIS\Data\Zip Files\Vector_SEPTAStopsByLineSpring2016.shp" # 0 0 0</Process>
+      </lineage>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\DATA\SEPTA\Spring2016\SEPTAStopsByLineSpring2016</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\DATA\SEPTA\2016_Spring\SEPTAStopsByLineSpring2016" dest="\\ALCES\DATA\SEPTA\Spring2016\SEPTAStopsByLineSpring2016" date="20160308" time="11303200" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="FALSE">SEPTA Stops By Line Spring 2016</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001" />
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">2639242.888263</westBL>
+          <eastBL Sync="TRUE">2716861.91947</eastBL>
+          <northBL Sync="TRUE">293368.111181</northBL>
+          <southBL Sync="TRUE">218949.007694</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-75.358756</westBL>
+      <eastBL Sync="TRUE">-75.074163</eastBL>
+      <northBL Sync="TRUE">40.113652</northBL>
+      <southBL Sync="TRUE">39.903336</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idPurp>To be used for planning purposes.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This data set shows the locations of train stops along the Market Frankford Line, Broad Street Line, and Broad Street Spur. This data set also has ridership information as well as detailed information about each train stop location.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>Recipients of SEPTA digital files will credit SEPTA as the source of the data when producing maps, publications, reports, or other documents that utilize SEPTA files.</idCredit>
+    <searchKeys>
+      <keyword>Transportation</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The Southeastern Pennsylvania Transportation Authority (SEPTA) excludes any and all implied warranties of merchantability and fitness. No guarantees are expressed or implied as to the use or application of the digital information supplied. DVRPC assumes no responsibility to maintain them in any manner or form. DVRPC will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the material supplied, or arising out of any inaccuracy or defect in the digital information supplied. Recipients of DVRPC digital files are not entitled to any file revisions, updates, corrections, or new releases. Recipients of DVRPC digital files are expressly prohibited from copying or releasing these files to any other individuals or agencies, under any circumstances. Recipients of DVRPC digital files are expressly prohibited from displaying for view or making these files available for download from the Internet or World Wide Web, under any circumstances.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Philly\Septa\SEPTAStopsByLineSpring2016.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.002</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001" />
+      </topLvl>
+      <geometObjs Name="SEPTAStopsByLineSpring2016">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">74</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20160308</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

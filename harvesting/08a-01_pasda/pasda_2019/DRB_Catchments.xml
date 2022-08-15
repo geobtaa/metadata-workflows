@@ -1,0 +1,516 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>USGS, PA Water Science Center</origin>
+        <title>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</title>
+        <edition>Version 1.0</edition>
+        <geoform>vector digital data</geoform>
+        <onlink>http://pa.water.usgs.gov</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <keywords>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>New Jersey</placekey>
+        <placekey>New York</placekey>
+        <placekey>Delware River Basin</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <theme>
+        <themekey>stream order</themekey>
+        <themekey>Strahler</themekey>
+        <themekey>catchment</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>InlandWaters</themekey>
+      </theme>
+    </keywords>
+    <accconst>No access constraints.</accconst>
+    <useconst>These data can be used by any GIS or Image Processing software.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>US Geological Survey, Pennsylvania Water Science Center</cntorg>
+          <cntper>Scott Hoffman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>215 Limekiln Road</address>
+          <city>New Cumberland</city>
+          <state>Pennsylvania</state>
+          <postal>17070</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(717) 730-6945</cntvoice>
+        <cntfax>(717) 730-6997</cntfax>
+        <cntemail>shoffman@usgs.gov</cntemail>
+        <hours>M - F 8:00 AM to 4:30 PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>ArcGIS 9.3.1</native>
+    <descript>
+      <abstract>DRB_Catchments</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</logic>
+    <complete>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srcscale>24</srcscale>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep>
+        <procdesc>Metadata created.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Command-line automated processing was used to generate the catchments</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</procdesc>
+        <srcused>http://streamstats.usgs.gov</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS, PaWSC</cntorg>
+          <cntper>Scott Hoffman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>215 Limekiln Road</address>
+          <city>New Cumberland</city>
+          <state>Pennsylvania</state>
+          <postal>17070</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(717) 730-6945</cntvoice>
+        <cntfax>(717) 730-6997</cntfax>
+        <cntemail>shoffman@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Scott Hoffman</rpIndName>
+    <rpOrgName>USGS, PaWSC</rpOrgName>
+    <rpPosName>GIS Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(717) 730-6945</voiceNum>
+        <faxNum>(717) 730-6997</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>215 Limekiln Road</delPoint>
+        <city>New Cumberland</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17070</postCode>
+        <country>US</country>
+        <eMailAdd>shoffman@usgs.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://pa.water.usgs.gov</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Digital Elevation Model (DEM) derived first- and second-order catchments for HUCs 02040101, 02040102, 02040103, 02040104, 02040106, 02040203</resTitle>
+      <resEd>Version 1.0</resEd>
+      <citRespParty>
+        <rpOrgName>USGS, PA Water Science Center</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;A breakthrough in water resources management occurred in 1961 when President Kennedy and the governors of Delaware, New Jersey, Pennsylvania, and New York for the first time signed concurrent compact legislation into law creating a regional body with the force of law to oversee a unified approach to managing a river system without regard to political boundaries. The members of this regional body - the Delaware River Basin Commission (DRBC) - include the four basin state governors and the Division Engineer, North Atlantic Division, U.S. Army Corps of Engineers, who serves as the federal representative. Commission programs include water quality protection, water supply allocation, regulatory review (permitting), water conservation initiatives, watershed planning, drought management, flood loss reduction, and recreation. Much of the new drilling interest taking place in northeastern Pennsylvania and southern New York is targeted at reaching the natural gas found in the Marcellus Shale formation, which underlies about 36 percent of the Delaware River Basin. Because the Marcellus Shale is considered a tight geologic formation, natural gas deposits were not previously thought to be practically and economically mineable using traditional techniques. New horizontal drilling and extraction methods, coupled with higher energy costs, have given energy companies reason to take a new interest in mining the natural gas deposits within the Marcellus Shale. In connection with natural gas drilling, the commission has identified three major areas of concern: 1.Gas drilling projects in the Marcellus Shale or other formations may have a substantial effect on the water resources of the basin by reducing the flow in streams and/or aquifers used to supply the significant amounts of fresh water needed in the natural gas mining process. 2.On-site drilling operations may potentially add, discharge or cause the release of pollutants into the ground water or surface water. 3.The recovered "frac water" must be treated and disposed of properly. DRBC is identifying methods, geospatial data, and other information to support decision making on how best to oversee the Marcellus Shale drilling in the Delaware River Basin (DRB).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>To develop catchment areas for first- and second-order streams in the DRB for all 8-digit, Hydrologic Unit Code (HUC) catalog units that are underlain by the Marcellus Shale.</idPurp>
+    <idCredit>Scott Hoffman, GIS Specialist, US Geological Survey, Pennsylvania Water Science Center</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Scott Hoffman</rpIndName>
+      <rpOrgName>US Geological Survey, Pennsylvania Water Science Center</rpOrgName>
+      <rpPosName>GIS Specialist</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(717) 730-6945</voiceNum>
+          <faxNum>(717) 730-6997</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>215 Limekiln Road</delPoint>
+          <city>New Cumberland</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17070</postCode>
+          <country>US</country>
+          <eMailAdd>shoffman@usgs.gov</eMailAdd>
+        </cntAddress>
+        <cntHours>M - F 8:00 AM to 4:30 PM</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <thesaName>
+        <resTitle>Geographic Names Information System (GNIS)</resTitle>
+      </thesaName>
+      <keyword>New York</keyword>
+      <keyword>Delware River Basin</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>New Jersey</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>stream order</keyword>
+      <keyword>Strahler</keyword>
+      <keyword>catchment</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>New York</keyword>
+      <keyword>Delware River Basin</keyword>
+      <keyword>stream order</keyword>
+      <keyword>Strahler</keyword>
+      <keyword>catchment</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>New Jersey</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <othConsts>No access constraints.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <class>
+          <ClasscationCd value="001" />
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;These data can be used by any GIS or Image Processing software.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>ArcGIS 9.3.1</envirDesc>
+    <suppInfo>Geospatial datasets attributed with detailed stream-order and catchment-area data form the foundation needed to identify High Value Water Resources (HVWR). Using the datasets, DRBC will be better informed as they develop protective natural gas regulations within the basin and identify HVWR areas. This scope of work is consistent with USGS federal goals of advancing the knowledge of regional hydrologic systems and processes, providing scientific technical support to regional basin commissions, and water-resources data and information for use by multiple parties for planning and operational purposes.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Polygons intersecting the neatline are closed along the border. Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area. Line segments are a set of sequentially numbered coordinate pairs. No duplicate features exist nor duplicate points in a data string. All nodes are represented by a single coordinate pair which indicates the beginning or end of a line segment.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>30-meter DEM, elevation data were used as the foundation to determine the first- and second-order catchments. Extraneous polygons were removed if they were determined to be artifacts from the GIS automated processing instead of true catchment areas related to the pour-point location.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>The horizontal accuracy standard follows the NSSDA-1998 standard. The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Command-line automated processing was used to generate the catchments</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>National Hydrologic Dataset (NHD) centerline-flow data from PA StreamStats used as source for Strahler stream order processing. Command-line ArcInfo was needed to run Strahler.aml. Center-line flow data was edited for consistency to remove straggler lines from braided streams. Strahler processing reference: Fast algorithm for automatically computing Strahler stream order, 1990, Lanfear, Kenneth J. water Resources Bulletin, 26: 977-981.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Supporting digital elevation used from the PA StreamStats GIS database: flow direction raster, flow accumulation raster; synthetic stream raster.</stepDesc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>http://streamstats.usgs.gov</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Basin pour points were checked for location and Strahler order number. Pour point added and/or deleted based on position on the DEM generated stream dataset. In several cases, points were added as inputs to lakes/ponds and also as outflow points to lakes/ponds. Pour points were also deleted for braided streams in selected stream channels.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Catchment datasets group based on HUC12 names and added into a file geodatabase.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Metadata created.</stepDesc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Another step in command-line processing created nodes to act as the basin delineation points for first- and second-order streams. The concept of valance is used. Valance is defined as the count of how many arcs connect to a node. A danglling node has a valance of 1, a psuedo node has valance of 2. Nodes at stream confluences are converted to points and buffered by 200 meters to create intersections when overlain with the NHD stream dataset. These points on the NHD become the pour point used in the automated basin delineation using command-line programing.</stepDesc>
+      </prcStep>
+      <dataSource>
+        <srcScale>
+          <rfDenom>24</rfDenom>
+        </srcScale>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <Esri>
+    <CreaDate>20180103</CreaDate>
+    <CreaTime>11374600</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>50000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ModDate>20180103</ModDate>
+    <ModTime>11393500</ModTime>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b9534030226034b0a42e94db23ea8d2b" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+VVNHUywgUEEgV2F0ZXIgU2NpZW5jZSBDZW50ZXI8L29yaWdpbj4NCiAgICAgICAgPHRpdGxlPkRp
+Z2l0YWwgRWxldmF0aW9uIE1vZGVsIChERU0pIGRlcml2ZWQgZmlyc3QtIGFuZCBzZWNvbmQtb3Jk
+ZXIgY2F0Y2htZW50cyBpbiBIVUMgMDIwNDAxMDE8L3RpdGxlPg0KICAgICAgICA8ZWRpdGlvbj5W
+ZXJzaW9uIDEuMDwvZWRpdGlvbj4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9yIGRpZ2l0YWwgZGF0
+YTwvZ2VvZm9ybT4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vcGEud2F0ZXIudXNncy5nb3Y8L29u
+bGluaz4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlvbj4NCiAgICA8ZGVzY3JpcHQ+
+DQogICAgICA8YWJzdHJhY3Q+QSBicmVha3Rocm91Z2ggaW4gd2F0ZXIgcmVzb3VyY2VzIG1hbmFn
+ZW1lbnQgb2NjdXJyZWQgaW4gMTk2MSB3aGVuIFByZXNpZGVudCBLZW5uZWR5IGFuZCB0aGUgZ292
+ZXJub3JzIG9mIERlbGF3YXJlLCBOZXcgSmVyc2V5LCBQZW5uc3lsdmFuaWEsIGFuZCBOZXcgWW9y
+ayBmb3IgdGhlIGZpcnN0IHRpbWUgc2lnbmVkIGNvbmN1cnJlbnQgY29tcGFjdCBsZWdpc2xhdGlv
+biBpbnRvIGxhdyBjcmVhdGluZyBhIHJlZ2lvbmFsIGJvZHkgd2l0aCB0aGUgZm9yY2Ugb2YgbGF3
+IHRvIG92ZXJzZWUgYSB1bmlmaWVkIGFwcHJvYWNoIHRvIG1hbmFnaW5nIGEgcml2ZXIgc3lzdGVt
+IHdpdGhvdXQgcmVnYXJkIHRvIHBvbGl0aWNhbCBib3VuZGFyaWVzLiBUaGUgbWVtYmVycyBvZiB0
+aGlzIHJlZ2lvbmFsIGJvZHkgLSB0aGUgRGVsYXdhcmUgUml2ZXIgQmFzaW4gQ29tbWlzc2lvbiAo
+RFJCQykgLSBpbmNsdWRlIHRoZSBmb3VyIGJhc2luIHN0YXRlIGdvdmVybm9ycyBhbmQgdGhlIERp
+dmlzaW9uIEVuZ2luZWVyLCBOb3J0aCBBdGxhbnRpYyBEaXZpc2lvbiwgVS5TLiBBcm15IENvcnBz
+IG9mIEVuZ2luZWVycywgd2hvIHNlcnZlcyBhcyB0aGUgZmVkZXJhbCByZXByZXNlbnRhdGl2ZS4g
+Q29tbWlzc2lvbiBwcm9ncmFtcyBpbmNsdWRlIHdhdGVyIHF1YWxpdHkgcHJvdGVjdGlvbiwgd2F0
+ZXIgc3VwcGx5IGFsbG9jYXRpb24sIHJlZ3VsYXRvcnkgcmV2aWV3IChwZXJtaXR0aW5nKSwgd2F0
+ZXIgY29uc2VydmF0aW9uIGluaXRpYXRpdmVzLCB3YXRlcnNoZWQgcGxhbm5pbmcsIGRyb3VnaHQg
+bWFuYWdlbWVudCwgZmxvb2QgbG9zcyByZWR1Y3Rpb24sIGFuZCByZWNyZWF0aW9uLiBNdWNoIG9m
+IHRoZSBuZXcgZHJpbGxpbmcgaW50ZXJlc3QgdGFraW5nIHBsYWNlIGluIG5vcnRoZWFzdGVybiBQ
+ZW5uc3lsdmFuaWEgYW5kIHNvdXRoZXJuIE5ldyBZb3JrIGlzIHRhcmdldGVkIGF0IHJlYWNoaW5n
+IHRoZSBuYXR1cmFsIGdhcyBmb3VuZCBpbiB0aGUgTWFyY2VsbHVzIFNoYWxlIGZvcm1hdGlvbiwg
+d2hpY2ggdW5kZXJsaWVzIGFib3V0IDM2IHBlcmNlbnQgb2YgdGhlIERlbGF3YXJlIFJpdmVyIEJh
+c2luLiBCZWNhdXNlIHRoZSBNYXJjZWxsdXMgU2hhbGUgaXMgY29uc2lkZXJlZCBhIHRpZ2h0IGdl
+b2xvZ2ljIGZvcm1hdGlvbiwgbmF0dXJhbCBnYXMgZGVwb3NpdHMgd2VyZSBub3QgcHJldmlvdXNs
+eSB0aG91Z2h0IHRvIGJlIHByYWN0aWNhbGx5IGFuZCBlY29ub21pY2FsbHkgbWluZWFibGUgdXNp
+bmcgdHJhZGl0aW9uYWwgdGVjaG5pcXVlcy4gTmV3IGhvcml6b250YWwgZHJpbGxpbmcgYW5kIGV4
+dHJhY3Rpb24gbWV0aG9kcywgY291cGxlZCB3aXRoIGhpZ2hlciBlbmVyZ3kgY29zdHMsIGhhdmUg
+Z2l2ZW4gZW5lcmd5IGNvbXBhbmllcyByZWFzb24gdG8gdGFrZSBhIG5ldyBpbnRlcmVzdCBpbiBt
+aW5pbmcgdGhlIG5hdHVyYWwgZ2FzIGRlcG9zaXRzIHdpdGhpbiB0aGUgTWFyY2VsbHVzIFNoYWxl
+LiBJbiBjb25uZWN0aW9uIHdpdGggbmF0dXJhbCBnYXMgZHJpbGxpbmcsIHRoZSBjb21taXNzaW9u
+IGhhcyBpZGVudGlmaWVkIHRocmVlIG1ham9yIGFyZWFzIG9mIGNvbmNlcm46IDEuR2FzIGRyaWxs
+aW5nIHByb2plY3RzIGluIHRoZSBNYXJjZWxsdXMgU2hhbGUgb3Igb3RoZXIgZm9ybWF0aW9ucyBt
+YXkgaGF2ZSBhIHN1YnN0YW50aWFsIGVmZmVjdCBvbiB0aGUgd2F0ZXIgcmVzb3VyY2VzIG9mIHRo
+ZSBiYXNpbiBieSByZWR1Y2luZyB0aGUgZmxvdyBpbiBzdHJlYW1zIGFuZC9vciBhcXVpZmVycyB1
+c2VkIHRvIHN1cHBseSB0aGUgc2lnbmlmaWNhbnQgYW1vdW50cyBvZiBmcmVzaCB3YXRlciBuZWVk
+ZWQgaW4gdGhlIG5hdHVyYWwgZ2FzIG1pbmluZyBwcm9jZXNzLiAyLk9uLXNpdGUgZHJpbGxpbmcg
+b3BlcmF0aW9ucyBtYXkgcG90ZW50aWFsbHkgYWRkLCBkaXNjaGFyZ2Ugb3IgY2F1c2UgdGhlIHJl
+bGVhc2Ugb2YgcG9sbHV0YW50cyBpbnRvIHRoZSBncm91bmQgd2F0ZXIgb3Igc3VyZmFjZSB3YXRl
+ci4gMy5UaGUgcmVjb3ZlcmVkICJmcmFjIHdhdGVyIiBtdXN0IGJlIHRyZWF0ZWQgYW5kIGRpc3Bv
+c2VkIG9mIHByb3Blcmx5LiBEUkJDIGlzIGlkZW50aWZ5aW5nIG1ldGhvZHMsIGdlb3NwYXRpYWwg
+ZGF0YSwgYW5kIG90aGVyIGluZm9ybWF0aW9uIHRvIHN1cHBvcnQgZGVjaXNpb24gbWFraW5nIG9u
+IGhvdyBiZXN0IHRvIG92ZXJzZWUgdGhlIE1hcmNlbGx1cyBTaGFsZSBkcmlsbGluZyBpbiB0aGUg
+RGVsYXdhcmUgUml2ZXIgQmFzaW4gKERSQikuPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPlRv
+IGRldmVsb3AgY2F0Y2htZW50IGFyZWFzIGZvciBmaXJzdC0gYW5kIHNlY29uZC1vcmRlciBzdHJl
+YW1zIGluIHRoZSBEUkIgZm9yIGFsbCA4LWRpZ2l0LCBIeWRyb2xvZ2ljIFVuaXQgQ29kZSAoSFVD
+KSBjYXRhbG9nIHVuaXRzIHRoYXQgYXJlIHVuZGVybGFpbiBieSB0aGUgTWFyY2VsbHVzIFNoYWxl
+LjwvcHVycG9zZT4NCiAgICAgIDxzdXBwbGluZj5HZW9zcGF0aWFsIGRhdGFzZXRzIGF0dHJpYnV0
+ZWQgd2l0aCBkZXRhaWxlZCBzdHJlYW0tb3JkZXIgYW5kIGNhdGNobWVudC1hcmVhIGRhdGEgZm9y
+bSB0aGUgZm91bmRhdGlvbiBuZWVkZWQgdG8gaWRlbnRpZnkgSGlnaCBWYWx1ZSBXYXRlciBSZXNv
+dXJjZXMgKEhWV1IpLiBVc2luZyB0aGUgZGF0YXNldHMsIERSQkMgd2lsbCBiZSBiZXR0ZXIgaW5m
+b3JtZWQgYXMgdGhleSBkZXZlbG9wIHByb3RlY3RpdmUgbmF0dXJhbCBnYXMgcmVndWxhdGlvbnMg
+d2l0aGluIHRoZSBiYXNpbiBhbmQgaWRlbnRpZnkgSFZXUiBhcmVhcy4gVGhpcyBzY29wZSBvZiB3
+b3JrIGlzIGNvbnNpc3RlbnQgd2l0aCBVU0dTIGZlZGVyYWwgZ29hbHMgb2YgYWR2YW5jaW5nIHRo
+ZSBrbm93bGVkZ2Ugb2YgcmVnaW9uYWwgaHlkcm9sb2dpYyBzeXN0ZW1zIGFuZCBwcm9jZXNzZXMs
+IHByb3ZpZGluZyBzY2llbnRpZmljIHRlY2huaWNhbCBzdXBwb3J0IHRvIHJlZ2lvbmFsIGJhc2lu
+IGNvbW1pc3Npb25zLCBhbmQgd2F0ZXItcmVzb3VyY2VzIGRhdGEgYW5kIGluZm9ybWF0aW9uIGZv
+ciB1c2UgYnkgbXVsdGlwbGUgcGFydGllcyBmb3IgcGxhbm5pbmcgYW5kIG9wZXJhdGlvbmFsIHB1
+cnBvc2VzLjwvc3VwcGxpbmY+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8c3RhdHVzPg0KICAgICAg
+PHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRhdGU+Tm9uZSBwbGFubmVk
+PC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0K
+ICAgICAgICA8dGhlbWVrdD5Ob25lPC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+Y2F0Y2ht
+ZW50PC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlN0cmFobGVyPC90aGVtZWtleT4NCiAg
+ICAgICAgPHRoZW1la2V5PnN0cmVhbSBvcmRlcjwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0K
+ICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2VrdD5HZW9ncmFwaGljIE5hbWVzIEluZm9ybWF0
+aW9uIFN5c3RlbSAoR05JUyk8L3BsYWNla3Q+DQogICAgICAgIDxwbGFjZWtleT5OZXcgSmVyc2V5
+PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5Pk5ldyBZb3JrPC9wbGFjZWtleT4NCiAgICAg
+ICAgPHBsYWNla2V5PkRlbHdhcmUgUml2ZXIgQmFzaW48L3BsYWNla2V5Pg0KICAgICAgICA8cGxh
+Y2VrZXk+UGVubnN5bHZhbmlhPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgPC9rZXl3
+b3Jkcz4NCiAgICA8YWNjY29uc3Q+Tm8gYWNjZXNzIGNvbnN0cmFpbnRzLjwvYWNjY29uc3Q+DQog
+ICAgPHVzZWNvbnN0PlRoZXNlIGRhdGEgY2FuIGJlIHVzZWQgYnkgYW55IEdJUyBvciBJbWFnZSBQ
+cm9jZXNzaW5nIHNvZnR3YXJlLjwvdXNlY29uc3Q+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNu
+dGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+VVMgR2VvbG9naWNh
+bCBTdXJ2ZXksIFBlbm5zeWx2YW5pYSBXYXRlciBTY2llbmNlIENlbnRlcjwvY250b3JnPg0KICAg
+ICAgICAgIDxjbnRwZXI+U2NvdHQgSG9mZm1hbjwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+
+DQogICAgICAgIDxjbnRwb3M+R0lTIFNwZWNpYWxpc3Q8L2NudHBvcz4NCiAgICAgICAgPGNudGFk
+ZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4N
+CiAgICAgICAgICA8YWRkcmVzcz4yMTUgTGltZWtpbG4gUm9hZDwvYWRkcmVzcz4NCiAgICAgICAg
+ICA8Y2l0eT5OZXcgQ3VtYmVybGFuZDwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+UGVubnN5bHZh
+bmlhPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE3MDcwPC9wb3N0YWw+DQogICAgICAgICAg
+PGNvdW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZv
+aWNlPig3MTcpIDczMC02OTQ1PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD4oNzE3KSA3MzAt
+Njk5NzwvY250ZmF4Pg0KICAgICAgICA8Y250ZW1haWw+c2hvZmZtYW5AdXNncy5nb3Y8L2NudGVt
+YWlsPg0KICAgICAgICA8aG91cnM+TSAtIEYgODowMCBBTSB0byA0OjMwIFBNPC9ob3Vycz4NCiAg
+ICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxkYXRhY3JlZD5TY290dCBIb2Zm
+bWFuLCBHSVMgU3BlY2lhbGlzdCwgVVMgR2VvbG9naWNhbCBTdXJ2ZXksIFBlbm5zeWx2YW5pYSBX
+YXRlciBTY2llbmNlIENlbnRlcjwvZGF0YWNyZWQ+DQogICAgPHNlY2luZm8+DQogICAgICA8c2Vj
+Y2xhc3M+VW5jbGFzc2lmaWVkPC9zZWNjbGFzcz4NCiAgICA8L3NlY2luZm8+DQogICAgPG5hdGl2
+ZT5BcmNHSVMgOS4zLjE8L25hdGl2ZT4NCiAgPC9pZGluZm8+DQogIDxkYXRhcXVhbD4NCiAgICA8
+bG9naWM+UG9seWdvbnMgaW50ZXJzZWN0aW5nIHRoZSBuZWF0bGluZSBhcmUgY2xvc2VkIGFsb25n
+IHRoZSBib3JkZXIuIFNlZ21lbnRzIG1ha2luZyB1cCB0aGUgb3V0ZXIgYW5kIGlubmVyIGJvdW5k
+YXJpZXMgb2YgYSBwb2x5Z29uIHRpZSBlbmQtdG8tZW5kIHRvIGNvbXBsZXRlbHkgZW5jbG9zZSB0
+aGUgYXJlYS4gTGluZSBzZWdtZW50cyBhcmUgYSBzZXQgb2Ygc2VxdWVudGlhbGx5IG51bWJlcmVk
+IGNvb3JkaW5hdGUgcGFpcnMuIE5vIGR1cGxpY2F0ZSBmZWF0dXJlcyBleGlzdCBub3IgZHVwbGlj
+YXRlIHBvaW50cyBpbiBhIGRhdGEgc3RyaW5nLiBBbGwgbm9kZXMgYXJlIHJlcHJlc2VudGVkIGJ5
+IGEgc2luZ2xlIGNvb3JkaW5hdGUgcGFpciB3aGljaCBpbmRpY2F0ZXMgdGhlIGJlZ2lubmluZyBv
+ciBlbmQgb2YgYSBsaW5lIHNlZ21lbnQuPC9sb2dpYz4NCiAgICA8Y29tcGxldGU+MzAtbWV0ZXIg
+REVNLCBlbGV2YXRpb24gZGF0YSB3ZXJlIHVzZWQgYXMgdGhlIGZvdW5kYXRpb24gdG8gZGV0ZXJt
+aW5lIHRoZSBmaXJzdC0gYW5kIHNlY29uZC1vcmRlciBjYXRjaG1lbnRzLiBFeHRyYW5lb3VzIHBv
+bHlnb25zIHdlcmUgcmVtb3ZlZCBpZiB0aGV5IHdlcmUgZGV0ZXJtaW5lZCB0byBiZSBhcnRpZmFj
+dHMgZnJvbSB0aGUgR0lTIGF1dG9tYXRlZCBwcm9jZXNzaW5nIGluc3RlYWQgb2YgdHJ1ZSBjYXRj
+aG1lbnQgYXJlYXMgcmVsYXRlZCB0byB0aGUgcG91ci1wb2ludCBsb2NhdGlvbi48L2NvbXBsZXRl
+Pg0KICAgIDxwb3NhY2M+DQogICAgICA8aG9yaXpwYT4NCiAgICAgICAgPGhvcml6cGFyPlRoZSBo
+b3Jpem9udGFsIGFjY3VyYWN5IHN0YW5kYXJkIGZvbGxvd3MgdGhlIE5TU0RBLTE5OTggc3RhbmRh
+cmQuIFRoZSBtYXhpbXVtIHBlcm1pc3NpYmxlIFJNU0UgZm9yIDk1JSBvZiB0aGUgaG9yaXpvbnRh
+bCBjaGVjayBwb2ludHMgZm9yIHRoZSBtYXBwaW5nIHByb2R1Y3QgaXMgNSBmZWV0IG9yIGJldHRl
+ci48L2hvcml6cGFyPg0KICAgICAgPC9ob3JpenBhPg0KICAgIDwvcG9zYWNjPg0KICAgIDxsaW5l
+YWdlPg0KICAgICAgPHNyY2luZm8+DQogICAgICAgIDxzcmNzY2FsZT4yNDwvc3Jjc2NhbGU+DQog
+ICAgICAgIDx0eXBlc3JjPk5vbmU8L3R5cGVzcmM+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8
+cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5NZXRhZGF0YSBjcmVhdGVkLjwvcHJvY2Rlc2M+
+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+
+QW5vdGhlciBzdGVwIGluIGNvbW1hbmQtbGluZSBwcm9jZXNzaW5nIGNyZWF0ZWQgbm9kZXMgdG8g
+YWN0IGFzIHRoZSBiYXNpbiBkZWxpbmVhdGlvbiBwb2ludHMgZm9yIGZpcnN0LSBhbmQgc2Vjb25k
+LW9yZGVyIHN0cmVhbXMuIFRoZSBjb25jZXB0IG9mIHZhbGFuY2UgaXMgdXNlZC4gVmFsYW5jZSBp
+cyBkZWZpbmVkIGFzIHRoZSBjb3VudCBvZiBob3cgbWFueSBhcmNzIGNvbm5lY3QgdG8gYSBub2Rl
+LiBBIGRhbmdsbGluZyBub2RlIGhhcyBhIHZhbGFuY2Ugb2YgMSwgYSBwc3VlZG8gbm9kZSBoYXMg
+dmFsYW5jZSBvZiAyLiBOb2RlcyBhdCBzdHJlYW0gY29uZmx1ZW5jZXMgYXJlIGNvbnZlcnRlZCB0
+byBwb2ludHMgYW5kIGJ1ZmZlcmVkIGJ5IDIwMCBtZXRlcnMgdG8gY3JlYXRlIGludGVyc2VjdGlv
+bnMgd2hlbiBvdmVybGFpbiB3aXRoIHRoZSBOSEQgc3RyZWFtIGRhdGFzZXQuIFRoZXNlIHBvaW50
+cyBvbiB0aGUgTkhEIGJlY29tZSB0aGUgcG91ciBwb2ludCB1c2VkIGluIHRoZSBhdXRvbWF0ZWQg
+YmFzaW4gZGVsaW5lYXRpb24gdXNpbmcgY29tbWFuZC1saW5lIHByb2dyYW1pbmcuPC9wcm9jZGVz
+Yz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVz
+Yz5Db21tYW5kLWxpbmUgYXV0b21hdGVkIHByb2Nlc3Npbmcgd2FzIHVzZWQgdG8gZ2VuZXJhdGUg
+dGhlIGNhdGNobWVudHM8L3Byb2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9j
+c3RlcD4NCiAgICAgICAgPHByb2NkZXNjPk5hdGlvbmFsIEh5ZHJvbG9naWMgRGF0YXNldCAoTkhE
+KSBjZW50ZXJsaW5lLWZsb3cgZGF0YSBmcm9tIFBBIFN0cmVhbVN0YXRzIHVzZWQgYXMgc291cmNl
+IGZvciBTdHJhaGxlciBzdHJlYW0gb3JkZXIgcHJvY2Vzc2luZy4gQ29tbWFuZC1saW5lIEFyY0lu
+Zm8gd2FzIG5lZWRlZCB0byBydW4gU3RyYWhsZXIuYW1sLiBDZW50ZXItbGluZSBmbG93IGRhdGEg
+d2FzIGVkaXRlZCBmb3IgY29uc2lzdGVuY3kgdG8gcmVtb3ZlIHN0cmFnZ2xlciBsaW5lcyBmcm9t
+IGJyYWlkZWQgc3RyZWFtcy4gU3RyYWhsZXIgcHJvY2Vzc2luZyByZWZlcmVuY2U6IEZhc3QgYWxn
+b3JpdGhtIGZvciBhdXRvbWF0aWNhbGx5IGNvbXB1dGluZyBTdHJhaGxlciBzdHJlYW0gb3JkZXIs
+IDE5OTAsIExhbmZlYXIsIEtlbm5ldGggSi4gd2F0ZXIgUmVzb3VyY2VzIEJ1bGxldGluLCAyNjog
+OTc3LTk4MS48L3Byb2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4N
+CiAgICAgICAgPHByb2NkZXNjPkJhc2luIHBvdXIgcG9pbnRzIHdlcmUgY2hlY2tlZCBmb3IgbG9j
+YXRpb24gYW5kIFN0cmFobGVyIG9yZGVyIG51bWJlci4gUG91ciBwb2ludCBhZGRlZCBhbmQvb3Ig
+ZGVsZXRlZCBiYXNlZCBvbiBwb3NpdGlvbiBvbiB0aGUgREVNIGdlbmVyYXRlZCBzdHJlYW0gZGF0
+YXNldC4gSW4gc2V2ZXJhbCBjYXNlcywgcG9pbnRzIHdlcmUgYWRkZWQgYXMgaW5wdXRzIHRvIGxh
+a2VzL3BvbmRzIGFuZCBhbHNvIGFzIG91dGZsb3cgcG9pbnRzIHRvIGxha2VzL3BvbmRzLiBQb3Vy
+IHBvaW50cyB3ZXJlIGFsc28gZGVsZXRlZCBmb3IgYnJhaWRlZCBzdHJlYW1zIGluIHNlbGVjdGVk
+IHN0cmVhbSBjaGFubmVscy48L3Byb2NkZXNjPg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxw
+cm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPkNhdGNobWVudCBkYXRhc2V0cyBncm91cCBiYXNl
+ZCBvbiBIVUMxMiBuYW1lcyBhbmQgYWRkZWQgaW50byBhIGZpbGUgZ2VvZGF0YWJhc2UuPC9wcm9j
+ZGVzYz4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9j
+ZGVzYz5TdXBwb3J0aW5nIGRpZ2l0YWwgZWxldmF0aW9uIHVzZWQgZnJvbSB0aGUgUEEgU3RyZWFt
+U3RhdHMgR0lTIGRhdGFiYXNlOiBmbG93IGRpcmVjdGlvbiByYXN0ZXIsIGZsb3cgYWNjdW11bGF0
+aW9uIHJhc3Rlcjsgc3ludGhldGljIHN0cmVhbSByYXN0ZXIuPC9wcm9jZGVzYz4NCiAgICAgICAg
+PHNyY3VzZWQ+aHR0cDovL3N0cmVhbXN0YXRzLnVzZ3MuZ292PC9zcmN1c2VkPg0KICAgICAgPC9w
+cm9jc3RlcD4NCiAgICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+DQogIDxtZXRhaW5mbz4NCiAg
+ICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8
+Y250b3JnPlVTR1MsIFBhV1NDPC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5TY290dCBIb2Zm
+bWFuPC9jbnRwZXI+DQogICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudHBvcz5HSVMgU3Bl
+Y2lhbGlzdDwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+
+bWFpbGluZyBhbmQgcGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjIxNSBM
+aW1la2lsbiBSb2FkPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5Pk5ldyBDdW1iZXJsYW5kPC9j
+aXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5uc3lsdmFuaWE8L3N0YXRlPg0KICAgICAgICAgIDxw
+b3N0YWw+MTcwNzA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VUzwvY291bnRyeT4NCiAg
+ICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+KDcxNykgNzMwLTY5NDU8L2NudHZv
+aWNlPg0KICAgICAgICA8Y250ZmF4Pig3MTcpIDczMC02OTk3PC9jbnRmYXg+DQogICAgICAgIDxj
+bnRlbWFpbD5zaG9mZm1hbkB1c2dzLmdvdjwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQog
+ICAgPC9tZXRjPg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBmb3IgRGlnaXRh
+bCBHZW9zcGF0aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAw
+MS0xOTk4PC9tZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgPC9tZXRh
+aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

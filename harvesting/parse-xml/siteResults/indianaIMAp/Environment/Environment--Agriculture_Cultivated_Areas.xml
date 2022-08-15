@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>
+United States Department of Agriculture, National Agricultural
+Statistics Service, Research and Development Division, Geospatial
+Information Branch, Area Frame Section
+</origin>
+        <pubdate>2004</pubdate>
+        <title>
+CULTIVATED_AREAS_USDA_IN: Cultivated Areas in Indiana in 2004 (United States
+Department of Agriculture, 1:100,000, Polygon Shapefile)
+</title>
+        <pubinfo>
+          <pubplace>Fairfax, Virginia</pubplace>
+          <publish>
+U.S. Department of Agriculture, National Agricultural
+Statistics Service
+</publish>
+        </pubinfo>
+        <othercit>
+This layer is exactly the same as a shapefile named
+"strata_a_in.shp" and titled "Stratification of Indiana 2004" that was
+acquired by personnel of the Indiana Geological Survey from the USDA. The
+shapefile was renamed and the title was changed in order to conform to
+metadata standards of the Indiana Geological Survey.
+</othercit>
+        <onlink>&lt;http://www.nass.usda.gov/research&gt;</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The United States Department of Agriculture (USDA), National
+Agricultural Statistics Service (NASS) area sampling frame is a
+delineation of all parcels of land for the purpose of later sampling the
+parcels.  The area frame is constructed by visually interpreting
+satellite imagery to divide a state into homogenous land use areas
+(strata) based on percent cultivated.  The strata are typically defined
+as low, medium, or high percent cultivated, nonagricultural land, urban
+use, agri-urban, or water.  The boundaries of the strata usually follow
+identifiable features such as roads, railroads, and waterways.  The strata
+boundaries do not coincide with any political boundaries, with the
+exception of state boundaries.
+</abstract>
+      <purpose>
+These data are intended for geographic display and analysis at the state
+level.  The data should be displayed and analyzed at a scale of
+1:100,000 or smaller (for example, 1:250,000, and so on).  The strata data are
+provided "as is."  USDA/NASS does not warrant results you may obtain
+using the strata data.
+</purpose>
+      <supplinf>N/A</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.160319</westbc>
+        <eastbc>-84.687775</eastbc>
+        <northbc>41.780590</northbc>
+        <southbc>37.755161</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>
+ISO 19115 Topic Category - farming, 001.
+ISO 19115 Topic Category - environment, 007.
+National Agricultural Statistics Service, U.S. Department of
+Agriculture, 1987, Area Frame Design for Agricultural Surveys,
+Washington, D.C., NASS/USDA.
+</themekt>
+        <themekey>Stratification</themekey>
+        <themekey>Area sampling frame</themekey>
+        <themekey>Land use classes (strata)</themekey>
+      </theme>
+      <place>
+        <placekt>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of The United
+States, and Associated Areas (Federal Information Processing Standard
+5-2):  Washington, D.C., National Institute of Standards and
+Technology.
+</placekt>
+        <placekey>United States</placekey>
+        <placekey>USA</placekey>
+        <placekey>Indiana</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Area Frame Section staff</cntper>
+          <cntorg>USDA/NASS/RDD/AFS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>3251 Old Lee Highway, Suite 301</address>
+          <city>Fairfax</city>
+          <state>Virginia</state>
+          <postal>22030</postal>
+        </cntaddr>
+        <cntvoice>703-877-8000</cntvoice>
+        <cntemail>HQ_RD_OD@nass.usda.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>
+Environmental Systems Research Institute ArcView 3.3 shapefile, Microsoft
+Windows XP.
+</native>
+    <useconst>Environment--Agriculture_Cultivated_Areas</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <logic>Checks for topological consistency were performed on this data set.</logic>
+    <complete>
+There are no known gaps or missing data.  This data set includes the area
+in square miles and number of acres for each strata.  Boundaries may not
+be coincident with strata boundaries of adjacent states.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The sources used for digitizing strata boundaries are 1:100,000-scale
+digital raster graphics of USGS topographic quadrangles
+</horizpar>
+        <qhorizpa>
+          <horizpav>5.0</horizpav>
+          <horizpae>N/A</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geologic Survey (USGS)</origin>
+            <pubdate>1984 - 1987</pubdate>
+            <title>USGS Topographic Quadrangles</title>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1963</begdate>
+              <enddate>1986</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>TopoQuad100</srccitea>
+        <srccontr>Attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Bureau of the Census</origin>
+            <pubdate>2000</pubdate>
+            <title>TIGER digital vector files</title>
+            <pubinfo>
+              <pubplace>Redlands, CA</pubplace>
+              <publish>Environmental Systems Research Institute, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>TIGER</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2000</pubdate>
+            <title>Sure! maps (USGS digital raster graphics)</title>
+            <pubinfo>
+              <pubplace>San Diego, California</pubplace>
+              <publish>Titan Systems</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1998</begdate>
+              <enddate>2000</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>SureMaps</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Agricultural Statistics Service</origin>
+            <pubdate>2004</pubdate>
+            <title>Segment Center maps</title>
+            <pubinfo>
+              <pubplace>Fairfax, Virginia</pubplace>
+              <publish>National Agricultural Statistics Service</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2003</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>SegCenterMaps</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>2003</pubdate>
+            <title>Landsat TM 5 Imagery</title>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>USGS</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2003</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Imagery date</srccurr>
+        </srctime>
+        <srccitea>Landsat5</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA, Indiana Agricultural Statistics Office</origin>
+            <pubdate>2002</pubdate>
+            <title>Indiana Agriculture and Fisheries Statistics</title>
+            <pubinfo>
+              <pubplace>Indianapolis</pubplace>
+              <publish>USDA, Indiana Dept. of Agriculture</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2002</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>StateAgStats</srccitea>
+        <srccontr>Attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>DeLorme</origin>
+            <pubdate>2001</pubdate>
+            <title>Indiana Atlas and Gazetteer</title>
+            <pubinfo>
+              <pubplace>Yarmouth, Maine</pubplace>
+              <publish>Delorme</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>DelormeAtlas</srccitea>
+        <srccontr>Spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>2003</pubdate>
+            <title>Landsat 7 TM imagery</title>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>USGS</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2003</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Imagery date</srccurr>
+        </srctime>
+        <srccitea>Landsat7</srccitea>
+        <srccontr>Spatial and Attribute Information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The area sampling frame for Indiana was constructed for use in 1989
+and was based on USGS 1:100,000-scale topographic maps, 1:250,000-scale
+</procdesc>
+      </procstep>
+    </lineage>
+digital Landsat imagery, and 1:100,000-scale SureMaps.  The
+boundaries were modified in 2004 to conform to USGS 1:100,000 scale
+topographic digital raster graphics and digital line graph files.
+Individual county files were merged into single state file.  The
+coordinates for the strata polygons are projected to UTM Zone 16,
+WGS 1984 datum (meters).  The spatial data file format is
+Environmental Systems Research Institute's ArcView shapefile format.
+The shapefile was checked and edited for topology in 2004.  Gaps and
+overlaps were corrected within an ESRI personal geodatabase.
+<srcused>TopoQuad100</srcused><srcused>Landsat5</srcused><srcused>TIGER</srcused><srcused>Suremaps</srcused><srcused>SegCenterMaps</srcused><srcused>DeLormeAtlas</srcused><srcused>StateAgStats</srcused><srcused>Landsat7</srcused><procdate>2004</procdate><procstep><procdesc>
+Personnel of the Indiana Geological Survey acquired the shapefile named "Stratification of
+Indiana 2004" from the NASS (National Agricultural Statistical Service, USDA). In order to
+</procdesc></procstep>
+conform to naming and metadata conventions of the Indiana Geological Survey, the shapefile
+was re-named and the metadata were modified accordingly.
+Also, within the metadata, definitions were changed for two
+<attr>fields for which the definitions in the USDA metadata did not agree</attr>
+with values that appear in the USDA shapefile: (1) For Enumerated_Domain_Value = 31, the definition
+in the metadata was changed from "&gt;20 Home/Square Mile" to "&gt;100 Home/Square Mile,"
+and (2) For Enumerated_Domain_Value = 32, the definition in the metadata was changed
+from "&gt;20 Home/Square Mile" to "&gt;100 Home/Square Mile."
+<srcused>STRATA_A_IN.shp</srcused><procdate>20071017</procdate><srcprod>CULTIVATED_AREAS_USDA_IN.SHP</srcprod><proccont><cntinfo><cntperp><cntper>Denver Harper</cntper><cntorg>Indiana Geological Survey</cntorg></cntperp><cntpos>Geologist, GIS Specialist</cntpos><cntaddr><addrtype>Mailing and physical address</addrtype><address>611 North Walnut Grove</address><city>Bloomington</city><state>Indiana</state><postal>47405-2208</postal><country>USA</country></cntaddr><cntvoice>812-855-1369</cntvoice><cntfax>812-855-2862</cntfax><cntemail>dharper@indiana.edu</cntemail><hours>0800 to 1700 Eastern Standard Time</hours><cntinst>Monday through Friday, except holidays</cntinst></cntinfo></proccont><procstep><procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected.
+</procdesc><procdate>20071017</procdate><proccont><cntinfo><cntperp><cntper>Denver Harper</cntper><cntorg>Indiana Geological Survey</cntorg></cntperp><cntpos>Geologist, GIS Specialist</cntpos><cntaddr><addrtype>Mailing and physical address</addrtype><address>611 North Walnut Grove</address><city>Bloomington</city><state>Indiana</state><postal>47405-2208</postal><country>USA</country></cntaddr><cntvoice>812-855-1369</cntvoice><cntfax>812-855-2862</cntfax><cntemail>dharper@indiana.edu</cntemail><hours>0800 to 1700 Eastern Standard Time</hours><cntinst>
+Monday through Friday, except holidays
+</cntinst></cntinfo></proccont></procstep></dataqual>
+  <spdoinfo>
+    <indspref>
+U.S. Department of Commerce, 1990, Counties and Equivalent
+Entities of The United States, Its Possessions, and
+Associated Areas (Federal Information Processing Standard
+6-4): Washington, D.C.  National Institute of Standards and
+Technology.
+</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-Polygon</sdtstype>
+        <ptvctcnt>
+8 (7876 prior to dissolving boundaries)
+</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>
+298.26
+</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Land Use Strata</enttypl>
+        <enttypd>Homogeneous land-use area based on percent cultivated</enttypd>
+        <enttypds>U.S. Department of Agriculture, National Agricultural Statistics Service</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Strata/Legend</attrlabl>
+        <attrdef>Land-use category based on percent cultivated</attrdef>
+        <attrdefs>U.S. Department of Agriculture, National Agricultural Statistics Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>
+&gt; 75% cultivated, (cultivated categories consist of land used
+for crops, the remaining portion of land in the cultivated strata
+may include pasture, woods, waste, rangeland, etc.)
+</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>
+51%-75% cultivated, (cultivated categories consist of land used
+for crops, the remaining portion of land in the cultivated strata
+may include pasture, woods, waste, rangeland, etc.)
+</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>
+15%-50% Cultivated, (cultivated categories consist of land used
+for crops, the remaining portion of land in the cultivated strata
+may include pasture, woods, waste, rangeland, etc.)
+</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>31</edomv>
+            <edomvd>Agri-Urban: &gt;20 Home/Square Mile</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>32</edomv>
+            <edomvd>Commercial: &gt;20 Home/Square Mile</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>
+&lt;15% Cultivated, (cultivated categories consist of land used
+for crops, the remaining portion of land in the cultivated strata
+may include pasture, woods, waste, rangeland, etc.)
+</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>Non-agricultural</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>62</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>
+"2004 Area Frame Design Information, Implementation Years of
+Current NASS Area Frames," NASS Area Frame Section, March 2004.
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sum_area</attrlabl>
+        <attrdef>The stratum area in square miles</attrdef>
+        <attrdefs>U.S. Department of Agriculture, National Agricultural Statistics Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>295.135 (actual value, not range)</rdommin>
+            <rdommax>13907.999 (actual value, not range)</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sum_acres</attrlabl>
+        <attrdef>The number of acres in a stratum</attrdef>
+        <attrdefs>U.S. Department of Agriculture, National Agricultural Statistics Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>188775.294 (actual value, not range)</rdommin>
+            <rdommax>
+8895692.456 (actual value, not range)
+</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA/NASS/RDD/GIB/AFS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>3251 Old Lee Highway, Suite 301</address>
+          <city>Fairfax</city>
+          <state>Virginia</state>
+          <postal>22030</postal>
+        </cntaddr>
+        <cntvoice>703-877-8000</cntvoice>
+        <cntinst>None</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>
+Users of the strata data are solely responsible for interpretations made
+from the product.  The strata data are provided "as is."  USDA/NASS does
+not warrant results you may obtain by using the strata data.  Feel free to
+contact our staff at (HQ_RD_OD@nass.usda.gov) if technical questions arise
+in the use of the strata data.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>&lt;http://www.nass.usda.gov/research&gt;</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>N/A</offmedia>
+            <recfmt>N/A</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>There is no charge for the online option.</fees>
+      <ordering>N/A</ordering>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the National Agricultural Statistics Service (NASS), United States Department of
+Agriculture (USDA), be cited in any products generated from this data set.  The following source citation should be
+included: CULTIVATED_AREAS_USDA_IN: Cultivated Areas in Indiana in 2004 (United States Department of
+Agriculture, 1:100,000, Polygon Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040806</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Matthew Deaton</cntper>
+          <cntorg>USDA/NASS/RDD/GIB/AFS</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing address</addrtype>
+          <address>3251 Old Lee Highway, Suite 301</address>
+          <city>Fairfax</city>
+          <state>Virginia</state>
+          <postal>22030</postal>
+        </cntaddr>
+        <cntvoice>703-877-8000</cntvoice>
+        <cntemail>HQ_RD_OD@nass.usda.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metsi>
+      <metscs>None</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+  <metainfo>
+    <metd>20071017</metd>
+    <metrd>20071017</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>American Forests</origin>
+        <pubdate>200303</pubdate>
+        <title>Urban Ecosystem Analysis Ikonos interpreted land cover for the Cobbs/Mill Creek and Tacony/Frankford Creek watersheds, 2002</title>
+        <title>philly02cls.img</title>
+        <geoform>remote-sensing image</geoform>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/amerforest/</onlink>
+        <onlink>http://www.pasda.psu.edu/data/amerforest</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.360110</westbc>
+        <eastbc>-74.874411</eastbc>
+        <northbc>40.131134</northbc>
+        <southbc>39.709530</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>Trees</themekey>
+        <themekey>Landcover</themekey>
+        <themekey>Forests</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Frankford Tacony Creek</placekey>
+        <placekey>Cobbs Creek</placekey>
+        <placekey>Big Timber Creek</placekey>
+        <placekey>Mill Creek</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>American Forests</cntorg>
+          <cntper>Ken Gorton</cntper>
+        </cntorgp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>PO Box 2000</address>
+          <city>Washington</city>
+          <state>DC</state>
+          <postal>20013</postal>
+        </cntaddr>
+        <cntvoice>202-955-4500</cntvoice>
+        <cntfax>202-955-4588</cntfax>
+        <cntemail>kgorton@amfor.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>cobbs_mill_tacony_frankfordcreek_landcover2002</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Corresponds to accuracy of the source Ikonos imagery imagery.</attraccr>
+    </attracc>
+    <logic>All imagery captured during single satellite pass.</logic>
+    <complete>Complete for study region which includes the Frankford Tacony, Cobbs, Big Timber, and Mill Creek watershed areas.  Areas interspersed are encoded as "unclassified" with a color value of 0.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Spatial Accuracy corresponds to the accuracy of the source LANDSAT imagery. The average positional error is 30 meters.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Space Imaging</origin>
+            <pubdate>2002</pubdate>
+            <title>Ikonos Multispectral imagery, 4-meter resolution</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, SD</pubplace>
+              <publish>Thornton, CO</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>25000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2002</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>IKONOS</srccitea>
+        <srccontr>Original imagery used in reclassification</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>4-meter multispectral imagery was reclassified into 6 categories using using a full pixel technique.</procdesc>
+        <srcused>Landsat</srcused>
+        <procdate>2002</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>11683</rowcount>
+      <colcount>10345</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>4.000000</absres>
+            <ordres>4.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Layer_1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land cover classification code.</attrdef>
+        <attrdefs>American Forests</attrdefs>
+        <attrdomv>
+          <attrdomv>
+            <edom>
+              <edomv>0</edomv>
+              <edomvd>Unclassified/No Data</edomvd>
+            </edom>
+            <edom>
+              <edomv>1</edomv>
+              <edomvd>Tree Cover</edomvd>
+            </edom>
+            <edom>
+              <edomv>2</edomv>
+              <edomvd>Agriculture/Pasture/Grassland</edomvd>
+            </edom>
+            <edom>
+              <edomv>3</edomv>
+              <edomvd>Fallow land</edomvd>
+            </edom>
+            <edom>
+              <edomv>4</edomv>
+              <edomvd>Urban/Bare</edomvd>
+            </edom>
+            <edom>
+              <edomv>5</edomv>
+              <edomvd>Wetland</edomvd>
+            </edom>
+            <edom>
+              <edomv>6</edomv>
+              <edomvd>Water</edomvd>
+            </edom>
+          </attrdomv>
+        </attrdomv>
+        <attr>
+          <attrlabl>Count</attrlabl>
+          <attrdef>Number of pixels in image with this classification code.</attrdef>
+          <attrdomv>
+            <udom>Sequential unique whole numbers that are automatically generated.</udom>
+          </attrdomv>
+        </attr>
+        <attr>
+          <attrlabl>Red</attrlabl>
+          <attrdef>Value of red band of pixel.</attrdef>
+          <attrdomv>
+            <udom>Decimal value between 0 and 1.</udom>
+          </attrdomv>
+        </attr>
+        <attr>
+          <attrlabl>Green</attrlabl>
+          <attrdef>Value of green band of pixel.</attrdef>
+          <attrdomv>
+            <udom>Decimal value between 0 and 1.</udom>
+          </attrdomv>
+        </attr>
+        <attr>
+          <attrlabl>Blue</attrlabl>
+          <attrdef>Value of blue band of pixel.</attrdef>
+          <attrdomv>
+            <udom>Decimal value between 0 and 1.</udom>
+          </attrdomv>
+        </attr>
+        <attr>
+          <attrlabl>Class_names</attrlabl>
+          <attrdef>Land cover classification name.</attrdef>
+          <attrdefs>American Forests</attrdefs>
+          <attrdomv>
+            <udom>Names of the classification codes in text.</udom>
+          </attrdomv>
+        </attr>
+        <attr>
+          <attrlabl>Opacity</attrlabl>
+          <attrdef>Value indicating transparency for display.</attrdef>
+          <attrdefs>American Forest</attrdefs>
+          <attrdomv>
+            <udom>Integer 0 or 1, 1 indicates a pixel for display, 0 indicates pixel that should be transparent.</udom>
+          </attrdomv>
+        </attr>
+      </attr>
+    </detailed>
+    <distinfo>
+      <distrib GROUP="'pasda'">
+        <cntinfo>
+          <cntorgp>
+            <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+          </cntorgp>
+          <cntaddr>
+            <addrtype>mailing address</addrtype>
+            <address>Land and Water Building</address>
+            <city>University Park</city>
+            <state>PA</state>
+            <postal>16802</postal>
+            <country>USA</country>
+          </cntaddr>
+          <cntemail>pasda@psu.edu</cntemail>
+        </cntinfo>
+      </distrib>
+      <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+      <stdorder>
+        <digform>
+          <digtinfo>
+            <formname>ERDAS Imagine (.img file)</formname>
+          </digtinfo>
+          <digtopt>
+            <onlinopt>
+              <computer>
+                <networka>
+                  <networkr>http://www.pasda.psu.edu</networkr>
+                </networka>
+              </computer>
+            </onlinopt>
+          </digtopt>
+        </digform>
+        <fees>free</fees>
+      </stdorder>
+    </distinfo>
+    <metainfo>
+      <metd>20030415</metd>
+      <metc>
+        <cntinfo>
+          <cntorgp>
+            <cntorg>American Forests</cntorg>
+            <cntper>Tim Tarvin</cntper>
+          </cntorgp>
+          <cntpos>GIS Analyst</cntpos>
+          <cntaddr>
+            <addrtype>mailing address</addrtype>
+            <address>PO Box 2000</address>
+            <city>Washington</city>
+            <state>DC</state>
+            <postal>20013</postal>
+          </cntaddr>
+          <cntvoice>202-955-4500</cntvoice>
+          <cntfax>202-955-4588</cntfax>
+          <cntemail>ttarvin@amfor.org</cntemail>
+        </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+  </eainfo>
+  <metainfo>
+    <metd>20060124</metd>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>13474300</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Water Department - Information Systems &amp; Technology</origin>
+        <pubdate>3/24/1996</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Philadelphia topographic contours</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Philadelphia , PA</pubplace>
+          <publish>Water Department - Information Systems &amp; Technology</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <lworkcit>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>3/24/1996</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-75.281280</westbc>
+        <eastbc>
+-74.955030</eastbc>
+        <northbc>
+40.138780</northbc>
+        <southbc>
+39.871450</southbc>
+      </bounding>
+      <dsgpoly>
+        <dsgpolyo>
+          <gring>
+          </gring>
+        </dsgpolyo>
+        <dsgpolyx>
+          <gring>
+          </gring>
+        </dsgpolyx>
+      </dsgpoly>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>topography</themekey>
+        <themekey>contours</themekey>
+        <themekey>planimetric</themekey>
+        <themekey>Elevation</themekey>
+      </theme>
+      <place>
+        <placekt>City of Philadelphia</placekt>
+        <placekey>Philadelphia</placekey>
+      </place>
+      <stratum>
+      </stratum>
+      <temporal>
+      </temporal>
+    </keywords>
+    <accconst>City of Philadelphia employees only</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Water Department - Geographic Information Systems Unit</cntorg>
+          <cntper>Carmen Carnicero</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>
+          </address>
+          <city>of Philadelphia Water Department
+Information Systems &amp; Technology Division
+1101 Market St., 4th Floor</city>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19107</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(215) 685-6333</cntvoice>
+        <cnttdd>
+        </cnttdd>
+        <cntfax>(215) 685-6207</cntfax>
+        <cntemail>carmen.carnicero@phila.gov</cntemail>
+        <hours>8:00 am to 4:00 pm</hours>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+    </browse>
+    <datacred>Air Survey Corporation</datacred>
+    <secinfo>
+      <secsys>No security considerations</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>N/A</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <crossref>
+    </crossref>
+    <descript>
+      <abstract>philadelphiatopographiccontours1996</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>None completed.</attraccr>
+      <qattracc>
+      </qattracc>
+    </attracc>
+    <logic>None completed.</logic>
+    <complete>Citywide</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Features were derived by stereo plotting from Digital Aerial Orthophotography</horizpar>
+        <qhorizpa>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <qvertpa>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+            </sngdate>
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digital Orthophotographs
+Scale = 1:2400</procdesc>
+        <procdate>Unknown</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>
+              </cntper>
+              <cntorg>
+              </cntorg>
+            </cntperp>
+            <cntpos>
+            </cntpos>
+            <cntaddr>
+              <addrtype>
+              </addrtype>
+              <address>
+              </address>
+              <city>
+              </city>
+              <state>
+              </state>
+              <postal>
+              </postal>
+              <country>
+              </country>
+            </cntaddr>
+            <cntvoice>
+            </cntvoice>
+            <cnttdd>
+            </cnttdd>
+            <cntfax>
+            </cntfax>
+            <cntemail>
+            </cntemail>
+            <hours>
+            </hours>
+            <cntinst>
+            </cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>C:\work\phila\metadata1\Topography.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\UCI\Philly\topocontours.shp.shp.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>220959</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Philadelphia Vertical Datum -
+The Philadelphia datum was first established in 1600 by William Penn
+with a metal spike in the Delaware River pier at the foot of Chestnut St
+based on the mean height</altdatum>
+        <altres>0.01: Philadelphia Vertical Datum -
+The Philadelphia datum was first established in 1600 by William Penn
+with a metal spike in the Delaware River pier at the foot of Chestnut St
+based on the mean height</altres>
+        <altunits>ft</altunits>
+        <altenc>Attribute Values</altenc>
+      </altsys>
+      <depthsys>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.ADD1.PhiladelphiaTopographicContours1996</enttypl>
+        <enttypd>Unknown</enttypd>
+        <enttypds>Water Department - Information Systems &amp; Technology</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CONTOURS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CONTOURS_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV</attrlabl>
+        <attrdef>Elevation; Type (i), Width (4), Precision (unknown)</attrdef>
+        <attrdefs>Water Department</attrdefs>
+        <attrdomv>
+          <udom>No domain information for this attribute available in the Weston metabase</udom>
+        </attrdomv>
+        <begdatea>
+        </begdatea>
+        <enddatea>
+        </enddatea>
+        <attrvai>
+          <attrva>
+          </attrva>
+          <attrvae>
+          </attrvae>
+        </attrvai>
+        <attrmfrq>
+        </attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+        <attrdef>Feature Code; Type (b), Width (4), Precision (unknown)
+FCODEs 2300-2371</attrdef>
+        <attrdefs>Water Department</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1000</edomv>
+            <edomvd>Travelway</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1001</edomv>
+            <edomvd>Travelway - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1002</edomv>
+            <edomvd>Hidden Elevated Footprint</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1010</edomv>
+            <edomvd>Median</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1011</edomv>
+            <edomvd>Median - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1020</edomv>
+            <edomvd>Shoulder</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1021</edomv>
+            <edomvd>Shoulder - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <codesetd>
+            <codesetn>fcode.dbf</codesetn>
+            <codesets>ASC Data Dictionary</codesets>
+          </codesetd>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <begdatea>
+        </begdatea>
+        <enddatea>
+        </enddatea>
+        <attrvai>
+          <attrva>
+          </attrva>
+          <attrvae>
+          </attrvae>
+        </attrvai>
+        <attrmfrq>
+        </attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>MANDATORY - overview of the contents of the coverage/table</eaover>
+      <eadetcit>OPTIONAL</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Philadelphia - Non-Commercial Data Distribution Committee</cntorg>
+          <cntper>
+          </cntper>
+        </cntorgp>
+        <cntpos>
+        </cntpos>
+        <cntaddr>
+          <addrtype>
+          </addrtype>
+          <address>
+          </address>
+          <city>
+          </city>
+          <state>
+          </state>
+          <postal>
+          </postal>
+          <country>
+          </country>
+        </cntaddr>
+        <cntvoice>
+        </cntvoice>
+        <cnttdd>
+        </cnttdd>
+        <cntfax>
+        </cntfax>
+        <cntemail>
+        </cntemail>
+        <hours>
+        </hours>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset contains errors that are an artifact of the interpretation, source material and conversion process. The data and documentation are provided "as is." The City of Philadelphia (CITY) makes no warranty or representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance or accuracy. The CITY will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the data or any accompanying documentation. The CITY is working to correct errors found in its datasets. Users discovering errors or making corrections to the data are requested to report such errors to the CITY at 215-686-5031 or e-mail to marion.storey@phila.gov</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile/ArcInfo Export File</formname>
+          <formvern>2D</formvern>
+          <filedec>PKzipped using WinZip by Nico Mak computing.</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+              </networka>
+            </computer>
+            <accinstr>Will e-mail or FTP to a City agency upon request.</accinstr>
+            <oncomp>Windows OS</oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+      <ordering>Please contact the Paul Reisner at 215-686-5071 for access to this data set.</ordering>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Philadelphia - GIS Working Group</cntorg>
+          <cntper>
+          </cntper>
+        </cntorgp>
+        <cntpos>
+        </cntpos>
+        <cntaddr>
+          <addrtype>
+          </addrtype>
+          <address>
+          </address>
+          <city>
+          </city>
+          <state>
+          </state>
+          <postal>
+          </postal>
+          <country>
+          </country>
+        </cntaddr>
+        <cntvoice>
+        </cntvoice>
+        <cnttdd>
+        </cnttdd>
+        <cntfax>
+        </cntfax>
+        <cntemail>
+        </cntemail>
+        <hours>
+        </hours>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>
+    </resdesc>
+    <distliab>This dataset contains errors that are an artifact of the interpretation, source material and conversion process. The data and documentation are provided "as is." The City of Philadelphia (CITY) makes no warranty or representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance or accuracy. The CITY will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the data or any accompanying documentation. The CITY is working to correct errors found in its datasets. Users discovering errors or making corrections to the data are requested to report such errors to the CITY at 215-686-XXXX</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>
+          </formname>
+          <formvern>
+          </formvern>
+          <formspec>
+          </formspec>
+          <formcont>
+          </formcont>
+          <filedec>
+          </filedec>
+          <transize>
+          </transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>
+                </networkr>
+              </networka>
+            </computer>
+            <accinstr>
+            </accinstr>
+            <oncomp>
+            </oncomp>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>N/A</fees>
+      <ordering>N/A</ordering>
+      <turnarnd>N/A</turnarnd>
+    </stdorder>
+    <stdorder>
+      <nondig>N/A</nondig>
+      <digform>
+        <digtinfo>
+        </digtinfo>
+      </digform>
+      <fees>N/A</fees>
+      <ordering>N/A</ordering>
+      <turnarnd>N/A</turnarnd>
+    </stdorder>
+    <custom>THE CITY OF PHILADELPHIA DOES NOT CURRENTLY HAVE A COMMERCIAL DISTRIBUTION POLICY.</custom>
+    <techpreq>
+    </techpreq>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>Unknown</caldate>
+          <time>Unknown</time>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20050610</metd>
+    <metrd>3/3/2000</metrd>
+    <metfrd>5/1/2001</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Water Department - Metadata Liason</cntorg>
+          <cntper>Roxanne Gregorio</cntper>
+        </cntorgp>
+        <cntpos>Geographic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>
+          </address>
+          <city>of Philadelphia Water Department
+Geographic Information Systems Unit
+1101 Market St., 4th Floor</city>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19107</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(215) 685-4995</cntvoice>
+        <cnttdd>
+        </cnttdd>
+        <cntfax>(215) 685-6207</cntfax>
+        <cntemail>roxanne.gregorio@phila.gov</cntemail>
+        <hours>
+        </hours>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>City of Philadelphia employees</metac>
+    <metuc>City of Philadelphia use only.</metuc>
+    <metsi>
+      <metscs>No security considerations</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>N/A</metshd>
+    </metsi>
+    <metextns>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>12584500</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

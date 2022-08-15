@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Commerce, United States Census Bureau (Data creator)</origin>
+        <origin>Linda Zellmer (Data provider)</origin>
+        <origin>Indiana University (Data provider)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Denver Harper (Data processor)</origin>
+        <pubdate>20051108</pubdate>
+        <title>
+        </title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file consists of ancestry data (first ancestry reported) for Indiana county subdivisions (legal townships,</abstract>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2000</begdate>
+          <enddate>2000</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0972</westbc>
+        <eastbc>-84.6884</eastbc>
+        <northbc>41.7734</northbc>
+        <southbc>37.7606</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana University (IU)</themekey>
+      </theme>
+    </keywords>
+CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race Ethnicity of Minor Civil
+Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile)
+Geology Library, Indiana University, to a preexisting shapefile named "MINOR_CIVIL_DIVISIONS_IN."
+also known as "Minor Civil Divisions") derived from the U.S. Census Bureau's Summary File 3 (SF3) and total
+population, race, and ethnicity data (single race) from the U.S. Census Bureau's Summary File 1 (SF1).
+
+The ancestry data are from SF3, table PCT16, First Ancestry Reported. These data are based on questions in the
+population and housing long census questionnaire, also known as the "Sample Data" because they are collected
+from a sample of the population (generally 1-in-6). Ancestry is a person's self-identified heritage, ethnic
+origin, descent, or close identification to an ethnic group. Examples of ancestry groups include Arab, Brazilian,
+Canadian, Czech, Irish, Italian, Russian, Subsaharan African, West Indian, etc.
+
+The Race and Ethnicity data are derived from SF 1, tables P1, P3 and P4, which is based on questions asked on the
+short Census questionnaire which is sent to the entire population. Race is a person’s self-identified race or
+races with which respondent most closely identifies. The Census Bureau recognizes 5 race classes: White, Black
+or African-American, American Indian or Alaska Native, Asian and Native Hawaiian or other Pacific Islander. The
+Race data used consists of data for people of one race alone.
+
+Ethnicity (origin) is the heritage, nationality group, lineage, or country of birth of the person or the person's
+parents or ancestors before their arrival in the United States. People who identified their origin as Spanish,
+Hispanic, or Latino in their answers to the short census questionnaire are reported as Hispanic.
+
+These data were downloaded from the U.S. Census Bureau’s American Factfinder search engine.
+<purpose>CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP was developed to allow race, ethnicity, and ancestry for</purpose>
+Indiana county subdivisions (minor civil divisions) to be mapped using ArcGIS.
+<themekey>Geology Library</themekey><themekey>
+Theme_Keyword  geographic information system (GIS)
+Theme_Keyword  United States Department of Commerce
+Theme_Keyword  United States Census Bureau (USCB)
+Theme_Keyword  Minor Civil Division (MCD)
+</themekey><themekey>
+Theme_Keyword  polygon
+Theme_Keyword  township
+Theme_Keyword  civil township
+Theme_Keyword  ancestry
+Theme_Keyword  ethnicity
+Theme_Keyword  race
+Theme_Keyword  vector
+</themekey><theme><themekt>Geography Network Keyword Thesaurus</themekt><themekey>society</themekey></theme><themekey>Place Place_Keyword_Thesaurus</themekey><useconst>UNIQUEFILENAME</useconst><datacred>UNIQUEFILENAME</datacred><accconst>None</accconst></idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+No formal metadata in the format of the Federal Geographic Data Committee (FGDC)
+was provided by the U.S. Census Bureau pertaining to the source data for the shapefile
+named "MINOR_CIVIL_DIVISIONS_IN."
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>
+No information is available regarding the completeness of this data. However, the data were collected
+from a sample of the population (generally 1-in-6).
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No information was provided by the U.S. Census Bureau pertaining to the horizontal positional accuracy
+of the source data.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20000101</pubdate>
+            <title>2000 County Subdivisions</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Operations Branch</publish>
+            </pubinfo>
+            <othercit>This source file can be downloaded at the following URL: http://www.census.gov/geo/www/cob/cs2000.html</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>Zip file containing an ESRI interchange file (E00)</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20000101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>cs18_d00_e00.zip</srccitea>
+        <srccontr>Minor Civil Divisions (MCDs) for Indiana in 2000</srccontr>
+      </srcinfo>
+    </lineage>
+Please see the technical documentation from the Census 2000 Demographics Profiles Web site at
+
+http://www.census.gov/Press-Release/www/2002/demoprofiles.html
+
+and the accuracy report at
+
+http://www.census.gov/population/pop-profile/2000/appenB.pdf .
+</dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1011</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CENSUS_MCD_ANCESTRY_ETHNICITY_IN.dbf</enttypl>
+        <enttypd>Refers to a person's self-identification of heritage, ethnic origin, descent, or</enttypd>
+close identification to an ethnic group. Selected ancestry groups include Arab, Brazilian, Canadian, Czech,
+</enttyp>
+    </detailed>
+Irish, Italian, Russian, Subsaharan African, West Indian, etc.
+<attr><attrlabl>Shape</attrlabl><attrdef>Polygon</attrdef><attrdefs>Software generated</attrdefs><attrdomv><udom>Software computed</udom></attrdomv></attr><attr><attrlabl>County</attrlabl><attrdef>County code number</attrdef><attrdefs>U.S. Census Bureau</attrdefs><attrdomv><udom>numeric value</udom></attrdomv></attr><attr><attrlabl>MCD</attrlabl><attrdef>Minor Civil Division number</attrdef><attrdefs>U.S. Census Bureau</attrdefs><attrdomv><rdom><rdommin>003</rdommin><rdommax>105</rdommax></rdom></attrdomv></attr><attr><attrlabl>COUSUBFP</attrlabl><attrdef>5-digit identification number</attrdef><attrdefs>U.S. Census Bureau</attrdefs><attrdomv><rdom><rdommin>00172</rdommin><rdommax>86048</rdommax></rdom></attrdomv></attr><attr><attrlabl>Cnty_Name</attrlabl><attrdef>Name of county</attrdef><attrdefs>Indiana Geological Survey</attrdefs><attrdomv><udom>Name of county</udom></attrdomv></attr></eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+COPYRIGHT 2005, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University,
+Indiana Geological Survey. Any copying, adaptation, distribution, public
+performance, or public display of this information without the express
+written consent of Indiana University, Indiana Geological Survey is
+discouraged.
+
+CREDIT
+
+Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20051111</metd>
+    <metrd>20060105</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda Zellmer</cntper>
+          <cntorg>Indiana University</cntorg>
+        </cntperp>
+        <cntpos>Head Librarian, Geology Library</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+        </cntaddr>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered or
+summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the
+data set it describes may lack integrity.
+</metuc>
+    <address>
+Address  1001 East 10th Street
+City  Bloomington
+State_or_Province  Indiana
+Postal_Code  47405 1405
+Country  USA
+</address>
+    <cntvoice>812 855 1494</cntvoice>
+    <cntfax>812 855 6614</cntfax>
+    <cntemail>libgeol@indiana.edu</cntemail>
+    <hours>0800 to 2200, Monday through Thursday; 0800 to 1700,</hours>
+Friday; 1300 to 1700, Saturday; 1300 to 2200, Sunday (Eastern Standard Time)
+</metainfo>
+This shapefile was compiled by Indiana University, Indiana Geological Survey, using data believed to
+be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS"
+without warranties of any kind, either expressed or implied, including but not limited to warranties
+of suitability to a particular purpose or use. No attempt has been made in either the design or
+production of these data to define the limits or jurisdiction of any federal, state, or local government.
+These data are intended for use only at the published scale or smaller and are for reference purposes only.
+They are not to be construed as a legal document or survey instrument. A detailed on-the-ground survey and
+historical analysis of a single site may differ from these data.
+
+COPYRIGHT 2005, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files.
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race Ethnicity of Minor Civil
+Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be
+free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect
+is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington,
+Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+<ptcontac><cntinfo><cntorgp><cntorg>Indiana Geological Survey</cntorg></cntorgp><cntaddr><addrtype>Mailing and physical address</addrtype><address>611 North Walnut Grove</address><city>Bloomington</city><state>Indiana</state><postal>47405 2208</postal><country>USA</country></cntaddr><cntvoice>812 855 7636</cntvoice><cntfax>812 855 2862</cntfax><cntemail>IGSinfo@indiana.edu</cntemail><hours>0800 to 1700 Eastern Standard Time</hours><cntinst>Monday through Friday, except holidays</cntinst></cntinfo></ptcontac><native>Windows NT operating system; ESRI ArcGIS 8.3 shapefile; approximately 2 Mb</native><srcinfo><srccite><citeinfo><origin>Linda Zellmer</origin><pubdate>20051110</pubdate><title>Population, Ancestry, Race, and Ethnicity for Indiana County Subdivisions (Townships)</title><geoform>Tabular digital data</geoform><pubinfo><pubplace>Bloomington, Indiana</pubplace><publish>Geology Library, Indiana University</publish></pubinfo><othercit>This source file can be downloaded from American Factfinder.</othercit></citeinfo></srccite><srcscale>500,000</srcscale><typesrc>Zip file containing a DBase file (DBF)</typesrc><srctime><timeinfo><sngdate><caldate>200004</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ancestry.dbf</srccitea><srccontr>Population, ancestry, race, and ethnicity for Indiana county subdivisions (townships) in 2000</srccontr></srcinfo><procstep><procdesc>
+The file CS18_D00_E00.ZIP was downloaded from the U.S. Census Bureau and unzipped. ESRI ArcToolBox was then used to convert the ESRI interchange
+file CS18_D00.E00 to an ESRI coverage named "MCD_IN." MCD_IN was then converted to a shapefile named MCD_IN.SHP.
+ESRI ArcToolBox "Define Projection Wizard" was then used on MCD_IN.SHP to define the projection provided, which was Geographic
+(Lat/Long) NAD83. ESRI ArcToolBox "Project Wizard" was then used to reproject to UTM Zone 16, NAD83, and the output shapefile
+was named CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP. ESRI ArcMap was then used to edit the shapefile, and the following fields were
+dropped from the attribute table: "Area," "Perimeter," "MCD_IN_," "MCD_IN_I," "State," "LSAD," and "LSAD_TRANS."
+
+Two additional edits were made to the attribute table using ESRI ArcMap. Names of Indiana counties were added to a field
+named "Cnty_Name," using the "Join" function, and the field named "Name" was re-named as "MCD_Name."
+</procdesc><srcused>CS18_D00_E00.ZIP</srcused><srcused>MCD_IN</srcused><srcused>MCD_IN.SHP</srcused><procdate>20031222</procdate><srcprod>MINOR_CIVIL_DIVISIONS_IN.SHP</srcprod><proccont><cntinfo><cntperp><cntper>Chris Dintaman</cntper><cntorg>Indiana Geological Survey</cntorg></cntperp><cntpos>Geologist/GIS Specialist</cntpos><cntaddr><addrtype>Mailing and physical address</addrtype><address>611 North Walnut Grove</address><city>Bloomington</city><state>Indiana</state><postal>47405 2208</postal><country>USA</country></cntaddr><cntvoice>812 856 5654</cntvoice><cntfax>812 855 2862</cntfax><cntemail>cdintama@indiana.edu</cntemail><hours>0800 to 1700 Eastern Standard Time</hours><cntinst>Monday through Friday, except holidays</cntinst></cntinfo></proccont></procstep><procstep><procdesc>Data was downloaded from American Factfinder in Microsoft Excel format and exported</procdesc></procstep>
+to CSV format. ANCESTRY.CSV was then added to ESRI ArcGIS and exported as ANCESTRY.DBF.
+was added and joined to MINOR_CIVIL_DIVISIONS_IN.SHP using a common field named
+"COUSUBFP." A shapefile named "CENSUS_MCD_ANCESTRY_ETHNICITY_IN.SHP" was created by using
+the "Convert to Shapefile" function.
+<attr><attrlabl>MCD_Name</attrlabl><attrdef>Name of minor civil division</attrdef><attrdefs>U.S. Census Bureau</attrdefs><attrdomv><udom>Name of minor civil division</udom></attrdomv></attr><attr><attrlabl>Total</attrlabl><attrdef>Total population (SF1, P1)</attrdef><attrdefs>U.S. Census Bureau, Summary File 1, Table P1</attrdefs><attrdomv><rdom><rdommin>4</rdommin><rdommax>167055</rdommax></rdom></attrdomv></attr><attr><attrlabl>Acadian</attrlabl><attrdef>Number of people reporting Acadian as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>26</rdommax></rdom></attrdomv></attr><attr><attrlabl>Afghan</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>70</rdommax></rdom></attrdomv></attr><attr><attrlabl>Africa</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>2634</rdommax></rdom></attrdomv></attr><attr><attrlabl>Albania</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>56</rdommax></rdom></attrdomv></attr><attr><attrlabl>Alsatian</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>35</rdommax></rdom></attrdomv></attr><attr><attrlabl>Arab</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>547</rdommax></rdom></attrdomv></attr><attr><attrlabl>Armenia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>111</rdommax></rdom></attrdomv></attr><attr><attrlabl>Assyria</attrlabl><attrdef>Number of people reporting Assyrian/Chaldean/Syriac as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>55</rdommax></rdom></attrdomv></attr><attr><attrlabl>Australia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>80</rdommax></rdom></attrdomv></attr><attr><attrlabl>Austria</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>238</rdommax></rdom></attrdomv></attr><attr><attrlabl>Basque</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>23</rdommax></rdom></attrdomv></attr><attr><attrlabl>Belgium</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1566</rdommax></rdom></attrdomv></attr><attr><attrlabl>Brazil</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>98</rdommax></rdom></attrdomv></attr><attr><attrlabl>Bulgaria</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>69</rdommax></rdom></attrdomv></attr><attr><attrlabl>Canada</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>203</rdommax></rdom></attrdomv></attr><attr><attrlabl>CapeVerde</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>29</rdommax></rdom></attrdomv></attr><attr><attrlabl>CarpRus</attrlabl><attrdef>Number of people reporting Carpatho Russian as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>8</rdommax></rdom></attrdomv></attr><attr><attrlabl>Celtic</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>41</rdommax></rdom></attrdomv></attr><attr><attrlabl>Croatia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1529</rdommax></rdom></attrdomv></attr><attr><attrlabl>Cyprus</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>35</rdommax></rdom></attrdomv></attr><attr><attrlabl>Czech</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>288</rdommax></rdom></attrdomv></attr><attr><attrlabl>Czchslovk</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>401</rdommax></rdom></attrdomv></attr><attr><attrlabl>Denmark</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>245</rdommax></rdom></attrdomv></attr><attr><attrlabl>Eeurope</attrlabl><attrdef>Number of people reporting Eastern European as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>264</rdommax></rdom></attrdomv></attr><attr><attrlabl>Egypt</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>185</rdommax></rdom></attrdomv></attr><attr><attrlabl>English</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>9650</rdommax></rdom></attrdomv></attr><attr><attrlabl>Estonia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>36</rdommax></rdom></attrdomv></attr><attr><attrlabl>Ethiopia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>218</rdommax></rdom></attrdomv></attr><attr><attrlabl>Europe</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1874</rdommax></rdom></attrdomv></attr><attr><attrlabl>Finland</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>149</rdommax></rdom></attrdomv></attr><attr><attrlabl>France</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>2233</rdommax></rdom></attrdomv></attr><attr><attrlabl>FrCanada</attrlabl><attrdef>Number of people reporting French Canadian as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>395</rdommax></rdom></attrdomv></attr><attr><attrlabl>Germany</attrlabl><attrdef>Number of people reporting German, Russian German and Pennsylvania German as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>21385</rdommax></rdom></attrdomv></attr><attr><attrlabl>Ghana</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>101</rdommax></rdom></attrdomv></attr><attr><attrlabl>GrBritain</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>779</rdommax></rdom></attrdomv></attr><attr><attrlabl>Greece</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1002</rdommax></rdom></attrdomv></attr><attr><attrlabl>Guyana</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>25</rdommax></rdom></attrdomv></attr><attr><attrlabl>Hungary</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>2268</rdommax></rdom></attrdomv></attr><attr><attrlabl>Iceland</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>40</rdommax></rdom></attrdomv></attr><attr><attrlabl>Iran</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>97</rdommax></rdom></attrdomv></attr><attr><attrlabl>Iraq</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>93</rdommax></rdom></attrdomv></attr><attr><attrlabl>Ireland</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>10003</rdommax></rdom></attrdomv></attr><attr><attrlabl>Israel</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>92</rdommax></rdom></attrdomv></attr><attr><attrlabl>Italy</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>4965</rdommax></rdom></attrdomv></attr><attr><attrlabl>Jordan</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>85</rdommax></rdom></attrdomv></attr><attr><attrlabl>Kenya</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>65</rdommax></rdom></attrdomv></attr><attr><attrlabl>Latvia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>135</rdommax></rdom></attrdomv></attr><attr><attrlabl>Lebanon</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>305</rdommax></rdom></attrdomv></attr><attr><attrlabl>Liberia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>86</rdommax></rdom></attrdomv></attr><attr><attrlabl>Lithuania</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>527</rdommax></rdom></attrdomv></attr><attr><attrlabl>Luxemburg</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>51</rdommax></rdom></attrdomv></attr><attr><attrlabl>Macedonia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>793</rdommax></rdom></attrdomv></attr><attr><attrlabl>Malta</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>55</rdommax></rdom></attrdomv></attr><attr><attrlabl>Morrocco</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>57</rdommax></rdom></attrdomv></attr><attr><attrlabl>Netherlnd</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>3022</rdommax></rdom></attrdomv></attr><attr><attrlabl>Neurope</attrlabl><attrdef>Number of people reporting Northern European as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>245</rdommax></rdom></attrdomv></attr><attr><attrlabl>NewZeal</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>30</rdommax></rdom></attrdomv></attr><attr><attrlabl>Nigeria</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>119</rdommax></rdom></attrdomv></attr><attr><attrlabl>Norway</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>798</rdommax></rdom></attrdomv></attr><attr><attrlabl>OSSAfric</attrlabl><attrdef>Number of people reporting Other Sub-Saharan African as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>110</rdommax></rdom></attrdomv></attr><attr><attrlabl>OthArab</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>72</rdommax></rdom></attrdomv></attr><attr><attrlabl>Palestine</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>113</rdommax></rdom></attrdomv></attr><attr><attrlabl>Poland</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>16913</rdommax></rdom></attrdomv></attr><attr><attrlabl>Portugal</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>111</rdommax></rdom></attrdomv></attr><attr><attrlabl>Romania</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>677</rdommax></rdom></attrdomv></attr><attr><attrlabl>Russia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1161</rdommax></rdom></attrdomv></attr><attr><attrlabl>Safrica</attrlabl><attrdef>Number of people reporting South African as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>55</rdommax></rdom></attrdomv></attr><attr><attrlabl>Saudi</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>262</rdommax></rdom></attrdomv></attr><attr><attrlabl>Scandnv</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>102</rdommax></rdom></attrdomv></attr><attr><attrlabl>ScotIrish</attrlabl><attrdef>Number of people reporting Scotch-Irish as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1775</rdommax></rdom></attrdomv></attr><attr><attrlabl>Scotland</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>2035</rdommax></rdom></attrdomv></attr><attr><attrlabl>Senegal</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>8</rdommax></rdom></attrdomv></attr><attr><attrlabl>Serbia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1440</rdommax></rdom></attrdomv></attr><attr><attrlabl>SierrLeon</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>39</rdommax></rdom></attrdomv></attr><attr><attrlabl>Slavic</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>123</rdommax></rdom></attrdomv></attr><attr><attrlabl>Slovak</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>4532</rdommax></rdom></attrdomv></attr><attr><attrlabl>Slovenia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>234</rdommax></rdom></attrdomv></attr><attr><attrlabl>Somalia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>32</rdommax></rdom></attrdomv></attr><attr><attrlabl>SovUnion</attrlabl><attrdef>Number of people reporting the Soviet Union as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>6</rdommax></rdom></attrdomv></attr><attr><attrlabl>SubAfrica</attrlabl><attrdef>Number of people reporting Sub-Saharan African as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>2640</rdommax></rdom></attrdomv></attr><attr><attrlabl>Sudan</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>22</rdommax></rdom></attrdomv></attr><attr><attrlabl>Sweden</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1302</rdommax></rdom></attrdomv></attr><attr><attrlabl>Switzrlnd</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>1369</rdommax></rdom></attrdomv></attr><attr><attrlabl>Syria</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>115</rdommax></rdom></attrdomv></attr><attr><attrlabl>Turkey</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>96</rdommax></rdom></attrdomv></attr><attr><attrlabl>Uganda</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>19</rdommax></rdom></attrdomv></attr><attr><attrlabl>Ukraine</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>354</rdommax></rdom></attrdomv></attr><attr><attrlabl>Wales</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>745</rdommax></rdom></attrdomv></attr><attr><attrlabl>WestIndes</attrlabl><attrdef>Number of people reporting West Indian as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>336</rdommax></rdom></attrdomv></attr><attr><attrlabl>Yugoslavia</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>344</rdommax></rdom></attrdomv></attr><attr><attrlabl>Zaire</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>18</rdommax></rdom></attrdomv></attr><attr><attrlabl>Zimbabwe</attrlabl><attrdef>Number of people reporting the country or region listed above as first ancestry; SF3, Table PCT16</attrdef><attrdefs>Public Use Microdata Samples (PUMS) Code List ( http://www.census.gov/acs/www/products/pums/c2ss/codelist/ancestry.htm )</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>18</rdommax></rdom></attrdomv></attr><attr><attrlabl>WHITE</attrlabl><attrdef>Number of people reporting White Race; SF1, Table P3</attrdef><attrdefs>Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)</attrdefs><attrdomv><rdom><rdommin>4</rdommin><rdommax>118511</rdommax></rdom></attrdomv></attr><attr><attrlabl>HISPANIC</attrlabl><attrdef>Number of people reporting Hispanic Ethnicity; SF1, Table P4</attrdef><attrdefs>Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>38121</rdommax></rdom></attrdomv></attr><attr><attrlabl>BLACK</attrlabl><attrdef>Number of people reporting Black Race; SF1, Table P3</attrdef><attrdefs>Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>88789</rdommax></rdom></attrdomv></attr><attr><attrlabl>AMINDAN</attrlabl><attrdef>Number of people reporting American Indian or Alaska Native Race; SF1, Table P3</attrdef><attrdefs>Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>481</rdommax></rdom></attrdomv></attr><attr><attrlabl>ASIAN</attrlabl><attrdef>Number of people reporting Asian Race; SF1, Table P3</attrdef><attrdefs>Census Bureau Glossary (http://www.census.gov/main/www/glossary.html)</attrdefs><attrdomv><rdom><rdommin>0</rdommin><rdommax>5605</rdommax></rdom></attrdomv></attr>
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: CENSUS_MCD_ANCESTRY_ETHNICITY_IN: First Ancestry and Single-Race
+Ethnicity of Minor Civil Divisions in Indiana in 2000 (United States Census Bureau, 1:500,000, Polygon Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it
+will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University,
+Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but
+not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey
+is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you
+for the product.
+</metadata>

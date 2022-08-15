@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>201801</CreaDate>
+    <CreaTime>09435500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>201801</ModDate>
+    <ModTime>9301400</ModTime>
+    <SyncDate>20130805</SyncDate>
+    <SyncTime>13521200</SyncTime>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">UndergroundMiningPermit2013_08</itemName>
+        <imsContentType export="False">002</imsContentType>
+        <itemSize Sync="TRUE">0.266</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\DATA\DEP\Mar2014\ActiveUndergroundPermitBoundaries2014_02</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-215568.202225</westBL>
+          <eastBL Sync="TRUE">-46836.317100</eastBL>
+          <southBL Sync="TRUE">81952.331125</southBL>
+          <northBL Sync="TRUE">256210.781875</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;albers_dep&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-16085300&lt;/XOrigin&gt;&lt;YOrigin&gt;-8515400&lt;/YOrigin&gt;&lt;XYScale&gt;279982320.96202713&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn Sync="TRUE">albers_dep</projcsn>
+      </coordRef>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110708" Time="093532" Name="" export="">FeatureClassToFeatureClass \\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries \\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\Published_Data Active_Underground_Permit_Boundaries_2011_06_30.shp # "ID "ID" true true false 4 Long 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,ID,-1,-1;COUNTY "COUNTY" true true false 30 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,COUNTY,-1,-1;MINE "MINE" true true false 30 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,MINE,-1,-1;OPERATOR "OPERATOR" true true false 30 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,OPERATOR,-1,-1;PERMIT "PERMIT" true true false 15 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,PERMIT,-1,-1;TYPE "TYPE" true true false 20 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,TYPE,-1,-1;STATUS "STATUS" true true false 20 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,STATUS,-1,-1;COAL_SEAM "COAL_SEAM" true true false 30 Text 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,COAL_SEAM,-1,-1;Shape_Leng "Shape_Length" false true true 8 Double 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,\\Epdmcas04\dmca$\MSI_TSU\GIS\GIS_Data\CDO_Geodatabase\CDO_GIS_Feature_Datasets.gdb\Mining\Active_Underground_Permit_Boundaries,Shape_Area,-1,-1" #</Process>
+        <Process ToolSource="D:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20120104" Time="142958" Name="" export="">DeleteRows "Database Connections\GDConPGNET.sde\GDC.MINE_UG_PERMIT_PUBLISHED" "Database Connections\GDConPGNET.sde\GDC.MINE_UG_PERMIT_PUBLISHED"</Process>
+        <Process ToolSource="D:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20120104" Time="143126" Name="" export="">Append C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp "Database Connections\GDConPGNET.sde\GDC.MINE_UG_PERMIT_PUBLISHED" NO_TEST "COUNTY 'COUNTY' true true false 30 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,COUNTY,-1,-1;MINE 'MINE' true true false 30 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,MINE,-1,-1;OPERATOR 'OPERATOR' true true false 30 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,OPERATOR,-1,-1;PERMIT 'PERMIT' true true false 15 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,PERMIT,-1,-1;TYPE 'TYPE' true true false 20 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,TYPE,-1,-1;STATUS 'STATUS' true true false 20 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,STATUS,-1,-1;COAL_SEAM 'COAL_SEAM' true true false 30 Text 0 0 ,First,#,C:\Mining\Active_Underground_Permit_Boundaries_2011_12_31.shp,COAL_SEAM,-1,-1;SHAPE.AREA 'SHAPE.AREA' false false true 0 Double 0 0 ,First,#;SHAPE.LEN 'SHAPE.LEN' false false true 0 Double 0 0 ,First,#" # "Database Connections\GDConPGNET.sde\GDC.MINE_UG_PERMIT_PUBLISHED"</Process>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20130805" Time="115837" Name="" export="">CopyFeatures D:\DATA\DEP\Augustupdate\August_2013_monthly.gdb\MINE_UG_PERMIT_PUBLISHED D:\DATA\DEP\Augustupdate\MINE_UG_PERMIT_PUBLISHED.shp # 0 0 0</Process>
+      </lineage>
+      <copyHistory>
+        <copy source="M:\pasda\UCI_Metadata\ActiveUndergroundPermitBoundaries2014_02" dest="\\ALCES\D$\DATA\DEP\Mar2014\ActiveUndergroundPermitBoundaries2014_02" date="201801" time="09435500" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations</origin>
+        <pubinfo>
+          <pubplace>Coal Center, PA</pubplace>
+          <publish>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations</publish>
+        </pubinfo>
+        <onlink> http://www.pasda.psu.edu/</onlink>
+        <pubdate>201801</pubdate>
+        <title>Active Underground Permit Boundaries 201801</title>
+        <ftname Sync="TRUE">MINE_UG_PERMIT_PUBLISHED</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Technical Services Organization</cntper>
+          <cntorg>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations</cntorg>
+        </cntperp>
+        <cntaddr>
+          <address>DEP- California District Office</address>
+          <address>25 Technology Drive</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>California Technology Park</address>
+          <city>Coal Center</city>
+          <state>PA</state>
+          <postal>15423</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntpos>Technical Services Unit Supervisor</cntpos>
+        <cntvoice>724-769-1100</cntvoice>
+        <cntfax>724-769-1102</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance. 
+These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <datacred>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations
+</datacred>
+    <accconst>None</accconst>
+    <native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4000</native>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>201801</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.573775</westbc>
+        <eastbc Sync="TRUE">-78.546339</eastbc>
+        <northbc Sync="TRUE">41.306125</northbc>
+        <southbc Sync="TRUE">39.710401</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-215568.202225</leftbc>
+        <rightbc Sync="TRUE">-46836.317100</rightbc>
+        <bottombc Sync="TRUE">81952.331125</bottombc>
+        <topbc Sync="TRUE">256210.781875</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>economy</themekey>
+        <themekey>Active Underground Permit Boundaries, underground permit area boundaries</themekey>
+        <themekey>coal mine</themekey>
+        <themekey>bituminous coal</themekey>
+        <themekey>mine map</themekey>
+        <themekey>Permit Boundaries, Mining</themekey>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <natvform Sync="TRUE">File Geodatabase Feature Class</natvform>
+    <descript>
+      <abstract>ActiveUndergroundPermitBoundaries2018_02</abstract>
+    </descript>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <address>DEP- California District Office</address>
+          <address>25 Technology Drive</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>California Technology Park</address>
+          <city>Coal Center</city>
+          <state>PA</state>
+          <postal>15423</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntperp>
+          <cntper>Technical Services Organization </cntper>
+          <cntorg>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations</cntorg>
+        </cntperp>
+        <cntpos>Technical Services Unit Supervisor</cntpos>
+        <cntvoice>724-769-1100</cntvoice>
+        <cntfax>724-769-1102</cntfax>
+      </cntinfo>
+    </distrib>
+    <distliab>Not for commercial use or resale. The User shall save the Commonwealth harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. The Commonwealth excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance
+
+Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <address>DEP- California District Office</address>
+          <address>25 Technology Drive</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>California Technology Park</address>
+          <city>Coal Center</city>
+          <state>PA</state>
+          <postal>15423</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations</cntorg>
+          <cntper>Technical Services Unit</cntper>
+        </cntorgp>
+        <cntvoice>724-769-1100</cntvoice>
+        <cntfax>724-769-1102</cntfax>
+      </cntinfo>
+    </metc>
+    <metd>201801</metd>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+  </metainfo>
+  <mdDateSt Sync="TRUE">201801</mdDateSt>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccontr>This dataset was created from digitizing mine maps developed from multiple mine operators.  Credit should be given to the mine operators for developing the original mine maps.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>This dataset was created by scanning mine maps submitted to the DEP as part of Module 6.1 of the Application for Bituminous Underground Mine.  Various scanners were used at different locations at different times. Once a map was scanned, most of the electronic images were post-processed using Adobe Photoshop CSx, to reduce the overall file size to a manageable size to allow our computers to display them efficiently. Some of the processes performed on the images include grayscaling, image size reduction, cropping, and autocontrasting. Once the images were a managaeble size, they were georeferenced using ArcGIS to base maps, including but not limited to 7.5 minute USGS topographic maps and PAMAP aerial photography. Next, the underground permit area boundaries on the map image were digitized and attributed.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\Documents and Settings\rteru\Local Settings\Temporary Internet Files\Content.IE5\5IF76NMQ\Active_Underground_Permit_Boundaries_2011_06_30.shp[1].xml</srcused>
+        <procdate Sync="TRUE">20110729</procdate>
+        <proctime Sync="TRUE">13384200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=epengis02; Service=5151; Database=pgnet; User=gdc; Version=SDE.DEFAULT</srcused>
+        <procdate Sync="TRUE">20130802</procdate>
+        <proctime Sync="TRUE">15151100</proctime>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Several attributes contain details of mine names, operators, status, and other details of mining operations.  These mine names, operators, status, and other details of mining operations change over time and there is NO guarantee that the data listed is the most accurate, recent, and/or complete.</attraccr>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <horizpar>This dataset was created by digitizing georeferenced mine maps of various/unknown accuracy and various/unknown coordinate systems to various base maps, including but not limited to USGS topographic maps and PAMAP aerial photography. Therefore horizontal accuracy of the polygons representing the mined out area are UNKNOWN.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\pa.lcl\epshares\GIS\PASDA_UPDATES\2013_Updates\August_2013_monthly.gdb</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distFormat>
+      <formatName Sync="TRUE">Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">0.266</transSize>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="eng" country="US" />
+      <countryCode value="USA" Sync="TRUE" />
+    </dataLang>
+    <idCitation xmlns="">
+      <resTitle Sync="FALSE">ActiveUndergroundPermitBoundaries2014_02</resTitle>
+      <presForm xmlns="">
+        <PresFormCd value="005" />
+      </presForm>
+    </idCitation>
+    <dataExt xmlns="">
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <westBL Sync="TRUE">-80.573775</westBL>
+          <eastBL Sync="TRUE">-78.546339</eastBL>
+          <northBL Sync="TRUE">41.306125</northBL>
+          <southBL Sync="TRUE">39.710401</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-215568.202225</westBL>
+          <eastBL Sync="TRUE">-46836.3171</eastBL>
+          <northBL Sync="TRUE">256210.781875</northBL>
+          <southBL Sync="TRUE">81952.331125</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt xmlns="">
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <westBL Sync="TRUE">-80.573775</westBL>
+          <eastBL Sync="TRUE">-78.546339</eastBL>
+          <northBL Sync="TRUE">41.306125</northBL>
+          <southBL Sync="TRUE">39.710401</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-215568.202225</westBL>
+          <eastBL Sync="TRUE">-46836.3171</eastBL>
+          <northBL Sync="TRUE">256210.781875</northBL>
+          <southBL Sync="TRUE">81952.331125</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.573775</westBL>
+      <eastBL Sync="TRUE">-78.546339</eastBL>
+      <northBL Sync="TRUE">41.306125</northBL>
+      <southBL Sync="TRUE">39.710401</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <otherKeys>
+      <thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66" />
+      <keyword>002</keyword>
+    </otherKeys>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <searchKeys>
+      <keyword>Active Underground Permit Boundaries</keyword>
+      <keyword>underground permit area boundaries</keyword>
+      <keyword>coal mine</keyword>
+      <keyword>bituminous coal</keyword>
+      <keyword>mine map</keyword>
+      <keyword>Permit Boudaries</keyword>
+    </searchKeys>
+    <idPurp>The purpose of this dataset is to provide DEP staff and other environmental professionals with a spatially referenced dataset of underground permit area boundaries of active bituminous coal mines in Pennsylvania.
+
+
+</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;Pennsylvania state law requires those who wish to conduct mining activities within the Commonwealth submit and get approval by the Pennsylvania Department of Environmental Protection (DEP) for permits related to those activities. These permits are written to cover various aspects of the mining operations, such as: reclamation, water quality protection, air quality protection, waste disposal and mine subsidence control. The DEP California District Office reviews permits related to Bituminous coal underground mining. Module 6.1 of the Application for Bituminous Underground Mine requires a Location Map be submitted with the permit. The Location Map should be a 7.5 Minute USGS map covering the area within one (1) mile of the underground permit area boundaries. This dataset contains the digitized underground permit area boundaries of the active underground bituminious mines in Pennsylvania based from the Location Maps submitted with the permit applications and permit renewal applications.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>Pennsylvania Department of Environmental Protection, Bureau of District Mining Operations
+</idCredit>
+    <resConst>
+      <Consts xmlns="">
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance. These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data. Any digital or hardcopy product derived from this data should not be larger than a scale of 1:24,000 and the following disclaimer should be added to the product: "The Active_Underground_Permit_Boundaries layer was provided by the Pennsylvania Department of Environmental Protection. The layer was prepared using information considered to be the best historic data available. The Department assumes no responsibility for the accuracy or completeness of this information."&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataChar>
+      <CharSetCd value="004" />
+    </dataChar>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="eng" />
+    <countryCode value="USA" Sync="TRUE" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="005" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="4" Sync="TRUE" />
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">96</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">albers_dep</projcsn>
+      </cordsysn>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000125</absres>
+            <ordres Sync="TRUE">0.000125</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">1.000000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE" code="4269" value="0">albers_dep</identCode>
+        <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+        <idVersion Sync="TRUE">7.4.1</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="UndergroundMiningPermit2013_08">
+        <geoObjTyp>
+          <GeoObjTypCd value="002" Sync="TRUE" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">96</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE" />
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="UndergroundMiningPermit2013_08">
+      <enttyp>
+        <enttypl>Underground Mining Permit2014_04</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">96</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The county the mine is located in.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MINE</attrlabl>
+        <attalias Sync="TRUE">MINE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The name of the mine.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OPERATOR</attrlabl>
+        <attalias Sync="TRUE">OPERATOR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The mine operator that is operating the mine.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERMIT</attrlabl>
+        <attalias Sync="TRUE">PERMIT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">15</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The permit number assigned to the mine by the DEP.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TYPE</attrlabl>
+        <attalias Sync="TRUE">TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>Type of coal removal method being used in the mine.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Longwall</edomv>
+            <edomvd>Longwall method of coal removal</edomvd>
+          </edom>
+          <edom>
+            <edomv>Room and Pillar</edomv>
+            <edomvd>Room and Pillar method of coal mining.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATUS</attrlabl>
+        <attalias Sync="TRUE">STATUS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The status of the permit.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Active</edomv>
+            <edomvd>Coal mine is actively removing coal.</edomvd>
+          </edom>
+          <edom>
+            <edomv>Final</edomv>
+            <edomvd>The permit is still considered active, but final mine maps have been submitted.</edomvd>
+          </edom>
+          <edom>
+            <edomv>Pending</edomv>
+            <edomvd>The DEP received an application, but has not yet approved the permit. </edomvd>
+          </edom>
+          <edom>
+            <edomv>Withdrawn</edomv>
+            <edomvd>The mine operator submitted, but then withdrawn all or part of the application.</edomvd>
+          </edom>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>Other circumstance.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COAL_SEAM</attrlabl>
+        <attalias Sync="TRUE">COAL_SEAM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef>The coal seam that the mining is occurring on.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Leng</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Area</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+</metadata>

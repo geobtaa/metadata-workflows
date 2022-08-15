@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County Railroad Centerlines</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Lancaster, PA</pubplace>
+          <publish>Lancaster County GIS Department</publish>
+        </pubinfo>
+        <othercit>Created based on 1 inch to 1600 foot aerial photography</othercit>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-76.715890</westbc>
+        <eastbc>
+-75.952900</eastbc>
+        <northbc>
+40.278870</northbc>
+        <southbc>
+39.721900</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>railroad rail road</themekey>
+        <themekey>railroad centerlines</themekey>
+        <themekey>centerlines</themekey>
+        <themekey>arcs</themekey>
+        <themekey>line coverage</themekey>
+        <themekey>Transportation</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Lancaster County</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>For use at 1:2400 or smaller scale.
+
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>LancasterCountyRailroads200812</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Topology exists for coverage.  The same number of polygons exist in the exported shapefile.  No polygon overlap.</logic>
+    <complete>Complete from aerial photography.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy conforms to National Mapping Accuracy Standards of planimetric and topographic mapping data at a design scale of 1"=200'.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aerial Data Reduction Associates, Inc.</origin>
+            <pubdate>1993</pubdate>
+            <title>Orthophotographs of Lancaster County - 1993</title>
+            <geoform>remote sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>19200</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>aerials</srccitea>
+        <srccontr>features for digitization</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Features digitized from aerial photography.  Supplemented and revised by Lancaster GIS staff from information gathered through assessment, fieldwork and surveys.</procdesc>
+        <srcused>aerials</srcused>
+        <procdate>1998</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>1700</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.ADD1.LancasterCountyRailroadLines1998</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RRLINES_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RRLINES_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OWNER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>empty field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_DAT</attrlabl>
+        <attrdef>empty field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPD_DATE</attrlabl>
+        <attrdef>empty field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPD_NAME</attrlabl>
+        <attrdef>empty field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPD_TYPE</attrlabl>
+        <attrdef>empty field</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>empty field</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Contents of RRLINES.AAT
+Variable            Begin Column      Defined Item Name        Item Definition
+From-Node           1                 FNODE#                   4,5,B
+To-Node             5                 TNODE#                   4,5,B
+Left-polygon        9                 LPOLY#                   4,5,B
+Right-polygon       13                RPOLY#                   4,5,B
+Length              17                LENGTH                   8,18,F,5
+Internal Number     25                RRLINES#                 4,5,B
+User-ID             29                RRLINES-ID               4,5,B
+Type                33                TYPE                     2,3,B
+Owner               35                OWNER                    20,20,C
+Source              55                SOURCE                   3,3,C
+Source Date         58                SOURCE-DATE              6,6,C
+Update Date         64                UPD-DATE                 6,6,C
+Update Name         70                UPD-NAME                 15,15,C
+Update Type         85                UPD-TYPE                 3,3,C
+Item Descriptions and Codes
+TYPE                     Code indicating the status of the railroad feature.
+1 = Active Rail Line.
+2 = Inactive or Abandoned Rail Line.
+3 = Hidden Rail Line. (lines under an overpass or a bridge)
+4 = Hidden Inactive/Abandoned Rail Line
+SOURCE                   See BLDGS coverage</eaover>
+      <eadetcit>Lancaster County GIS</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gavin McDade</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mcdadeg@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Not for commercial use or resale. The User shall save Lancaster County, the Commonwealth and the Pennsylvania State University harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. Lancaster County, the Commonwealth and the Pennsylvania State University excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+          <formvern>7.2.1</formvern>
+          <transize>1.026</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>3-1/2 inch floppy disk</offmedia>
+            <reccap>
+              <recden>1.44</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>PC</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Arcview Shapefile</formname>
+          <formvern>3.1</formvern>
+          <transize>1.026</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>DXF</formname>
+          <transize>1.026</transize>
+        </digtinfo>
+      </digform>
+      <fees>$65/MB for commercial use; $13/MB for non-profit uses plus $40/hr handling fee (minimum one hour)  and media fees $1 for 3.5 floppy and $10 for CDROM</fees>
+      <ordering>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</ordering>
+    </stdorder>
+    <stdorder>
+      <nondig>Hard copy maps can be ordered and created  from Lancaster County GIS</nondig>
+      <digform>
+        <digtinfo>
+          <transize>1.026</transize>
+        </digtinfo>
+      </digform>
+      <fees>8 1/2" x 11" - $5
+11" x 17" - $25
+
+Standard map 33 1/2" x 45" - $75;  discount rate $50
+Mylar map 33 1/2" x 45" - $100;  discount rate $75
+
+Custom maps available at a charge of $40/hr.
+
+Copies of existing maps $25.00</fees>
+      <ordering>Acquire, complete and return Map Request form available at: http://www.co.lancaster.pa.us/GISforms.htm</ordering>
+    </stdorder>
+    <custom>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</custom>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>200812</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access</cntorg>
+          <cntper>James Spayd</cntper>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16801</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20090105</ModDate>
+    <ModTime>11171800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20090105</mdDateSt>
+</metadata>

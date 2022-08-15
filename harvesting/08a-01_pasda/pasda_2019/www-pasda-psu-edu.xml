@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</origin>
+        <pubdate>2018-01-01</pubdate>
+        <title>PennDOT- Pennsylvania Administrative State Roads 201801</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Transportation</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2018-01-01</begdate>
+          <enddate>2018-01-01</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Bi-annual</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.519344</westbc>
+        <eastbc>-74.693209</eastbc>
+        <northbc>42.267499</northbc>
+        <southbc>39.719882</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO Metadata Standard 19115.3</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
+
+The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose.
+
+The COMMONWEALTH makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance.
+
+The COMMONWEALTH will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+
+The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the UNIVERSITY / COMMONWEALTH of any customizing or value-adding work done.
+
+Any customized or value added versions of the files will contain the following disclaimer:
+
+THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPARTMENT OF TRANSPORTATION RETAINS THE MASTER FILES.
+
+THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY.
+
+If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 3654</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17101-3654</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 772-3305</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <secinfo />
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>www-pasda-psu-edu</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Verified visually by comparison against source materials.</attraccr>
+    </attracc>
+    <logic>Topology exists</logic>
+    <complete>Contains all officially recognized features within the Commonwealth.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.  Updates and maintenance completed from orthophotography where available.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Geological Survey (U.S.)</origin>
+            <title>Digital orthophoto quarter quadrangle</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>United States Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate />
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>topo quads</srccitea>
+        <srccontr>Features for digitization.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digitized into Bentley Microstation system from most recently available 7.5 minute USGS topographic quadrangles on a stable (mylar) base.  Updated information is added from orthophotography, construction plans and maps as this information becomes available.</procdesc>
+        <procdate>2006-01-01</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset moved.</procdesc>
+        <procdate>2015-01-01</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm />
+    </ptvctinf>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>penndot_admin_201801</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CTY_CODE</attrlabl>
+        <attrdef>County Code (01 - Adams to 67 - Philadelphia)</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>ST_RT_NO</attrlabl>
+        <attrdef>State route number</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SEG_BGN</attrlabl>
+        <attrdef>Segment number at start point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>OFFSET_BGN</attrlabl>
+        <attrdef>Offset at start point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SEG_END</attrlabl>
+        <attrdef>Segment number at end point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>OFFSET_END</attrlabl>
+        <attrdef>Offset at end point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SEG_LNGTH_</attrlabl>
+        <attrdef>Road segment length</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SIDE_IND</attrlabl>
+        <attrdef>Right/left side indicator</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>JURIS</attrlabl>
+        <attrdef>Jurisdiction Code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>FED_AID_SY</attrlabl>
+        <attrdef>Federal-Aid System Code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>FUNC_CLS</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cty_code</attrlabl>
+        <attrdef>County Code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>st_rt_no</attrlabl>
+        <attrdef>State route number</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>seg_bgn</attrlabl>
+        <attrdef>Segment number at start point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>offset_bgn</attrlabl>
+        <attrdef>Offset at start point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>seg_end</attrlabl>
+        <attrdef>Segment number at end point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>offset_end</attrlabl>
+        <attrdef>Offset at end point</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>seg_lngth_</attrlabl>
+        <attrdef>Road segment length</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>side_ind</attrlabl>
+        <attrdef>Right/left side indicator</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>juris</attrlabl>
+        <attrdef>Jurisdiction code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>fed_aid_sy</attrlabl>
+        <attrdef>Federal-Aid System code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>FUNC_CLS</attrlabl>
+        <attrdef>Federal functional class code</attrdef>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814)865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata
+
+PennDOT maintained road segments ,for administrative and reporting purposes like the federal aid system and federal functional classification, for Pennsylvania</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <transize>64.523</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>www.pasda.psu.edu</networkr>
+              </networka>
+            </computer>
+            <accinstr>www.pasda.psu.edu</accinstr>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2018-01-01</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+          <cntper>Metadata Coordinator</cntper>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>20e8e3f3-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

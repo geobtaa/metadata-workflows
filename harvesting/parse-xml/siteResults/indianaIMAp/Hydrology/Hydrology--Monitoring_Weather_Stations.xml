@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Climatic Data Center (NCDC) (data creator)</origin>
+        <origin>Indiana Geological Survey (data compiler)</origin>
+        <origin>Center for Geospatial Data Analysis (data compiler)</origin>
+        <origin>Sally Letsinger (data compiler)</origin>
+        <pubdate>20080901</pubdate>
+        <title>WEATHER_STATIONS_NCDC_IN: Weather Stations in Indiana (National Climatic Data Center, 1:24,000, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a collection of active weather stations in Indiana that are part of the National Weather Service's Cooperative Station Network.</abstract>
+      <purpose>WEATHER_STATIONS_NCDC_IN was developed as a tool for display of weather station locations in Indiana in a GIS environment.</purpose>
+      <supplinf>The data in this point layer came from the National Climatic Data Center inventories of cooperative weather stations and automated surface observation stations used in the United States. The data were downloaded from: ftp://ftp.ncdc.noaa.gov/pub/data/inventories/COOP-ACT.TXT, ASOSLST.XLS.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20080820</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data access date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0511</westbc>
+        <eastbc>-84.7912</eastbc>
+        <northbc>41.7178</northbc>
+        <southbc>37.7810</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>climatology meteorology atmosphere</themekey>
+        <themekey>geoscientific information</themekey>
+        <themekey>environment</themekey>
+        <themekey>location</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>climate</themekey>
+        <themekey>weather</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>National Climatic Data Center (NCDC)</themekey>
+        <themekey>weather station</themekey>
+        <themekey>cooperative weather station</themekey>
+        <themekey>National Weather Service (NWS)</themekey>
+        <themekey>climate division</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS shapefile format, Microsoft Windows XP, approximately 204 KB</native>
+    <useconst>Hydrology--Monitoring_Weather_Stations</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The station names were checked against a list of cooperative stations obtained from the Midwest Regional Climate Center (MRCC) and no discrepancies in the active stations were noted. The location information available from the National Climatic Data Center (NCDC) was of a higher precision (latitude and longitude reported in degrees, minutes, and seconds rather than degrees and minutes) than any other source. Many errors in climatic division assignments were found. No independent checks were conducted to determine errors in reported identification numbers for stations (for example, COOP numbers and WBAN numbers, etc.; see attribute descriptions for station information).</attraccr>
+    </attracc>
+    <logic>The resultant shapefile generated from the NCDC tabular data was checked to ensure that the same number of records was in the spatial data set as was in the tabular data set.</logic>
+    <complete>From the NCDC, "The information contained in Web Climate Services Version 2.1 is a "best effort" attempt to provide access to NCDC metadata. The contents of this system cannot be considered as official records. To obtain official records or to verify content found in this system please contact NCDC."</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>As reported by NCDC, "In recent years, the availability of Geopositioner (GPS) technology and the demand for more precise location information has increased the precision of these measurements to Whole Seconds." The postional accuracy of the GPS units used was not provided; the horizontal accuracy is an estimate. The accuracy was calculated to 0.0001 degrees, which is approximately 10 meters on the ground.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>As reported by NCDC,"From NWS guidelines ground elevation is generally taken from temperature sensor location at airport sites, and from the rain gage location at other observing sites." No additional information was provided on vertical positional accuracy of these data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Weather Service (NWS)</origin>
+            <pubdate>2008</pubdate>
+            <title>National Weather Service's Cooperative Station Network</title>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington D.C.</pubplace>
+              <publish>National Climatic Data Center</publish>
+            </pubinfo>
+            <othercit>Downloaded file names:  COOP-ACT.TXT, ASOSLST.XLS</othercit>
+            <onlink>ftp://ftp.ncdc.noaa.gov/pub/data/inventories/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data access date</srccurr>
+        </srctime>
+        <srccitea>Active NWS cooperative weather station inventory</srccitea>
+        <srccontr>Inventory of station names, identification numbers, and locations in latitude and longitude (degrees, minutes, seconds) of active cooperative weather stations in Indiana coordinated by the National Weather Service (NWS).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Climatic Data Center</origin>
+            <pubdate>2008</pubdate>
+            <title>WebCliServ (Web Climate Services)</title>
+            <edition>2.5</edition>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington D.C.</pubplace>
+              <publish>National Climatic Data Center</publish>
+            </pubinfo>
+            <othercit>Used results of query, "State = IN"</othercit>
+            <onlink>http://www.ncdc.noaa.gov/oa/climate/stationlocator.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data access date</srccurr>
+        </srctime>
+        <srccitea>Cooperative weather station types</srccitea>
+        <srccontr>Types of cooperative weather stations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Climatic Data Center</origin>
+            <pubdate>2008</pubdate>
+            <title>CLIMATE_DIVISIONS_NCDC_IN: Climate Divisions in Indiana (National Climatic Data Center, 1:24000, Polygon Shapefile), data compilation by Sally Letsinger, 2008.</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>None</othercit>
+            <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data access date</srccurr>
+        </srctime>
+        <srccitea>Climatic divisions for Indiana.</srccitea>
+        <srccontr>Climatic divisions for each Indiana county.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>CGDA personnel imported COOP-ACT.TXT (inventory of active cooperative (COOP) weather stations in the United States) and ASOSLST.XLS (automated surface observation stations used by the National Weather Service in the United States) into separate worksheets in Microsoft Excel. Both worksheets were refined to contain only information about Indiana Weather stations. Both worksheets were merged and any duplicate records were deleted. The latitude and longitude coordinates were converted from degrees-minutes-seconds to decimal degrees by spreadsheet calculations. All formulae were converted to values. Only latitude and longitude coordinates in decimal degrees were retained; other coordinate fields were deleted. The spreadsheet was saved, and the geographic (latitude and longitude) decimal degree XY coordinates were used to import the point locations into ESRI ArcMap with a geographic coordinate system (NAD83). The point event theme was projected to UTM NAD83 Zone 16.</procdesc>
+        <srcused>COOP-ACT.TXT, ASOSLST.XLS</srcused>
+        <procdate>20080820</procdate>
+        <srcprod>in_climate.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The working version of the weather station shapefile was joined to an edited Excel worksheet containing cooperative weather station types using the COOP identification number as the join field. The CLIMATE field was checked against the values contained in Climatic_Divisions_NCDC_IN.shp, and several errors were identified. The errors were corrected after verifying the station name, county name, and coordinates placed the station in the plotted location. Only fields from the joined tables that were desired were retained in the final output. The point layer was then exported to retain the attribute tabular modifications.</procdesc>
+        <srcused>in_climate.shp, WebCliServ query results for Indiana weather station types, Climatic_Divisions_NCDC_IN.shp</srcused>
+        <procdate>20080820</procdate>
+        <srcprod>WEATHER_STATIONS_NCDC_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20080901</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>218</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>weather_stations_ncdc_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Coop</attrlabl>
+        <attrdef>Cooperative Station Numbers. From the NCDC: "These stations are identified by a 6-digit number and are part of the National Weather Service's Cooperative Station Network. The first two digits designate a USA state or territory code. The last four digits are assigned to stations within a state in general accordance with the alphabetic order of the station name. A station in this network, as designated by a single Cooperative Station Identifier, can be one site or a series of sites whose locations fall within 2 miles horizontal or 100 feet vertical difference. There are exceptions to this rule, with "climatic compatibility", as determined by the NWS field manager, being the overriding factor."</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Climate</attrlabl>
+        <attrdef>Climate divisions are standardized regions within each state designating areas of similar climate regime</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Climate division: Northwest Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Climate division: North central Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Climate division: Northeast Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Climate division: West central Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Climate division: Central Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Climate division: East central Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Climate division: Southwest Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Climate division: South central Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Climate division: Southeast Indiana</edomvd>
+            <edomvds>National Climatic Data Center</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wban</attrlabl>
+        <attrdef>From the NCDC, "WBAN ID Numbers: A five-digit station identifier used at NCDC for digital data storage and general station identification purposes. WBAN is an acronym, invented in the 1950s, which stands for Weather-Bureau-Army-Navy. WBAN station numbers were first used as identifiers for stations reporting meteorological observations on the then-standard WBAN series of forms."</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWS</attrlabl>
+        <attrdef>Primary National Weather Service station</attrdef>
+        <attrdefs>National Weather Service</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWS_id</attrlabl>
+        <attrdef>Station identification number assigned by the National Weather Service. Some records do not have a value.</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stn_name</attrlabl>
+        <attrdef>From the NCDC, "The name is normally in the format of city name + qualifier, where the qualifier differentiates locations among stations or sites having the same town name (e.g. GREENVILLE 1 SW, GREENVILLE 2 NE). Exceptions to the city name convention include some military sites (e.g. LANGLEY AFB), and certain natural features or private holdings in remote areas (e.g. STAMPEDE PASS, JOHNSON RANCH, CAPE HATTERAS)."</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Weather Service Cooperative Weather Station Network</codesetn>
+            <codesets>NCDC, http://www.ncdc.noaa.gov/oa/climate/stationlocator.html#COOP</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>County where weather station is located.</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>St</attrlabl>
+        <attrdef>State abbreviation</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elev</attrlabl>
+        <attrdef>The elevation of the station at ground level, in feet</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-99999 (no data)</rdommin>
+            <rdommax>1117</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat_dd</attrlabl>
+        <attrdef>Latitude, decimal degrees</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>37.7953</rdommin>
+            <rdommax>41.7203</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Long_dd</attrlabl>
+        <attrdef>Longitude, decimal degrees</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-87.9931</rdommin>
+            <rdommax>-84.8019</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>
+From the NCDC, "A loose station classification scheme for non-Cooperative network stations based on NWS, Department of Defense (DOD) and NCDC past and present schemes. The intent of depicting station types is to inform the user of the general nature of a given station."
+
+Primary types found in the Indiana data set include: COOP (COOPerative station), COOP-A (undocumented), B (Basic contract), AB (Aviation and cooperative-a, Basic Contract), WBAS (Weather Bureau Airport Station), ASOS-NWS (Automated Surface Observation System, National Weather Service), NEXRAD (NEXt generation RADar)
+</attrdef>
+        <attrdefs>National Climatic Data Center</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>COOP station type</codesetn>
+            <codesets>National Climatic Data Center</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+
+COPYRIGHT 2008, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying, adaptation, distribution, public performance, or public display of this information without the express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT:
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data. The following source citation should be
+included: WEATHER_STATIONS_NCDC_IN: Weather Stations in Indiana (National Climatic Data Center, 1:24,000, Point Shapefile), data compilation by Sally Letsinger, 2008.
+
+WARRANTY:
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405
+2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY:
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20080901</metd>
+    <metrd>20080901</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Sally L. Letsinger</cntper>
+        </cntorgp>
+        <cntpos>Research Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1356</cntvoice>
+        <cntfax>812 855 2781</cntfax>
+        <cntemail>sletsing@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered
+or summarized. IGS does not support secondary distribution. If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

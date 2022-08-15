@@ -1,0 +1,411 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>2011</pubdate>
+        <title>PAMAP Program Spatial Energy 2011</title>
+        <geoform Sync="TRUE">remote-sensing image</geoform>
+        <ftname Sync="TRUE">3070.tif</ftname>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <origin>PA DCNR Bureau of Topographic and Geologic Survey</origin>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>2011</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2011</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-79.20</westbc>
+        <eastbc>-76.71</eastbc>
+        <northbc>42.13</northbc>
+        <southbc>40.62</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-79.20</leftbc>
+        <rightbc Sync="TRUE">-76.71</rightbc>
+        <bottombc Sync="TRUE">40.62</bottombc>
+        <topbc Sync="TRUE">42.13</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>digital mapping</themekey>
+        <themekey>photogrammetry</themekey>
+        <themekey>orthophotography</themekey>
+        <themekey>aerial photography</themekey>
+        <themekey>digital imagery</themekey>
+        <themekey>remote sensing</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>pamap</themekey>
+      </theme>
+      <place>
+        <placekt>State</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <place>
+        <placekey>
+        </placekey>
+        <placekt>
+        </placekt>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Please review and agree to this disclaimer before continuing...
+ 
+TERMS OF USE AND DISCLAIMER 
+PLEASE READ THE FOLLOWING TERMS OF USE AND DISCLAIMER CAREFULLY BEFORE DOWNLOADING PAMAP Imagery and Elevation Data. YOU MUST AGREE TO THE DISCLAIMER AND ALL OTHER TERMS PROVIDED BELOW PRIOR TO DOWNLOADING PAMAP GIS DATA. IF YOU DO NOT AGREE, YOU MAY NOT DOWNLOAD PAMAP DATA FROM THIS WEB SITE. 
+The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance. 
+Commonwealth of Pennsylvania
+Governor's Office of Administration
+Geospatial Technologies Office
+Health and Welfare Building, 7th Floor
+Forster and 7th Streets
+Harrisburg, PA 17120</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntvoice>(717) 702-2053</cntvoice>
+        <cntorgp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+          <cntper>Director</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>PAMAP Program</address>
+          <city>Middletown</city>
+          <state>Pennsylvania</state>
+          <postal>17057</postal>
+          <country>United States</country>
+        </cntaddr>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE"> Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.2.6.1500</native>
+    <natvform Sync="TRUE">Raster Dataset</natvform>
+    <descript>
+      <abstract>PAMAP_SpatialEnergy_2011</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>The following checks were performed: 1. The Airborne GPS/IMU data stream were validated through an aero triangulation bundle adjustment using Pictovera software. 2. Digital orthophotography was validated through a visual inspection of control points, edge matching and general image quality. The following methods were used to ensure image quality: 1. Use of GPS/IMU during image acquisition. 3. Checking of controls against ortho product. 4. Post ortho accuracy approval checks for overall image quality (tone, color balance, etc.).</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20101109</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20101110</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20101111</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20110414</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20110415</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>Data processing of ADS40 imagery and metadata is a streamlined digital workflow process utilizing Xedar, Inc.'s proprietary software and commercial softcopy photogrammetric software including Applanix, GPro, ORIMA, Pictovera, and Orthovista. The ADS40 sensor GPS/IMU position and attitude data is directly processed through three separate but continuous steps: Applanix POSPAC for data extracting, PosGPS for data analysis and POSProc for data measurement. The post-processed GPS data output is displayed onto the flight profile plot, which clearly shows the RMS values of the combined separation, C/A Code and Carrier Phase. The output GPS/IMU data is also verified by a PDOP plot and PDOP values are compared to an acceptable threshold range.
+
+The processing on ADS40 images is based on Pictovera software for bundle adjustment. Image tie points providing the observations for the least squares bundle adjustment were selected from the images using an autocorrelation algorithm.  A least squares bundle adjustment of image pass points and the ABGPS was performed to develop an aerotriangulation solution for each block using Pictovera software. Upon final bundle adjustment, the triangulated strips were ortho-rectified to the DEM. XeDAR generated an elevation model through auto-correlation processes. Upon completion of the Aero-Triangulation (AT), PictoVera software was used to automatically correlate a dense elevation network of x, y, z (3D) points from the stereo-viewable imagery from each flight line. With a general density of approximately one point per every 1 -2 meters, the 3-D points were reviewed and manually edited for gross errors. Additional filtering was performed to remove points that were found to have been extracted from the surfaces of elevated buildings and trees, using SimActive DEM filtering software. Upon final filtering, the resulting DEM was suitable for the accurate rectification of the aerial imagery.
+
+Orthorectified imagery is checked and radiometricly balanced in a parallel process that utilizes custom gradient correction software and the INPHO Orthovista Radiometrics editor. Once both processes have passed rigid AT and QC milestones, the imagery bands, red, green, and blue, are rectified to a 3-Band RGB product. These orthos are passed to the mosaic team for QC, seam line placement and tiling using the interactive capabilities of Orthovista software. Following the application of seamline and final tonal adjustment, the orthoimagery is cut to a custom tiling index. The orthorectifed imagery was originally produced in UTM 17N NAD83 Meters and as a final step was reprojected to Geographic NAD83 Decimal Degrees </procdesc>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>15000 W 64th Avenue</address>
+              <city>Arvada</city>
+              <state>CO</state>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>303-302-8600</cntvoice>
+            <cntfax>303-302-8601</cntfax>
+            <cntorgp>
+              <cntorg>Pixxures, Inc. - A Division of XeDAR Corporation</cntorg>
+            </cntorgp>
+            <hours>8:00 AM - 5:00 PM MT. M-F</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">
+        </srcused>
+        <date Sync="TRUE">20110617</date>
+        <time Sync="TRUE">13355200</time>
+      </procstep>
+    </lineage>
+    <cloud>0 %</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Raster</direct>
+    <rastinfo>
+      <rasttype Sync="TRUE">Pixel</rasttype>
+      <rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+      <vrtcount Sync="TRUE">1</vrtcount>
+      <rastorig Sync="TRUE">Upper Left</rastorig>
+      <rastband Sync="TRUE">3</rastband>
+      <rastxsz Sync="TRUE">0.000005</rastxsz>
+      <rastysz Sync="TRUE">0.000005</rastysz>
+      <rastbpp Sync="TRUE">8</rastbpp>
+      <rastcmap Sync="TRUE">FALSE</rastcmap>
+      <rastcomp Sync="TRUE">None</rastcomp>
+      <rowcount Sync="TRUE">9151</rowcount>
+      <colcount Sync="TRUE">12600</colcount>
+      <rastplyr Sync="TRUE">FALSE</rastplyr>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+      <geograph>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+      </geograph>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Orthophotos contain no vertical reference information.</altdatum>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntvoice>(814) 865 - 8792 </cntvoice>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park </city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cnttdd>http://www.pasda.psu.edu</cnttdd>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>201403</metd>
+    <metc>
+      <cntinfo>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>http://www.pasda.psu.edu/</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20140320</ModDate>
+    <ModTime>11450400</ModTime>
+    <CreaDate>20110617</CreaDate>
+    <CreaTime>13355200</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110617</SyncDate>
+    <SyncTime>13360400</SyncTime>
+    <MetaID>{1698996A-93C2-4F26-81F5-9DC2AE09CBA4}</MetaID>
+    <DataProperties>
+      <itemProps>
+        <imsContentType export="False">
+        </imsContentType>
+      </itemProps>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <mdDateSt Sync="TRUE">20140320</mdDateSt>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE"> Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.2.6.1500</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="" />
+    </dataLang>
+    <idCitation xmlns="">
+      <resTitle Sync="FALSE">PAMAP_SpatialEnergy_2011</resTitle>
+      <presForm xmlns="">
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="002" />
+    </spatRpType>
+    <dataExt xmlns="">
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-78.813435</westBL>
+          <eastBL Sync="TRUE">-78.745266</eastBL>
+          <northBL Sync="TRUE">41.566074</northBL>
+          <southBL Sync="TRUE">41.516565</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-78.813435</westBL>
+      <eastBL Sync="TRUE">-78.745266</eastBL>
+      <northBL Sync="TRUE">41.566074</northBL>
+      <southBL Sync="TRUE">41.516565</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idPurp>Digital orthophotos are aerial images corrected for displacement caused by relief in the Earth's surface, camera/sensor lens distortion and tilting of the sensor at the time of image acquisition. Additionally, orthophotos are assigned a uniform scale, which allows an end-user the ability to derive accurate measurements from the imagery. Orthophotos can be used as an accurate record of landscape conditions at the time of the corresponding aerial imagery. As such, the digital orthophotos are used in a variety of applications, such as environmental monitoring, facility engineering/maintenance, city/county planning, property line review, etc. The digital orthophoto can be used alone or as a raster base map for corresponding vector line mapping.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Half meter GSD represented in Geographic Decimal Degrees, natural color (RGB), 8-bit per band digital orthophotography for approximately 14,035 square miles in Pennsylvania, Ohio, and West Virginia. The imagery was collected using the Leica Geosystems ADS40-SH51 during Fall, 2010 and Spring, 2011 at an average altitude of 4,800 meters above ground level. An auto correlated elevation model was used as vertical control. Airborne GPS/IMU was used as a basis for Analytical Aerial Triangulation (AT). Following rectification of imagery, manually placed seamlines were used to mosaic into a seamless coverage. The orthophotography is georeferenced to Geographic NAD83 decimal degrees.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <searchKeys>
+      <keyword>digital mapping</keyword>
+      <keyword>photogrammetry</keyword>
+      <keyword>orthophotography</keyword>
+      <keyword>aerial photography</keyword>
+      <keyword>digital imagery</keyword>
+      <keyword>remote sensing</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Unknown&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataChar>
+      <CharSetCd value="004">
+      </CharSetCd>
+    </dataChar>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">
+          </linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Raster Dataset</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1983</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <GridSpatRep>
+      <numDims Sync="TRUE">2</numDims>
+      <cellGeo>
+        <CellGeoCd Sync="TRUE" value="002" />
+      </cellGeo>
+      <tranParaAv Sync="TRUE">1</tranParaAv>
+      <axDimProps>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="002" />
+          </dimName>
+          <dimSize Sync="TRUE">12600</dimSize>
+          <dimResol>
+            <value Sync="TRUE">0.000005</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Degree</uomName>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="001" />
+          </dimName>
+          <dimSize Sync="TRUE">9151</dimSize>
+          <dimResol>
+            <value Sync="TRUE">0.000005</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Degree</uomName>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+      </axDimProps>
+    </GridSpatRep>
+  </spatRepInfo>
+</metadata>

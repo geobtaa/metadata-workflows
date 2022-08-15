@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological and Water Survey (IGWS)</origin>
+        <origin>Purdue Terrestrial Observatory, Purdue University</origin>
+        <pubdate>20171017</pubdate>
+        <title>
+LANDSAT_IMAGERY_INDEX_IN.SHP: IndianaView Archival Index for County-Based Landsat Satellite Imagery of Indiana (Indiana Geological and
+Water Survey, Polygon Shapefile)
+</title>
+        <edition>1.0</edition>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological and Water Survey</publish>
+        </pubinfo>
+        <othercit>
+The URLs for the county-based archives of Landsat imagery were originally obtained from the "IndianaView" Website
+(http://www.indianaview.org/) on October 17, 2017. IndianaView, which is maintained by personnel from the Purdue Terrestrial Observatory
+(https://www.itap.purdue.edu/pto/) promotes access to near real-time remote sensing data as well as older archives of Landsat satellite
+imagery data for Indiana.
+
+The archival images indexed here were collected over the past 30 years, with county-based extents, for all of the counties within Indiana.
+The images were obtained by either Landsat5 or Landsat8 sensors. For a more detailed discussion of the Landsat Program of the USGS
+(started in 1972), please see the following web sites:
+
+Brief history of LandSat Program - https://landsat.usgs.gov/what-landsat-and-when-did-it-begin
+
+Landsat Missions Timeline - https://landsat.usgs.gov/landsat-missions-timeline
+
+Band Designations for Landsat Satellite Sensors - https://landsat.usgs.gov/what-are-band-designations-landsat-satellites
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+LANDSAT_IMAGERY_INDEX_IN.SHP is an Esri polygon shapefile that provides access to the Landsat satellite imagery collected and processed by IndianaView
+over the past 30 years in Indiana and are organized by county. The archived imagery is available for download in GeoTIFF format with a WGS 1984 UTM
+Zone 16 projection (Landsat5 images are approximately 16 Mb and include six or seven bands, Landsat8 images are approximately 45 Mb and include ten bands
+of data, both at 30-meter resolution), clipped from the original full scene to fully encompass the county boundary. The archives are maintained and hosted
+by personnel of Purdue Terrestrial Observatory, Purdue University, as part of the project website named "IndianaView" (http://www.indianaview.org/).
+Attributes include county name, a website URL that links to each county-based satellite imagery archive on the IndianaView website, image counts,
+and a listing of all dates (and type of satellite sensor used) of image capture.
+</abstract>
+      <purpose>
+LANDSAT_IMAGERY_INDEX_IN.SHP was produced to provide access to website URLs for accessing the county-based historical Landsat satellite IndianaView
+imagery archive within Indiana.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19840501</begdate>
+          <enddate>20170908</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>IGWS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological and Water Survey (IGWS)</themekey>
+        <themekey>Purdue Terrestrial Observatory, Purdue University</themekey>
+        <themekey>IndianaView</themekey>
+        <themekey>Landsat</themekey>
+        <themekey>Landsat5</themekey>
+        <themekey>Landsat8</themekey>
+        <themekey>satellite imagery</themekey>
+        <themekey>remote sensing</themekey>
+        <themekey>geoTIFF</themekey>
+        <themekey>sensor</themekey>
+      </theme>
+      <place>
+        <placekt>IGWS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Purdue Terrestrial Observatory, Purdue University</cntorg>
+          <cntper>Larry Biehl</cntper>
+        </cntorgp>
+        <cntpos>IndianaView Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>155 South Grant Street (Young Hall 942)</address>
+          <city>West Lafayette</city>
+          <state>Indiana</state>
+          <postal>47907 2108</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>765 494 3529</cntvoice>
+        <cntemail>Biehl@purdue.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Esri ArcCatalog 10.51 shapefile format, approximately 952 Kb</native>
+    <useconst>Imagery--Landsat_Imagery_Index</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All attributes were supplied by personnel of the Purdue Terrestrial Observatory, Purdue University and are assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>Esri polygon data structure.</logic>
+    <complete>Data were supplied by personnel of the Purdue Terrestrial Observatory, Purdue University and are assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy was not a factor in the digital production of the data set.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy was not a factor in the digital production of the data set.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological and Water Survey</origin>
+            <pubdate>20020621</pubdate>
+            <title>LANDSURVEY_COUNTY_POLY_IN.SHP: County Boundaries of Indiana (Indiana Geological and Water Survey, 1:24,000, Polygon Shapefile)</title>
+            <edition>1.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological and Water Survey</publish>
+            </pubinfo>
+            <onlink>http://maps.indiana.edu/layerGallery.html?category=PLSS</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Esri polygon shapefile (SHP)</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20020614</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>LANDSURVEY_COUNTY_POLY_IN.SHP</srccitea>
+        <srccontr>Polygon county boundaries in Indiana.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Purdue Terrestrial Observatory, Purdue University</origin>
+            <pubdate>20171017</pubdate>
+            <title>"Landsat Data for Indiana Counties"</title>
+            <edition>20171017</edition>
+            <geoform>Website</geoform>
+            <pubinfo>
+              <pubplace>West Lafayette, Indiana</pubplace>
+              <publish>Purdue Terrestrial Observatory, Purdue University</publish>
+            </pubinfo>
+            <onlink>http://www.indianaview.org/glovis/IN_County_Landsat_Data.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19840501</begdate>
+              <enddate>20170908</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Website URLs</srccitea>
+        <srccontr>Website URLs that link to archives of Satellite imagery for each of the 92 counties within Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+LANDSURVEY_COUNTY_POLY_IN.SHP was opened in Esri ArcMap and edited to add new attribute fields named "ImageURL," "Dates," and
+"ImageCount." The IndianaView "Landsat Data for Indiana Counties" website was then used to add county-based URLs for each of the 92 counties
+within Indiana to the "ImageURL" attribute field. Each of the 92 county-based web pages were then accessed and the dates of image
+capture were manually entered to the "Dates" attribute field for each county. The attribute named "ImageCount" was then populated with the
+total number of available imagery for each county. The file was then saved and re-named "LANDSAT_IMAGERY_INDEX_IN.SHP" to conform to naming
+conventions of the Indiana Geological and Water Survey.
+</procdesc>
+        <srcused>LANDSURVEY_COUNTY_POLY_IN.SHP, http://www.indianaview.org/glovis/IN_County_Landsat_Data.html</srcused>
+        <procdate>20171017</procdate>
+        <srcprod>LANDSAT_IMAGERY_INDEX_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20180413</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>92</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LANDSAT_IMAGERY_INDEX_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NAME_L</attrlabl>
+        <attrdef>Indiana county names using upper and lower case letters</attrdef>
+        <attrdefs>Indiana Geological and Water Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CoNo</attrlabl>
+        <attrdef>Numeric prefix code for alphabetic county order</attrdef>
+        <attrdefs>Indiana Geological and Water Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>92</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IMAGEURL</attrlabl>
+        <attrdef>Website URLs that link to IndianaView county-based archives of Landsat imagery collected from 1984 to 2017.</attrdef>
+        <attrdefs>Purdue Terrestrial Observatory, Purdue University</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATES</attrlabl>
+        <attrdef>
+Date of each image capture along with an indicator for which sensor was used (Landsat5 or Landsat8).
+Format is as follows: "YYYYMMDD_L#" (four digits for year, two for month, two for day, and L5 or L8 for sensor type).
+</attrdef>
+        <attrdefs>Purdue Terrestrial Observatory, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>19840501</rdommin>
+            <rdommax>20170908</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IMAGECOUNT</attrlabl>
+        <attrdef>Total number of IndianaView Landsat images available for the county</attrdef>
+        <attrdefs>Purdue Terrestrial Observatory, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6</rdommin>
+            <rdommax>14</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological and Water Survey be cited in any products generated from this data. The following source citation
+should be included: [LANDSAT_IMAGERY_INDEX_IN.SHP: IndianaView Archival Index for County-Based Landsat Satellite Imagery of Indiana (Indiana
+Geological and Water Survey, Polygon Shapefile), 20171017].
+
+WARRANTY
+
+Indiana University, Indiana Geological and Water Survey warrants that the media on which this product is stored will be free
+from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return
+the media to Publication Sales, Indiana Geological and Water Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana
+47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions,
+expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose
+or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University,
+Indiana Geological and Water Survey shares no liability with product users indirect, incidental, special, or consequential
+damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial
+or economic loss. Indiana University, Indiana Geological and Water Survey is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20171017</metd>
+    <metrd>20180413</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGWS. It is not to be altered or summarized. IGWS does
+not support secondary distribution. If this data set was received from anyone other than the IGWS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Appalachian Trail Conference</origin>
+        <pubdate>200304</pubdate>
+        <title>Appalachian National Scenic Trail Centerline in Pennsylvania</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pa. Dept. of Conservation and Natural Resources</publish>
+        </pubinfo>
+        <onlink> http://www.pasda.psu.edu/ </onlink>
+        <onlink>http://www.appalachiantrail.org/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-84.199830</westbc>
+        <eastbc>
+-68.921782</eastbc>
+        <northbc>
+45.904373</northbc>
+        <southbc>
+34.626563</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Appalachian National Scenic Trail</themekey>
+        <themekey>Appalachian Trail</themekey>
+        <themekey>National Scenic Trail</themekey>
+        <themekey>AT</themekey>
+        <themekey>Appalachian Trail Centerline</themekey>
+        <themekey>society</themekey>
+        <themekey>trails</themekey>
+        <themekey>recreation</themekey>
+      </theme>
+      <place>
+        <placekey>Appalachian National Scenic Trail</placekey>
+        <placekey>Appalachian Trail</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>It is asked that proper citation be used on any materials (digital or printed) in which this information appears.</accconst>
+    <useconst>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The Appalachian Trail Conference, the National Park Service Appalachian Trail Park Office, agency partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held responsible for use or misuse of this data. Please see the Distribution_Liability section for more detailed information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Appalachian Trail Conference</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Harpers Ferry</city>
+          <state>West Virginia</state>
+          <address>799 Washington Street</address>
+          <address>P.O. Box 807 </address>
+          <postal>25425-0807</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(304) 535-6331</cntvoice>
+        <cntfax>(304) 535-2667 </cntfax>
+        <cntemail>info@appalachiantrail.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Appalachian Trail Conference and National Park Service Appalachian Trail Park Office</datacred>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.2.0.700</native>
+    <descript>
+      <abstract>appalachiantrail2003</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All attributes associated with this data set were verified and should reflect the qualities of each portion of the data. Length (distance) information was calculated within the GIS though, so may not accurately reflect true distance values such as those calculated on the ground with a wheel or other measuring device. These values may also vary slightly throughout the data set, depending on the source data used to determine length.</attraccr>
+    </attracc>
+    <logic>Information within this data set are considered to be logically consistent, though no formal tests were performed. Line geometry is topologically clean.</logic>
+    <complete>All portions of the Appalachian National Scenic Trail are represented within this data set using the most accurate information available. This includes high accuracy Global Positioning Systems (GPS) data in some areas and digitized information from USGS topographic maps and Appalachian Trail maps in others. As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy of this data set varies depending on the source data from which it was compiled. All GPS data used to create this data set were collected using Trimble GeoExplorer II, ProXL, or ProXR GPS equipment and  post-process differentially corrected. However, in some areas this included only 2D GPS data (which is generally less accurate than 3D GPS data). Though no formal tests were conducted, all portions of the data based on 3D data are assumed to meet National Mapping Standards of +/- 46.5 feet horizontal accuracy at a 95% confidence level. Portions based on 2D data, however, may exceed National Mapping Standards in some areas. All portions of the data based on GPS data are noted within the attribute information.
+
+
+
+
+
+All digitized information used to create this data set were based on information depicted on USGS 1:24,000 topographic maps or Appalachian Trail maps, which vary in scale from 1:24,000 to 1:100,000. Generally, this information was only used as a supplement to the GPS data (e.g. in areas where no GPS data was collected or where GPS data did not reflect current conditions such as recent relocations). Though no formal tests were conducted, those portions of the data based on USGS topographic map information are assumed to be within National Mapping Standards. Those based on Appalachian Trail map information, however, may exceed National Mapping Standards in some areas. All portions of the data based on digitized information are noted within the attribute information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Appalachian Trail Conference and National Park Service Appalachian Trail Park Office</origin>
+            <pubdate>20011015</pubdate>
+            <title>Appalachian National Scenic Trail Centerline</title>
+            <edition>First</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harpers Ferry, WV</pubplace>
+              <publish>Appalachian Trail Conference</publish>
+            </pubinfo>
+            <onlink>http://www.appalachiantrail.org/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>1:5,000 to 1:24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19981206</begdate>
+              <enddate>20011015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>ATC and NPS ATPO</srccitea>
+        <srccontr>Information used in compiling this data set was collected and contributed by Dr. Vernon Vernier (1998-1999), the Green Mountain National Forest (1999), the White Mountain National Forest (1999-2001), and A.T. staff members (1998-2001).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Appalachian Trail Conference and National Park Service Appalachian Trail Park Office</origin>
+            <pubdate>20011015</pubdate>
+            <title>Appalachian National Scenic Trail Centerline</title>
+            <edition>First</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harpers Ferry, WV</pubplace>
+              <publish>Appalachian Trail Conference</publish>
+            </pubinfo>
+            <onlink>http://www.appalachiantrail.org</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>5000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19981206</begdate>
+              <enddate>20020312</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>AT_apptrail</srccitea>
+        <srccontr>Position and attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Appalachian National Scenic Trail Centerline data was created  from a number of sources. These include Global Positioning System (GPS) survey data collected by Dr. Vernon Vernier (1998-1999), the Green Mountain National Forest (1999), the White Mountain National Forest (1999-2001), and A.T. staff members (1998-2001) as well as some digitized information based on information depicted on USGS topographical maps and Appalachian Trail maps.
+
+
+
+
+All GPS data was post-process differentially corrected either by A.T. staff members or by the party that collected the data. Next, it was populated with data source and supplier information. All GPS data used to create this data set was collected using Trimble's recommended data capture settings (e.g. maximum PDOP of 6.0 and elevation mask of 15 degrees) except the Manual 3D setting for those data collected by Dr. Vernier. Dr. Vernier used the Automatic data setting, which collects 3D GPS data when available and 2D GPS data all other times. Those portions of the data based on 3D GPS data and those based on 2D GPS data were identified and noted in the data. All GPS data were then combine to produce a seamlessly data set and attribute information (e.g. length) was updated for the entire set.
+
+
+
+
+Gaps were then identified and supplemented using digital data based on information depicted on USGS 1:24,000 scale topographic maps and Appalachian Trail maps, which vary in scale from 1:24,000 to 1:100,000. Attribute information (e.g. length) was then updated for the entire set.
+
+
+
+Data were then compared to a list of major trail relocations since 1998. Those portions of the data set that no longer accurately depicted the current trail location (e.g. the trail had been relocated since the GPS data in that area was collected) were replaced with digitized information, based on the most accurate and up-to-date information available as to the current trail location, whether that be an Appalachian Trail map (1:24,000 to 1:100,000 scale) or marked up USGS topographic maps (1:24,000 scale). Once combine with the rest of the data set, attribute information (e.g. length and data source) were updated for the entire set.
+
+
+
+
+As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</procdesc>
+        <procdate>19981206-20020312</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>AT_apptrail data was imported to DCNR systems.  Portions for Pennsylvania clipped out and reprojected.</procdesc>
+        <srcused>AT_apptrail</srcused>
+        <procdate>2003</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>\\Orser52\allweb\pasda\documents\metadata\dcnr\dcnr_apptrail_2003.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>4549</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.400000</semiaxis>
+        <denflat>294.978698</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+at_centerline</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>GIS Length in Feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_M</attrlabl>
+        <attrdef>GIS Length in Meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_MI</attrlabl>
+        <attrdef>GIS Length in Miles</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Note about specific portion of the data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source of data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUPPLIER</attrlabl>
+        <attrdef>Supplier of data</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TRAIL_CLUB</attrlabl>
+        <attrdef>Trail Maintaining Club responsible for a specific section of trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shape file</formname>
+          <filedec>zip compression</filedec>
+          <transize>6.484</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20020312</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>14133000</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

@@ -1,0 +1,495 @@
+<metadata>
+  <Esri>
+    <CreaDate>20080828</CreaDate>
+    <CreaTime>16042300</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>20140320</ModDate>
+    <ModTime>13502900</ModTime>
+    <MetaID>{08373B8C-99E1-409E-BD30-647A8D754E70}</MetaID>
+    <SyncDate>20080828</SyncDate>
+    <SyncTime>16042400</SyncTime>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <idinfo>
+    <ptcontac>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PAMAP Program</address>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntperp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+        </cntperp>
+        <cntpos>Director</cntpos>
+        <cntvoice>(717) 702-2053</cntvoice>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <citation>
+      <citeinfo>
+        <origin>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</origin>
+        <pubdate>2007</pubdate>
+        <title>PAMAP cycle2</title>
+        <pubinfo>
+          <pubplace>Middletown, PA</pubplace>
+          <publish>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</publish>
+        </pubinfo>
+        <ftname Sync="TRUE">14001670PAS.tif</ftname>
+        <geoform Sync="TRUE">remote-sensing image</geoform>
+      </citeinfo>
+    </citation>
+    <keywords>
+      <theme>
+        <themekey>digital orthophoto</themekey>
+        <themekey>digital image map</themekey>
+        <themekey>aerial photograph</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>DEM</themekey>
+        <themekt>None</themekt>
+        <themekey>LiDAR</themekey>
+        <themekey>DMC</themekey>
+        <themekey>Digital Mapping Camera</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Bedford County</placekey>
+        <placekey>Cumberland County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Huntingdon County</placekey>
+        <placekey>Juniata County</placekey>
+        <placekey>Mifflin County</placekey>
+        <placekey>Perry County</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+    </keywords>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20070329</begdate>
+          <enddate>20070423</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-78.810999</westbc>
+        <eastbc Sync="TRUE">-78.775046</eastbc>
+        <northbc Sync="TRUE">39.713045</northbc>
+        <southbc Sync="TRUE">39.685272</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">1670000.000000</leftbc>
+        <rightbc Sync="TRUE">1680000.000000</rightbc>
+        <bottombc Sync="TRUE">130000.000000</bottombc>
+        <topbc Sync="TRUE">140000.000000</topbc>
+      </lboundng>
+    </spdom>
+    <useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.  The Originator and Publisher, as indicated in the metadata, should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <natvform>GeoTIFF</natvform>
+    <accconst>None</accconst>
+    <datacred>PAMAP Program, Bureau of Topographic and Geologic Survey, PA Department of Conservation and Natural Resources</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+    <descript>
+      <abstract>PAMAP_cycle2</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Horizontal and Vertical control points were acquired utilizing GPS collection techniques.  All control was prepared under the supervision of licensed Professional Land Surveyors.</procdesc>
+        <procdate>20060424</procdate>
+        <srcprod>GPS Ground Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Digital aerial photography was obtained utilizing a Zeiss/Intergraph DMC camera in accordance with the project specifcations.  The photography was obtained at an altitude of 10000 feet AMT and captured at a pixel resolution of 1.0 foot.</procdesc>
+        <procdate>20070423</procdate>
+        <srcprod>Aerial Photography</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Softcopy aerotriangulation utilizes the GPS ground control, airborne GPS data, and image coordinate measurements which are run through bundle block adjustment software computing the exterior orientation parameters for each image of the photogrammetric project.  The aerotriangulation process employs a rigorous mathematical model which detects measurement errors, and corrects for systematic image distortion, atmospheric refraction and camera lens distortions.  The final bundle adjustment results are inspected to ensure that the RMSE meets the required 1 part in 10000.</procdesc>
+        <srcused>GPS Ground Control</srcused>
+        <procdate>20070630</procdate>
+        <srcprod>Analytical Aerotriangulation</srcprod>
+        <srcused>Aerial Photography</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>LiDAR collection and processing generally adhered to FEMA Guidelines and Specifications for Flood Hazard Mapping Partners, Appendix A: Guidance for Aerial Mapping &amp; Surveying, Section A.8: Airborne Light Detection and Ranging (LiDAR) Surveys.  Raw LiDAR data was collected using a sensor equipped with an airborne GPS/IMU system.  Flight lines with a 30% sidelap were flown with a nominal average LiDAR point spacing of 1.4 meters using a 43 degree field of view (full angle) at a laser pulse rate of 40.6 kHz.  The raw LiDAR data is processed and filtered to remove LiDAR points on elevated features such as vegetation, buildings, cars, etc. in order to create a bare earth surface meeting the accuracies required for orthophoto and contour generation.  </procdesc>
+        <procdate>20080624</procdate>
+        <srcprod>Processed LiDAR</srcprod>
+        <srcused>Raw LiDAR</srcused>
+        <srcused>GPS Ground Control</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>To supplement the LiDAR data, photogrammetrically compiled breaklines are collected along various planimetric features and significant breaks in grade.  The processed LiDAR data is combined and integrated with these breaklines to generate a final terrain surface of the project area.  This surface was then used to support the accurate generation of the orthophotos and 2' contours.</procdesc>
+        <srcused>Aerial Photography</srcused>
+        <procdate>20080624</procdate>
+        <srcprod>DEM</srcprod>
+        <srcused>Analytical Aerotriangulation</srcused>
+        <srcused>Processed LiDAR</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Digital orthorectification includes a spatial and radiometric transformation of the scanned image from line/sample space into the specified ground coordinate system.  The interior and exterior orientation parameters from the aerotriangulation process are used to project each pixel into the ground coordinate system, while the DEM is used to correct for relief displacement.  Once the images are ortho-rectified, they are checked for geometric accuracy and image quality, and tone-balanced.  The individual overlapping orthophotos are mosaicked together and the final tiles are then extracted from the image set to the project tiling scheme.</procdesc>
+        <srcused>Aerial Photography</srcused>
+        <procdate>8/28/2008</procdate>
+        <srcprod>Color Digital Orthophotography</srcprod>
+        <srcused>Analytical Aerotriangulation</srcused>
+        <srcused>DEM</srcused>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>GPS Photo Control Survey</title>
+            <origin>RETTEW Associates, Inc.</origin>
+            <pubdate>20060424</pubdate>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srccitea>GPS Ground Control</srccitea>
+        <srccontr>GPS control points are used to support the acquisition of the imagery and LiDAR data.  Photo identifiable ground control points (panels) based on the control plan are utilized in the analytical aerotriangulation process.  A number of "blind-point" panels were established and used during the QA/QC check of the orthophotos, LiDAR data and contour information.  All horizontal and vertical control was prepared under the supervision of licensed Professional Land Surveyors.</srccontr>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060424</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Digital Color Aerial Photography</title>
+            <geoform>remote-sensing image</geoform>
+            <pubdate>20070423</pubdate>
+            <origin>Photo Science, Inc.</origin>
+          </citeinfo>
+        </srccite>
+        <srcscale>24400</srcscale>
+        <typesrc>disc</typesrc>
+        <srccitea>Aerial Photography</srccitea>
+        <srccontr>Digital color aerial photography to be used in the creation of digital orthophotos, breaklines, and topographic contours.</srccontr>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20070329</begdate>
+              <enddate>20070423</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>LiDAR</title>
+            <origin>Photo Science, Inc.</origin>
+            <pubdate>20070430</pubdate>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20070430</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Raw LiDAR</srccitea>
+        <srccontr>LiDAR elevation data used in the creation of the terrain surface.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">Y:\host783\metadata\GeoTIFF_Tile_metadata_xmls\GeoTIFF_Tile_24bit\metadata.xml</srcused>
+        <date Sync="TRUE">20080828</date>
+        <time Sync="TRUE">16042300</time>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>The accuracy of the ground control is confirmed by the evaluation of the results of the analytical bundle adjustment.  The residuals of the final adjustment ensured compliance with NSSDA standards.  The Pre Adjustment Gross Error Detection Statistical Test (Data Snooping, with a confidence level of 99.9%) have been applied to all observations included in the aerial triangulations. To detect small gross errors, during Adjustment Robust Estimators were used with the same confidence level and a power of the test of 1-beta=0.2. Systematic errors were eliminated through self calibration and through Additional Parameters. Their numerical stability, statistical significance, internal and external reliability were checked using Student-t test with the same confidence level and Variance/Co-variance analysis. Finally, the arrived variance factor C was submitted to a Chi-square test against the pre-adjustment variance factor using a confidence level 99.9%.  
+
+The LiDAR flying height, field of view, laser repetition rate, aircraft speed, and the maximum baseline distances from the aerial platform to the ground based GPS stations have been fine tuned to ensure an RMSEz of the processed data at the 18.5 cm level for the bare earth surface as required by the FEMA guidelines.
+
+See the PAMAP Technical Proposal dated January 11, 2006 for further QA/QC procedures.</attraccr>
+    </attracc>
+    <logic>All files are inspected by the Production Manager to ensure that they conform to the specified file naming conventions, all files load in their correct geographic position when loaded using the ASCII file header, all files conform to the project specifications for pixel resolution, file standard, dimensions, and compression, and all files do not contain blemishes such as visible seam lines, tone differences, data dropout or artifacts, or warped bridges and overpasses.</logic>
+    <complete>All imagery is visually inspected for completeness to ensure that no gaps or image misplacement exists in the image area.  Imagery is mosaicked to ensure complete coverage for map sheets.  The imagery has been checked to ensure that the boundary and the content has been covered in its entirety.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard.  The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The DEM data meets the required vertical accuracy necessary to ensure that the horizontal accuracies of the orthophotos and contours are met.</vertaccr>
+      </vertacc>
+    </posacc>
+  </dataqual>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PAMAP Program</address>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntpos>Director</cntpos>
+        <cntvoice>(717) 702-2053</cntvoice>
+        <cntorgp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+          <cntper>Jay Parrish, P.G., Ph. D</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metd>2007</metd>
+    <langmeta Sync="TRUE">en</langmeta>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdDateSt Sync="TRUE">20140320</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Pennsylvania Spatial Data Access (PASDA)</address>
+          <address>Penn State Institutes of Energy and the Environment</address>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntvoice>814-863-0104</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype Sync="TRUE">Pixel</rasttype>
+      <rowcount Sync="TRUE">10000</rowcount>
+      <colcount Sync="TRUE">10000</colcount>
+      <rastxsz Sync="TRUE">1.000000</rastxsz>
+      <rastysz Sync="TRUE">1.000000</rastysz>
+      <rastbpp Sync="TRUE">8</rastbpp>
+      <vrtcount Sync="TRUE">1</vrtcount>
+      <rastorig Sync="TRUE">Upper Left</rastorig>
+      <rastcmap Sync="TRUE">FALSE</rastcmap>
+      <rastcomp Sync="TRUE">None</rastcomp>
+      <rastband Sync="TRUE">3</rastband>
+      <rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+      <rastplyr Sync="TRUE">FALSE</rastplyr>
+      <rastifor Sync="TRUE">TIFF</rastifor>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <planar>
+        <planci>
+          <coordrep>
+            <absres Sync="TRUE">1.000000</absres>
+            <ordres Sync="TRUE">1.000000</ordres>
+          </coordrep>
+          <plance>coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702</projcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>A digital number from 0 to 255 will be assigned to each pixel as determined by the 8-Bit Depth.  For the color imagery this number refers to a color look-up table which will contain the red, green, and blue (RGB) values, each from 0 to 255, for that digital number.</eaover>
+      <eadetcit>Where applicable, all data conforms to the PAMAP Technical Proposal dated January 11, 2006.</eadetcit>
+    </overview>
+  </eainfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="FALSE">PAMAP_cycle2</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="002" />
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">1670000</westBL>
+          <eastBL Sync="TRUE">1680000</eastBL>
+          <northBL Sync="TRUE">140000</northBL>
+          <southBL Sync="TRUE">130000</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-78.810999</westBL>
+      <eastBL Sync="TRUE">-78.775046</eastBL>
+      <northBL Sync="TRUE">39.713045</northBL>
+      <southBL Sync="TRUE">39.685272</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idPurp>Aerial survey of the Commonwealth of Pennsylvania.  Orthoimages serve a variety of purposes-- from interim maps to field references for earth science investigations and analysis. The digital orthoimage is a useful layer in a geographic information system for revision of digital line graphs and topographic maps.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This dataset, produced by the PAMAP Program, consists of an orthorectified digital raster image (i.e. orthoimage) with a horizontal ground resolution of 1 foot. An orthoimage is a remotely sensed image that has been positionally corrected for camera lens distortion, vertical displacement, and variations in aircraft altitude and orientation. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map. Source images were captured in natural color at a negative scale of 1:19200. PAMAP data are organized into blocks, which do not have gaps or overlaps, that represent 10,000 feet by 10,000 feet on the ground. The coordinate system for blocks in the northern half of the state is Pennsylvania State Plane North (datum:NAD83, units: feet); blocks in the southern half of the state are in Pennsylvania State Plane South. A block name is formed by concatenating the first four digits of the State Plane northing and easting defining the block's northwest corner, the State identifier "PA", and the State Plane zone designator "N" or "S" (e.g. 45001210PAS).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>PAMAP Program, Bureau of Topographic and Geologic Survey, PA Department of Conservation and Natural Resources</idCredit>
+    <searchKeys>
+      <keyword>digital orthophoto</keyword>
+      <keyword>digital image map</keyword>
+      <keyword>aerial photograph</keyword>
+      <keyword>rectified photograph</keyword>
+      <keyword>rectified image</keyword>
+      <keyword>orthophoto</keyword>
+      <keyword>DEM</keyword>
+      <keyword>LiDAR</keyword>
+      <keyword>DMC</keyword>
+      <keyword>Digital Mapping Camera</keyword>
+      <keyword>Imagery/Base Maps/Earth Cover</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance. The Originator and Publisher, as indicated in the metadata, should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en" />
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\pa-vault1-1\images\host783\DELIVERABLES\New_Tone\all_tiles\24bit\14001670PAS.tif</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Raster Dataset</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <GridSpatRep>
+      <numDims Sync="TRUE">2</numDims>
+      <axDimProps>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="002" />
+          </dimName>
+          <dimSize Sync="TRUE">10000</dimSize>
+          <dimResol>
+            <value Sync="TRUE">1</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Foot_US</uomName>
+                <conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+        <Dimen>
+          <dimName>
+            <DimNameTypCd Sync="TRUE" value="001" />
+          </dimName>
+          <dimSize Sync="TRUE">10000</dimSize>
+          <dimResol>
+            <value Sync="TRUE">1</value>
+            <uom>
+              <UomLength>
+                <uomName Sync="TRUE">Foot_US</uomName>
+                <conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+              </UomLength>
+            </uom>
+          </dimResol>
+        </Dimen>
+      </axDimProps>
+      <cellGeo>
+        <CellGeoCd Sync="TRUE" value="002" />
+      </cellGeo>
+      <tranParaAv Sync="TRUE">1</tranParaAv>
+    </GridSpatRep>
+  </spatRepInfo>
+</metadata>

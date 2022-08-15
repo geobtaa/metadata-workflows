@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Henry H. Gray (author, compiler)</origin>
+        <origin>David A. Held (digital compiler)</origin>
+        <origin>Chris Dintaman (digital compiler)</origin>
+        <origin>Kimberly H. Sowder (digital compiler)</origin>
+        <pubdate>20031021</pubdate>
+        <title>
+BEDROCK_TOPOGRAPHY_MM36_IN: Bedrock Topography Contours, Indiana
+(Indiana Geological Survey, 1:500,000, Line Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey (IGS)</publish>
+        </pubinfo>
+        <othercit>
+IGS Bar Code Identification Number 9000057
+
+This shapefile was derived and modified from a pre-existing published paper map:
+Gray, Henry H., 1982, Map of Indiana Showing Topography of the Bedrock Surface, Indiana
+Geological Survey Miscellaneous Map 36.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Bedrock topography was converted from the original published map,
+Indiana Geological Survey Miscellaneous Map 36. The contours define
+the elevation/topography of the bedrock surface in Indiana.
+</abstract>
+      <purpose>
+This shapefile was created to provide a GIS data layer of the bedrock
+topography in Indiana.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1982</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0972</westbc>
+        <eastbc>-84.6884</eastbc>
+        <northbc>41.7734</northbc>
+        <southbc>37.7606</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>bedrock topography</themekey>
+        <themekey>elevation</themekey>
+        <themekey>geology</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Windows 2000 operating system; ESRI ArcGIS 8.3 shapefile; approximately 4.1 MB</native>
+    <useconst>Geology--Bedrock_Elevation</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Indiana Geological Survey employees performed visual inspection of all topography lines and elevation
+values and compared them with the paper copies of the Map of Indiana Showing Topography of the Bedrock
+Surface, Indiana Geological Survey Miscellaneous Maps 36 and 35.
+</attraccr>
+    </attracc>
+    <logic>
+No checks were made to identify dangling nodes or pseudo nodes; contours
+that did not reach the IGS PLSS state boundary (UTM Zone 16, NAD 83) were left as digitized and were
+not extended so that they accurately recreate the lines as drawn on IGS Miscellaneous Map 36.
+</logic>
+    <complete>
+Contour lines were completed across gaps left where elevation value text was
+placed on original map.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Accuracy is no better than that of the source material.
+Contour lines were omitted in areas of highest congestion due to scale and legibility of the original map.
+The digital data was tested using digital data compared on-screen with the scan of the paper map and with
+the paper copies of IGS Miscellaneous Maps 36 and 35.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The accuracy of elevation values is unknown.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1982</pubdate>
+            <title>Map of Indiana Showing Topography of the Bedrock Surface</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+Two versions of this map are available. IGS Miscellaneous Map 35 has contours that are
+supplemented by colors; these colors are not present on IGS Miscellaneous Map 36.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>Scribe sheet</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1982</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IGS MM36</srccitea>
+        <srccontr>Bedrock topography elevation contours and values</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The scribed negative overlay used to create the offset-printed version of IGS Miscellaneous
+Map 36 was photographically imaged onto frosted mylar media. This mylar was scanned at a
+resolution of 600 dpi to the file BRKTOPO_600B.TIF. The resulting TIF file was displayed
+in ESRI ArcInfo 8.2, using ArcScan, and contour lines were autotraced with manual oversight and
+correction, where necessary, to create a temporary ArcInfo coverage. Reference tics from
+Miscellaneous Map 36 were used to georeference the coverage to UTM Zone 16, NAD83. The
+coverage was then converted to the ESRI ArcView 3.2 shapefile IN_BDRKTOPO_UTM.
+</procdesc>
+        <srcused>IGS MM36 photographic negative</srcused>
+        <srcused>BRKTOPO_600B.TIF</srcused>
+        <procdate>20020320</procdate>
+        <srcprod>IN_BDRKTOPO_UTM.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IN_BDRKTOPO_UTM was opened in ESRI ArcView 3.3 and contour lines were attributed with
+elevation values, using IGS Miscellaneous Map 36 as the source of values.
+</procdesc>
+        <srcused>IGS MM36</srcused>
+        <srcused>IN_BDRKTOPO_UTM.SHP</srcused>
+        <procdate>20020807</procdate>
+        <srcprod>IN_BDRKTOPO_UTM.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>David A. Held</cntper>
+            </cntorgp>
+            <cntpos>Cartographic Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5640</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>daheld@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Indiana Geological Survey employees then visually checked IN_BDRKTOPO_UTM.SHP
+on-screen against IGS Miscellaneous Map 36 to check for
+accuracy of attributes and lines. Based on these reviews, corrections were made to
+the shapefile in ESRI ArcView 3.3 using IGS Miscellaneous Map 36 and Miscellaneous Map 35
+for reference. One contour line was found to be missing from the shapefile. To add
+this contour, the shapefile was converted into a coverage using ESRI ArcToolbox and
+displayed in ESRI ArcMap 8.2. The original TIF file was also brought in and georeferenced
+to fit the contours. The additional contour was added by manually digitization. Topology
+was built and the coverage was converted back into a shapefile using ESRI ArcToolbox.
+Extraneous fields were deleted from the shapefile using the Editor tool in ESRI ArcView 3.3.
+</procdesc>
+        <srcused>BRKTOPO_600.TIF</srcused>
+        <srcused>IN_BDRKTOPO_UTM.SHP</srcused>
+        <srcused>IN_STATEBDY_24K_IGS_P.SHP</srcused>
+        <srcused>IGS MM36</srcused>
+        <srcused>IGS MM35</srcused>
+        <procdate>20030922</procdate>
+        <srcprod>IN_BDRKTOPO_FINAL.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Kimberly H. Sowder</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographic Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5893</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sowderk@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Using the "GeoProcessing Wizard" in ESRI ArcMap 8.3, the shapefile was clipped to the boundary
+of Indiana using the shapefile LANDSURVEY_STATE_POLY_IN.SHP. The clipped shapefile was saved as
+BEDROCK_TOPOGRAPHY_MM36_IN.SHP.
+</procdesc>
+        <srcused>IN_BDRKTOPO_FINAL.SHP</srcused>
+        <srcused>LANDSURVEY_STATE_POLY_IN.SHP</srcused>
+        <procdate>20031021</procdate>
+        <srcprod>BEDROCK_TOPOGRAPHY_MM36_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20031030</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>dharper@exchange.indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>3205</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bedrock_topography_mm36_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>Length of line</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elev</attrlabl>
+        <attrdef>Elevation of bedrock contour</attrdef>
+        <attrdefs>IGS MM36</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>250</rdommin>
+            <rdommax>1050</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2003, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University,
+Indiana Geological Survey. Any copying, adaptation, distribution, public
+performance, or public display of this information without the express
+written consent of Indiana University, Indiana Geological Survey is
+discouraged.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products
+generated from this data. The following source citation should be included:
+BEDROCK_TOPOGRAPHY_MM36_IN: Bedrock Topography Contours, Indiana (Indiana
+Geological Survey, 1:500,000, Line Shapefile), by original author and
+compiler Henry H. Gray, digital representation by Chris Dintaman, David A.
+Held, and Kimberly H. Sowder, 2003.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it
+will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University,
+Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but
+not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey
+is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you
+for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20030922</metd>
+    <metrd>20031030</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Kimberly H. Sowder</cntper>
+        </cntorgp>
+        <cntpos>Cartographic Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 5893</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>sowderk@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered or
+summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the
+data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

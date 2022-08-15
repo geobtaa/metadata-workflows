@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OPEXMetadata xmlns="http://www.openpreservationexchange.org/opex/v1.0">
+    <Transfer>
+        <SourceID>03d83c75-c9b3-4eb4-9d51-682abec2ea1b</SourceID>
+        <Fixities>
+            <Fixity type="SHA-1" value="666acd7ee6cf84f73d2c6a62d722e2936177ccb4"/>
+        </Fixities>
+    </Transfer>
+    <Properties>
+        <Title>340</Title>
+        <SecurityDescriptor>Public</SecurityDescriptor>
+        <Identifiers>
+            <Identifier type="io_v4_fileRef">c44cebf8-e68b-4b6c-a944-26d97407188b</Identifier>
+        </Identifiers>
+    </Properties>
+    <DescriptiveMetadata>
+        <LegacyXIP xmlns="http://preservica.com/LegacyXIP">
+            <LastModifiedDate>2019-07-06T09:13:34.537-04:00</LastModifiedDate>
+            <WorkingPath>03N 07W - Survey Map of Castleton Township, Barry County</WorkingPath>
+        </LegacyXIP>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+            <titleInfo>
+                <title>03N 07W - Survey Map of Castleton Township, Barry County</title>
+                    </titleInfo>
+            <identifier displayLabel="Record Group" type="local">RG 87-155</identifier>
+            <name type="corporate">
+                <namePart displayLabel="Agency">Department of Natural Resources</namePart>
+                <role>
+                    <roleTerm type="text">Agency</roleTerm>
+                        </role>
+                    </name>
+            <originInfo>
+                <dateCreated>October 1830</dateCreated>
+                <dateCreated>November 1830</dateCreated>
+                    </originInfo>
+            <language>
+                <languageTerm>English</languageTerm>
+                    </language>
+            <location>
+                <physicalLocation displayLabel="Item Location" type="origninal">Archives of Michigan</physicalLocation>
+                    </location>
+            <name>
+                <namePart displayLabel="Surveyor">Sibley, Sylvester</namePart>
+                <role>
+                    <roleTerm>Surveyor</roleTerm>
+                        </role>
+                    </name>
+            <typeOfResource>cartographic</typeOfResource>
+            <genre authority="">Map</genre>
+            <physicalDescription>
+                <digitalOrigin>reformatted digital</digitalOrigin>
+                <note displayLabel="Arrangement of Material" type="arrangement"/>
+                <note displayLabel="Original Container" type="container">Drawer #6, Folder #2</note>
+                    </physicalDescription>
+            <subject>
+                <hierarchicalGeographic type="geographic">
+                    <county displayLabel="County" type="geographic">Barry</county>
+                    <township displayLabel="Township" type="geographic">Castleton</township>
+                        </hierarchicalGeographic>
+                <cartographics>
+                    <coordinates displayLabel="Township and Range" type="geographic">03N 07W</coordinates>
+                        </cartographics>
+                    </subject>
+            <accessCondition>
+                <note type="use">Please contact the Archives of Michigan for permission to publish.</note>
+                <note displayLabel="Access Restrictions" type="restriction on access">To preserve the original items, this collection is only available online.</note>
+                    </accessCondition>
+            <abstract displayLabel="Scope and Content" type="scope and content">A survey map of Castleton Township in Barry County, Michigan, drawn between October and November 1830.</abstract>
+                </mods:mods>
+    </DescriptiveMetadata>
+</OPEXMetadata>

@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20090702</CreaDate>
+    <CreaTime>10320300</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090706</SyncDate>
+    <SyncTime>13340600</SyncTime>
+    <ModDate>20091008</ModDate>
+    <ModTime>14373400</ModTime>
+    <DataProperties>
+      <lineage>
+        <Process Name="DeleteRows_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteRows" Date="20090610" Time="072051">DeleteRows "Database Connections\PGNET.sde\GDC.UNPAVED_RD" "Database Connections\PGNET.sde\GDC.UNPAVED_RD"</Process>
+        <Process Name="Append_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20090610" Time="072717">Append 'Database Connections\DVGNET - GDC on epengis01.sde\GDC.UNPAVED_RD' "Database Connections\PGNET.sde\GDC.UNPAVED_RD" NO_TEST "LENGTH LENGTH true true false 8 Double 5 22 ,First,#,Database Connections\DVGNET - GDC on epengis01.sde\GDC.UNPAVED_RD,LENGTH,-1,-1;COUNTY COUNTY true true false 30 Text 0 0 ,First,#,Database Connections\DVGNET - GDC on epengis01.sde\GDC.UNPAVED_RD,COUNTY,-1,-1;LEN LEN false false true 0 Double 0 0 ,First,#" "Database Connections\PGNET.sde\GDC.UNPAVED_RD"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090706" Time="102556">CopyFeatures D:\DEP\PASDA_07_02_2009.mdb\UnpavedRoads2009_07 D:\DEP\UnpavedRoads2009_07.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+    <MetaID>{E73CF922-0A06-4837-98D8-7D208FCEB2BB}</MetaID>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <citation>
+      <citeinfo>
+        <origin>PA Department of Environmental Protection : GDC</origin>
+        <pubdate>200910</pubdate>
+        <title>Unpaved Roads</title>
+        <ftname Sync="TRUE">UnpavedRoads2009_07</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Environmental Protection</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>200910</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.616718</westbc>
+        <eastbc Sync="TRUE">-74.773778</eastbc>
+        <northbc Sync="TRUE">42.264892</northbc>
+        <southbc Sync="TRUE">39.680363</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-215980.300400</leftbc>
+        <rightbc Sync="TRUE">266329.379376</rightbc>
+        <bottombc Sync="TRUE">80249.039554</bottombc>
+        <topbc Sync="TRUE">362555.219422</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+        <themekey>roads, road</themekey>
+        <themekey>dirt roads</themekey>
+        <themekey>small roads</themekey>
+        <themekey>unpaved roads, trail, trails, dirt</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>unknown</accconst>
+    <useconst>mapping</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA DEP, Geospatial Data Center</cntorg>
+        </cntperp>
+        <cntemail>ra-epgeospatialdatacenter@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>UnpavedRoads2009_10</abstract>
+    </descript>
+  </idinfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>PA DEP</cntper>
+          <cntorg>Geospatial Data Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <address>RCSOB</address>
+          <postal>17105</postal>
+        </cntaddr>
+        <cntvoice>717 772-1669</cntvoice>
+        <cntemail>ra-epgeospatialdatacenter@state.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metd>200910</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="UnpavedRoads2009_07">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polyline</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">19853</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="UnpavedRoads2009_07">
+        <sdtstype Sync="TRUE">String</sdtstype>
+        <ptvctcnt Sync="TRUE">19853</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed Name="UnpavedRoads2009_07">
+      <enttyp>
+        <enttypl Sync="TRUE">UnpavedRoads2009_07</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">19853</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LENGTH</attrlabl>
+        <attalias Sync="TRUE">LENGTH</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE_Leng</attrlabl>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>PA DEP</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>400 Market Street</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717 787-7669</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Not for commercial use or resale. The User shall save the Commonwealth harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. The Commonwealth excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance
+
+Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation</distliab>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>continual</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">5.517</transize>
+          <dssize Sync="TRUE">5.517</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <Esri>
+    <CreaDate>20090702</CreaDate>
+    <CreaTime>10172800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090706</SyncDate>
+    <SyncTime>13340600</SyncTime>
+    <ModDate>20091008</ModDate>
+    <ModTime>14373400</ModTime>
+    <MetaID>{DE8EC885-204B-4FF6-99A3-5403BE6FB804}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20090706" Time="104224">CopyFeatures D:\DEP\PASDA_07_02_2009.mdb\AMLInventoryPoints2009_07 D:\DEP\AMLInventoryPoints2009_07.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">UnpavedRoads2009_07</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-215980.3004</westBL>
+          <eastBL Sync="TRUE">266329.379376</eastBL>
+          <northBL Sync="TRUE">362555.219422</northBL>
+          <southBL Sync="TRUE">80249.039554</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.616718</westBL>
+      <eastBL Sync="TRUE">-74.773778</eastBL>
+      <northBL Sync="TRUE">42.264892</northBL>
+      <southBL Sync="TRUE">39.680363</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC-36\D\DEP\UnpavedRoads2009_07.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">5.517</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">albers_dep</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="UnpavedRoads2009_07">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">19853</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20091008</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">albers_dep</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll Sync="TRUE">40.000000</stdparll>
+            <stdparll Sync="TRUE">42.000000</stdparll>
+            <longcm Sync="TRUE">-78.000000</longcm>
+            <latprjo Sync="TRUE">39.000000</latprjo>
+            <feast Sync="TRUE">0.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+</metadata>

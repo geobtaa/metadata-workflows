@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>Unknown</pubdate>
+        <title>NHD Reach Pennsylvania</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <ftname Sync="TRUE">NHDreach_pa</ftname>
+        <onlink>http://nhd.usgs.gov/</onlink>
+        <origin>USGS</origin>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-81.711335</westbc>
+        <eastbc Sync="TRUE">-74.381190</eastbc>
+        <northbc Sync="TRUE">42.977442</northbc>
+        <southbc Sync="TRUE">38.404639</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-81.711335</leftbc>
+        <rightbc Sync="TRUE">-74.381190</rightbc>
+        <bottombc Sync="TRUE">38.404639</bottombc>
+        <topbc Sync="TRUE">42.977442</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Rivers</themekey>
+        <themekey>water</themekey>
+        <themekey>streams</themekey>
+        <themekey>stream order</themekey>
+        <themekey>PAD</themekey>
+        <themekey>Pennsylvania Aquatic Community Classification</themekey>
+        <themekey>National Hydrography Dataset</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Mid-Atlantic</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Natural Heritage Program (Western Pennsylvania Conservancy)</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>WPC_NHDreach_pa</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <typesrc>online</typesrc>
+        <srccite>
+          <citeinfo>
+            <pubdate>Unknown</pubdate>
+            <title>National Hydrography Dataset</title>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>all "route.rch" segments from each NHD in Pennsylvania was saved as a seperate shape file.</procdesc>
+        <procsv>ArcView 3.2</procsv>
+        <srcused>(various NHD datasets)</srcused>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>All of the individual NHD reach shape files were merged into this file.</procdesc>
+        <date Sync="TRUE">20040624</date>
+        <time Sync="TRUE">16472800</time>
+        <procsv>ArcView Geoprocessing extension</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <date Sync="TRUE">20040714</date>
+        <time Sync="TRUE">10035700</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="NHDreach_pa">
+        <sdtstype Sync="TRUE">String</sdtstype>
+        <ptvctcnt Sync="TRUE">64636</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="NHDreach_pa">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polyline</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">64636</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="NHDreach_pa">
+      <enttyp>
+        <enttypl Sync="TRUE">NHDreach_pa</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">64636</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RCH_</attrlabl>
+        <attalias Sync="TRUE">RCH_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RCH_ID</attrlabl>
+        <attalias Sync="TRUE">RCH_ID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COM_ID</attrlabl>
+        <attalias Sync="TRUE">COM_ID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RCH_CODE</attrlabl>
+        <attalias Sync="TRUE">RCH_CODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RCH_DATE</attrlabl>
+        <attalias Sync="TRUE">RCH_DATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LEVEL</attrlabl>
+        <attalias Sync="TRUE">LEVEL</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">METERS</attrlabl>
+        <attalias Sync="TRUE">METERS</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GNIS_ID</attrlabl>
+        <attalias Sync="TRUE">GNIS_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">99</attwidth>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>A compilation of all medium resolution reach layers from National Hydrography Datasets in or adjacent to Pennsylvania.</dsoverv>
+      <eaover>Includes stream name </eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">27.895</transize>
+          <dssize Sync="TRUE">27.895</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100415</metd>
+    <metc>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Coservancy; Natural Heritage Program</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <CreaDate>20040714</CreaDate>
+    <CreaTime>10035700</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20100323</SyncDate>
+    <SyncTime>10150400</SyncTime>
+    <ModDate>20100415</ModDate>
+    <ModTime>10561000</ModTime>
+    <MetaID>{9722FC5E-66B7-449F-8DC3-27298D812F99}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process Name="Project_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20040714" Time="100406">Project W:\Heritage_projects\Aqua_class\CleanFiles\DDNad27\Metame\pa_nhd_paalb.shp W:\Heritage_projects\Aqua_class\CleanFiles\DDNad27\NHDreach_pa.shp GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NAD_1927_To_NAD_1983_NADCON</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">NHDreach_pa</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-81.711335</westBL>
+          <eastBL Sync="TRUE">-74.38119</eastBL>
+          <northBL Sync="TRUE">42.977442</northBL>
+          <southBL Sync="TRUE">38.404639</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-81.711335</westBL>
+      <eastBL Sync="TRUE">-74.38119</eastBL>
+      <northBL Sync="TRUE">42.977442</northBL>
+      <southBL Sync="TRUE">38.404639</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PASDA-WX\E$\PASDA\mxds\Shapes\Aquatic Community Classification Project\NHDreach_pa.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">27.895</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1927</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="NHDreach_pa">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">64636</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20100415</mdDateSt>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

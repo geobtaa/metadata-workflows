@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lehigh Valley Planning Commission, U.S. Geological Survey</origin>
+        <pubdate>2010</pubdate>
+        <title>USGS High Resolution Orthoimage Lehigh / Northampton County, PA</title>
+        <geoform>remote-sensing image</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>201003</begdate>
+          <endtime>201004</endtime>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.92</westbc>
+        <eastbc>-75.03</eastbc>
+        <northbc>40.98</northbc>
+        <southbc>40.40</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>1.0 foot orthoimage</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>image map</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekey>Lehigh County </placekey>
+        <placekey>Northampton County</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None.   However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.
+Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <datacred>Aero-Metric, Inc.</datacred>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Thomas K. Edinger</cntper>
+          <cntorg>Lehigh Valley Planning Commission</cntorg>
+        </cntperp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>961 Marcon Boulevard - Suite 310</address>
+          <city>Allentown</city>
+          <state>Pennsylvania</state>
+          <postal>18109</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(610) 264-4544 </cntvoice>
+        <cntfax>(610) 264-2616</cntfax>
+        <cntemail>lvpc@lvpc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>LehighNorthaerials2010</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+        Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.
+      </attraccr>
+    </attracc>
+    <logic>GeoTIFFs conform to the specifications set forth by the USGS for production of orthophotos in the Task Order Number G10PD00660.</logic>
+    <complete>
+      Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          Ortho image horizontal positional accuracy shall not exceed 4.9 feet at the 95% confidence level as defined and tested using NSSDA standards.
+        </horizpar>
+        <qhorizpa>
+          <horizpav>
+            2.10
+          </horizpav>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+027134
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>digital tape media</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+20100327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+027135
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>
+					
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+20100327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+027136
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>
+					
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+20100327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+028131
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>
+					
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+028132
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>
+					
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+20100327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+028133
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>25,404</srcscale>
+        <typesrc>
+					
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+20100327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          Image
+        </srccitea>
+        <srccontr>
+					
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Lehigh Valley Planning Commission</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+LVPC Supplied Elevation Data
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+					
+          CD-ROM
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+								
+2005
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          DEM
+        </srccitea>
+        <srccontr>
+					
+          Used to provide ground elevations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aero-Metric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+							
+              LVPC Aerotriangulation
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+					
+          CD-ROM
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>201007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+					
+          AT
+        </srccitea>
+        <srccontr>
+					
+          Used to provide photo exterior orientations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+					
+          The DMC images were aerotriangulated to support digital ortho image production for the Lehigh Valley Planning Commission project area.  Airborne GPS and ground check point data was provided by AERO-METRIC, Inc.  The project was referenced to the North American Datum of 1983 (NAD83), State Plane Coordinate System 1983, Pennsylvania South Zone horizontally and to the North American Vertical Datum of 1988 (NAVD88) vertically.  Units were in U.S. survey feet.
+
+The DMC images, ABGPS data, and ground check point data were used as inputs to the Zeiss/Intergraph ImageStation Automatic Triangulation (ISAT) softcopy program.  ISAT correlated image points and aerotriangulated the block of images to create exposure station exterior orientations.  All ground points were manually measured on the imagery.  These points were included in the aerotriangulation adjustments for absolute ground location verification.
+ 
+The scale of the aerial photos was 1:25,404.  The photography was exposed between 3/27/10 and 4/22/10.
+
+Rectification was done using the aerotriangulation data, raw DMC images, and LVPC provided elevation data.  These rectified images were used to draw seamlines.  The images were then dodged.  The dodged rectified images were mosaicked, balanced, and cut into image tiles.  These tiles were viewed and artifacts were removed as well as other edits performed. Then the edited tiles were reprojected from UTM to PA-SPCS, mosaicked together and the final tiles were cut out. The final tiles were QC'd before generating the MrSID tiles and mosaic.
+        </procdesc>
+        <procdate>
+					
+          201010
+        </procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>Pennsylvania South</spcszone>
+            <transmer>
+              <sfctrmer>0.999975</sfctrmer>
+              <longcm>-77.75</longcm>
+              <latprjo>39.3333333333333334</latprjo>
+              <feast>1968500.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>
+						
+            row and column
+          </plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 </horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+				
+        Natural color orthoimagery is organized in three color bands or channels which represent the red, green, and blue portions of the spectrum.  Each image pixel is assigned a triplet of numeric values, one for each color band.  Numeric values range from 0 to 255. Areas where data is incomplete due to lack of full image coverage are represented with the numeric value of 0.
+      </eaover>
+      <eadetcit>
+        U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.
+       
+			</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>201105</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>
+      FGDC Content Standard for Digital Geospatial Metadata
+      <!--Enter the name of the metadata standard used to document the data set.
+
+Domain: "FGDC Content Standard for Digital Geospatial Metadata" free text--></metstdn>
+    <metstdv>
+      FGDC-STD-001-1998
+      
+		</metstdv>
+  </metainfo>
+  <Esri>
+    <CreaDate>20110519</CreaDate>
+    <CreaTime>11171700</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\URSUS\dataD\2010aerialsLehighNorth\40502590</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\dataD\2010aerialsLehighNorth\2010aerials\Metadata_LH-NH\40502590" dest="\\URSUS\dataD\2010aerialsLehighNorth\40502590" date="20110519" time="11171700">
+        </copy>
+      </copyHistory>
+    </DataProperties>
+  </Esri>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania. Dept. of Conservation and Natural Resources.  Bureau of State Parks.</origin>
+        <pubdate>2015-11-01</pubdate>
+        <title>DCNR Local Parks 2015</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pa., Dept of Conservation and Natural Resources</publish>
+        </pubinfo>
+        <onlink> http://www.pasda.psu.edu/ </onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2015-11-01</begdate>
+          <enddate>2015-11-01</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.561371</westbc>
+        <eastbc>-74.684610</eastbc>
+        <northbc>42.196208</northbc>
+        <southbc>39.700861</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>State Parks</themekey>
+      </theme>
+      <theme>
+        <themekey>recreation areas</themekey>
+      </theme>
+      <theme>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Society</themekey>
+      </theme>
+      <place>
+        <placekt>GNIS</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Only for the purpose to identify the general location of State Parks</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+        </cntorgp>
+        <cntpos>State Parks Bureau </cntpos>
+        <cntaddr />
+      </cntinfo>
+    </ptcontac>
+    <datacred>DCNR - Bureau of State Parks</datacred>
+    <secinfo />
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <descript>
+      <abstract>dcnr_stateparkbound_2003</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <procdate>2015-09-01</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm />
+    </ptvctinf>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>DCNR_StateParks201511</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Park_Name</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792 </cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.736</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>dcnr_stateparkbound_2003</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2015-11-01</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792 </cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>18d10cf6-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

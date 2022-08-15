@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS)</origin>
+        <pubdate>2006-01-01</pubdate>
+        <title>National Elevation Dataset 10 Meter 7.5x7.5 minute quadrangle for Pennsylvania</title>
+        <pubinfo>
+          <pubplace>Fort Worth, TX</pubplace>
+          <publish>National Cartography &amp; Geospatial Center</publish>
+        </pubinfo>
+        <onlink>http://seamless.usgs.gov/</onlink>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1999-01-01</begdate>
+          <enddate>1999-01-01</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.471603</westbc>
+        <eastbc>-76.958397</eastbc>
+        <northbc>40.069698</northbc>
+        <southbc>39.719891</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>7.5-MINUTE DEM</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>CARTOGRAPHY</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>DEM</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>DIGITAL ELEVATION MODEL</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>DIGITAL MAPPING</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>EARTH SCIENCE</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>EDC</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>EROS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>GEODATA</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>GIS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>LAND SURFACE</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>LANDFORMS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>MAPPING</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>RASTER</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>TERRAIN ELEVATION</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>TOPOGRAPHY</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>USGS</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Elevation</themekey>
+      </theme>
+      <place>
+        <placekt>GCMD Location Keywords</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgement of the originating agencies would be appreciated in products derived from these data. 
+
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Cartography &amp; Geospatial Center</cntorg>
+        </cntorgp>
+        <cntpos>USDA Natural Resources Conservation Service</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>501 W. Felix St.</address>
+          <city>Fort Worth</city>
+          <state>Texas</state>
+          <postal>76115</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>817-509-3400</cntvoice>
+        <cntfax>817-509-3469</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <secinfo />
+    <descript>
+      <abstract>nedc-adams-zip</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>
+A plan for assessing the overall accuracy of the National Elevation Dataset (NED) based on independent high-accuracy geodetic control is currently under development. The accuracy described will be in the terms used in the FGDC Content Standards for Framework Land Elevation Data . Accuracy will be determined and reported using the methodology specified in the FGDC National Standard for Spatial Data Accuracy.
+
+Until an independent overall assessment of the accuracy of NED is completed, it is best to refer to published information on the accuracy of the source digital elevation models (DEM's) from which NED was assembled. The primary source data were the USGS 7.5-minute (30-meter or 10-meter resolution) DEM's. Gaps in the 7.5-minute DEM coverage were filled with data from USGS 30-minute (2-arc-second resolution) or 1-degree (3-arc-second resolution) DEM's. The USGS Data Users Guide 5 for DEM's (traditionally known as the "blue book"), last published in 1993, contains a general discussion of DEM accuracy and a brief description of the accuracy testing methodology.
+
+The DEM data users guide also describes the classification levels of standard USGS DEM products. The level of a DEM is defined, in part, on the basis of its accuracy.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1996-01-01</pubdate>
+            <title>USGS 7.5 minute Digital Elevation Model Data</title>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota, USA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Initial elevation data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Department of Transportation, Bureau of Planning and Research, Cartographic Information Division</origin>
+            <pubdate>2004-01-01</pubdate>
+            <title>Pennsylvania County Boundaries, 2004</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Dept. of Transportation</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/documents.cgi/padot/boundary_layers/padot-county_2004.xml</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2004-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>countbnd</srccitea>
+        <srccontr>boundaries for clipping</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>USGS identified existing DEM data at the highest available resolution.  The majority is 30-meter 1:24000 scale data with 10-meter data used where available for the conterminous U.S.  Data was projected into geographic decimal degrees and datums were transformed to NAD83 and NAVD88.  Data with a horizontal resolution finer than 30-meters was resampled to 30-meter resolution before merging into the national dataset. All elevation units were converted to decimal meters.  Procedures were applied to correct and/or minimize artifacts found in the source DEM. 1x1 degree tiles were created and edge of 7.5 minute sources were matched.  These 1x1 degree tiles were merged to create two grid files that covered the entire state of Pennsylvania. A more detailed explanation of these processes performed at USGS can be found at: http://gisdata.usgs.gov/NED/default.asp.</procdesc>
+        <srcused>DEM</srcused>
+        <procdate>1999-01-01</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>NED files were acquired as 1 x 1 degree ARC/INFO grids from USGS were merged to create two grids covering the Pennsylvania.</procdesc>
+        <procdate>1999-01-01</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntorgp>
+            <cntaddr />
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>GRID files obtained on CD-ROM from USGS were merged to create a single GRID layer. This layer was clipped to the state boundary and cells falling outside the state boundary set to 'no data'. </procdesc>
+        <procdate>1999-01-01</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Pa. Bureau of Topographic and Geologic Survey</cntorg>
+            </cntorgp>
+            <cntaddr />
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Some anomalously high elevation values due to incorrect conversion of vertical units in the original USGS process were corrected at PaBTGS.  These areas were primarily in Butler County. </procdesc>
+        <procdate>2003-01-01</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Pa. Bureau of Topographic and Geologic Survey</cntorg>
+            </cntorgp>
+            <cntaddr />
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>State wide corrected GRID layer from PaBTGS was clipped into county files, converted to DEM format and packaged for download. </procdesc>
+        <srcused>countbnd</srcused>
+        <procdate>2004-04-01</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>PASDA</cntorg>
+            </cntorgp>
+            <cntaddr />
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <refSysInfo />
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>DEM</formname>
+          <transize>2-8 MB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/ned/nedc-adams.zip</networkr>
+              </networka>
+            </computer>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Cartography &amp; Geospatial Center</cntorg>
+          <cntper>Customer Services Representative</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>501 Felix St., Bldg 23</address>
+          <city>Fort Worth</city>
+          <state>Texas</state>
+          <postal>76115</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>817-509-3400</cntvoice>
+        <cntfax>817-509-3469</cntfax>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Department of Agriculture, no warranty expressed or implied is made by the Agency regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. The U.S. Department of Agriculture, nor any of its agencies are liable for misuse of the data, for damage, for transmission of viruses, or for computer contamination through the distribution of these data sets. The U.S. Department of Agriculture prohibits discrimination in its programs on the basis of race, color, national origin, sex, religion, age, disability, political beliefs, and marital or familial status. (Not all prohibited bases apply to all programs.) </distliab>
+    <stdorder>
+      <fees>$50 per CD-ROM</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2012-01-01</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metsi />
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>1edaeb33-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

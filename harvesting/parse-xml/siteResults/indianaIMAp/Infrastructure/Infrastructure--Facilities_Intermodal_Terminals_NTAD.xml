@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bureau of Transportation Statistics (Data compiler)</origin>
+        <pubdate>20010101</pubdate>
+        <title>
+INTERMODAL_TERMINAL_NTAD_IN: Intermodal Terminal Facilities in
+Indiana (Bureau of Transportation Statistics, 1:100,000 Point Shapefile)
+</title>
+        <edition>Version 02, Revision 00</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>Bureau of Transportation Statistics</publish>
+        </pubinfo>
+        <othercit>
+Data was obtained from the Bureau of Transportation Statistics (BTS),
+National Transportation Atlas Database (NTAD), and can be found at the
+following URL: http://www.bts.gov/gis/ntatlas/
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+BTS metadata states –
+
+“The Intermodal Terminal Facilities data set contains geographic data for
+trailer-on-flatcar (TOFC) and container-on-flatcar (COFC) highway rail
+and/or rail-water transfer facilities in the United States. Attribute data
+specify the intermodal connections at each facility; i.e., the modes
+involved in the transfer, the AAR reporting marks of the railroad serving
+the facility, the type of cargo (always containers/trailers), and the
+direction of the transfer.” Attributes are largely from 1996-97. Because
+of the frequent turnover of this type of facility, some of the terminals
+included in the database may now be dormant or permanently closed."
+</abstract>
+      <purpose>
+The purpose of this data set is to provide locations of intermodal terminal
+facilities in the state of Indiana in a GIS format. It is intended for a variety
+of uses by the public recognizing that the horizontal accuracy does not support
+high precision applications.
+</purpose>
+      <supplinf>
+This dataset, as well as many others, was compiled
+for mapping and download as part of the Web site "A GIS Atlas for
+Indiana," funded by the Indiana Department of Transportation.  Many
+publicly available datasets were created, edited, and compiled for
+inclusion in the Statewide Database Website where users can download data
+or map online using ESRI ArcIMS. Many public data sources, not created in
+conjunction with the statewide project,  were obtained by website
+download, contacting originators, and creating spatial files from tabular
+data.  A range of layer editing was used, specific to each layer, from
+full creation, to data cleaning, to only reformatting metadata.  The level
+of editing done by BLA or the Indiana Geological Survey (IGS) is fully
+disclosed in the process steps of this metadata; credit for the
+information is retained by the originator.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19980505</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>transportation</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>transportation</themekey>
+        <themekey>freight</themekey>
+        <themekey>intermodal terminal</themekey>
+        <themekey>highway</themekey>
+        <themekey>railway</themekey>
+        <themekey>waterway</themekey>
+        <themekey>pipeline</themekey>
+        <themekey>cargo</themekey>
+        <themekey>shipping</themekey>
+        <themekey>Bureau of Transportation Statistics (BTS)</themekey>
+        <themekey>National Transportation Atlas</themekey>
+        <themekey>National Transportation Atlas Database (NTAD)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>White County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer, Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>nschroeder@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format, approximately 160 Kb</native>
+    <useconst>Infrastructure--Facilities_Intermodal_Terminals_NTAD</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+BTS metadata states –
+
+“Attribute data were extracted from the IANA 1997 Rail Intermodal Terminal
+Directory, the Official Railway Guide; the TTX Company Intermodal
+Directory; World Wide Web home pages of Burlington Northern Santa Fe,
+Conrail, CSX Transportation, Kansas City Southern, and Norfolk Southern;
+U.S. Army Corps of Engineers Port Series Reports; Containerization
+International Yearbook; 1996 AAPA Directory; and various transportation
+news sources both in print and on the Internet.  Attribute data reflect
+conditions at TOFC/COFC facilities during 1995-96 and are subject to
+frequent change.  Some facilities may be dormant or permanently closed.”
+</attraccr>
+    </attracc>
+    <logic>
+BTS metadata states –
+
+“All point records are represented by a single coordinate Pair and a
+unique feature identifier of the form SSCCC NNNN, where SS is the 2-digit
+State FIPS code, CCC is the 3-digit county FIPS code, and NNNN is a
+sequence number within the state/county.  Attribute data are matched to
+specific point records using this identifier.”
+</logic>
+    <complete>
+BTS metadata states –
+
+“The database includes TOFC/COFC facilities and marine container terminals
+with rail connections which were listed the IANA 1997 Rail Intermodal
+Terminal Directory, the January/February 1997 edition of the Official
+Railway Guide; the TTX Company Intermodal Directory; the World Wide Web
+home pages of Burlington Northern Santa Fe Railway, Conrail, CSX
+Transportation, Kansas City Southern, and Norfolk Southern; U.S. Army
+Corps of Engineers Port Series Reports; Containerization International
+Yearbook; 1996 AAPA Directory; and various transportation news sources
+both in print and on the Internet.  The database does not include
+TOFC/COFC and marine container facilities known to have been closed
+before or during 1996.  However, because of the frequent turnover of this
+type of facility, some of the terminals included in the database may now
+be dormant or permanently closed.”
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+BTS metadata states –
+
+“The locations of TOFC/COFC facilities were Determined using available
+facility address information and MapExpert, a commercial nationwide
+digital map database and software package, and recording the
+longitude/latitude of the approximate center of the facility. Facility
+locations are not bound to any current or previous highway, railway, or
+waterway network models.”
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Rail Industry (compiler)</origin>
+            <pubdate>19970101</pubdate>
+            <title>1997 Rail Intermodal Terminal Directory</title>
+            <pubinfo>
+              <pubplace>Greenbelt, MD</pubplace>
+              <publish>Intermodal Association of North America</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IANA</srccitea>
+        <srccontr>Facility Address serving rail carriers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Rail Industry</origin>
+            <pubdate>19970101</pubdate>
+            <title>The Official Railway Guide</title>
+            <edition>January/February 1997</edition>
+            <pubinfo>
+              <pubplace>New York, NY</pubplace>
+              <publish>K-111 Directory Corp.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>ORG</srccitea>
+        <srccontr>Facility address and serving rail carriers</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Rail Indusry</origin>
+            <pubdate>19960101</pubdate>
+            <title>TTX Company Intermodal Directory</title>
+            <pubinfo>
+              <pubplace>Chicago, IL</pubplace>
+              <publish>TTX Company</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication</srccurr>
+        </srctime>
+        <srccitea>TTX</srccitea>
+        <srccontr>City and state locations of tofc and cofc facilities by serving rail carrier</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Burlington Northern Sante Fe</origin>
+            <pubdate>19960101</pubdate>
+            <title>BNSF Intermodal Facilites</title>
+            <onlink>www.bsnf.com</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>BSNF</srccitea>
+        <srccontr>Address of BSNF TOFC/COFC</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>CONRAIL</origin>
+            <pubdate>19960101</pubdate>
+            <title>CONRAIL Regional Maps and Facts</title>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>CONRAIL</publish>
+            </pubinfo>
+            <onlink>www.conrail.com</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>CONRAIL</srccitea>
+        <srccontr>City/state locations of conrail TOFC/COFC facilities</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>CSX Transportation</origin>
+            <pubdate>19960101</pubdate>
+            <title>CSX Transportation State Profiles</title>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>CSX Transportation</publish>
+            </pubinfo>
+            <onlink>www.csxt.com/docs/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>CSXT</srccitea>
+        <srccontr>City/state locations of CSX intermodal facilities</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Norfolk Southern</origin>
+            <pubdate>19960101</pubdate>
+            <title>Norfolk Southern Intermodal Terminals and Sales Offices</title>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>Norfolk Southern</publish>
+            </pubinfo>
+            <onlink>http://www.nscorp.com/nscorp/html/intermodal/mapkey.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NS</srccitea>
+        <srccontr>Addresses of NS TOFC/COFC facilities</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Port and Waterway Industry</origin>
+            <pubdate>19960101</pubdate>
+            <title>US Army Corps of Engineers Port Series Reports</title>
+            <pubinfo>
+              <pubplace>Alexandria, VA</pubplace>
+              <publish>Navigation Data Center, USACE</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19840101</begdate>
+              <enddate>19960101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NDCPSR</srccitea>
+        <srccontr>
+Identification and location of marine terminals with rail connections
+that handle containerized freight.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Port and Waterway Industry</origin>
+            <pubdate>19960101</pubdate>
+            <title>Seaports of the Americas</title>
+            <pubinfo>
+              <pubplace>Alexandria, VA</pubplace>
+              <publish>American Association of Port Authorities</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>AAPA</srccitea>
+        <srccontr>
+Idenfication and location of marine terminals with rail connections
+that handle containerized freight.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Port and Waterway Industry</origin>
+            <pubdate>19950101</pubdate>
+            <title>Containerization International Year Book</title>
+            <pubinfo>
+              <pubplace>London, UK</pubplace>
+              <publish>Emap Business Communications Ltd.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19950101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>EMAP</srccitea>
+        <srccontr>
+Identification and location of marine terminals with rail connections
+that handle containerized freight.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bureau of Transportation Statistics</origin>
+            <pubdate>20010101</pubdate>
+            <title>Intermodal Terminals</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Bureau of Transportation Statistics</publish>
+            </pubinfo>
+            <onlink>http://www.bts.gov/gis/ntatlas/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19980505</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground condition</srccurr>
+        </srctime>
+        <srccitea>BTS</srccitea>
+        <srccontr>Intermodal terminal shapefile</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+TOFC/COFC facilities identified from various sources
+were located using MapExpert, a commercial nationwide digital map
+database and software package, supplemented with other available spatial
+reference aids, including paper maps, aerial photographs, and published
+railroad atlases. The computer pointing device cursor was placed over
+the approximate location of the terminal and the displayed
+longitude/latitude was recorded.  Attribute data were appended to each
+point.
+</procdesc>
+        <srcused>IANA</srcused>
+        <srcused>ORG</srcused>
+        <srcused>TTX</srcused>
+        <srcused>BNSF</srcused>
+        <srcused>CONRAIL</srcused>
+        <srcused>CSXT</srcused>
+        <srcused>NS</srcused>
+        <srcused>NCDPSR</srcused>
+        <srcused>AAPA</srcused>
+        <srcused>EMAP</srcused>
+        <procdate>19960101</procdate>
+        <srcprod>BTS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>David Middendorf</cntper>
+              <cntorg>Oak Ridge National Laboratory</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>Building 4500N, Mail Stop6207</address>
+              <city>Oak Ridge</city>
+              <state>Tennessee</state>
+              <postal>37831</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>865 574 7427</cntvoice>
+            <cntfax>865 574 3895</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Intermodal terminals shapefile extracted for Indiana
+was downloaded from the BTS NTAD website on August 5, 2002.  The file
+was converted to UTM83 Zone 16 NAD83 coordinates.
+</procdesc>
+        <srcused>BTS</srcused>
+        <procdate>20040816</procdate>
+        <srcprod>INTERMODAL_TERMINALS_NTAD_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20050205</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>78</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>INTERMODAL_TERMINALS_NTAD_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Pointid</attrlabl>
+        <attrdef>PointID is a sequential unique integer assigned to each record.</attrdef>
+        <attrdefs>Bureau of Transportation Statistics (BTS)</attrdefs>
+        <attrdomv>
+          <udom>integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Moddate</attrlabl>
+        <attrdef>
+The MODDATE (or modification date) is a character
+field indicates when each record in the database was last changed. As
+changes are made to a record, the modification date is entered in the
+format 'yyyymmdd'.
+</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Featureid</attrlabl>
+        <attrdef>
+FeatureID is a unique character string assigned to
+each record. Formatted as SSCCC-NNN where SS is the State Federal
+Information Processing Standard (FIPS) code, CCC is a the County FIPS
+code and NNNN is a sequential number within SSCCC.
+</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Longitude coordinate value of the terminal. Formatted with six implied decimal places.</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <udom>numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Latitude coordinate value of the terminal. Formatted with six implied decimal places.</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <udom>numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Descriptio</attrlabl>
+        <attrdef>Facility name and city location</attrdef>
+        <attrdefs>IANA, ORG, TTX, BNSF, CONRAIL, CSXT, NS, NCDPSR, AAPA, EMAP</attrdefs>
+        <attrdomv>
+          <udom>character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mode1</attrlabl>
+        <attrdef>First mode of transportation in the intermodal connection.</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>Highway</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Pipeline</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Rail</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mode2</attrlabl>
+        <attrdef>Second mode of transportation in the intermodal connection.</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>Highway</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Rail</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rr_id</attrlabl>
+        <attrdef>
+Association of American Railroads (AAR) reporting mark of the rail carrier
+involved in the intermodal connection.
+</attrdef>
+        <attrdefs>IANA, ORG, TTX, BNSF, CONRAIL, CSXT, NS, NDCPSR</attrdefs>
+        <attrdomv>
+          <udom>character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cargo</attrlabl>
+        <attrdef>
+Cargo indicates the type of cargo that is involved
+in the transfer. The field is a string of three characters that
+corresponds to the descriptions enumerated below.
+</attrdef>
+        <attrdefs>Oak Ridge National Laboratory (ORNL)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>100</edomv>
+            <edomvd>
+Container cargo (including highway
+trailers on rail flatcars and marine vessel roll-on/roll-off).
+</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>breakbulk/unitized cargo - Lumber and Wood</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>230</edomv>
+            <edomvd>breakbulk/unitized cargo - Metal</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>240</edomv>
+            <edomvd>breakbulk/unitized cargo – Machinery</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>250</edomv>
+            <edomvd>breakbulk/unitized cargo - Motor</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>310</edomv>
+            <edomvd>dry bulk cargo - coal</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>320</edomv>
+            <edomvd>dry bulk cargo - grain</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>330</edomv>
+            <edomvd>dry bulk cargo - metallic</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>391</edomv>
+            <edomvd>other dry bulk - chemicals</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>393</edomv>
+            <edomvd>other dry bulk - minerals</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>420</edomv>
+            <edomvd>liquid cargo – petroleum products</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+          <edom>
+            <edomv>491</edomv>
+            <edomvd>non-petroleum bulk liquids – chemical products</edomvd>
+            <edomvds>ORNL</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Trans_dir</attrlabl>
+        <attrdef>transfer direction – direction the cargo is being moved</attrdef>
+        <attrdefs>BTS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>transfer from mode1 to mode2</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>transfer in both directions</edomvd>
+            <edomvds>BTS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended
+to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user.
+Bernardin, Lochmueller and Associates shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin, Lochmueller and Assoc.
+is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040817</metd>
+    <metrd>20050205</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+        </cntperp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the BLA/IGS.  It should not to be
+altered or summarized.  BLA/IGS does not support secondary distribution.  If
+this data set was received from anyone besides the BLA/IGS, this metadata
+file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

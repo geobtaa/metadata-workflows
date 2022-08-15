@@ -1,0 +1,363 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</origin>
+        <pubdate>2006 - 2008</pubdate>
+        <title>PAMAP Program LAS Files (LiDAR Data of Pennsylvania)</title>
+        <pubinfo>
+          <pubplace>Middletown, PA</pubplace>
+          <publish>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</publish>
+        </pubinfo>
+        <onlink>http://www.dcnr.state.pa.us/topogeo/pamap/documents/index.htm</onlink>
+        <onlink>ftp://pamap.pasda.psu.edu/pamap_lidar/cycle1</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2006</begdate>
+          <enddate>2008</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-78.938</westbc>
+        <eastbc>
+-77.142</eastbc>
+        <northbc>
+41.643</northbc>
+        <southbc>
+40.240</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>DEM</themekey>
+        <themekey>LiDAR</themekey>
+        <themekey>LAS</themekey>
+        <themekey>imageryBaseMapsEarthCo</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Cameron County</placekey>
+        <placekey>Centre County</placekey>
+        <placekey>Clearfield County</placekey>
+        <placekey>Elk County</placekey>
+        <placekey>Blair County</placekey>
+        <placekey>Cambria County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Indiana County</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.  The Originator and Publisher, as indicated in the metadata, should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+        </cntperp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PAMAP Program</address>
+          <address>PA DCNR Topographic and Geologic Survey</address>
+          <address>3240 Schoolhouse Road</address>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 702-2053</cntvoice>
+        <hours>0800-1630</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>PAMAP Program, Bureau of Topographic and Geologic Survey, PA Department of Conservation and Natural Resources</datacred>
+    <descript>
+      <abstract>pamap_lidar_LAS</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The LiDAR flying height, field of view, laser repetition rate, aircraft speed, and the maximum baseline distances from the aerial platform to the ground based GPS stations have been fine tuned to ensure an RMSEz of the processed data at the 18.5 cm level for the bare earth surface as required by the FEMA guidelines.
+
+See the PAMAP Technical Proposal dated January 11, 2006 for further QA/QC procedures.</attraccr>
+    </attracc>
+    <logic>All files are inspected by the Production Manager to ensure that they conform to the specified file naming conventions, all files load in their correct geographic position, all files conform to the project specifications for file standard and content.</logic>
+    <complete>All files are visually inspected for completeness to ensure that no gaps or misplacement exists in the data.  The files have been checked to ensure that the boundary and the content has been covered in its entirety.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal accuracy standard follows the NSSDA-1998 standard.  The maximum permissible RMSE for 95% of the horizontal check points for the mapping product is 5 feet or better.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Independent accuracy testing was performed by Dewberry using 100 high accuracy quality control checkpoints distributed on near level open bare terrain, high grass, brush, forest and urban terrain. Dewberry uses testing procedures consistent with those specified by both the NSSDA/FEMA and NDEP/ASPRS methods.
+
+NSSDA/FEMA: (1) Compared to criteria RMSEz less than or equal to 0.61 ft in Open Terrain, tested 0.34 ft; (2) Compared to criteria Accuracyz less than or equal to 1.19 ft at 95% confidence level, tested 0.67 ft.
+
+NDEP/ASPRS: (1) Compared to criteria Fundamental Vertical Accuracy less than or equal to 1.19 ft at 95% confidence level, tested 0.67 ft; (2) Compared to criteria Consolidated Vertical Accuracy less than or equal to 2.38 ft at 95% confidence level, tested 0.90 ft.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>RETTEW Associates, Inc.</origin>
+            <pubdate>20060424</pubdate>
+            <title>GPS Photo Control Survey</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060424</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>GPS Ground Control</srccitea>
+        <srccontr>GPS control points are used to support the acquisition of the imagery and LiDAR data.  A number of "blind-point" panels were established and used during the QA/QC check of the orthophotos, LiDAR data and contour information.  All horizontal and vertical control was prepared under the supervision of licensed Professional Land Surveyors.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <origin>LandAir</origin>
+            <pubdate>20060430</pubdate>
+            <title>LiDAR</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20060426</begdate>
+              <enddate>20060430</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Raw LiDAR</srccitea>
+        <srccontr>LiDAR elevation data used in the creation of the terrain surface.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Horizontal and Vertical control points were acquired utilizing GPS collection techniques.  All control was prepared under the supervision of licensed Professional Land Surveyors.</procdesc>
+        <procdate>20060424</procdate>
+        <srcprod>GPS Ground Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>LiDAR collection and processing generally adhered to FEMA Guidelines and Specifications for Flood Hazard Mapping Partners, Appendix A: Guidance for Aerial Mapping &amp; Surveying, Section A.8: Airborne Light Detection and Ranging (LiDAR) Surveys.  Raw LiDAR data was collected using a sensor equipped with an airborne GPS/IMU system.  Flight lines with a 30% sidelap were flown with a nominal average LiDAR point spacing of 1.4 meters using a 43 degree field of view (full angle) at a laser pulse rate of 40.6 kHz.  In some areas, laser pulse rate/power were modified in order to achieve specifield point spacing.  As a result, these areas do not have more than 2 returns per pulse; see map at www.dcnr.state.pa.us/topogeo/pamap/lidar_faq.aspx.  The raw LiDAR data is processed and filtered to remove LiDAR points on elevated features such as vegetation, buildings, cars, etc. in order to create a bare earth surface meeting the accuracies required for orthophoto and contour generation.</procdesc>
+        <srcused>Raw LiDAR</srcused>
+        <srcused>GPS Ground Control</srcused>
+        <procdate>20070308</procdate>
+        <srcprod>Processed LiDAR</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <address>124 Gaither Drive</address>
+              <address>Suite 100</address>
+              <addrtype>mailing and physical address</addrtype>
+              <city>Mt. Laurel</city>
+              <state>NJ</state>
+              <postal>08054</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntperp>
+              <cntper>Sandra Elfreth-Howery</cntper>
+              <cntorg>BAE Systems</cntorg>
+            </cntperp>
+            <cntpos>Project Manager</cntpos>
+            <cntvoice>856-793-4287</cntvoice>
+            <cntemail>sandra.elfreth-howery@baesystems.com</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <plandu>survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>40.883333</stdparll>
+            <stdparll>41.950000</stdparll>
+            <longcm>-77.750000</longcm>
+            <latprjo>40.166667</latprjo>
+            <feast>1968500.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn>GCS_North_American_1983</geogcsn>
+        <projcsn>NAD_1983_StatePlane_Pennsylvania_North_FIPS_3701_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altunits>feet</altunits>
+        <altenc>Implicit coordinate</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Each LAS file contains the following fields for each point:  Class; Northing; Easting; Elevation; Intensity; Flight Line #; Echo Number; Echo Type.
+
+The class field is defined as:  
+
+Class 1 (Default) - These are the points that are a mixture of the remaining points after the ground classification.  These would contain bridges, overpasses, buildings, cars, parts of vegetation, etc.
+
+Class 2 (Ground) - These are points on the bare earth surface.  They are from the automated processing, as well as the manual surface review.
+
+Class 8 (Model Key) - These are the educated, thinned points to represent the final bare earth surface.  This is from our automated processing.  These are the points that we have used to generate the final contours.
+
+Class 9 (Water) - These are points inside of hydrographic features, as collected by photogrammetric methods.  These are from automated processing, as well as the manual surface review.
+
+Class 12 (Non-Ground) - These are points that are identified as first of many return or intermediate of many returns from the LIDAR pulse.  These are points that are most likely vegetation returns or points identified to be not on the ground surface.
+
+Class 15 (Road Edges) - These are the points that fall within +/- 1.5' of road break lines.</eaover>
+      <eadetcit>Where applicable, all data conforms to the PAMAP Technical Proposal dated January 11, 2006.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+        </cntperp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PAMAP Program</address>
+          <address>PA DCNR Topographic and Geologic Survey</address>
+          <address>3240 Schoolhouse Road</address>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 702-2053</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>The PAMAP Program distributes data directly to program partners.  Public access to the data are available from both the Pennsylvania Spatial Data Access (PASDA), and Penn State Center for Geographic Information Services listed below.</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <address>Penn State Institutes of Energy and the Environment</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntvoice>814-863-0104</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>PASDA (www.pasda.psu.edu) provides public access to  PAMAP orthoimagery, DEMs, contours, and lidar processing/contour enhancement lines as downloadable files and web services.</resdesc>
+  </distinfo>
+  <distinfo>
+    <resdesc>The Pennsylvania State Data Center and the Center for GIS at Penn State Harrisburg handle bulk requests for PAMAP data, including LAS-format point cloud files, on a fee basis.  For additional information, please visit http://cgis.hbg.psu.edu/pdf/PAMAP_Bulk_Order.pdf.</resdesc>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <address>Penn State Institute of State and Regional Affairs</address>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+          <address>Penn State Harrisburg</address>
+          <address>777 West Harrisburg Pike</address>
+        </cntaddr>
+        <cntorgp>
+          <cntorg>Center for Geographic Information Services</cntorg>
+        </cntorgp>
+        <cntvoice>(717) 948-6428</cntvoice>
+        <cntfax>(717) 948-6306</cntfax>
+        <cntpos>Director</cntpos>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd>20081121</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>PAMAP Program, PA Department of Conservation and Natural Resources, Bureau of Topographic and Geologic Survey</cntorg>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>PAMAP Program</address>
+          <address>PA DCNR Topographic and Geologic Survey</address>
+          <address>3240 Schoolhouse Road</address>
+          <city>Middletown</city>
+          <state>PA</state>
+          <postal>17057</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 702-2053</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20110112</ModDate>
+    <ModTime>12535500</ModTime>
+    <ArcGISProfile>ItemDescription</ArcGISProfile>
+  </Esri>
+  <mdDateSt Sync="TRUE">20110112</mdDateSt>
+  <dataIdInfo>
+    <idPurp>General-purpose aerial topographic survey of the Commonwealth of Pennsylvania. LiDAR data are useful for a variety of scientific and resource management applications such as hydrologic modeling, resource monitoring, mapping, global change research, and landscape visualization. These data were used in conjunction with color aerial photography to create color digital orthophotos, raster digital elevation models, and topographic contours (2 ft interval).</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This dataset consists of classified LiDAR (Light Detection and Ranging) elevation points produced by the PAMAP Program. Additional information is available at the PAMAP website: www.dcnr.state.pa.us/topogeo/pamap. PAMAP data are organized into blocks, which do not have gaps or overlaps, that represent 10,000 feet by 10,000 feet on the ground. The coordinate system for blocks in the northern half of the state is Pennsylvania State Plane North (datum:NAD83, units: feet); blocks in the southern half of the state are in Pennsylvania State Plane South. A block name is formed by concatenating the first four digits of the State Plane northing and easting defining the block's northwest corner, the State identifier "PA", and the State Plane zone designator "N" or "S" (e.g. 45001210PAS).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>PAMAP Program, Bureau of Topographic and Geologic Survey, PA Department of Conservation and Natural Resources</idCredit>
+    <idCitation>
+      <resTitle>PAMAP Program LAS Files (LiDAR Data of Pennsylvania)</resTitle>
+    </idCitation>
+    <searchKeys>
+      <keyword>DEM
+LiDAR
+LAS
+imageryBaseMapsEarthCo
+elevation</keyword>
+    </searchKeys>
+  </dataIdInfo>
+</metadata>

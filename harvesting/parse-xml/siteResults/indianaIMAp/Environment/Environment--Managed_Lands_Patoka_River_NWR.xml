@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>
+U. S. Fish and Wildlife Service, Patoka River National
+Wildlife Refuge and Management Area (Data compiler)
+</origin>
+        <origin>Bernardin, Lochmueller &amp; Associates (Data processor)</origin>
+        <pubdate>20080222</pubdate>
+        <title>
+PATOKA_RIVER_NWR_AREA_USFWS_IN: Ownership Status of Lands Within
+the Acquirement Boundary (U S Fish and Wildlife Service, 1:24000,
+Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Oakland City, Indiana</pubplace>
+          <publish>U. S. Fish and Wildlife Service</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of
+Bernardin, Lochmueller &amp; Associates (BLA) by Patoka River NWR personnel.
+Notification of purchased land is ongoing.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+PATOKA_RIVER_NWR_AREA_USFWS_IN is a polygon shapefile that depicts the
+ownership status of lands within the acquirement boundary of Patoka
+River National Wildlife Refuge, provided by Patoka River NWR.
+Lands are classified as Federal (USFWS), State (Pike State Forest),
+or Private.  Users should be aware that other state lands including more
+tracts of the Pike State Forest and the Sugar Ridge Wildlife Management
+Area adjoin or are near the refuge purchase boundary depicted. The
+data set provided was in an ESRI shapefile format and was named Tract
+Owners 83. This file was cleaned and reattributed by Bernardin,
+Lochmueller &amp; Associates. The land within this shapefile is very near the
+legislative boundary, "the boundary of potential federal land
+acquisition", with only a small piece of USFWS owned land occurring
+outside this delineation. Some areas owned by FWS are closed to hunting,
+consult Patoka River NWR for information.  This file is not survey
+quality.  Boundaries were placed using USGS DRGs and lines were sometimes
+shifted (30-90 feet) to enable hardcopy presentation.
+</abstract>
+      <purpose>
+This dataset was compiled to provide locations and ownership status for
+lands within the Patoka River NWR acquirement boundary.
+
+The following is excerpted from Patoka River NWR metadata -
+
+"It is specifically not intended to be used as a land survey or
+representation of land for conveyance or tax purposes."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20080222</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.27</westbc>
+        <eastbc>-87.50</eastbc>
+        <northbc>38.25</northbc>
+        <southbc>38.19</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>Boundaries</themekey>
+        <themekey>Environment</themekey>
+        <themekey>Biota</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Fish and Wildlife Service (USFWS)</themekey>
+        <themekey>Patoka River National Wildlife Refuge</themekey>
+        <themekey>Refuge</themekey>
+        <themekey>Patoka River</themekey>
+        <themekey>Federal lands</themekey>
+        <themekey>Legislative boundary</themekey>
+        <themekey>Preservation</themekey>
+        <themekey>Conservation</themekey>
+        <themekey>Managed lands</themekey>
+        <themekey>Wildlife</themekey>
+        <themekey>Natural resource</themekey>
+        <themekey>Threatened and Endangered Species (TES)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Oakland City</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 9.2 shapefile format, approximately 36.4 Kb</native>
+    <useconst>Environment--Managed_Lands_Patoka_River_NWR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Ownership status attributes of lands within the refuge acquirement
+boundary are accurate as of the publication date.
+</attraccr>
+    </attracc>
+    <logic>
+All polygons share snapped boundaries. There are no overlaps. Each record
+contains only a single polygon.
+</logic>
+    <complete>
+This file contains the ownership status of all lands within the refuge
+acquirement boundary one very small tract of land owned by the USFWS just
+outside and adjacent to the boundary.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Boundaries are mostly tied to USGS DRGs at 1:24000 scale.  Evaluation of
+boundaries with aerial photographs at closer scales show some positional
+error.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U. S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>7.5 minute quadrangle Digital Raster Graphics</title>
+            <geoform>Raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U. S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>DRG</srccitea>
+        <srccontr>Base file to draw property boundaries</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish &amp; Wildlife Service, Patoka River NWR&amp;MA</origin>
+            <pubdate>20070615</pubdate>
+            <title>Tract Owners 83.SHP</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Oakland City, Indiana</pubplace>
+              <publish>U.S. Fish and Wildlife Service, Patoka River NWR&amp;AM</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20050301</begdate>
+              <enddate>20070615</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NWR1</srccitea>
+        <srccontr>Base file of tract boundaries</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish &amp; Wildlife Service, Patoka River NWR&amp;MA</origin>
+            <pubdate>20070419</pubdate>
+            <title>Acquired 83.shp</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Oakland City, Indiana</pubplace>
+              <publish>U.S. Fish and Wildlife Service, Patoka River NWR&amp;AM</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20050301</begdate>
+              <enddate>20070419</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NWR2</srccitea>
+        <srccontr>Base file of FWS ownership</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish &amp; Wildlife Service, Patoka River NWR&amp;MA</origin>
+            <pubdate>20050301</pubdate>
+            <title>Inholding 83.shp</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Oakland City, Indiana</pubplace>
+              <publish>U.S. Fish and Wildlife Service, Patoka River NWR&amp;AM</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20050301</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NWR3</srccitea>
+        <srccontr>Base file of private inholdings</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Fish &amp; Wildlife Service, Patoka River NWR&amp;MA</origin>
+            <pubdate>20070612</pubdate>
+            <title>State83.shp</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Oakland City, Indiana</pubplace>
+              <publish>U.S. Fish and Wildlife Service, Patoka River NWR&amp;AM</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20050301</begdate>
+              <enddate>20070612</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NWR4</srccitea>
+        <srccontr>Base file of IDNR ownership</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Tract data from an Rbase database file that was used
+in the Environmental Impact Statement (EIS) process 1991 to 1994.  The
+file was converted to ArcView sometime in 1997.  Boundaries were drawn
+using USGS DRG files for guideance.  Through time this file has been
+updated and projected as necessary.
+</procdesc>
+        <srcused>DRG</srcused>
+        <procdate>19971231</procdate>
+        <srcprod>Tract Owner 83.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Rosalie Mosley</cntper>
+              <cntorg>U. S. Fish and Wildlife Service, Patoka River NWR&amp;MA</cntorg>
+            </cntperp>
+            <cntpos>Admin Tech</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>510 1/2 West Morton, Box 217</address>
+              <city>Oakland City</city>
+              <state>Indiana</state>
+              <postal>47660</postal>
+            </cntaddr>
+            <cntvoice>812 749 3199</cntvoice>
+            <cntemail>Rosalie_Mosley@fws.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+In order to correct known topological errors
+including overlaps and unsnapped boundaries, Bernardin, Lochmueller &amp;
+Associates created a new polygon shapefile by carefully tracing, at high
+resolution, the polygons of Tract Owners 83.  Logical consistency
+problems (overlaps, snapping, and multi-polygon records) were corrected,
+however, no attempts were made to correct horizontal position, as it was
+determined that to do so without sufficient independent information on
+boundaries would degrade the integrity of the file. Inholding83 was used
+to cut out known inholdings within refuge property.  Aquired83 and
+State83 were used to check the ownership attributes of the polygons.
+Some of Tract Owners 83 polygons were cut to reflect current ownership
+status. The ESRI ArcView 3.2 Geoprocessing extention, Dissolve function
+was then used to dissolve multiple, adjoining polygons with the same
+ownership status into a single polygon, eliminating the tract boundary
+lines, but still reflecting land ownership status.
+</procdesc>
+        <srcused>NWR1, NWR2, NWR3, NWR4</srcused>
+        <procdate>20050331</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN_20050414.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Periodic updates on new land aquisition were sent to Bernardin, Lochmueller &amp; Associates from
+Patoka NWR as needed since the creation of the March 2005 file.  These updates
+consisted of an email description of the tract purchased and its acreage, along
+with any notes of interest.  These tracts identified in the updates were found
+in the Patoka Tracts files and then mereged into the federal ownership to create
+an updated land ownership file.  Parcels with adjoining boundaries were unioned
+to create a single "federal ownership" polygon.  The January 2006 updated
+"Acquired 83" file was used to check the position of updates and enter the
+purchase of tract 142 (8 ac) along with some adjoining acreage.  The following
+tracts were added as federal ownership in the updated file - Tract 262 (Ferguson)
+(sent December 2005), tracts 59, 75, and 59a (sent January 2006), tracts 142 (8 ac)
+and 236 (6 ac) (sent March 2006), tract 77 (19.6 ac) (sent December 2006), and tract
+169 (4 ac) (sent (February 2007).
+</procdesc>
+        <srcused>PATOKA_RIVER_NWR_AREA_USFWS_IN_20050414.shp, NWR5</srcused>
+        <procdate>20070420</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Corrections were made to tracts 114, 98, 54, 160a, 143, 143c, 143d, 119 and 119b
+from comments from USFWS.
+</procdesc>
+        <srcused>PATOKA_RIVER_NWR_AREA_USFWS_IN_20070425.shp</srcused>
+        <procdate>20070613</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Updates were made based on information from Patoka River NWR.
+USFWS sent Tract Owners 83 file dated 6/15/2007
+
+Compared it to patoka_tracts file, the following changes were made -
+
+Creation of tract 46a - not owned
+Reshape of tract 43, owned
+Merging together a former 3 tracts of 226, state owned
+
+The following differences were not changed, but correction was recommended to the
+FWS file
+
+Additional land to tract 98
+Merging borders of 2d
+Creation of tract 226b from former merged 226 to reflect land portion still privately owned
+Reshape of tract 160a to meet the refuge boundary
+Addition of the tract immediately west of 139, owned by the FWS
+Create tract 142a out of 142 to show new portion owned by the refuge
+Create 59a out of 120, to show new portion owned by the refuge
+
+The updated tracts file was dissolved by ownership into federal, state, and private owned blocks.
+</procdesc>
+        <srcused>Patoka_Tracts.shp, Tract Owners 83.shp</srcused>
+        <procdate>20070619</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN_20070619.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Tract 144a (private) was added just south of 144, to show the sliver of land
+between the railroad and the highway.
+</procdesc>
+        <srcused>Patoka_Tracts.shp, Tract Owners 83.shp</srcused>
+        <procdate>20070629</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN_20070629.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Tracts 76, 76a, 76b, 160 and 160a were changed to federal ownership in Patoka_Tracts.shp. It was
+then dissolved by ownership to create an updated the layer.  The ownership update was recieved from
+Patoka NWR by email on 20080207.
+</procdesc>
+        <srcused>Patoka_Tracts_20070629.shp</srcused>
+        <procdate>20080208</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN_20080208.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Corrections to the previous ownership update were recieved from Patoka NWR by email on 200802013.  Tract 59a was merged into
+tract 161.  Tracts 119 and 132 were changed to federal ownership and tract 143 was corrected to private ownership.  The tract
+layer was dissolved to create the ownership layer.
+</procdesc>
+        <srcused>Patoka_Tracts_20080208.shp</srcused>
+        <procdate>200802022</procdate>
+        <srcprod>PATOKA_RIVER_NWR_AREA_USFWS_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20080222</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>57</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PATOKA_RIVER_NWR_AREA_USFWS_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OWNERSHIP</attrlabl>
+        <attrdef>Owner Status of the Land</attrdef>
+        <attrdefs>Patoka River National Wildlife Refuge</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Federal</edomv>
+            <edomvd>
+Lands owned by the Patoka River
+National Wildlife Refuge
+</edomvd>
+            <edomvds>Patoka River NWR</edomvds>
+          </edom>
+          <edom>
+            <edomv>State</edomv>
+            <edomvd>
+Pike State Forest land owned by
+Indiana Department of Natural Resources
+</edomvd>
+            <edomvds>Patoka River NWR</edomvds>
+          </edom>
+          <edom>
+            <edomv>Private</edomv>
+            <edomvd>Tracts owned by private citizens</edomvd>
+            <edomvds>Patoka River NWR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Acreage of the dissolved ownership block</attrdef>
+        <attrdefs>Computer generated</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.3720</rdommin>
+            <rdommax>9635.79</rdommax>
+            <attrunit>Acres</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on these data. It is intended to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to,
+warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Bernardin, Lochmueller &amp; Associates shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or
+other commercial or economic loss. Bernardin, Lochmueller &amp; Associates is not responsible for claims by a third party. The maximum
+aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>200802022</metd>
+    <metrd>200802022</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntperp>
+        <cntpos>Wildlife Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the BLA. It should not to be
+altered or summarized. BLA does not support secondary distribution. If this data set was received from anyone besides
+the BLA, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

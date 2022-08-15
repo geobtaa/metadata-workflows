@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>201802</CreaDate>
+    <CreaTime>07342200</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <DataProperties>
+      <lineage>
+        <Process Name="FeatureclassToCoverage_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureclassToCoverage" Date="20050721" Time="081010">FeatureclassToCoverage "C:\WorkSpace\fcwrp\glacialmap\spatial_adjustment.mdb\gldetpbtedit ARC" C:\WorkSpace\fcwrp\glacialmap\gldemap1 # DOUBLE</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100524" Time="073959">FeatureClassToFeatureClass C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon C:\WorkSpace\Metadata\Shepps\Geodatabase\Shepps.gdb Glacial_Deposits # "GLADEPCODE 'GLADEPCODE' true true false 10 Double 0 10 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,GLADEPCODE,-1,-1;EPOCODE 'EPOCODE' true true false 2 Short 0 2 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,EPOCODE,-1,-1;EPOCH 'EPOCH' true true false 25 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,EPOCH,-1,-1;STACODE 'STACODE' true true false 2 Short 0 2 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,STACODE,-1,-1;STAGE 'STAGE' true true false 25 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,STAGE,-1,-1;UNICODE 'UNICODE' true true false 2 Short 0 2 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,UNICODE,-1,-1;UNIT 'UNIT' true true false 50 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,UNIT,-1,-1;SYMCODE 'SYMCODE' true true false 2 Short 0 2 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,SYMCODE,-1,-1;SYMBOL 'SYMBOL' true true false 5 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,SYMBOL,-1,-1;DESCRIPTION 'DESCRIPTION' true true false 100 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,DESCRIPTION,-1,-1;MATERIAL 'MATERIAL' true true false 100 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,MATERIAL,-1,-1;TOPOGRAPHY 'TOPOGRAPHY' true true false 200 Text 0 0 ,First,#,C:\WorkSpace\Metadata\Shepps\Coverage\glacdepo_nwpa\polygon,TOPOGRAPHY,-1,-1" # C:\WorkSpace\Metadata\Shepps\Geodatabase\Shepps.gdb\Glacial_Deposits</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100526" Time="082612">FeatureClassToFeatureClass D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits D:\NWPAGlacialDeposits NWPAGlacialDeposits.shp # "GLADEPCODE 'GLADEPCODE' true true false 8 Double 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,GLADEPCODE,-1,-1;EPOCODE 'EPOCODE' true true false 2 Short 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,EPOCODE,-1,-1;EPOCH 'EPOCH' true true false 25 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,EPOCH,-1,-1;STACODE 'STACODE' true true false 2 Short 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,STACODE,-1,-1;STAGE 'STAGE' true true false 25 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,STAGE,-1,-1;UNICODE 'UNICODE' true true false 2 Short 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,UNICODE,-1,-1;UNIT 'UNIT' true true false 50 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,UNIT,-1,-1;SYMCODE 'SYMCODE' true true false 2 Short 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,SYMCODE,-1,-1;SYMBOL 'SYMBOL' true true false 5 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,SYMBOL,-1,-1;DESCRIPTIO 'DESCRIPTIO' true true false 100 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,DESCRIPTION,-1,-1;MATERIAL 'MATERIAL' true true false 100 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,MATERIAL,-1,-1;TOPOGRAPHY 'TOPOGRAPHY' true true false 200 Text 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,TOPOGRAPHY,-1,-1;Shape_Leng 'Shape_Length' false true true 8 Double 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,Shape_Length,-1,-1;Shape_Area 'Shape_Area' false true true 8 Double 0 0 ,First,#,D:\NWPAGlacialDeposits\Shepps_1959.gdb\Glacial_Deposits,Shape_Area,-1,-1" # D:\NWPAGlacialDeposits\NWPAGlacialDeposits.shp</Process>
+      </lineage>
+    </DataProperties>
+    <SyncDate>20100526</SyncDate>
+    <SyncTime>08351000</SyncTime>
+    <ModDate>20100526</ModDate>
+    <ModTime>08371000</ModTime>
+    <MetaID>{7F37CD86-B2F7-4E68-AC9E-8B8721A9EB90}</MetaID>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny College</origin>
+        <pubdate>20100524</pubdate>
+        <title>Glacial Deposits of Northwestern Pennsylvania</title>
+        <ftname Sync="TRUE">NWPAGlacialDeposits</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <edition>1.0</edition>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100524</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.529940</westbc>
+        <eastbc Sync="TRUE">-79.035010</eastbc>
+        <northbc Sync="TRUE">42.275313</northbc>
+        <southbc Sync="TRUE">40.703260</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">539700.709200</leftbc>
+        <rightbc Sync="TRUE">662076.026900</rightbc>
+        <bottombc Sync="TRUE">4507586.902900</bottombc>
+        <topbc Sync="TRUE">4680456.876200</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geology</themekey>
+        <themekey>surficial</themekey>
+        <themekey>glacial</themekey>
+        <themekey>sediment</themekey>
+        <themekey>geologic</themekey>
+        <themekey>moraine</themekey>
+        <themekey>till</themekey>
+        <themekey>outwash</themekey>
+        <themekey>alluvium</themekey>
+        <themekey>kame</themekey>
+        <themekey>esker</themekey>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Beaver</placekey>
+        <placekey>Butler</placekey>
+        <placekey>Crawford</placekey>
+        <placekey>Erie</placekey>
+        <placekey>Forest</placekey>
+        <placekey>Lawrence</placekey>
+        <placekey>Mercer</placekey>
+        <placekey>Venango</placekey>
+        <placekey>Warren</placekey>
+        <placekey>Appalachian Plateau</placekey>
+      </place>
+      <temporal>
+        <tempkey>Quaternary</tempkey>
+        <tempkey>Pleistocene</tempkey>
+        <tempkey>Illinoian</tempkey>
+        <tempkey>Wisconsin</tempkey>
+        <tempkey>Cenozoic</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The data for glacial deposits may be used provided that credit for the original (unaltered) data set is given to Allegheny College.  Users shall clearly indicate the source of the data.  Users who modify the data in any way are obligated to describe the types of modifications they have made, including modifications to hard-copy maps.  Users are not to misrepresent the Allegheny College data set, nor to imply that changes they (users) have made were approved by Allegheny College.
+
+This data set contains errors that are an artifact of the interpretation, source material, and conversion process.  The data and documentation are provided "as is".  The data set was created at a scale of 1:125,000; application of this data set should be at a scale equal to or smaller than the source scale.
+
+Allegheny College makes no warranty of representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance, or accuracy.  Allegheny College will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the user or inability to use the data or any accompanying documentation.  Users discovering errors or making corrections to the data are requested to report such errors to the Allegheny College GIS Laboratory Manager at chris.shaffer@allegheny.edu.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <datacred>Contacts between lithologic units and associated attribute information are from the "Map of Glacial Deposits of Northwestern Pennsylvania" (Shepps et al., 1959).  General digital work (digitizing, attributing, and proofing) is as follows: French Creek Watershed Research Program (FCWRP) students Christina L. Baldy, David P. Stainbrook, Cody L. Switzer, and Jesse D. Thompson.  Specific digital work (transforming, adjusting, and documenting) and project oversight is as follows: Christopher L. Shaffer, GIS Laboratory Manager, Allegheny College and Rachel O'Brien, Associate Professor of Geology, Allegheny College.</datacred>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+        <cntpos>GIS Laboratory Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 N. Main St., Box E</address>
+          <city>Meadville</city>
+          <state>PA</state>
+          <postal>16335</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-332-2719</cntvoice>
+        <cntfax>814-332-2789</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <hours>8:00 am - 5:00 pm, Monday through Friday</hours>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>NWPAGlacialDeposits2018</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">NWPAGlacialDeposits</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">539700.7092</westBL>
+          <eastBL Sync="TRUE">662076.0269</eastBL>
+          <northBL Sync="TRUE">4680456.8762</northBL>
+          <southBL Sync="TRUE">4507586.9029</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.52994</westBL>
+      <eastBL Sync="TRUE">-79.03501</eastBL>
+      <northBL Sync="TRUE">42.275313</northBL>
+      <southBL Sync="TRUE">40.70326</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Meadville</city>
+          <state>PA</state>
+          <postal>16335</postal>
+          <address>520 N. Main St., Box E</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-332-2719</cntvoice>
+        <cntpos>GIS Laboratory Manager</cntpos>
+        <cntfax>814-332-2789</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+        <hours>8:00 am - 5:00 pm, Monday through Friday</hours>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20100526</metd>
+    <metrd>20100524</metrd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>2.78 MB</transize>
+          <dssize>2.78 MB</dssize>
+          <formname>File Geodatabase</formname>
+          <formvern>9.3.1</formvern>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka />
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>Free</fees>
+    </stdorder>
+    <distliab>These data files and documentation are provided "as is," and the user assumes the entire risk as to their quality and performance. 
+
+Allegheny College makes no guarantee or warranty concerning the accuracy of information contained in the geographic data or accompanying documentation.  Allegheny College further makes no warrantees, either expressed or implied, as to any other matter whatsoever, including, without limitation, the completeness or condition of the product, or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user. 
+
+Allegheny College makes no warranty, expressed or implied, regarding the use of the data files or accompanying documentation on any other computer system, nor does the act of distribution constitute any such warranty. 
+
+The user shall save the Allegheny College harmless from any suits, claims, or actions arising out of the use of or any defect in the data files or accompanying documentation. 
+
+Allegheny College assumes no legal liability for the accuracy, completeness, or usefulness of the data files and accompanying documentation.  In no event shall Allegheny College have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data. 
+
+Not for commercial resale.</distliab>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100524</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+    <distrib>
+      <cntinfo>
+        <cntperp />
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+        </cntaddr>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC-36\D\NWPAGlacialDeposits\NWPAGlacialDeposits.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">4.650</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="NWPAGlacialDeposits">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">1595</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm Name="label">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">1595</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="NWPAGlacialDeposits">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1595</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <featdesc>The polygons in this feature class represent lithologic units.</featdesc>
+      </esriterm>
+      <sdtsterm Name="polygon">
+        <sdtstype Sync="TRUE">GT-polygon composed of chains</sdtstype>
+        <ptvctcnt Sync="TRUE">1595</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm Name="tic">
+        <sdtstype Sync="TRUE">Point</sdtstype>
+        <ptvctcnt Sync="TRUE">0</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000100</absres>
+            <ordres Sync="TRUE">0.000100</ordres>
+          </coordrep>
+        </planci>
+        <gridsys>
+          <gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone Sync="TRUE">17</utmzone>
+            <transmer>
+              <sfctrmer Sync="TRUE">0.999600</sfctrmer>
+              <longcm Sync="TRUE">-81.000000</longcm>
+              <latprjo Sync="TRUE">0.000000</latprjo>
+              <feast Sync="TRUE">500000.000000</feast>
+              <fnorth Sync="TRUE">0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_UTM_Zone_17N</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="NWPAGlacialDeposits">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">1595</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="NWPAGlacialDeposits">
+      <enttyp>
+        <enttypl>Polygons</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1595</enttypc>
+        <enttypd>The polygons in this data set represent lithologic units.</enttypd>
+        <enttypds>Allegheny College</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GLADEPCODE</attrlabl>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atoutwid Sync="TRUE">10</atoutwid>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attrdef>A unique 8-digit code assigned to each mapped unit. The code is a combination of four sets of numbers (EPOCODE, STACODE, UNICODE, SYMCODE).</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">GLADEPCODE</attalias>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EPOCODE</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef>A unique 2-digit code that represents the age of the mapped unit at the Epoch scale.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">EPOCODE</attalias>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EPOCH</attrlabl>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atoutwid Sync="TRUE">25</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>The name of the Epoch for each mapped unit.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">EPOCH</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>PLEISTOCENE</edomv>
+          </edom>
+          <edom>
+            <edomv>Recent or Pre-Pleistocene</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STACODE</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef>A unique 2-digit code that represents the age of the mapped unit at the glacial scale.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">STACODE</attalias>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STAGE</attrlabl>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atoutwid Sync="TRUE">25</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>The name of the stage for each mapped unit.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">STAGE</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>ILLONOIAN</edomv>
+          </edom>
+          <edom>
+            <edomv>ILLONOIAN or WISCONSIN</edomv>
+          </edom>
+          <edom>
+            <edomv>WISCONSIN</edomv>
+          </edom>
+          <edom>
+            <edomv>&lt;Null&gt;</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UNICODE</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef>A unique 2-digit code that represents the type of surficial deposit mapped.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">UNICODE</attalias>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UNIT</attrlabl>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atoutwid Sync="TRUE">50</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>The name of each mapped unit as it appears on the Shepps et al., 1959 source map.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">UNIT</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>Ashtabula Till</edomv>
+          </edom>
+          <edom>
+            <edomv>Hiram Till</edomv>
+          </edom>
+          <edom>
+            <edomv>Inner Phase</edomv>
+          </edom>
+          <edom>
+            <edomv>Kent Till</edomv>
+          </edom>
+          <edom>
+            <edomv>Lavery Till</edomv>
+          </edom>
+          <edom>
+            <edomv>Outer Phase</edomv>
+          </edom>
+          <edom>
+            <edomv>Undifferentiated</edomv>
+          </edom>
+          <edom>
+            <edomv>Undifferentiated members of units above</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SYMCODE</attrlabl>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atoutwid Sync="TRUE">2</atoutwid>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attrdef>A unique 2-digit code that represents each map symbol.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">SYMCODE</attalias>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SYMBOL</attrlabl>
+        <attwidth Sync="TRUE">5</attwidth>
+        <atoutwid Sync="TRUE">5</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>The assigned symbol for each map unit as it appears on the Shepps et al., 1959 source map.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">SYMBOL</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>am</edomv>
+          </edom>
+          <edom>
+            <edomv>hgm</edomv>
+          </edom>
+          <edom>
+            <edomv>hm</edomv>
+          </edom>
+          <edom>
+            <edomv>ii</edomv>
+          </edom>
+          <edom>
+            <edomv>io</edomv>
+          </edom>
+          <edom>
+            <edomv>k</edomv>
+          </edom>
+          <edom>
+            <edomv>kcm</edomv>
+          </edom>
+          <edom>
+            <edomv>kflm</edomv>
+          </edom>
+          <edom>
+            <edomv>kgm</edomv>
+          </edom>
+          <edom>
+            <edomv>km</edomv>
+          </edom>
+          <edom>
+            <edomv>lgm</edomv>
+          </edom>
+          <edom>
+            <edomv>lm</edomv>
+          </edom>
+          <edom>
+            <edomv>ol</edomv>
+          </edom>
+          <edom>
+            <edomv>ud</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DESCRIPTIO</attrlabl>
+        <attalias Sync="TRUE">DESCRIPTIO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MATERIAL</attrlabl>
+        <attwidth Sync="TRUE">100</attwidth>
+        <atoutwid Sync="TRUE">100</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>A brief description of lithologic and textural information. This appears under the heading of "Character of Material" on the Shepps et al., 1959 source map.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">MATERIAL</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>Bedded sand, silt, and clay; sand and gravel</edomv>
+          </edom>
+          <edom>
+            <edomv>Rare patches of thin weathered till over bedrock; scattered erratics</edomv>
+          </edom>
+          <edom>
+            <edomv>Sand and gravel</edomv>
+          </edom>
+          <edom>
+            <edomv>Thin, discontinuous weathered till blanket</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (loam becoming sandy loam toward the east and southeast)</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (loam)</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (sandy loam)</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (silt)</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (silty clay to clay)</edomv>
+          </edom>
+          <edom>
+            <edomv>Till (silty clay)</edomv>
+          </edom>
+          <edom>
+            <edomv>&lt;Null&gt;</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOPOGRAPHY</attrlabl>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atoutwid Sync="TRUE">200</atoutwid>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attrdef>A brief description of landforms. This appears under the heading of "Topography" on the Shepps et al., 1959 source map.</attrdef>
+        <attrdefs>Allegheny College</attrdefs>
+        <attalias Sync="TRUE">TOPOGRAPHY</attalias>
+        <attrdomv>
+          <edom>
+            <edomv>Distinctly constructional except in Illonoian areas. Knobby; commonly in the form of ridges, terraces, or isolated mounds; kame moraines intimately mixed with end moraines</edomv>
+          </edom>
+          <edom>
+            <edomv>Erosional; similar to non-glaciated area, but slightly less "rugged"</edomv>
+          </edom>
+          <edom>
+            <edomv>Erosional; similar to non-glaciated area, but slightly less "rugged", rare slightly constructional patches</edomv>
+          </edom>
+          <edom>
+            <edomv>Flat to gently undulating; local poorly drained areas</edomv>
+          </edom>
+          <edom>
+            <edomv>Generally smooth to gently undulating; commonly nearly level or gently sloping downstream</edomv>
+          </edom>
+          <edom>
+            <edomv>Level to gently undulating</edomv>
+          </edom>
+          <edom>
+            <edomv>Smooth to gently undulating; undrained areas very rare</edomv>
+          </edom>
+          <edom>
+            <edomv>Somewhat undulating; locally constructional; undrained areas rare</edomv>
+          </edom>
+          <edom>
+            <edomv>Strongly constructional; knob and kettle topography; numerous undrained depressions</edomv>
+          </edom>
+          <edom>
+            <edomv>Undulating; locally constructional; scattered undrained depressions; very week at places</edomv>
+          </edom>
+          <edom>
+            <edomv>&lt;Null&gt;</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+        <attalias Sync="TRUE">Shape_Leng</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Area</attrlabl>
+        <attalias Sync="TRUE">Shape_Area</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20100526</mdDateSt>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <srcused>Shepps et al., 1959</srcused>
+        <date Sync="TRUE">20050822</date>
+        <time Sync="TRUE">14014800</time>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Christopher L. Shaffer</cntper>
+              <cntorg>Allegheny College</cntorg>
+            </cntperp>
+            <cntpos>GIS Laboratory Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>520 N. Main St., Box E</address>
+              <city>Meadville</city>
+              <state>PA</state>
+              <postal>16335</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>814-332-2719</cntvoice>
+            <cntfax>814-332-2789</cntfax>
+            <cntemail>chris.shaffer@allegheny.edu</cntemail>
+            <hours>8:00 am - 5:00 pm, Monday through Friday</hours>
+          </cntinfo>
+        </proccont>
+        <procsv>ArcGIS 9.1</procsv>
+        <procdate>Summer 2005</procdate>
+        <procdesc>The following processing steps were completed by four Allegheny College students as part of the French Creek Watershed Research Program (FCWRP) during the summer of 2005.  Support for this work was provided by the National Science Foundation's Course, Curriculum, and Laboratory Improvement Program under grant DUE-0126808.  The base map for the glacial deposits data set is the published "Map of Glacial Deposits of Northwestern Pennsylvania" by Shepps et al., 1959.
+
+First, a hard-copy version of the Shepps et al., 1959 map was divided into northern and southern sections in order that it could be digitized on a 36" x 48", high accuracy Summagrid V digitizing tablet.  Next, the northern section of the map was placed on the digitizing tablet and four registration points were identified using latitude and longitude lines near the edges of the map.  ARC/INFO Workstation 9.1 software was then used to digitize the four registration points, the boundaries of the study area, and all contacts between lithologic units.  In addition, unique arc-ids were assigned to both the boundaries of the study area and contact lines.  Once completed, this process was repeated for the southern section of the map.
+
+After both sections of the map were digitized, the coverages were cleaned and arc-node topology was generated.  Next, the coverages were edited in order to correct node errors (overshoots and undershoots) and unassigned or incorrectly assigned arc-ids.  To ensure digitizing accuracy, 42" x 36" printouts of the digitized coverages were visually compared to the Shepps et al., 1959 map and digitizing errors were identified and corrected.  Once both coverages were deemed error free, they were transformed from digitizer (inches) units into Universal Transverse Mercator (meter) units.  After transformation, the error in horizontal accuracy far exceeded National Map Accuracy Standards for source maps at a scale of 1:125,000.  It was determined that the registration error (&gt; 500 meters) was due to inaccuracies in the published latitude and longitude lines near the edge of the map.  Instead of re-digitizing the entire map, a solution was developed.
+
+The following solution was developed and completed by the Allegheny College GIS Laboratory Manager.  Using latitude and longitude intersections, based on U.S. Geologic Survey topographic quadrangles within the original Shepps, et al., 1959 map, 16 new registration points were identified on both the northern and southern sections of the map.  These new registration points and the boundaries of the study areas were digitized into two, new coverages and transformed into UTM coordinates.  After transformation, the horizontal errors for the northern and southern sections of the map were 0.018 inches (56.127 meters) and 0.019 inches (59.401 meters) respectively.  These errors in horizontal accuracy are less than those required by the National Map Accuracy Standards for maps at a scale of 1:125,000.
+
+The Spatial Adjustment tool within ArcGIS 9.1 was then used to align the coverages containing the lithologic contact lines (RMS &gt;500m) with the coverages containing the 16 registration points and boundaries of the study areas (RMS &lt;63m).  First, both coverages were converted into geodatabase feature classes using ArcCatalog, so that they could be edited using ArcMap.  Next, the arcs within the feature class containing lithologic contact lines were aligned to the arcs in the feature class containing 16 registration points and study area boundaries using the rubber-sheet method of adjustment.  After adjusting, the arcs within the northern and southern portions of the map were merged together to create a new feature class containing all lithologic contacts within the study area.  After merging, the boundary line between the northern and southern sections of the map was removed and the new feature class was converted back into a coverage using ArcCatalog.
+
+After adjusting the data, the coverage was edited and cleaned using ARC/INFO Workstation 9.1 software in order to remove topological errors.  Next, polygon topology was generated and label points were created for each polygon within the coverage.  A unique label-id scheme was then developed in order assign each lithologic unit within the map a unique-id.  Using the label-id scheme, the label points within the coverage were then attributed accordingly.  After attributing, a large printout of the attributed coverage was visually compared to the original Shepps et al., 1959 map.  Label errors such as polygons with missing or multiple label points and attribute errors such as incorrect label-ids were identified and corrected.  Once all label errors were corrected, additional items such as glacial deposit code, epoch, epoch code, stage, stage code, unit, unit code, symbol, symbol code, description, material, and topography were added to the polygon attribute table.  These attribute items were designed to mimic that of the legend on Shepps, et al., 1959 map.  Values for the new attribute items were then attributed accordingly and polygon topology was re-built.  Finally, the attributes were visually verified to ensure accuracy and completeness and the coverage was exported as an ArcInfo export file (glacdepo_nwpa.e00).
+
+On May 24, 2010 the coverage was migrated to geodatabase format in preparation of sharing with the Pennsylvania Spatial Data Access (PASDA) Clearinghouse.  Using ArcGIS Desktop 9.3.1 the coverage polygon feature class containing lithologic contacts was exported to a file geodatabase polygon feature class and the AREA, PERIMETER, GLACDEPO_NWPA, and GLACDEPO_NWPA_ID fields were eliminated.  The metadata was then updated to reflect this change.</procdesc>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Glacial Geology of Northwestern Pennsylvania</title>
+            <origin>V.C. Shepps, G.W. White, J.B. Droste, and R.F. Sitler</origin>
+            <pubdate>1959</pubdate>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Topographic and Geologic Survey</publish>
+            </pubinfo>
+            <othercit>Pennsylvania Geological Survey Bulletin G-32</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>125,000</srcscale>
+        <typesrc>paper</typesrc>
+        <srccitea>Shepps et al., 1959</srccitea>
+        <srccontr>Spatial extent and nature of glacial deposits as published on Plate 1, Bulletin G-32.</srccontr>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1959</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+      </srcinfo>
+    </lineage>
+    <attracc>
+      <attraccr>The published glacial deposits map (Shepps et al., 1959) is the basis for the polygon attributes.  Allegheny College visually compared assigned attributes against the published source map.  Based on this review, the attributes are believed to be accurate.</attraccr>
+    </attracc>
+    <logic>Complete chain-node topology is present.  The data set was checked for polygon closure, erroneous or duplicate arcs, incorrect intersections, overshoots and undershoots, label errors, and node errors.</logic>
+    <complete>The data set represents regional surficial geology of northwestern Pennsylvania.  Contacts between lithologic units and attributes have been assigned to represent the published glacial deposits map (Shepps et al., 1959).  No changes or updates have been made in the compilation process.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal positional accuracy of the data set is that of the 1959 "Map of the Glacial Deposits of Northwestern Pennsylvania", which was compiled and published at a scale of 1:125,000.  The base map on which the 1959 map was compiled was derived from U.S. Geologic Survey topographic quadrangles.  No scale for the topographic base map was provided by Shepps et al., 1959.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>    The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+  </distinfo>
+</metadata>

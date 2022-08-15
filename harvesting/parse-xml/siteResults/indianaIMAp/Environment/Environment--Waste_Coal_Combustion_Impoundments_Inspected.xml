@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Environmental Management, Office of Land Quality</origin>
+        <pubdate>20151113</pubdate>
+        <title>
+COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN: Inspected Coal Combustion Waste Impoundments in Indiana (Indiana Department of
+Environmental Management, Polygon Shapefile, 1:5,000)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Environmental Management, Office of Land Quality</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of the Indiana Geological Survey (IGS) by Indiana Department of Environmental Management, Office of
+Land Quality personnel on November 13, 2015. The data set provided was in an Esri personal geodatabase format, and was named
+"Coal_Combustion_Waste_20151113.MDB" that contained a polygon feature class named "INSPECTED_CCW_IMPOUNDMENTS."
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN.SHP is a polygon shapefile that contains coal combustion waste impoundmentes (CCW) in Indiana
+that have been inspected by the U.S. Environmental Protection Agency (US EPA), provided by personnel of Indiana Department of Environmental Management,
+Office of Land Quality (IDEM, OLQ) as of November 13, 2015. The data set provided by IDEM was in an Esri personal database format and was named
+"Coal_Combustion_Waste_20151113.MDB" that contained a polygon feature class named "INSPECTED_CCW_IMPOUNDMENTS."
+COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN.SHP is attributed with observations by IDEM staff and information found in US EPA contracted
+reports about the structural integrety and hazard potential some of the impoundment dams.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"CCW impoundments were digitized by IDEM staff from aerial photo-interpretation. This was done in response to the CCW impoundment
+failure at the TVA/Kingston coal burning electric generating facility during December of 2008, and IDEM's recognition of the need
+to know the precise locations of these waste features, and what impacts similar failures may have on the Indiana landscape. Also
+in response to this failure, US EPA initiated a nationwide program assessing the structural integrety and safety of CCW impoundments.
+US EPA contracted for inspections of these facilities, and information from the reports of Indiana facilities are included in the IDEM
+developed attributes of these features. The attributes, information about the features in tabular format, were compiled from information
+taken from the published reports of impoundment inspections done by US EPA contracted firms, and notes from IDEM field inspections, as
+well as observations made by IDEM GIS staff as the features were digitally mapped. The qualitative and quatitative attributes provide
+information of impoundment size, capacity, dike/dam hazard potential, types of waste placed in the impoundment, owner, facility name,
+impoundment use, and field observations by IDEM inspectors and USEPA contrated specialists.
+
+"The USEPA contracted nation wide reports are found: http://www3.epa.gov/epawaste/nonhaz/industrial/special/fossil/surveys2/index.htm#_ga=1.5580723.182041078.1443707387
+
+"From the EPA reports: 'A CCW management unit is defined as a surface impoundment or similar diked or bermed management unit or management
+units designated as landfills that receive liquidborne material and are used for the storage or disposal of residuals or by-products from
+the combustion of coal, including, but not limited to, fly ash, bottom ash, boiler slag, or flu gas emission control residuals. Management
+units also include inactive impoundments that have not been formally closed in compliance with applicable federal or state
+closure/reclamation regulations.'"
+</abstract>
+      <purpose>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"These data were developed to provide the spatial context for Coal Combustion Waste (CCW) (also referred to as Coal Combustion
+Residuals (CCR)) impoundments located in Indiana. CCW impoundments are areas used for emplacement of liquid borne waste material
+resulting from the burning of coal for the production of electricity. The map feature's attributes include observations by IDEM
+staff and information found in US EPA contracted reports about the structural integrety and hazard potential some of the impoundment
+dams. This data set was developed by digitizing areas interpreted to be CCW impoundments from aerial photo interpretation,
+therefore some of these feature have not been verified by direct field observation. CCW/CCR impoundments that have been field
+verified are also included in these data, as is information from those inspected impoundments reports."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151113</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.653582</westbc>
+        <eastbc>-84.760578</eastbc>
+        <northbc>41.742793</northbc>
+        <southbc>37.916998</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Environmental Management (IDEM)</themekey>
+        <themekey>Office of Land Quality (OLQ)</themekey>
+        <themekey>global positioning system (GPS)</themekey>
+        <themekey>regulated facility</themekey>
+        <themekey>managed site</themekey>
+        <themekey>coal combustion waste (CCW)</themekey>
+        <themekey>Coal Combustion Residuals (CCR)</themekey>
+        <themekey>Coal Burning Public Electric Generating Facility</themekey>
+        <themekey>Fossil Fuel Waste</themekey>
+        <themekey>Impoundment</themekey>
+        <themekey>industrial waste</themekey>
+        <themekey>bottom ash</themekey>
+        <themekey>boiler slag</themekey>
+        <themekey>fly ash</themekey>
+        <themekey>flu gas desulpherization (FGD)</themekey>
+        <themekey>special waste</themekey>
+        <themekey>AB Brown</themekey>
+        <themekey>Bailly</themekey>
+        <themekey>Cayuga</themekey>
+        <themekey>Clifty Creek</themekey>
+        <themekey>DH Mitchel</themekey>
+        <themekey>Eagle Valley</themekey>
+        <themekey>Edwardsport</themekey>
+        <themekey>FB Culley</themekey>
+        <themekey>Frank E Ratts</themekey>
+        <themekey>Gallagher</themekey>
+        <themekey>Gibson</themekey>
+        <themekey>Harding Street</themekey>
+        <themekey>Michigan City</themekey>
+        <themekey>Petersburg</themekey>
+        <themekey>Rockport</themekey>
+        <themekey>Schahfer</themekey>
+        <themekey>Tanner's Creek</themekey>
+        <themekey>Wabash</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>La Porte County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Esri ArcGIS version 10.3, approximately 2.94 Mb</native>
+    <useconst>Environment--Waste_Coal_Combustion_Impoundments_Inspected</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+This data set was provided by IDEM personnel and is assumed to be accurate.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"The attributes, information about the features in tabular format, were compiled from information taken from the published
+reports of impoundment inspections done by EPA contracted firms, and notes from IDEM field inspections, as well as
+observations made by IDEM GIS staff as the features were digitally mapped. The qualitative and quatitative attributes
+provide information of impoundment size, capacity, dike/dam hazard potential, types of waste placed in the impoundment,
+owner, facility name, impoundment use, and field observations by IDEM inspectors and USEPA contrated specialists."
+</attraccr>
+    </attracc>
+    <logic>This data set was provided by IDEM personnel and is assumed to be accurate.</logic>
+    <complete>
+This data set was provided by IDEM personnel and is assumed to be complete.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"Many facilities have other impoundment units which are not included in the US EPA inspection reports either because coal waste
+is not stored there, was previously stored there and has been removed, or the units were not in use at the time of the US EPA
+inspection."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+This data set was provided by IDEM personnel and is assumed to be accurate.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"Not to be used for accuracies less than 10 feet horizontally."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>This data set was provided by IDEM personnel and is assumed to be accurate.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>IDEM Office of Land Quality; Kevin Miller</origin>
+            <pubdate>20151113</pubdate>
+            <title>Coal_Combustion_Waste_20151113.MDB (Containing polygon feature class named INSPECTED_CCW_IMPOUNDMENTS)</title>
+            <edition>1</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>IDEM OLQ</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Esri personal geodatabase</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20151113</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by IDEM, OLQ for the source feature class named "INSPECTED_CCW_IMPOUNDMENTS"</srccurr>
+        </srctime>
+        <srccitea>Coal_Combustion_Waste_20151113.MDB</srccitea>
+        <srccontr>Inspected coal combustion waste impoundment boundaries in Indiana, current as of November 13, 2015.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+IGS personnel received an Esri personal geodatabase named "Coal_Combustion_Waste_20151113.MDB" from IDEM personnel on January 29, 2014, which
+contained the polygon feature class named "INSPECTED_CCW_IMPOUNDMENTS". INSPECTED_CCW_IMPOUNDMENTS was loaded into Esri ArcMap 10.3 and the
+shapefile was visually checked to ensure that all data provided are contained within the state of Indiana. IGS personnel then exported the
+layer as an Esri shapefile named COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN.SHP. The attribute fields named "State_ID "
+and "Permit_Number" were deleted from the atttribute table because they contained no data. It should also be noted that portions of the
+associated metadata provided by IDEM for the source feature class named "INSPECTED_CCW_IMPOUNDMENTS" were extracted and included in this
+metadata file.
+</procdesc>
+        <srcused>Coal_Combustion_Waste_20151113.MDB (Containing polygon feature class named INSPECTED_CCW_IMPOUNDMENTS)</srcused>
+        <procdate>20151113</procdate>
+        <srcprod>COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20151119</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>77</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are software generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Feature type defining the point features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The county where the impoundment is located</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Company</attrlabl>
+        <attrdef>The entity which owns and is responsible for the property (impoundment) shown</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Facility</attrlabl>
+        <attrdef>The name of the electric generating station where the map feature (impoundment) is located</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Unit</attrlabl>
+        <attrdef>The name given to the map feature (impoundment) shown as reported by the property owner</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+        <attrdef>
+The measured area as reported by the software (Esri ArcMap 10.1) in US acres. In many instances,
+this software calculated acreage differs from the acreage reported in the USEPA contracted report.
+</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.264390</rdommin>
+            <rdommax>227.50443</rdommax>
+            <attrunit>Acres (US)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comments</attrlabl>
+        <attrdef>
+Noted by GIS staff. If shown as "REPORTED" the information is from the EPA impoundment report.
+Other entries are observations by GIS staff made while digitizing the impoundments.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Waste_Note</attrlabl>
+        <attrdef>Information given by facilty personel to IDEM staff during field inspections</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EPA_Report</attrlabl>
+        <attrdef>
+"Yes" / "No" values if the impoundments were included in the USEPA report. Many facilities
+have other impoundment units which are not included in the USEPA inspection reports either because coal waste
+is not stored there, was previously stored there and has been removed, or the units were not in use at the time
+of the USEPA inspection.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Storage_Ca</attrlabl>
+        <attrdef>
+Storage capacity for the unit as reported in the USEPA contracted inspection reports. Storage
+capacity was described as cubic yards or acre feet in the reports. IDEM GIS staff converted cubic yard values to
+acre feet, and entered acre feet values in the feature table.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.4</rdommin>
+            <rdommax>3600</rdommax>
+            <attrunit>Acre feet (US)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EPA_Repo_1</attrlabl>
+        <attrdef>The publication date noted on the US EPA contracted impoundment inspection report</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>9/1/2009</rdommin>
+            <rdommax>10/19/2012</rdommax>
+            <attrunit>Calendar date</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fly_Ash</attrlabl>
+        <attrdef>
+As noted in US EPA contracted inspection documents, Reported as "TRUE" if fly ash waste
+material is stored in the unit, "FALSE" if fly ash material is not stored in the unit.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bottom_Ash</attrlabl>
+        <attrdef>
+As noted in US EPA contracted inspection documents, Reported as "TRUE" if bottom ash waste
+material is stored in the unit, "FALSE" if bottom ash waste material is not stored in the unit.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Boiler-Sl</attrlabl>
+        <attrdef>
+As noted in US EPA contracted inspection documents, Reported as "TRUE" if boiler slag waste
+material is stored in the unit, "FALSE" if boiler slag waste material is not stored in the unit.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FGD</attrlabl>
+        <attrdef>
+As noted in US EPA contracted inspection documents, Reported as "TRUE" if flu gas desulpherization waste
+material is stored in the unit, "FALSE" if flu gas desulpherization waste material is not stored in the unit.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Other_Resi</attrlabl>
+        <attrdef>As noted in US EPA contracted inspection documents, lists any other residual waste materials are stored in the unit.</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hazard_Pot</attrlabl>
+        <attrdef>
+The hazard potential for dam failure. From Federal Guidlines for Dam Safety, the Hazard Potential Classification
+System for Dams is based on the probable loss of human life and the potential for economic losses, environmental damage, and/or
+disruption to lifelines caused by failure of mis-operation of a dam or its appurtenances. LESS THAN LOW HAZARD POTENTIAL: Failure or
+misoperation of the dam results in no probable loss of human life or economic or environmental losses. LOW HAZARD POTENTIAL: Dams
+where failure or misoperation results in no probable loss of human life or economic or environmental losses. Losses are principally
+limited to the owner's property. SIGNIFICANT HAZARD POTENTIAL: Dams where failure or misoperation results in no probable loss of
+human life but can cause economic loss, environmental damage, disruption of lifeline facilities, or can impact other concerns.
+Dams are often located in predominatley rural or agricultural areas, but couild be located in areas with population
+and significant infrastructure. HIGH HAZARD POTENTIAL: Dams where failure or misoperation will probably cause loss of human life.
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>HIGH</edomv>
+            <edomvd>Dams where failure or misoperation will probably cause loss of human life.</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>SIGNIFICANT</edomv>
+            <edomvd>
+Dams where failure or misoperation results in no probable loss of human life but can cause economic loss,
+environmental damage, disruption of lifeline facilities, or can impact other concerns. Dams are often located in predominatley rural or
+agricultural areas, but couild be located in areas with population and significant infrastructure.
+</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>LOW</edomv>
+            <edomvd>Dams where failure or misoperation will probably cause loss of human life.</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>LESS THAN LOW</edomv>
+            <edomvd>Failure or misoperation of the dam results in no probable loss of human life or economic or environmental losses</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>NOT RATED</edomv>
+            <edomvd>Sites that have dams that have not had a qualitative accessment of rated risks associated with dam failure or misoperation</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>NOT RATED INCISED POND</edomv>
+            <edomvd>Sites that have dams that have not had a qualitative accessment of rated risks associated with dam failure or misoperation</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+          <edom>
+            <edomv>"NULL"</edomv>
+            <edomvd>Sites that have dams that have not had a qualitative accessment of rated risks associated with dam failure or misoperation</edomvd>
+            <edomvds>Office of Land Quality, Indiana Department of Environmental Management</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NPDES_Perm</attrlabl>
+        <attrdef>
+The federal and state National Pollutant Discharge System (NPDES) permit number. If present, the number assigned by the
+state and federal government for the discharge outfall associated with the impoundment(s). These numbers can be used to query state and
+federal databases to find what pollutant levels are allowed in waters passing out of the pipe and into the environment. If not present, there
+is no NPDES permitted outfall associated with the impoundment(s).
+</attrdef>
+        <attrdefs>Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lowest_Dam</attrlabl>
+        <attrdef>
+The lowest elevation (in feet above sea level) found on the crest of the impoundment dam, and as reported in the US EPA
+contracted inspection report (some "null" values are present in the data table).
+</attrdef>
+        <attrdefs>US EPA</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>392</rdommin>
+            <rdommax>720</rdommax>
+            <attrunit>Feet above sea level</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_AREA</attrlabl>
+        <attrdef>Area of the impoundment (software computed)</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1069.864639</rdommin>
+            <rdommax>920677.764935</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+        <attrdef>Length of the perimeter of the impoundment (software computed)</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>148.213908</rdommin>
+            <rdommax>5413.735017</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Office of Land Quality, Indiana Department of Environmental Management be cited in any products
+generated from this data. The following source citation should be included: [COAL_COMBUSTION_WASTE_IMPOUNDMENTS_INSPECTED_IDEM_IN:
+Inspected Coal Combustion Waste Impoundments in Indiana (Indiana Department of Environmental Management, Polygon Shapefile,
+1:5,000), 2015113].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in
+materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication
+Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Environmental Management, OLQ, Engineering and GIS Services</cntorg>
+          <cntper>Kevin Miller</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>100 North Senate Avenue MC 66-20 IGCN 1101</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46206 2251</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 233 5298</cntvoice>
+        <cntfax>317 233 3403</cntfax>
+        <cntemail>kmiller@idem.in.gov</cntemail>
+        <hours>Monday through Friday, 8:30am to 4:30pm, Eastern DST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source feature class INSPECTED_CCW_IMPOUNDMENTS:
+
+"DISCLAIMER OF WARRANTIES
+
+THE INDIANA DEPARTMENT OF ENVIRONMENTAL MANAGEMENT (IDEM), ITS EMPLOYEES, SUCCESSORS OR ASSIGNS MAKE NO REPRESENTATIONS
+OR WARRANTIES ABOUT THE COMPLETENESS, SUITABILITY, RELIABILITY, AVAILABILITY AND ACCURACY OF DATA, SOFTWARE, INFORMATION
+OR SERVICES PROVIDED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY INFORMATION RETRIEVED FROM OR DELIVERED TO AN INDIVIDUAL OR ENTITY
+THROUGH THE AUSPICES OF IDEM ARE PROVIDED "AS IS" AND INCLUDES ALL FAULTS WITHOUT ANY EXPRESS OR IMPLIED WARRANTY
+OF ANY KIND.  THE RECIPIENT, OF THE DATA, SOFTWARE, INFORMATION OR SERVICES, ACKNOWLEDGES AND AGREES THAT IT HAS RECEIVED
+ADEQUATE NOTICE THAT USE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES IS AT RECIPIENTS OWN RISK.
+
+IDEM AND OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE AFOREMENTIONED MATERIAL,
+INCLUDING WARRANTIES OF MERCHANTABILITY, TITLE, NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, ACCURACY
+OR COMPLETENESS OF RESPONSES, RESULTS, LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT, QUIET ENJOYMENT, QUIET POSSESSION,
+AND CORRESPONDENCE TO DESCRIPTION. FURTHER THE ABOVE LIST OF DISCLAIMED WARRANTIES IS NOT EXHAUSTIVE AS ANY AND ALL WARRANTIES
+AND CONDITIONS ARE DISCLAIMED. THE ENTIRE RISK ARISING OUT OF THE USE OF OR PERFORMANCE OF THE DATA, SOFTWARE, INFORMATION
+OR SERVICES IS BORNE BY THE RECIPIENT.
+
+EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IDEM OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL,
+INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR: LOSS OF PROFITS,
+LOSS OF CONFIDENTIAL OR OTHER INFORMATION, BUSINESS INTERRUPTION, PERSONAL INJURY, LOSS OF PRIVACY, FAILURE TO MEET ANY
+DUTY (INCLUDING GOOD FAITH AND REASONABLE CARE), NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER, ARISING
+OUT OF  OR IN ANY WAY RELATED TO THE USE OR INABILITY TO USE, THE DATA, SOFTWARE, INFORMATION OR SERVICES, EVEN IF THE
+RECIPIENT IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  RECIPIENT'S SOLE REMEDY IS TO DISCONTINUE THE USE OF THE DATA,
+SOFTWARE, INFORMATION OR SERVICES."
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20151113</metd>
+    <metrd>20151119</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

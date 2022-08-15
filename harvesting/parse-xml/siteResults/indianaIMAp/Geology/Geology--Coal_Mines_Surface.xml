@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Natural Resources, Division of Reclamation</origin>
+        <origin>Jill Flachskam (Data compiler)</origin>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Licia Weber (Data compiler)</origin>
+        <origin>Becky Meyer (Data compiler)</origin>
+        <origin>Nathan Eaton (Data compiler)</origin>
+        <origin>Paul Irwin (Data compiler)</origin>
+        <pubdate>20171115</pubdate>
+        <title>COAL_MINE_SURFACE_DNR_IN.SHP: Surface Coal Mines in Indiana (Indiana Department of Natural Resources, Division of Reclamation, Polygon Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Jasonville, Indiana</pubplace>
+          <publish>Indiana Department of Natural Resources, Division of Reclamation</publish>
+        </pubinfo>
+        <othercit>
+NOTE: An Esri file geodatabase named "CMIS_GDB_MAIN.MDB" (containing the polygon feature class named "SURFACE_AFFECTED") was originally provided to
+personnel of the Indiana Geological and Water Survey (IGS) personnel on November 15, 2017, by personnel of the Indiana Department of Natural Resources,
+Division of Reclamation. It has been converted to an Esri point shapefile and has been named "COAL_MINE_SURFACE_DNR_IN.SHP" to conform to naming
+conventions of the IGS. Also, portions of this metadata have adapted content that was originally authored by IDNR personnel.
+
+This shapefile contains information that is related to two additional GIS datasets produced by the Indiana Department of Natural Resources, Division
+of Reclamation: 1) [Coal_Mine_Underground_DNR_IN: Underground Coal Mines in Indiana (Indiana Department of Natural Resources, Division of Reclamation,
+Polygon Shapefile)] and 2) [Coal_Mine_Entries_DNR_IN: Underground Coal Mine Entrances in Indiana (Indiana Department of Natural Resources, Division of
+Reclamation, Point Shapefile)].
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+        <onlink>http://www.in.gov/dnr/reclamation/9310.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+COAL_MINE_SURFACE_DNR_IN.SHP provides the locations of all documented surface coal mines that have operated in the coal region of Indiana since the mid-1880s,
+up to December 31, 2016. COAL_MINE_SURFACE_DNR_IN.SHP is attributed with mine number (IDNR), map number (IDNR), start dates, and end dates.
+
+The following is excerpted from the metadata provided by IDNR, Division of Reclamation, for the source point feature class named "SURFACE_AFFECTED":
+
+"Coal_Mine_Surface_DNR_IN is a polygon-based ESRI ArcGIS shapefile that shows the location and extent of surface coal mines in
+the coal region of west-central and southwestern Indiana. Coal_Mine_Surface_DNR_IN includes mine locations from documented surface
+mines that operated in Indiana since the late 1800s. Coal_Mine_Surface_DNR_IN is attributed to allow the mine polygons to be
+differentiated based on mine number, source information, and dates of mining.
+</abstract>
+      <purpose>
+This data provides access to an Esri polygon shapefile containing the most current information for surface coal mines in Indiana, as provided by
+personnel of the Indiana Department of Natural Resources, Division of Reclamation.
+
+The following is excerpted from the metadata provided by IDNR, Division of Reclamation, for the source point feature class named "SURFACE_AFFECTED":
+
+"Coal_Mine_Surface_DNR_IN is a composite of all surface mine locations in Indiana. It was compiled by the Indiana Geological Survey
+(IGS) as part of a contract deliverable for the Abandoned Mine Lands program of the Indiana Department of Natural Resources, Division
+of Reclamation. Coal_Mine_Surface_DNR_IN incorporates surface mine locations compiled by the IGS in the early 1980s with contemporary
+mine outlines digitized from affected-area maps collected from the Indiana Department of Natural Resources, Division of Reclamation
+and maps collected from the Indiana Bureau of Mines. Original source information for Coal_Mine_Surface_DNR_IN includes company mine
+maps, field maps and notes of IGS Geologists, IGS publications, several series of aerial photographs, and U.S. Geological Survey
+7.5-minute quadrangle maps. All mine data included in Coal_Mine_Surface_DNR_IN are organized in a GIS using ArcGIS software of the
+Environmental Systems Research Institute (ESRI) on the Windows platform. Scale of source data ranges from 1:4,800 to 1:100,000.
+Coal_Mine_Surface_DNR_IN includes attributes which allow the mine polygons to be differentiated based on mine number, source information,
+and dates of mining."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1883</begdate>
+          <enddate>20161231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annual</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.5369</westbc>
+        <eastbc>-86.5040</eastbc>
+        <northbc>40.2158</northbc>
+        <southbc>37.8483</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>economy</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Division of Reclamation (DOR)</themekey>
+        <themekey>Indiana Geological and Water Survey (IGS)</themekey>
+        <themekey>mining</themekey>
+        <themekey>energy resources</themekey>
+        <themekey>economic geology</themekey>
+        <themekey>coal mine</themekey>
+        <themekey>surface mine</themekey>
+        <themekey>strip mine</themekey>
+        <themekey>coal</themekey>
+        <themekey>reclamation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Southwestern Indiana</placekey>
+        <placekey>Illinois Basin</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Esri ArcGIS version 10.4 shapefile format, approximately 6.5 Mb</native>
+    <useconst>Geology--Coal_Mines_Surface</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+This data set was provided by IDNR personnel and is assumed to be accurate.
+
+The following is excerpted from the metadata provided by IDNR, Division of Reclamation, for the source point feature class named "SURFACE_AFFECTED":
+
+"The attribute values were checked to ensure that the values were within the range that should be expected based upon the values of
+the input data that were used to create the shapefile. Two tests for attribute consistency were performed using the QueryBuilder Tool
+in Esri ArcView: (1) Completeness of values was verified. No values were left blank. (2) Validity of values was verified. All features
+were attributed with values in the appropriate range and format."
+</attraccr>
+    </attracc>
+    <logic>Esri ArcInfo polygon topology is present</logic>
+    <complete>
+This data set was provided by IDNR personnel and is assumed to be complete.
+
+The following is excerpted from the metadata provided by IDNR, Division of Reclamation, for the source point feature class named "SURFACE_AFFECTED":
+
+"Coal_Mine_Surface_DNR_IN includes all documented surface mines in Indiana. Coal_Mine_Surface_DNR_IN was compiled by the Indiana
+Geological Survey (IGS) as part of a contract deliverable for the Abandoned Mine Lands program of the Indiana Department of Natural
+Resources, Division of Reclamation.
+
+"All surface coal mines included in this shapefile were compiled as part of the Indiana Coal Mine Information System (CMIS) project at
+the Indiana Geological Survey. The CMIS is an integrated geographic information system (GIS) and database management system (DBMS)
+created to maintain spatial and tabular data related to coal mines in the Indiana portion of the Illinois Basin. The CMIS includes
+spatial mine data compiled from all known sources including: company mine maps (from the Indiana Division of Reclamation; coal
+companies), field maps and notes of IGS Geologists, IGS publications, several series of aerial photographs, and U.S. Geological
+Survey 7.5-minute quadrangle maps. In compiling data for the CMIS, every effort was made to ensure data accuracy and completeness.
+However, it is known that undocumented surface mining has occurred in the study area. Also, because of inconsistency in source map
+quality and completeness, the actual extent of surface mining may not coincide with the boundaries portrayed in this shapefile. A
+detailed on- the-ground survey and historical analysis of a specific site may differ from this shapefile."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+This preliminary data set was provided by IDNR personnel and is assumed to be horizontally accurate, per IDNR standards.
+
+The following is excerpted from the metadata provided by IDNR, Division of Reclamation, for the source point feature class named "SURFACE_AFFECTED":
+
+"Mine outlines included in this shapefile were compiled from several sources with varying map scales. Thus, the horizontal positional accuracy
+of individual polygons may vary. If highly detailed mine location and layout information is needed, contact the Indiana Department of Natural
+Resources, Divison of  Reclamation for additional information. Because of inconsistency in source map quality and completeness, the actual
+extent of surface mining may not coincide with the boundaries portrayed in this shapefile."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the creation of these data. No quantitative tests were performed.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources, Division of Reclamation</origin>
+            <pubdate>20171115</pubdate>
+            <title>CMIS_GDB_MAIN.MDB - polygon feature class named "SURFACE_AFFECTED" - Surface Coal Mines in Indiana (as of December 31, 2016)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Jasonville, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources, Division of Reclamation</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1835</begdate>
+              <enddate>20161231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>CMIS_GDB_MAIN.MDB (polygon feature class named "SURFACE_AFFECTED")</srccitea>
+        <srccontr>
+Surface coal mine locations in Indiana, as of December 31, 2016.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1987</pubdate>
+            <title>1:24,000-scale Surface Coal Mine Maps</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Mylar</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>18831231</begdate>
+              <enddate>19871231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Surface Mine Quadrangle Maps</srccitea>
+        <srccontr>Polygons showing mined areas</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Mine outlines from a variety of sources including company mine maps, field
+maps and notes of IGS Geologists, IGS publications, several series of aerial
+photographs, and U.S. Geological Survey 7.5-minute topographic maps were
+rescaled and hand-plotted on 1:24,000-scale quadrangle maps. This data set,
+comprised of over 100 quadrangle maps, was compiled by IGS personnel in the
+mid-1980s to create the first complete compilation of surface mine locations
+in Indiana.
+</procdesc>
+        <procdate>1985-1988</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Irwin Paul</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>IN</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5812</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>irwinp@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Polygons from the Indiana Geological Survey 1:24,000-scale Surface Mine Coal
+Maps were digitized by Indiana Geological Survey (IGS) personnel in the late
+1980s to create the first coal mine GIS for the IGS and the Indiana Division
+of Reclamation. Outlines were digitized using ESRI PC ArcInfo and geo-referenced
+using 8 tics from 1:24,000-scale quadrangle maps.
+</procdesc>
+        <procdate>1988-1991</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Paul Irwin</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>IN</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5812</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>irwinp@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Data from the early coal mine GIS were converted to a new GIS format and
+updated with new mine data. Using ESRI ArcInfo ver. 7.2.1, polygons were extracted
+from the old GIS coverages and integrated into a new REGION-based GIS format.
+Each polygon was attributed with source information, dates of mining, and coal
+seam data. The resulting reformatted mine coverages (over 4,000 including underground
+and surface coal mines) constitute the primary mine GIS data for the Indiana
+Coal Mine Information System (CMIS), an integrated geographic information system
+and database management system. In addition to the reformatting, over 1,000 mine
+coverages were added to the GIS, including approximately 225 new surface mines, 20
+new underground mines, and nearly 1,200 historic underground mine entrance locations.
+</procdesc>
+        <procdate>1997-1999</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nathan Eaton</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geotechnical Systems Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-0417</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+CMIS mine data were updated with information collected for the Directory of Coal
+Mines and Producers in Indiana - 2000. The update included approximately 40 surface
+mine polygons and 5 underground mine polygons. Most data were received in digital
+format from mining companies and converted to suitable format by IGS personnel.
+</procdesc>
+        <procdate>20000501</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nathan Eaton</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geotechnical Systems Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-0417</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Mine coverages from the Indiana Coal Mine Information System were appended using
+an AML running in ESRI ArcInfo version 7.2.1. This coverage was then projected to UTM zone
+16 Nad 83 using the ESRI ArcView Projector extension.The resulting coverage included all mines
+in the Indiana coal region. COAL_MINE_SURFACE_IN was created in ESRI ArcView by using the ESRI ArcView
+QueryBuilder to select only surface mines and then by using the Convert-to-
+shapefile command to create a new shapefile from the selected data.
+</procdesc>
+        <procdate>20000729</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nathan Eaton</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geotechnical Systems Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-0417</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>neaton@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>ArcInfo surface mine coverages were converted to an ESRI personal geodatabase feature dataset.</procdesc>
+        <procdate>2002</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Becky Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-6641</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Active surface mine outlines were digitized from affected-area maps collected
+annually from the Indiana Department of Natural Resources, Division of Reclamation.
+COAL_MINE_SURFACE_IN was updated to include the updated surface mining areas.
+</procdesc>
+        <procdate>2002 to 2014</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Becky Meyer</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS/Database Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-6641</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>reameyer@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+COAL_MINE_SURFACE_IN was obtained from the Indiana Geological Survey
+as part of a contract deliverable for the Abandoned Mine Lands program of
+the Indiana Department of Natural Resources, Division of Reclamation.
+COAL_MINE_SURFACE_IN was renamed to Coal_Mine_Surface_DNR_IN
+</procdesc>
+        <procdate>20151028</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jill Flachskam</cntper>
+              <cntorg>Indiana Department of Natural Resources, Division of Reclamation</cntorg>
+            </cntperp>
+            <cntpos>GIS Inventory Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing address</addrtype>
+              <address>14619 West State Road 48</address>
+              <city>Jasonville</city>
+              <state>IN</state>
+              <postal>47438</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-665-2207</cntvoice>
+            <cntfax>812-665-5041</cntfax>
+            <cntemail>jflachskam@dnr.in.gov</cntemail>
+            <hours>0800 to 1630 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+An Esri file geodatabase named "CMIS_GDB_MAIN.MDB" (containing the polygon feature class named "SURFACE_AFFECTED") was originally provided to
+personnel of the Indiana Geological and Water Survey (IGS) personnel on November 15, 2017, by personnel of the Indiana Department of Natural Resources,
+Division of Reclamation. The feature class SURFACE_AFFECTED was then converted to an Esri polygon shapefile and was renamed "COAL_MINE_SURFACE_DNR_IN.SHP"
+to conform to naming conventions of the IGS. Also, portions of this metadata have adapted content that was originally authored by IDNR personnel.
+</procdesc>
+        <srcused>CMIS_GDB_MAIN.MDB, SURFACE_AFFECTED (polygon feature class)</srcused>
+        <procdate>20171115</procdate>
+        <srcprod>COAL_MINE_SURFACE_DNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5456</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) an MP (Metadata Parser, v. 2.7.1) software written by Peter Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20171212</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5456</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3131</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>COAL_MINE_SURFACE_DNR_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mine_Number</attrlabl>
+        <attrdef>Mine ID Number</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Reclamation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>200001</rdommin>
+            <rdommax>203374</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year_Start</attrlabl>
+        <attrdef>Approximate date that mine opened ('1001' indicates an uncertain start date)</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Reclamation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1001 (1883)</rdommin>
+            <rdommax>2016</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year_End</attrlabl>
+        <attrdef>Approximate date that mine closed ('9009' and '7007' indicate an uncertain end date)</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Reclamation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1884</rdommin>
+            <rdommax>9009 (2016)</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Map_Number</attrlabl>
+        <attrdef>Internal ID number for source data</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Reclamation</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>
+999993     Aerial Photograph, date uncertain, probably 1940, 1954 or 1978, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999992     Aerial Photograph, 1978, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999991     Aerial Photograph, 1954, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999990     Wier, C.E. and Stanley, J.T., 1953, Distribution, structure, and mined areas of coals in Pike County, Indiana: Indiana Geological Survey Preliminary Coal Map 3.
+999988     Powell, R.L., 1975-1985, Strip mine study work maps: Indiana Geological Survey Coal Files.
+999987     U.S. Geological Survey,  1940-1988,  Indiana Quadrangle Maps, 7.5-minute: Department of the Interior.
+999983     Blunck, D.R. and Carpenter, J.A., 1997, Directory of coal mines and producers in Indiana 1997: Indiana Geological Survey Directory.
+999981     Indiana Bureau of Mines and Mining Safety, 1947-Present, Annual report of the Bureau of Mines and Mining Safety: State of Indiana.
+999973     Hutchison, H.C., 1975, Map of southwest Indiana showing locations of active coal mines: Indiana Geological Survey Miscellaneous Map 7.
+999970     Weir, C.E., 1958, Distribution, structure, and mined areas of coals in Warrick County, Indiana: Indiana Geological Survey Preliminary Coal Map 7.
+999967     Aerial Photograph, 1940, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999961     Weir, C.E. and Powell, R.L., 1967, Distribution, structure, and mined areas of coals in Knox County, Indiana: Indiana Geological Survey Preliminary Coal Map 12.
+999960     Hutchison, H.C., 1971, Distribution, structure, and mined areas of coals in Daviess County, Indiana: Indiana Geological Survey Preliminary Coal Map 15.
+999959     Hutchison, H.C., Field work maps (quadrangles) showing geology and features related to coal and mining: Indiana Geological Survey Coal Records.
+999956     Aerial Photograph, 1974, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999955     Aerial Photograph, 1953, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999954     Aerial Photograph, 1978, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999953     Aerial Photograph, 1981, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999952     Irwin, P.; Hasenmueller, W.; Weber, L., 1983-1986, IGS Coal Mine Database: Indiana Geological Survey Coal Records.
+999950     Hutchison, H.C., 1967, Distribution, structure, and mined areas of coals in Martin County, Indiana: Indiana Geological Survey Preliminary Coal Map 11.
+999948     Hutchison, H.C. and Hasenmueller, W.A., 1988, Distribution, structure, and mined areas of coals in Greene County, Indiana: Indiana Geological Survey Preliminary Coal Map 17.
+999947     Aerial Photograph, 1949, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999946     Kottlowski, Frank, 1960, Geology and coal deposits of the Switz City quadrangle, Greene County, Indiana: Indiana Geological Survey Coal Investigations Map 41.
+999944     Aerial Photograph, 1946, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999943     Aerial Photograph, 1958, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999942     Aerial Photograph, 1937, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999939     Aerial Photograph, 1947, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999934     Aerial Photograph, 1976, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999933     Hutchison, H.C., 1959, Distribution, structure, and mined areas of coals in Spencer County, Indiana: Indiana Geological Survey Preliminary Coal Map 8.
+999932     Aerial Photograph, 1955, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999931     Aerial Photograph, 1950, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999929     Weir, C.E., 1950, Geology and coal deposits of the Jasonville quadrangle, Clay, Greene, and Sullivan Counties, Indiana: Indiana Geological Survey Coal Investigations Map 1.
+999928     Hutchison, H.C., 1960, Geology and coal deposits of the Brazil quadrangles, Indiana: Indiana Geological Survey Bulletin 16.
+999927     Hutchison, H.C., 1971, Distribution, structure, and mined areas of coals in Perry County, Indiana:  Indiana Geological Survey Preliminary Coal Map No. 14.
+999926     Aerial Photograph, 1979, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999925     Hutchison, H.C., 1964, Distribution, structure, and mined areas of coals in Dubois County, Indiana:  Indiana Geological Survey Preliminary Coal Map 10.
+999924     Personal communication with Mine Inspector at Division of Reclamation.
+999922     Aerial Photograph, 1980, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999917     Aerial Photograph, 1984, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999914     Aerial Photograph, 1973, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999912     Aerial Photograph, 1939, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999910     Aerial Photograph, 1983, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999908     Powell, R.L., 1968, Distribution, structure, and mined areas of coals in Parke County and southern Vermillion County, Indiana: Indiana Geological Survey Preliminary Coal Map 13.
+999907     Hutchison, 1961, Distribution, structure, and mined areas of coals in Fountain, Warren and Vermillion Counties, Indiana: Indiana Geological Survey Preliminary Coal Map 3.
+999906     Aerial Photograph, 1960, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+999905     Aerial Photograph, 1972, Photographs interpreted by IGS geologists to determine the extent of areas affected by surface coal mining: Indiana Geological Survey Petroleum Files.
+702256-305545    Original or reproduced company mine map: Indiana Geological Survey Coal Records.
+10002-10544     Photocopies of "interim-period" surface mine permits (permits often include mine maps): Indiana Geological Survey Coal Records.
+5794-1122      Coal data card: Indiana Geological Survey Coal Records.
+</edomv>
+            <edomvd>Map identification number</edomvd>
+            <edomvds>Indiana Department of Natural Resources, Division of Reclamation</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County_Name</attrlabl>
+        <attrdef>Name of the county (or counties) in which the site is located</attrdef>
+        <attrdefs>Indiana Department of Natural Resources, Division of Reclamation</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_area</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_len</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>igsinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological and Water Survey be cited in any products generated from this data. The following citation should be included:
+[COAL_MINE_SURFACE_IN.SHP: Surface Coal Mines in Indiana (Indiana Geological Survey, Scale, 1:24,000, Polygon Shapefile), 20171115].
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological and Water Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological and Water Survey is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20151028</metd>
+    <metrd>20171212</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5456</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGWS. It is not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone other than the IGWS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

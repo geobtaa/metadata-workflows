@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Environmental Management, Office of Land Quality</origin>
+        <pubdate>20150225</pubdate>
+        <title>UST_IDEM_IN: Underground Storage Tanks in Indiana (Indiana Department of Environmental Management, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Environmental Management, Office of Land Quality</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of the Indiana Geological Survey (IGS) by Indiana Department of Environmental Management,
+Office of Land Quality personnel. The data set provided was in an Esri geodatabase format, and was named "IndianaMapUpdate_February2015.gdb."
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+UST_IDEM_IN is a point shapefile that contains regulated underground storage tank locations (including leaking underground storage tanks) in Indiana,
+provided by personnel of Indiana Department of Environmental Management, Office of Land Quality (IDEM, OLQ) as of August 16, 2002 and subsequently
+updated on January 14, 2003, July 11, 2003, June 3, 2004, January 4, 2005, April 25, 2005, July 27, 2006, January 24, 2007, June 4, 2009, April 16, 2010,
+June 25, 2013, and February 25, 2015. The data set provided by IDEM was in an Esri geodatabase format and the feature class was named UST_SITES.
+UST_IDEM_IN is attributed with facility identifications, federal identification numbers, an attribute delineating which tanks are leaking, and addresses.
+Facility information and locational coordinates for state programs were provided by the Underground Tank Group within the Office of Land Quality, Indiana
+Department of Environmental Management.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"The Underground Storage Tank (UST) program is responsible for registering all regulated underground storage tanks and assures
+that all regulated underground storage tanks meet Indiana's requirements for release detection, spill and overflow prevention
+and corrosion protection, and to insure that tanks not meeting those requirements are properly closed. The UST program also
+assures that these protection systems are operated and maintained properly. Regulated underground storage tanks are those USTs
+that have 10% or more of the tank and piping buried beneath the ground and contain a regulated substance, which includes either
+petroleum products or hazardous substances.
+
+Trained staff then went into the field and collected GPS information at managed sites as part of the daily inspection/management
+process. This information was then brought back to the office, processed, and QA/AC'd before being deposited in acentral archive."
+</abstract>
+      <purpose>
+This data set was developed to provide accurate coordinate information for managed facilities and customers of the Indiana
+Department of Environmental Management.
+</purpose>
+      <supplinf>
+This data set generally contains the location of access points to managed sites, an attribute delineating which tanks are leaking,
+along with a unique identifier for each location.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150225</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Based on metadata provided by IDEM, OLQ for the source shapefile named UST_SITES.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.011094</westbc>
+        <eastbc>-84.737700</eastbc>
+        <northbc>41.767865</northbc>
+        <southbc>37.821575</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Environmental Management (IDEM)</themekey>
+        <themekey>Office of Land Quality (OLQ)</themekey>
+        <themekey>underground storage tank (UST)</themekey>
+        <themekey>leaking underground storage tank (LUST)</themekey>
+        <themekey>storage tank</themekey>
+        <themekey>Resourse Conservation Recovery Act (RCRA)</themekey>
+        <themekey>global positioning system (GPS)</themekey>
+        <themekey>access point</themekey>
+        <themekey>managed site</themekey>
+        <themekey>regulated facility</themekey>
+        <themekey>point source</themekey>
+        <themekey>contamination</themekey>
+        <themekey>water quality</themekey>
+        <themekey>hazard</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Esri ArcGIS version 10.3 shapefile format, approximately 7.75 Mb, Microsoft Windows 7 Enterprise, Service Pack 1, Esri ArcCatalog 10.3</native>
+    <useconst>Environment--Storage_Tanks_Underground</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+This data set was provided by IDEM personnel and is assumed to be accurate.
+
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"All attributes created during the process were verified by displaying the lines in the database and verifying consistency.
+However, no formal tests were performed.  Therefore accuracy cannot be guaranteed or verified.  Omissions or null values in
+certain fields is due to the fact that edits were made in the data dictionary (adding or deleting attribute information) as
+the project progressed, information was unknown or mistakenly left out, or the field with the ommission was not relative to
+the method used to collect the data."
+</attraccr>
+    </attracc>
+    <logic>This data set was provided by IDEM personnel and is assumed to be accurate.</logic>
+    <complete>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"This data set consists of locations of Underground Storage Tank Operations within the state of Indiana.  This data set is
+incomplete and a work in progress, as sites are GPS'd as they are inspected.  This data set contains information that represents
+what had been recorded, processed, and archived by IDEM personnel at a time previous to publication.  However the data set may
+be incomplete and/or inaccurate due to the ever-changing status of managed facilities and sites, and due to the data collection
+and processing efforts of IDEM staff.  It is an ever-changing work in progress.  Data were collected by the Underground Storage
+Tank section  within the Office of Land Quality, Indiana Department of Environmental Management. The Section was also responsible
+for collecting attribute information for each location. The data has been QA/QC'd for consistency but no formal tests were
+performed on accuracy.  Therefore accuracy cannot be guaranteed or verified. Omissions or null values in certain fields is due to
+the fact that edits were made in the data dictionary (adding or deleting attribute information) as the project progressed,
+information was unknown or mistakenly left out, or the field with the ommission was not relative to the method used to collect
+the data."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"The data were collected with a GPS GIS-mapping system and Address Matching. The accuracy of the coordinates are from 0-5 meters,
+depending upon the type of GPS instrument used, the collection envrionment (ie., multipath, SNR, and PDOP), and the number of
+positions logged for each location. Each GPS unit should have been configured within the specifications of the manufacturer.
+However, if necessary, the field personnel, would configure the unit outside of specifications if environmental conditions
+warranted. Accuracy was checked by logging both Maximum PDOP and the standard deviations of the positional average of each
+location collected. If maximum PDOP value was 6, the value for the "In_specs" field was input as "NO".
+If the standard deviation was 8, the corrected GPS file was analyzed for signs of multipath and/or outliers, and edited
+accordingly. It was then re-exported to the archive. Addressed matched data had no formal tests for accuracy so accuracy
+for these locations is "unknown". However, the Agency is in the process of upgrading the locational information for
+these sites with GPS data.  Contact the Applied Science Technologies section with questions or for updates. Address Matching
+was performed using ArcCatalog with TIGER 2000 road data.
+If the environmental conditions of the collection session fell within the acceptable ranges for data collection as defined by the
+technical specifications of the instrument used and specific instrument configuration, then the accuracy of the collected
+coordinates should be within those values as given by the manufacturer. The GeoExplorer Unit has an accuracy range of 2 to
+5 meters (post-processed) and the GeoExplorer 3 and 3c a range of 1 to 5 meters (post-processed). If the environmental conditions
+and/or technical configurations were not met, then the values could exceed those given by the manufacturer."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"The vertical accuracy for GPS data collection can be two to three times less accurate than horizontal accuracy. The vertical accuracy for these
+locations could have up to 15 meters of error. However, this accuracy cannot be guaranteed or verified. Height above Ellipsoid values have been
+recorded, but it is strongly suggested that the values not be used for any analysis. Due to the nature of how these values are derived in the
+GPS data collection process, the error variable is large enough to make the coordinate values unuseable in any type of locational analysis."
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>IDEM Office of Land Quality</origin>
+            <pubdate>20150225</pubdate>
+            <title>IndianaMapUpdate_February2015.gdb</title>
+            <edition>1</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>IDEM OLQ</publish>
+            </pubinfo>
+            <othercit>
+IGS personnel requested locational information for underground storage tanks in Indiana from IDEM, OLQ personnel on August 16, 2002. Kevin Miller
+(IDEM, OLQ) provided a CD-ROM that contained the shapefile UST_SITES.SHP. Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata
+on January 14, 2003. Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on August 4, 2003. Shane Moore (IDEM, OLQ) provided an
+updated shapefile and updated metadata on June 3, 2004. Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on January 4, 2005.
+Shane Moore (IDEM, OLQ) provided an updated Esri geodatabase and updated metadata on April 25, 2005. Shane Moore (IDEM, OLQ) provided an updated Esri
+geodatabase and updated metadata on July 27, 2006. Shane Moore (IDEM, OLQ) provided an updated Esri geodatabase and updated metadata on January 24, 2007.
+Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on June 4, 2009. Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on
+April 16, 2010. Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on June 25, 2013. Shane Moore (IDEM, OLQ) provided an Esri geodatabase
+and metadata on February 25, 2015.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>Esri geodatabase</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150225</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by IDEM, OLQ for the source feature class named UST_SITES.</srccurr>
+        </srctime>
+        <srccitea>IndianaMapUpdate_February2015.gdb (feature class UST_SITES)</srccitea>
+        <srccontr>Underground storage tank locations (including leaking tanks) in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+IGS personnel received an Esri shapefile named UST_SITES from IDEM personnel on August 16, 2002. UST_SITES was loaded
+into Esri ArcView 3.3 and the following columns were deleted from the associated attribute table: LONGITUDE, LATITUDE, HAE,
+METHOD, IN_SPECS, REG_PROG, MAX_PDOP, CORR_TYPE, RCVR_TYPE, GPS_DATE, GPS_TIME, DATAFILE, UNFILT_POS, STD_DEV,
+GENERATOR, and 	C_INITIAL. The shapefile was also visually checked to insure that all data points provided actually fell
+within the accepted IGS state boundary. One point was located outside the IGS state boundary, and was deleted (IDENTIFIER =
+9046, COMP_NAME = Matthew T. Mason &amp; John D. Mason). IGS personnel then saved the edited shapefile as UST_IDEM_IN.
+It should also be noted that portions of the associated metadata provided by IDEM for UST_SITES was extracted and included
+in this metadata file.
+</procdesc>
+        <srcused>UST_SITES.SHP</srcused>
+        <procdate>20020905</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated shapefile (and metadata), in the form of an Esri shapefile, named UST_SITES from IDEM
+personnel (Shane Moore) on January 14, 2003. The shapefile was visually checked to insure that all data points provided
+actually fell within the accepted IGS state boundary. IGS personnel then saved the shapefile as UST_IDEM_IN.
+</procdesc>
+        <srcused>UST_SITES.SHP</srcused>
+        <procdate>20030114</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated shapefile (and metadata), in the form of an Esri shapefile, named UST_SITES from IDEM
+personnel (Shane Moore) on August 4, 2003. The shapefile was visually checked to insure that all data points provided
+actually fell within the accepted IGS state boundary. IGS personnel then saved the shapefile as UST_IDEM_IN.
+</procdesc>
+        <srcused>UST_SITES.SHP</srcused>
+        <procdate>20030804</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated shapefile (and metadata), in the form of an Esri shapefile, named UST_SITES from IDEM
+personnel (Shane Moore) on June 3, 2004. The shapefile was visually checked to insure that all data points provided
+actually fell within the accepted IGS state boundary. The shapefile was then edited by removing the following fields
+from the associated attribute table: OBJECTID, HORIZONTAL, NORTHING, EASTING, STANDARD_D, SITE_ADDRE and COUNTY_NAM.
+IGS personnel then saved the shapefile as UST_IDEM_IN.
+</procdesc>
+        <srcused>UST_SITES.SHP</srcused>
+        <procdate>20040603</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated shapefile (and metadata), in the form of an Esri shapefile, named UST_SITES from IDEM
+personnel (Shane Moore) on January 4, 2005. The shapefile was visually checked to insure that all data points provided
+actually fell within the accepted IGS state boundary. The shapefile was then edited by removing the following fields
+from the associated attribute table: OBJECTID, HORIZONTAL, NORTHING, EASTING, STANDARD_D and COUNTY_NAM.
+IGS personnel then saved the shapefile as UST_IDEM_IN.
+</procdesc>
+        <srcused>UST_SITES.SHP</srcused>
+        <procdate>20050104</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ_GPS_DATA_IGS.MDB" from IDEM personnel
+(Shane Moore) on April 25, 2005. OLQ_GPS_DATA_IGS.MDB was loaded into Esri ArcMap 9.0 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+table: OBJECTID, HORIZONTAL, NORTHING, EASTING, STANDARD_D and COUNTY_NAM. IGS personnel then
+saved the edited shapefile as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>OLQ_GPS_DATA_IGS.MDB</srcused>
+        <procdate>20050425</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "GPSDATA_UPDATES.MDB" from IDEM personnel
+(Shane Moore) on July 27, 2006. GPSDATA_UPDATES.MDB was loaded into Esri ArcMap 9.0 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+table: HORIZONTAL, NORTHING, EASTING, STANDARD_D and COUNTY_NAM. IGS personnel then saved the edited shapefile
+as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>GPSDATA_UPDATES.MDB</srcused>
+        <procdate>20060727</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "GPSDATA_UPDATES.MDB" from IDEM personnel
+(Shane Moore) on January 24, 2007. GPSDATA_UPDATES.MDB was loaded into Esri ArcMap 9.2 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+table: HORIZONTAL, NORTHING, EASTING, STANDARD_D and COUNTY_NAM. IGS personnel then saved the edited shapefile
+as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>GPSDATA_UPDATES.MDB</srcused>
+        <procdate>20070124</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ IndianaMap Export-06012009.gdb" from IDEM personnel
+(Shane Moore) on June 4, 2009. "OLQ IndianaMap Export-06012009.gdb" was loaded into Esri ArcMap 9.3.1 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+table: HORIZONTAL, NORTHING, EASTING, STANDARD_D and CITY_NAME. IGS personnel then saved the edited shapefile
+as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>OLQ IndianaMap Export-06012009.gdb</srcused>
+        <procdate>20090604</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ IndianaMap Export-04162010.gdb" from IDEM personnel
+(Shane Moore) on April 16, 2010. "OLQ IndianaMap Export-04162010.gdb" was loaded into Esri ArcMap 9.3.1 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary.
+
+No changes in this dataset were apparent from the last update date on June 4, 2009 so only the metadata was
+edited to reflect this information. No changes to the UST_IDEM_IN.SHP were made.
+</procdesc>
+        <srcused>OLQ IndianaMap Export-04162010.gdb</srcused>
+        <procdate>20100416</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "IndianaMapUpdate_June2013.gdb" from IDEM personnel
+(Shane Moore) on June 25, 2013. "IndianaMapUpdate_June2013.gdb" was loaded into Esri ArcMap 10.1 and the
+subset of data containing underground storage tank locations was exported to an Esri shapefile format. The
+shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+table: AGENCY_INT, LONGITUDE, LATITUDE, METHOD_DES, COLLECTOR_, COLLECTOR1, ACCURACY, ACCURACY_U, GPS_RECEIV, SOURCE_MAP,
+EASTING, and NORTHING. IGS personnel then saved the edited shapefile as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>IndianaMapUpdate_June2013.gdb</srcused>
+        <procdate>20130625</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an updated Esri geodatabase (and metadata) named "IndianaMapUpdate_February2015.gdb" from IDEM personnel (Shane Moore) on
+February 25, 2015. "IndianaMapUpdate_February2015.gdb" was loaded into Esri ArcMap 10.3 and the subset of data containing underground storage tank
+locations was exported to an Esri shapefile format. The shapefile was visually checked to insure that all data points provided actually fell within
+the accepted IGS state boundary. The shapefile was then edited by removing the following fields from the associated attribute table: AGENCY_INT,
+LONGITUDE, LATITUDE, METHOD_DES, COLLECTOR_, COLLECTOR1, ACCURACY, ACCURACY_U, GPS_RECEIV, SOURCE_MAP, EASTING, and NORTHING. IGS personnel then saved
+the edited shapefile as UST_IDEM_IN.SHP to follow internal naming conventions.
+</procdesc>
+        <srcused>IndianaMapUpdate_February2015.gdb</srcused>
+        <procdate>20150225</procdate>
+        <srcprod>UST_IDEM_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150723</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>23927</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>UST_IDEM_IN.DBF</enttypl>
+        <enttypd>Point representing the entrance or a point on the extent of a property containing a regulated underground storage tank</enttypd>
+        <enttypds>Indiana Department of Environmental Management</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REGULATORY</attrlabl>
+        <attrdef>Unique code to idenify the entity</attrdef>
+        <attrdefs>Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management</attrdefs>
+        <attrdomv>
+          <udom>Unique ID for the facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY_I_1</attrlabl>
+        <attrdef>Unique name of the site or facility</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Unique name of the site or facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PROGRAM</attrlabl>
+        <attrdef>The main program name (UT = Underground storage tanks)</attrdef>
+        <attrdefs>OLQ UST Data Dictionary</attrdefs>
+        <attrdomv>
+          <udom>Program in which the facility or entity is managed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUB_PROGRA</attrlabl>
+        <attrdef>A sub group of the main program</attrdef>
+        <attrdefs>OLQ UST Data Dictionary</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>LU</edomv>
+            <edomvd>Leaking underground storage tank</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>"blank"</edomv>
+            <edomvd>Underground storage tank</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REFERENCE_</attrlabl>
+        <attrdef>Describes what is being located at the site</attrdef>
+        <attrdefs>IDEM MAD Codes</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Access Point</edomv>
+            <edomvd>A gate, front door, or entrance that provides access to a managed site from a road or highway</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Boundary (General)</edomv>
+            <edomvd>A border or limit of some entity</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Tank</edomv>
+            <edomvd>Storage container above or below ground that will retain its shape</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Boundary (Property)</edomv>
+            <edomvd>A border or a limit of a property</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Building</edomv>
+            <edomvd>A structure that is built.</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Center</edomv>
+            <edomvd>Approximate geographic center of event, facility, etc.</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pad</edomv>
+            <edomvd>
+An engineered structure of concrete or other man-made material used as a base upon which
+barrels, etc. containing waste are stored. The purpose of the pad is to provide secondary containment.
+</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Perimeter Point</edomv>
+            <edomvd>Any point along the perimeter of a boundary</edomvd>
+            <edomvds>IDEM MAD Codes</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHYSICAL_A</attrlabl>
+        <attrdef>Street address for the site</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Street address for the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPALI</attrlabl>
+        <attrdef>City or town name where the site is located</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>The city or town nearest the location of the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP_CODE</attrlabl>
+        <attrdef>The zip code of site</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>The zip code of site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATA_COLLE</attrlabl>
+        <attrdef>The date that GPS data was collected</attrdef>
+        <attrdefs>IDEM MAD Codes</attrdefs>
+        <attrdomv>
+          <udom>The date the GPS data was collected</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Underground Storage Tank Section, Compliance &amp; Response Branch, Office of Land Quality, Indiana Department of Environmental
+Management be cited in any products generated from this data. The following source citation should be included: [UST_IDEM_IN: Underground Storage Tanks
+in Indiana (Indiana Department of Environmental Management, Point Shapefile), 20150225]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Environmental Management</cntorg>
+          <cntper>Shane Moore</cntper>
+        </cntorgp>
+        <cntpos>OLQ GPS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>100 North Senate Avenue</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46206-6015</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-8726</cntvoice>
+        <cnttdd>317-233-6565</cnttdd>
+        <cntfax>317-233-3403</cntfax>
+        <cntemail>smoore@idem.in.gov</cntemail>
+        <hours>M-F, 6:30am-2:30pm, Eastern Standard Time</hours>
+        <cntinst>For inquiries, please e-mail.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile named UST_SITES:
+
+"DISCLAIMER OF WARRANTIES
+
+THE INDIANA DEPARTMENT OF ENVIRONMENTAL MANAGEMENT (IDEM), ITS EMPLOYEES, SUCCESSORS OR ASSIGNS MAKE NO REPRESENTATIONS
+OR WARRANTIES ABOUT THE COMPLETENESS, SUITABILITY, RELIABILITY, AVAILABILITY AND ACCURACY OF DATA, SOFTWARE, INFORMATION
+OR SERVICES PROVIDED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY INFORMATION RETRIEVED FROM OR DELIVERED TO AN INDIVIDUAL OR ENTITY
+THROUGH THE AUSPICES OF IDEM ARE PROVIDED "AS IS" AND INCLUDES ALL FAULTS WITHOUT ANY EXPRESS OR IMPLIED WARRANTY
+OF ANY KIND.  THE RECIPIENT, OF THE DATA, SOFTWARE, INFORMATION OR SERVICES, ACKNOWLEDGES AND AGREES THAT IT HAS RECEIVED
+ADEQUATE NOTICE THAT USE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES IS AT RECIPIENTS OWN RISK.
+
+IDEM AND OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE AFOREMENTIONED MATERIAL,
+INCLUDING WARRANTIES OF MERCHANTABILITY, TITLE, NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, ACCURACY
+OR COMPLETENESS OF RESPONSES, RESULTS, LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT, QUIET ENJOYMENT, QUIET POSSESSION,
+AND CORRESPONDENCE TO DESCRIPTION. FURTHER THE ABOVE LIST OF DISCLAIMED WARRANTIES IS NOT EXHAUSTIVE AS ANY AND ALL WARRANTIES
+AND CONDITIONS ARE DISCLAIMED. THE ENTIRE RISK ARISING OUT OF THE USE OF OR PERFORMANCE OF THE DATA, SOFTWARE, INFORMATION
+OR SERVICES IS BORNE BY THE RECIPIENT.
+
+EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IDEM OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
+INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR: LOSS OF PROFITS,
+LOSS OF CONFIDENTIAL OR OTHER INFORMATION, BUSINESS INTERRUPTION, PERSONAL INJURY, LOSS OF PRIVACY, FAILURE TO MEET ANY
+DUTY (INCLUDING GOOD FAITH AND REASONABLE CARE), NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER, ARISING
+OUT OF  OR IN ANY WAY RELATED TO THE USE OR INABILITY TO USE, THE DATA, SOFTWARE, INFORMATION OR SERVICES, EVEN IF THE
+RECIPIENT IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  RECIPIENT'S SOLE REMEDY IS TO DISCONTINUE THE USE OF THE DATA,
+SOFTWARE, INFORMATION OR SERVICES."
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020905</metd>
+    <metrd>20150723</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does not
+support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

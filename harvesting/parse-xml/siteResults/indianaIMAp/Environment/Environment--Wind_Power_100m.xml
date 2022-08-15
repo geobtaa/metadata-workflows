@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>TrueWind Solutions, LLC (data creator)</origin>
+        <origin>Michael Brower (data creator)</origin>
+        <origin>National Renewable Energy Laboratory (data creator)</origin>
+        <origin>Indiana Department of Commerce (data provider)</origin>
+        <origin>Indiana Geological Survey (metadata creator)</origin>
+        <origin>Denver Harper (metadata creator)</origin>
+        <origin>Chris Dintaman (metadata creator)</origin>
+        <pubdate>20070905</pubdate>
+        <title>
+WINDPWR100_IN: Mean Wind Power at Height of 100 Meters above Ground, Derived from Mesoscale Atmospheric
+Simulation System and WindMap(TrueWind Solutions, 200-Meter Grid)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+Brower, Michael, 2004, Wind energy resource maps of Indiana: unpublished report to the Indiana Department of Commerce
+prepared by TrueWind Solutions, LLC, 11 p.
+
+The above unpublished report is included in the downloadable file for this layer as a PDF file named "IndianaWindMappingReport.pdf."
+
+This raster layer is one of a set of six showing mean wind speeds and mean wind power at various heights above the
+ground. The six layers are named "WINDSPD30_IN," "WINDSPD50_IN," "WINDSPD70_IN," "WINDSPD100_IN," "WINDPWR50_IN," and
+"WINDPWR100_IN."
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The following is excerpted from an unpublished report by Michael Brower (2004):
+
+"Using the MesoMap system, TrueWind has produced maps of mean wind speed in Indiana for heights of 30, 50, 70, and 100 m above
+ground, as well as a map of wind power at 50 m. TrueWind has also produced data files of the predicted wind speed frequency
+distribution and speed and energy by direction. The maps and data files are provided on a CD with the ArcReader software, which
+will enable users to view, print, copy, and query the maps and wind rose data.
+
+"The MesoMap system consists of an integrated set of atmospheric simulation models, databases, and computers and storage systems.
+At the core of MesoMap is MASS (Mesoscale Atmospheric Simulation System), a numerical weather model, which simulates the physics
+of the atmosphere. MASS is coupled to a simpler wind flow model, WindMap, which is used to refine the spatial resolution of MASS
+and account for localized effects of terrain and surface roughness. MASS simulates weather conditions over a region for 366
+historical days randomly selected from a 15-year period. When the runs are finished, the results are input into WindMap. In this
+project, the MASS model was run on a grid spacing of 1.7 km and WindMap on a grid spacing of 200 m.
+
+"The wind maps show that the best wind resource in Indiana is found in the northcentral part of the state. The mean wind speed at
+50 m height between Indianapolis, Kokomo, and Lafayette, and to the northwest of Lafayette, is predicted to be in the range of
+6.5 to 7 m/s, and the mean wind power is predicted to be about 250 to 350 W/m2, or NREL class 2 to 3. In the rest of northern
+Indiana, the wind speed tends to be around 0.5 m/s lower, and the wind power is a solid class 2. In southern Indiana, a wind
+speed of 4.5 to 6 m/s and a wind power class of 1 to 2 prevails. The main reason for this wind resource distribution pattern is
+that the land is much more forested in the southern half of the state than in the northern half. Topography also plays a role, as
+does the track of the jet stream."
+</abstract>
+      <purpose>
+The following is excerpted from an unpublished report by Michael Brower (2004):
+
+"The Indiana Department of Commerce is interested in assessing the wind resource of Indiana and finding suitable sites for wind
+energy projects. Conventional field techniques of wind resource assessment can be time consuming, however, and often depend heavily
+on local meteorological expertise as well as the availability of reliable and representative wind measurements. Conventional wind
+flow models, on the other hand, have often proven inaccurate in complex wind regimes, and even in moderate terrain their accuracy
+can decline substantially with distance from the nearest available reference mast.
+
+"Mesoscale-microscale modeling techniques offer a solution to these challenges. By combining a sophisticated numerical weather
+model capable of simulating large-scale wind patterns with a microscale wind flow model responsive to local terrain and surface
+conditions, they enable the mapping of wind resources over large regions with much greater accuracy than has been possible in the
+past. In addition, they do not require surface wind data to make reasonably accurate predictions. While on-site measurements are
+still required to confirm the predicted wind resource at any particular location, mesoscale-microscale modeling can greatly
+reduce the time and cost to identify and evaluate potential wind project sites.
+
+"The objective of the current project was to use MesoMap to create high-resolution wind resource maps of Indiana and to provide
+wind resource data in a format enabling the Indiana Department of Commerce to assess potential sites in a GIS. These objectives
+have been met. In the following sections, we describe the MesoMap system and mapping process in detail; how MesoMap was applied
+in this project; the validation process and results; the final wind maps and data files; and guidelines for the use of the maps."
+</purpose>
+      <supplinf>
+The following is excerpted from an unpublished report by Michael Brower (2004):
+
+"The MesoMap system has three main components: models, databases, and computer systems.
+
+"At the core of the MesoMap system is MASS (Mesoscale Atmospheric Simulation System), a numerical weather model that has been
+developed over the past 20 years by TrueWind partner MESO, Inc., both as a research tool and to provide commercial weather
+forecasting services. MASS simulates the fundamental physics of the atmosphere including conservation of mass, momentum, and
+energy, as well as the moisture phases, and it contains a turbulent kinetic energy module that accounts for the effects of
+viscosity and thermal stability on wind shear. As a dynamical model, MASS simulates the evolution of atmospheric conditions in
+time steps as short as a few seconds. This creates great computational demands, especially when running at high resolution.
+Hence MASS is usually coupled to a simpler but much faster program, WindMap, a mass-conserving wind flow model. Depending on
+the size and complexity of the region and requirements of the client, WindMap is used to improve the spatial resolution of the
+MASS simulations to account for the local effects of terrain and surface roughness variations.
+
+"The MASS model uses a variety of online, global, geophysical and meteorological databases. The main meteorological inputs are
+reanalysis data, rawinsonde data, and land surface measurements. The reanalysis database – the most important – is a gridded
+historical weather data set produced by the US National Centers for Environmental Prediction (NCEP) and National Center for
+Atmospheric Research (NCAR). The data provide a snapshot of atmospheric conditions around the word at all levels of the atmosphere
+in intervals of six hours. Along with the rawinsonde and surface data, the reanalysis data establish the initial conditions as
+well as updated lateral boundary conditions for the MASS runs. The MASS model itself determines the evolution of atmospheric
+conditions within the region based on the interactions among different elements in the atmosphere and between the atmosphere
+and the surface. Because the reanalysis data are on a relatively coarse, 200 km grid, MASS is run in several nested grids of
+successfuly finer mesh size, each taking as input the output of the previous nest, until the desired grid scale is reached. This
+is to avoid generating noise at the boundaries that can result from large jumps in grid cell size. The outermost grid typically
+extends several thousand kilometers.
+
+"The main geophysical inputs are elevation, land cover, vegetation greenness (normalized differential vegetation index, or
+NDVI), soil moisture, and sea-surface temperatures. The global elevation data normally used by MesoMap were produced by the
+US Geological Survey in a gridded digital elevation model, or DEM, format from a variety of data sources.1 The US Geological
+Survey, the University of Nebraska, and the European Commission’s Joint Research Centre (JRC) produced the global land cover
+data in a cooperative project. The land cover classifications are derived from the interpretation of Advanced Very High
+Resolution Radiometer (AVHRR) data – the same data used to calculate the NDVI. The model translates both land cover and
+NDVI data into physical parameters such as surface roughness, albedo, and emissivity. The nominal spatial resolution of
+all of these data sets is 1 km. Thus, the standard output of the MesoMap system is a 1 km gridded wind map. However, much
+higher resolution maps can be produced where the necessary topographical and land cover data are available. In the United
+States, the resolution is typically 100 to 400 m.
+
+"The MesoMap system creates a wind resource map in several steps. First, the MASS model simulates weather conditions over
+366 days selected from a 15-year period. The days are chosen through a stratified random sampling scheme so that each month
+and season is represented equally in the sample; only the year is randomized. Each simulation generates wind and other weather
+variables (including temperature, pressure, moisture, turbulent kinetic energy, and heat flux) in three dimensions throughout
+the model domain, and the information is stored at hourly intervals. When the runs are finished, the results are compiled into
+summary data files, which are then input into the WindMap program for the final mapping stage. The two main products are
+usually (1) color-coded maps of mean wind speed and power density at various heights above ground and (2) data files containing
+wind speed and direction frequency distribution parameters. The maps and data can then be compared with land and ocean surface
+wind measurement, and if significant discrepancies are observed, adjustments to the wind maps can be made."
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20040315</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.687570</westbc>
+        <eastbc>-84.223033</eastbc>
+        <northbc>42.086677</northbc>
+        <southbc>37.434122</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>energy</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>National Renewable Energy Laboratory (NREL)</themekey>
+        <themekey>TrueWind Solutions</themekey>
+        <themekey>Indiana Department of Commerce</themekey>
+        <themekey>MesoMap</themekey>
+        <themekey>atmosphere</themekey>
+        <themekey>atmospheric simulation</themekey>
+        <themekey>alternative energy</themekey>
+        <themekey>wind map</themekey>
+        <themekey>wind energy</themekey>
+        <themekey>wind speed</themekey>
+        <themekey>wind resource</themekey>
+        <themekey>wind power</themekey>
+        <themekey>wind</themekey>
+        <themekey>Geographic Information System (GIS)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780, ESRI raster grid, 20.1 MB.</native>
+    <useconst>Environment--Wind_Power_100m</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from an unpublished report by Michael Brower (2004):
+
+"In collaboration with the National Renewable Energy Laboratory, TrueWind subsequently validated the wind maps using data
+from 22 stations. The data were first extrapolated to a height of 50 m. The predicted wind speeds are on average about
+0.3 m/s higher than the observed/extrapolated speeds. The root-mean-square discrepancy is 0.6 m/s, or about 10% of the
+average of all the stations. After accounting for uncertainty in the data, we estimated the map error margin (one sigma)
+to be 0.5 m/s, or 8.5%. The error margin in meters/second is comparable to that obtained in other MesoMap projects, but
+in percentage terms it is somewhat larger than usual. This is mainly because of the moderate average speed (5.9 m/s at
+50 m) of the Indiana stations. In addition, the validation sample includes data from five stations which have rather
+low mean speeds compared to other stations in their vicinity. If these stations are excluded, the mean bias becomes
+0.1 m/s, and the rms discrepancy becomes 0.4 m/s, or 6%, which is comparable to the error margin of the data.
+
+"While the validation confirmed the overall accuracy of the maps, it also revealed some areas where MesoMap appears to have
+either underestimated or overestimated the wind resource to a moderate degree. With the agreement of NREL, we adjusted the
+predicted wind speed and power in parts of central and southwestern Indiana."
+
+See the file "IndianaWindMappingReport.pdf" for additional information.
+</attraccr>
+    </attracc>
+    <logic>Not available</logic>
+    <complete>Not available</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>See the file "IndianaWindMappingReport.pdf" for information regarding accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>See the file "IndianaWindMappingReport.pdf" for information regarding accuracy.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>TrueWind Solutions, LLC, and Indiana Department of Commerce</origin>
+            <pubdate>20040315</pubdate>
+            <title>Wind energy resource maps</title>
+            <geoform>Raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Albany, New York</pubplace>
+              <publish>AWS TrueWind, LLC</publish>
+            </pubinfo>
+            <onlink>http://www.awstruewind.com/inner/windmaps/Indiana.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040315</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data publication date</srccurr>
+        </srctime>
+        <srccitea>Six raster layers - "WINDSPD30_IN," "WINDSPD50_IN," "WINDSPD70_IN," "WINDSPD100_IN," "WINDPWR50_IN," and "WINDPWR100_IN"</srccitea>
+        <srccontr>Six raster layers showing mean wind speeds and mean wind power at various heights above the ground.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey received six raster layers from Paul Cummings of the Indiana Department of Commerce.
+The six layers were renamed to match naming standards of the Indiana Geological Survey.
+The layers were reprojected from GCS WGS 1984 to Universal Transverse Mercator (UTM), Zone 16, NAD83.
+</procdesc>
+        <srcused>in_spd30m, in_spd50m, in_spd70m, in_spd100m, in_pwr50m, in_pwr100m</srcused>
+        <procdate>20070905</procdate>
+        <srcprod>WINDSPD30_IN, WINDSPD50_IN, WINDSPD70_IN, WINDSPD100_IN, WINDPWR50_IN, WINDPWR100_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software
+written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20070905</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday - Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>2566</rowcount>
+      <colcount>1847</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WINDPWR100_IN.VAT</enttypl>
+        <enttypd>GRID Value Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Mean wind-power density at a height of 100 meters above ground</attrdef>
+        <attrdefs>TrueWind Solutions</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>118</rdommin>
+            <rdommax>676</rdommax>
+            <attrunit>Watts per square meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The following
+source citation must be included: WINDPWR100_IN: Mean Wind Power at Height of 100 Meters above Ground, Derived from
+Mesoscale Atmospheric Simulation System and WindMap(TrueWind Solutions, 200-Meter Grid).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be
+free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove,
+Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070905</metd>
+    <metrd>20070905</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1369</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <pubdate>20020717</pubdate>
+        <title>
+KARST_MM65_IN: Sinkhole Areas and Sinking-Stream Basins in Southern Indiana
+(Indiana Geological Survey, 1:126,720, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+A predecessor coverage, named SHA_SSB, was subsequently used in the publication of the following
+maps: (1) Powell, R. L., Frushour, S. S., and Harper, D., 1997, Areas of sinkholes and sinking-stream
+basins, with cave locations, in southeastern Indiana, Indiana Geological Survey Miscellaneous Map 64.
+(2) Powell, R. L., Frushour, S. S., and Harper, D., 1997, Areas of sinkholes and sinking-stream basins,
+with cave locations and springs, in south-central Indiana, Indiana Geological Survey Miscellaneous Map
+65.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+KARST_MM65_IN is a polygon shapefile that shows sinkhole areas and sinking-stream basins associated with
+rocks of Silurian, Devonian, and Mississippian age in southern Indiana.
+</abstract>
+      <purpose>
+KARST_MM65_IN was derived from a coverage named SHA_SSB. The purpose of SHA_SSB was
+to compile unpublished work maps of Richard L. Powell, a former employee of the Indiana Geological Survey
+(IGS), showing certain karst-associated features of southern Indiana and to bring those maps to
+publication by the IGS.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1970</begdate>
+          <enddate>1997</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-86.9488</westbc>
+        <eastbc>-84.9624</eastbc>
+        <northbc>39.6726</northbc>
+        <southbc>37.9715</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey</themekey>
+        <themekey>IGS</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>karst</themekey>
+        <themekey>sinkhole areas</themekey>
+        <themekey>sinking-stream basins</themekey>
+        <themekey>MM65</themekey>
+        <themekey>Miscellaneous Map 65</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Washington County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView 3.2 shapefile format, approximately 954 Kb</native>
+    <useconst>Hydrology--Karst_Sinkhole_Areas</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+KARST_MM65_IN contains one internal attribute that identifies sinkhole areas (SHA) and sinking-stream basins
+(SSB). This attribute is based on Richard L. Powell's work maps and is assumed to be accurate to the source
+scale. Values of attributes were visually inspected and compared with values appearing on the source work
+maps.
+</attraccr>
+    </attracc>
+    <logic>ESRI ArcView 3.2 shapefile format.</logic>
+    <complete>
+SHA refers to sinkhole areas larger than 80 acres. Some sinkholes may exist outside the areas delineated
+as SHA, and some sinkholes may exist within the areas designated as SSB, but such areas are not shown
+in this shapefile.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding horizontal positional accuracy of this shapefile. The coordinates used in
+georeferencing the predecessor coverage, SHA_SSB, were derived from corners of township and range
+lines that appeared on the source work maps (scale approximately equal to 1:124,640 and 1:126,720).
+No quantitative tests were performed.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the production
+of this shapefile.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1997</pubdate>
+            <title>
+Areas of Sinkholes and Sinking-Stream Basins in
+South-Central and Southeastern Indiana.
+</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>Unpublished work maps of Richard L. Powell</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>126,720</srcscale>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1970</begdate>
+              <enddate>1997</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>None</srccitea>
+        <srccontr>Unpublished work maps of Richard L. Powell</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+After paper source maps were acquired from Richard L. Powell, personnel of the Indiana Geological
+Survey traced the polygons onto tracing paper. Personnel then scanned the tracings using a widebed
+black-and-white scanner, digitized the scans using an automatic tracer program to create a coverage
+named SHA_SSB, georeferenced SHA_SSB using ESRI ArcInfo 7.1, and attributed the coverage using ESRI ArcInfo 7.1.
+</procdesc>
+        <srcused>Paper source maps and Mylar tracings</srcused>
+        <procdate>1995</procdate>
+        <srcprod>SHA_SSB</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The original coverage, SHA_SSB, was reprojected using NAD83. This coverage was then clipped to
+another coverage named INCLP83, a boundary coverage for the State of Indiana (compiled at
+a scale of 1:24,000). The resulting shapefile was named KARST_MM65_IN.
+</procdesc>
+        <srcused>SHA_SSB</srcused>
+        <procdate>20020319</procdate>
+        <srcprod>KARST_MM65_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@exchange.indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20020827</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1201</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>karst_mm65_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Draintype</attrlabl>
+        <attrdef>Type of drainage</attrdef>
+        <attrdefs>Denver Harper, Indiana Geological Survey (IGS)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SHA</edomv>
+            <edomvd>Sinkhole area</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>SSB</edomv>
+            <edomvd>Sinking-stream basin</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [KARST_MM65_IN: Sinkhole Areas and Sinking-Stream Basins in Southern Indiana
+(Indiana Geological Survey, 1:126,720, Polygon Shapefile)]
+WARRANTY
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020717</metd>
+    <metrd>20020827</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Center for Geospatial Data Analysis (CGDA)</origin>
+        <origin>Henry H. Gray (Data compiler)</origin>
+        <origin>Sally L. Letsinger  (GIS compiler)</origin>
+        <pubdate>20100510</pubdate>
+        <title>WISCONSIN_GLACIAL_LIMIT_IN: Extent of Wisconsin glaciation in Indiana (Indiana Geological Survey, 1:500,000, Line Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+
+This shapefile was derived by extracting and interpreting elements of a preexisting published digital data source:
+SURFICIAL_GEOL_MM49_IN: Quaternary geologic map of Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile)
+</othercit>
+        <onlink>http://inmap.indiana.edu/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>WISCONSIN_GLACIAL_LIMIT_IN.shp is a line shapefile that shows the Wisconsin glacial limit in Indiana as delineated by mapped glacial deposits at a scale of 1:500,000. The mapped units include glacial till that is interpreted to have been deposited during the Wisconsin Glaciation. The last major expansion of the North American Laurentide Ice Sheet occured in the Wisconsin glacial episode.</abstract>
+      <purpose>
+WISCONSIN_GLACIAL_LIMIT_IN.shp was derived from a polygon shapefile named "SURFICIAL_GEOL_MM49_IN.shp," which, in turn, was derived from Gray, H. H., 1989, Quaternary geologic map of Indiana, Indiana Geological Survey Miscellaneous Map 49.
+WISCONSIN_GLACIAL_LIMIT_IN.shp was created to provide a digital format of the Wisconsin glacial limit in the state of Indiana, suitable for use in a GIS.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1989</begdate>
+          <enddate>1989</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.5336</westbc>
+        <eastbc>-84.8049</eastbc>
+        <northbc>39.7872</northbc>
+        <southbc>39.0717</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Center for Geospatial Data Analysis (CGDA)</themekey>
+        <themekey>Geology</themekey>
+        <themekey>Surficial Geology</themekey>
+        <themekey>Quaternary</themekey>
+        <themekey>Wisconsin glaciation</themekey>
+        <themekey>Laurentide ice sheet</themekey>
+        <themekey>glaciation</themekey>
+        <themekey>continental glaciation</themekey>
+        <themekey>glacial till</themekey>
+        <themekey>diamict</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Vigo County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS (v 9.3.1) Shapefile format, Microsoft Windows XP, approximately 108 KB</native>
+    <useconst>Geology--Glacial_Wisconsin_Glacial_Limit</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following note appears on the published source map (Gray, 1989): This map was prepared
+using data from many sources, among the most important being earlier geologic work of Frank
+Leverett, C. A. Malott, W. D. Thornbury, W. J. Wayne, A. F. Schneider, A. M. Gooding, and
+G. H. Johnson. These were supplemented by field investigations, soils maps, and drilling
+data.
+
+Tests for attribute consistency were performed by CGDA personnel:
+(a) Completeness of values were verified. Attribute values in the shapefile were confirmed to be present
+in the original digital source polygon shapefile. No values were left blank, unless appropriate.
+(b) Validity of values was verified. All values were checked for spelling and capitalization.
+</attraccr>
+    </attracc>
+    <logic>Exact duplication of line segments of the polygons representing the southern extent of Wisconsinan glacial sediment deposition as represented in SURFICIAL_GEOL_MM49_IN: Quaternary Geologic Map of Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile) was checked and verified. Rigorous edgematching or snapping was not conducted on the digitized "gap fill" line segments representing the inferred location of the glacial limit; however, the line segments were digitized at a zoom scale of 1:10,000, so the lines should be sufficiently smooth and continuous for use at the recommended scale (1:500,000).</logic>
+    <complete>
+The digital shapefile was derived with modifications from a preexisting published digital polygon shapefile
+(Gray, 1989) and is assumed to embody the same definitions and generalizations as were
+used in the creation of the published map. Lines digitized between mapped glacial units to create a continuous boundary included added spatial generalities to the data set in those areas. These line segments were assigned attributes in the fields "SYMBOL" and "LIMIT" so they can be easily identified.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding horizontal positional accuracy of this shapefile. Where glacial deposits are mapped at the ground surface, the positional accuracy of the original mapping is estimated by the author to be in the range of 20 meters. However, the coordinates used in this layer were derived from surface geology polygons published at 1:500,000-scale, which equates to a horizontal accuracy of 254 meters. No quantitative tests were performed.
+
+The following is excerpted from H. H. Gray (in preparation) regarding the glacial limit represented in this data layer, "The [Wisconsin] boundary is easier to comprehend and locate with some precision.North of that line, designated the Wisconsin glacial boundary, deposits of till, a complex of materials directly deposited by ice, are widespread. Typically nonstratified and nonsorted, not having been much worked over by the vast volumes of meltwater that emanated from the glaciers, tills of Wisconsin age yield soils that clearly indicate their relatively recent origin. These soils are so distinct from the soils formed on older materials that in many places the vanished margin of the ice can be determined within a very few meters laterally. This boundary is broken by stream valleys as wide as a few kilometers, but other than these it may be drawn confidently across the entire state. "
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy of the published paper
+source map is unknown. Other than using the same vertical datum as the source data, vertical positional accuracy was not a factor in the digital production of this data set. No quantitative tests were performed. Vertical accuracy of the published paper source map is unknown.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1989</pubdate>
+            <title>Quaternary geologic map of Indiana</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Paper map</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1989</begdate>
+              <enddate>1989</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Indiana Geological Survey Miscellaneous Map 49</srccitea>
+        <srccontr>The attributes of the source polygon shapefile from which these data were derived from the source paper map and the lines obtained by vectorization of the source Mylar separate.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20020320</pubdate>
+            <title>SURFICIAL_GEOL_MM49_IN: Quaternary geologic map of Indiana (Indiana Geological Survey, 1:500,000, Polygon Shapefile)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20020320</begdate>
+              <enddate>20020320</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>SURFICIAL_GEOL_MM49_IN.shp</srccitea>
+        <srccontr>The attributes of this shapefile were derived by extracting and interpreting features relevant to the identification of the Pleistocene Wisconsin glacial limit in Indiana from this source polygon data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Attributes of the original polygon shapefile, SURFICIAL_GEOL_MM49_IN.shp, were queried to identify mapped units associated with glacial till interpreted to have been deposited during the Pleistocene Wisconsin glaciation in Indiana. The features were exported to a temporary polygon shapefile. Polygons meeting the criteria that were not at the southern extent were deleted. The remaining polygons in that shapefile were converted to line features and the original attributes were retained. Using ESRI ArcMap Editor, the features in the working line shapefile were edited to retain only the southernmost boundaries of the mapped glacial units. The glacial units are not continuous at the glacial limit because of erosion in stream valleys. In these locations, the mapped limit line fragments were connected at their southernmost extents across valleys by newly digitized (and generalized) shortest-path line features to create a continuous boundary.</procdesc>
+        <srcused>SURFICIAL_GEOL_MM49_IN.shp</srcused>
+        <procdate>20091217</procdate>
+        <srcprod>WISCONSIN_GLACIAL_LIMIT_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The attribute table of the new shapefile "WISCONSIN_GLACIAL_LIMIT_IN.shp" was edited to remove attributes from the original source polygon shapefile. The following attribute fields were removed, "DESCRIPTIO" and "DEPOSITION." A new attribute field was added, "LIMIT." The mapped glacial till units were assigned the attribute "Wisconsinan glacial deposits," whereas the "gap fill" line segments were assigned an attribute "Limit inferred" in new "LIMIT" field; in the retained "SYMBOL" field, a new attribute "gap" was entered for the inferred line segments. One other field (i.e., "GEOLOGIC_A") and attributes were retained from the original polygon shapefile and renamed "GEOL_AGE".</procdesc>
+        <srcused>WISCONSIN_GLACIAL_LIMIT_IN.shp</srcused>
+        <procdate>20100215</procdate>
+        <srcprod>WISCONSIN_GLACIAL_LIMIT_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20100316</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>71</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>WISCONSIN_GLACIAL_LIMIT_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Symbol</attrlabl>
+        <attrdef>Symbol designations derived from Indiana Geological Survey Miscellaneous Map 49. Although some overlap occurs in the descriptions, the attributes were retained for lineage documentation purposes.</attrdef>
+        <attrdefs>Indiana Geological Survey Miscellaneous Map 49</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>gap</edomv>
+            <edomvd>Inferred location of glacial limit; connects known locations of glacial till deposits of Wisconsin age.</edomvd>
+            <edomvds>Center for Geospatial Data Analysis</edomvds>
+          </edom>
+          <edom>
+            <edomv>ma</edomv>
+            <edomvd>Loam till interpreted to be deposited by the Huron-Erie ice lobe.</edomvd>
+            <edomvds>Indiana Geological Survey Miscellaneous Map 49</edomvds>
+          </edom>
+          <edom>
+            <edomv>mv</edomv>
+            <edomvd>Loam till interpreted to be deposited by the Lake Michigan ice lobe.</edomvd>
+            <edomvds>Indiana Geological Survey Miscellaneous Map 49</edomvds>
+          </edom>
+          <edom>
+            <edomv>ta</edomv>
+            <edomvd>Loam till interpreted to be deposited by the Huron-Erie ice lobe.</edomvd>
+            <edomvds>Indiana Geological Survey Miscellaneous Map 49</edomvds>
+          </edom>
+          <edom>
+            <edomv>tb</edomv>
+            <edomvd>Loam till interpreted to be deposited by the Huron-Erie ice lobe.</edomvd>
+            <edomvds>Indiana Geological Survey Miscellaneous Map 49</edomvds>
+          </edom>
+          <edom>
+            <edomv>tv</edomv>
+            <edomvd>Loam till interpreted to be deposited by the Lake Michigan ice lobe.</edomvd>
+            <edomvds>Indiana Geological Survey Miscellaneous Map 49</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Geol_age</attrlabl>
+        <attrdef>Geologic age of deposits (as related to Quaternary Geology)</attrdef>
+        <attrdefs>Indiana Geological Survey Miscellaneous Map 49</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Limit</attrlabl>
+        <attrdef>Identification of mapped versus inferred glacial limit line segments.</attrdef>
+        <attrdefs>Center for Geospatial Data Analysis</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Limit inferred</edomv>
+            <edomvd>Inferred or estimated location of glacial limit where no glacial deposits are present at the ground surface to map the glacial limit. These areas typically occur in valleys where the glacial materials are presumed to have once existed, but have subsequently been eroded away.</edomvd>
+            <edomvds>Center for Geospatial Data Analysis</edomvds>
+          </edom>
+          <edom>
+            <edomv>Wisconsinan glacial deposits</edomv>
+            <edomvd>Mapped location of Wisconsin glacial till deposits representing the Wisconsin glacial limit in Indiana.</edomvd>
+            <edomvds>Center for Geospatial Data Analysis</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+
+COPYRIGHT 2010, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [WISCONSIN_GLACIAL_LIMIT_IN: Extent of Wisconsin glaciation in Indiana (Indiana Geological Survey, 1:500,000, Line Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20100510</metd>
+    <metrd>20100510</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Sally L. Letsinger</cntper>
+          <cntorg>Indiana Geological Survey, Center for Geospatial Data Analysis</cntorg>
+        </cntperp>
+        <cntpos>Research Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1356</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>sletsing@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

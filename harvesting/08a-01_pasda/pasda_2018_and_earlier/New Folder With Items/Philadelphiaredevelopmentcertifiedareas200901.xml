@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Philadelphia</origin>
+        <pubdate>200901</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Philadelphia redevelopment certified areas</title>
+        <edition>1.0</edition>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <serinfo>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Philadelphia, PA</pubplace>
+          <publish>City of Philadelphia</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <lworkcit>
+        </lworkcit>
+        <ftname Sync="TRUE">Philadelphiaredevelopmentcertifiedareas200901</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200901</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-75.265523</westbc>
+        <eastbc Sync="TRUE">-75.013083</eastbc>
+        <northbc Sync="TRUE">40.086501</northbc>
+        <southbc Sync="TRUE">39.870690</southbc>
+      </bounding>
+      <dsgpoly>
+        <dsgpolyo>
+          <gring>
+          </gring>
+        </dsgpolyo>
+        <dsgpolyx>
+          <gring>
+          </gring>
+        </dsgpolyx>
+      </dsgpoly>
+      <lboundng>
+        <leftbc Sync="TRUE">2665728.250000</leftbc>
+        <rightbc Sync="TRUE">2734238.979754</rightbc>
+        <bottombc Sync="TRUE">207582.265625</bottombc>
+        <topbc Sync="TRUE">284206.885944</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Philadelphia</placekey>
+        <placekey>City of Philadelphia</placekey>
+      </place>
+      <stratum>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+      </temporal>
+    </keywords>
+    <accconst>Freely distributed</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>City of Philadelphia </cntorg>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19102</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(215) 686-7817</cntvoice>
+        <cntfax>(215) 686-7812</cntfax>
+        <hours>7:30 am - 4:30 pm</hours>
+        <cntinst>If unavailable and immediate assistance is needed, contact Mark DiSilvestro.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+    </browse>
+    <secinfo>
+    </secinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <crossref>
+    </crossref>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>Philadelphiaredevelopmentcertifiedareas200901</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <qvertpa>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="Philadelphiaredevelopmentcertifiedareas200901">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">82</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="Philadelphiaredevelopmentcertifiedareas200901">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">82</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">survey feet</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+      <depthsys>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="Philadelphiaredevelopmentcertifiedareas200901">
+      <enttyp>
+        <enttypl Sync="TRUE">Philadelphiaredevelopmentcertifiedareas200901</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">82</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attalias Sync="TRUE">AREA</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attalias Sync="TRUE">PERIMETER</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RDA_</attrlabl>
+        <attalias Sync="TRUE">RDA_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RDA_ID</attrlabl>
+        <attalias Sync="TRUE">RDA_ID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">YEAR</attrlabl>
+        <attalias Sync="TRUE">YEAR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATUS</attrlabl>
+        <attalias Sync="TRUE">STATUS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City of Philadelphia - GIS Working Group</cntorg>
+        </cntorgp>
+        <cntaddr>
+        </cntaddr>
+      </cntinfo>
+    </distrib>
+    <distliab>This dataset contains errors that are an artifact of the interpretation, source material and conversion process. The data and documentation are provided "as is." The City of Philadelphia (CITY) makes no warranty or representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance or accuracy. The CITY will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the data or any accompanying documentation. The CITY is working to correct errors found in its datasets. Users discovering errors or making corrections to the data are requested to report such errors to the CITY at 215-686-XXXX</distliab>
+    <custom>THE CITY OF PHILADELPHIA DOES NOT CURRENTLY HAVE A COMMERCIAL DISTRIBUTION POLICY.</custom>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.054</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <dssize Sync="TRUE">0.054</dssize>
+          <transize Sync="TRUE">0.054</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20090130</metd>
+    <metrd>6/9/2000</metrd>
+    <metfrd>6/9/2001</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Michelle Guldalian</cntper>
+          <cntorg>City of Philadelphia - Streets Department (Sanitation Division)</cntorg>
+        </cntperp>
+        <cntpos>GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1401 JFK Blvd. - MSB - Suite 740</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19102</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(215) 686-7817</cntvoice>
+        <cnttdd>
+        </cnttdd>
+        <cntfax>(215) 686-7812</cntfax>
+        <cntemail>michelle.guldalian@phila.gov</cntemail>
+        <hours>7:30 am - 4:30 pm</hours>
+        <cntinst>If unavailable and immediate assistance is needed, contact Mark DiSilvestro.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metsi>
+      <metscs>No security considerations</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>N/A</metshd>
+    </metsi>
+    <metextns>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20090130</ModDate>
+    <ModTime>09303500</ModTime>
+    <MetaID>{943B5C26-966B-447B-8E8F-1F990046BD7A}</MetaID>
+    <CreaDate>20090130</CreaDate>
+    <CreaTime>09234700</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20090130</SyncDate>
+    <SyncTime>09303500</SyncTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20090130</mdDateSt>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Philadelphiaredevelopmentcertifiedareas200901</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">2665728.25</westBL>
+          <eastBL Sync="TRUE">2734238.979754</eastBL>
+          <northBL Sync="TRUE">284206.885944</northBL>
+          <southBL Sync="TRUE">207582.265625</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-75.265523</westBL>
+      <eastBL Sync="TRUE">-75.013083</eastBL>
+      <northBL Sync="TRUE">40.086501</northBL>
+      <southBL Sync="TRUE">39.87069</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Philly\PASDA_Jan2009\Philadelphiaredevelopmentcertifiedareas200901.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.054</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="Philadelphiaredevelopmentcertifiedareas200901">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">82</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+</metadata>

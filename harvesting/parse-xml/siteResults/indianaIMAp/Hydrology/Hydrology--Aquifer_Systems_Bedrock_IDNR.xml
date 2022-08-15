@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Natural Resources, Division of Water</origin>
+        <pubdate>20111028</pubdate>
+        <title>AQUIFER_SYSTEMS_BEDROCK_IDNR_IN: Bedrock Aquifer Systems of Indiana (Indiana Department of Natural Resources, 1:500,000, Polygon Shapefile)</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Natural Resources, Division of Water</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was derived and modified from a pre-existing published paper map:
+Gray, H.H., Ault, C.H., and Keller, S.J., 1987, Bedrock Geologic Map of Indiana, Indiana Geological Survey Miscellaneous Map 48, which was at a 1:500,000 scale.
+Digital coverage of the Bedrock Geologic Map of Indiana was created by the Indiana Geological Survey (polygon shapefile, 20020318).
+
+The Aquifer System attributes were added to the shapefile by the Indiana Department of Natural Resources, Division of Water. Several units were merged based on
+common hydrogeologic characteristics and the lines separating the units were removed. This data set was provided to personnel of the Indiana Geological Survey
+(IGS) on October 28, 2011 by Indiana Department of Natural Resources, Division of Water personnel. The data was provided in an ESRI shapefile format, and was named
+"AQUIFER_SYSTEMS_BEDROCK_IDNR_IN.SHP". This file was approved for public distribution by the Indiana Department of Natural Resources (IDNR), Division of Water (DOW).
+</othercit>
+        <onlink>http://inmap.indiana.edu/viewer.htm</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+AQUIFER_SYSTEMS_BEDROCK_IDNR_IN is a polygon shapefile that shows bedrock aquifer systems of the State of Indiana. The source scale of the map depicting the
+aquifers was 1:500,000. The attribute table for the aquifer system units include aquifer system name, aquifer system type, potential yield in gallons per minute (gpm),
+total thickness (feet), and a web link to more detailed information.
+
+A layer (AQUIFER_SYSTEMS_BEDROCK_IDNR_IN.lyr) file accompanies this data layer to assist the user with symbolization so that the sequence of aquifer systems can be
+visualized in geographic information system (GIS) software, particularly ESRI software products.
+</abstract>
+      <purpose>
+AQUIFER_SYSTEMS_BEDROCK_IDNR_IN was created to provide a digital coverage of the bedrock aquifer systems of the State of Indiana, suitable for use in a GIS, from a
+preexisting published paper map (Gray, H.H., Ault,C.H., and Keller, S.J., 1987, Bedrock Geologic Map of Indiana, Indiana Geological Survey Miscellaneous Map 48), and
+associated digital coverage created by the Indiana Geological Survey (polygon shapefile, 20020318). The Aquifer Systems attribute was added to the shapefile by the
+Indiana Department of Natural Resources Division of Water. Several units were merged based on common hydrogeologic characteristics and the lines separating the units
+were removed. For the purpose of assessing the limits of aquifer system boundaries, the bedrock aquifer system mapping is intended for use at a scale of 1:500,000 or
+smaller. Additional information can be accessed at http://www.in.gov/dnr/water/4302.htm, the statewide county-based aquifer systems project web page. The county maps,
+with accompanying text and high-capacity well tables, describe characteristics such as geologic materials, aquifer system thickness, depth to bedrock, static water levels,
+well yield, amount of rock penetrated, and typical well depths. Descriptions of the aquifer systems rely heavily on the IDNR/DOW digital water well record database
+(about 400,000 records available online) along with other useful digital information (see Indiana Map) where available (e.g. seismic data, bedrock topography maps,
+soil surveys, oil and gas wells). In addition, publications by the U.S. Geological Survey, Indiana Geological Survey, and other entities were very helpful.
+</purpose>
+      <supplinf>
+Descriptions of the aquifer systems rely heavily on the IDNR/DOW digital water well record database (about 400,000 records available online
+at http://www.in.gov/dnr/water/3595.htm) along with other useful digital information (see IndianaMap) where available (e.g. seismic data, bedrock topography maps, soil
+surveys, oil and gas wells). In addition, publications by the U.S. Geological Survey, Indiana Geological Survey, and other entities were very helpful.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1987</begdate>
+          <enddate>2011</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.160656</westbc>
+        <eastbc>-84.688201</eastbc>
+        <northbc>41.781177</northbc>
+        <southbc>37.755410</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Division of Water (DOW)</themekey>
+        <themekey>hydrogeology</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>aquifer</themekey>
+        <themekey>aquifer systems</themekey>
+        <themekey>bedrock aquifer</themekey>
+        <themekey>groundwater availability mapping</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+    <useconst>Hydrology--Aquifer_Systems_Bedrock_IDNR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The Aquifer System rock unit boundary attributes contained in this layer are those reported in Gray and others, 1987, and are intended to
+be used at a scale of 1:500,000 or smaller. The accuracy of the reported aquifer characteristics is not intended to represent site-specific conditions, but to identify
+types of aquifers and typical extents of rock units likely to contain and produce groundwater. The type of aquifer, total thickness ranges, and potential aquifer
+yield ranges are estimates of regional aquifer characteristics.
+</attraccr>
+    </attracc>
+    <logic>ESRI ArcInfo polygon topology is present.</logic>
+    <complete>
+In conducting the mapping, the authors evaluated hundreds of water well records, especially those having relatively complete information on
+well location, construction, pump test, and lithology. There were many areas in the counties with sparse information because of lack of well records or incomplete
+records. Few wells are being drilled in parts of the county served by a public water system. County-based mapping in places show the underground coal mine area coverage
+(see IndianaMap, IGS  COAL_MINE_UNDERGROUND_IN shapefile) and discuss groundwater potential. This coverage and discussion are only available for individual counties on
+the IDNR DOW Aquifer Systems Mapping page at http://www.in.gov/dnr/water/4302.htm.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The locations of many wells were field checked and the locations posted on 7.5 minute topographic maps. Visual confirmation of
+wells was not always possible. Many locations were based only on the street address, driving directions, or other location information provided on the well record.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Vertical positional accuracy was not a factor in the digital production of AQUIFER_SYSTEMS_BEDROCK_IDNR_IN. No quantitative tests
+were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources, Division of Water</origin>
+            <pubdate>1987-2011</pubdate>
+            <title>Bedrock Aquifer Systems of Indiana</title>
+            <geoform>Paper Maps</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources, Division of Water</publish>
+            </pubinfo>
+            <onlink>http://www.in.gov/dnr/water/4302.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper maps and digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1987</begdate>
+              <enddate>2011</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Bedrock Aquifer Systems of Indiana</srccitea>
+        <srccontr>Mapped aquifer polygons and tabular data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Mapping of the aquifer systems characteristics rely heavily on the IDNR/DOW digital water well record database (about 400,000 records available online)
+along with other useful digital information (see Indiana Map) where available (e.g. seismic data, bedrock topography maps, soil surveys, oil and gas wells).
+In addition, publications by the U.S. Geological Survey, Indiana Geological Survey, and other entities were very helpful. Relatively uniform characteristics are
+the basis for the naming of an aquifer system. However, some variation between counties is possible. See a particular county of interest at
+http://www.in.gov/dnr/water/4302.htm for specific details. AQUIFER_SYSTEMS_BEDROCK_IDNR_IN was created from a preexisting published paper map (Gray, H.H., Ault,C.H.,
+and Keller, S.J., 1987, Bedrock Geologic Map of Indiana, Indiana Geological Survey Miscellaneous Map 48), and associated digital coverage created by the Indiana
+Geological Survey (polygon shapefile, 20020318). The Aquifer System attributes were added to the shapefile by the Indiana Department of Natural Resources, Division
+of Water. Several units were merged based on common hydrogeologic characteristics and the lines separating the units were removed. The resulting coverage was
+converted to a shapefile named "AQUIFER_SYSTEMS_BEDROCK_IDNR_IN". A polygon coverage was created and attributed, and the shapefile provided to IGS
+personnel. Attribute definitions are described below and listed under Entity and Attribute Information. AQ_SYSTEM is the name for the aquifer system group(s) or
+other stratigraphic unit(s). AQ_TYPE is the type of geologic material within the aquifer system. TOT_THK_FT is the total thickness of the aquifer system in feet.
+YIELD_GPM is the water production in gallons per minute as reported on water well records and registered significant water withdrawal facility forms; the
+terms "typically, generally,and commonly" refer to the middle 60% statistically for reported domestic yield or reported capacity for registered significant
+groundwater withdrawal wells (defined as 70 gpm or greater). MORE_INFO is a web link &lt;http://www.in.gov/dnr/water/4302.htm&gt; to more detailed information regarding
+the Aquifer Systems Mapping program with links to individual county pages with text and a high-capacity table, and Basin Study publications.
+</procdesc>
+        <srcused>Bedrock Aquifer Systems Mapping, IDNR water well database, various IGS and USGS data layers</srcused>
+        <procdate>20111028</procdate>
+        <srcprod>AQUIFER_SYSTEMS_BEDROCK_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Water</cntorg>
+              <cntper>Jerry Unterreiner</cntper>
+            </cntorgp>
+            <cntpos>Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>402 W Washington St, Rm W264</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204-2641</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4222</cntvoice>
+            <cntfax>317-233-4579</cntfax>
+            <cntemail>gunterreiner@dnr.IN.gov</cntemail>
+            <hours>0815 to 1615 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software
+written by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected,
+except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20111121</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>379</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AQUIFER_SYSTEMS_BEDROCK_IDNR_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_SYSTEM</attrlabl>
+        <attrdef>
+Name of the aquifer system group(s), or other stratigraphic unit(s), Values are as follows -- McLeansboro Group;
+Carbondale Group; Raccoon Creek Group; Buffalo Wallow, Stephensport, and West Baden Groups; Blue River and Sanders Groups; Borden Group;
+New Albany Shale; Coldwater, Ellsworth, and Antrim Shales Silurian and Devonian Carbonates; Maquoketa Group; Trenton, Lexington, and Black River Carbonates
+</attrdef>
+        <attrdefs>IDNR DOW Bedrock Aquifer Systems Mapping</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_TYPE</attrlabl>
+        <attrdef>
+Type of geologic material within the aquifer system, Values are as follows --
+
+McLeansboro - mostly shale and sandstone, also includes minor amounts of siltstone, limestone, clay, and coal;
+
+Carbondale - mostly shale and sandstone, also includes thin beds of limestone, clay, and coal;
+
+Raccoon Creek - mostly shale and sandstone, also includes thin beds of limestone, clay, and coal;
+
+Buffalo Wallow - mostly shale and sandstone and also includes thin beds of micritic limestone;
+
+Stephensport - sandstone, micritic and skeletal limestone, and shale;
+
+West Baden - shale, sandstone, and micritic and skeletal limestone;
+
+Blue River - mostly micritic, skeletal, and oolitic limestone;
+
+Sanders - mostly skeletal limestone and is cherty in the lower part;
+
+Borden - mostly gray argillaceous siltstone and shale, fine-grained sandstone common, some minor interbedded discontinuous lenses of limestone;
+
+New Albany Shale - black and greenish-gray shale;
+
+Coldwater - mostly gray shale;
+
+Ellsworth - green shale with some black shale in the lower part;
+
+Antrim - black shale with gray shale and limestone in the lower part;
+
+Silurian and Devonian Carbonates - predominantly carbonate rock units (limestone and dolomite) with some interbedded shale units, not easily distinguished
+on water well records and so considered as a single water-bearing system;
+
+Maquoketa - mostly shale with some interbedded limestone;
+
+Trenton - limestone, dolomite in NW IN;
+
+Lexington - micritic and skeletal limestone;
+
+Black River - dolomite, limestone, and sandstone
+</attrdef>
+        <attrdefs>IDNR DOW Bedrock Aquifer Systems Mapping</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YIELD_GPM</attrlabl>
+        <attrdef>
+Water production in gallons per minute as reported on water well records and registered significant water withdrawal facility
+forms; the terms "typically, generally, and commonly" refer to the middle 60% statistically for reported domestic yield or reported capacity for
+registered significant groundwater withdrawal wells (defined as 70 gpm or greater), Values are as follows --
+McLeansboro Group - commonly 2-15; a few dry holes (pumped) reported;
+
+Carbondale Group - typically 1-10, locally up to 20, some dry holes (pumped) reported;
+
+Raccoon Creek Group - generally 1-15, in limited areas in excess of 70, some dry holes (pumped) reported;
+
+Buffalo Wallow, Stephensport, and West Baden Groups - typically 1-15; locally up to 20, some dry holes (pumped) reported;
+
+Blue River and Sanders Groups - generally 1-20, in limited areas in excess of 100, some dry holes (pumped) reported;
+
+Borden Group - commonly 1-10 with significant drawdown, some dry holes (pumped) reported;
+
+New Albany Shale - typically 1-10; many dry holes reported;
+
+Coldwater, Ellsworth, and Antrim Shales - commonly 1-10; some dry holes (pumped) reported;
+
+Silurian and Devonian Carbonates - typically 10-25 decreasing southward, about 650 high-capacity wells (70 gpm or more);
+
+Maquoketa Group - generally 1-10; many dry holes reported;
+
+Trenton, Lexington, and Black River Carbonates - 1-7 but very few wells completed in system; some dry holes (pumped) reported
+</attrdef>
+        <attrdefs>IDNR DOW Bedrock Aquifer Systems Mapping</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT_THK_FT</attrlabl>
+        <attrdef>
+The total thickness of the aquifer system unit(s) in feet (statewide range; see a specific county of interest for more information), values are
+as follows --
+McLeansboro Group - 0-770;
+
+Carbondale Group - 0-470;
+
+Raccoon Creek Group - 0-1000;
+
+Buffalo Wallow, Stephensport, and West Baden Groups - BW 0-750; S 0-230; WB 0-260;
+
+Blue River and Sanders Groups - BR 0-650; S 0-510;
+
+Borden Group - 0-800;
+
+New Albany Shale - 0-340;
+
+Coldwater, Ellsworth, and Antrim Shales - C 0-500; E 0-200; A 0-220;
+
+Silurian and Devonian Carbonates - 0-1000;
+
+Maquoketa Group - 200-1000;
+
+Trenton, Lexington, and Black River Carbonates - T 0-265 / L 0-250 / BR 100-550
+</attrdef>
+        <attrdefs>IDNR DOW Bedrock Aquifer Systems Mapping</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MORE_INFO</attrlabl>
+        <attrdef>
+Web link to more detailed information regarding the Aquifer Systems Mapping program with links to individual county pages with text
+including groundwater vulnerability to contamination, a high-capacity table, and Basin Study publications
+</attrdef>
+        <attrdefs>IDNR DOW Bedrock Aquifer Systems Mapping</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should
+be included: [AQUIFER_SYSTEMS_BEDROCK_IDNR_IN: Bedrock Aquifer Systems of Indiana (Indiana Department of Natural Resources, Division of Water, 1:500,000,
+Polygon Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including,
+but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or
+consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss.
+Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability to the original purchaser
+shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20111028</metd>
+    <metrd>20111121</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources, Division of Water</cntorg>
+          <cntper>Jerry Unterreiner</cntper>
+        </cntorgp>
+        <cntpos>Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W. Washington St., Rm. W264</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204-2641</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4222</cntvoice>
+        <cntfax>317-233-4579</cntfax>
+        <cntemail>gunterreiner@dnr.IN.gov</cntemail>
+        <hours>0815 to 1615 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may
+lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

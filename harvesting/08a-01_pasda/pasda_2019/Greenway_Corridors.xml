@@ -1,0 +1,165 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>2005</pubdate>
+        <title>Greenway Corridors</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.767475</westbc>
+        <eastbc>-75.059646</eastbc>
+        <northbc>40.755316</northbc>
+        <southbc>39.723259</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Corridors</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania Highlands</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="margin:0 0 0 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;The Appalachian Mountain Club (AMC) assumes no responsibility for errors, omissions, or any liability for damages resulting from use of any of the data. AMC makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, or reliability with respect to the data for any purpose. Any reliance placed on such information is strictly at the users own risk.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useconst>
+    <datacred>A project of the Appalachian Mountain Club in collaboration with the Pennsylvania Committee of the Highlands Coalition.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7600) ; ESRI ArcGIS 10.0.4.4000</native>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Appalachian Mountain Club</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 Long St.</address>
+          <city>Bethlehem</city>
+          <state>Pennsylvania</state>
+          <postal>18018</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntemail>amcpahighlands@outdoors.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>Greenway_Corridors</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-75.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Greenway_Corridors</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRIDCODE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120529</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Appalachian Mountain Club</cntorg>
+          <cntper>Cathy Poppenwimer</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>520 Long St. </address>
+          <city>Bethlehem</city>
+          <state>PA</state>
+          <postal>18018</postal>
+          <country>UNITED STATES</country>
+        </cntaddr>
+        <cntemail>amcpahighlands@outdoors.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

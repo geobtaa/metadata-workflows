@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Geological Survey (USGS) (data creator)</origin>
+        <origin>Bernardin, Lochmueller &amp; Associates (BLA) (data creator and compiler)</origin>
+        <pubdate>20070823</pubdate>
+        <title>
+RELIGIOUS_CENTERS_USGS_BLA_IN: Religious Centers in Indiana (United States Geological Survey and
+Bernardin, Lochmueller &amp; Associates, 1:24,000, Point Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Evansville, Indiana</pubplace>
+          <publish>Bernardin, Lochmueller &amp; Associates</publish>
+        </pubinfo>
+        <othercit>
+This data set was compiled by personnel of Bernardin, Lochmueller &amp; Associates (BLA) from the United States
+Geological Survey (USGS) Geographic Names Information System (GNIS), USGS topographic map review,
+and locating addresses found on various religious listing web sites. To find out more about the USGS,
+GNIS visit http://geonames.usgs.gov/domestic/index.html. Web sites used to obtain address listings for additional
+listings include - Dharma Web &lt;http://www.dharmaweb.org/index.php/Indiana&gt;, Jewish Finder
+&lt;http://www.ujc.org/ir_LL_category.html?state=in&gt;, and The Church of Jesus Christ Latter-day Saints
+&lt;http://www.mormon.org/worshipwithus/1,20864,,00.html&gt;.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+A data set showing the locations of religious centers and places of worship in Indiana.
+The base file for this effort was the USGS Geographic Names Information System (GNIS) data for churches current to 20070125.
+In 2001, BLA ground truthed churches in the current GNIS data for a large area in southern Indiana. Many locations were added.
+These locations were checked against the new 2007 GNIS data for duplicates, and were added to the dataset. In order to find additional
+locations and locations for facilities for non-Christian religions, the internet was searched for lists of locations for various
+religions.  Addresses found were located using Google Maps &lt;http://maps.google.com/&gt; and plotted in GIS using aerials.
+</abstract>
+      <purpose>
+To provide the locations of religious centers and places of worship in Indiana as a GIS layer.  While the base file is 2007 GNIS data,
+it has been expanded with locations obtained by ground truthing and locations of facilities for non-Christian religions.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1974</begdate>
+          <enddate>Present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground Condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.033556</westbc>
+        <eastbc>-84.741701</eastbc>
+        <northbc>41.761201</northbc>
+        <southbc>37.788399</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>Society</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>church</themekey>
+        <themekey>chapel</themekey>
+        <themekey>congregation</themekey>
+        <themekey>synagogue</themekey>
+        <themekey>mosque</themekey>
+        <themekey>Islamic center</themekey>
+        <themekey>temple</themekey>
+        <themekey>religion</themekey>
+        <themekey>worship</themekey>
+        <themekey>culture</themekey>
+        <themekey>tabernacle</themekey>
+        <themekey>United States Geologic Survey (USGS)</themekey>
+        <themekey>Bernardin, Lochmueller &amp; Associates (BLA)</themekey>
+        <themekey>Geographic Name Informaton System (GNIS)</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-479-6200</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 9.2 shapefile format, approximately 1.43 Mb</native>
+    <useconst>Infrastructure--Facilities_Religous_Facilities</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Data attributes are accurate to the information source.
+
+The following was excerpted from the United States Geological Survey (USGS) Geographic
+Names Information System (GNIS) metadata -
+
+"During Phase I data compilation, a random sample of 10% of the entries in the system were
+visually verified against the compilation source data (large-scale USGS topographic maps)
+to ensure an accuracy rate of at least 95%. Subsequent data compilation and input processes
+ensure accuracy with programmed validation checks for format and content, visual examination,
+and spot checks of data."
+
+BLA 2001 ground truthing data is believed to be very accurate.  Points were marked on aerial printouts in the
+field and placed on digital aerials in the GIS.
+
+BLA 2007 internet locations relies on Google Maps to locate listed addresses.  No confidence level is provided by
+Google Maps, but as each point was digitzed, the location was checked with GIS files for roads and county and others.
+Becasue of this cross checking and individual point placement by an analyst, the locatitons are beleived to be accurate,
+although no testing has been performed.
+</attraccr>
+    </attracc>
+    <logic>
+Some sites may be duplicated with position differences.
+
+The following was excerpted from the United States Geological Survey (USGS) Geographic
+Names Information System (GNIS) metadata -
+
+"During Phase I data compilation, a random sample of 10% of the entries in the system were
+visually verified against the compilation source data (large-scale USGS topographic maps)
+to ensure an accuracy rate of at least 95%. Subsequent data compilation and input processes
+ensure accuracy with programmed validation checks for format and content, visual examination,
+and spot checks of data."
+</logic>
+    <complete>
+This data set contains the records from the United States
+Geological Survey (USGS) Geographic Names Information System (GNIS) and is further
+supplemented by locating address found on web site listings for churches and other
+religious centers. Additional records in southwestern Indiana were located by
+field review and topographic map review in areas associated with Interstate 69 studies.
+
+The following was excerpted from the United States Geological Survey (USGS) Geographic
+Names Information System (GNIS) metadata -
+
+"Subsequent to the original data compilation process, which was taken primarily from Federal maps,
+the GNIS has become dependent on input from Federal, State, county, and local government agencies
+and other approved sources. The completeness, currency, and accuracy of the data varies by area
+depending on the quality and timeliness of that input. Accordingly, the Geographic Names Project
+actively seeks to expand partnerships with Government agencies at all levels and other interested
+organizations. The latest tools and methodologies are being applied, including web map and feature
+services, and joint or linked web applications, to ensure that local data are properly represented
+in the GNIS and through the GNIS to all Federal agencies and to the public. Feature additions or
+corrections are accepted for consideration from any source, and when validated by appropriate agencies,
+will be entered into the database. Local and State agencies are encouraged to submit data and to
+participate in the GNIS partnership program. Non-government organizations with valuable data are
+considered on a case basis. Data entered into the GNIS immediately is available to all web services
+and applications dependent on it. For additional information or to request user accounts for entry
+and edit of production data and web seminar training, contact gnis_manager@usgs.gov."
+
+BLA field review locations were limited to areas associated with a proposed Interstate, which will be
+located in Southern Indiana.  More additions are present in southern Indiana counties.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Horizontal accuracy is dependant on the USGS data source
+and supplemental data was positioned using Google Maps &lt;http://maps.google.com/&gt;.  Large scale use and precision
+applications are not recommended.
+
+The following was excerpted from the United States Geological Survey (USGS) Geographic
+Names Information System (GNIS) metadata -
+
+"Accuracy of these digital data are based upon the use of printed or electronic source graphics which
+are compiled to meet National Map Accuracy Standards. Comparison to the graphic source is used as
+control to assess digital positional accuracy."
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20070125</pubdate>
+            <title>IN_DECI.SHP, Geographic Names Information system, Indiana Feature Names</title>
+            <edition>Phase II</edition>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://geonames.usgs.gov/domestic/index.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1974</begdate>
+              <enddate>Present</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>GNIS</srccitea>
+        <srccontr>Names, attributes, and coordinate information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bernardin, Lochmueller &amp; Associates</origin>
+            <origin>United States Geological Survey</origin>
+            <pubdate>20021101</pubdate>
+            <title>CHURCHES_USGS_BLA_IN: Church Locations in Indiana (United States Geological Survey, 1:24000, Point Shapefile)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Evansville, Indiana</pubplace>
+              <publish>Bernardin, Lochmueller &amp; Associates</publish>
+            </pubinfo>
+            <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20021101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>CHURCHES_USGS_BLA_IN.SHP</srccitea>
+        <srccontr>Names, attributes, and coordinate information of additional churches</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The internet was used perform Google searches to locate directories of address of non-Christian religions, Mormon (CJCLDS) facilities,
+Jehovah's Witness facilities, Amish churches, Mennonite Churches, and Quaker Churches. Web sites used included - Dharma Web
+&lt;http://www.dharmaweb.org/index.php/Indiana&gt;, Jewish Finder &lt;http://www.ujc.org/ir_LL_category.html?state=in&gt;, and
+The Church of Jesus Christ Latter-day Saints &lt;http://www.mormon.org/worshipwithus/1,20864,,00.html&gt;.  The web site
+&lt;http://www.churchangel.com/&gt;, was used to locate additional Christian church addresses in
+select counties.  The counties were - Bartholomew, Benton, Brown, Clark, Clay, Crawford,
+Daviess, Dearborn, Decatur, Dubois, Floyd, Franklin, Gibson, Greene, Harrison, Jackson,
+Jefferson, Jennings, Knox, Lawrence, Martin, Monroe, Morgan, Ohio, Orange, Owen, Perry, Pike, Posey,
+Ripley, Scott, Sullivan, Switzerland, Vanderburgh, Vigo, Warrick, and Washington.
+Addresses were located using Google Map &lt;http://maps.google.com/&gt;, then located in the GIS using an aerial
+and Tiger Line files for the roads.  The locations were made into a temporary shapefile.
+</procdesc>
+        <procdate>20070531</procdate>
+        <srcprod>CHURCHES_BLAADDED_2007.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+GNIS feature data for Indiana was downloaded from the USGS, GNIS
+web site, &lt;http://geonames.usgs.gov/domestic/index.html&gt;.
+Data tables were converted to a shapefile using the primary
+latitude and primary longitude as reference. Churches in
+Indiana were extracted by attribute/location query from all features.
+The file was transformed from geographic to UTM 16, NAD83.
+</procdesc>
+        <srcused>GNIS</srcused>
+        <procdate>20070801</procdate>
+        <srcprod>GNIS_20070125.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist / GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+All features in the file "CHURCHES_USGS_BLA_IN.SHP" that were noted as being "Added" in
+the "Edits" field were extracted from the dataset and saved as a temporary file
+called "CHURCHES_BLA_I69.shp".
+</procdesc>
+        <srcused>CHURCHES_USGS_BLA_IN.SHP</srcused>
+        <procdate>20070815</procdate>
+        <srcprod>CHURCHES_BLA_I69.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist / GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Each temporary file was compared using location queries and "intersect" to locate any points between files within 3
+meters of each other.  A few duplicates were found and resolved. A location query was used to find any points falling
+outside the Indiana boundary.  One was located and deleted.
+The three temporary shapefiles, CHURCHES_BLAADDED_2007.SHP, GNIS_20070125.SHP, and CHURCHES_BLA_I69.SHP were merged
+together.
+</procdesc>
+        <srcused>CHURCHES_BLAADDED_2007.SHP, GNIS_20070125.SHP, CHURCHES_BLA_I69.SHP</srcused>
+        <procdate>20070820</procdate>
+        <srcprod>RELIGIOUS_CENTERS_USGS_BLA_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist / GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v.2.6.1) and MP (Metadata Parser, v.2.7.1) software
+written by Peter N. Schwitzer (U.S. Geological Survey).
+</procdesc>
+        <procdate>20071212</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist / GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>5172</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>RELIGIOUS_CENTERS_USGS_BLA_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>Bernardin, Lochmueller &amp; Associates</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are software generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature Geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Feature Geometry</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEATURE_ID</attrlabl>
+        <attrdef>USGS GNIS ID number</attrdef>
+        <attrdefs>USGS GNIS</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEAT_NAME</attrlabl>
+        <attrdef>Name of the religious center</attrdef>
+        <attrdefs>USGS GNIS and Bernardin, Lochmueller &amp; Associates</attrdefs>
+        <attrdomv>
+          <udom>
+Name of the religious center (CJCLDS - stands for
+Church of Jesus Christ of Latter Day Saints)
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source of the data point</attrdef>
+        <attrdefs>Bernardin, Lochmueller &amp; Associates</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BLA I69</edomv>
+            <edomvd>Data added in 2001 as part of I-69 Corridor studies</edomvd>
+            <edomvds>Bernardin, Lochmueller &amp; Associates</edomvds>
+          </edom>
+          <edom>
+            <edomv>BLA 2007</edomv>
+            <edomvd>Data added in 2007 from addresses found on web sites</edomvd>
+            <edomvds>Bernardin, Lochmueller &amp; Associates</edomvds>
+          </edom>
+          <edom>
+            <edomv>USGS GNIS 20070125</edomv>
+            <edomvd>Data downloaded from the GNIS web site current to 20070125</edomvd>
+            <edomvds>Bernardin, Lochmueller &amp; Associates</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on these data. It is intended to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to,
+warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Bernardin, Lochmueller &amp; Associates shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or
+other commercial or economic loss. Bernardin, Lochmueller &amp; Associates is not responsible for claims by a third party. The maximum
+aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070829</metd>
+    <metrd>20071212</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntperp>
+        <cntpos>Wildlife Biologist / GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the BLA. It should not to be
+altered or summarized. BLA does not support secondary distribution. If this data set was received from anyone besides
+the BLA, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

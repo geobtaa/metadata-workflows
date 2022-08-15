@@ -1,0 +1,490 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <MetaID>{BC2643AE-2466-469E-A1A5-F3027D360D20}</MetaID>
+    <CreaDate>20110127</CreaDate>
+    <CreaTime>10543800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110127</SyncDate>
+    <SyncTime>10544100</SyncTime>
+    <ModDate>20110127</ModDate>
+    <ModTime>11274900</ModTime>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.1.0.722</native>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>200802</pubdate>
+        <title>Zebra Mussel Distribution in North America 2008</title>
+        <ftname Sync="TRUE">ZebraMusselDistribution2008</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://nationalatlas.gov/atlasftp.html?openChapters=chpbio#chpbio</onlink>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>ground condition</current>
+      <timeinfo>
+        <rngdates>
+          <begdate>1998</begdate>
+          <endtime>200801</endtime>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-121.447430</westbc>
+        <eastbc Sync="TRUE">-71.165642</eastbc>
+        <northbc Sync="TRUE">48.386948</northbc>
+        <southbc Sync="TRUE">29.253241</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-121.447430</leftbc>
+        <rightbc Sync="TRUE">-71.165642</rightbc>
+        <bottombc Sync="TRUE">29.253241</bottombc>
+        <topbc Sync="TRUE">48.386948</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>Aquatic</themekey>
+        <themekey>Freshwater</themekey>
+        <themekey>Exotic</themekey>
+        <themekey>Zebra mussels</themekey>
+        <themekey>Dreissena polymorpha</themekey>
+        <themekey>GIS</themekey>
+        <themekey>Lakes</themekey>
+        <themekey>Non-native</themekey>
+        <themekey>Non-indigenous</themekey>
+        <themekey>Rivers</themekey>
+      </theme>
+      <place>
+        <placekey>United States</placekey>
+        <placekey>Canada</placekey>
+        <placekey>Ontario</placekey>
+        <placekt>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of</placekt>
+        <placekey>Quebec</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None.  Acknowledgment of the National Atlas of the United States of America
+      and (or) the U.S. Geological Survey would be appreciated in products derived
+      from these data.
+</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Amy Benson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Florida Integrated Science Center, 7920 NW 71st Street</address>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>352-264-3477</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>abenson@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>ZebraMusselDistribution2008</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.1.0.722</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">ZebraMusselDistribution2008</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-121.44743</westBL>
+          <eastBL Sync="TRUE">-71.165642</eastBL>
+          <northBL Sync="TRUE">48.386948</northBL>
+          <southBL Sync="TRUE">29.253241</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-121.44743</westBL>
+      <eastBL Sync="TRUE">-71.165642</eastBL>
+      <northBL Sync="TRUE">48.386948</northBL>
+      <southBL Sync="TRUE">29.253241</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Amy Benson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <address>Florida Integrated Science Center, 7920 NW 71st Street</address>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>352-264-3477</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>abenson@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20110127</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.074</transize>
+          <dssize Sync="TRUE">0.074</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Amy Benson</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Florida Integrated Science Center,7920 NW 71st Street</address>
+          <city>Gainesville</city>
+          <state>FL</state>
+          <postal>32653</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>352-264-3477</cntvoice>
+        <cntfax>352-378-4956</cntfax>
+        <cntemail>abenson@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab> Although these data have been processed successfully on a computer system at
+      the U.S. Geological Survey, no warranty expressed or implied is made by the
+      U.S. Geological Survey regarding the utility of the data on any other
+      system, nor shall the act of distribution constitute any such warranty.  No
+      responsibility is assumed by the U.S. Geological Survey or the National
+      Atlas of the United States in the use of these data.  These data are not
+      constituted legal documents and are not intended to be used as such.</distliab>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\Mirror\share\ZebraMusselDistribution2008.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.074</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="ZebraMusselDistribution2008">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">2785</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="ZebraMusselDistribution2008">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">2785</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+      <geograph>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+        <latres Sync="TRUE">0.000001</latres>
+        <longres Sync="TRUE">0.000001</longres>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1983</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="ZebraMusselDistribution2008">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">2785</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="ZebraMusselDistribution2008">
+      <enttyp>
+        <enttypl Sync="TRUE">ZebraMusselDistribution2008</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">2785</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SPEC_ID</attrlabl>
+        <attalias Sync="TRUE">SPEC_ID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GENUS</attrlabl>
+        <attalias Sync="TRUE">GENUS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SPECIES</attrlabl>
+        <attalias Sync="TRUE">SPECIES</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COMMON</attrlabl>
+        <attalias Sync="TRUE">COMMON</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">YEAR</attrlabl>
+        <attalias Sync="TRUE">YEAR</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOCALITY</attrlabl>
+        <attalias Sync="TRUE">LOCALITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC</attrlabl>
+        <attalias Sync="TRUE">HUC</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT</attrlabl>
+        <attalias Sync="TRUE">LAT</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LON</attrlabl>
+        <attalias Sync="TRUE">LON</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT_LON_SO</attrlabl>
+        <attalias Sync="TRUE">LAT_LON_SO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20110127</mdDateSt>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Amy Benson</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Fishery Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>Florida Integrated Science Center, 7920 NW 71st Street</address>
+              <city>Gainesville</city>
+              <state>FL</state>
+              <postal>32653</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>352-378-8181 x306</cntvoice>
+            <cntfax>352-378-4956</cntfax>
+            <cntemail>amy_benson@usgs.gov</cntemail>
+            <hours>Monday - Friday 8AM-4PM</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>After receiving a report of a confirmed zebra mussel sighting, the
+          location was found on a paper map.  The scale of that map varied; we
+          used the finest resolution available.  The point was then digitized on-
+          screen using ArcInfo's arcedit feature, and was referenced to EPA
+          Reach File Version 3.0 1:100,000-scale data (ArcInfo coverages in
+          Albers Equal Area Projection).</procdesc>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>All reports in the data base on zebra mussel locations were confirmed as being zebra mussels.</attraccr>
+      <qattracc>
+        <attraccv>99%, 1% Error</attraccv>
+        <attracce>A zebra mussel location was included in the data base if it was
+          confirmed by a trained biologist or by someone who had received training
+          to be able to identify zebra mussels.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>No tests for logical consistency have been performed on this map layer.</logic>
+    <complete>This data base is by no means an all inclusive listing of zebra mussel
+      locations.  But it is a fair and accurate representation of their
+      distribution in North America.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Zebra mussel sightings were reported with varying levels of accuracy.
+          Some of the reports were as latitude-longitude coordinates, some as
+          river miles, and others as just a lake, beach, harbor, or a
+          water body and nearest town name.  The locations were digitized as a
+          single point in the reported water body at the place nearest to the
+          town.  If no specific location was reported in a lake, the point was
+          digitized in the middle.  These were all small lakes; the Great Lakes
+          had specific locations associated with them.  Each zebra mussel sighting
+          location was checked by manual comparison of the on-screen point with
+          hard copy maps.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park </city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+  </distinfo>
+</metadata>

@@ -1,0 +1,1232 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Michael Hill, PADEP</origin>
+        <pubdate>201801</pubdate>
+        <title>Marcellus Gas Well Water Sources View</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <ftname Sync="TRUE">WUDS_WMP_SOURCES_V</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201801</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-78.000933</westbc>
+        <eastbc>
+-78.000873</eastbc>
+        <northbc>
+39.000380</northbc>
+        <southbc>
+39.000357</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.830231</leftbc>
+        <rightbc Sync="TRUE">-75.489465</rightbc>
+        <bottombc Sync="TRUE">39.658833</bottombc>
+        <topbc Sync="TRUE">42.204444</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Pennsylvania</themekey>
+        <themekey>Source</themekey>
+        <themekey>Sources</themekey>
+        <themekey>Withdrawals</themekey>
+        <themekey>Water</themekey>
+        <themekey>Water Resources</themekey>
+        <themekey>Marcellus</themekey>
+        <themekey>Marcellus Shale</themekey>
+        <themekey>Water Management Plan</themekey>
+        <themekey>WMP</themekey>
+        <themekey>Gas</themekey>
+        <themekey>Gas Well</themekey>
+        <themekey>Natural Gas</themekey>
+        <themekey>Fracking</themekey>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>NONE</accconst>
+    <useconst>NONE</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA DEP, Geospatial Data Center</cntorg>
+        </cntperp>
+        <cntemail>ra-epgeospatialdatacenter@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <natvform Sync="TRUE">Personal GeoDatabase Feature Class</natvform>
+    <descript>
+      <abstract>WMPMarcellusShale2018_01</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP_Sources.xml</srcused>
+        <procdate>20101001</procdate>
+        <proctime>14023200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>C:\DOCUME~1\mihill\LOCALS~1\Temp\xml952.tmp</srcused>
+        <procdate>20101001</procdate>
+        <proctime>14091700</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP_SOURCES.shp.xml</srcused>
+        <procdate>20101012</procdate>
+        <proctime>15042900</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\metadata.xml</srcused>
+        <procdate>20101013</procdate>
+        <proctime>13521100</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\metadata.xml</srcused>
+        <procdate>20110104</procdate>
+        <proctime>13321800</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset moved.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP_SOURCES</srcused>
+        <procdate>20110104</procdate>
+        <proctime>13460200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP Sources\metadata.xml</srcused>
+        <procdate>20110104</procdate>
+        <proctime>15274500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP Sources\metadata.xml</srcused>
+        <procdate>20110128</procdate>
+        <proctime>11590700</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP Sources\metadata.xml</srcused>
+        <procdate>20110128</procdate>
+        <proctime>12510100</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>E:\GIS\Projects\Marcellus\WMP Sources\WMP_SOURCES</srcused>
+        <procdate>20110128</procdate>
+        <proctime>12511900</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">G:\ArcIMS\Metadata\WMP_SOURCES.xml</srcused>
+        <procdate Sync="TRUE">20110311</procdate>
+        <proctime Sync="TRUE">10543300</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=epengis02; Service=sde:oracle11g; Database=PGNET; User=gdc; Version=SDE.DEFAULT</srcused>
+        <procdate Sync="TRUE">201801</procdate>
+        <proctime Sync="TRUE">09185100</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <esriterm>
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE" />
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">785</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+      <geograph>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+      </geograph>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">1.000000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="WMPMarcellusShale201801">
+      <enttyp>
+        <enttypl>
+WMP_SOURCES</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">785</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WUDS_PFID</attrlabl>
+        <attrdef>Unique ID - WUDS Primary Facility</attrdef>
+        <attalias Sync="TRUE">WUDS_PFID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WMP_ID</attrlabl>
+        <attrdef>Water Management Plan ID</attrdef>
+        <attalias Sync="TRUE">WMP_ID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ORG_WMP_ID</attrlabl>
+        <attalias Sync="TRUE">ORG_WMP_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>CNTY_NAME</attrlabl>
+        <attrdef>County Name</attrdef>
+        <attalias Sync="TRUE">CNTY_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_NAME</attrlabl>
+        <attrdef>Municipality Name</attrdef>
+        <attalias Sync="TRUE">MUNI_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">60</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>FAC_TYPE_D</attrlabl>
+        <attrdef>Facility Type Description</attrdef>
+        <attalias Sync="TRUE">FAC_TYPE_D</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>FAC_DESC</attrlabl>
+        <attrdef>Facility Designation Description</attrdef>
+        <attalias Sync="TRUE">FAC_DESC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>REG_OFFICE</attrlabl>
+        <attrdef>DEP regional office</attrdef>
+        <attalias Sync="TRUE">REG_OFFICE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PF_NAME</attrlabl>
+        <attrdef>Primary Facility Name</attrdef>
+        <attalias Sync="TRUE">PF_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">60</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EXP_DATE</attrlabl>
+        <attalias Sync="TRUE">EXP_DATE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WUDS_SFID</attrlabl>
+        <attrdef>Unique ID - WUDS Subfacility ID</attrdef>
+        <attalias Sync="TRUE">WUDS_SFID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SF_NAME</attrlabl>
+        <attrdef>Subfacility Name</attrdef>
+        <attalias Sync="TRUE">SF_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">60</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>WUDS_PWSID</attrlabl>
+        <attrdef>Unique Id - WUDS PF ID for PWS</attrdef>
+        <attalias Sync="TRUE">WUDS_PWSID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>APPR_DATE</attrlabl>
+        <attrdef>Approved date of WMP</attrdef>
+        <attalias Sync="TRUE">APPR_DATE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PEAK_DAILY</attrlabl>
+        <attrdef>Peak daily withdrawal in million gallons per day</attrdef>
+        <attalias Sync="TRUE">PEAK_DAILY</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MAX_RATE</attrlabl>
+        <attrdef>Maximum withdrawal rate in gpm</attrdef>
+        <attalias Sync="TRUE">MAX_RATE</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>AVG_DAILY</attrlabl>
+        <attrdef>Average daily withdrawal in gallons per day</attrdef>
+        <attalias Sync="TRUE">AVG_DAILY</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PASSBY_REQ</attrlabl>
+        <attrdef>Passby Required? - Y/N</attrdef>
+        <attalias Sync="TRUE">PASSBY_REQ</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PASSBY_AMT</attrlabl>
+        <attrdef>Passby amount in cubic feet per second</attrdef>
+        <attalias Sync="TRUE">PASSBY_AMT</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.010</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20110311</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>PA DEP</cntorg>
+          <cntper>Michael Hill</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>400 Market Street</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17101</postal>
+        </cntaddr>
+        <cntvoice>717 787-0630</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>201801</CreaDate>
+    <CreaTime>09185100</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20180105</SyncDate>
+    <SyncTime>13374600</SyncTime>
+    <ModDate>20180105</ModDate>
+    <ModTime>13374600</ModTime>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">WMPMarcellusShale201801</itemName>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-80.830231</westBL>
+          <eastBL Sync="TRUE">-75.489465</eastBL>
+          <southBL Sync="TRUE">39.658833</southBL>
+          <northBL Sync="TRUE">42.204444</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\URSUS\dataD\DEP\April2016\Shapes\WMPMarcellusShale2016_04</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemSize Sync="TRUE">0.021</itemSize>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Geographic</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <peXml Sync="TRUE">&lt;GeographicCoordinateSystem xsi:type='typens:GeographicCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433],AUTHORITY[&amp;quot;EPSG&amp;quot;,4269]]&lt;/WKT&gt;&lt;XOrigin&gt;-399.99999999999989&lt;/XOrigin&gt;&lt;YOrigin&gt;-399.99999999999989&lt;/YOrigin&gt;&lt;XYScale&gt;11258999068426.24&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;8.9831528411952117e-009&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;LeftLongitude&gt;-180&lt;/LeftLongitude&gt;&lt;WKID&gt;4269&lt;/WKID&gt;&lt;/GeographicCoordinateSystem&gt;</peXml>
+        <csUnits Sync="TRUE">Angular Unit: Degree (0.017453)</csUnits>
+      </coordRef>
+      <lineage>
+        <Process ToolSource="c:\program files (x86)\arcgis\desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20180105" Time="125242">CopyFeatures D:\DATA\DEP\_201801_Updates.mdb\WUDS_WMP_SOURCES_V D:\DATA\DEP\WUDS_WMP_SOURCES_V.shp # 0 0 0</Process>
+      </lineage>
+      <copyHistory>
+        <copy source="D:\dataD\DEP\April2016\WMPMarcellusShale2016_04" dest="\\URSUS\dataD\DEP\April2016\Shapes\WMPMarcellusShale2016_04" date="20180106" time="15332800" />
+      </copyHistory>
+    </DataProperties>
+    <MetaID>{B3F48ABF-342E-41A6-88FF-5304BECD8BE6}</MetaID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKAILe9tbxp1trmKYwSGKURuG8txglWx0PI4qeqF5DdW9uzaPb2QuJbhHm87KKy
+lgHYlRkvtHGe4GadeWMtzdWtzFezwNbF28pCPLmLKQBIMZIGcjBHNAF2isvSrrVGkFnqlmBPFbRv
+LeQYFvLIchlQFi3GO47/AJ6lABRRUc88dtbyzykiOJC7EKWIAGTwOT9BQBJRWaur+fDpdxZWdxdW
+1+QfOUBBChQsHcMQcHAGMZ5/OdNRtZtUn0xWY3MMSSyKY2ChHLBfmxg/dPAPagC2CCMg5BoJwM1l
+aJDDp6TaRaaVLY2NiVS3cspSUMNxKcluCSDuxz61HqWp6hpEOq6hcWP2rT7aFZLeKyBe5kIzvBU4
+HHGMHpn6UAT6HrKa7p32yOyv7Nd7J5V9bmGTjvtPY9jWlWdo+qW/iHQLTVLMyxwXsAljLAB1DD8R
+kfjVjTrRrDTre0a6numhjCGe4YNJJgdWIAyaALNFZOqa/Fpdz5D6fqVwfKEm61tWlXl1TbkfxfNn
+HoCazpfG9lZXt1a6pYalYtbxyTb2tmkR4lfYHDR7upOQDzjrjjIB09FAORmigAooooAKKKKACiii
+gAooqC7vbWwiWW8uYbeNnWMPK4UFmOFGT3JIAoAnoJAGScAVkPe6je3erabBZz2DQwgW2pSqjxSO
+ynlV3ZO09QfT82ajOZrGbQo7zT5tblsWdYbpPklGNpdowc7CxwR796ANV7q3jjjkeeJUlZVjZnAD
+lvugHuT29az9c8Q2Hh/TJ7+8aR4oHjSRYE8x1LsFXKjnqwqL7HbRyaZozaIktlBEJY5ljTybZ4to
+QBScg8nBA4x9cMvLDw1DqpivLOy+2606hlkiDG6aFdwzkYO0DIzQBizar4ytr6+i02HRvEEUV2wZ
+Euvs81uhClY3GCNwDHnuAD1NdYbm6GrJa/YGNqYDI12JF2q4YAR7fvdCTnpxUE10lhq9taw6XO51
+Bnea6giXy42VRgytkHJAAHXpioNEibTJJNFP9qXKwJ5wv71g4l8x3OwP1JXHTHAxQBs1U07UYdTt
+mngSdUWV4iJoWjOUYqeGAOMjg1booAKyLy91K38R2EMdujaTJbzNdTkDMLrtKZJYYBG7+E9O1a9Y
+OtaP4dE1zr2sQwrssXtbiaZyENuTllZc4I+ozzQAniq51eysbW/0aG4u3guUMtlAE/0iNvlILMCV
+A3Bsjn5fTkUte8Y3OjajbWg0lQlxfR2kd1d3sUELhk3Fl5LEgjbjbya2V0XTZbzTNQhVl+wQtHaC
+GUrEEdQPug7WGAMZHH5Utv4f0i1soLOLTrb7PbymeGN0DiOQsW3LnODknntmgDlPh1r2u3c+p6F4
+gt5JLvTpP+P5I28qQt8xj3bFXcm4LxwQMjjkzap4z11tcGmeHPC02px/u3GovOI7RoyMth8EEjpx
+nnPpg9Lf6vHY6pp9hLZ3cgv2dFnii3xxsq5w5HK5GcHGOD0pujaBY+HdJbTtIQ29vvkkRWYuEZ2L
+HAJ4GT0H/wBegDHsb/xR4i8N38T2B8M6ysvlRvOFuUVDhty4IDHacem4H6VtXmq2WhWNqdV1BVLy
+R2wmdcGSVsAcKOCT+A9hXnegat4vXxHaaXcGXVtQso5I7+VLpFs1LTgkviPIkEe3avOAf96u1s/D
+Vra+K7rU10uwRHQvHcKzmZpXI83cD8uD5cWMc5B9aAOhooooAKKKKACiiigAooooArX+oWelWMt9
+f3MVtawjMksrbVUZxyfqaxtQbTfEdlo93b6dDrtkbxJo5UlTZDgMPN5OGweMep9qf4ng8QTwxf2K
+ml3MGCt3ZagjYuEJX5Q4yF43DlWHIqZdbs9LttJg1QRadc3oEaQKd0aSBcmPeBtGDwM4yelAF7Tb
+i6u9NhnvLJrG5dcvbvIshjPpleDVMz6hp3h17/ULaG91O3t2aRLIbBIRztQueBwOp7fhWFqGsQ+K
+o4dNstYutJhvikmnajaSJuvNoZpECkEqF285xnp04Ni+uPGYsrW002wsxcmeWGS6vZRKhhVDsldU
+2kM7beFBxzQAukXOmJ4qeXTra+uG1u0F9Le+aZbdFTaioG3Fc/MThc/ljGzaa7pmoaze6Va3KzXt
+gENyiqSIi2cAtjGeDxnNc98PPC+r+FbK9s9UuoJ4mkU2wgmlZETB4CSE7OT0BP6Cuov7gabp93ex
+2c1y6IZTDbIDJKQOgGRlsADr2FABNp0M+pWt+7zia1V1RVmZUIfGdyg4bpxkHFW6y9B1K91XShd3
+2lyabM0kirbTPltqsQrHjjIAOPfvVPSvET3Wj38kyJdalphaK9t9PVmXzlXdsjLgbjgj8TigDVu5
+r2K5s0tbNJ4ZJStxI02wwptJ3AYO7kAY460abNe3FismoWaWlyWYNCk3mgAMQp3YGcjB6d6ZpGqR
+azpkV/DDcwJJuHl3MJikUgkEFT05BqvrlnqVz9gm0u58qa2ukkeJ5Ckc0Z+V1fCkn5SSBx8wB7UA
+WptTtYr02CzxvqHkNcJahwJGQHGcemSBmubt9V1jUofDsmq2n9jR3au17DJJEyuxBVLchwG3Nndw
+MjaV5zkbOueG7HxD5K3z3QjiDqY4LhohKGGCH2kEjoRz1FXrvTrK/EAvLWG48iRZovNQPscdGGeh
+HrQBDp2t6Zq815Dp99DcyWUxguVjbJicdQf89j6GsWw8d6XfalcRDFvp8Uhtk1C5lWOOe4DlDFGC
+csRgcjjn8+ht7G0s5J5La1gged/MmaKMKZH/ALzY6n3NQXOiaVeXVtdXOnWs09qzNA8kSsYmYgsV
+yOCSAc+tAFuaeG3QPPLHEhZUDOwUFicAc9ySAPc1JUF3ZWt/EsV5bQ3EausgSVAwDKcqcHuCARU9
+ADVREZmVVBc7mIH3jgDJ/AAfhTqKKACiiigAooooAKztb13TfDmlyalq10ttZxsqtIVJwWIA4AJ6
+mtGo7i3gu7d7e5hjmhkG145FDKw9CDwaAOXtviZ4PvNft9FttahlvbglYwitsZgcbd+NuTzjnnHu
+M9Bbvf8A269F2tqtoCptTG7Fyu0bt4IwPm6Y7VFe6HYX+oadfXERM2nSNJb4chVZlKklRweCcZ6d
+q5Lx5dJ4bvrfWtOMf9vX4FhEZo5rgiLlmMUSdwSpPQYHrwQDc1zxjYaT4Lm8UWinU7JFVk+yOD5m
+XCcH2J5+hrNsYfC17beHPs7vb2NyZZbLTJYsJPJnzCzo6k7kILA5GCeMgirWm6TeQztpOvF9Ztp4
+UmM0ltDHaROhAEaRjLAnG/nI44x0rSOoauPFC2DaHnSjEXXUluVO1wPumMjI64yM/wCAA26toF8R
+B7bT5U1C4sXiXUxEGihVD8qN8w5y+QMc4PPFUNa0631zToPDOo6jcf2utut4l3bRPHiSMgCUY+X7
+5B2Z/oav/wDCSRN4jbRI7G+adT883kgRIpTcHySCVJBXIH3hin+Hv+EiFrMviM6Y1wJP3T6fvCsm
+B94P0Oc9DQBR0PUdZ1Wa2uons5NCMfy3EiutzcnaBu2FVEfzhsjnIxjFazGe+nsLvT9Rh+wgs0yr
+GJBcKVIXa+flweeM5q+QCMEZBrNl0LT5NMh06KJrS0gkSSOOzcwBSrBgPkxxkcjvQBPDbXUepXVx
+JfPLbSqgitjGoEJGdxDDk7sjr0xSadpWn6THLHp9nBapNK00iwoFDu3VjjvS3dpNc3NnLFfT26QS
+mSSOMKRONpG1sgnGSDxjp+VugDm20jV9N8Rpe6Vd+fp13KTe2d1Kx2M2MyxudxGAoAjGF5PSukoo
+oAKKKKACiiigAooooAKKKKACiiigAooqhrVvqF3o11b6VepY30ibYbl4hIIz67T1/wA9aAJNSN+u
+nTnS0tnvtv7lblmWMn/aKgnpmojeXP8Aby2e20+zfZvNdvP/AHyuWwo8vH3T83zZ6jGKz/E2h6hq
++m2YstUnt7uymS5QK3lx3LoMqkuBnYWxkD/DHmviHw++jaz/AG7468TNHo/nxmGG3gM0srIWmEbT
+CMMqBywVe4CjIIFAHtVGAccdOlcb4k1G6l0DS/Fumtcm1sUN9Jp7P9nNxG0eMSMzAKFDFiCDnbXO
++A/HviTxvqLGcaXp1tpzGS8t4Q009wjLlNo7LzncCckDAweQDp/GOi3GpahoV8sthbWul3X2qe6u
+JJEkQAr8qbWUYYZB3HHTg1BrfxM0fw9aaY+p2epw3uo8w6eLfdOBu2kkA49OM5OenXFeTVbG9F1d
+22i6hqOn3skP9pwXkE5Kq0a+X5MLqVbkru24xjPPFdTq3h7S9ba0e+tVeWzlEttKrFJImHdWUgj6
+dDQBh+LNWudE1PTptL0S1lvtQkjtDqN06RxxoZB+7ZiQ5JBYhQDyOh6Vd8VeK18M/wBnxpp1zqN3
+fTmKK2tmXzCFG52AJGcKCcDqcDjOaxtP0m+0jVdKstfvbnVLaB2TT7oByCTkg3QOV3LhFRs5LEnq
+eN/WLzVrC4e7isbC40+CNGLSTmOWM78SvypG1Y+eOTgjvQA7VtU1SyuRDZaZb3Jkt2eAS3qwtLMC
+P3YUg/w7mz7fjW0M4561jaPpeiHTdOudPgjmt0DXFnNITIyCXLFlZ8sM7j/KtmgAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKy1m1bUNAmeO3XS9TdZFiS4ImWNgSFY7TgggA9eM96ANDz4Rc
+C3MsfnlC4j3DcVBwTjrjJAz71havrdmviKw8LXmnvOurQSkO3ltGQgyyspOTx7Ecj3xpR6RZDVhq
+720LaobYWzXSrgmMHdtHJwNxz/XirD2Vq97HevbQtdRI0ccxQF1VsZAPUA4H5UAeW654wGk+FRo+
+ma5bxSrYGSzvb+MLJctFKyvD5HlgDhCoOOemD1rsvDurLaeF9Al1xhbalfxRW4EqqHkk2kquEAA4
+yQMDGccGtfVNGtdXksHuTJmyuluotjYBdQQN3qOc49hUN3ZbfElhqEOlxTSmOS3mvGm2tBF94ALj
+5ssAO2PzoAoeFrLVbfUfEM+p3V5Ks+oMbaOcKESIKMeXhm+U++OQeBzXS1iXV7Ya7c6hoFpq81tq
+Np5T3H2U7ZIgSGXkggggYOM8HFaGmx30WnQJqdxDcXoX97LBEY0Y+yknH50AOvtOs9TgWC+tYriJ
+ZFlCSqGAZSCp+oIrC03xdNqmtDTovD2rW5jY/aZbuIRLEuG2sDkh9xXHynjOav32l3uqWmtWF5fI
+tnexGG2NvHtlgVk2sSxJDHJJHAx71e06yXTdMtbFJZZVt4UiEkzbncKAMse5OOaALIAAwBgCiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAQKASQBk9T60tFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=</Data>
+    </Thumbnail>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="77abff4fa9da65127cdfe4f75283318b" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+TWljaGFlbCBIaWxsLCBQQURFUDwvb3JpZ2luPg0KICAgICAgICA8cHViZGF0ZT4yMDE3MDE8L3B1
+YmRhdGU+DQogICAgICAgIDx0aXRsZT5NYXJjZWxsdXMgR2FzIFdlbGwgV2F0ZXIgU291cmNlcyBW
+aWV3PC90aXRsZT4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9yIGRpZ2l0YWwgZGF0YTwvZ2VvZm9y
+bT4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LnBhc2RhLnBzdS5lZHUvPC9vbmxpbms+DQog
+ICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAgICAg
+PGFic3RyYWN0PlRoaXMgZGF0YSBzZXQgY29udGFpbnMgYWxsIGFwcHJvdmVkIHdhdGVyIHNvdXJj
+ZXMgd2l0aGluIHdhdGVyIG1hbmFnbWVudCBwbGFucyAoV01QKS4gQSBXTVAgY29udGFpbnMgd2F0
+ZXIgc291cmNlcyB1dGlsaXplZCBpbiB0aGUgZnJhY3R1cmUgc3RpbXVsYXRpb24gb2YgTWFyY2Vs
+bHVzIFNoYWxlIG5hdHVyYWwgZ2FzIHdlbGxzIGluIFBlbm5zeWx2YW5pYS48L2Fic3RyYWN0Pg0K
+ICAgICAgPHB1cnBvc2U+RGF0YXNldCBkZXZlbG9wZWQgdG8gc2VydmUgdGhlIG5lZWRzIG9mIERF
+UCBhbmQgIGlzIGludGVuZGVkIGZvciBlZHVjYXRpb25hbCBwdXJwb3Nlcy4gIFRoZSBkYXRhc2V0
+IHdpbGwgYmUgY29udGludWFsbHkgdXBkYXRlZCBvbiBhbiBhcyBuZWVkZWQgYmFzaXMuPC9wdXJw
+b3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPHRpbWVpbmZvPg0K
+ICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDE3MDE8L2NhbGRhdGU+DQog
+ICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgICA8Y3VycmVudD5wdWJs
+aWNhdGlvbiBkYXRlPC9jdXJyZW50Pg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAg
+ICAgIDxwcm9ncmVzcz5Db21wbGV0ZTwvcHJvZ3Jlc3M+DQogICAgICA8dXBkYXRlPkFzIG5lZWRl
+ZDwvdXBkYXRlPg0KICAgIDwvc3RhdHVzPg0KICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4N
+CiAgICAgICAgPHdlc3RiYz4NCi03OC4wMDA5MzM8L3dlc3RiYz4NCiAgICAgICAgPGVhc3RiYz4N
+Ci03OC4wMDA4NzM8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRoYmM+DQozOS4wMDAzODA8L25vcnRo
+YmM+DQogICAgICAgIDxzb3V0aGJjPg0KMzkuMDAwMzU3PC9zb3V0aGJjPg0KICAgICAgPC9ib3Vu
+ZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAgICAg
+ICAgPHRoZW1la3Q+SVNPIDE5MTE1IFRvcGljIENhdGVnb3JpZXM8L3RoZW1la3Q+DQogICAgICAg
+IDx0aGVtZWtleT5QZW5uc3lsdmFuaWE8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+U291
+cmNlPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlNvdXJjZXM8L3RoZW1la2V5Pg0KICAg
+ICAgICA8dGhlbWVrZXk+V2l0aGRyYXdhbHM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+
+V2F0ZXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+V2F0ZXIgUmVzb3VyY2VzPC90aGVt
+ZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pk1hcmNlbGx1czwvdGhlbWVrZXk+DQogICAgICAgIDx0
+aGVtZWtleT5NYXJjZWxsdXMgU2hhbGU8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+V2F0
+ZXIgTWFuYWdlbWVudCBQbGFuPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PldNUDwvdGhl
+bWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5HYXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+R2FzIFdlbGw8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+TmF0dXJhbCBHYXM8L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+RnJhY2tpbmc8L3RoZW1la2V5Pg0KICAgICAgICA8
+dGhlbWVrZXk+ZW52aXJvbm1lbnQ8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICA8L2tl
+eXdvcmRzPg0KICAgIDxhY2Njb25zdD5OT05FPC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+Tk9O
+RTwvdXNlY29uc3Q+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxj
+bnRwZXJwPg0KICAgICAgICAgIDxjbnRvcmc+UEEgREVQLCBHZW9zcGF0aWFsIERhdGEgQ2VudGVy
+PC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4NCiAgICAgICAgPGNudGVtYWlsPnJhLWVwZ2Vv
+c3BhdGlhbGRhdGFjZW50ZXJAc3RhdGUucGEudXM8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZv
+Pg0KICAgIDwvcHRjb250YWM+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2luZG93cyBYUCBWZXJz
+aW9uIDUuMSAoQnVpbGQgMjYwMCkgU2VydmljZSBQYWNrIDM7IEVTUkkgQXJjQ2F0YWxvZyA5LjMu
+MS4zNTAwPC9uYXRpdmU+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAgPGxpbmVhZ2U+
+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5NZXRhZGF0YSBpbXBvcnRlZC48
+L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5FOlxHSVNcUHJvamVjdHNcTWFyY2VsbHVzXFdN
+UF9Tb3VyY2VzLnhtbDwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTAxMDAxPC9wcm9j
+ZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjE0MDIzMjAwPC9wcm9jdGltZT4NCiAgICAgIDwvcHJv
+Y3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5NZXRhZGF0YSBpbXBv
+cnRlZC48L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5DOlxET0NVTUV+MVxtaWhpbGxcTE9D
+QUxTfjFcVGVtcFx4bWw5NTIudG1wPC9zcmN1c2VkPg0KICAgICAgICA8cHJvY2RhdGU+MjAxMDEw
+MDE8L3Byb2NkYXRlPg0KICAgICAgICA8cHJvY3RpbWU+MTQwOTE3MDA8L3Byb2N0aW1lPg0KICAg
+ICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPk1ldGFk
+YXRhIGltcG9ydGVkLjwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPkU6XEdJU1xQcm9qZWN0
+c1xNYXJjZWxsdXNcV01QX1NPVVJDRVMuc2hwLnhtbDwvc3JjdXNlZD4NCiAgICAgICAgPHByb2Nk
+YXRlPjIwMTAxMDEyPC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjE1MDQyOTAwPC9wcm9j
+dGltZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9j
+ZGVzYz5NZXRhZGF0YSBpbXBvcnRlZC48L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5FOlxH
+SVNcUHJvamVjdHNcTWFyY2VsbHVzXG1ldGFkYXRhLnhtbDwvc3JjdXNlZD4NCiAgICAgICAgPHBy
+b2NkYXRlPjIwMTAxMDEzPC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEzNTIxMTAwPC9w
+cm9jdGltZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxw
+cm9jZGVzYz5NZXRhZGF0YSBpbXBvcnRlZC48L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5F
+OlxHSVNcUHJvamVjdHNcTWFyY2VsbHVzXG1ldGFkYXRhLnhtbDwvc3JjdXNlZD4NCiAgICAgICAg
+PHByb2NkYXRlPjIwMTEwMTA0PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEzMzIxODAw
+PC9wcm9jdGltZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAg
+IDxwcm9jZGVzYz5EYXRhc2V0IG1vdmVkLjwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPkU6
+XEdJU1xQcm9qZWN0c1xNYXJjZWxsdXNcV01QX1NPVVJDRVM8L3NyY3VzZWQ+DQogICAgICAgIDxw
+cm9jZGF0ZT4yMDExMDEwNDwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jdGltZT4xMzQ2MDIwMDwv
+cHJvY3RpbWU+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8
+cHJvY2Rlc2M+TWV0YWRhdGEgaW1wb3J0ZWQuPC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+
+RTpcR0lTXFByb2plY3RzXE1hcmNlbGx1c1xXTVAgU291cmNlc1xtZXRhZGF0YS54bWw8L3NyY3Vz
+ZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDEwNDwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9j
+dGltZT4xNTI3NDUwMDwvcHJvY3RpbWU+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2Nz
+dGVwPg0KICAgICAgICA8cHJvY2Rlc2M+TWV0YWRhdGEgaW1wb3J0ZWQuPC9wcm9jZGVzYz4NCiAg
+ICAgICAgPHNyY3VzZWQ+RTpcR0lTXFByb2plY3RzXE1hcmNlbGx1c1xXTVAgU291cmNlc1xtZXRh
+ZGF0YS54bWw8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDExMDEyODwvcHJvY2RhdGU+
+DQogICAgICAgIDxwcm9jdGltZT4xMTU5MDcwMDwvcHJvY3RpbWU+DQogICAgICA8L3Byb2NzdGVw
+Pg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+TWV0YWRhdGEgaW1wb3J0ZWQu
+PC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+RTpcR0lTXFByb2plY3RzXE1hcmNlbGx1c1xX
+TVAgU291cmNlc1xtZXRhZGF0YS54bWw8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDEx
+MDEyODwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jdGltZT4xMjUxMDEwMDwvcHJvY3RpbWU+DQog
+ICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+RGF0
+YXNldCBjb3BpZWQuPC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+RTpcR0lTXFByb2plY3Rz
+XE1hcmNlbGx1c1xXTVAgU291cmNlc1xXTVBfU09VUkNFUzwvc3JjdXNlZD4NCiAgICAgICAgPHBy
+b2NkYXRlPjIwMTEwMTI4PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEyNTExOTAwPC9w
+cm9jdGltZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0KICA8L2RhdGFxdWFs
+Pg0KICA8c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAgPC9zcGRvaW5m
+bz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAgICAg
+PGhvcml6ZG4+Tm9ydGggQW1lcmljYW4gRGF0dW0gb2YgMTk4MzwvaG9yaXpkbj4NCiAgICAgICAg
+PGVsbGlwcz5HZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+DQogICAgICAgIDxz
+ZW1pYXhpcz42Mzc4MTM3LjAwMDAwMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4y
+NTcyMjI8L2RlbmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwv
+c3ByZWY+DQogIDxlYWluZm8+DQogICAgPGRldGFpbGVkIE5hbWU9IldNUE1hcmNlbGx1c1NoYWxl
+MjAxNzAxIj4NCiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0eXBsPg0KV01QX1NPVVJDRVM8
+L2VudHR5cGw+DQogICAgICAgIDxlbnR0eXB0IFN5bmM9IlRSVUUiPkZlYXR1cmUgQ2xhc3M8L2Vu
+dHR5cHQ+DQogICAgICAgIDxlbnR0eXBjIFN5bmM9IlRSVUUiPjc4NTwvZW50dHlwYz4NCiAgICAg
+IDwvZW50dHlwPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5G
+SUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+RklEPC9hdHRhbGlh
+cz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPk9JRDwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5
+bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwv
+YXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVmIFN5bmM9IlRSVUUiPkludGVybmFsIGZlYXR1cmUg
+bnVtYmVyLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8L2F0
+dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJVRSI+
+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVycyB0aGF0IGFyZSBhdXRvbWF0aWNhbGx5IGdl
+bmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNoYXBlPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dHJkZWY+RmVhdHVyZSBnZW9tZXRyeS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJ
+PC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkNvb3JkaW5h
+dGVzIGRlZmluaW5nIHRoZSBmZWF0dXJlcy48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5HZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj4wPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUi
+PjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPldVRFNfUEZJ
+RDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlVuaXF1ZSBJRCAtIFdVRFMgUHJpbWFyeSBG
+YWNpbGl0eTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPldVRFNfUEZJ
+RDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBT
+eW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmw+V01QX0lEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+V2F0ZXIg
+TWFuYWdlbWVudCBQbGFuIElEPC9hdHRyZGVmPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJV
+RSI+V01QX0lEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJs
+ZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xOTwvYXR0d2lkdGg+
+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5PUkdfV01QX0lEPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dGFsaWFzIFN5bmM9IlRSVUUiPk9SR19XTVBfSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5
+cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9
+IlRSVUUiPjUwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkNOVFlfTkFNRTwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkNvdW50eSBOYW1lPC9hdHRyZGVmPg0KICAgICAgICA8
+YXR0YWxpYXMgU3luYz0iVFJVRSI+Q05UWV9OQU1FPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5j
+PSJUUlVFIj4yNTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9h
+dHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5NVU5JX05BTUU8L2F0
+dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5NdW5pY2lwYWxpdHkgTmFtZTwvYXR0cmRlZj4NCiAg
+ICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk1VTklfTkFNRTwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lk
+dGggU3luYz0iVFJVRSI+NjA8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2Fs
+ZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+RkFDX1RZ
+UEVfRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkZhY2lsaXR5IFR5cGUgRGVzY3JpcHRp
+b248L2F0dHJkZWY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GQUNfVFlQRV9EPC9h
+dHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+
+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40MDwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5GQUNfREVTQzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkZhY2lsaXR5
+IERlc2lnbmF0aW9uIERlc2NyaXB0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXR0YWxpYXMgU3lu
+Yz0iVFJVRSI+RkFDX0RFU0M8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQwPC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAg
+ICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQog
+ICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlJFR19PRkZJQ0U8L2F0dHJsYWJsPg0KICAg
+ICAgICA8YXR0cmRlZj5ERVAgcmVnaW9uYWwgb2ZmaWNlPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+UkVHX09GRklDRTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHBy
+ZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5QRl9OQU1FPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dHJkZWY+UHJpbWFyeSBGYWNpbGl0eSBOYW1lPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UEZfTkFNRTwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGgg
+U3luYz0iVFJVRSI+NjA8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+
+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJV
+RSI+RVhQX0RBVEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+RVhQ
+X0RBVEU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RGF0ZTwvYXR0
+cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAgICAg
+ICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUg
+U3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsPldVRFNfU0ZJRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlVu
+aXF1ZSBJRCAtIFdVRFMgU3ViZmFjaWxpdHkgSUQ8L2F0dHJkZWY+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5XVURTX1NGSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNGX05BTUU8L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5TdWJmYWNpbGl0eSBOYW1lPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+U0ZfTkFNRTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBT
+eW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJV
+RSI+NjA8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVj
+aXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+V1VEU19QV1NJRDwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRyZGVmPlVuaXF1ZSBJZCAtIFdVRFMgUEYgSUQgZm9yIFBXUzwvYXR0
+cmRlZj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPldVRFNfUFdTSUQ8L2F0dGFsaWFz
+Pg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lz
+IFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+
+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJs
+YWJsPkFQUFJfREFURTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkFwcHJvdmVkIGRhdGUg
+b2YgV01QPC9hdHRyZGVmPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+QVBQUl9EQVRF
+PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRhdGU8L2F0dHJ0eXBl
+Pg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5QRUFLX0RBSUxZPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+UGVhayBk
+YWlseSB3aXRoZHJhd2FsIGluIG1pbGxpb24gZ2FsbG9ucyBwZXIgZGF5PC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UEVBS19EQUlMWTwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lk
+dGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2Fs
+ZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TUFYX1JB
+VEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5NYXhpbXVtIHdpdGhkcmF3YWwgcmF0ZSBp
+biBncG08L2F0dHJkZWY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5NQVhfUkFURTwv
+YXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBl
+Pg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8
+YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+QVZHX0RBSUxZPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+QXZlcmFn
+ZSBkYWlseSB3aXRoZHJhd2FsIGluIGdhbGxvbnMgcGVyIGRheTwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPkFWR19EQUlMWTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRy
+dHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3lu
+Yz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwv
+YXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+UEFTU0JZX1JFUTwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlBhc3NieSBSZXF1aXJlZD8gLSBZL048L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5QQVNTQllfUkVRPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5
+bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwv
+YXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+PlBBU1NCWV9BTVQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5QYXNzYnkgYW1vdW50IGlu
+IGN1YmljIGZlZXQgcGVyIHNlY29uZDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPlBBU1NCWV9BTVQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAg
+ICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQog
+ICAgPC9kZXRhaWxlZD4NCiAgPC9lYWluZm8+DQogIDxkaXN0aW5mbz4NCiAgICA8cmVzZGVzYz5E
+b3dubG9hZGFibGUgRGF0YTwvcmVzZGVzYz4NCiAgICA8c3Rkb3JkZXI+DQogICAgICA8ZGlnZm9y
+bT4NCiAgICAgICAgPGRpZ3RpbmZvPg0KICAgICAgICAgIDx0cmFuc2l6ZT4wLjAxMDwvdHJhbnNp
+emU+DQogICAgICAgIDwvZGlndGluZm8+DQogICAgICA8L2RpZ2Zvcm0+DQogICAgPC9zdGRvcmRl
+cj4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTEwMzExPC9tZXRk
+Pg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAg
+ICAgIDxjbnRvcmc+UEEgREVQPC9jbnRvcmc+DQogICAgICAgICAgPGNudHBlcj5NaWNoYWVsIEhp
+bGw8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAg
+ICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQog
+ICAgICAgICAgPGFkZHJlc3M+NDAwIE1hcmtldCBTdHJlZXQ8L2FkZHJlc3M+DQogICAgICAgICAg
+PGNpdHk+SGFycmlzYnVyZzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+UGVubnN5bHZhbmlhPC9z
+dGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE3MTAxPC9wb3N0YWw+DQogICAgICAgIDwvY250YWRk
+cj4NCiAgICAgICAgPGNudHZvaWNlPjcxNyA3ODctMDYzMDwvY250dm9pY2U+DQogICAgICA8L2Nu
+dGluZm8+DQogICAgPC9tZXRjPg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZHMg
+Zm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0YTwvbWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5G
+R0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAgICA8bWV0dGM+bG9jYWwgdGltZTwvbWV0dGM+
+DQogICAgPG1ldGV4dG5zPg0KICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVzcmkuY29tL21ldGFk
+YXRhL2Vzcmlwcm9mODAuaHRtbDwvb25saW5rPg0KICAgICAgPG1ldHByb2Y+RVNSSSBNZXRhZGF0
+YSBQcm9maWxlPC9tZXRwcm9mPg0KICAgIDwvbWV0ZXh0bnM+DQogICAgPG1ldGV4dG5zPg0KICAg
+ICAgPG9ubGluaz5odHRwOi8vd3d3LmVzcmkuY29tL21ldGFkYXRhL2Vzcmlwcm9mODAuaHRtbDwv
+b25saW5rPg0KICAgICAgPG1ldHByb2Y+RVNSSSBNZXRhZGF0YSBQcm9maWxlPC9tZXRwcm9mPg0K
+ICAgIDwvbWV0ZXh0bnM+DQogICAgPG1ldGV4dG5zPg0KICAgICAgPG9ubGluaz5odHRwOi8vd3d3
+LmVzcmkuY29tL21ldGFkYXRhL2Vzcmlwcm9mODAuaHRtbDwvb25saW5rPg0KICAgICAgPG1ldHBy
+b2Y+RVNSSSBNZXRhZGF0YSBQcm9maWxlPC9tZXRwcm9mPg0KICAgIDwvbWV0ZXh0bnM+DQogICAg
+PG1ldGV4dG5zPg0KICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVzcmkuY29tL21ldGFkYXRhL2Vz
+cmlwcm9mODAuaHRtbDwvb25saW5rPg0KICAgICAgPG1ldHByb2Y+RVNSSSBNZXRhZGF0YSBQcm9m
+aWxlPC9tZXRwcm9mPg0KICAgIDwvbWV0ZXh0bnM+DQogICAgPG1ldGV4dG5zPg0KICAgICAgPG9u
+bGluaz5odHRwOi8vd3d3LmVzcmkuY29tL21ldGFkYXRhL2Vzcmlwcm9mODAuaHRtbDwvb25saW5r
+Pg0KICAgICAgPG1ldHByb2Y+RVNSSSBNZXRhZGF0YSBQcm9maWxlPC9tZXRwcm9mPg0KICAgIDwv
+bWV0ZXh0bnM+DQogICAgPG1ldGV4dG5zPg0KICAgICAgPG9ubGluaz5odHRwOi8vd3d3LmVzcmku
+Y29tL21ldGFkYXRhL2Vzcmlwcm9mODAuaHRtbDwvb25saW5rPg0KICAgICAgPG1ldHByb2Y+RVNS
+SSBNZXRhZGF0YSBQcm9maWxlPC9tZXRwcm9mPg0KICAgIDwvbWV0ZXh0bnM+DQogIDwvbWV0YWlu
+Zm8+DQogIDxFc3JpPg0KICAgIDxDcmVhRGF0ZT4yMDE3MDE8L0NyZWFEYXRlPg0KICAgIDxDcmVh
+VGltZT4wOTE4NTEwMDwvQ3JlYVRpbWU+DQogICAgPFN5bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4N
+CiAgICA8U3luY0RhdGU+MjAxNzAxMDU8L1N5bmNEYXRlPg0KICAgIDxTeW5jVGltZT4xMzM3NDYw
+MDwvU3luY1RpbWU+DQogICAgPE1vZERhdGU+MjAxNzAxMDU8L01vZERhdGU+DQogICAgPE1vZFRp
+bWU+MTMzNzQ2MDA8L01vZFRpbWU+DQogICAgPERhdGFQcm9wZXJ0aWVzPg0KICAgICAgPGxpbmVh
+Z2U+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9ImM6XHByb2dyYW0gZmlsZXMgKHg4Nilc
+YXJjZ2lzXGRlc2t0b3AxMC4wXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBU
+b29scy50YnhcQ29weUZlYXR1cmVzIiBEYXRlPSIyMDE3MDEwNSIgVGltZT0iMTI1MjQyIj5Db3B5
+RmVhdHVyZXMgRDpcREFUQVxERVBcXzIwMTcwMV9VcGRhdGVzLm1kYlxXVURTX1dNUF9TT1VSQ0VT
+X1YgRDpcREFUQVxERVBcV1VEU19XTVBfU09VUkNFU19WLnNocCAjIDAgMCAwPC9Qcm9jZXNzPg0K
+ICAgICAgPC9saW5lYWdlPg0KICAgICAgPGNvcHlIaXN0b3J5Pg0KICAgICAgICA8Y29weSBzb3Vy
+Y2U9IkQ6XGRhdGFEXERFUFxBcHJpbDIwMTZcV01QTWFyY2VsbHVzU2hhbGUyMDE2XzA0IiBkZXN0
+PSJcXFVSU1VTXGRhdGFEXERFUFxBcHJpbDIwMTZcU2hhcGVzXFdNUE1hcmNlbGx1c1NoYWxlMjAx
+Nl8wNCIgZGF0ZT0iMjAxNzAxMDYiIHRpbWU9IjE1MzMyODAwIiAvPg0KICAgICAgPC9jb3B5SGlz
+dG9yeT4NCiAgICA8L0RhdGFQcm9wZXJ0aWVzPg0KICAgIDxNZXRhSUQ+e0IzRjQ4QUJGLTM0MkUt
+NDFBNi04OEZGLTUzMDRCRUNEOEJFNn08L01ldGFJRD4NCiAgPC9Fc3JpPg0KICA8ZGF0YUlkSW5m
+bz4NCiAgICA8ZGVzY0tleXM+DQogICAgICA8dGhlc2FOYW1lIHV1aWRyZWY9IjcyM2Y2OTk4LTA1
+OGUtMTFkYy04MzE0LTA4MDAyMDBjOWE2NiIgLz4NCiAgICA8L2Rlc2NLZXlzPg0KICA8L2RhdGFJ
+ZEluZm8+DQogIDxCaW5hcnk+DQogICAgPFRodW1ibmFpbD4NCiAgICAgIDxEYXRhIEVzcmlQcm9w
+ZXJ0eVR5cGU9IlBpY3R1cmVYIj4vOWovNEFBUVNrWkpSZ0FCQVFFQUFRQUJBQUQvMndCREFBZ0dC
+Z2NHQlFnSEJ3Y0pDUWdLREJRTkRBc0xEQmtTRXc4VUhSb2ZIaDBhDQpIQndnSkM0bklDSXNJeHdj
+S0RjcExEQXhORFEwSHljNVBUZ3lQQzR6TkRMLzJ3QkRBUWtKQ1F3TERCZ05EUmd5SVJ3aE1qSXlN
+akl5DQpNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5
+TWpJeU1qTC93QUFSQ0FDRkFNZ0RBU0lBDQpBaEVCQXhFQi84UUFId0FBQVFVQkFRRUJBUUVBQUFB
+QUFBQUFBQUVDQXdRRkJnY0lDUW9MLzhRQXRSQUFBZ0VEQXdJRUF3VUZCQVFBDQpBQUY5QVFJREFB
+UVJCUkloTVVFR0UxRmhCeUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmlj
+b0tTbzBOVFkzDQpPRGs2UTBSRlJrZElTVXBUVkZWV1YxaFpXbU5rWldabmFHbHFjM1IxZG5kNGVY
+cURoSVdHaDRpSmlwS1RsSldXbDVpWm1xS2pwS1dtDQpwNmlwcXJLenRMVzJ0N2k1dXNMRHhNWEd4
+OGpKeXRMVDFOWFcxOWpaMnVIaTQrVGw1dWZvNmVyeDh2UDA5ZmIzK1BuNi84UUFId0VBDQpBd0VC
+QVFFQkFRRUJBUUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFB
+UUozQUFFQ0F4RUVCU0V4DQpCaEpCVVFkaGNSTWlNb0VJRkVLUm9iSEJDU016VXZBVlluTFJDaFlr
+Tk9FbDhSY1lHUm9tSnlncEtqVTJOemc1T2tORVJVWkhTRWxLDQpVMVJWVmxkWVdWcGpaR1ZtWjJo
+cGFuTjBkWFozZUhsNmdvT0VoWWFIaUltS2twT1VsWmFYbUptYW9xT2twYWFucUttcXNyTzB0YmEz
+DQp1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgyTm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42Lzlv
+QURBTUJBQUlSQXhFQVB3RDMraWlpDQpnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdB
+b29vb0FLS0tLQUNpaWlnQW9vb29BS0tLS0FDaWlpZ0Fvb29vQUtLS0tBDQpDaWlpZ0Fvb29vQUtL
+S0tBSUxlOXRieHAxdHJtS1l3U0dLVVJ1Rzh0eGdsV3gwUEk0cWVxRjVEZFc5dXphUGIyUXVKYmhI
+bTg3S0t5DQpsZ0hZbFJrdnRIR2U0R2FkZVdNdHpkV3R6RmV6d05iRjI4cENQTG1MS1FCSU1aSUdj
+akJITkFGMmlzdlNyclZHa0ZucWxtQlBGYlJ2DQpMZVFZRnZMSWNobFFGaTNHTzQ3L0FKNmxBQlJS
+VWM4OGR0Ynl6eWtpT0pDN0VLV0lBR1R3T1Q5QlFCSlJXYXVyK2ZEcGR4WldkeGRXDQoxK1FmT1VC
+QkNoUXNIY01RY0hBR01aNS9PZE5SdFp0VW4weFdZM01NU1N5S1kyQ2hITEJmbXhnL2RQQVBhZ0My
+Q0NNZzVCb0p3TTFsDQphSkREcDZUYVJhYVZMWTJOaVZTM2NzcFNVTU54S2NsdUNTRHV4ejYxSHFX
+cDZocEVPcTZoY1dQMnJUN2FGWkxlS3lCZTVrSXp2QlU0DQpISEdNSHBuNlVBVDZIckthN3AzMnlP
+eXY3TmQ3SjVWOWJtR1RqdnRQWTlqV2xXZG8rcVcvaUhRTFRWTE15eHdYc0FsakxBQjFERDhSDQpr
+ZmpWalRyUnJEVHJlMGE2bnVtaGpDR2U0WU5KSmdkV0lBeWFBTE5GWk9xYS9GcGR6NUQ2ZnFWd2ZL
+RW02MXRXbFhsMVRia2Z4Zk5uDQpIb0NhenBmRzlsWlh0MWE2cFlhbFl0Ynh5VGIydG1rUjRsZllI
+RFI3dXBPUUR6anJqaklCMDlGQU9SbWlnQW9vb29BS0tLS0FDaWlpDQpnQW9vcUM3dmJXd2lXVzh1
+WWJlTm5XTVBLNFVGbU9GR1QzSklBb0Fub0pBR1NjQVZrUGU2amUzZXJhYkJaejJEUXdnVzJwU3Fq
+eFNPDQp5bmxWM1pPMDlRZlQ4MmFqT1pyR2JRbzd6VDV0YmxzV2RZYnBQa2xHTnBkb3djN0N4d1I3
+OTZBTlY3cTNqamprZWVKVWxaVmpabkFEDQpsdnVnSHVUMjlhejljOFEySGgvVEo3KzhhUjRvSGpT
+UllFOHgxTHNGWEtqbnF3cUw3SGJSeWFab3phSWt0bEJFSlk1bGpUeWJaNHRvDQpRQlNjZzhuQkE0
+eDljTXZMRHcxRHFwaXZMT3krMjYwNmhsa2lERzZhRmR3emtZTzBESXpRQml6YXI0eXRyNitpMDJI
+UnZFRVVWMndaDQpFdXZzODF1aENsWTNHQ053REhudUFEMU5kWWJtNkdySmEvWUdOcVlESTEySkYy
+cTRZQVI3ZnZkQ1RucHhVRTEwbGhxOXRhdzZYTzUxDQpCbmVhNmdpWHk0MlZSZ3l0a0hKQUFIWHBp
+b05FaWJUSkpORlA5cVhLd0o1d3Y3MWc0bDh4M093UDFKWEhUSEF4UUJzMVUwN1VZZFR0DQptbmdT
+ZFVXVjRpSm9Xak9VWXFlR0FPTWpnMWJvb0FLeUx5OTFLMzhSMkVNZHVqYVRKYnpOZFRrRE1McnRL
+WkpZWUJHNytFOU8xYTlZDQpPdGFQNGRFMXpyMnNRd3Jzc1h0YmlhWnlFTnVUbGxaYzRJK296elFB
+bmlxNTFleXNiVy8wYUc0dTNndVVNdGxBRS8waU52bElMTUNWDQpBM0Jzam41ZlRrVXRlOFkzT2ph
+amJXZzBsUWx4ZlIya2QxZDNzVUVMaGszRmw1TEVnamJqYnlhMlYwWFRaYnpUTlFoVmwrd1F0SGFD
+DQpHVXJFRWRRUHVnN1dHQU1aSEg1VXR2NGYwaTFzb0xPTFRyYjdQYnltZUdOMERpT1FzVzNMbk9E
+a25udG1nRGxQaDFyMnUzYytwNkY0DQpndDVKTHZUcFArUDVJMjhxUXQ4eGozYkZYY200THh3UU1q
+amt6YXA0ejExdGNHbWVIUEMwMnB4L3UzR292T0k3Um95TXRoOEVFanB4DQpublBwZzlMZjZ2SFk2
+cHA5aExaM2NndjJkRm5paTN4eHNxNXc1SEs1R2NIR09EMHB1amFCWStIZEpiVHRJUTI5dnZra1JX
+WXVFWjJMDQpIQUo0R1QwSC93QmVnREhzYi94UjRpOE4zOFQyQjhNNnlzdmxSdk9GdVVWRGh0eTRJ
+REhhY2VtNEg2VnRYbXEyV2hXTnFkVjFCVkx5DQpSMndtZGNHU1ZzQWNLT0NUK0E5aFhuZWdhdDR2
+WHhIYWFYY0dYVnRRc281STcrVkxwRnMxTFRna3ZpUElrRWUzYXZPQWY5NnUxcy9EDQpWcmErSzdy
+VTEwdXdSSFF2SGNLem1acFhJODNjRDh1RDVjV01jNUI5YUFPaG9vb29BS0tLS0FDaWlpZ0Fvb29v
+QXJYK29XZWxXTXQ5DQpmM01WdGF3ak1rc3JiVlVaeHlmcWF4dFFiVGZFZGxvOTNiNmREcnRrYnhK
+bzVVbFRaRGdNUE41T0d3ZU1lcDlxZjRuZzhRVHd4ZjJLDQptbDNNR0N0M1phZ2pZdUVKWDVRNHlG
+NDNEbFdISXFaZGJzOUx0dEpnMVFSYWRjM29FYVFLZDBhU0JjbVBlQnRHRHdNNHllbEFGN1RiDQpp
+NnU5TmhudkxKckc1ZGN2YnZJc2hqUHBsZURWTXo2aHAzaDE3L1VMYUc5MU8zdDJhUkxJYkJJUnp0
+UXVlQndPcDdmaFdGcUdzUStLDQpvNGROc3RZdXRKaHZpa21uYWphU0p1dk5vWnBFQ2tFcUYyODV4
+bnAwNE5pK3VQR1lzclcwMDJ3c3hjbWVXR1M2dlpSS2hoVkRzbGRVDQoya003YmVGQnh6UUF1a1hP
+bUo0cWVYVHJhK3VHMXUwRjlMZSthWmJkRlRhaW9HM0ZjL01UaGMvbGpHemFhN3Btb2F6ZTZWYTNL
+elh0DQpnRU55aXFTSWkyY0F0akdlRHhuTmM5OFBQQytyK0ZiSzlzOVV1b0o0bWtVMndnbWxaRVRC
+NENTRTdPVDBCUDZDdW92N2dhYnA5M2V4DQoyYzF5NklaVERiSURKS1FPZ0dSbHNBRHIyRkFCTnAw
+TStwV3QrN3ppYTFWMVJWbVpVSWZHZHlnNGJweGtIRlc2eTlCMUs5MVhTaGQzDQoybHlhYk0wa2ly
+YlRQbHRxc1FySGpqSUFPUGZ2VlBTdkVUM1dqMzhreUpkYWxwaGFLOXQ5UFZtWHpsWGRzakxnYmpn
+ajhUaWdEVnU1DQpyMks1czB0Yk5KNFpKU3R4STAyd3dwdEozQVlPN2tBWTQ2MGFiTmUzRmlzbW9X
+YVdseVdZTkNrM21nQU1RcDNZR2NqQjZkNlpwR3FSDQphenBrVi9ERGN3Skp1SGwzTUppa1Vna0VG
+VDA1QnF2cmxucVZ6OWdtMHU1OHFhMnVra2VKNUNrYzBaK1YxZkNrbjVTU0J4OHdCN1VBDQpXcHRU
+dFlyMDJDenh2cUhrTmNKYWh3SkdRSEdjZW1TQm11YnQ5VjFqVW9mRHNtcTJuOWpSM2F1MTdESkpF
+eXV4QlZMY2h3RzNObmR3DQpNamFWNXprYk91ZUc3SHhENUszejNRamlEcVk0TGhvaEtHR0NIMmtF
+am9SejFGWHJ2VHJLL0VBdkxXRzQ4aVJab3ZOUVBzY2RHR2VoDQpIclFCRHAydDZacTgxNURwOTlE
+Y3lXVXhndVZqYkppY2RRZjg5ajZHc1d3OGQ2WGZhbGNSREZ2cDhVaHRrMUM1bFdPT2U0RGxERkdD
+DQpjc1JnY2pqbjgraHQ3RzBzNUo1TGExZ2dlZC9NbWFLTUtaSC9BTHpZNm4zTlFYT2lhVmVYVnRk
+WE9uV3MwOXF6TkE4a1NzWW1ZZ3NWDQp5T0NTQWMrdEFGdWFlRzNRUFBMSEVoWlVET3dVRmljQWM5
+eVNBUGMxSlVGM1pXdC9Fc1Y1YlEzRWF1c2dTVkF3REtjcWNIdUNBUlU5DQpBRFZSRVptVlZCYzdt
+SUgzamdESi9BQWZoVHFLS0FDaWlpZ0Fvb29vQUt6dGIxM1RmRG1seWFscTEwdHRaeHNxdElWSndX
+SUE0QUo2DQptdEdvN2kzZ3U3ZDdlNWhqbWhrRzE0NUZES3c5Q0R3YUFPWHR2aVo0UHZOZnQ5RnR0
+YWhsdmJnbFl3aXRzWmdjYmQrTnVUempubkh1DQpNOUJidmY4QTI2OUYydHF0b0NwdFRHN0Z5dTBi
+dDRJd1BtNlk3VkZlNkhZWCtvYWRmWEVSTTJuU05KYjRjaFZabEtrbFJ3ZUNjWjZkDQpxNUx4NWRK
+NGJ2cmZXdE9NZjl2WDRGaEVabzVyZ2lMbG1NVVNkd1NwUFFZSHJ3UURjMXp4allhVDRMbThVV2lu
+VTdKRlZrK3lPRDVtDQpYQ2NIMko1K2hyTnNZZkMxN2JlSFBzN3ZiMk55WlpiTFRKWXNKUEpuekN6
+bzZrN2tJTEE1R0NlTWdpcldtNlRlUXp0cE92RjladHA0DQpVbU0wbHRESGFST2hBRWFSakxBbkcv
+bkk0NHgwclNPb2F1UEZDMkRhSG5TakVYWFVsdVZPMXdQdW1Nakk2NHlNL3dDQUEyNnRvRjhSDQpC
+N2JUNVUxQzRzWGlYVXhFR2loVkQ4cU44dzV5K1FNYzRQUEZVTmEwNjMxelRvUERPbzZqY2YydXR1
+dDRsM2JSUEhpU01nQ1VZK1g3DQo1QjJaL29hdi93RENTUk40amJSSTdHK2FkVDg4M2tnUklwVGNI
+eVNDVkpCWElIM2hpbitIditFaUZyTXZpTTZZMXdKUDNUNmZ2Q3NtDQpCOTRQME9jOURRQlIwUFVk
+WjFXYTJ1b25zNU5DTWZ5M0VpdXR6Y25hQnUyRlZFZnpoc2puSXhqRmF6R2UrbnNMdlQ5Umgrd2dz
+MHlyDQpHSkJjS1ZJWGErZmx3ZWVNNXErUUNNRVpCck5sMExUNU5NaDA2S0pyUzBna1NTT096Y3dC
+U3JCZ1BreHhrY2p2UUJQRGJYVWVwWFZ4DQpKZlBMYlNxZ2l0akdvRUpHZHhERGs3c2pyMHhTYWRw
+V242VEhMSHA5bkJhcE5LMDBpd29GRHUzVmpqdlMzZHBOYzNObkxGZlQyNlFTDQptU1NPTUtST05w
+RzFzZ25HU0R4anArVnVnRG0yMGpWOU44UnBlNlZkK2ZwMTNLVGUyZDFLeDJNMk15eHVkeEdBb0Fq
+R0Y1UFN1a29vDQpvQUtLS0tBQ2lpaWdBb29vb0FLS0tLQUNpaWlnQW9vcWhyVnZxRjNvMTFiNlZl
+cFkzMGliWWJsNGhJSXo2N1QxL3dBOWFBSk5TTit1DQpuVG5TMHRudnR2N2xibG1XTW4vYUtnbnBt
+b2plWFA4QWJ5MmUyMCt6Zlp2TmR2UC9BSHl1V3dvOHZIM1Q4M3paNmpHS3ovRTJoNmhxDQorbTJZ
+c3RVbnQ3dXltUzVRSzNseDNMb01xa3VCbllXeGtEL0RIbXZpSHcrK2phei9BRzc0NjhUTkhvL254
+bUdHM2dNMHNySVdtRWJUDQpDTU1xQnl3VmU0Q2pJSUZBSHRWR0FjY2RPbGNiNGsxRzZsMERTL0Z1
+bXRjbTFzVU45SnA3UDluTnhHMGVNU016QUtGREZpQ0RuYlhPDQorQS9IdmlUeHZxTEdjYVhwMXRw
+ekdTOHQ0UTAwOXdqTGxObzdMem5jQ2NrREF3ZVFEcC9HT2kzR3BhaG9WOHN0aGJXdWwzWDJxZTZ1
+DQpKSkVrUUFyOHFiV1VZWVpCM0hIVGcxQnJmeE0wZnc5YWFZK3AyZXB3M3VvOHc2ZUxmZE9CdTJr
+a0E0OU9NNU9lblhGZVRWYkc5RjFkDQoyMmk2aHFPbjNza1A5cHdYa0U1S3EwYStYNU1McVZia3J1
+MjR4alBQRmRUcTNoN1M5YmEwZSt0VmVXemxFdHRLckZKSW1IZFdVZ2o2DQpkRFFCaCtMTld1ZEUx
+UFRwdEwwUzFsdnRRa2p0RHFOMDZSeHhvWkIrN1ppUTVKQlloUUR5T2g2VmQ4VmVLMThNL3dCbnhw
+cDF6cU4zDQpmVG1LSzJ0bVh6Q0ZHNTJBSkdjS0NjRHFjRGpPYXh0UDBtKzBqVmRLc3RmdmJuVkxh
+QjJUVDdvQnlDVGtnM1FPVjNMaEZSczVMRW5xDQplTi9XTHpWckM0ZTdpc2JDNDArQ05HTFNUbU9X
+TTc4U3Z5cEcxWStlT1RnanZRQTdWdFUxU3l1UkRaYVpiM0prdDJlQVMzcXd0TE1DDQpQM1lVZy93
+N216N2ZqVzBNNDU2MWphUHBlaUhUZE91ZFBnam10MERYRm5OSVRJeUNYTEZsWjhzTTdqL0t0bWdB
+b29vb0FLS0tLQUNpDQppaWdBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tLeTFtMWJVTkFtZU8zWFM5
+VGRaRmlTNEltV05nU0ZZN1RnZ2dBOWVNOTZBTkR6NFJjDQpDM01zZm5sQzRqM0RjVkJ3VGpyakpB
+ejcxaGF2cmRtdmlLdzhMWG1udk91clFTa08zbHRHUWd5eXNwT1R4N0VjajN4cFI2UlpEVmhxDQo3
+MjBMYW9iWVd6WFNyZ21NSGR0SEp3Tnh6L1hpckQyVnE5N0hldmJRdGRSSTBjY3hRRjFWc1pBUFVB
+NEg1VUFlVzY1NHdHaytGUm8rDQptYTVieFNyWUdTenZiK01MSmN0Rkt5dkQ1SGxnRGhDb09PZW1E
+MXJzdkR1ckxhZUY5QWwxeGhiYWxmeFJXNEVxcUhrazJrcXVFQUE0DQp5UU1ER2NjR3RmVk5HdGRY
+a3NIdVRKbXl1bHVvdGpZQmRRUU4zcU9jNDloVU4zWmJmRWxocUVPbHhUU21PUzNtdkdtMnRCRjk0
+QUxqDQo1c3NBTzJQem9Bb2VGckxWYmZVZkVNK3AzVjVLcytvTWJhT2NLRVNJS01lWGhtK1UrK09R
+ZUJ6WFMxaVhWN1lhN2M2aG9GcHE4MXRxDQpOcDVUM0gyVTdaSWdTR1hrZ2dnZ1lPTThIRmFHbXgz
+MFduUUpxZHhEY1hvWDk3TEJFWTBZK3lrbkg1MEFPdnRPczlUZ1dDK3RZcmlKDQpaRmxDU3FHQVpT
+Q3Arb0lyQzAzeGROcW10RFRvdkQyclc1alkvYVpidUlSTEV1RzJzRGtoOXhYSHluak9hdjMybDN1
+cVdtdFdGNWZJDQp0bmV4R0cyTnZIdGxnVmsyc1N4SkRISkpIQXg3MWUwNnlYVGRNdGJGSlpaVnQ0
+VWlFa3pibmNLQU1zZTVPT2FBTElBQXdCZ0NpaWlnDQpBb29vb0FLS0tLQUNpaWlnQW9vb29BS0tL
+S0FDaWlpZ0Fvb29vQUtLS0tBQ2lpaWdBb29vb0FRS0FTUUJrOVQ2MHRGRkFCUlJSUUFVDQpVVVVB
+RkZGRkFCUlJSUUFVVVVVQUZGRkZBQlJSUlFBVVVVVUFGRkZGQUJSUlJRQVVVVVVBRkZGRkFCUlJS
+UUFVVVVVQUZGRkZBQlJSDQpSUUFVVVVVQUZGRkZBQlJSUlFBVVVVVUFGRkZGQUJSUlJRQi8vOWs9
+PC9EYXRhPg0KICAgIDwvVGh1bWJuYWlsPg0KICA8L0JpbmFyeT4NCiAgPGRpc3RpbmZvPg0KICAg
+IDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAg
+IDxjbnRvcmc+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3MgKFBBU0RBKTwvY250b3Jn
+Pg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRy
+dHlwZT5tYWlsaW5nIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjExNSBM
+YW5kIGFuZCBXYXRlciBidWlsZGluZzwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5Vbml2ZXJz
+aXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5pYTwvc3RhdGU+DQog
+ICAgICAgICAgPHBvc3RhbD4xNjgwMjwvcG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5PlVuaXRl
+ZCBTdGF0ZXM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNl
+Pig4MTQpIDg2NSAtIDg3OTI8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+cGFzZGFAcHN1
+LmVkdTwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9kaXN0cmliPg0KICAgIDxk
+aXN0bGlhYj5UaGUgVVNFUiBzaGFsbCBpbmRlbW5pZnksIHNhdmUgaGFybWxlc3MsIGFuZCwgaWYg
+cmVxdWVzdGVkLCBkZWZlbmQgdGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZlbG9w
+bWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSwgdGhlaXIgb2ZmaWNlcnMsIGFnZW50
+cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBzdWl0cywgY2xhaW1zLCBvciBh
+Y3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBkYW1hZ2UgYXJpc2luZyBvdXQg
+b2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55
+aW5nIGRvY3VtZW50YXRpb24uIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2ZWxv
+cG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBleGNsdWRlZCBhbnkgYW5kIGFsbCBpbXBsaWVkIHdhcnJh
+bnRpZXMsIGluY2x1ZGluZyB3YXJyYW50aWVzIG9yIG1lcmNoYW50YWJpbGl0eSBhbmQgZml0bmVz
+cyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UgYW5kIG1ha2VzIG5vIHdhcnJhbnR5IG9yIHJlcHJl
+c2VudGF0aW9uLCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLCB3aXRoIHJlc3BlY3QgdG8gdGhl
+IEZJTEVTIG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBpbmNsdWRpbmcgaXRzIHF1YWxp
+dHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZpdG5lc3MgZm9yIGEgcGFydGlj
+dWxhciBwdXJwb3NlLiBUaGUgRklMRVMgYW5kIGRvY3VtZW50YXRpb24gYXJlIHByb3ZpZGVkICJh
+cyBpcyIgYW5kIHRoZSBVU0VSIGFzc3VtZXMgdGhlIGVudGlyZSByaXNrIGFzIHRvIGl0cyBxdWFs
+aXR5IGFuZCBwZXJmb3JtYW5jZS4gVGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZl
+bG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3aWxsIG5vdCBiZSBsaWFibGUg
+Zm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25zZXF1
+ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8gdXNl
+IHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlhYj4N
+CiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Michael Hill</rpIndName>
+    <rpOrgName>PA DEP</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717 787-0630</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>400 Market Street</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17101</postCode>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20110311</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distributor>
+      <distorOrdPrc />
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Marcellus Gas Well Water Sources View</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Michael Hill, PADEP</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This data set contains all approved water sources within water managment plans (WMP). A WMP contains water sources utilized in the fracture stimulation of Marcellus Shale natural gas wells in Pennsylvania.</idAbs>
+    <idPurp>Dataset developed to serve the needs of DEP and is intended for educational purposes. The dataset will be continually updated on an as needed basis.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>PA DEP, Geospatial Data Center</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <eMailAdd>ra-epgeospatialdatacenter@state.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>Water</keyword>
+      <keyword>Water Management Plan</keyword>
+      <keyword>Fracking</keyword>
+      <keyword>Source</keyword>
+      <keyword>Gas Well</keyword>
+      <keyword>Sources</keyword>
+      <keyword>Gas</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Natural Gas</keyword>
+      <keyword>WMP</keyword>
+      <keyword>environment</keyword>
+      <keyword>Water Resources</keyword>
+      <keyword>Withdrawals</keyword>
+      <keyword>Marcellus</keyword>
+      <keyword>Marcellus Shale</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Water</keyword>
+      <keyword>Water Management Plan</keyword>
+      <keyword>Fracking</keyword>
+      <keyword>Source</keyword>
+      <keyword>Gas Well</keyword>
+      <keyword>Sources</keyword>
+      <keyword>Gas</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Natural Gas</keyword>
+      <keyword>WMP</keyword>
+      <keyword>environment</keyword>
+      <keyword>Water Resources</keyword>
+      <keyword>Withdrawals</keyword>
+      <keyword>Marcellus</keyword>
+      <keyword>Marcellus Shale</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-78.000933</westBL>
+          <eastBL>-78.000873</eastBL>
+          <southBL>39.000357</southBL>
+          <northBL>39.00038</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Dataset moved.</stepDesc>
+        <stepDateTm>2011-01-04T13:46:02</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>E:\GIS\Projects\Marcellus\WMP_SOURCES</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+</metadata>

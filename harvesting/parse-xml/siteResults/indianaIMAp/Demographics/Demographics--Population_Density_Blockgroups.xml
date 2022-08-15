@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>(creation): U.S. Department of Commerce, U.S. Census Bureau</origin>
+        <origin>(conversion): AVENZA Systems Inc.</origin>
+        <origin>(compilation): Bernardin, Lochmueller and Associates</origin>
+        <origin>(compilation): Denver Harper, Indiana Geological Survey</origin>
+        <pubdate>20041118</pubdate>
+        <title>
+CENSUS_BLCKGRPS_TIGER00_POPDENS_IN: Indiana Population Density 2000
+(U.S. Census Bureau, 1:100,000, Polygon Shapefile)
+</title>
+        <edition>Census 2000</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+Data is from U.S. Department
+of Commerce, U.S. Census Bureau, Census 2000 Tiger Line Files and SF1 tables. This
+layer is compiled from shapefiles created by AVENZA Systems, Inc.
+To find out more about TIGER/Line files and other Census TIGER data base derived
+data sets visit http://www.census.gov/geo/www/tiger
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+CENSUS_BLCKGRPS_TIGER00_POPDENS_IN contains populaton densities calculated for all Indiana blockgroups identified
+by the US Bureau of the Census. Data is from U.S. Department of Commerce, U.S. Census
+Bureau, Census 2000 Tiger Line Files and SF1 tables.
+</abstract>
+      <purpose>
+BROAD, GENERAL information for planning, development, and research
+in Indiana
+</purpose>
+      <supplinf>
+Some blockgroups in Johnson County overlapped other blockgroups and did not have
+associated blockgroup data tables. This may be in error and carried forward from the 1990
+census blockgroups.  However, since error could not be confirmed, the file was not altered.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20000101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Census 2000 TIGER database</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1614</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Feature Identifier</themekey>
+        <themekey>Census Blockgroups</themekey>
+        <themekey>Census</themekey>
+        <themekey>Statistical Boundary</themekey>
+        <themekey>Polygon</themekey>
+        <themekey>TIGER/Line</themekey>
+        <themekey>Block groups</themekey>
+        <themekey>Demographic</themekey>
+        <themekey>Minorities</themekey>
+        <themekey>Age</themekey>
+        <themekey>Population</themekey>
+        <themekey>Home Ownership</themekey>
+        <themekey>Families</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>Monday through Friday, 8am to 5pm EST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format</native>
+    <useconst>Demographics--Population_Density_Blockgroups</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Some blockgroups in Johnson County overlapped other blockgroups and did not have
+associated blockgroup data tables. This may be in error and carried forward from the 1990
+census blockgroups.  However, since error could not be confirmed, the file was not altered.
+US Census Bureau, TIGER metadata reports-
+
+"Accurate against Federal information Processing Standards (FIPS),
+FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes
+and base names.  The remaining attribute information has been
+examined but has not been fully tested for accuracy."
+</attraccr>
+    </attracc>
+    <logic>
+Overlapping polygons have been detected in Johnson county.
+US Census Bureau, TIGER metadata reports -
+
+"The feature network of lines (as represented by Record Types 1 and 2)
+is compete for census purposes.  Spatial objects in TIGER/Line belong
+to the "Geometry and Topology" (GT) class of objects in the "Spatial
+Data Transfer Standard" (SDTS) FIPS Publication 173 and are
+topologically valid.  Node/geometry and topology (GT)-polygon/chain
+relationships are collected or generated to satisfy topological edit
+requirements.  These requirements include:
+
+* Complete chains must begin and end at nodes.
+
+* Complete chains must connect to each other at nodes.
+
+* Complete chains do not extend through nodes.
+
+* Left and right GT-polygons are defined for each complete chain
+element and are consistent throughout the extract process.
+
+* The chains representing the limits of the files are free of gaps.
+
+The Census Bureau performed automated tests to ensure logical
+consistency and limits of files.  All polygons are tested for closure.
+The Census Bureau uses its internally developed Geographic Update
+System to enhance and modify spatial and attribute data in the Census
+TIGER data base.  Standard geographic codes, such as FIPS codes for
+states, counties, municipalities, and places, are used when encoding
+spatial entities.  The Census Bureau performed spatial data tests for
+logical consistency of the codes during the compilation of the original
+Census TIGER data base files.  Most of the Codes themselves were provided
+to the Census Bureau by the USGS, the agency responsible for maintaining
+FIPS 55. Feature attribute information has been examined but has not been
+fully tested for consistency."
+</logic>
+    <complete>
+Some blockgroups in Johnson County overlapped other blockgroups and did not have
+associated blockgroup data tables. This may be in error and carried forward from the 1990
+census blockgroups.  However, since error could not be confirmed, the file was not altered.
+US Census Bureau, TIGER metadata Reports -
+
+"Data completeness of the TIGER/Line files reflects the contents of the
+Census TIGER data base at the time the TIGER/Line files (Census 2000
+version) were created."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+US Census Bureau, TIGER metadata reports -
+
+"The information present in these files is provided for the purposes
+of statistical analysis and census operations only.  Coordinates
+in the TIGER/Line files have six implied decimal places, but
+the positional accuracy of these coordinates is not as great as
+the six decimal places suggest.  The positional accuracy varies
+with the source materials used, but generally the information is
+no better than the established national map Accuracy standards
+for 1:100,000-scale maps from the U.S. Geological Survey (USGS);
+thus it is NOT suitable for high-precision measurement applications
+such as engineering problems, property transfers, or other uses
+that might require highly accurate measurements of the earth's
+surface.  The USGS 1:100,000-scale maps met national map accuracy
+standards and use coordinates defined by the North American Datum,
+1983.  For the contiguous 48 States, the cartographic fidelity of
+most of the Census 2000 TIGER/Line files, in areas outside the
+1980 census Geographic Base File/Dual Independent map Encoding
+(GBF/DIME) file coverage and selected other large metropolitan
+areas, compare favorably with the USGS 1:100,000-scale maps.  The
+Census Bureau cannot specify the accuracy of features inside of
+what was the 1980 GBF/DIME-File coverage or selected metropolitan
+areas.  The Census Bureau added updates to the TIGER/Line files that
+enumerators annotated on maps sheets prepared from the Census
+TIGER data base as they attempted to traverse every street feature
+shown on the Census 2000 map sheets; the Census Bureau also made
+other corrections from updated map sheets supplied by local
+participants for Census Bureau programs.  The locational accuracy
+of these updates is of unknown quality.  In addition to the Federal,
+State, and local sources, portions of the files may contain
+information obtained in part from maps and other materials prepared
+by private companies.  Despite the fact the TIGER/Line data positional
+accuracy is not as high as the coordinate values imply, the six-
+decimal place precision is useful when producing maps.  The precision
+allows features that are next to each other on the ground to be placed
+in the correct position, on the map, relative to each other, without
+overlap."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Vertical accuracy was not a factor in the digital production
+of the data set. No quantitative tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+            <pubdate>unpublished material</pubdate>
+            <title>Census TIGER data base</title>
+            <edition>Census 20000101</edition>
+          </citeinfo>
+        </srccite>
+        <typesrc>on line</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20000101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Date files made available to create extracts</srccurr>
+        </srctime>
+        <srccitea>TIGER database</srccitea>
+        <srccontr>
+Selected geographic and cartographic information (line segments)
+from the Census TIGER data base.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</origin>
+            <pubdate>20010101</pubdate>
+            <title>Tiger/Line Files, Census 2000</title>
+            <edition>Census 2000</edition>
+            <serinfo>
+              <sername>Tiger/Line Files</sername>
+              <issue>Version (MMYY) represents month and year file created</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Department of Commerce, U.S. Census Bureau, Geography Division</publish>
+            </pubinfo>
+            <onlink>http://www.census.gov/geo/www/tiger</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>census 2000 Data</srccurr>
+        </srctime>
+        <srccitea>TIGER Line Files</srccitea>
+        <srccontr>
+source of original nationwide data and attribute values,
+transformed and modified by originators of later derived products.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AVENZA Systems Inc.</origin>
+            <pubdate>20020100</pubdate>
+            <title>MAPdata USA 2000</title>
+            <edition>2000</edition>
+            <pubinfo>
+              <pubplace>Mississauga, Ontario, CANADA</pubplace>
+              <publish>Avenza Systems, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20000101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Census 2000 data release</srccurr>
+        </srctime>
+        <srccitea>AVENZA</srccitea>
+        <srccontr>Shapefiles created using features of the TIGER Line/Files</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Systems Research Institute (ESRI)</origin>
+            <pubdate>20020101</pubdate>
+            <title>Tiger Redistricting 2000 Census Data SF1 Table</title>
+            <edition>Census 2000</edition>
+            <pubinfo>
+              <pubplace>Redlands, California, USA</pubplace>
+              <publish>Environmental Systems Research Institute (ESRI)</publish>
+            </pubinfo>
+            <onlink>http://www.geographynetwork.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>tabular digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20000101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Census 2000 data release</srccurr>
+        </srctime>
+        <srccitea>SF1</srccitea>
+        <srccontr>SF1 tables were joined to the shapes to provide census demographic attributes.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+US Census Bureau, TIGER metadata reports-
+
+"In order for others to use the information in the Census TIGER
+data base in a GIS or for other geographic applications, the
+Census Bureau releases periodic extracts of selected information
+from the Census TIGER data base, organized as topologically
+consistent networks.  Software (TIGER DB routines) written by
+the Geography Division allows for efficient access to Census
+TIGER system data.  TIGER/Line files are extracted from the
+Census TIGER data base by county or statistical equivalent
+area.  Census TIGER data for a given county or statistical
+equivalent area is then distributed among 17 fixed length
+record ASCII files, each one containing attributes for either
+line, polygon, or landmark geographic data types.  The Census
+Bureau has released various versions of the TIGER/Line files
+since 1988, with each version having more updates (feature
+and feature names, address ranges and ZIP Codes, coordinate
+updates, revised field definitions, etc.) than the previous
+version."
+
+"TIGER/Line files are created and processed in a VMS
+environment.  The environment consists of two Alpha Server
+8400s clustered together running OpenVMS version 6.2-1H3 used
+for production operations.  The Census TIGER system is driven
+by DEC Command language (DCL) procedures which invoke C
+software routines to extract selected geographic and cartographic
+information (TIGER/Line files) from the operational Census TIGER data base."
+</procdesc>
+        <srcused>TIGER database</srcused>
+        <procdate>20000101</procdate>
+        <srcprod>TIGER Line Files</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Unknown</cntper>
+              <cntorg>
+U.S. Department of Commerce, U.S. Census Bureau
+Geography Division
+</cntorg>
+            </cntperp>
+            <cntpos>Products and Services Staff</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>8903 Presidential Parkway, Room 303 WP I</address>
+              <city>Upper Marlboro</city>
+              <state>Maryland</state>
+              <postal>20772</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntaddr>
+              <addrtype>Mailing address</addrtype>
+              <address>4700 Silver Hill Road, Stop 7400</address>
+              <city>Washington</city>
+              <state>District of Columbia</state>
+              <postal>20233-7400</postal>
+            </cntaddr>
+            <cntvoice>301-457-1128</cntvoice>
+            <cntvoice>301-457-1128</cntvoice>
+            <cntfax>
+301-457-4710
+Contact_Electronic _Mail_Address: tiger@census.gov
+</cntfax>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+AVENZA Systems Inc assembled and organized TIGER/Line Files into shapefiles
+for individual counties.
+</procdesc>
+        <srcused>TIGER Line Files</srcused>
+        <procdate>20020100</procdate>
+        <srcprod>AVENZA</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Edward Florence</cntper>
+              <cntorg>AVENZA Systems Inc</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6505 Mississauga Road, Unit B</address>
+              <city>Mississauga</city>
+              <state>Ontario</state>
+              <postal>L5N 1A6</postal>
+              <country>Canada</country>
+            </cntaddr>
+            <cntvoice>905-567-2811</cntvoice>
+            <cntfax>905-567-5810</cntfax>
+            <cntemail>
+info@avenza.com
+Contact_Website:  www.avenza.com
+</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Bernardin, Lochmueller and Associates merged county tract files
+into one state file and joined SF1 tabular data to the
+unique tract ID and FIPs code field.
+</procdesc>
+        <srcused>AVENZA and SF1</srcused>
+        <procdate>20021001</procdate>
+        <srcprod>CENSUS_BLOCKGROUPS_TIGER00_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+cbonds@blainc.com
+Contact_Website:  www.blainc.com
+</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey opened CENSUS_BLOCKGROUPS_TIGER00_IN in
+ESRI ArcView version 3.2. The attribute table was edited to add a field named "Calcarea."
+Values were calculated for the field named "Calcarea" using the calculator function and
+the following formula - Calcarea = [Shape].ReturnArea.
+Values in this field have units of "square meters."
+A field was added named "Popdens."
+Values were calculated for the field named "Popdens" using the calculator function and
+the following formula - Popdens = Pop2000 times 1,000,000 divided by Calcarea.
+Values in this field have units of "persons per square kilometer."
+</procdesc>
+        <srcused>CENSUS_BLOCKGROUPS_TIGER00_IN</srcused>
+        <procdate>20041118</procdate>
+        <srcprod>CENSUS_BLCKGRPS_TIGER00_POPDENS_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Denver Harper</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>Monday through Friday, 8am to 5pm EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit. v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20041118</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Denver Harper</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>Monday through Friday, 8am to 5pm EST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4864</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CENSUS_BLCKGRPS_TIGER00_POPDENS_IN</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>unique identification</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fipsstco</attrlabl>
+        <attrdef>Combination of state and county FIPS codes.</attrdef>
+        <attrdefs>
+U.S. Census Bureau, TIGER/Line files,
+Census 2000 Technical Documentation
+</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tract</attrlabl>
+        <attrdef>The census tract identification number.</attrdef>
+        <attrdefs>
+U.S. Census Bureau, TIGER/Line files,
+Census 2000 Technical Documentation
+</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Group</attrlabl>
+        <attrdef>The census block group identification number.</attrdef>
+        <attrdefs>
+U.S. Census Bureau, TIGER/Line files,
+Census 2000 Technical Documentation
+</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stfid</attrlabl>
+        <attrdef>
+Combined state, county and tract, and block group
+FIPS code.
+</attrdef>
+        <attrdefs>
+U.S. Census Bureau, TIGER/Line files,
+Census 2000 Technical Documentation
+</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pop2000</attrlabl>
+        <attrdef>The 2000 population</attrdef>
+        <attrdefs>
+U.S. Census Bureau, TIGER/Line files,
+Census 2000 Technical Documentation
+</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>13737</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Calcarea</attrlabl>
+        <attrdef>Area of polygon (blockgroup) in square meters</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Popdens</attrlabl>
+        <attrdef>Populaton Density (persons per square kilometer)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>32870</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>Monday through Friday, 8am to 5pm EST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended
+to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+LIMITATION OF LIABILITY
+The product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user.
+Bernardin, Lochmueller and Associates shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin, Lochmueller and Associates
+is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20041118</metd>
+    <metrd>20041118</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>Monday through Friday, 8am to 5pm EST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+</metadata>

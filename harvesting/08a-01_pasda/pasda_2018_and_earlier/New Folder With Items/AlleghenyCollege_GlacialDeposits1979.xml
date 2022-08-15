@@ -1,0 +1,639 @@
+<metadata xml:lang="en">
+  <Esri>
+    <MetaID>{3A35519C-02EC-446E-9057-79EF63BC83DB}</MetaID>
+    <CreaDate>20100224</CreaDate>
+    <CreaTime>12342800</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110104</SyncDate>
+    <SyncTime>11280800</SyncTime>
+    <ModDate>20110104</ModDate>
+    <ModTime>12532500</ModTime>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">Glacial_Deposits</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">539895.619500</westBL>
+          <eastBL Sync="TRUE">573053.269200</eastBL>
+          <southBL Sync="TRUE">4592419.875400</southBL>
+          <northBL Sync="TRUE">4633413.176200</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\PC-36\D\AlleghenyCollege\Glacial_Deposits.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemSize Sync="TRUE">0.000</itemSize>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_17N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-81.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26917]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26917&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100802" Time="105743">FeatureClassToFeatureClass M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons C:\WorkSpace\Metadata\Schiner\Geodatabase\Schiner_1979.gdb Glacial_Deposits # "Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,Shape_Area,-1,-1;DEPOSITS_TYPE "DEPOSITS_TYPE" true true false 25 Text 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,DEPOSITS_TYPE,-1,-1;MIN_THICKNESS "MIN_THICKNESS" true true false 2 Short 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,MIN_THICKNESS,-1,-1;MAX_THICKNESS "MAX_THICKNESS" true true false 2 Short 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,MAX_THICKNESS,-1,-1;MAX_YIELD "MAX_YIELD" true true false 2 Short 0 0 ,First,#,M:\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb\Thickness_Glacial_Deposits\Contact_Polygons,MAX_YIELD,-1,-1" #</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110104" Time="112809">CopyFeatures D:\AlleghenyCollege\Schiner_1979.gdb\Glacial_Deposits D:\AlleghenyCollege\Glacial_Deposits.shp # 0 0 0</Process>
+      </lineage>
+    </DataProperties>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny College</origin>
+        <pubdate>20100802</pubdate>
+        <title>Thickness of Glacial Deposits, Western Crawford County, Pennsylvania</title>
+        <ftname Sync="TRUE">Contact_Polygons</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <edition>1.0</edition>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100802</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.522125</westbc>
+        <eastbc Sync="TRUE">-80.119980</eastbc>
+        <northbc Sync="TRUE">41.851616</northbc>
+        <southbc Sync="TRUE">41.480059</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">539895.619500</leftbc>
+        <rightbc Sync="TRUE">573053.269200</rightbc>
+        <bottombc Sync="TRUE">4592419.875400</bottombc>
+        <topbc Sync="TRUE">4633413.176200</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Glossary of Geology (Fifth edition) 2005. Klaus K.E. Neuendorf, James P. Mehl, Jr., and Julia A. Jackson, editors; Washington D.C.: The American Geological Institute, 800 pp.</themekt>
+        <themekey>surficial deposits</themekey>
+        <themekey>isopach map</themekey>
+        <themekey>unconsolidated</themekey>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Crawford County</placekey>
+      </place>
+      <temporal>
+        <tempkey>Cenozoic</tempkey>
+        <tempkey>Quaternary</tempkey>
+      </temporal>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The data for thickness of glacial deposits may be used provided that credit for the original (unaltered) dataset is given to Allegheny College. Users shall clearly indicate the source of the data. Users who modify the data in any way are obligated to describe the types of modifications they have made, including modifications to hard-copy maps. Users are not to misrepresent the Allegheny College dataset, nor to imply that changes they (users) have made were approved by Allegheny College. 
+
+This dataset contains errors that are an artifact of the interpretation, source material, and conversion process. The data and documentation are provided "as is". The data set was created at a scale of 1:50,000; application of this dataset should be at a scale equal to or smaller than the source scale. 
+
+Allegheny College makes no warranty of representation, either express or implied, with respect to the data or accompanying documentation, including its quality, performance, or accuracy. Allegheny College will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the user or inability to use the data or any accompanying documentation. Users discovering errors or making corrections to the data are requested to report such errors to the Allegheny College GIS Manager at chris.shaffer@allegheny.edu.</useconst>
+    <natvform Sync="TRUE">File Geodatabase Feature Class</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 N. Main St., Box E</address>
+          <city>Meadville</city>
+          <state>Pennsylvania</state>
+          <postal>16335</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntpos>GIS Manager</cntpos>
+        <cntvoice>(814) 332-2719</cntvoice>
+        <cntfax>(814) 332-5314</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <hours>8 am to 5 pm, Mon-Fri</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Glacial sediment thickness contours and associated attribute information are from the "Map Showing Thickness of Glacial Deposits and Locations of Wells in Western Crawford County, Pennsylvania", which is Plate 2 in the Pennyslvania Geological Survey Water Resources Report 46 (Geology and Groundwater Resources of Western Crawford County, Pennsylvania) by Schiner and Gallaher, 1979. General digital work (digitizing, attributing, and proofing) was performed by Allegheny College student Mingyuan Song. Specific digital work (transforming, adjusting, and documenting) and project oversight was conducted by Christopher L. Shaffer, GIS Manager, Allegheny College and Dr. Rachel O'Brien, Associate Professor of Geology, Allegheny College. Authorship for this work should be referenced as: Shaffer, C.L., R. O'Brien, and M. Song, 2010. Thickness of Glacial Deposits of Western Crawford County, Pennsylvania: A digitized version of the Schiner and Gallaher, 1979 map.</datacred>
+    <descript>
+      <abstract>AlleghenyCollege_GlacialDeposits1979</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.0.2414</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en" country="US">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Glacial_Deposits</resTitle>
+      <presForm>
+        <PresFormCd value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="search">
+          <westBL Sync="TRUE">-80.522125</westBL>
+          <eastBL Sync="TRUE">-80.119980</eastBL>
+          <northBL Sync="TRUE">41.851616</northBL>
+          <southBL Sync="TRUE">41.480059</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.522125</westBL>
+      <eastBL Sync="TRUE">-80.11998</eastBL>
+      <northBL Sync="TRUE">41.851616</northBL>
+      <southBL Sync="TRUE">41.480059</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <descKeys>
+      <thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66">
+      </thesaName>
+      <keyword Sync="TRUE">002</keyword>
+    </descKeys>
+    <spatRpType>
+      <SpatRepTypCd value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>Meadville</city>
+          <state>Pennsylvania</state>
+          <postal>16335</postal>
+          <address>520 N. Main St., Box E</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 332-2719</cntvoice>
+        <cntpos>GIS Manager</cntpos>
+        <cntfax>(814) 332-5314</cntfax>
+        <cntemail>chris.shaffer@allegheny.edu</cntemail>
+        <hours>8 am to 5 pm, Mon-Fri</hours>
+        <cntperp>
+          <cntper>Christopher L. Shaffer</cntper>
+          <cntorg>Allegheny College</cntorg>
+        </cntperp>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20110104</metd>
+    <metrd>20100802</metrd>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distliab>These data files and documentation are provided "as is," and the user assumes the entire risk as to their quality and performance. 
+
+Allegheny College makes no guarantee or warranty concerning the accuracy of information contained in the geographic data or accompanying documentation.  Allegheny College further makes no warrantees, either expressed or implied, as to any other matter whatsoever, including, without limitation, the completeness or condition of the product, or its fitness for any particular purpose.  The burden for determining fitness for use lies entirely with the user. 
+
+Allegheny College makes no warranty, expressed or implied, regarding the use of the data files or accompanying documentation on any other computer system, nor does the act of distribution constitute any such warranty. 
+
+The user shall save the Allegheny College harmless from any suits, claims, or actions arising out of the use of or any defect in the data files or accompanying documentation. 
+
+Allegheny College assumes no legal liability for the accuracy, completeness, or usefulness of the data files and accompanying documentation.  In no event shall Allegheny College have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data. 
+
+Not for commercial resale.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>File Geodatabase</formname>
+          <formvern>ArcGIS 9.3.1</formvern>
+          <transize>1.04 MB</transize>
+          <dssize>1.04 MB</dssize>
+        </digtinfo>
+      </digform>
+      <fees>Free</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20100802</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\allegheny.edu\gatormaps$\Academics\WorkStudy\Geology\Digitize\W046_PL2_WestCrawford.gdb</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">File Geodatabase Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distFormat>
+      <formatName Sync="TRUE">Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">0.000</transSize>
+    </distTranOps>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Glacial_Deposits">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">4</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_UTM_Zone_17N</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000100</absres>
+            <ordres Sync="TRUE">0.000100</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">0.000100</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE" code="26917">NAD_1983_UTM_Zone_17N</identCode>
+        <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+        <idVersion Sync="TRUE">7.4.1</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="Contact_Polygons">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="002">
+          </GeoObjTypCd>
+          <geoObjCnt Sync="TRUE">0</geoObjCnt>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">360</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Glacial_Deposits">
+      <enttyp>
+        <enttypl Sync="TRUE">Glacial_Deposits</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+        <enttypd>The polygons in this dataset represent thicknesses of glacial deposits.</enttypd>
+        <enttypds>Schiner and Gallaher, 1979</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DEPOSITS_T</attrlabl>
+        <attalias Sync="TRUE">DEPOSITS_T</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">25</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MIN_THICKN</attrlabl>
+        <attalias Sync="TRUE">MIN_THICKN</attalias>
+        <attrtype Sync="TRUE">SmallInteger</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">4</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MAX_THICKN</attrlabl>
+        <attalias Sync="TRUE">MAX_THICKN</attalias>
+        <attrtype Sync="TRUE">SmallInteger</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">4</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Area</attrlabl>
+        <attalias Sync="TRUE">Shape_Area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+        <attalias Sync="TRUE">Shape_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MAX_YIELD</attrlabl>
+        <attalias Sync="TRUE">MAX_YIELD</attalias>
+        <attrtype Sync="TRUE">SmallInteger</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">4</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdefs>Schiner and Gallaher, 1979</attrdefs>
+        <attrdef>The maximum well yield of glacial deposits.</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>20</rdommin>
+            <rdommax>2050</rdommax>
+            <attrunit>GPM (gallons per minute)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20110104</mdDateSt>
+  <dataqual>
+    <logic>Complete chain-node topology is present.  The dataset was checked for polygon closure, erroneous or duplicate arcs, incorrect intersections, overshoots and undershoots, label errors, and node errors.</logic>
+    <complete>The dataset represents thickness of glacial deposits for western Crawford County, Pennsylvania.  Polygons and attributes have been assigned to represent the published thickness of glacial deposits map (Schiner and Gallaher, 1979).  No changes or updates have been made in the compilation process.</complete>
+    <attracc>
+      <attraccr>The published thickness of glaical deposits map (Schiner and Gallaher, 1979) is the basis for the polygon attributes.  Allegheny College visually compared assigned attributes against the published source map.  Based on this review, the attributes are believed to be accurate.</attraccr>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <horizpar>The horizontal positional accuracy of the dataset is that of the 1979 "Map Showing Thickness of Glacial Deposits and Locations of Wells in Western Crawford County, Pennsylvania", which was compiled and published at a scale of 1:50,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Map Showing Thickness of Glacial Deposits and Locations of Wells in Western Crawford County, Pennsylvania</title>
+            <lworkcit>
+              <citeinfo>
+                <origin>George R. Schiner and John T. Gallaher</origin>
+                <pubdate>1979</pubdate>
+                <title>Groundwater Resources of Western Crawford County, Pennsylvania</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Commonwealth of Pennsylvania, Department of Environmental Resources, Bureau of Topographic and Geologic Survey</publish>
+                </pubinfo>
+                <othercit>Water Resource Report 46</othercit>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>50,000</srcscale>
+        <typesrc>paper, scanned image</typesrc>
+        <srccitea>Schiner and Gallaher, 1979</srccitea>
+        <srccontr>Map showing the thickness of glaical deposits as published on W46, Plate 2.</srccontr>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1979</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Christopher L. Shaffer</cntper>
+              <cntorg>Allegheny College</cntorg>
+            </cntperp>
+            <cntpos>GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>520 N. Main St., Box E</address>
+              <city>Meadville</city>
+              <state>Pennsylvania</state>
+              <postal>16335</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>(814) 332-2719</cntvoice>
+            <cntfax>(814) 332-5314</cntfax>
+            <cntemail>chris.shaffer@allegheny.edu</cntemail>
+            <hours>8 am to 5 pm, Mon-Fri</hours>
+          </cntinfo>
+        </proccont>
+        <procsv>ArcGIS Desktop 9.3.1</procsv>
+        <srcused>Schiner and Gallaher, 1979</srcused>
+        <procdate>Sept 2009 to Aug 2010</procdate>
+        <procdesc>This dataset was captured, edited, and verified by an Allegheny College student working under faculty and staff supervision. The work spanned from September 2009 to August 2010; technical and financial support was provided by Allegheny College. The base map for the thickness of glacial deposits dataset is the published "Map Showing Thickness of Glacial Deposits and Locations of Wells in Western Crawford County, Pennsylvania" by Schiner and Gallaher, 1979.
+
+The following processing steps were performed using ESRI's ArcGIS Desktop 9.3.1 software. First, a digital copy (w046_pl2.sid) of the Schiner and Gallaher, 1979 map was downloaded from the Pennsylvania Geologic Survey (PAGS) website. The image file did not include a world file, and therefore needed to be georeferenced in order for map overlay to occur. The image was examined and four control points (latitude and longitude lines near the four corners of the map) were identified and coordinates recorded in degrees, minutes, and seconds. A shapefile was then created and points were plotted at the exact coordinate locations. This was accomplished by displaying digital copies of 1:24,000 USGS topographic maps, which were projected into UTM Zone 17N NAD 1983, and using the software to place points on the map at the recorded coordinates. Next, the image within an unknown spatial reference was overlaid onto the projected point shapefile and georeferenced to real-world coordinates using the point shapefile as guide for inputting the X and Y source coordinates. In addition, snapping was used to ensure data integrity and a 1st order polynomial (affine) transformation was applied. The resulting RMS error was 1.7 meters. Once georeferenced, a world file was created to store map coordinate information for the image file.
+
+Next, a file geodatabase, feature dataset, and line feature class were created. A feature dataset was chosen in order that 1) the same coordinate system was applied to all feature classes and 2) topology rules might be integrated into the database. The coordinate system of the feature dataset was defined as UTM Zone 17N NAD 1983. The line feature class was added to the map and an edit session was started. The map scale was set to 1:5,000 and was maintained to ensure consistency throughout the digitizing process. Using the Sketch tools, lines were digitized by tracing over the study area boundary and contact lines as depicted on the map. First, the boundary of the study area was drawn. Next, the contacts representing lines of equal thickness of glacial deposits were drawn. Snapping was used to ensure that the contact lines touched the study area boundary and island polygons closed correctly. This process took nine months to complete, as the student only worked a few hours each week.
+
+Once digitizing was complete, a line topology class was created to ensure data integrity. The following topology rules were applied: must not overlap, must not intersect, must not have dangles, must not self-overlap, and must not self-intersect. Topology was validated and errors (overshoots, undershoots, and incorrect intersections) were corrected using the topology editing tools provided by the software. Next, a polygon feature class was built using the features in the line feature class. A polygon topology class was created to ensure data integrity. The following topology rules were applied: must not overlap and must not have gaps. Topology was validated and errors (sliver polygons and holes) were corrected. In some instances, small polygons needed to be added, removed, or modified within the feature class.
+
+To allow for descriptive information to be added to the geographic features, attribute fields were added and attribute domains were established. The following fields were added to the layer attribute table: deposit type, minimum thickness, maximum thickness, and maximum well yield. Range domains were created for the minimum and maximum thickness and maximum yield fields and a coded value domain was created for the deposit type field. These domains helped to increase efficiency in attributing and to ensure that only acceptable values were entered. Next, the domains were applied to their respective fields. After an edit session was started, individual polygons were selected and attribute values were assigned according to the legend as depicted on the Schiner and Gallaher, 1979 map. Once complete, all of the polygons were selected and the attribute values were validated. If erroneous values existed, they were corrected and edits were saved.
+ 
+To ensure both digitizing and attribute accuracy, a poster-sized printout of the digitized map was visually compared to the Schiner and Gallaher, 1979 map and digitizing and attributing errors were identified and corrected. This process involved modifying polygon boundaries, validating topology, and adjusting attribute values as necessary. Polygons representing Pymatuning Reservoir and Conneaut Lake were assigned values of "Water" for the deposit type field and values of &lt;Null&gt; for the remaining three fields. Smaller standing water bodies (manmade lakes and/or impoundments) on land were not digitized. Once the datasets were deemed error free, the polygon feature class was exported into a new file geodatabase and metadata documentation was constructed.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooAKKKKAInuI432MW3YzgKTx+H0pPtUX/TT/AL9t/hUb/wDH4/8A1zX+bUtefVxkoTcUti1G
+6H/aov8App/37b/Cm/bYN5TL7gMkeW2cflSVj69aSTJFPFK8TJ8hdM/KCyndwQTgqB+J69KmOOk3
+ZoOU2UvreVA8bs6noVRiP5Uv2uL/AKaf9+2/wrIsX+z37wCVGtrhfPgIHBY8uAc9M/N/wKneel1P
+bzKkkW8gRyOAQ69eMHIyM9ccH1pvGzvsHKagvYCxXMmRyR5bf4UiX1vLGroXZGGQRG3I/KoGCvdB
+evyHePxGM/r+tY0mnvEiy213dpuXzGiR/lBY5yMnAGc+vvSjjZPog5Tch1ayuSwhm8wqSGCoxII6
+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</Data>
+    </Thumbnail>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792 </cntvoice>
+        <cntemail>pasda@psu.edu </cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab> The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+  </distinfo>
+</metadata>

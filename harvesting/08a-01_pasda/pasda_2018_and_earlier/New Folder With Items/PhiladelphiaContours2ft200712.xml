@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>City of Philadelphia Water Department - Information Systems  Technology</origin>
+        <pubdate>200712</pubdate>
+        <title>Philadelphia Contours 2ft</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Philadelphia , PA</pubplace>
+          <publish>Water Department - Information Systems and Technology</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200712</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-75.281560</westbc>
+        <eastbc>
+-74.955030</eastbc>
+        <northbc>
+40.138940</northbc>
+        <southbc>
+39.871330</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>topography</themekey>
+        <themekey>contours</themekey>
+        <themekey>planimetric</themekey>
+        <themekey>Elevation</themekey>
+      </theme>
+      <place>
+        <placekt>City of Philadelphia</placekt>
+        <placekey>Philadelphia</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+    </keywords>
+    <accconst>You must agree to the disclaimer and all other terms provided below prior to downloading City of Philadelphia GIS data.</accconst>
+    <useconst>The City of Philadelphia makes no warranty or representation, expressed or implied, with respect to the quality, content, accuracy, completeness, currency, or non-infringement of proprietary rights, of any of the GIS or other data or information, or any other materials and items, that are displayed or made available for download from the Pennsylvania Spatial Data Access (PASDA) Internet site.  All such data, information, items and materials (collectively, the City GIS Data) are provided on an "as is" basis, and you are fully and solely responsible for your use of them and for any results or consequences of your use.  They have been created from a variety of sources, including sources beyond the control of the City of Philadelphia, and are subject to change without notice from the City of Philadelphia.  Users should be aware that the parcel dataset was created from the Philadelphia City Planning Commission's base maps and has not been updated since 1992.  To the extent you use, apply, add to, modify or implement this information in your own information system or other setting, or otherwise for your own purposes, you do so at your own risk.  In no event shall the City of Philadelphia or its agencies, officers, employees, agents, or representatives be liable for any damages of any kind or nature whatsoever arising from your downloading, modifying, sharing, distributing, or using of City GIS Data, including, but not limited to, direct, indirect, special, punitive, incidental, exemplary or consequential damages, even if notified of the possibility of such damages.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Water Department - Geographic Information Systems Unit</cntorg>
+          <cntper>Carmen Carnicero</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>City of Philadelphia Water Department, Information Systems  Technology Division, 1101 Market St., 4th Floor</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19107</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(215) 685-6333</cntvoice>
+        <cntfax>(215) 685-6207</cntfax>
+        <cntemail>carmen.carnicero@phila.gov</cntemail>
+        <hours>8:00 am to 4:00 pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Air Survey Corporation</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.1.1332</native>
+    <descript>
+      <abstract>PhiladelphiaContours2ft200712</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No systematic assessment completed.</attraccr>
+    </attracc>
+    <logic>None completed.</logic>
+    <complete>Citywide</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Features were derived by stereo plotting from Digital Aerial Orthophotography</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No systematic assessment completed.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Philadelphia Water Department</origin>
+            <pubdate>19960324</pubdate>
+            <title>WATER: Orthophoto</title>
+            <edition>1.0</edition>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Philadelphia, PA</pubplace>
+              <publish>City of Philadelphia</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/philacity/philadownload.cgi/phila-ortho1996.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>2400</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1994</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ortho</srccitea>
+        <srccontr>Source for digitizing</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digital Orthophotographs
+Scale = 1:2400</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>U:\work\phila\shapefiles\phila-topocontours2ft.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">D:\phillyupdate12_18_07\PhiladelphiaContours2ft200712</srcused>
+        <date Sync="TRUE">20071219</date>
+        <time Sync="TRUE">11364200</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>924266</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Complete chain</sdtstype>
+        <ptvctcnt>924266</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>196</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Label point</sdtstype>
+        <ptvctcnt>21288</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Label point</sdtstype>
+        <ptvctcnt>106238</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Label point</sdtstype>
+        <ptvctcnt>734</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>Philadelphia Vertical Datum -
+The Philadelphia datum was first established in 1600 by William Penn
+with a metal spike in the Delaware River pier at the foot of Chestnut St
+based on the mean height</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Attribute Values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.ADD1.PhiladelphiaContours2ft1996</enttypl>
+        <enttypd>Unknown</enttypd>
+        <enttypds>Water Department - Information Systems  Technology</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ELEV</attrlabl>
+        <attrdef>Elevation</attrdef>
+        <attrdomv>
+          <rdom>
+            <rdommin>-24</rdommin>
+            <rdommax>842</rdommax>
+            <attrunit>feet</attrunit>
+            <attrmres>.01</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length of line feature</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTOURS2F</attrlabl>
+        <attrdef>Internal Feature ID number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTOUR2_I</attrlabl>
+        <attrdef>User-defined feature number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+        <attrdomv>
+          <edom>
+            <edomv>1000</edomv>
+            <edomvd>Travelway</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1001</edomv>
+            <edomvd>Travelway - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1002</edomv>
+            <edomvd>Hidden Elevated Footprint</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1010</edomv>
+            <edomvd>Median</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1011</edomv>
+            <edomvd>Median - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1020</edomv>
+            <edomvd>Shoulder</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <edom>
+            <edomv>1021</edomv>
+            <edomvd>Shoulder - Hidden</edomvd>
+            <edomvds>Water Department</edomvds>
+          </edom>
+          <codesetd>
+            <codesetn>fcode.dbf</codesetn>
+            <codesets>ASC Data Dictionary</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>City of Philadelphia Water Department, 2-foot topographic contours</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Coverage or Shape-file</formname>
+          <transize>530.542</transize>
+        </digtinfo>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20071219</metd>
+    <metrd>20031223</metrd>
+    <metfrd>20041223</metfrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Water Department - Metadata Liason</cntorg>
+          <cntper>Roxanne Gregorio</cntper>
+        </cntorgp>
+        <cntpos>Geographic Information Systems</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Philadelphia Water Department, 
+Geographic Information Systems Unit, 
+1101 Market St., 4th Floor</address>
+          <city>Philadelphia</city>
+          <state>PA</state>
+          <postal>19107</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(215) 685-4995</cntvoice>
+        <cntfax>(215) 685-6207</cntfax>
+        <cntemail>roxanne.gregorio@phila.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>12451900</ModTime>
+    <MetaID>{EAC7D902-43DE-4D24-AE3B-5397F46494EA}</MetaID>
+    <CreaDate>20071219</CreaDate>
+    <CreaTime>11364200</CreaTime>
+    <SyncOnce>TRUE</SyncOnce>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\PC36\D$\phillyupdate12_18_07\PhiladelphiaContours2ft200712</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+  </distInfo>
+</metadata>

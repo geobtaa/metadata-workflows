@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>The Pennsylvania State University</origin>
+        <pubdate>200305</pubdate>
+        <title>Pennsylvania Land Cover, 2000</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>Penn State University</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/orser/psu-palulc_2000.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1999</begdate>
+          <enddate>2002</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.627750</westbc>
+        <eastbc>
+-74.534949</eastbc>
+        <northbc>
+42.317831</northbc>
+        <southbc>
+39.640423</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Land Use/Land Cover</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.
+These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dr. Eric D. Warner</cntper>
+          <cntorg>Office for Remote Sensing of Earth Resources, Penn State University</cntorg>
+        </cntperp>
+        <cntpos>Research Associate</cntpos>
+        <cntvoice>814-863-3531</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>edw103@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>palanduse2000</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+          <horizpav>30 meters</horizpav>
+          <horizpae>Spatial accuracy varies over extent of coverage, 30 meters is an average error</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <typesrc>Enhanced Thematic Mapper Satellite Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1999</begdate>
+              <enddate>2002</enddate>
+            </rngdates>
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>The land use information  was generated from a combination of satellite and vector ancillary data.
+
+Data Layers
+
+Imagery from the Enhanced Thematic Mapper (ETM) instrument, carried on the Landsat 7 platform, served as the primary data source for the land use interpretation.  10 ETM scenes cover Pennsylvania completely, with overlap into neighboring states.  ETM scenes are referenced based on a global system whereby each location on earth has a unique path and row identification number. To provide spectral contrast between differing land uses, two ETM scenes were sought for each path and row area in thestate.  The scenes were chosen to capture conditions approximately in early to mid-autumnand mid-summer.  The actual scenes purchased were sometimes outside these windows due to cloud cover.  Cloudiness also made it necessary to acquire data over a three year period.  Path/Row and dates of the images used in the interpretation are as follows;
+
+Path/Row    Date
+14/31	   6/11/2002
+14/31	   9/12/2001
+14/32	   7/5/1999
+14/32	   9/12/2001
+15/31	   7/28/1999
+15/31	   11/10/2001
+15/32	   8/2/2001
+15/32	   11/17/1999
+16/31	   7/5/2000
+16/31	   8/25/2001
+16/32	   8/4/1999
+16/32	   9/7/2000
+17/31	   6/13/2001
+17/31	   9/17/2001
+17/32	   6/10/2000
+17/32	   9/17/2001
+18/31	   8/7/2001
+18/31	   9/8/2001
+18/32	   7/6/2001
+18/32	   9/8/2001
+
+Typical of spectrally based land cover classifications, there was noticeable
+confusion between certain groups.  To sove some of this ambiguity, ancillary
+data layers were incorporated into the land cover mapping process.  Data layers
+incorporated into the land cover classification include:
+
+1997 GAP Urban Classification Layer 
+1992 MRLC Classification
+
+Land Cover Mapping Process
+
+1. All ETM images were classified using Dr. Wayne Myer's, Professor of Forestry, Penn State Univ.,  PSISCAN program into 250 groups, forming a single band image.  The single band classified images were also used to create color renderings which were used as backdrops during the visual interpretation    process.  The visual interpretation yielded land use codes for each of the 250 groups composing a single image. 
+   Coding including a single numeric code indicating the land use most frequently represented by a group and and a multi-integer  code indicative of all land uses included in a group.  Some of the 250 groups had only single integer codes if they were completely unique.
+
+2. After the initial interpretation, land cover classifications were 
+   assembled for each path and row area based on codings from two dates
+   of imagery.  Comparisons were made between dates of imagery to determine
+   which were best for classifying individual land uses or if the combination of dates 
+   provided the best accuracy.  Having two dates of imagery also allowed 
+   for clouded areas to assume the code of the second date.
+
+3. The coding in #2 was modified with the GAP urban classification layer,
+   which was used to classify areas into either low or high intensity uses.  Locations
+   that were classified as grass in the initial classification were left that
+   way, as fields, parks and large lawns commonly occur in urban areas.
+
+4. Once the urban classification was complete, north/south neighboring image
+   areas (image areas with the same path but different row) were merged.  These
+   merged layers were compared with neighboring land cover layers
+   to identify discrepancies in the classification process.
+
+5. The 1992 MRLC interpretation was used to assign land use codes in four situations;
+   a. Areas that were cloudy during both image dates for a row/path location, 
+       were coded from the 1992 MRLC data.  Areas cloudy in both images 
+       comprised only 0.000001% of the land area in the state.
+   b. The wetland groups were taken from the MRLC data.  The classification
+      of wetlands is not very reliable using spectral information only.  Further
+      based on the regulatory goal of zero wetland loss, the area of wetlands 
+      should be very close to that seen in 1992.
+c.  Quarry areas and coal mines were assgined from the 1992 MRLC as their 
+     extents have not changed much.  Coal mine boundaries could have been
+     assigned from a polygon coverage available from the Bureau of Mines.  It
+     was decided not to use the information as comparison of the MRLC and mine
+     boundaries found poor agreement.  Had the polygon infromation been used, 
+    comparison of the MRLC and the new land use would have generated
+    misleading 
+    statistics about the status of mining in Pennsylvania.
+d. Locations identified as water in the MRLC data were also coded
+     water in the new image.  Consistency in the mapping of water removes 
+    unlikely land conversion that would be identified through comparison of
+    the 1992 and 2001 land use data sets.  Differences in mapping water can
+    result from slight misregistration errors, changes in water level, and confusion
+    with other land use groups.
+
+6. The original MRLC coding was modified so that some groups were not used, these
+     included;
+   
+   probable row crops
+   beach areas</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>9730</rowcount>
+      <colcount>16752</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>40.000000</stdparll>
+            <stdparll>42.000000</stdparll>
+            <longcm>-78.000000</longcm>
+            <latprjo>39.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.400000</semiaxis>
+        <denflat>294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+palu01new</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Lanc Dover Classification Code</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Water</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Low Density Urban</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>High Density Urban</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Hay Pasture</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Row Crops</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Probably Row Crops</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Coniferous Forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Mixed Forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Deciduous Forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Woody Wetland</edomvd>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Emergent Wetland</edomvd>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Quarries</edomvd>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Coal Mines</edomvd>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Beach</edomvd>
+          </edom>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Transitional</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Red</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Green</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Blue</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARCG</formname>
+          <formcont>ESRI GRID format layers have been zip compressed to retain directory structure.  After downloading file, unzip using the 'retain directory structure' option in your unzip utility.  This will create a directory under the current directory named with the grid name, i.e. pa1985isaa_ne.  This directory will contain the GRID layer.</formcont>
+          <filedec>zip</filedec>
+          <transize>59.505</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20060220</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20100608</ModDate>
+    <ModTime>09592800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20100608</mdDateSt>
+</metadata>

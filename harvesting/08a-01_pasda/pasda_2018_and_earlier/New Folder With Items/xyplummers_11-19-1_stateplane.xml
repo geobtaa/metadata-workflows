@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>20050324</CreaDate>
+    <CreaTime>11481500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <DataProperties>
+      <lineage>
+        <Process Name="DefineProjection_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20041119" Time="154758">DefineProjection "C:\Documents and Settings\revans.WPC\Desktop\misc working files\XYPlummers_spring2.shp" PROJCS['WGS_1984_UTM_Zone_18N',GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-75.0],PARAMETER['Scale_Factor',0.9996],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] "C:\Documents and Settings\revans.WPC\Desktop\misc working files\XYPlummers_spring2.shp"</Process>
+        <Process Name="Project_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20041119" Time="155023">Project "C:\Documents and Settings\revans.WPC\Desktop\misc working files\XYPlummers_spring2.shp" "C:\Documents and Settings\revans.WPC\Desktop\misc working files\Plummers_spring2_Projected.shp" PROJCS['NAD_1983_StatePlane_Maryland_FIPS_1900',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',400000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-77.0],PARAMETER['Standard_Parallel_1',38.3],PARAMETER['Standard_Parallel_2',39.45],PARAMETER['Latitude_Of_Origin',37.66666666666666],UNIT['Meter',1.0]] NAD_1983_To_WGS_1984_1</Process>
+      </lineage>
+    </DataProperties>
+    <SyncDate>20041228</SyncDate>
+    <SyncTime>12150600</SyncTime>
+    <ModDate>20080613</ModDate>
+    <ModTime>09561800</ModTime>
+    <MetaID>{6638816F-AE7A-4104-B2EE-33DEF54B477A}</MetaID>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/wpc/wpc_snailsamplingpoints.zip</onlink>
+        <origin>Ryan Evans, Pennsylvania Natural Heritage Program - Pittsburgh office</origin>
+        <pubdate>2005</pubdate>
+        <title>Snail Sampling points Plummers Island</title>
+        <ftname Sync="TRUE">Plummers_spring</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+    <timeperd>
+      <current>ground condition</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2004</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-77.176590</westbc>
+        <eastbc Sync="TRUE">-77.169584</eastbc>
+        <northbc Sync="TRUE">38.972132</northbc>
+        <southbc Sync="TRUE">38.969757</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">384697.415973</leftbc>
+        <rightbc Sync="TRUE">385304.008788</rightbc>
+        <bottombc Sync="TRUE">144663.725885</bottombc>
+        <topbc Sync="TRUE">144926.187702</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>freshwater snails</themekey>
+        <themekey>Plummer's Island</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekey>Montgomery County</placekey>
+        <placekey>Maryland</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ryan Evans</cntper>
+          <cntorg>Pennsylvania Natural Heritage Program - Pittsburgh office</cntorg>
+        </cntperp>
+        <cntpos>Zoologist</cntpos>
+        <cntvoice>412-586-2332</cntvoice>
+        <cntemail>revans@paconserve.org</cntemail>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 4th Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA </state>
+          <postal>15222</postal>
+        </cntaddr>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>xyplummers_11-19-1_stateplane</abstract>
+    </descript>
+  </idinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\NRFORPNDIWPCW01\D$\pasda\data\Plummers_spring</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <orDesc Sync="TRUE">002</orDesc>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.000</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <date Sync="TRUE">20041119</date>
+        <time Sync="TRUE">15502300</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">W:\Heritage_projects\zoology\Ryan\Plummers Island\Plummers_spring</srcused>
+        <date Sync="TRUE">20050324</date>
+        <time Sync="TRUE">11481500</time>
+      </procstep>
+    </lineage>
+    <complete>Complete.</complete>
+    <logic>ESRI point geometry exists.</logic>
+  </dataqual>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">Plummers_spring</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">384697.415973</westBL>
+          <eastBL Sync="TRUE">385304.008788</eastBL>
+          <northBL Sync="TRUE">144926.187702</northBL>
+          <southBL Sync="TRUE">144663.725885</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-77.17659</westBL>
+      <eastBL Sync="TRUE">-77.169584</eastBL>
+      <northBL Sync="TRUE">38.972132</northBL>
+      <southBL Sync="TRUE">38.969757</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Kierstin Carlson</cntper>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <address>209 4th Avenue</address>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntpos>Data Manager</cntpos>
+        <cntemail>kcarlson@paconserve.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20080613</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.000</transize>
+          <dssize Sync="TRUE">0.000</dssize>
+          <formname>ArcView SHP</formname>
+          <formvern>ESRI ArcView 3.2a</formvern>
+          <formspec>ArcView Shapefile</formspec>
+          <filedec>no compression applied</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>not available</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>Fees may apply.</fees>
+      <ordering>Contact the distributor.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ryan evans</cntper>
+          <cntorg>Western Pennssylvania Conservancy / Pennsylvania Natural Heritage Program</cntorg>
+        </cntperp>
+        <cntpos>Zoologist</cntpos>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 4th Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>revans@paconserve.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Western Pennsylvania Conservancy policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Western Pennsylvania Conservancy for its own internal business purposes.  The Western Pennsylvania Conservancy does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Western Pennsylvania Conservancy shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Western Pennsylvania Conservancy, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Western Pennsylvania Conservancy warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.</distliab>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Plummers_spring">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">5</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="Plummers_spring">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">5</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000001</absres>
+            <ordres Sync="TRUE">0.000001</ordres>
+          </coordrep>
+        </planci>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone Sync="TRUE">1900</spcszone>
+            <lambertc>
+              <stdparll Sync="TRUE">38.300000</stdparll>
+              <stdparll Sync="TRUE">39.450000</stdparll>
+              <longcm Sync="TRUE">-77.000000</longcm>
+              <latprjo Sync="TRUE">37.666667</latprjo>
+              <feast Sync="TRUE">400000.000000</feast>
+              <fnorth Sync="TRUE">0.000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="Plummers_spring">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">5</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="Plummers_spring">
+      <enttyp>
+        <enttypl Sync="TRUE">Plummers_spring</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">5</enttypc>
+        <enttypd>Plummer's Island, Montgomery County, Maryland mussel sampling locations.</enttypd>
+        <enttypds>Pennsylvania Natural Heritage Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONGITUDE_</attrlabl>
+        <attalias Sync="TRUE">LONGITUDE_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <atnumdec Sync="TRUE">2</atnumdec>
+        <attrdef>longitude coordinate</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LATITUDE__</attrlabl>
+        <attalias Sync="TRUE">LATITUDE__</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">2</atnumdec>
+        <attrdef>latitude coordinate</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">sites</attrlabl>
+        <attalias Sync="TRUE">sites</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>unique site identifier</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Unique site identifier.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">sitecode</attrlabl>
+        <attalias Sync="TRUE">sitecode</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>internal site code</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>Internal site code.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>This dataset contains point locations where a mussel sampling survey was done in 2004.  </dsoverv>
+      <eaover>This dataset contains mussel sampling point coordinates and unique identifiers.  It does not contain any information regarding species found at each location.</eaover>
+    </overview>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20080613</mdDateSt>
+</metadata>

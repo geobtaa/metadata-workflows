@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bureau of Transportation Statistics (BTS)</origin>
+        <pubdate>2001</pubdate>
+        <title>
+PORTS_NTAD_IN: Ports in Indiana derived from the U.S. Army Corps of Engineers (Bureau
+of Transportation Statistics, 1:100,000, Point Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>Bureau of Transportation Statistics (BTS)</publish>
+        </pubinfo>
+        <othercit>
+Data is available from the Bureau of Transportation Statistics, at the
+following URL:
+
+http://www.bts.gov/publications/north_american_transportation_atlas_data/
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The U.S. Army Corps of Engineers (USACE) Ports database is an extract from the National
+Waterway Network database consisting of 224 points coded as U.S. Army Corps of Engineers ports.
+This dataset is an extraction for Indiana from the national database and contains 6 points
+representing USACE ports.
+</abstract>
+      <purpose>
+This dataset was compiled to provide locations and attributes for
+ports in Indiana. This dataset is available for viewing and for free downloading on the
+Indiana Geological Survey statewide GIS Web site titled "A GIS Atlas of Indiana." It is intended
+for a variety of uses by the public recognizing that the horizontal accuracy does not support
+high precision applications.
+
+BTS metadata states –
+
+“The Ports database is a geographic database of the U.S. Army Corps of
+Engineers Ports in and around the United States, for analytical studies
+of waterway performance, for compiling commodity flow statistics, and for
+mapping purposes.”
+</purpose>
+      <supplinf>
+This dataset, as well as many others, was compiled
+for mapping and download as part of the Web site titled "A GIS Atlas for Indiana,"
+funded by the Indiana Department of Transportation. Many publicly
+available datasets were created, edited, and compiled inclusion on the Web site
+where users can download data or map online using ESRI ArcIMS. Many public data
+sources, not created in conjunction with the statewide project, were obtained
+by Web site download, contacting originators, and creating spatial files from
+tabular data. A range of layer editing was used, specific to each layer, from full
+creation, to data cleaning, to only reformatting metadata. The level of editing done
+by BLA or the Indiana Geological Survey (IGS) is fully disclosed in the process
+steps of this metadata; credit for the information is retained by the originator.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19940101</begdate>
+          <enddate>present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>economy</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>transportation</themekey>
+        <themekey>ports</themekey>
+        <themekey>shipping</themekey>
+        <themekey>freight</themekey>
+        <themekey>National Transportation Atlas Database (NTAD)</themekey>
+        <themekey>Bureau of Transportation Statistics (BTS)</themekey>
+        <themekey>National Waterway Network Database</themekey>
+        <themekey>U. S. Army Corps of Engineers (USACE)</themekey>
+        <themekey>North American Transportation Atlas Data (NORTAD)</themekey>
+        <themekey>waterways</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer, Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>nschroeder@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format, approximately 160 Kb</native>
+    <useconst>Infrastructure--Facilities_Ports_NTAD</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The attribute accuracy is tested by manual comparison of the source with hard copy print-outs and/or
+symbolized display of digital line graphs on an interactive computer graphic system; selected attributes
+that cannot be visually verified on plots or on screen, are interactively queried and verified on screen. 
+</attraccr>
+    </attracc>
+    <logic>
+Unknown. No records exist at Bernardin-Lochmueller &amp; Assoc. regarding the logical consistency of this
+shapefile. For more information, contact the Bureau of Transportation Statistics (www.bts.gov).
+</logic>
+    <complete>
+No records were available from BTS on completeness of this file, but it is assumed to be all ports in
+waterways bordering Indiana.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of each point element is correlated to the data source
+used to derive that element.  For example, links and nodes derived from
+1:100,000 scale Digital Line Graphs are more accurate than links and
+nodes derived from 1:500,000 scale NOAA Navigational Charts.  Elements
+with an "M" in the source field (indicating an unknown or missing
+source) are the least accurate.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Vanderbilt Engineering Center for Transportation Operations and Research, Vanderbilt University</origin>
+            <pubdate>Unknown</pubdate>
+            <title>USACE Port Database</title>
+            <geoform>Database</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000  (varies)</srcscale>
+        <typesrc>Stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20010101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Source date</srccurr>
+        </srctime>
+        <srccitea>Waterway</srccitea>
+        <srccontr>Original extraction of ports</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bureau of Transportation Statistics</origin>
+            <pubdate>20010101</pubdate>
+            <title>U.S. Army Corps of Engineers Ports</title>
+            <edition>Version 2.0, Revision 3.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Bureau of Transportation Statistics</publish>
+            </pubinfo>
+            <othercit>Data is part of the National Transportation Atlas Database, NTAD</othercit>
+            <onlink>http://www.bts.gov/gis/ntatlas/natlas.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19940101</begdate>
+              <enddate>20011231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>PORTS</srccitea>
+        <srccontr>Ports shapefile extracted for Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Extraction of the USACE identified port nodes from the National Waterway Network file.</procdesc>
+        <srcused>Waterway</srcused>
+        <procdate>20010101</procdate>
+        <srcprod>PORT</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Unknown</cntper>
+              <cntorg>Bureau of Transportation Statistics</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>400 Seventh Street, SW</address>
+              <city>Washington</city>
+              <state>District of Columbia</state>
+              <postal>20590</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>202 366 DATA</cntvoice>
+            <cntfax>202 366 3640</cntfax>
+            <cntemail>answers@bts.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Ports shapefile extracted for Indiana was downloaded
+from the BTS NTAD website on August 5, 2002.  The file was converted to
+UTM83 coordinates.
+</procdesc>
+        <srcused>PORT</srcused>
+        <procdate>20020805</procdate>
+        <srcprod>PORTS_USACE_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Iniana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey). The errors generated by MP were all
+addressed and corrected.
+</procdesc>
+        <procdate>20050122</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Iniana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>6</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PORTS_NTAD_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>
+The SHAPE attribute is a data attribute inherent to
+the ESRI shapefile format. It defines the vector data as point,
+polyline or polygon. For further information concerning the definition
+of SHAPE, consult ESRI documentation.
+</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>software generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MODDATE</attrlabl>
+        <attrdef>Record Modification Date</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>Positive integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEATURID</attrlabl>
+        <attrdef>Unique identifier</attrdef>
+        <attrdefs>USACE port Code</attrdefs>
+        <attrdomv>
+          <udom>Nnumeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPT</attrlabl>
+        <attrdef>Name of port</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Port</attrlabl>
+        <attrdef>Port identification code</attrdef>
+        <attrdefs>USACE</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Who_MOD</attrlabl>
+        <attrdef>Code designating what organization modified the link to which this node is attached and how</attrdef>
+        <attrdefs>assigned</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>V</edomv>
+            <edomvd>Vanderbilt Addition</edomvd>
+            <edomvds>Assigned</edomvds>
+          </edom>
+          <edom>
+            <edomv>V A</edomv>
+            <edomvd>Vanderbilt Addition and Digitized from NOAA charts</edomvd>
+            <edomvds>Assigned</edomvds>
+          </edom>
+          <edom>
+            <edomv>A3</edomv>
+            <edomvd>Digitized from NOAA charts, 94 July</edomvd>
+            <edomvds>Assigned</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SRC</attrlabl>
+        <attrdef>Source of port node</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>V1</edomv>
+            <edomvd>Digitized from NOAA charts</edomvd>
+            <edomvds>Assigned</edomvds>
+          </edom>
+          <edom>
+            <edomv>V5</edomv>
+            <edomvd>Digitized from 1:100K DLGs</edomvd>
+            <edomvds>Assigned</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NODEID</attrlabl>
+        <attrdef>Unique point identification code. Links to NODEID in the USACE Waterway Network</attrdef>
+        <attrdefs>Assigned</attrdefs>
+        <attrdomv>
+          <udom>Positive integer</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended
+to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user.
+Bernardin, Lochmueller and Associates shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin-Lochmueller and Assoc.
+is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040814</metd>
+    <metrd>20050122</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin-Lochmueller and Associates</cntorg>
+        </cntperp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the BLA/IGS. It should not to be
+altered or summarized. BLA/IGS does not support secondary distribution. If
+this data set was received from anyone besides the BLA/IGS, this metadata
+file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

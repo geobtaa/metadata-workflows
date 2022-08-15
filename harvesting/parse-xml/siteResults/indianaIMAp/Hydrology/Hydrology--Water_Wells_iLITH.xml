@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>O'Neal, Michael A. (author 1)</origin>
+        <origin>Brown, Steven E. (author 2)</origin>
+        <origin>Bleuer, N. K. (author 3)</origin>
+        <origin>Olejnik, Jennifer (author 4)</origin>
+        <origin>Rupp, Robin (author 5)</origin>
+        <origin>Indiana Geological Survey (organization responsible for data)</origin>
+        <pubdate>20010901</pubdate>
+        <title>
+WATERWELLS_ILITH_IN: Water-well and Borehole Locations from Version 1.03 4-12-01 of
+the iLITH Database (Indiana Geological Survey, Point Shapefile)
+</title>
+        <edition>1.03</edition>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>None</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20010901</pubdate>
+            <title>
+Brown, S.E., Bleuer, N.K., O'Neal, M.A., Olejnik, Jennifer, and Rupp,
+Robin, 2001, 2001 Glacial-terrain Explorer: Indiana Geological Survey Open-File
+Study 00-08, CD-ROM.
+</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This point shapefile was created to display in a Geographic Information Systems (GIS)
+environment the data points that represent water wells and boreholes contained in the iLITH database.
+The following description of the iLITH database contains the information contained in the shapefile,
+taken from Open-File Study 00-08 --
+"iLITH is a Microsoft Access database containing GIS capabilities
+that allows users to interact with a portion of the Indiana Department of Natural Resources (IDNR)
+Water-Well Record Database. iLITH differs from the IDNR database in that lithologic descriptions and
+drilling contractor names have been standardized, locational information for ~104,000 water-well logs
+has been verified, and the spatial information in the database has been standardized for use with USGS
+digital elevation data and U.S. Census Bureau Tiger data. The iLITH graphical interface facilitates
+efficient interaction between the user and the database."
+</abstract>
+      <purpose>
+The iLITH shapefile was developed as a tool for display of the iLITH version of the IDNR
+water-well record database in a GIS environment. The shapefile provides a display of the entire
+database and can be used with ESRI ArcView 3.2 extensions that are written in Avenue and were
+authored by IGS personnel. Use of the extensions allows immediate display of the water well records
+in map form and can be used to create and display lithologic cross sections or 3-D Scenes using ESRI ArcView
+3D Analyst.
+</purpose>
+      <supplinf>None</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1900</begdate>
+          <enddate>19980414</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Acquisition date of database from IDNR, 1999.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1178</westbc>
+        <eastbc>-84.6921</eastbc>
+        <northbc>41.7737</northbc>
+        <southbc>37.7785</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey</themekey>
+        <themekey>IGS</themekey>
+        <themekey>Indiana Department of Natural Resources</themekey>
+        <themekey>IDNR</themekey>
+        <themekey>Indiana Department of Environmental Management</themekey>
+        <themekey>IDEM</themekey>
+        <themekey>water well</themekey>
+        <themekey>water supply</themekey>
+        <themekey>Borehole</themekey>
+        <themekey>iLITH Database</themekey>
+        <themekey>ArcView shapefile</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+ESRI ArcView version 3.2 shapefile format.  PC platform.
+Windows 2000 operating system. Approximately 179 Mb in size.
+</native>
+    <useconst>Hydrology--Water_Wells_iLITH</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The data in the iLITH database were recorded by water well drilling
+contractors and Indiana Department of Natural Resources (IDNR) staff. Locations of wells provided
+by the contractors were field checked by personnel of the IDNR. The Indiana Geological Survey
+verified the Indiana Department of Natural Resources locations by comparing UTM coordinates and
+Public Land Survey System (PLSS) descriptions. The verification process only verified that data
+were entered consistently, not the accuracy of the location of the wells.
+</attraccr>
+    </attracc>
+    <logic>None</logic>
+    <complete>
+Approximately 200,000 additional water well logs exist, but these were not
+used in the construction of the iLITH database because of incomplete or inaccurate locational and
+lithologic information. The shapefile contains all records contained in the version 1.03 4-12-01 of
+the iLITH database
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following discussion is from Open-File Study 00-8 of the Indiana Geological Survey --
+"...the location information for each record was verified by comparing the different types of
+location information that are collected by the IDNR. Public Land Survey System (PLSS) descriptions
+were compared to Universal Transverse Mercator (UTM) coordinates. If a discrepancy greater than
+1,000 feet was identified, the record was removed from the new dataset... This method is an error
+checking procedure and doesn't assume that either location is accurate."
+For the complete step-by-step procedure refer to Open-File Study 00-08, Appendix A.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the digital
+production of Waterwells_iLITH_IN. No quantitative tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20010901</pubdate>
+            <title>
+iLITH Database, in, Brown, S.E., Bleuer, N.K., O'Neal, M.A., Olejnik, Jennifer, and
+Rupp, Robin, 2001, 2001 Glacial-terrain Explorer: Indiana Geological Survey Open-File
+Study 00-08, CD-ROM.
+</title>
+            <edition>Version 1.03 4-12-01</edition>
+            <geoform>Microsoft Access database</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>Microsoft Access 2000 database format</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1900</begdate>
+              <enddate>19980414</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date (Acquisition date of database from IDNR, 1999.)</srccurr>
+        </srctime>
+        <srccitea>iLITH.mde</srccitea>
+        <srccontr>All information in shapefile</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Creation of shapefile --
+The shapefile was created using a customized IGS iLITH database
+extension in ESRI ArcView 3.2 by using the "create shapefile"
+option in the extension. The entire database was used for the shapefile.
+</procdesc>
+        <srcused>iLITH.mde</srcused>
+        <procdate>20010328</procdate>
+        <srcprod>iLITH_loc32001.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Glacial geologist</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research scientist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-7428</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>IGSinfo@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+iLITH_loc32001.shp was opened in ESRI ArcView, together with INCLP83.shp,
+which shows the boundary of Indiana compiled at a scale of 1:24,000. Visual inspection of
+iLITH_loc32001.shp showed that all 106,096 records were located within the boundary of INCLP83.shp.
+A copy of iLITH_loc32001.shp was created and renamed as WATERWELLS_ILITH_IN.shp to reflect that
+this visual inspection had been performed in lieu of clipping.
+</procdesc>
+        <srcused>iLITH_loc32001.shp</srcused>
+        <procdate>20020529</procdate>
+        <srcprod>WATERWELLS_ILITH_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+WATERWELLS_ILITH_IN.shp was opened in ESRI ArcView and its table was edited to remove the
+following fields -- County, Utm83_x, Utm83_y, Utm27_x, Utm27_y, Latitude, Longitude, Twnshp_n,
+Twnshp_d, Range_n, Range_d, Section, Quarter3, Quarter2, Quarter1, Quadrangle.
+</procdesc>
+        <srcused>WATERWELLS_ILITH_IN.shp</srcused>
+        <procdate>20020530</procdate>
+        <srcprod>WATERWELLS_ILITH_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20020530</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 - 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>_Method: Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>106096</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>1</altres>
+        <altunits>feet</altunits>
+        <altenc>Implicit coordinate</altenc>
+      </altsys>
+      <depthsys>
+        <depthdn>local surface</depthdn>
+        <depthres>1</depthres>
+        <depthdu>feet</depthdu>
+        <depthem>attribute values</depthem>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Waterwells_iLITH_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Index</attrlabl>
+        <attrdef>Unique identification number for each well record in iLITH.</attrdef>
+        <attrdefs>Microsoft Access database primary key.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>109,237</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Alias</attrlabl>
+        <attrdef>
+Number assigned to the record by the agency from which the record originated,
+revealed in the RECORD_SOU field in this database. The alias number for water well records from the
+IDNR is the IDNR unique identification number assigned to each well log at the Division of Water.
+</attrdef>
+        <attrdefs>IGS and IDNR and other state agencies and private drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>The elevation in feet of the well head or test hole as provided on the original water well record.</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>717</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z_dem_f</attrlabl>
+        <attrdef>The elevation of the well head or test hole site derived from the USGS 30-meter Digital Elevation Model in feet.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>336</rdommin>
+            <rdommax>1237</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z_dem_m</attrlabl>
+        <attrdef>The elevation of the well head or test hole site derived from the USGS 30-meter Digital Elevation Model in meters.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>102.54</rdommin>
+            <rdommax>377.03</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lith_depth</attrlabl>
+        <attrdef>The total depth in feet of described lithologic (Description) intervals. This may or may not be the same value as the "depth."</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth</attrlabl>
+        <attrdef>The total drilled depth in feet of the well or test hole as described in the well record.</attrdef>
+        <attrdefs>IDNR, recorded by water well drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Static</attrlabl>
+        <attrdef>The depth in feet of the water level in the well measured from the land surface, top of the well head, or drilling platform. Usually measured by drilling contractor at the time of well completion.</attrdef>
+        <attrdefs>IDNR, recorded by water well drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comp_date</attrlabl>
+        <attrdef>Date the well was completed by the driller.</attrdef>
+        <attrdefs>IDNR, recorded by water well drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner_address</attrlabl>
+        <attrdef>The address of the owner of the well.</attrdef>
+        <attrdefs>IDNR, recorded by water well drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner_zip</attrlabl>
+        <attrdef>The zip code of the owner of the well.</attrdef>
+        <attrdefs>IDNR, recorded by water well drilling contractors.</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Driller_name</attrlabl>
+        <attrdef>The name of the drilling contractor who drilled the water well or test well. The contractor names have been standardized by the IGS.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Entered_by</attrlabl>
+        <attrdef>The initials or name of the person who entered the data from the paper record or who updated the record in some way.</attrdef>
+        <attrdefs>IDNR and IGS.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Record_source</attrlabl>
+        <attrdef>The original agency or source of the record.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Entry_date</attrlabl>
+        <attrdef>Date of record entry by IGS for additions of miscellaneous records for specific projects.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Project_id</attrlabl>
+        <attrdef>Project under which the record was added to the database.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>IDNR</edomv>
+            <edomvd>The IDNR project was the process of entering all the IDNR water well records into a database.</edomvd>
+            <edomvds>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</edomvds>
+          </edom>
+          <edom>
+            <edomv>IGS_ALLEN_1997</edomv>
+            <edomvd>The IGS_ALLEN_1997 project was the process of entering water well records the STATEMAP 1997 project in Allen County, Indiana.</edomvd>
+            <edomvds>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</edomvds>
+          </edom>
+          <edom>
+            <edomv>IGS_COALITION_2000</edomv>
+            <edomvd>The IGS_COALITION_2000 project was the process of entering new records for the Central Great Lakes Geologic Mapping Coalition project in Allen County, Indiana.</edomvd>
+            <edomvds>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</edomvds>
+          </edom>
+          <edom>
+            <edomv>IGS_SM_2000</edomv>
+            <edomvd>The IGS_SM_2000 project was the process of entering new records for the STATEMAP 2000 project in central Indiana.</edomvd>
+            <edomvds>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Location_b</attrlabl>
+        <attrdef>Additional information about the location or circumstances of the well or borehole site.</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Brdepth</attrlabl>
+        <attrdef>The depth of the bedrock determined by a calculation based on the lithology BEDROCK in the LITHOLOGY field of the LITHOLOGY table. There are a number of possible errors and problems associated with the identification of bedrock from the drillers' descriptions. Therefore, the actual depth to bedrock may be different than that noted in the database. Visual inspection of lithologic logs on a one-by-one basis is required to verify that BEDROCK is the logical lithology</attrdef>
+        <attrdefs>IGS glacial geologists. Described in Mapping Paradigm ARN98_48.pdf, IGS Open-File Study 00-08.</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+More information is provided in the documentation that accompanies the
+iLITH database in IGS Open-File Study 00-08.  Refer to Mapping_Paradigm.pdf in Open-File
+Study 00-08.
+</eaover>
+      <eadetcit>
+Brown, S.E., Bleuer, N.K., O'Neal, M.A., Olejnik, Jennifer,
+and Rupp, Robin, 2001, 2001 Glacial-terrain Explorer: Indiana Geological Survey Open-File
+Study 00-08, CD-ROM.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales Coordinator</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 EST, M-F</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [WATERWELLS_ILITH_IN: Water-well and Borehole Locations from Version 1.03 4-12-01
+of the iLITH Database (Indiana Geological Survey, Point Shapefile)]
+WARRANTY
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20010919</metd>
+    <metrd>20020618</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Jennifer Olejnik</cntper>
+        </cntorgp>
+        <cntpos>Assistant Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7428</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>jolejnik@indiana.edu</cntemail>
+        <hours>0800 - 1700 EST, M-F</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

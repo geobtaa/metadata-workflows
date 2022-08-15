@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Environmental Resources Research Institute</origin>
+        <pubdate>1996</pubdate>
+        <title>Active Railroads</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Environmental Protection</publish>
+        </pubinfo>
+        <othercit>
+        </othercit>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium/activerr.zip</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Pennsylvania Department of Environmental Protection</origin>
+            <pubdate>199605</pubdate>
+            <title>Pennsylvania GIS Compendium</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <othercit>
+            </othercit>
+            <onlink>http://www.pasda.psu.edu/search.cgi?k=GIS+compendium</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Telephone call to ERRI confirmed data originated in
+1992, ERRI updated and corrected some data elements.</current>
+    </timeperd>
+    <status>
+      <progress>Completed</progress>
+      <update>Annually at PENNDOT</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.5181</westbc>
+        <eastbc>
+-74.6170</eastbc>
+        <northbc>
+42.2340</northbc>
+        <southbc>
+39.6930</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>railroads</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none
+
+&lt;!DOCTYPE metadata SYSTEM 'metadata.dtd'&gt;</accconst>
+    <useconst>For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.&lt;br&gt;
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Environmental Resources Research Institute</cntorg>
+          <cntper>George Baumer</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntvoice>814-863-5541</cntvoice>
+        <cntemail>gmb@psu.edu</cntemail>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>paactiverailroads</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Department of Transportation</origin>
+            <pubdate>1992</pubdate>
+            <title>Active Railroads</title>
+            <pubinfo>
+              <pubplace>
+              </pubplace>
+              <publish>
+              </publish>
+            </pubinfo>
+            <othercit>
+            </othercit>
+            <onlink>
+            </onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>cd-rom</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Telephone call to Dwight MacLean at PennDot, GIS
+Specialist, 717-787-6036</srccurr>
+        </srctime>
+        <srccitea>none</srccitea>
+        <srccontr>Data digitized from USGS 7.5 minute topographic maps and
+supplemented with information from regional maps.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Converted Intergraph Microstation files to ARCINFO format.
+CD-rom titled Pennsylvania Carto/GIS contains both Intergraph and ESRI formatted
+files.</procdesc>
+        <procdate>1995</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>U:\temp\ucicomp\activerr.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>631</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+activerr</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVERR_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVERR_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CNTY_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SEG_NO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REGION</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RR_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FROM_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LIN_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_GIS</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>
+          </cntper>
+          <cntorg>Pennsylvania Department of Environmental Protection</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>P.O. Box 2063</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105</postal>
+        </cntaddr>
+        <cntvoice>717-783-2300</cntvoice>
+        <cntemail>
+        </cntemail>
+        <cntinst>
+        </cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Not for commercial use or resale.
+The User shall save the Commonwealth and the Pennsylvania State University
+harmless from any suits, claims or actions arising out of the use of the
+data files or accompanying documentation, or arising out of any defectin
+the data files or accompanying documentation.
+The Commonwealth and the Pennsylvania State University excludes any and all
+implied warranties and makes no warranty or representation with respect to
+the data files or accompanying documentation, including quality,
+performance, merchantability, or fitness for a particular purpose. These
+data files and documentation are provided AS IS and the User assumes
+the entire risk as to their quality and performance</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/Info Export</formname>
+          <formvern>7.x</formvern>
+          <filedec>zip</filedec>
+          <transize>1.403</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/compendium/</networkr>
+              </networka>
+            </computer>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>19980409</metd>
+    <metrd>19991008</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <address>115 Land and Water research building</address>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10475300</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water research building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

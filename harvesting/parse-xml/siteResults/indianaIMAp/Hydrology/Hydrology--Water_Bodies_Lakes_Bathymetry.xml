@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Natural Resources/Division of Fish and Wildlife</origin>
+        <pubdate>20120626</pubdate>
+        <title>LAKE_BATHYMETRY_IDNR_IN: Bathymetric Contours for Selected Lakes in Indiana (Indiana Department of Natural Resources, Polygon Shapefile)</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Natural Resources/Division of Outdoor Recreation</publish>
+        </pubinfo>
+        <othercit>
+NOTE: The original data set was provided to Indiana Geological Survey personnel on June 26, 2012, by Mr. Michael P. Martin, GIS Coordinator, Indiana
+Department of Natural Resources, Division of Outdoor Recreation. It was provided as an ESRI file geodatabase containing a polygon feature class named
+"LAKE_BATHYMETRY_DNR_IN." It was originally produced by IDNR Division of Fish and Wildlife personnel (Ashlee Haviland), as part of the "Lake and River
+Enhancement Program." Also, portions of the metadata provided with the feature class were incorporated into this document.
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+LAKE_BATHYMETRY_IDNR_IN.SHP provides bathymetric contours for the following 85 lakes in Indiana, with depths calculated from the average
+shoreline of each lake:
+
+Adams Lake, Appleman Lake, Atwood Lake, Banning Lake, Bass Lake, Bear Lake, Big Lake, Big Long Lake, Blackcat Lake, Bluegrass Lake,
+Brokesha Lake, Cass Lake, Cedar Lake, Clear Lake, Cree Lake, Crooked Lake, Dale Lake, Dewart Lake, Duck Lake, Emma Lake, Evertt Lake,
+Flint Lake, Gage Lake, Gilbert Lake, Graveyard Lake, Green Lake, Griffy Lake, Hackenberg Lake, Heaton Lake, Henry Lake, Hill Lake,
+Hindman Lake, Hudson Lake, Huntingburg Lake, Indian Lake, Jones Lake, Koontz Lake, Kuhn Lake, Lake of the Woods, Latta Lake, Lime Lake,
+Lindsey Lake, Little Barbee Lake, Little Otter Lake, Little Pike Lake, Little Turkey Lake, Loomis Lake, Loon Lake, McClures Lake,
+Meserve Lake, Messick Lake, Meteer Lake, Mud Lake, Nauvoo Lake, North Little Lake, Nyona Lake, Otter Lake, Pike Lake, Pleasant Lake,
+Pretty Lake, Riddles Lake, Rider Pond, Robinson Lake, Round Lake, Shipshewana Lake, Silver Lake, Simonton Lake, South Mud Lake,
+Starve Hollow Lake, Steinbarger Lake, Stone Lake, Tamarack Lake, Taylor Lake, Thomas Lake, Upper Long Lake, Waldron Lake, Wall Lake,
+Waubee Lake, Waveland Lake, West Boggs Lake, West Lake, West Otter Lake, Westler Lake, Witmer Lake, and Yellowwod Lake.
+
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source feature class named LAKE_BATHYMETRY_DNR_IN:
+
+"Lake_Bathymetry_DNR_IN is a polyine feature dataset of bathymetric contours for certain Indiana lakes, depicting the depths of the water
+with the shoreline of each lake as elevation 0. Contour intervals are 5 feet for most lakes, 2 feet for some. Lakes were surveyed using
+Biosonics DTX Echosounder surface unit and 200 kHz and 420 kHz transducers. The contour values of some lakes were adjusted to coincide
+with the lake's legal gauge level."
+</abstract>
+      <purpose>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source feature class named LAKE_BATHYMETRY_DNR_IN:
+
+"Lake_Bathymetry_DNR_IN is a polyine feature dataset of bathymetric contours for certain Indiana lakes, depicting the depths of the water
+with the shoreline of each lake as elevation 0."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20120626</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.053665</westbc>
+        <eastbc>-84.757516</eastbc>
+        <northbc>41.763888</northbc>
+        <southbc>37.815204</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Indiana Division of Fish and Wildlife (IDFW)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>fishing</themekey>
+        <themekey>lake</themekey>
+        <themekey>bathymetry</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>hydrology</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources/Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W. Washington St., Rm. W271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4070</cntvoice>
+        <cntfax>317-233-4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>0800 to 1630 Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Enterprise, Service Pack 1; ESRI ArcCatalog 10.2, Approximately 6.1 Mb</native>
+    <useconst>Hydrology--Water_Bodies_Lakes_Bathymetry</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The attributes contained in this data were provided by personnel of the Indiana Department of Natural Resources
+and are assumed to be accurate.
+</attraccr>
+    </attracc>
+    <logic>Topology is assumed to be correct.</logic>
+    <complete>
+These data were provided by personnel of the Indiana Department of Natural Resources and are assumed to be complete for
+the lakes in which the bathymetry was obtained (85 in total).
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No discussion of the vertical positional accuracy was provided with the source feature class. It is assumed to reflect the
+most accurate bathmetric data collected for the lakes that were surveyed.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources/Division of Fish and Wildlife</origin>
+            <pubdate>20120626</pubdate>
+            <title>LAKE_BATHYMETRY_DNR_IN - Bathymetric contours of selected lakes in Indiana</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources/Division of Fish and Wildlife</publish>
+            </pubinfo>
+            <othercit>
+This source file was provided by Michael P. Martin, GIS Coordinator, IDNR, Division of Outdoor Recreation
+to IGS personnel on June 26, 2012.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>Zip file containing an ESRI file geodatabase and polygon feature class named "LAKE_BATHYMETRY_DNR_IN"</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20120626</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>LAKE_BATHYMETRY_DNR_IN (ESRI Polygon feature class)</srccitea>
+        <srccontr>Dataset includes bathymetric contours for 85 selected lakes in Indiana.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an ESRI file geodatabase that contained a polygon feature class named "LAKES_BATHYMETRY_DNR_IN"
+from Michael P. Martin (IDNR, DOR) on June 26, 2012. The feature class was loaded into ESRI ArcMap and examined for quality control. It was then exported to
+an ESRI shapefile format using ArcToolBox, and was then renamed LAKE_BATHYMETRY_IDNR_IN.SHP to follow IGS naming conventions. The following attribute fields
+were then deleted using ArcToolBox, "COUNTY1_NU," and "COUNTY2_NU."
+</procdesc>
+        <srcused>LAKES_BATHYMETRY_DNR_IN (ESRI Polygon feature class)</srcused>
+        <procdate>20120626</procdate>
+        <srcprod>LAKE_BATHYMETRY_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software written
+by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected, except
+that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20131122</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1337</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LAKE_BATHYMETRY_IDNR_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTOUR</attrlabl>
+        <attrdef>Bathymetric Contour (depth of water from established shoreline)</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>110</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_NAME</attrlabl>
+        <attrdef>Name of the Lake</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HUC_12</attrlabl>
+        <attrdef>Hydrologic Unit Code 12-digit ID number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GAUGE_ADJU</attrlabl>
+        <attrdef>Adjustment value applied to contours to coincide with the legal gauge level of the lake</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>471.7</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_MAX_D</attrlabl>
+        <attrdef>Maximum water depth of the lake (values of zero excluded)</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>12.6</rdommin>
+            <rdommax>112</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY1_NA</attrlabl>
+        <attrdef>Name of the county where the lake is located</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY2_NA</attrlabl>
+        <attrdef>Name of the second county where the lake is located</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HNDID_WATE</attrlabl>
+        <attrdef>Permanent ID of the lake from the National Hydrography Dataset (NHD)</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_ACRES</attrlabl>
+        <attrdef>Surface area of the lake (values of zero excluded)</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8</rdommin>
+            <rdommax>645</rdommax>
+            <attrunit>Acres</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAKE_ELEVA</attrlabl>
+        <attrdef>Elevation of lake (values of zero excluded)</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>217.9</rdommin>
+            <rdommax>862</rdommax>
+            <attrunit>Feet above sea level</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURVEY_DAT</attrlabl>
+        <attrdef>Date the lake was surveyed</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6/20/2007</rdommin>
+            <rdommax>4/19/2012</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>Shape length of the bathymetric contour</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.085092</rdommin>
+            <rdommax>20540.462012</rdommax>
+            <attrunit>meters</attrunit>
+            <attrmres>.000001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[PRIMARY DISTRIBUTOR] Indiana Department of Natural Resources/Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>402 W. Washington St., Rm. 271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 232 4070</cntvoice>
+        <cntfax>317 233 4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>8 to 4:30</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>User assumes all liability</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[SECONDARY DISTRIBUTOR] Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 - 1700 Eastern Standard Time</hours>
+        <cntinst>Monday-Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should
+be included: LAKE_BATHYMETRY_IDNR_IN: Bathymetric Contours for Selected Lakes in Indiana (Indiana Department of Natural Resources, Polygon Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20120626</metd>
+    <metrd>20131122</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

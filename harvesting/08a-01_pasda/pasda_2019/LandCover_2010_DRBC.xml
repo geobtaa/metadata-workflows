@@ -1,0 +1,652 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>University of Vermont Spatial Analysis Laboratory</origin>
+        <pubdate>20140109</pubdate>
+        <title>Landcover - Delaware River Basin 2010</title>
+        <geoform>remote-sensing image</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2010</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.688162</westbc>
+        <eastbc>-74.416169</eastbc>
+        <northbc>42.222981</northbc>
+        <southbc>40.813750</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>tree canopy</themekey>
+        <themekey>Urban</themekey>
+        <themekey>UTC</themekey>
+        <themekey>Land cover</themekey>
+        <themekey>Watershed</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New York</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Delaware River Basin</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2011</tempkey>
+        <tempkey>2010</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Aiken Room 205</address>
+          <address>81 Carrigan Drive</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>University of Vermont Spatial Analysis Laboratory</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+    <descript>
+      <abstract>LandCover_2010_DRBC</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No accuracy assessment was conducted, but the dataset was subject to a thorough manual quality control (QC). Accuracy assessments from previous UTC land cover datasets indicate that the use OBIA techniques in combination with a detailed QC yield an overall accuracy of 95% or better.</attraccr>
+    </attracc>
+    <logic>Valid raster dataset.</logic>
+    <complete>Complete coverage for the study area using the most recent boundary data..</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Broome County, NY.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>NAIP color infrared aerial imagery</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20110601</begdate>
+              <enddate>20110831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Chenango, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20110601</begdate>
+              <enddate>20110831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Delaware County, NY.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20110601</begdate>
+              <enddate>20110831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Orange County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20110601</begdate>
+              <enddate>20110831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>National Agricultural Imagery Program 4-band data, Sullivan County, NY.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Broome County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080228</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Chenango County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Delaware County, NY.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Orange County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Sullivan County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Ulster County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data,</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Ulster County, NY</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data,</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20110601</begdate>
+              <enddate>20110831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Ulster County, NY.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data,</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Lackawanna County, PA</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data,</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Monroe County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Pike County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>National Agricultural Imagery Program 4-band data</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100601</begdate>
+              <enddate>20100831</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>NAIP</srccitea>
+        <srccontr>National Agricultural Imagery Program 4-band data, Wayne County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Lackawanna County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Monroe County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Pike County, PA.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Normalized Digital Surface Model</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20080101</begdate>
+              <enddate>20080229</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccitea>nDSM</srccitea>
+        <srccontr>Normalized Digital Surface Model, Wayne County, PA</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground Condition</srccurr>
+        </srctime>
+        <srccontr>Vector GIS Data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Object based image analysis (OBIA) using a rule-based expert system</procdesc>
+        <procdate>20131201</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Manual corrections to land cover classification</procdesc>
+        <procdate>20140109</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>156234</rowcount>
+      <colcount>104978</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-75.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Landcover - Delaware River Basin 2010</enttypl>
+        <enttypd>UTC</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land cover code</attrdef>
+        <attrdefs>UTC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Tree Canopy</edomvd>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Grass/Shrub</edomvd>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Bare Soil</edomvd>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Water</edomvd>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Buildings</edomvd>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Road/Railroad</edomvd>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Other Paved Surfaces</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef># pixels per land cover class</attrdef>
+        <attrdefs>Internal</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Class</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Seven land cover classes were mapped: (1) tree canopy, (2) grass/shrub, (3) bare earth, (4) water, (5) buildings, (6) roads/railroads, and (7) other paved surfaces.</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20140620</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 205</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

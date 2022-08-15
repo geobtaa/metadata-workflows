@@ -1,0 +1,959 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</origin>
+        <pubdate>201801</pubdate>
+        <title>PennDOT - Pennsylvania Traffic Counts</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Department of Transportation</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201801</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>bi-annual</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.519344</westbc>
+        <eastbc>
+-74.693209</eastbc>
+        <northbc>
+42.267499</northbc>
+        <southbc>
+39.719882</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO Metadata Standard 19115.3</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
+
+The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose.
+
+The COMMONWEALTH makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance.
+
+The COMMONWEALTH will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+
+The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the UNIVERSITY / COMMONWEALTH of any customizing or value-adding work done.
+
+Any customized or value added versions of the files will contain the following disclaimer:
+
+THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPARTMENT OF TRANSPORTATION RETAINS THE MASTER FILES.
+
+THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY.
+
+If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 3654</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17101-3654</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(717) 772-3305</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>PaTraffic2018_01</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Verified visually by comparison against source materials.</attraccr>
+    </attracc>
+    <logic>Topology exists</logic>
+    <complete>Contains all officially recognized features within the Commonwealth.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps.  Updates and maintenance completed from orthophotography where available.</horizpar>
+        <qhorizpa>
+          <horizpav>100</horizpav>
+          <horizpae>Estimated accuracy is +/- 100 Feet.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Geological Survey (U.S.)</origin>
+            <title>Digital orthophoto quarter quadrangle</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>United States Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2006</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>topo quads</srccitea>
+        <srccontr>Feature for digitization</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubinfo />
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates />
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>Digitized into Bentley Microstation system from most recently available 7.5 minute USGS topographic quadrangles on a stable (mylar) base.  Updated information is added from orthophotography, construction plans and maps as this information becomes available.</procdesc>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">D:\PennDOT\PaTraffic2015</srcused>
+        <procdate Sync="TRUE">2015</procdate>
+        <proctime Sync="TRUE">10021000</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>41835</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000000</latres>
+        <longres>0.000000</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>penndot_traffic_201801</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Daily truck VMT</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CTY_CODE</attrlabl>
+        <attrdef>County code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ST_RT_NO</attrlabl>
+        <attrdef>Street route number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SEG_BGN</attrlabl>
+        <attrdef>Segment number at start point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OFFSET_BGN</attrlabl>
+        <attrdef>Offset at start point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SEG_END</attrlabl>
+        <attrdef>Segment number at end point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OFFSET_END</attrlabl>
+        <attrdef>Offset at end point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SEG_LNGTH_</attrlabl>
+        <attrdef>Road segment length in feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SIDE_IND</attrlabl>
+        <attrdef>Right/left side indicator</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>JURIS</attrlabl>
+        <attrdef>Jurisdiction code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CUR_AADT</attrlabl>
+        <attrdef>Current annual average daily traffic</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ADTT_CUR</attrlabl>
+        <attrdef>Current annualized average daily truck count</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TRK_PCT</attrlabl>
+        <attrdef>Truck percent</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>WKDY_TRK_C</attrlabl>
+        <attrdef>Current weekly truck volume</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DLY_VMT</attrlabl>
+        <attrdef>Daily vehicle miles traveled</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DLY_TRK_VM</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>cty_code</attrlabl>
+        <attrdef>County code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>st_rt_no</attrlabl>
+        <attrdef>Street route number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>seg_bgn</attrlabl>
+        <attrdef>Segment number at start point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>offset_bgn</attrlabl>
+        <attrdef>Offset at start point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>seg_end</attrlabl>
+        <attrdef>Segment number at end point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>offset_end</attrlabl>
+        <attrdef>Offset at end point</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>seg_lngth_</attrlabl>
+        <attrdef>Road segment length in feet</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>side_ind</attrlabl>
+        <attrdef>Right/left side indicator</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>juris</attrlabl>
+        <attrdef>Jurisdiction code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>cur_aadt</attrlabl>
+        <attrdef>Current annual average daily traffic</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>adtt_cur</attrlabl>
+        <attrdef>Current annualized average daily truck traffic count</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>trk_pct</attrlabl>
+        <attrdef>Truck percent</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>wkdy_trk_c</attrlabl>
+        <attrdef>Current weekday truck volume</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dly_vmt</attrlabl>
+        <attrdef>Daily vehicle miles traveled (VMT).  VMT = Segment length (in miles) times AADT.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DLY_TRK_VM</attrlabl>
+        <attrdef>Daily truck vehicle miles traveled (VMT).  Truck VMT = Segment length (in miles) times ADTT</attrdef>
+      </attr>
+    </detailed>
+    <overview />
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Buildiing</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>downloadabledata</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <filedec>Zip compression</filedec>
+          <transize>64.523</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>www.pasda.psu.edu</networkr>
+              </networka>
+            </computer>
+            <accinstr>www.pasda.psu.edu</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2006</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>201801</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>201201</ModDate>
+    <ModTime>15025500</ModTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>50000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpPosName>Metadata Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>814-865-8792</voiceNum>
+        <faxNum>814-865-3378</faxNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>115 Land and Water Building</delPoint>
+        <city>University Park</city>
+        <adminArea>PA</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20180101</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>115 Land and Water Buildiing</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc>
+        <resFees>none</resFees>
+        <planAvDtTm>2006-01-01</planAvDtTm>
+      </distorOrdPrc>
+      <distorFormat>
+        <formatName>ArcView Shapefile</formatName>
+        <fileDecmTech>Zip compression</fileDecmTech>
+      </distorFormat>
+      <distorTran>
+        <transSize>64.523</transSize>
+        <onLineSrc>
+          <linkage>www.pasda.psu.edu</linkage>
+          <orDesc>www.pasda.psu.edu</orDesc>
+        </onLineSrc>
+      </distorTran>
+      <distorTran>
+        <onLineSrc>
+          <orDesc>downloadabledata</orDesc>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>PennDOT - Pennsylvania Traffic Counts</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Department of Transportation</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>Harrisburg, PA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Traffic volumes; measured and calculated amounts of vehicle traffic that travel the sections of road.</idAbs>
+    <idPurp>Determine traffic volumes on Pennsylvania roads to assist with traffic light placement and speed limit ranges</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Pennsylvania Department of Transportation, Bureau of Planning and Research, Geographic Information Division</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(717) 772-3305</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="postal">
+          <delPoint>P.O. Box 3654</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17101-3654</postCode>
+          <country>US</country>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint />
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>transportation</keyword>
+      <thesaName>
+        <resTitle>ISO Metadata Standard 19115.3</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Pennsylvania</keyword>
+      <keyword>transportation</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>The user shall indemnify, save harmless, and, if requested, defend the COMMONWEALTH, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. The COMMONWEALTH excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose. The COMMONWEALTH makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. The COMMONWEALTH will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation. The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the UNIVERSITY / COMMONWEALTH of any customizing or value-adding work done. Any customized or value added versions of the files will contain the following disclaimer: THIS IS NOT A PENNSYLVANIA DEPARTMENT OF TRANSPORTATION APPROVED FILE. THE DEPARTMENT OF TRANSPORTATION RETAINS THE MASTER FILES. THE USER AGREES AND UNDERSTANDS THAT IT MAY NOT FURTHER DISTRIBUTE THE FILES TO A THIRD PARTY. If you have any questions or problems, contact the ORGANIZATION where you acquired the data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="018" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.519344</westBL>
+          <eastBL>-74.693209</eastBL>
+          <southBL>39.719882</southBL>
+          <northBL>42.267499</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Further information at: http://www.dot.state.pa.us</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Topology exists</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Contains all officially recognized features within the Commonwealth.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Verified visually by comparison against source materials.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Digitized from sources conforming to National Mapping Accuracy Standards for 1:24,000 scale maps. Updates and maintenance completed from orthophotography where available.</measDesc>
+      <evalMethDesc>Estimated accuracy is +/- 100 Feet.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>100</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Digitized into Bentley Microstation system from most recently available 7.5 minute USGS topographic quadrangles on a stable (mylar) base. Updated information is added from orthophotography, construction plans and maps as this information becomes available.</stepDesc>
+        <stepDateTm>2006-01-01</stepDateTm>
+      </prcStep>
+      <dataSource>
+        <srcDesc>Feature for digitization</srcDesc>
+        <srcMedName>
+          <MedNameCd value="027" />
+        </srcMedName>
+        <srcScale>
+          <rfDenom>24000</rfDenom>
+        </srcScale>
+        <srcCitatn>
+          <resTitle>Digital orthophoto quarter quadrangle</resTitle>
+          <resAltTitle>topo quads</resAltTitle>
+          <citRespParty>
+            <rpOrgName>Geological Survey (U.S.)</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>United States Geological Survey</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Reston, VA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="006" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>map</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>publication date</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2006-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="002" />
+        </geoObjTyp>
+        <geoObjCnt>41835</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="3710b5751fe695344c20bf7b93da4f" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UGVubnN5bHZhbmlhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb24sIEJ1cmVhdSBvZiBQbGFu
+bmluZyBhbmQgUmVzZWFyY2gsIEdlb2dyYXBoaWMgSW5mb3JtYXRpb24gRGl2aXNpb248L29yaWdp
+bj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAxPC9wdWJkYXRlPg0KICAgICAgICA8dGl0bGU+UGVu
+bkRPVCAtIFBlbm5zeWx2YW5pYSBUcmFmZmljIENvdW50czwvdGl0bGU+DQogICAgICAgIDxnZW9m
+b3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgIDxwdWJpbmZvPg0KICAg
+ICAgICAgIDxwdWJwbGFjZT5IYXJyaXNidXJnLCBQQTwvcHVicGxhY2U+DQogICAgICAgICAgPHB1
+Ymxpc2g+UGVubnN5bHZhbmlhIERlcGFydG1lbnQgb2YgVHJhbnNwb3J0YXRpb248L3B1Ymxpc2g+
+DQogICAgICAgIDwvcHViaW5mbz4NCiAgICAgICAgPG9ubGluaz5odHRwOi8vd3d3LnBhc2RhLnBz
+dS5lZHU8L29ubGluaz4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlvbj4NCiAgICA8
+ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+VHJhZmZpYyB2b2x1bWVzOyBtZWFzdXJlZCBhbmQg
+Y2FsY3VsYXRlZCBhbW91bnRzIG9mIHZlaGljbGUgdHJhZmZpYyB0aGF0IHRyYXZlbCB0aGUgc2Vj
+dGlvbnMgb2Ygcm9hZC48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+RGV0ZXJtaW5lIHRyYWZm
+aWMgdm9sdW1lcyBvbiBQZW5uc3lsdmFuaWEgcm9hZHMgdG8gYXNzaXN0IHdpdGggdHJhZmZpYyBs
+aWdodCBwbGFjZW1lbnQgYW5kIHNwZWVkIGxpbWl0IHJhbmdlczwvcHVycG9zZT4NCiAgICAgIDxz
+dXBwbGluZj5GdXJ0aGVyIGluZm9ybWF0aW9uIGF0Og0KaHR0cDovL3d3dy5kb3Quc3RhdGUucGEu
+dXM8L3N1cHBsaW5mPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPHRp
+bWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDE3MDE8L2Nh
+bGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgICA8Y3Vy
+cmVudD5wdWJsaWNhdGlvbiBkYXRlPC9jdXJyZW50Pg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0
+YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5Db21wbGV0ZTwvcHJvZ3Jlc3M+DQogICAgICA8dXBkYXRl
+PmJpLWFubnVhbDwvdXBkYXRlPg0KICAgIDwvc3RhdHVzPg0KICAgIDxzcGRvbT4NCiAgICAgIDxi
+b3VuZGluZz4NCiAgICAgICAgPHdlc3RiYz4NCi04MC41MTkzNDQ8L3dlc3RiYz4NCiAgICAgICAg
+PGVhc3RiYz4NCi03NC42OTMyMDk8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRoYmM+DQo0Mi4yNjc0
+OTk8L25vcnRoYmM+DQogICAgICAgIDxzb3V0aGJjPg0KMzkuNzE5ODgyPC9zb3V0aGJjPg0KICAg
+ICAgPC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVt
+ZT4NCiAgICAgICAgPHRoZW1la3Q+SVNPIE1ldGFkYXRhIFN0YW5kYXJkIDE5MTE1LjM8L3RoZW1l
+a3Q+DQogICAgICAgIDx0aGVtZWtleT50cmFuc3BvcnRhdGlvbjwvdGhlbWVrZXk+DQogICAgICA8
+L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2VrdD5Ob25lPC9wbGFjZWt0Pg0K
+ICAgICAgICA8cGxhY2VrZXk+UGVubnN5bHZhbmlhPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+
+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8YWNjY29uc3Q+Tm9uZS48L2FjY2NvbnN0Pg0KICAgIDx1
+c2Vjb25zdD5UaGUgdXNlciBzaGFsbCBpbmRlbW5pZnksIHNhdmUgaGFybWxlc3MsIGFuZCwgaWYg
+cmVxdWVzdGVkLCBkZWZlbmQgdGhlIENPTU1PTldFQUxUSCwgdGhlaXIgb2ZmaWNlcnMsIGFnZW50
+cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBzdWl0cywgY2xhaW1zLCBvciBh
+Y3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBkYW1hZ2UgYXJpc2luZyBvdXQg
+b2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55
+aW5nIGRvY3VtZW50YXRpb24uDQoNClRoZSBDT01NT05XRUFMVEggZXhjbHVkZXMgYW55IGFuZCBh
+bGwgaW1wbGllZCB3YXJyYW50aWVzLCBpbmNsdWRpbmcgd2FycmFudGllcyBvciBtZXJjaGFudGFi
+aWxpdHkgYW5kIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlLg0KDQpUaGUgQ09NTU9O
+V0VBTFRIIG1ha2VzIG5vIHdhcnJhbnR5IG9yIHJlcHJlc2VudGF0aW9uLCBlaXRoZXIgZXhwcmVz
+cyBvciBpbXBsaWVkLCB3aXRoIHJlc3BlY3QgdG8gdGhlIEZJTEVTIG9yIGFjY29tcGFueWluZyBk
+b2N1bWVudGF0aW9uLCBpbmNsdWRpbmcgaXRzIHF1YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFu
+dGFiaWxpdHksIG9yIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlLiBUaGUgRklMRVMg
+YW5kIGRvY3VtZW50YXRpb24gYXJlIHByb3ZpZGVkICJhcyBpcyIgYW5kIHRoZSBVU0VSIGFzc3Vt
+ZXMgdGhlIGVudGlyZSByaXNrIGFzIHRvIGl0cyBxdWFsaXR5IGFuZCBwZXJmb3JtYW5jZS4NCg0K
+VGhlIENPTU1PTldFQUxUSCB3aWxsIG5vdCBiZSBsaWFibGUgZm9yIGFueSBkaXJlY3QsIGluZGly
+ZWN0LCBzcGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25zZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2lu
+ZyBvdXQgb2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8gdXNlIHRoZSBGSUxFUyBvciBhbnkgYWNj
+b21wYW55aW5nIGRvY3VtZW50YXRpb24uDQoNClRoZSBVU0VSIGlzIGdyYW50ZWQgcGVybWlzc2lv
+biB0byB0cmFuc2xhdGUgYW5kIGFkZCB2YWx1ZSB0byB0aGUgRklMRVMgZm9yIHRoZSB1c2Ugb2Yg
+dGhlIEZJTEVTIG9uIGl0cyBjb21wdXRlciBoYXJkd2FyZTsgcHJvdmlkZWQsIGhvd2V2ZXIsIHRo
+YXQgdGhlIFVTRVIgYW5udWFsbHkgbm90aWZ5IHRoZSBVTklWRVJTSVRZIC8gQ09NTU9OV0VBTFRI
+IG9mIGFueSBjdXN0b21pemluZyBvciB2YWx1ZS1hZGRpbmcgd29yayBkb25lLg0KDQpBbnkgY3Vz
+dG9taXplZCBvciB2YWx1ZSBhZGRlZCB2ZXJzaW9ucyBvZiB0aGUgZmlsZXMgd2lsbCBjb250YWlu
+IHRoZSBmb2xsb3dpbmcgZGlzY2xhaW1lcjoNCg0KVEhJUyBJUyBOT1QgQSBQRU5OU1lMVkFOSUEg
+REVQQVJUTUVOVCBPRiBUUkFOU1BPUlRBVElPTiBBUFBST1ZFRCBGSUxFLiBUSEUgREVQQVJUTUVO
+VCBPRiBUUkFOU1BPUlRBVElPTiBSRVRBSU5TIFRIRSBNQVNURVIgRklMRVMuDQoNClRIRSBVU0VS
+IEFHUkVFUyBBTkQgVU5ERVJTVEFORFMgVEhBVCBJVCBNQVkgTk9UIEZVUlRIRVIgRElTVFJJQlVU
+RSBUSEUgRklMRVMgVE8gQSBUSElSRCBQQVJUWS4NCg0KSWYgeW91IGhhdmUgYW55IHF1ZXN0aW9u
+cyBvciBwcm9ibGVtcywgY29udGFjdCB0aGUgT1JHQU5JWkFUSU9OIHdoZXJlIHlvdSBhY3F1aXJl
+ZCB0aGUgZGF0YS48L3VzZWNvbnN0Pg0KICAgIDxwdGNvbnRhYz4NCiAgICAgIDxjbnRpbmZvPg0K
+ICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBEZXBhcnRt
+ZW50IG9mIFRyYW5zcG9ydGF0aW9uLCBCdXJlYXUgb2YgUGxhbm5pbmcgYW5kIFJlc2VhcmNoLCBH
+ZW9ncmFwaGljIEluZm9ybWF0aW9uIERpdmlzaW9uPC9jbnRvcmc+DQogICAgICAgIDwvY250b3Jn
+cD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYWRkcmVz
+czwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+UC5PLiBCb3ggMzY1NDwvYWRkcmVzcz4N
+CiAgICAgICAgICA8Y2l0eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QQTwv
+c3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNzEwMS0zNjU0PC9wb3N0YWw+DQogICAgICAgICAg
+PGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2
+b2ljZT4oNzE3KSA3NzItMzMwNTwvY250dm9pY2U+DQogICAgICA8L2NudGluZm8+DQogICAgPC9w
+dGNvbnRhYz4NCiAgICA8bmF0aXZlPk1pY3Jvc29mdCBXaW5kb3dzIDIwMDAgVmVyc2lvbiA1LjAg
+KEJ1aWxkIDIxOTUpIFNlcnZpY2UgUGFjayA0OyBFU1JJIEFyY0NhdGFsb2cgOC4zLjAuODAwPC9u
+YXRpdmU+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAgPGF0dHJhY2M+DQogICAgICA8
+YXR0cmFjY3I+VmVyaWZpZWQgdmlzdWFsbHkgYnkgY29tcGFyaXNvbiBhZ2FpbnN0IHNvdXJjZSBt
+YXRlcmlhbHMuPC9hdHRyYWNjcj4NCiAgICA8L2F0dHJhY2M+DQogICAgPGxvZ2ljPlRvcG9sb2d5
+IGV4aXN0czwvbG9naWM+DQogICAgPGNvbXBsZXRlPkNvbnRhaW5zIGFsbCBvZmZpY2lhbGx5IHJl
+Y29nbml6ZWQgZmVhdHVyZXMgd2l0aGluIHRoZSBDb21tb253ZWFsdGguPC9jb21wbGV0ZT4NCiAg
+ICA8cG9zYWNjPg0KICAgICAgPGhvcml6cGE+DQogICAgICAgIDxob3JpenBhcj5EaWdpdGl6ZWQg
+ZnJvbSBzb3VyY2VzIGNvbmZvcm1pbmcgdG8gTmF0aW9uYWwgTWFwcGluZyBBY2N1cmFjeSBTdGFu
+ZGFyZHMgZm9yIDE6MjQsMDAwIHNjYWxlIG1hcHMuICBVcGRhdGVzIGFuZCBtYWludGVuYW5jZSBj
+b21wbGV0ZWQgZnJvbSBvcnRob3Bob3RvZ3JhcGh5IHdoZXJlIGF2YWlsYWJsZS48L2hvcml6cGFy
+Pg0KICAgICAgICA8cWhvcml6cGE+DQogICAgICAgICAgPGhvcml6cGF2PjEwMDwvaG9yaXpwYXY+
+DQogICAgICAgICAgPGhvcml6cGFlPkVzdGltYXRlZCBhY2N1cmFjeSBpcyArLy0gMTAwIEZlZXQu
+PC9ob3JpenBhZT4NCiAgICAgICAgPC9xaG9yaXpwYT4NCiAgICAgIDwvaG9yaXpwYT4NCiAgICA8
+L3Bvc2FjYz4NCiAgICA8bGluZWFnZT4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8c3JjY2l0
+ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2luPkdlb2xvZ2ljYWwg
+U3VydmV5IChVLlMuKTwvb3JpZ2luPg0KICAgICAgICAgICAgPHRpdGxlPkRpZ2l0YWwgb3J0aG9w
+aG90byBxdWFydGVyIHF1YWRyYW5nbGU8L3RpdGxlPg0KICAgICAgICAgICAgPGdlb2Zvcm0+bWFw
+PC9nZW9mb3JtPg0KICAgICAgICAgICAgPHB1YmluZm8+DQogICAgICAgICAgICAgIDxwdWJwbGFj
+ZT5SZXN0b24sIFZBPC9wdWJwbGFjZT4NCiAgICAgICAgICAgICAgPHB1Ymxpc2g+VW5pdGVkIFN0
+YXRlcyBHZW9sb2dpY2FsIFN1cnZleTwvcHVibGlzaD4NCiAgICAgICAgICAgIDwvcHViaW5mbz4N
+CiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+DQogICAgICAgIDxzcmNz
+Y2FsZT4yNDAwMDwvc3Jjc2NhbGU+DQogICAgICAgIDx0eXBlc3JjPnBhcGVyPC90eXBlc3JjPg0K
+ICAgICAgICA8c3JjdGltZT4NCiAgICAgICAgICA8dGltZWluZm8+DQogICAgICAgICAgICA8c25n
+ZGF0ZT4NCiAgICAgICAgICAgICAgPGNhbGRhdGU+MjAwNjwvY2FsZGF0ZT4NCiAgICAgICAgICAg
+IDwvc25nZGF0ZT4NCiAgICAgICAgICA8L3RpbWVpbmZvPg0KICAgICAgICAgIDxzcmNjdXJyPnB1
+YmxpY2F0aW9uIGRhdGU8L3NyY2N1cnI+DQogICAgICAgIDwvc3JjdGltZT4NCiAgICAgICAgPHNy
+Y2NpdGVhPnRvcG8gcXVhZHM8L3NyY2NpdGVhPg0KICAgICAgICA8c3JjY29udHI+RmVhdHVyZSBm
+b3IgZGlnaXRpemF0aW9uPC9zcmNjb250cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxwcm9j
+c3RlcD4NCiAgICAgICAgPHByb2NkZXNjPkRpZ2l0aXplZCBpbnRvIEJlbnRsZXkgTWljcm9zdGF0
+aW9uIHN5c3RlbSBmcm9tIG1vc3QgcmVjZW50bHkgYXZhaWxhYmxlIDcuNSBtaW51dGUgVVNHUyB0
+b3BvZ3JhcGhpYyBxdWFkcmFuZ2xlcyBvbiBhIHN0YWJsZSAobXlsYXIpIGJhc2UuICBVcGRhdGVk
+IGluZm9ybWF0aW9uIGlzIGFkZGVkIGZyb20gb3J0aG9waG90b2dyYXBoeSwgY29uc3RydWN0aW9u
+IHBsYW5zIGFuZCBtYXBzIGFzIHRoaXMgaW5mb3JtYXRpb24gYmVjb21lcyBhdmFpbGFibGUuPC9w
+cm9jZGVzYz4NCiAgICAgICAgPHByb2NkYXRlPjIwMDY8L3Byb2NkYXRlPg0KICAgICAgPC9wcm9j
+c3RlcD4NCiAgICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+DQogIDxzcGRvaW5mbz4NCiAgICA8
+ZGlyZWN0PlZlY3RvcjwvZGlyZWN0Pg0KICAgIDxwdHZjdGluZj4NCiAgICAgIDxzZHRzdGVybT4N
+CiAgICAgICAgPHNkdHN0eXBlPlN0cmluZzwvc2R0c3R5cGU+DQogICAgICAgIDxwdHZjdGNudD40
+MTgzNTwvcHR2Y3RjbnQ+DQogICAgICA8L3NkdHN0ZXJtPg0KICAgIDwvcHR2Y3RpbmY+DQogIDwv
+c3Bkb2luZm8+DQogIDxzcHJlZj4NCiAgICA8aG9yaXpzeXM+DQogICAgICA8Z2VvZ3JhcGg+DQog
+ICAgICAgIDxsYXRyZXM+MC4wMDAwMDA8L2xhdHJlcz4NCiAgICAgICAgPGxvbmdyZXM+MC4wMDAw
+MDA8L2xvbmdyZXM+DQogICAgICAgIDxnZW9ndW5pdD5EZWNpbWFsIGRlZ3JlZXM8L2dlb2d1bml0
+Pg0KICAgICAgPC9nZW9ncmFwaD4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAgICAgPGhvcml6ZG4+
+Tm9ydGggQW1lcmljYW4gRGF0dW0gb2YgMTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5H
+ZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42
+Mzc4MTM3LjAwMDAwMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjI8L2Rl
+bmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3ByZWY+DQog
+IDxlYWluZm8+DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5
+cGw+cGVubmRvdF90cmFmZmljXzIwMTcwMTwvZW50dHlwbD4NCiAgICAgIDwvZW50dHlwPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5GSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+cmRlZj5JbnRlcm5hbCBmZWF0dXJlIG51bWJlci48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVm
+cz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlNl
+cXVlbnRpYWwgdW5pcXVlIHdob2xlIG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5l
+cmF0ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkRhaWx5IHRydWNrIFZNVDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0
+dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+Q29vcmRpbmF0ZXMg
+ZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q1RZX0NPREU8L2F0dHJs
+YWJsPg0KICAgICAgICA8YXR0cmRlZj5Db3VudHkgY29kZTwvYXR0cmRlZj4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U1RfUlRfTk88L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5TdHJlZXQgcm91dGUgbnVtYmVyPC9hdHRyZGVmPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TRUdfQkdOPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dHJkZWY+U2VnbWVudCBudW1iZXIgYXQgc3RhcnQgcG9pbnQ8L2F0dHJkZWY+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk9GRlNFVF9C
+R048L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5PZmZzZXQgYXQgc3RhcnQgcG9pbnQ8L2F0
+dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNF
+R19FTkQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5TZWdtZW50IG51bWJlciBhdCBlbmQg
+cG9pbnQ8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0
+dHJsYWJsPk9GRlNFVF9FTkQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5PZmZzZXQgYXQg
+ZW5kIHBvaW50PC9hdHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5TRUdfTE5HVEhfPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+Um9hZCBz
+ZWdtZW50IGxlbmd0aCBpbiBmZWV0PC9hdHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5TSURFX0lORDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPlJpZ2h0L2xlZnQgc2lkZSBpbmRpY2F0b3I8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQog
+ICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkpVUklTPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+SnVyaXNkaWN0aW9uIGNvZGU8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkNVUl9BQURUPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+Q3VycmVudCBhbm51YWwgYXZlcmFnZSBkYWlseSB0cmFmZmljPC9hdHRyZGVmPg0K
+ICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5BRFRUX0NVUjwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkN1cnJlbnQgYW5udWFsaXplZCBhdmVyYWdlIGRh
+aWx5IHRydWNrIGNvdW50PC9hdHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibD5UUktfUENUPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+VHJ1
+Y2sgcGVyY2VudDwvYXR0cmRlZj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmw+V0tEWV9UUktfQzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkN1cnJl
+bnQgd2Vla2x5IHRydWNrIHZvbHVtZTwvYXR0cmRlZj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxh
+dHRyPg0KICAgICAgICA8YXR0cmxhYmw+RExZX1ZNVDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkRhaWx5IHZlaGljbGUgbWlsZXMgdHJhdmVsZWQ8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+
+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkRMWV9UUktfVk08L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5GZWF0dXJlIGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVk
+b20+Q29vcmRpbmF0ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+Y3R5X2NvZGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5Db3VudHkgY29kZTwvYXR0cmRl
+Zj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+c3RfcnRf
+bm88L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5TdHJlZXQgcm91dGUgbnVtYmVyPC9hdHRy
+ZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5zZWdf
+YmduPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+U2VnbWVudCBudW1iZXIgYXQgc3RhcnQg
+cG9pbnQ8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0
+dHJsYWJsPm9mZnNldF9iZ248L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5PZmZzZXQgYXQg
+c3RhcnQgcG9pbnQ8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAg
+ICAgPGF0dHJsYWJsPnNlZ19lbmQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5TZWdtZW50
+IG51bWJlciBhdCBlbmQgcG9pbnQ8L2F0dHJkZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0
+cj4NCiAgICAgICAgPGF0dHJsYWJsPm9mZnNldF9lbmQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+cmRlZj5PZmZzZXQgYXQgZW5kIHBvaW50PC9hdHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5zZWdfbG5ndGhfPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+Um9hZCBzZWdtZW50IGxlbmd0aCBpbiBmZWV0PC9hdHRyZGVmPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5zaWRlX2luZDwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRyZGVmPlJpZ2h0L2xlZnQgc2lkZSBpbmRpY2F0b3I8L2F0dHJkZWY+DQog
+ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPmp1cmlzPC9hdHRy
+bGFibD4NCiAgICAgICAgPGF0dHJkZWY+SnVyaXNkaWN0aW9uIGNvZGU8L2F0dHJkZWY+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPmN1cl9hYWR0PC9hdHRy
+bGFibD4NCiAgICAgICAgPGF0dHJkZWY+Q3VycmVudCBhbm51YWwgYXZlcmFnZSBkYWlseSB0cmFm
+ZmljPC9hdHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibD5hZHR0X2N1cjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkN1cnJlbnQgYW5udWFs
+aXplZCBhdmVyYWdlIGRhaWx5IHRydWNrIHRyYWZmaWMgY291bnQ8L2F0dHJkZWY+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPnRya19wY3Q8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5UcnVjayBwZXJjZW50PC9hdHRyZGVmPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD53a2R5X3Rya19jPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dHJkZWY+Q3VycmVudCB3ZWVrZGF5IHRydWNrIHZvbHVtZTwvYXR0cmRlZj4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+ZGx5X3ZtdDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkRhaWx5IHZlaGljbGUgbWlsZXMgdHJhdmVsZWQg
+KFZNVCkuICBWTVQgPSBTZWdtZW50IGxlbmd0aCAoaW4gbWlsZXMpIHRpbWVzIEFBRFQuPC9hdHRy
+ZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5ETFlf
+VFJLX1ZNPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RGFpbHkgdHJ1Y2sgdmVoaWNsZSBt
+aWxlcyB0cmF2ZWxlZCAoVk1UKS4gIFRydWNrIFZNVCA9IFNlZ21lbnQgbGVuZ3RoIChpbiBtaWxl
+cykgdGltZXMgQURUVDwvYXR0cmRlZj4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0K
+ICA8L2VhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+
+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+UGVubnN5bHZhbmlhIERhdGEg
+QWNjZXNzIChQQVNEQSk8L2NudG9yZz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250
+YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhZGRyZXNzPC9hZGRydHlwZT4NCiAg
+ICAgICAgICA8YWRkcmVzcz4xMTUgTGFuZCBhbmQgV2F0ZXIgQnVpbGRpaW5nPC9hZGRyZXNzPg0K
+ICAgICAgICAgIDxjaXR5PlVuaXZlcnNpdHkgUGFyazwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+
+UGVubnN5bHZhbmlhPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE2ODAyPC9wb3N0YWw+DQog
+ICAgICAgICAgPGNvdW50cnk+VW5pdGVkIFN0YXRlczwvY291bnRyeT4NCiAgICAgICAgPC9jbnRh
+ZGRyPg0KICAgICAgICA8Y250dm9pY2U+KDgxNCkgODY1IC0gODc5MjwvY250dm9pY2U+DQogICAg
+ICAgIDxjbnRlbWFpbD5wYXNkYUBwc3UuZWR1PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4N
+CiAgICA8L2Rpc3RyaWI+DQogICAgPHJlc2Rlc2M+ZG93bmxvYWRhYmxlZGF0YTwvcmVzZGVzYz4N
+CiAgICA8ZGlzdGxpYWI+VGhlIFVTRVIgc2hhbGwgaW5kZW1uaWZ5LCBzYXZlIGhhcm1sZXNzLCBh
+bmQsIGlmIHJlcXVlc3RlZCwgZGVmZW5kIHRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUg
+ZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEsIHRoZWlyIG9mZmljZXJz
+LCBhZ2VudHMsIGFuZCBlbXBsb3llZXMgZnJvbSBhbmQgYWdhaW5zdCBhbnkgc3VpdHMsIGNsYWlt
+cywgb3IgYWN0aW9ucyBmb3IgaW5qdXJ5LCBkZWF0aCwgb3IgcHJvcGVydHkgZGFtYWdlIGFyaXNp
+bmcgb3V0IG9mIHRoZSB1c2Ugb2Ygb3IgYW55IGRlZmVjdCBpbiB0aGUgRklMRVMgb3IgYW55IGFj
+Y29tcGFueWluZyBkb2N1bWVudGF0aW9uLiBUaG9zZSBwYXJ0aWVzIGludm9sdmVkIHdpdGggdGhl
+IGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gZXhjbHVkZWQgYW55IGFuZCBhbGwgaW1wbGll
+ZCB3YXJyYW50aWVzLCBpbmNsdWRpbmcgd2FycmFudGllcyBvciBtZXJjaGFudGFiaWxpdHkgYW5k
+IGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlIGFuZCBtYWtlcyBubyB3YXJyYW50eSBv
+ciByZXByZXNlbnRhdGlvbiwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZCwgd2l0aCByZXNwZWN0
+IHRvIHRoZSBGSUxFUyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwgaW5jbHVkaW5nIGl0
+cyBxdWFsaXR5LCBwZXJmb3JtYW5jZSwgbWVyY2hhbnRhYmlsaXR5LCBvciBmaXRuZXNzIGZvciBh
+IHBhcnRpY3VsYXIgcHVycG9zZS4gVGhlIEZJTEVTIGFuZCBkb2N1bWVudGF0aW9uIGFyZSBwcm92
+aWRlZCAiYXMgaXMiIGFuZCB0aGUgVVNFUiBhc3N1bWVzIHRoZSBlbnRpcmUgcmlzayBhcyB0byBp
+dHMgcXVhbGl0eSBhbmQgcGVyZm9ybWFuY2UuIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0
+aGUgZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEgd2lsbCBub3QgYmUg
+bGlhYmxlIGZvciBhbnkgZGlyZWN0LCBpbmRpcmVjdCwgc3BlY2lhbCwgaW5jaWRlbnRhbCwgb3Ig
+Y29uc2VxdWVudGlhbCBkYW1hZ2VzIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb3IgaW5hYmlsaXR5
+IHRvIHVzZSB0aGUgRklMRVMgb3IgYW55IGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLjwvZGlz
+dGxpYWI+DQogICAgPHN0ZG9yZGVyPg0KICAgICAgPGRpZ2Zvcm0+DQogICAgICAgIDxkaWd0aW5m
+bz4NCiAgICAgICAgICA8Zm9ybW5hbWU+QXJjVmlldyBTaGFwZWZpbGU8L2Zvcm1uYW1lPg0KICAg
+ICAgICAgIDxmaWxlZGVjPlppcCBjb21wcmVzc2lvbjwvZmlsZWRlYz4NCiAgICAgICAgICA8dHJh
+bnNpemU+NjQuNTIzPC90cmFuc2l6ZT4NCiAgICAgICAgPC9kaWd0aW5mbz4NCiAgICAgICAgPGRp
+Z3RvcHQ+DQogICAgICAgICAgPG9ubGlub3B0Pg0KICAgICAgICAgICAgPGNvbXB1dGVyPg0KICAg
+ICAgICAgICAgICA8bmV0d29ya2E+DQogICAgICAgICAgICAgICAgPG5ldHdvcmtyPnd3dy5wYXNk
+YS5wc3UuZWR1PC9uZXR3b3Jrcj4NCiAgICAgICAgICAgICAgPC9uZXR3b3JrYT4NCiAgICAgICAg
+ICAgIDwvY29tcHV0ZXI+DQogICAgICAgICAgICA8YWNjaW5zdHI+d3d3LnBhc2RhLnBzdS5lZHU8
+L2FjY2luc3RyPg0KICAgICAgICAgIDwvb25saW5vcHQ+DQogICAgICAgIDwvZGlndG9wdD4NCiAg
+ICAgIDwvZGlnZm9ybT4NCiAgICAgIDxmZWVzPm5vbmU8L2ZlZXM+DQogICAgPC9zdGRvcmRlcj4N
+CiAgICA8YXZhaWxhYmw+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAg
+ICAgICAgIDxjYWxkYXRlPjIwMDY8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAgICAg
+IDwvdGltZWluZm8+DQogICAgPC9hdmFpbGFibD4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZv
+Pg0KICAgIDxtZXRkPjIwMTcwMTwvbWV0ZD4NCiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0K
+ICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBTcGF0aWFs
+IERhdGEgQWNjZXNzIChQQVNEQSk8L2NudG9yZz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAg
+ICA8Y250cG9zPk1ldGFkYXRhIENvb3JkaW5hdG9yPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRy
+Pg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAg
+ICAgIDxhZGRyZXNzPjExNSBMYW5kIGFuZCBXYXRlciBCdWlsZGluZzwvYWRkcmVzcz4NCiAgICAg
+ICAgICA8Y2l0eT5Vbml2ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBBPC9z
+dGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE2ODAyPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50
+cnk+VW5pdGVkIFN0YXRlczwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8
+Y250dm9pY2U+ODE0LTg2NS04NzkyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD44MTQtODY1
+LTMzNzg8L2NudGZheD4NCiAgICAgICAgPGNudGVtYWlsPnBhc2RhQHBzdS5lZHU8L2NudGVtYWls
+Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvbWV0Yz4NCiAgICA8bWV0c3Rkbj5GR0RDIENvbnRl
+bnQgU3RhbmRhcmRzIGZvciBEaWdpdGFsIEdlb3NwYXRpYWwgTWV0YWRhdGE8L21ldHN0ZG4+DQog
+ICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0ZHY+DQogICAgPG1ldHRjPmxvY2Fs
+IHRpbWU8L21ldHRjPg0KICAgIDxtZXRleHRucz4NCiAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5l
+c3JpLmNvbS9tZXRhZGF0YS9lc3JpcHJvZjgwLmh0bWw8L29ubGluaz4NCiAgICAgIDxtZXRwcm9m
+PkVTUkkgTWV0YWRhdGEgUHJvZmlsZTwvbWV0cHJvZj4NCiAgICA8L21ldGV4dG5zPg0KICA8L21l
+dGFpbmZvPg0KICA8RXNyaT4NCiAgICA8TW9kRGF0ZT4yMDEyMDE8L01vZERhdGU+DQogICAgPE1v
+ZFRpbWU+MTUwMjU1MDA8L01vZFRpbWU+DQogIDwvRXNyaT4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Geological Survey (USGS)</origin>
+        <origin>Indiana Geological Survey (IGS)</origin>
+        <origin>Chris Dintaman (digital processor)</origin>
+        <pubdate>20151118</pubdate>
+        <title>CONTOURS_24K_USGS_IN.GDB: Elevation Contours of Indiana from 7.5-Minute Topographic Quadrangle Maps (United States Geological Survey, 1:24,000, File Geodatabase)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Homeland Security (IDHS)</publish>
+        </pubinfo>
+        <othercit>
+Digital line graphs (DLGs) of hypsography (surface elevations) from 7.5-minute (1:24,000 scale) topographic maps were produced as
+a cooperative project between the Indiana Department of Natural Resources and the United States Geological Survey (USGS). Data were
+obtained from the most recent topographic maps of the USGS, as of 2015. These DLGs were processed by personnel of the Indiana
+Geological Survey to produce an Esri File Geodatabase that covers the entire state of Indiana.
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+CONTOURS_24K_USGS_IN.GDB is an Esri File Geodatabase containing elevation contours produced at a scale of 1:24,000, grouped into three line feature
+classes named "Contours_24K_Hardlines," "Contours_24K_Major_50Ft," and "Contours_24K_Minor." Annotation feature classes ("Anno_16K" and "Anno_3_10")
+are also present to aid the user in labeling the contour data inside GIS software. Elevation values are in feet.
+
+The following is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"Digital line graph (DLG) data are digital representations of cartographic information. DLGs of map features are converted to digital form
+from maps and related sources... All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range
+of attribute codes, have full topological structuring, and have passed certain quality-control checks."
+</abstract>
+      <purpose>
+CONTOURS_24K_USGS_IN.GDB is a digital representation of elevation contours shown on 7.5-minute (1:24,000 scale) topographic quadrangle maps of the United
+States Geological Survey. The USGS DLG data has been processed into an Esri File Geodatabase with simplified attributes for ease of use. The following
+is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"DLGs depict information about geographic features on or near the surface of the Earth, terrain, and political and administrative units. These data
+were collected as part of the National Mapping Program."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20151118</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.092944</westbc>
+        <eastbc>-84.705242</eastbc>
+        <northbc>41.540303</northbc>
+        <southbc>37.787644</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>United States Geological Survey (USGS)</themekey>
+        <themekey>cartography</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>hypsography</themekey>
+        <themekey>line</themekey>
+        <themekey>quadrangle</themekey>
+        <themekey>topographic map</themekey>
+        <themekey>topography</themekey>
+        <themekey>elevation</themekey>
+        <themekey>contour</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana Counties</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.3 file geodatabase format, approximately 900 Mb, Microsoft 7 Enterprise, ESRI ArcCatalog 10.3</native>
+    <useconst>Reference--Elevation_Contours_24K_USGS</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Elevation values are derived from original DLG attributes obtained from the United States Geological Survey and are
+assumed to be accurate. For contours with more than one elevation value (where the field named ELEV_NO is greater than 1), values were summed
+and an average value was calculated and recorded in the field named ELEV.
+
+NOTE: Some lines appear to have elevation values that are too small or too large for the range of elevations found within the quadrangle.
+Furthermore, elevation values of "0" (zero) or "-9999" are associated with boundaries, such as quadrangle boundaries, surface-mine boundries,
+and lake shores.
+</attraccr>
+    </attracc>
+    <logic>
+No tests were performed.
+
+The following is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"Topological requirements include: lines must begin and end at nodes, lines must connect to each other at nodes, lines do not extend
+through nodes, left and right areas are defined for each line element and are consistent throughout the file, and the lines representing
+the limits of the file (neatline) are free of gaps. The tests of logical consistency were performed by the USGS PROSYS program. The
+neatline was generated by connecting the four corners of the digital file, as established during initialization of the digital file.
+All data outside the enclosed region were ignored and all data crossing these geographically straight lines were clipped at the
+neatline. Data within a specified tolerance of the neatline were snapped to the neatline. Neatline straightening aligned the digitized
+edges of the digital data with the generated neatline, that is, with the longitude/latitude lines in geographic coordinates. All
+internal areas were tested for closure using PROSYS."
+</logic>
+    <complete>
+All vector lines appearing on USGS DLGs are present. Lines where the field ELEV equals zero are not elevation contours; these lines
+represent boundaries, such as quadrangle boundaries, surface-mine boundries, and lake shores. Attribute values have been modified
+for ease of use from the original DLGs. For contours with more than one elevation value (where the field named ELEV_NO is greater
+than 1), values were summed and an average value was calculated and recorded in the field named ELEV.
+
+The following is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"For Digital Revision Status = Not revised: Data completeness reflects the content of the source quadrangle. Features may have
+been eliminated or generalized on the source graphic, due to scale and legibility constraints. For Digital Revision Status = Limited
+Update: This file has undergone limited update digital revision. The file contains only: those features that are photoidentifiable
+on monoscopic source, supplemented with limited ancillary source, and those features, present on the original source quadrangle,
+that can not be reliably photoidentified but that are not considered particularly prone to change. For Digital Revision Status = Standard
+Update: This file has undergone standard update digital revision. The data completeness of this file meets NMD standards for feature content."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Unknown.
+
+The following is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"For Digital Revision Status = Not revised"
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Unknown.
+The following is extracted from metadata of the United States Geological Survey for the original DLGs:
+
+"For Hypsography, Hydrography, and Survey Control and Markers Only: For Digital Revision Status = Not revised:"
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey (USGS)</origin>
+            <pubdate>2015</pubdate>
+            <title>1:24,000-scale DLG files of hypsography for Indiana</title>
+            <edition>Unknown</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>USGS</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2015</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS DLG</srccitea>
+        <srccontr>DLGs of hypsography for Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A total of 34 Digital Line Graph (DLG) files were originally supplied to the Indiana Geological Survey by personnel of the Indiana Department
+of Natural Resources. All of these files were used to construct the file geodatabase named "Elevation_Contours_24K_USGS.GDB." All processing was
+performed in Esri ArcCatalog. Elevation_Contours_24K_USGS.GDB contains three line feature classes named "Contours_24K_Hardlines,"
+"Contours_24K_Major_50Ft," and "Contours_24K_Minor." An annotation feature class was also created and is named "Anno_16K."
+</procdesc>
+        <srcused>34 DLGs of Hypsography for Indiana</srcused>
+        <procdate>20151118</procdate>
+        <srcprod>ELEVATION_CONTOURS_24K_USGS_IN.GDB</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20151118</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>2318524</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ELEVATION_CONTOURS_24K_USGS_IN.DBF</enttypl>
+        <enttypd>Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEV</attrlabl>
+        <attrdef>Elevation value of the contour line</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1240</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SINK</attrlabl>
+        <attrdef>Indicates if contour forms a depression or sink</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elev_NO</attrlabl>
+        <attrdef>Coded value used to differentiate contour lines from hardlines from the original data</attrdef>
+        <attrdefs>IGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Indicates that the line is a "hardline" or line boundary created for cartographic purposes in the original DLGs.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Indicates that the line is an elevation contour line.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ContType</attrlabl>
+        <attrdef>Descriptive infomation for the type of line</attrdef>
+        <attrdefs>IGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>HardLine</edomv>
+            <edomvd>Indicates that the line is a "hardline" or line boundary created for cartographic purposes in the original DLGs.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Major</edomv>
+            <edomvd>Indicates that the line is a "Major" elevation contour line.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MajorSink</edomv>
+            <edomvd>Indicates that the line is a "Major" elevation contour line that forms a closed depression or sink.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>Minor</edomv>
+            <edomvd>Indicates that the line is a "Minor" elevation contour line.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+          <edom>
+            <edomv>MinorSink</edomv>
+            <edomvd>Indicates that the line is a "Minor" elevation contour line that forms a closed depression or sink.</edomvd>
+            <edomvds>IGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of the segment of the contour line</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Publication Sales</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should
+be included: [CONTOURS_24K_USGS_IN.GDB: Elevation Contours of Indiana from 7.5-Minute Topographic Quadrangle Maps (United States Geological
+Survey, 1:24,000, File Geodatabase), 20151118].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials
+and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users
+indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data
+or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum
+aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20151118</metd>
+    <metrd>20151118</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

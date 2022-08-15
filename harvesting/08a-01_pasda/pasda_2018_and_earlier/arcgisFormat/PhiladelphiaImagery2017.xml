@@ -1,0 +1,731 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pictometry International</origin>
+        <pubdate>20170517</pubdate>
+        <title>Philadelphia Imagery 2017</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>ground condition</current>
+      <timeinfo>
+        <rngdates>
+          <begdate>unknown</begdate>
+          <enddate>unknown</enddate>
+        </rngdates>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.329939</westbc>
+        <eastbc>-74.944380</eastbc>
+        <northbc>40.144488</northbc>
+        <southbc>39.812625</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <temporal>
+        <tempkt>none</tempkt>
+        <tempkey>Current</tempkey>
+      </temporal>
+      <theme>
+        <themekey>Pictometry Standard</themekey>
+      </theme>
+    </keywords>
+    <accconst>Access to this dataset is constrained by the relevant Pictometry International Corp. license agreement</accconst>
+    <useconst>Use of this dataset is constrained by the relevant Pictometry International Corp. license agreement</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntaddr>
+          <address>25 Methodist Hill Drive</address>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Rochester</city>
+          <state>New York</state>
+          <postal>14623</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntorgp>
+          <cntorg>Pictometry International Corp.</cntorg>
+        </cntorgp>
+        <cntpos>Customer Support</cntpos>
+        <cntvoice>585-486-0093</cntvoice>
+        <cntfax>585-486-0098</cntfax>
+        <hours>0900-1700 EST</hours>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <title>PAPHIL17-ECW-1METER_Other</title>
+        <origin>Pictometry International</origin>
+        <pubdate>20170517</pubdate>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </crossref>
+    <descript>
+      <abstract>PhiladelphiaImagery2017</abstract>
+    </descript>
+  </idinfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pictometry International Corp.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Rochester</city>
+          <state>New York</state>
+          <postal>14623</postal>
+          <address>25 Methodist Hill Drive</address>
+          <address>Suite A</address>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>585-486-0093</cntvoice>
+        <cntpos>Customer Support</cntpos>
+        <cntfax>585-486-0098</cntfax>
+        <hours>0900-1700 EST</hours>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20170517</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <address>25 Methodist Hill Drive</address>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Suite A</address>
+          <city>Rochester</city>
+          <state>New York</state>
+          <postal>14623</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntorgp>
+          <cntorg>Pictometry International Corp.</cntorg>
+        </cntorgp>
+        <cntpos>Customer Support</cntpos>
+        <cntvoice>585-486-0093</cntvoice>
+        <cntfax>585-486-0098</cntfax>
+        <hours>0900-1700 EST</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>Distribution of this dataset is constrained by the relevant Pictometry International Corp. license agreement</distliab>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="PAPHIL17-ECW-1METER_Other">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="PAPHIL17-ECW-1METER_Other">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">US Survey Feet</plandu>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">north_american_datum_1983</horizdn>
+        <ellips Sync="TRUE">GRS 1980 </ellips>
+        <semiaxis Sync="TRUE">6378137</semiaxis>
+        <denflat Sync="TRUE">298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altunits>feet</altunits>
+        <altres>1000.0</altres>
+        <altenc>Implicit coordinate</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="PAPHIL17-ECW-1METER_Other">
+      <enttyp>
+        <enttypl>PAPHIL17-ECW-1METER_Other</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1</enttypc>
+        <enttypd>Orthogonal Imagery</enttypd>
+        <enttypds>Pictometry International Corp.</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>PAPHIL17-ECW-1METER_Other</title>
+            <origin>Pictometry International</origin>
+            <pubdate>20170517</pubdate>
+            <geoform>vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>unknown</begdate>
+              <enddate>unknown</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>disc</srccitea>
+        <srccontr>N/A</srccontr>
+      </srcinfo>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <address>25 Methodist Hill Drive</address>
+              <addrtype>mailing and physical address</addrtype>
+              <address>Suite A</address>
+              <city>Rochester</city>
+              <state>New York</state>
+              <postal>14623</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntorgp>
+              <cntorg>Pictometry International Corp.</cntorg>
+            </cntorgp>
+            <cntpos>Customer Support</cntpos>
+            <cntvoice>585-486-0093</cntvoice>
+            <cntfax>585-486-0098</cntfax>
+            <hours>0900-1700 EST</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>GPS/INS processing: Data was post-processed using NGS CORS base station data.</procdesc>
+        <procsv>Applanix POSPac</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <proccont>
+          <cntinfo>
+            <cntaddr>
+              <address>25 Methodist Hill Drive</address>
+              <addrtype>mailing and physical address</addrtype>
+              <address>Suite A</address>
+              <city>Rochester</city>
+              <state>New York</state>
+              <postal>14623</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntorgp>
+              <cntorg>Pictometry International Corp.</cntorg>
+            </cntorgp>
+            <cntpos>Customer Support</cntpos>
+            <cntvoice>585-486-0093</cntvoice>
+            <cntfax>585-486-0098</cntfax>
+            <hours>0900-1700 EST</hours>
+          </cntinfo>
+        </proccont>
+        <procdesc>Mosaicing:  Mosaicing was performed using Pictometry software</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+    <logic>Dataset is orthoimagery.  Logical consistency is not applicable.</logic>
+    <complete>Unknown</complete>
+  </dataqual>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Pictometry International Corp.</rpOrgName>
+    <rpPosName>Customer Support</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>585-486-0093</voiceNum>
+        <faxNum>585-486-0098</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>25 Methodist Hill Drive</delPoint>
+        <delPoint>Suite A</delPoint>
+        <city>Rochester</city>
+        <adminArea>New York</adminArea>
+        <postCode>14623</postCode>
+        <country>US</country>
+      </cntAddress>
+      <cntHours>0900-1700 EST</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pictometry International Corp.</rpOrgName>
+        <rpPosName>Customer Support</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>585-486-0093</voiceNum>
+            <faxNum>585-486-0098</faxNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>Suite A</delPoint>
+            <delPoint>25 Methodist Hill Drive</delPoint>
+            <city>Rochester</city>
+            <adminArea>New York</adminArea>
+            <postCode>14623</postCode>
+            <country>US</country>
+          </cntAddress>
+          <cntHours>0900-1700 EST</cntHours>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Philadelphia Imagery 2017</resTitle>
+      <date>
+        <pubDate>2017-05-17</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pictometry International</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The dataset consists of tiled orthogonal imagery produced from nadir images captured by Pictometry International.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>This ortho-mosaic is a visualization product and is not intended or valid for authoritative or definitive use, nor is it suitable for submittal to the USGS for funding reimbursement in such programs.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Pictometry International Corp.</rpOrgName>
+      <rpPosName>Customer Support</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>585-486-0093</voiceNum>
+          <faxNum>585-486-0098</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>25 Methodist Hill Drive</delPoint>
+          <city>Rochester</city>
+          <adminArea>New York</adminArea>
+          <postCode>14623</postCode>
+          <country>US</country>
+        </cntAddress>
+        <cntHours>0900-1700 EST</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="012" />
+      </maintFreq>
+    </resMaint>
+    <tempKeys>
+      <keyword>Current</keyword>
+    </tempKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>Pictometry International</resTitle>
+      </thesaName>
+      <keyword>Pictometry Standard</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Pictometry Standard</keyword>
+      <keyword>Current</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Distribution of this dataset is constrained by the relevant Pictometry International Corp. license agreement</useLimit>
+        <othConsts>Access to this dataset is constrained by the relevant Pictometry International Corp. license agreement</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Use of this dataset is constrained by the relevant Pictometry International Corp. license agreement&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <aggrInfo>
+      <aggrDSName>
+        <resTitle>PAPHIL17-ECW-1METER_Other</resTitle>
+        <date>
+          <pubDate>2017-05-17</pubDate>
+        </date>
+        <citRespParty>
+          <rpOrgName>Pictometry International</rpOrgName>
+          <role>
+            <RoleCd value="006" />
+          </role>
+        </citRespParty>
+        <presForm>
+          <PresFormCd value="005" />
+        </presForm>
+        <presForm>
+          <fgdcGeoform>vector digital data</fgdcGeoform>
+        </presForm>
+      </aggrDSName>
+      <assocType>
+        <AscTypeCd value="001" />
+      </assocType>
+    </aggrInfo>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.329939</westBL>
+          <eastBL>-74.94438</eastBL>
+          <southBL>39.812625</southBL>
+          <northBL>40.144488</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmBegin date="unknown" />
+              <tmEnd date="unknown" />
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Dataset is orthoimagery. Logical consistency is not applicable.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Unknown</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Mosaicing: Mosaicing was performed using Pictometry software</stepDesc>
+        <stepDateTm date="unknown" />
+        <stepProc>
+          <rpOrgName>Pictometry International Corp.</rpOrgName>
+          <rpPosName>Customer Support</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>585-486-0093</voiceNum>
+              <faxNum>585-486-0098</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>25 Methodist Hill Drive</delPoint>
+              <delPoint>Suite A</delPoint>
+              <city>Rochester</city>
+              <adminArea>New York</adminArea>
+              <postCode>14623</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>0900-1700 EST</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>GPS/INS processing: Data was post-processed using NGS CORS base station data.</stepDesc>
+        <stepDateTm date="unknown" />
+        <stepProc>
+          <rpOrgName>Pictometry International Corp.</rpOrgName>
+          <rpPosName>Customer Support</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>585-486-0093</voiceNum>
+              <faxNum>585-486-0098</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>25 Methodist Hill Drive</delPoint>
+              <delPoint>Suite A</delPoint>
+              <city>Rochester</city>
+              <adminArea>New York</adminArea>
+              <postCode>14623</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>0900-1700 EST</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>N/A</srcDesc>
+        <srcMedName>
+          <MedNameCd value="031" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>PAPHIL17-ECW-1METER_Other</resTitle>
+          <resAltTitle>disc</resAltTitle>
+          <date>
+            <pubDate>2017-05-17</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Pictometry International</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="005" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>vector digital data</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Period>
+                  <tmBegin date="unknown" />
+                  <tmEnd date="unknown" />
+                </TM_Period>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <Esri>
+    <CreaDate>20170824</CreaDate>
+    <CreaTime>10192400</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <SyncOnce>TRUE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\PAPHIL17-ECW-1METER-FGDC</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <copyHistory>
+        <copy source="F:\Supplemental Data\FGDC Metadata Files\PAPHIL17-ECW-1METER-FGDC" dest="\\ALCES\D$\PAPHIL17-ECW-1METER-FGDC" date="20170824" time="10192400" />
+      </copyHistory>
+    </DataProperties>
+    <ModDate>20170824</ModDate>
+    <ModTime>10210400</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="98e8e6572b99da40a230bd15553992ae" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+VGhlIGRhdGFzZXQgY29uc2lz
+dHMgb2YgdGlsZWQgb3J0aG9nb25hbCBpbWFnZXJ5IHByb2R1Y2VkIGZyb20gbmFkaXIgaW1hZ2Vz
+IGNhcHR1cmVkIGJ5IFBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbC48L2Fic3RyYWN0Pg0KICAgICAg
+PHB1cnBvc2U+VGhpcyBvcnRoby1tb3NhaWMgaXMgYSB2aXN1YWxpemF0aW9uIHByb2R1Y3QgYW5k
+IGlzIG5vdCBpbnRlbmRlZCBvciB2YWxpZCBmb3IgYXV0aG9yaXRhdGl2ZSBvciBkZWZpbml0aXZl
+IHVzZSwgbm9yIGlzIGl0IHN1aXRhYmxlIGZvciBzdWJtaXR0YWwgdG8gdGhlIFVTR1MgZm9yIGZ1
+bmRpbmcgcmVpbWJ1cnNlbWVudCBpbiBzdWNoIHByb2dyYW1zLjwvcHVycG9zZT4NCiAgICA8L2Rl
+c2NyaXB0Pg0KICAgIDxjaXRhdGlvbj4NCiAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgPG9yaWdp
+bj5QaWN0b21ldHJ5IEludGVybmF0aW9uYWw8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAx
+NzA1MTc8L3B1YmRhdGU+DQogICAgICAgIDx0aXRsZT5QQVBISUwxNy1FQ1ctMU1FVEVSX090aGVy
+PC90aXRsZT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlvbj4NCiAgICA8dGltZXBl
+cmQ+DQogICAgICA8Y3VycmVudD5ncm91bmQgY29uZGl0aW9uPC9jdXJyZW50Pg0KICAgICAgPHRp
+bWVpbmZvPg0KICAgICAgICA8cm5nZGF0ZXM+DQogICAgICAgICAgPGJlZ2RhdGU+VW5rbm93bjwv
+YmVnZGF0ZT4NCiAgICAgICAgICA8ZW5kZGF0ZT5Vbmtub3duPC9lbmRkYXRlPg0KICAgICAgICA8
+L3JuZ2RhdGVzPg0KICAgICAgPC90aW1laW5mbz4NCiAgICA8L3RpbWVwZXJkPg0KICAgIDxzdGF0
+dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0ZT5V
+bmtub3duPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPHNwZG9tPg0KICAgICAgPGJvdW5k
+aW5nPg0KICAgICAgICA8d2VzdGJjPi03NS4zMjk5Mzk8L3dlc3RiYz4NCiAgICAgICAgPGVhc3Ri
+Yz4tNzQuOTQ0MzgwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQwLjE0NDQ4ODwvbm9ydGhi
+Yz4NCiAgICAgICAgPHNvdXRoYmM+MzkuODEyNjI1PC9zb3V0aGJjPg0KICAgICAgPC9ib3VuZGlu
+Zz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAg
+PHRoZW1la3Q+UGljdG9tZXRyeSBJbnRlcm5hdGlvbmFsPC90aGVtZWt0Pg0KICAgICAgICA8dGhl
+bWVrZXk+UGljdG9tZXRyeSBTdGFuZGFyZDwvdGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAg
+ICAgPHRlbXBvcmFsPg0KICAgICAgICA8dGVtcGt0Pm5vbmU8L3RlbXBrdD4NCiAgICAgICAgPHRl
+bXBrZXk+Q3VycmVudDwvdGVtcGtleT4NCiAgICAgIDwvdGVtcG9yYWw+DQogICAgPC9rZXl3b3Jk
+cz4NCiAgICA8YWNjY29uc3Q+QWNjZXNzIHRvIHRoaXMgZGF0YXNldCBpcyBjb25zdHJhaW5lZCBi
+eSB0aGUgcmVsZXZhbnQgUGljdG9tZXRyeSBJbnRlcm5hdGlvbmFsIENvcnAuIGxpY2Vuc2UgYWdy
+ZWVtZW50PC9hY2Njb25zdD4NCiAgICA8dXNlY29uc3Q+VXNlIG9mIHRoaXMgZGF0YXNldCBpcyBj
+b25zdHJhaW5lZCBieSB0aGUgcmVsZXZhbnQgUGljdG9tZXRyeSBJbnRlcm5hdGlvbmFsIENvcnAu
+IGxpY2Vuc2UgYWdyZWVtZW50PC91c2Vjb25zdD4NCiAgICA8cHRjb250YWM+DQogICAgICA8Y250
+aW5mbz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJlc3M+MjUgTWV0aG9kaXN0
+IEhpbGwgRHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBo
+eXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxjaXR5PlJvY2hlc3RlcjwvY2l0
+eT4NCiAgICAgICAgICA8c3RhdGU+TmV3IFlvcms8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+
+MTQ2MjM8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAg
+IDwvY250YWRkcj4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5QaWN0b21l
+dHJ5IEludGVybmF0aW9uYWwgQ29ycC48L2NudG9yZz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAg
+ICAgICA8Y250cG9zPkN1c3RvbWVyIFN1cHBvcnQ8L2NudHBvcz4NCiAgICAgICAgPGNudHZvaWNl
+PjU4NS00ODYtMDA5MzwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NTg1LTQ4Ni0wMDk4PC9j
+bnRmYXg+DQogICAgICAgIDxob3Vycz4wOTAwLTE3MDAgRVNUPC9ob3Vycz4NCiAgICAgIDwvY250
+aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxjcm9zc3JlZj4NCiAgICAgIDxjaXRlaW5mbz4N
+CiAgICAgICAgPHRpdGxlPlBBUEhJTDE3LUVDVy0xTUVURVJfT3RoZXI8L3RpdGxlPg0KICAgICAg
+ICA8b3JpZ2luPlBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbDwvb3JpZ2luPg0KICAgICAgICA8cHVi
+ZGF0ZT4yMDE3MDUxNzwvcHViZGF0ZT4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9yIGRpZ2l0YWwg
+ZGF0YTwvZ2VvZm9ybT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jcm9zc3JlZj4NCiAgPC9p
+ZGluZm8+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAg
+ICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbCBD
+b3JwLjwvY250b3JnPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAg
+ICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4N
+CiAgICAgICAgICA8Y2l0eT5Sb2NoZXN0ZXI8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPk5ldyBZ
+b3JrPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE0NjIzPC9wb3N0YWw+DQogICAgICAgICAg
+PGFkZHJlc3M+MjUgTWV0aG9kaXN0IEhpbGwgRHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGFk
+ZHJlc3M+U3VpdGUgQTwvYWRkcmVzcz4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+
+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjU4NS00ODYtMDA5MzwvY250
+dm9pY2U+DQogICAgICAgIDxjbnRwb3M+Q3VzdG9tZXIgU3VwcG9ydDwvY250cG9zPg0KICAgICAg
+ICA8Y250ZmF4PjU4NS00ODYtMDA5ODwvY250ZmF4Pg0KICAgICAgICA8aG91cnM+MDkwMC0xNzAw
+IEVTVDwvaG91cnM+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICA8L21ldGFpbmZv
+Pg0KICA8ZGlzdGluZm8+DQogICAgPGRpc3RyaWI+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAg
+PGNudGFkZHI+DQogICAgICAgICAgPGFkZHJlc3M+MjUgTWV0aG9kaXN0IEhpbGwgRHJpdmU8L2Fk
+ZHJlc3M+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8
+L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPlN1aXRlIEE8L2FkZHJlc3M+DQogICAgICAg
+ICAgPGNpdHk+Um9jaGVzdGVyPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5OZXcgWW9yazwvc3Rh
+dGU+DQogICAgICAgICAgPHBvc3RhbD4xNDYyMzwvcG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5
+PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250b3JncD4NCiAg
+ICAgICAgICA8Y250b3JnPlBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbCBDb3JwLjwvY250b3JnPg0K
+ICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+Q3VzdG9tZXIgU3VwcG9ydDwvY250
+cG9zPg0KICAgICAgICA8Y250dm9pY2U+NTg1LTQ4Ni0wMDkzPC9jbnR2b2ljZT4NCiAgICAgICAg
+PGNudGZheD41ODUtNDg2LTAwOTg8L2NudGZheD4NCiAgICAgICAgPGhvdXJzPjA5MDAtMTcwMCBF
+U1Q8L2hvdXJzPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvZGlzdHJpYj4NCiAgICA8ZGlzdGxp
+YWI+RGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YXNldCBpcyBjb25zdHJhaW5lZCBieSB0aGUgcmVs
+ZXZhbnQgUGljdG9tZXRyeSBJbnRlcm5hdGlvbmFsIENvcnAuIGxpY2Vuc2UgYWdyZWVtZW50PC9k
+aXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAg
+IDxwbGFuYXI+DQogICAgICAgIDxwbGFuY2k+DQogICAgICAgICAgPGNvb3JkcmVwPg0KICAgICAg
+ICAgICAgPGFic3Jlcz4xLjA8L2Fic3Jlcz4NCiAgICAgICAgICAgIDxvcmRyZXM+MS4wPC9vcmRy
+ZXM+DQogICAgICAgICAgPC9jb29yZHJlcD4NCiAgICAgICAgPC9wbGFuY2k+DQogICAgICAgIDxt
+YXBwcm9qPg0KICAgICAgICAgIDxtYXBwcm9qbj5MYW1iZXJ0IENvbmZvcm1hbCBDb25pYyAyU1A8
+L21hcHByb2puPg0KICAgICAgICA8L21hcHByb2o+DQogICAgICA8L3BsYW5hcj4NCiAgICA8L2hv
+cml6c3lzPg0KICAgIDx2ZXJ0ZGVmPg0KICAgICAgPGFsdHN5cz4NCiAgICAgICAgPGFsdGRhdHVt
+Pk5vcnRoIEFtZXJpY2FuIFZlcnRpY2FsIERhdHVtIG9mIDE5ODg8L2FsdGRhdHVtPg0KICAgICAg
+ICA8YWx0dW5pdHM+ZmVldDwvYWx0dW5pdHM+DQogICAgICAgIDxhbHRyZXM+MTAwMC4wPC9hbHRy
+ZXM+DQogICAgICAgIDxhbHRlbmM+SW1wbGljaXQgY29vcmRpbmF0ZTwvYWx0ZW5jPg0KICAgICAg
+PC9hbHRzeXM+DQogICAgPC92ZXJ0ZGVmPg0KICA8L3NwcmVmPg0KICA8ZWFpbmZvPg0KICAgIDxk
+ZXRhaWxlZCBOYW1lPSJQQVBISUwxNy1FQ1ctMU1FVEVSX090aGVyIj4NCiAgICAgIDxlbnR0eXA+
+DQogICAgICAgIDxlbnR0eXBsPlBBUEhJTDE3LUVDVy0xTUVURVJfT3RoZXI8L2VudHR5cGw+DQog
+ICAgICAgIDxlbnR0eXB0IFN5bmM9IlRSVUUiPkZlYXR1cmUgQ2xhc3M8L2VudHR5cHQ+DQogICAg
+ICAgIDxlbnR0eXBjIFN5bmM9IlRSVUUiPjE8L2VudHR5cGM+DQogICAgICAgIDxlbnR0eXBkPk9y
+dGhvZ29uYWwgSW1hZ2VyeTwvZW50dHlwZD4NCiAgICAgICAgPGVudHR5cGRzPlBpY3RvbWV0cnkg
+SW50ZXJuYXRpb25hbCBDb3JwLjwvZW50dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICA8L2Rl
+dGFpbGVkPg0KICA8L2VhaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsaW5lYWdlPg0KICAgICAg
+PHNyY2luZm8+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxjaXRlaW5mbz4NCiAgICAg
+ICAgICAgIDx0aXRsZT5QQVBISUwxNy1FQ1ctMU1FVEVSX090aGVyPC90aXRsZT4NCiAgICAgICAg
+ICAgIDxvcmlnaW4+UGljdG9tZXRyeSBJbnRlcm5hdGlvbmFsPC9vcmlnaW4+DQogICAgICAgICAg
+ICA8cHViZGF0ZT4yMDE3MDUxNzwvcHViZGF0ZT4NCiAgICAgICAgICAgIDxnZW9mb3JtPnZlY3Rv
+ciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAg
+PC9zcmNjaXRlPg0KICAgICAgICA8dHlwZXNyYz5kaXNjPC90eXBlc3JjPg0KICAgICAgICA8c3Jj
+dGltZT4NCiAgICAgICAgICA8dGltZWluZm8+DQogICAgICAgICAgICA8cm5nZGF0ZXM+DQogICAg
+ICAgICAgICAgIDxiZWdkYXRlPlVua25vd248L2JlZ2RhdGU+DQogICAgICAgICAgICAgIDxlbmRk
+YXRlPlVua25vd248L2VuZGRhdGU+DQogICAgICAgICAgICA8L3JuZ2RhdGVzPg0KICAgICAgICAg
+IDwvdGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3JjY3Vy
+cj4NCiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+ZGlzYzwvc3JjY2l0ZWE+
+DQogICAgICAgIDxzcmNjb250cj5OL0E8L3NyY2NvbnRyPg0KICAgICAgPC9zcmNpbmZvPg0KICAg
+ICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQog
+ICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+MjUgTWV0aG9kaXN0
+IEhpbGwgRHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFu
+ZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+U3Vp
+dGUgQTwvYWRkcmVzcz4NCiAgICAgICAgICAgICAgPGNpdHk+Um9jaGVzdGVyPC9jaXR5Pg0KICAg
+ICAgICAgICAgICA8c3RhdGU+TmV3IFlvcms8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFs
+PjE0NjIzPC9wb3N0YWw+DQogICAgICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAg
+ICAgICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgICAg
+ICA8Y250b3JnPlBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbCBDb3JwLjwvY250b3JnPg0KICAgICAg
+ICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5DdXN0b21lciBTdXBwb3J0PC9j
+bnRwb3M+DQogICAgICAgICAgICA8Y250dm9pY2U+NTg1LTQ4Ni0wMDkzPC9jbnR2b2ljZT4NCiAg
+ICAgICAgICAgIDxjbnRmYXg+NTg1LTQ4Ni0wMDk4PC9jbnRmYXg+DQogICAgICAgICAgICA8aG91
+cnM+MDkwMC0xNzAwIEVTVDwvaG91cnM+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAgICA8
+L3Byb2Njb250Pg0KICAgICAgICA8cHJvY2Rlc2M+R1BTL0lOUyBwcm9jZXNzaW5nOiBEYXRhIHdh
+cyBwb3N0LXByb2Nlc3NlZCB1c2luZyBOR1MgQ09SUyBiYXNlIHN0YXRpb24gZGF0YS48L3Byb2Nk
+ZXNjPg0KICAgICAgICA8cHJvY3N2PkFwcGxhbml4IFBPU1BhYzwvcHJvY3N2Pg0KICAgICAgICA8
+cHJvY2RhdGU+VW5rbm93bjwvcHJvY2RhdGU+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHBy
+b2NzdGVwPg0KICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAg
+ICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+MjUgTWV0aG9kaXN0IEhpbGwg
+RHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlz
+aWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+U3VpdGUgQTwv
+YWRkcmVzcz4NCiAgICAgICAgICAgICAgPGNpdHk+Um9jaGVzdGVyPC9jaXR5Pg0KICAgICAgICAg
+ICAgICA8c3RhdGU+TmV3IFlvcms8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFsPjE0NjIz
+PC9wb3N0YWw+DQogICAgICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAg
+ICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgICAgICA8Y250
+b3JnPlBpY3RvbWV0cnkgSW50ZXJuYXRpb25hbCBDb3JwLjwvY250b3JnPg0KICAgICAgICAgICAg
+PC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5DdXN0b21lciBTdXBwb3J0PC9jbnRwb3M+
+DQogICAgICAgICAgICA8Y250dm9pY2U+NTg1LTQ4Ni0wMDkzPC9jbnR2b2ljZT4NCiAgICAgICAg
+ICAgIDxjbnRmYXg+NTg1LTQ4Ni0wMDk4PC9jbnRmYXg+DQogICAgICAgICAgICA8aG91cnM+MDkw
+MC0xNzAwIEVTVDwvaG91cnM+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAgICA8L3Byb2Nj
+b250Pg0KICAgICAgICA8cHJvY2Rlc2M+TW9zYWljaW5nOiAgTW9zYWljaW5nIHdhcyBwZXJmb3Jt
+ZWQgdXNpbmcgUGljdG9tZXRyeSBzb2Z0d2FyZTwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jZGF0
+ZT5Vbmtub3duPC9wcm9jZGF0ZT4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgPC9saW5lYWdlPg0K
+ICAgIDxsb2dpYz5EYXRhc2V0IGlzIG9ydGhvaW1hZ2VyeS4gIExvZ2ljYWwgY29uc2lzdGVuY3kg
+aXMgbm90IGFwcGxpY2FibGUuPC9sb2dpYz4NCiAgICA8Y29tcGxldGU+VW5rbm93bjwvY29tcGxl
+dGU+DQogIDwvZGF0YXF1YWw+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

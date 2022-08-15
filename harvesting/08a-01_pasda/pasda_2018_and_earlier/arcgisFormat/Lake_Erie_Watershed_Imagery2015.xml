@@ -1,0 +1,1556 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Sea Grant</origin>
+        <pubdate>2017</pubdate>
+        <title>Lake Erie Watershed 2015 Ortho/ LiDAR/Hydro Project, PA - Project Level</title>
+        <geoform>Project level data</geoform>
+        <onlink>http://www.paseagrant.org/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>2017</caldate>
+            <time>unknown</time>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.552193</westbc>
+        <eastbc>-79.739360</eastbc>
+        <northbc>42.276330</northbc>
+        <southbc>41.649693</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Lidar</themekey>
+        <themekey>Project Level</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+        <themekey>Raster</themekey>
+        <themekey>Orthophoto</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>PA</placekey>
+        <placekey>Lake Erie</placekey>
+      </place>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Sea Grant - Penn State University</cntorg>
+          <cntper>Sean D. Rafferty</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Tom Ridge Environmental Center</address>
+          <city>Erie</city>
+          <state>Pennsylvania</state>
+          <postal>16505</postal>
+          <country>United States</country>
+          <address>301 Peninsula Dr., Suite 3</address>
+        </cntaddr>
+        <cntvoice>814-217-9011 ext 102</cntvoice>
+        <cntemail>sdr138@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7600); ArcMap 10.2; ArcCatalog 10.2; TerraScan ver. 15.01; TerraModeler ver. 15.01; Geocue 2014.1.21; LP360 2014.1. </native>
+    <descript>
+      <abstract>Lake_Erie_Watershed_Imagery2015</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>All formatted data cover the entire area specified for this project and are validated using a combination of commercial lidar processing software, GIS software, and proprietary programs to ensure proper formatting and loading prior to delivery.</logic>
+    <complete>The lidar data is visually inspected for completeness to ensure that are no void areas or missing data.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Compiled to meet 1.182  U.S. survey feet  horizontal accuracy at 95 percent confidence level.</horizpar>
+        <qhorizpa>
+          <horizpav>1.182 U.S. survey feet </horizpav>
+          <horizpae>Lidar system specifications are available in the project report</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>LAS data covering the Erie, PA Lidar Project was compared to independent survey control points to determine the NVA of the LAS Swath and of the Bare-Earth DEM. In addition, this LAS data was compared to independent points from representative vegetation categories. Raw LAS Swath Non-Vegetated Vertical Accuracy (NVA) Tested 0.593 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, using 0.303 U.S. survey feet (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines. Bare-Earth DEM Non-Vegetated Vertical Accuracy (NVA) Tested 0.586 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.299 U.S. survey feet (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.593 U.S. survey feet</vertaccv>
+          <vertacce>Raw LAS Swath Non-Vegetated Vertical Accuracy (NVA) Tested 0.593 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the TIN using all points.</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.586 U.S. survey feet</vertaccv>
+          <vertacce>Bare-Earth DEM Non-Vegetated Vertical Accuracy (NVA) Tested 0.586 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the DEM.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151110</pubdate>
+            <title>Lidar acquisition</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Lidar dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150429</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project </srccitea>
+        <srccontr>This data set is the project specified acquired point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151110</pubdate>
+            <title>Survey Control Acquistion</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Control dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150615</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project </srccitea>
+        <srccontr>This data set is the project specified acquired ground control and QAQC control data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151110</pubdate>
+            <title>Lidar deliverable processing</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Lidar dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150429</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project </srccitea>
+        <srccontr>This data set is the project specified lidar deliverables.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151110</pubdate>
+            <title>Hydrologic breakline deliverable processing</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>3-d breakline dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150429</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</srccitea>
+        <srccontr>This data set is the project specified hydrologic breakline deliverable.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Woolpert</origin>
+            <pubdate>20151110</pubdate>
+            <title>Tile index and data extent</title>
+            <pubinfo>
+              <pubplace>Dayton, OH</pubplace>
+              <publish>Woolpert Geospatial Services</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>vector dataset</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150429</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</srccitea>
+        <srccontr>This data set is the project specified tile index and data extent.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Using a Leica ALS70 (lidar) systems on board Woolpert aircraft , high density data, at a nominal pulse spacing (NPS) of 0.7 meters, were collected for this task order (approximately 512  square miles). Leica Specs- AGL = 6,500 ft - Aircraft Speed = 150 Knots, Field of View (Full) = 40 degrees, Pulse Rate = 272 kHz, Scan Rate = 41 Hz, with an average side lap of 25 %. Multiple returns were recorded for each laser pulse along with an intensity value for each return. Three (3) missions were flown between April 29, 2015 and May 7, 2015. One (1) Global Navigation Satellite System (GNSS) Base Station was used in support of the lidar data acquisition. Specific information regarding latitude, longitude, and ellipsoid height to the L1 phase center is included in the lidar processing report. The geoid used to reduce satellite derived elevations to orthometric heights was GEOID09. Data for the task order is referenced to the to NAD 83 (2007) Pennsylvania State Plane North, NAVD88, US Survey Feet. Once the data acquisition and GPS processing phases are complete, the lidar data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project. The SBET was used to reduce the lidar slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. The ALS70 calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of lidar data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw lidar data is reduced using the refined misalignment angles.</procdesc>
+        <srcused>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Lidar Acquisition</srcused>
+        <procdate>20150429</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>For this survey, Woolpert field crews utilized two (2) Woolpert-owned, Trimble Navigation R8 Model 3 series dual frequency GPS receivers, and one (1) Woolpert-owned, Trimble Navigation R8 Model 2 series dual frequency GPS receiver. The field crew utilized Real-Time Kinematic (RTK) GPS surveying throughout the ground control data collection process. Using RTK GPS techniques, observations were performed on LiDAR quality control points. The survey was conducted using a 1-second epoch rate, in a fixed solution RTK mode, with each observation lasting 180 seconds. Each station was occupied twice to ensure the necessary horizontal and vertical accuracies were being met for this project.</procdesc>
+        <srcused>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Control and QAQC control Acquisition</srcused>
+        <procdate>20150615</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogenous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" lidar returns. This process determined Default points (Class 1), Ground points (Class 2), Low vegetation (Class 3), Medium vegetation (Class 4), High vegetation (Class 5), Building (Class 6), Noise (Class 7), Water (Class 9), Ignored Ground (Class 10), Bridge deck (Class 13), Overlap Default (Class 17), Overlap Ground (Class 18). The bare-earth (Class 2 - Ground) lidar points underwent a manual QA/QC step to verify the quality of the DEM as well as a peer-based QC review. This included a review of the DEM surface to remove artifacts and ensure topographic quality. Classification of water (class 9) and ignored ground (class 10) was completed via the use of the hydrologic breaklines collected for the hydro-flattening phase. The overlap classes were determined by first identifying the overlapping areas and reclassifying the LAS data by offset from a corridor. This allows the returns located on the edge of the swath to be removed from the bare earth coverage in an effort to produce a more uniform data density. The surveyed ground control points are used to make vertical adjustments to the data set and to perform the accuracy checks and statistical analysis of the lidar dataset. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. The resulting deliverables for this task order consist of classified LAS file in LAS 1.2 format, 2.5 ft pixel size DEM files in ERDAS IMG format and Hydrologic Breakline data in ESRI shape file format. The method used to create the DEM consisted of isolating the ground (class 2) points and introducing 3-d breakline data derived from delineating hydrologic features and applying USGS v1.0 hydro flattening specification z-values. This combined dataset was then processed into a gridded format for additional QAQC to ensure DEM quality. Following QAQC process completion, a gridded raster file was created on a per tile basis. The task order projection information was applied to the final raster dataset. Prior to delivery, all raster files were visually reviewed to ensure coverage and reviewed using automated processes to ensure proper formatting. </procdesc>
+        <srcused>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Deliverable Processing </srcused>
+        <procdate>20150429</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The compilation procedure included use of lidar intensity, bare earth surface model, point cloud data, and open source imagery in an effort to manually compile hydrologic features in a 2-d environment. Following the compilation phase, a separate process was used to adjust the breakline data to best match the water level at the time of the lidar collection. Any ponds and/or lakes were adjusted to be at or just below the bank and to be at a constant elevation. Any streams were adjusted to be at or just below the bank and to be monotonic. Manual QAQC and peer-based QC review was performed on all delineated data to ensure horizontal placement quality and on all adjusted data to ensure vertical placement quality. The final hydrologic breakline product was delivered in ESRI shape file format and was also used in the processing of the DEM deliverable.</procdesc>
+        <srcused>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Hydrologic Breakline Deliverable Processing </srcused>
+        <procdate>20150429</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Tile Size: 2,500ft x 2,500ft. The tile file name was derived from the southwest corner of each tile. Tile index and extent are provided in shape file format.</procdesc>
+        <srcused>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Hydrologic Breakline Deliverable Processing </srcused>
+        <procdate>20150429</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo />
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <lambertc>
+            <stdparll>40.88333333333333</stdparll>
+            <stdparll>41.95</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>40.16666666666666</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026822588594654923</absres>
+            <ordres>0.000000026822588594654923</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983 HARN</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988(GEOID09)</altdatum>
+        <altres>0.000100</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>2017</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>:pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>Unclassified</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>Unclassified</metshd>
+    </metsi>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>Woolpert</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>(937) 461-5660</voiceNum>
+        <faxNum>(937) 461-0743</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>4454 Idea Center Blvd.</delPoint>
+        <city>Dayton</city>
+        <adminArea>OH</adminArea>
+        <postCode>45430</postCode>
+        <country>US</country>
+      </cntAddress>
+      <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20151110</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Penn State University</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>Unknown</voiceNum>
+            <faxNum>Unknown</faxNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>Physical Plant Building</delPoint>
+            <city>University Park</city>
+            <adminArea>PA</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc>
+        <planAvDtTm date="unknown" time="unknown" />
+      </distorOrdPrc>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Lake Erie Watershed 2015 Ortho/ LiDAR/Hydro Project, PA - Project Level</resTitle>
+      <date>
+        <pubDate>2015-11-10</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Woolpert</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <fgdcGeoform>Project level data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project will consist the following: • New project – wide 1”=100’ scale color digital orthoimagery (with a 6-inch pixel resolution) • New project wide 0.7-meter LiDAR (average point density) • New project wide hydrology • Crest Delineation This task is for a high resolution data set of lidar covering approximately 512 square miles of the Lake Erie Shoreline, PA. The lidar data was acquired and processed under the requirements identified in this task order. Lidar data is a remotely sensed high resolution elevation data collected by an airborne platform. The lidar sensor uses a combination of laser range finding, GPS positioning, and inertial measurement technologies. The lidar systems collect data point clouds that are used to produce highly detailed Digital Elevation Models (DEMs) of the earth's terrain, man-made structures, and vegetation. The task required the LiDAR data to be collected at a nominal pulse spacing (NPS) of 0.7 meters. The final products include classified LAS, 2.5' pixel raster DEMs of the bare-earth surface in ERDAS IMG Format. Each LAS file contains lidar point information, which has been calibrated, controlled, and classified. Additional deliverables include hydrologic breakline data, 8-bit intensity images, control data, tile index, lidar processing and survey reports in PDF format, FGDC metadata files for each data deliverable in .xml format. Ground conditions: Water at normal levels; no unusual inundation; no snow; leaf off.</idAbs>
+    <idPurp>The Lake Erie Watershed has a goal to develop and/or update certain geospatial datasets for use by state, county, city agencies and the general public.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>Woolpert</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>(937) 461-5660</voiceNum>
+          <faxNum>(937) 461-0743</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>4454 Idea Center Blvd</delPoint>
+          <city>Dayton</city>
+          <adminArea>OH</adminArea>
+          <postCode>45430</postCode>
+          <country>US</country>
+        </cntAddress>
+        <cntHours>8:00 a.m. to 5:00 p.m. Eastern Standard Time</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Lake Erie</keyword>
+      <keyword>United States</keyword>
+      <keyword>PA</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Lidar</keyword>
+      <keyword>Project Level</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Lake Erie</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>United States</keyword>
+      <keyword>Project Level</keyword>
+      <keyword>PA</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Woolpert prepared the original data as set forth in the Scope of Services, in accordance with reasonable care and due diligence as set forth in this Agreement, however, due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by any user of this data. Any use will be at the end-user’s sole risk.</useLimit>
+        <othConsts>No restrictions apply to this data.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7600); ArcMap 10.2; ArcCatalog 10.2; TerraScan ver. 15.01; TerraModeler ver. 15.01; Geocue 2014.1.21; LP360 2014.1.</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.552193</westBL>
+          <eastBL>-79.73936</eastBL>
+          <southBL>41.649693</southBL>
+          <northBL>42.27633</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition time="unknown">2015-05-07</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition time="unknown">2015-04-29</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition time="unknown">2015-05-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>Unclassified</classSys>
+      <handDesc>Unclassified</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>All formatted data cover the entire area specified for this project and are validated using a combination of commercial lidar processing software, GIS software, and proprietary programs to ensure proper formatting and loading prior to delivery.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>The lidar data is visually inspected for completeness to ensure that are no void areas or missing data.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Compiled to meet 1.182 U.S. survey feet horizontal accuracy at 95 percent confidence level.</measDesc>
+      <evalMethDesc>Lidar system specifications are available in the project report</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>1.182 U.S. survey feet</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>LAS data covering the Erie, PA Lidar Project was compared to independent survey control points to determine the NVA of the LAS Swath and of the Bare-Earth DEM. In addition, this LAS data was compared to independent points from representative vegetation categories. Raw LAS Swath Non-Vegetated Vertical Accuracy (NVA) Tested 0.593 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, using 0.303 U.S. survey feet (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines. Bare-Earth DEM Non-Vegetated Vertical Accuracy (NVA) Tested 0.586 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using 0.299 U.S. survey feet (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</measDesc>
+      <evalMethDesc>Raw LAS Swath Non-Vegetated Vertical Accuracy (NVA) Tested 0.593 U.S. survey feet non-vegetated vertical accuracy at a 95 percent confidence level, derived according to NSSDA, in open terrain using (RMSEz) x 1.96000 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines and tested against the TIN using all points.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.593 U.S. survey feet</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>The compilation procedure included use of lidar intensity, bare earth surface model, point cloud data, and open source imagery in an effort to manually compile hydrologic features in a 2-d environment. Following the compilation phase, a separate process was used to adjust the breakline data to best match the water level at the time of the lidar collection. Any ponds and/or lakes were adjusted to be at or just below the bank and to be at a constant elevation. Any streams were adjusted to be at or just below the bank and to be monotonic. Manual QAQC and peer-based QC review was performed on all delineated data to ensure horizontal placement quality and on all adjusted data to ensure vertical placement quality. The final hydrologic breakline product was delivered in ESRI shape file format and was also used in the processing of the DEM deliverable.</stepDesc>
+        <stepDateTm>2015-04-29</stepDateTm>
+        <stepProc>
+          <rpOrgName>Woolpert, Inc.</rpOrgName>
+          <rpPosName>Geospatial Services</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(937) 461-5660</voiceNum>
+              <faxNum>(937) 461-0743</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>4454 Idea Center Blvd.</delPoint>
+              <city>Dayton</city>
+              <adminArea>OH</adminArea>
+              <postCode>45430</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Hydrologic Breakline Deliverable Processing</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogenous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" lidar returns. This process determined Default points (Class 1), Ground points (Class 2), Low vegetation (Class 3), Medium vegetation (Class 4), High vegetation (Class 5), Building (Class 6), Noise (Class 7), Water (Class 9), Ignored Ground (Class 10), Bridge deck (Class 13), Overlap Default (Class 17), Overlap Ground (Class 18). The bare-earth (Class 2 - Ground) lidar points underwent a manual QA/QC step to verify the quality of the DEM as well as a peer-based QC review. This included a review of the DEM surface to remove artifacts and ensure topographic quality. Classification of water (class 9) and ignored ground (class 10) was completed via the use of the hydrologic breaklines collected for the hydro-flattening phase. The overlap classes were determined by first identifying the overlapping areas and reclassifying the LAS data by offset from a corridor. This allows the returns located on the edge of the swath to be removed from the bare earth coverage in an effort to produce a more uniform data density. The surveyed ground control points are used to make vertical adjustments to the data set and to perform the accuracy checks and statistical analysis of the lidar dataset. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project area. The resulting deliverables for this task order consist of classified LAS file in LAS 1.2 format, 2.5 ft pixel size DEM files in ERDAS IMG format and Hydrologic Breakline data in ESRI shape file format. The method used to create the DEM consisted of isolating the ground (class 2) points and introducing 3-d breakline data derived from delineating hydrologic features and applying USGS v1.0 hydro flattening specification z-values. This combined dataset was then processed into a gridded format for additional QAQC to ensure DEM quality. Following QAQC process completion, a gridded raster file was created on a per tile basis. The task order projection information was applied to the final raster dataset. Prior to delivery, all raster files were visually reviewed to ensure coverage and reviewed using automated processes to ensure proper formatting.</stepDesc>
+        <stepDateTm>2015-04-29</stepDateTm>
+        <stepProc>
+          <rpOrgName>Woolpert, Inc.</rpOrgName>
+          <rpPosName>Geospatial Services</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(937) 461-5660</voiceNum>
+              <faxNum>(937) 461-0743</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>4454 Idea Center Blvd.</delPoint>
+              <city>Dayton</city>
+              <adminArea>OH</adminArea>
+              <postCode>45430</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Deliverable Processing</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Tile Size: 2,500ft x 2,500ft. The tile file name was derived from the southwest corner of each tile. Tile index and extent are provided in shape file format.</stepDesc>
+        <stepDateTm>2015-04-29</stepDateTm>
+        <stepProc>
+          <rpOrgName>Woolpert, Inc.</rpOrgName>
+          <rpPosName>Geospatial Services</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(937) 461-5660</voiceNum>
+              <faxNum>(937) 461-0743</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>4454 Idea Center Blvd.</delPoint>
+              <city>Dayton</city>
+              <adminArea>OH</adminArea>
+              <postCode>45430</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Hydrologic Breakline Deliverable Processing</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Using a Leica ALS70 (lidar) systems on board Woolpert aircraft , high density data, at a nominal pulse spacing (NPS) of 0.7 meters, were collected for this task order (approximately 512 square miles). Leica Specs- AGL = 6,500 ft - Aircraft Speed = 150 Knots, Field of View (Full) = 40 degrees, Pulse Rate = 272 kHz, Scan Rate = 41 Hz, with an average side lap of 25 %. Multiple returns were recorded for each laser pulse along with an intensity value for each return. Three (3) missions were flown between April 29, 2015 and May 7, 2015. One (1) Global Navigation Satellite System (GNSS) Base Station was used in support of the lidar data acquisition. Specific information regarding latitude, longitude, and ellipsoid height to the L1 phase center is included in the lidar processing report. The geoid used to reduce satellite derived elevations to orthometric heights was GEOID09. Data for the task order is referenced to the to NAD 83 (2007) Pennsylvania State Plane North, NAVD88, US Survey Feet. Once the data acquisition and GPS processing phases are complete, the lidar data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project. The SBET was used to reduce the lidar slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. The ALS70 calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of lidar data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw lidar data is reduced using the refined misalignment angles.</stepDesc>
+        <stepDateTm>2015-04-29</stepDateTm>
+        <stepProc>
+          <rpOrgName>Woolpert, Inc.</rpOrgName>
+          <rpPosName>Geospatial Services</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(937) 461-5660</voiceNum>
+              <faxNum>(937) 461-0743</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>4454 Idea Center Blvd.</delPoint>
+              <city>Dayton</city>
+              <adminArea>OH</adminArea>
+              <postCode>45430</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Lidar Acquisition</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>For this survey, Woolpert field crews utilized two (2) Woolpert-owned, Trimble Navigation R8 Model 3 series dual frequency GPS receivers, and one (1) Woolpert-owned, Trimble Navigation R8 Model 2 series dual frequency GPS receiver. The field crew utilized Real-Time Kinematic (RTK) GPS surveying throughout the ground control data collection process. Using RTK GPS techniques, observations were performed on LiDAR quality control points. The survey was conducted using a 1-second epoch rate, in a fixed solution RTK mode, with each observation lasting 180 seconds. Each station was occupied twice to ensure the necessary horizontal and vertical accuracies were being met for this project.</stepDesc>
+        <stepDateTm>2015-06-15</stepDateTm>
+        <stepProc>
+          <rpOrgName>Woolpert, Inc.</rpOrgName>
+          <rpPosName>Geospatial Services</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>(937) 461-5660</voiceNum>
+              <faxNum>(937) 461-0743</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>4454 idea Center Blvd.</delPoint>
+              <city>Dayton</city>
+              <adminArea>OH</adminArea>
+              <postCode>45430</postCode>
+              <country>US</country>
+            </cntAddress>
+            <cntHours>8:00 a.m. to 5:00 p.m. Eastern Time</cntHours>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project - Control and QAQC control Acquisition</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>This data set is the project specified tile index and data extent.</srcDesc>
+        <srcCitatn>
+          <resTitle>Tile index and data extent</resTitle>
+          <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</resAltTitle>
+          <date>
+            <pubDate>2015-11-10</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Woolpert Geospatial Services</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Dayton, OH</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Woolpert</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-04-29</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data set is the project specified lidar deliverables.</srcDesc>
+        <srcCitatn>
+          <resTitle>Lidar deliverable processing</resTitle>
+          <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</resAltTitle>
+          <date>
+            <pubDate>2015-11-10</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Woolpert</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Woolpert Geospatial Services</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Dayton, OH</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-04-29</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data set is the project specified acquired ground control and QAQC control data.</srcDesc>
+        <srcCitatn>
+          <resTitle>Survey Control Acquistion</resTitle>
+          <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</resAltTitle>
+          <date>
+            <pubDate>2015-11-10</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Woolpert Geospatial Services</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Dayton, OH</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Woolpert</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-06-15</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data set is the project specified hydrologic breakline deliverable.</srcDesc>
+        <srcCitatn>
+          <resTitle>Hydrologic breakline deliverable processing</resTitle>
+          <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</resAltTitle>
+          <date>
+            <pubDate>2015-11-10</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Woolpert</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Woolpert Geospatial Services</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Dayton, OH</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-04-29</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data set is the project specified acquired point cloud data.</srcDesc>
+        <srcCitatn>
+          <resTitle>Lidar acquisition</resTitle>
+          <resAltTitle>Lake Erie Watershed 2015 Ortho/LiDAR/Hydro Project</resAltTitle>
+          <date>
+            <pubDate>2015-11-10</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Woolpert</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Woolpert Geospatial Services</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Dayton, OH</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2015-04-29</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <Esri>
+    <CreaDate>20170524</CreaDate>
+    <CreaTime>12251800</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <DataProperties>
+      <itemProps>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+    </DataProperties>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="9565c2d23bba642bb17ffd76612b377a" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+V29vbHBlcnQ8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNTExMTA8L3B1YmRhdGU+DQog
+ICAgICAgIDx0aXRsZT5MYWtlIEVyaWUgV2F0ZXJzaGVkIDIwMTUgT3J0aG8vIExpREFSL0h5ZHJv
+IFByb2plY3QsIFBBIC0gUHJvamVjdCBMZXZlbDwvdGl0bGU+DQogICAgICAgIDxnZW9mb3JtPlBy
+b2plY3QgbGV2ZWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRh
+dGlvbj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+TGFrZSBFcmllIFdhdGVyc2hl
+ZCAyMDE1IE9ydGhvL0xpREFSL0h5ZHJvIFByb2plY3Qgd2lsbCBjb25zaXN0IHRoZSBmb2xsb3dp
+bmc6DQoNCuKAoglOZXcgcHJvamVjdCDigJMgd2lkZSAx4oCdPTEwMOKAmSBzY2FsZSBjb2xvciBk
+aWdpdGFsIG9ydGhvaW1hZ2VyeSAod2l0aCBhIDYtaW5jaCBwaXhlbCByZXNvbHV0aW9uKQ0K4oCi
+CU5ldyBwcm9qZWN0IHdpZGUgMC43LW1ldGVyIExpREFSIChhdmVyYWdlIHBvaW50IGRlbnNpdHkp
+DQrigKIJTmV3IHByb2plY3Qgd2lkZSBoeWRyb2xvZ3kNCuKAoglDcmVzdCBEZWxpbmVhdGlvbg0K
+DQpUaGlzIHRhc2sgaXMgZm9yIGEgaGlnaCByZXNvbHV0aW9uIGRhdGEgc2V0IG9mIGxpZGFyIGNv
+dmVyaW5nIGFwcHJveGltYXRlbHkgNTEyIHNxdWFyZSBtaWxlcyBvZiB0aGUgTGFrZSBFcmllIFNo
+b3JlbGluZSwgUEEuIFRoZSBsaWRhciBkYXRhIHdhcyBhY3F1aXJlZCBhbmQgcHJvY2Vzc2VkIHVu
+ZGVyIHRoZSByZXF1aXJlbWVudHMgaWRlbnRpZmllZCBpbiB0aGlzIHRhc2sgb3JkZXIuIExpZGFy
+IGRhdGEgaXMgYSByZW1vdGVseSBzZW5zZWQgaGlnaCByZXNvbHV0aW9uIGVsZXZhdGlvbiBkYXRh
+IGNvbGxlY3RlZCBieSBhbiBhaXJib3JuZSBwbGF0Zm9ybS4gVGhlIGxpZGFyIHNlbnNvciB1c2Vz
+IGEgY29tYmluYXRpb24gb2YgbGFzZXIgcmFuZ2UgZmluZGluZywgR1BTIHBvc2l0aW9uaW5nLCBh
+bmQgaW5lcnRpYWwgbWVhc3VyZW1lbnQgdGVjaG5vbG9naWVzLiBUaGUgbGlkYXIgc3lzdGVtcyBj
+b2xsZWN0IGRhdGEgcG9pbnQgY2xvdWRzIHRoYXQgYXJlIHVzZWQgdG8gcHJvZHVjZSBoaWdobHkg
+ZGV0YWlsZWQgRGlnaXRhbCBFbGV2YXRpb24gTW9kZWxzIChERU1zKSBvZiB0aGUgZWFydGgncyB0
+ZXJyYWluLCBtYW4tbWFkZSBzdHJ1Y3R1cmVzLCBhbmQgdmVnZXRhdGlvbi4gVGhlIHRhc2sgcmVx
+dWlyZWQgdGhlIExpREFSIGRhdGEgdG8gYmUgY29sbGVjdGVkIGF0IGEgbm9taW5hbCBwdWxzZSBz
+cGFjaW5nIChOUFMpIG9mIDAuNyBtZXRlcnMuIFRoZSBmaW5hbCBwcm9kdWN0cyBpbmNsdWRlIGNs
+YXNzaWZpZWQgTEFTLCAyLjUnIHBpeGVsIHJhc3RlciBERU1zIG9mIHRoZSBiYXJlLWVhcnRoIHN1
+cmZhY2UgaW4gRVJEQVMgSU1HIEZvcm1hdC4gRWFjaCBMQVMgZmlsZSBjb250YWlucyBsaWRhciBw
+b2ludCBpbmZvcm1hdGlvbiwgd2hpY2ggaGFzIGJlZW4gY2FsaWJyYXRlZCwgY29udHJvbGxlZCwg
+YW5kIGNsYXNzaWZpZWQuIEFkZGl0aW9uYWwgZGVsaXZlcmFibGVzIGluY2x1ZGUgaHlkcm9sb2dp
+YyBicmVha2xpbmUgZGF0YSwgOC1iaXQgaW50ZW5zaXR5IGltYWdlcywgY29udHJvbCBkYXRhLCB0
+aWxlIGluZGV4LCBsaWRhciBwcm9jZXNzaW5nIGFuZCBzdXJ2ZXkgcmVwb3J0cyBpbiBQREYgZm9y
+bWF0LCBGR0RDIG1ldGFkYXRhIGZpbGVzIGZvciBlYWNoIGRhdGEgZGVsaXZlcmFibGUgaW4gLnht
+bCBmb3JtYXQuIEdyb3VuZCBjb25kaXRpb25zOiBXYXRlciBhdCBub3JtYWwgbGV2ZWxzOyBubyB1
+bnVzdWFsIGludW5kYXRpb247IG5vIHNub3c7IGxlYWYgb2ZmLg0KPC9hYnN0cmFjdD4NCiAgICAg
+IDxsaWRhcj4NCiAgICAgICAgPGxkcmluZm8+DQogICAgICAgICAgPGxkcnNwZWM+VVNHUyBOR1Ag
+QmFzZSBTcGVjaWZpY2F0aW9ucyB2MTwvbGRyc3BlYz4NCiAgICAgICAgICA8bGRyc2Vucz5MZWlj
+YSBBTFM3MDwvbGRyc2Vucz4NCiAgICAgICAgICA8bGRybWF4bnI+NDwvbGRybWF4bnI+DQogICAg
+ICAgICAgPGxkcmRlbnM+MjwvbGRyZGVucz4NCiAgICAgICAgICA8bGRyYW5wcz4wLjc8L2xkcmFu
+cHM+DQogICAgICAgICAgPGxkcmFkZW5zPjI8L2xkcmFkZW5zPg0KICAgICAgICAgIDxsZHJucHM+
+MC43PC9sZHJucHM+DQogICAgICAgICAgPGxkcmZsdGh0PjY1MDA8L2xkcmZsdGh0Pg0KICAgICAg
+ICAgIDxsZHJmbHRzcD4xNTA8L2xkcmZsdHNwPg0KICAgICAgICAgIDxsZHJzY2FuYT40MDwvbGRy
+c2NhbmE+DQogICAgICAgICAgPGxkcnNjYW5yPjQxPC9sZHJzY2Fucj4NCiAgICAgICAgICA8bGRy
+cHVsc3I+MjcyPC9sZHJwdWxzcj4NCiAgICAgICAgICA8bGRycHVsc2Q+NTwvbGRycHVsc2Q+DQog
+ICAgICAgICAgPGxkcnB1bHN3PjU8L2xkcnB1bHN3Pg0KICAgICAgICAgIDxsZHJ3YXZlbD4xMDY0
+PC9sZHJ3YXZlbD4NCiAgICAgICAgICA8bGRybXBpYT4xPC9sZHJtcGlhPg0KICAgICAgICAgIDxs
+ZHJibWRpdj4wLjIyPC9sZHJibWRpdj4NCiAgICAgICAgICA8bGRyc3dhdHc+NDczMjwvbGRyc3dh
+dHc+DQogICAgICAgICAgPGxkcnN3YXRvPjI1PC9sZHJzd2F0bz4NCiAgICAgICAgICA8bGRyY3Jz
+Pk5BRCA4MyAoSEFSTikgUGVubnN5bHZhbmlhIFN0YXRlIFBsYW5lIE5vcnRoPC9sZHJjcnM+DQog
+ICAgICAgICAgPGxkcmdlb2lkPkdFT0lEMDk8L2xkcmdlb2lkPg0KICAgICAgICA8L2xkcmluZm8+
+DQogICAgICAgIDxsZHJhY2N1cj4NCiAgICAgICAgICA8bGRyY2hhY2M+MS4xODIgPC9sZHJjaGFj
+Yz4NCiAgICAgICAgICA8cmF3bnZhPjAuNTkzIDwvcmF3bnZhPg0KICAgICAgICAgIDxyYXdudmFu
+PjI0PC9yYXdudmFuPg0KICAgICAgICAgIDxjbHNudmE+MC41OTMgPC9jbHNudmE+DQogICAgICAg
+ICAgPGNsc3Z2YT4wLjYxNiA8L2Nsc3Z2YT4NCiAgICAgICAgPC9sZHJhY2N1cj4NCiAgICAgICAg
+PGxhc2luZm8+DQogICAgICAgICAgPGxhc3Zlcj4xLjI8L2xhc3Zlcj4NCiAgICAgICAgICA8bGFz
+cHJmPjY8L2xhc3ByZj4NCiAgICAgICAgICA8bGFzd2hlbGQ+R2VvbWV0cmljYWxseSB1bnJlbGlh
+YmxlIHBvaW50cyB3ZXJlIGlkZW50aWZpZWQgdXNpbmcgYSBjb21iaW5hdGlvbiBvZiBhdXRvbWF0
+ZWQgYW5kIG1hbnVhbCB0ZWNobmlxdWVzIGFuZCBzdWJzZXF1ZW50bHkgY2xhc3NpZmllZCBhcyBo
+aWdoIG9yIGxvdyBub2lzZS48L2xhc3doZWxkPg0KICAgICAgICAgIDxsYXNvbGFwPlN3YXRoIG92
+ZXJsYXAgcG9pbnRzIHdlcmUgaWRlbnRpZmllZCBpbiB0aGVzZSBmaWxlcyBieSBhZGRpbmcgMTYg
+dG8gdGhlIHN0YW5kYXJkIGNsYXNzaWZpY2F0aW9uIHZhbHVlcyB5aWVsZGluZyBvdmVybGFwIGRl
+ZmF1bHQgYW5kIG92ZXJsYXAgZ3JvdW5kLjwvbGFzb2xhcD4NCiAgICAgICAgICA8bGFzaW50cj44
+PC9sYXNpbnRyPg0KICAgICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT4x
+PC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxjbGFzaXRlbT5EZWZhdWx0L3VuY2xhc3NpZmllZDwv
+Y2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFzcz4NCiAgICAgICAgICA8bGFzY2xhc3M+DQog
+ICAgICAgICAgICA8Y2xhc2NvZGU+MjwvY2xhc2NvZGU+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+
+R3JvdW5kPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xhc2NsYXNzPg0KICAgICAgICAgIDxsYXNj
+bGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT4zPC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxj
+bGFzaXRlbT5Mb3cgdmVnZXRhdGlvbjwvY2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFzcz4N
+CiAgICAgICAgICA8bGFzY2xhc3M+DQogICAgICAgICAgICA8Y2xhc2NvZGU+NDwvY2xhc2NvZGU+
+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+TWVkaXVtIHZlZ2V0YXRpb248L2NsYXNpdGVtPg0KICAg
+ICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAgICAgICAgPGNs
+YXNjb2RlPjU8L2NsYXNjb2RlPg0KICAgICAgICAgICAgPGNsYXNpdGVtPkhpZ2ggdmVnZXRhdGlv
+bjwvY2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFzcz4NCiAgICAgICAgICA8bGFzY2xhc3M+
+DQogICAgICAgICAgICA8Y2xhc2NvZGU+NjwvY2xhc2NvZGU+DQogICAgICAgICAgICA8Y2xhc2l0
+ZW0+QnVpbGRpbmc8L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAg
+PGxhc2NsYXNzPg0KICAgICAgICAgICAgPGNsYXNjb2RlPjc8L2NsYXNjb2RlPg0KICAgICAgICAg
+ICAgPGNsYXNpdGVtPk5vaXNlPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xhc2NsYXNzPg0KICAg
+ICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT45PC9jbGFzY29kZT4NCiAg
+ICAgICAgICAgIDxjbGFzaXRlbT5XYXRlcjwvY2xhc2l0ZW0+DQogICAgICAgICAgPC9sYXNjbGFz
+cz4NCiAgICAgICAgICA8bGFzY2xhc3M+DQogICAgICAgICAgICA8Y2xhc2NvZGU+MTA8L2NsYXNj
+b2RlPg0KICAgICAgICAgICAgPGNsYXNpdGVtPklnbm9yZWQgZ3JvdW5kPC9jbGFzaXRlbT4NCiAg
+ICAgICAgICA8L2xhc2NsYXNzPg0KICAgICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxj
+bGFzY29kZT4xMzwvY2xhc2NvZGU+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+QnJpZGdlIGRlY2s8
+L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0K
+ICAgICAgICAgICAgPGNsYXNjb2RlPjE3PC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxjbGFzaXRl
+bT5PdmVybGFwIGRlZmF1bHQ8L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAg
+ICAgICAgPGxhc2NsYXNzPg0KICAgICAgICAgICAgPGNsYXNjb2RlPjE4PC9jbGFzY29kZT4NCiAg
+ICAgICAgICAgIDxjbGFzaXRlbT5PdmVybGFwIGdyb3VuZDwvY2xhc2l0ZW0+DQogICAgICAgICAg
+PC9sYXNjbGFzcz4NCiAgICAgICAgPC9sYXNpbmZvPg0KICAgICAgPC9saWRhcj4NCiAgICAgIDxw
+dXJwb3NlPlRoZSBMYWtlIEVyaWUgV2F0ZXJzaGVkIGhhcyBhIGdvYWwgdG8gZGV2ZWxvcCBhbmQv
+b3IgdXBkYXRlIGNlcnRhaW4gZ2Vvc3BhdGlhbCBkYXRhc2V0cyBmb3IgdXNlIGJ5IHN0YXRlLCBj
+b3VudHksIGNpdHkgYWdlbmNpZXMgYW5kIHRoZSBnZW5lcmFsIHB1YmxpYy48L3B1cnBvc2U+DQog
+ICAgPC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQ+DQogICAgICA8dGltZWluZm8+DQogICAgICAg
+IDxtZGF0dGltPg0KICAgICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgICAgPGNhbGRhdGU+MjAx
+NTA0Mjk8L2NhbGRhdGU+DQogICAgICAgICAgICA8dGltZT51bmtub3duPC90aW1lPg0KICAgICAg
+ICAgIDwvc25nZGF0ZT4NCiAgICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICAgIDxjYWxkYXRl
+PjIwMTUwNTAxPC9jYWxkYXRlPg0KICAgICAgICAgICAgPHRpbWU+dW5rbm93bjwvdGltZT4NCiAg
+ICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICA8Y2Fs
+ZGF0ZT4yMDE1MDUwNzwvY2FsZGF0ZT4NCiAgICAgICAgICAgIDx0aW1lPnVua25vd248L3RpbWU+
+DQogICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgICA8L21kYXR0aW0+DQogICAgICA8L3RpbWVp
+bmZvPg0KICAgICAgPGN1cnJlbnQ+Z3JvdW5kIGNvbmRpdGlvbjwvY3VycmVudD4NCiAgICA8L3Rp
+bWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNz
+Pg0KICAgICAgPHVwZGF0ZT5BcyBuZWVkZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1cz4NCiAgICA8
+c3Bkb20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTgwLjU1MjE5Mzwvd2Vz
+dGJjPg0KICAgICAgICA8ZWFzdGJjPi03OS43MzkzNjA8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRo
+YmM+NDIuMjc2MzMwPC9ub3J0aGJjPg0KICAgICAgICA8c291dGhiYz40MS42NDk2OTM8L3NvdXRo
+YmM+DQogICAgICA8L2JvdW5kaW5nPg0KICAgIDwvc3Bkb20+DQogICAgPGtleXdvcmRzPg0KICAg
+ICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5Ob25lPC90aGVtZWt0Pg0KICAgICAgICA8dGhl
+bWVrZXk+TGlkYXI8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+UHJvamVjdCBMZXZlbDwv
+dGhlbWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2Vr
+dD5Ob25lPC9wbGFjZWt0Pg0KICAgICAgICA8cGxhY2VrZXk+VW5pdGVkIFN0YXRlczwvcGxhY2Vr
+ZXk+DQogICAgICAgIDxwbGFjZWtleT5QQTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5M
+YWtlIEVyaWU8L3BsYWNla2V5Pg0KICAgICAgPC9wbGFjZT4NCiAgICA8L2tleXdvcmRzPg0KICAg
+IDxhY2Njb25zdD5ObyByZXN0cmljdGlvbnMgYXBwbHkgdG8gdGhpcyBkYXRhLjwvYWNjY29uc3Q+
+DQogICAgPHVzZWNvbnN0Pk5vbmUuIEhvd2V2ZXIsIHVzZXJzIHNob3VsZCBiZSBhd2FyZSB0aGF0
+IHRlbXBvcmFsIGNoYW5nZXMgbWF5IGhhdmUgb2NjdXJyZWQgc2luY2UgdGhpcyBkYXRhc2V0IHdh
+cyBjb2xsZWN0ZWQgYW5kIHRoYXQgc29tZSBwYXJ0cyBvZiB0aGVzZSBkYXRhIG1heSBubyBsb25n
+ZXIgcmVwcmVzZW50IGFjdHVhbCBzdXJmYWNlIGNvbmRpdGlvbnMuIFVzZXJzIHNob3VsZCBub3Qg
+dXNlIHRoZXNlIGRhdGEgZm9yIGNyaXRpY2FsIGFwcGxpY2F0aW9ucyB3aXRob3V0IGEgZnVsbCBh
+d2FyZW5lc3Mgb2YgaXRzIGxpbWl0YXRpb25zLjwvdXNlY29uc3Q+DQogICAgPHB0Y29udGFjPg0K
+ICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+V29v
+bHBlcnQ8L2NudG9yZz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAg
+ICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+
+DQogICAgICAgICAgPGFkZHJlc3M+NDQ1NCBJZGVhIENlbnRlciBCbHZkPC9hZGRyZXNzPg0KICAg
+ICAgICAgIDxjaXR5PkRheXRvbjwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+T0g8L3N0YXRlPg0K
+ICAgICAgICAgIDxwb3N0YWw+NDU0MzA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8
+L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPig5MzcpIDQ2
+MS01NjYwPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGZheD4oOTM3KSA0NjEtMDc0MzwvY250ZmF4
+Pg0KICAgICAgICA8aG91cnM+ODowMCBhLm0uIHRvIDU6MDAgcC5tLiBFYXN0ZXJuIFN0YW5kYXJk
+IFRpbWU8L2hvdXJzPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogICAgPG5h
+dGl2ZT5NaWNyb3NvZnQgV2luZG93cyA3IFZlcnNpb24gNi4xIChCdWlsZCA3NjAwKTsgQXJjTWFw
+IDEwLjI7IEFyY0NhdGFsb2cgMTAuMjsgVGVycmFTY2FuIHZlci4gMTUuMDE7IFRlcnJhTW9kZWxl
+ciB2ZXIuIDE1LjAxOyBHZW9jdWUgMjAxNC4xLjIxOyBMUDM2MCAyMDE0LjEuIDwvbmF0aXZlPg0K
+ICA8L2lkaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsb2dpYz5BbGwgZm9ybWF0dGVkIGRhdGEg
+Y292ZXIgdGhlIGVudGlyZSBhcmVhIHNwZWNpZmllZCBmb3IgdGhpcyBwcm9qZWN0IGFuZCBhcmUg
+dmFsaWRhdGVkIHVzaW5nIGEgY29tYmluYXRpb24gb2YgY29tbWVyY2lhbCBsaWRhciBwcm9jZXNz
+aW5nIHNvZnR3YXJlLCBHSVMgc29mdHdhcmUsIGFuZCBwcm9wcmlldGFyeSBwcm9ncmFtcyB0byBl
+bnN1cmUgcHJvcGVyIGZvcm1hdHRpbmcgYW5kIGxvYWRpbmcgcHJpb3IgdG8gZGVsaXZlcnkuPC9s
+b2dpYz4NCiAgICA8Y29tcGxldGU+VGhlIGxpZGFyIGRhdGEgaXMgdmlzdWFsbHkgaW5zcGVjdGVk
+IGZvciBjb21wbGV0ZW5lc3MgdG8gZW5zdXJlIHRoYXQgYXJlIG5vIHZvaWQgYXJlYXMgb3IgbWlz
+c2luZyBkYXRhLjwvY29tcGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDxob3JpenBhPg0KICAg
+ICAgICA8aG9yaXpwYXI+Q29tcGlsZWQgdG8gbWVldCAxLjE4MiAgVS5TLiBzdXJ2ZXkgZmVldCAg
+aG9yaXpvbnRhbCBhY2N1cmFjeSBhdCA5NSBwZXJjZW50IGNvbmZpZGVuY2UgbGV2ZWwuPC9ob3Jp
+enBhcj4NCiAgICAgICAgPHFob3JpenBhPg0KICAgICAgICAgIDxob3JpenBhdj4xLjE4MiBVLlMu
+IHN1cnZleSBmZWV0IDwvaG9yaXpwYXY+DQogICAgICAgICAgPGhvcml6cGFlPkxpZGFyIHN5c3Rl
+bSBzcGVjaWZpY2F0aW9ucyBhcmUgYXZhaWxhYmxlIGluIHRoZSBwcm9qZWN0IHJlcG9ydDwvaG9y
+aXpwYWU+DQogICAgICAgIDwvcWhvcml6cGE+DQogICAgICA8L2hvcml6cGE+DQogICAgICA8dmVy
+dGFjYz4NCiAgICAgICAgPHZlcnRhY2NyPkxBUyBkYXRhIGNvdmVyaW5nIHRoZSBFcmllLCBQQSBM
+aWRhciBQcm9qZWN0IHdhcyBjb21wYXJlZCB0byBpbmRlcGVuZGVudCBzdXJ2ZXkgY29udHJvbCBw
+b2ludHMgdG8gZGV0ZXJtaW5lIHRoZSBOVkEgb2YgdGhlIExBUyBTd2F0aCBhbmQgb2YgdGhlIEJh
+cmUtRWFydGggREVNLiBJbiBhZGRpdGlvbiwgdGhpcyBMQVMgZGF0YSB3YXMgY29tcGFyZWQgdG8g
+aW5kZXBlbmRlbnQgcG9pbnRzIGZyb20gcmVwcmVzZW50YXRpdmUgdmVnZXRhdGlvbiBjYXRlZ29y
+aWVzLiBSYXcgTEFTIFN3YXRoIE5vbi1WZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgKE5WQSkg
+VGVzdGVkIDAuNTkzIFUuUy4gc3VydmV5IGZlZXQgbm9uLXZlZ2V0YXRlZCB2ZXJ0aWNhbCBhY2N1
+cmFjeSBhdCBhIDk1IHBlcmNlbnQgY29uZmlkZW5jZSBsZXZlbCwgZGVyaXZlZCBhY2NvcmRpbmcg
+dG8gTlNTREEsIHVzaW5nIDAuMzAzIFUuUy4gc3VydmV5IGZlZXQgKFJNU0V6KSB4IDEuOTYwMDAg
+YXMgZGVmaW5lZCBieSB0aGUgTmF0aW9uYWwgU3RhbmRhcmRzIGZvciBTcGF0aWFsIERhdGEgQWNj
+dXJhY3kgKE5TU0RBKTsgYXNzZXNzZWQgYW5kIHJlcG9ydGVkIHVzaW5nIE5hdGlvbmFsIERpZ2l0
+YWwgRWxldmF0aW9uIFByb2dyYW0gKE5ERVApL0FTUFJTIEd1aWRlbGluZXMuIEJhcmUtRWFydGgg
+REVNIE5vbi1WZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgKE5WQSkgVGVzdGVkIDAuNTg2IFUu
+Uy4gc3VydmV5IGZlZXQgbm9uLXZlZ2V0YXRlZCB2ZXJ0aWNhbCBhY2N1cmFjeSBhdCBhIDk1IHBl
+cmNlbnQgY29uZmlkZW5jZSBsZXZlbCwgZGVyaXZlZCBhY2NvcmRpbmcgdG8gTlNTREEsIGluIG9w
+ZW4gdGVycmFpbiB1c2luZyAwLjI5OSBVLlMuIHN1cnZleSBmZWV0IChSTVNFeikgeCAxLjk2MDAw
+IGFzIGRlZmluZWQgYnkgdGhlIE5hdGlvbmFsIFN0YW5kYXJkcyBmb3IgU3BhdGlhbCBEYXRhIEFj
+Y3VyYWN5IChOU1NEQSk7IGFzc2Vzc2VkIGFuZCByZXBvcnRlZCB1c2luZyBOYXRpb25hbCBEaWdp
+dGFsIEVsZXZhdGlvbiBQcm9ncmFtIChOREVQKS9BU1BSUyBHdWlkZWxpbmVzLjwvdmVydGFjY3I+
+DQogICAgICAgIDxxdmVydHBhPg0KICAgICAgICAgIDx2ZXJ0YWNjdj4wLjU5MyBVLlMuIHN1cnZl
+eSBmZWV0PC92ZXJ0YWNjdj4NCiAgICAgICAgICA8dmVydGFjY2U+UmF3IExBUyBTd2F0aCBOb24t
+VmVnZXRhdGVkIFZlcnRpY2FsIEFjY3VyYWN5IChOVkEpIFRlc3RlZCAwLjU5MyBVLlMuIHN1cnZl
+eSBmZWV0IG5vbi12ZWdldGF0ZWQgdmVydGljYWwgYWNjdXJhY3kgYXQgYSA5NSBwZXJjZW50IGNv
+bmZpZGVuY2UgbGV2ZWwsIGRlcml2ZWQgYWNjb3JkaW5nIHRvIE5TU0RBLCBpbiBvcGVuIHRlcnJh
+aW4gdXNpbmcgKFJNU0V6KSB4IDEuOTYwMDAgYXMgZGVmaW5lZCBieSB0aGUgTmF0aW9uYWwgU3Rh
+bmRhcmRzIGZvciBTcGF0aWFsIERhdGEgQWNjdXJhY3kgKE5TU0RBKTsgYXNzZXNzZWQgYW5kIHJl
+cG9ydGVkIHVzaW5nIE5hdGlvbmFsIERpZ2l0YWwgRWxldmF0aW9uIFByb2dyYW0gKE5ERVApL0FT
+UFJTIEd1aWRlbGluZXMgYW5kIHRlc3RlZCBhZ2FpbnN0IHRoZSBUSU4gdXNpbmcgYWxsIHBvaW50
+cy48L3ZlcnRhY2NlPg0KICAgICAgICA8L3F2ZXJ0cGE+DQogICAgICAgIDxxdmVydHBhPg0KICAg
+ICAgICAgIDx2ZXJ0YWNjdj4wLjU4NiBVLlMuIHN1cnZleSBmZWV0PC92ZXJ0YWNjdj4NCiAgICAg
+ICAgICA8dmVydGFjY2U+QmFyZS1FYXJ0aCBERU0gTm9uLVZlZ2V0YXRlZCBWZXJ0aWNhbCBBY2N1
+cmFjeSAoTlZBKSBUZXN0ZWQgMC41ODYgVS5TLiBzdXJ2ZXkgZmVldCBub24tdmVnZXRhdGVkIHZl
+cnRpY2FsIGFjY3VyYWN5IGF0IGEgOTUgcGVyY2VudCBjb25maWRlbmNlIGxldmVsLCBkZXJpdmVk
+IGFjY29yZGluZyB0byBOU1NEQSwgaW4gb3BlbiB0ZXJyYWluIHVzaW5nIChSTVNFeikgeCAxLjk2
+MDAwIGFzIGRlZmluZWQgYnkgdGhlIE5hdGlvbmFsIFN0YW5kYXJkcyBmb3IgU3BhdGlhbCBEYXRh
+IEFjY3VyYWN5IChOU1NEQSk7IGFzc2Vzc2VkIGFuZCByZXBvcnRlZCB1c2luZyBOYXRpb25hbCBE
+aWdpdGFsIEVsZXZhdGlvbiBQcm9ncmFtIChOREVQKS9BU1BSUyBHdWlkZWxpbmVzIGFuZCB0ZXN0
+ZWQgYWdhaW5zdCB0aGUgREVNLjwvdmVydGFjY2U+DQogICAgICAgIDwvcXZlcnRwYT4NCiAgICAg
+IDwvdmVydGFjYz4NCiAgICA8L3Bvc2FjYz4NCiAgICA8bGluZWFnZT4NCiAgICAgIDxzcmNpbmZv
+Pg0KICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8
+b3JpZ2luPldvb2xwZXJ0PC9vcmlnaW4+DQogICAgICAgICAgICA8cHViZGF0ZT4yMDE1MTExMDwv
+cHViZGF0ZT4NCiAgICAgICAgICAgIDx0aXRsZT5MaWRhciBhY3F1aXNpdGlvbjwvdGl0bGU+DQog
+ICAgICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICAgICAgPHB1YnBsYWNlPkRheXRvbiwgT0g8
+L3B1YnBsYWNlPg0KICAgICAgICAgICAgICA8cHVibGlzaD5Xb29scGVydCBHZW9zcGF0aWFsIFNl
+cnZpY2VzPC9wdWJsaXNoPg0KICAgICAgICAgICAgPC9wdWJpbmZvPg0KICAgICAgICAgIDwvY2l0
+ZWluZm8+DQogICAgICAgIDwvc3JjY2l0ZT4NCiAgICAgICAgPHR5cGVzcmM+TGlkYXIgZGF0YXNl
+dDwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+DQogICAgICAgICAgPHRpbWVpbmZvPg0KICAg
+ICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAgIDxjYWxkYXRlPjIwMTUwNDI5PC9jYWxk
+YXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgICAgIDwvdGltZWluZm8+DQogICAg
+ICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3JjY3Vycj4NCiAgICAgICAgPC9zcmN0
+aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+TGFrZSBFcmllIFdhdGVyc2hlZCAyMDE1IE9ydGhvL0xp
+REFSL0h5ZHJvIFByb2plY3QgPC9zcmNjaXRlYT4NCiAgICAgICAgPHNyY2NvbnRyPlRoaXMgZGF0
+YSBzZXQgaXMgdGhlIHByb2plY3Qgc3BlY2lmaWVkIGFjcXVpcmVkIHBvaW50IGNsb3VkIGRhdGEu
+PC9zcmNjb250cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8
+c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2luPldvb2xw
+ZXJ0PC9vcmlnaW4+DQogICAgICAgICAgICA8cHViZGF0ZT4yMDE1MTExMDwvcHViZGF0ZT4NCiAg
+ICAgICAgICAgIDx0aXRsZT5TdXJ2ZXkgQ29udHJvbCBBY3F1aXN0aW9uPC90aXRsZT4NCiAgICAg
+ICAgICAgIDxwdWJpbmZvPg0KICAgICAgICAgICAgICA8cHVicGxhY2U+RGF5dG9uLCBPSDwvcHVi
+cGxhY2U+DQogICAgICAgICAgICAgIDxwdWJsaXNoPldvb2xwZXJ0IEdlb3NwYXRpYWwgU2Vydmlj
+ZXM8L3B1Ymxpc2g+DQogICAgICAgICAgICA8L3B1YmluZm8+DQogICAgICAgICAgPC9jaXRlaW5m
+bz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgICA8dHlwZXNyYz5Db250cm9sIGRhdGFzZXQ8
+L3R5cGVzcmM+DQogICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDx0aW1laW5mbz4NCiAgICAg
+ICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgICAgICA8Y2FsZGF0ZT4yMDE1MDYxNTwvY2FsZGF0
+ZT4NCiAgICAgICAgICAgIDwvc25nZGF0ZT4NCiAgICAgICAgICA8L3RpbWVpbmZvPg0KICAgICAg
+ICAgIDxzcmNjdXJyPmdyb3VuZCBjb25kaXRpb248L3NyY2N1cnI+DQogICAgICAgIDwvc3JjdGlt
+ZT4NCiAgICAgICAgPHNyY2NpdGVhPkxha2UgRXJpZSBXYXRlcnNoZWQgMjAxNSBPcnRoby9MaURB
+Ui9IeWRybyBQcm9qZWN0IDwvc3JjY2l0ZWE+DQogICAgICAgIDxzcmNjb250cj5UaGlzIGRhdGEg
+c2V0IGlzIHRoZSBwcm9qZWN0IHNwZWNpZmllZCBhY3F1aXJlZCBncm91bmQgY29udHJvbCBhbmQg
+UUFRQyBjb250cm9sIGRhdGEuPC9zcmNjb250cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxz
+cmNpbmZvPg0KICAgICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAg
+ICAgICA8b3JpZ2luPldvb2xwZXJ0PC9vcmlnaW4+DQogICAgICAgICAgICA8cHViZGF0ZT4yMDE1
+MTExMDwvcHViZGF0ZT4NCiAgICAgICAgICAgIDx0aXRsZT5MaWRhciBkZWxpdmVyYWJsZSBwcm9j
+ZXNzaW5nPC90aXRsZT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0KICAgICAgICAgICAgICA8cHVi
+cGxhY2U+RGF5dG9uLCBPSDwvcHVicGxhY2U+DQogICAgICAgICAgICAgIDxwdWJsaXNoPldvb2xw
+ZXJ0IEdlb3NwYXRpYWwgU2VydmljZXM8L3B1Ymxpc2g+DQogICAgICAgICAgICA8L3B1YmluZm8+
+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgICA8dHlw
+ZXNyYz5MaWRhciBkYXRhc2V0PC90eXBlc3JjPg0KICAgICAgICA8c3JjdGltZT4NCiAgICAgICAg
+ICA8dGltZWluZm8+DQogICAgICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICAgICAgPGNhbGRh
+dGU+MjAxNTA0Mjk8L2NhbGRhdGU+DQogICAgICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAg
+PC90aW1laW5mbz4NCiAgICAgICAgICA8c3JjY3Vycj5ncm91bmQgY29uZGl0aW9uPC9zcmNjdXJy
+Pg0KICAgICAgICA8L3NyY3RpbWU+DQogICAgICAgIDxzcmNjaXRlYT5MYWtlIEVyaWUgV2F0ZXJz
+aGVkIDIwMTUgT3J0aG8vTGlEQVIvSHlkcm8gUHJvamVjdCA8L3NyY2NpdGVhPg0KICAgICAgICA8
+c3JjY29udHI+VGhpcyBkYXRhIHNldCBpcyB0aGUgcHJvamVjdCBzcGVjaWZpZWQgbGlkYXIgZGVs
+aXZlcmFibGVzLjwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8c3JjaW5mbz4N
+CiAgICAgICAgPHNyY2NpdGU+DQogICAgICAgICAgPGNpdGVpbmZvPg0KICAgICAgICAgICAgPG9y
+aWdpbj5Xb29scGVydDwvb3JpZ2luPg0KICAgICAgICAgICAgPHB1YmRhdGU+MjAxNTExMTA8L3B1
+YmRhdGU+DQogICAgICAgICAgICA8dGl0bGU+SHlkcm9sb2dpYyBicmVha2xpbmUgZGVsaXZlcmFi
+bGUgcHJvY2Vzc2luZzwvdGl0bGU+DQogICAgICAgICAgICA8cHViaW5mbz4NCiAgICAgICAgICAg
+ICAgPHB1YnBsYWNlPkRheXRvbiwgT0g8L3B1YnBsYWNlPg0KICAgICAgICAgICAgICA8cHVibGlz
+aD5Xb29scGVydCBHZW9zcGF0aWFsIFNlcnZpY2VzPC9wdWJsaXNoPg0KICAgICAgICAgICAgPC9w
+dWJpbmZvPg0KICAgICAgICAgIDwvY2l0ZWluZm8+DQogICAgICAgIDwvc3JjY2l0ZT4NCiAgICAg
+ICAgPHR5cGVzcmM+My1kIGJyZWFrbGluZSBkYXRhc2V0PC90eXBlc3JjPg0KICAgICAgICA8c3Jj
+dGltZT4NCiAgICAgICAgICA8dGltZWluZm8+DQogICAgICAgICAgICA8c25nZGF0ZT4NCiAgICAg
+ICAgICAgICAgPGNhbGRhdGU+MjAxNTA0Mjk8L2NhbGRhdGU+DQogICAgICAgICAgICA8L3NuZ2Rh
+dGU+DQogICAgICAgICAgPC90aW1laW5mbz4NCiAgICAgICAgICA8c3JjY3Vycj5ncm91bmQgY29u
+ZGl0aW9uPC9zcmNjdXJyPg0KICAgICAgICA8L3NyY3RpbWU+DQogICAgICAgIDxzcmNjaXRlYT5M
+YWtlIEVyaWUgV2F0ZXJzaGVkIDIwMTUgT3J0aG8vTGlEQVIvSHlkcm8gUHJvamVjdDwvc3JjY2l0
+ZWE+DQogICAgICAgIDxzcmNjb250cj5UaGlzIGRhdGEgc2V0IGlzIHRoZSBwcm9qZWN0IHNwZWNp
+ZmllZCBoeWRyb2xvZ2ljIGJyZWFrbGluZSBkZWxpdmVyYWJsZS48L3NyY2NvbnRyPg0KICAgICAg
+PC9zcmNpbmZvPg0KICAgICAgPHNyY2luZm8+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAg
+IDxjaXRlaW5mbz4NCiAgICAgICAgICAgIDxvcmlnaW4+V29vbHBlcnQ8L29yaWdpbj4NCiAgICAg
+ICAgICAgIDxwdWJkYXRlPjIwMTUxMTEwPC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPlRp
+bGUgaW5kZXggYW5kIGRhdGEgZXh0ZW50PC90aXRsZT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0K
+ICAgICAgICAgICAgICA8cHVicGxhY2U+RGF5dG9uLCBPSDwvcHVicGxhY2U+DQogICAgICAgICAg
+ICAgIDxwdWJsaXNoPldvb2xwZXJ0IEdlb3NwYXRpYWwgU2VydmljZXM8L3B1Ymxpc2g+DQogICAg
+ICAgICAgICA8L3B1YmluZm8+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9zcmNj
+aXRlPg0KICAgICAgICA8dHlwZXNyYz52ZWN0b3IgZGF0YXNldDwvdHlwZXNyYz4NCiAgICAgICAg
+PHNyY3RpbWU+DQogICAgICAgICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQog
+ICAgICAgICAgICAgIDxjYWxkYXRlPjIwMTUwNDI5PC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9z
+bmdkYXRlPg0KICAgICAgICAgIDwvdGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5k
+IGNvbmRpdGlvbjwvc3JjY3Vycj4NCiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0
+ZWE+TGFrZSBFcmllIFdhdGVyc2hlZCAyMDE1IE9ydGhvL0xpREFSL0h5ZHJvIFByb2plY3Q8L3Ny
+Y2NpdGVhPg0KICAgICAgICA8c3JjY29udHI+VGhpcyBkYXRhIHNldCBpcyB0aGUgcHJvamVjdCBz
+cGVjaWZpZWQgdGlsZSBpbmRleCBhbmQgZGF0YSBleHRlbnQuPC9zcmNjb250cj4NCiAgICAgIDwv
+c3JjaW5mbz4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPlVzaW5nIGEgTGVp
+Y2EgQUxTNzAgKGxpZGFyKSBzeXN0ZW1zIG9uIGJvYXJkIFdvb2xwZXJ0IGFpcmNyYWZ0ICwgaGln
+aCBkZW5zaXR5IGRhdGEsIGF0IGEgbm9taW5hbCBwdWxzZSBzcGFjaW5nIChOUFMpIG9mIDAuNyBt
+ZXRlcnMsIHdlcmUgY29sbGVjdGVkIGZvciB0aGlzIHRhc2sgb3JkZXIgKGFwcHJveGltYXRlbHkg
+NTEyICBzcXVhcmUgbWlsZXMpLiBMZWljYSBTcGVjcy0gQUdMID0gNiw1MDAgZnQgLSBBaXJjcmFm
+dCBTcGVlZCA9IDE1MCBLbm90cywgRmllbGQgb2YgVmlldyAoRnVsbCkgPSA0MCBkZWdyZWVzLCBQ
+dWxzZSBSYXRlID0gMjcyIGtIeiwgU2NhbiBSYXRlID0gNDEgSHosIHdpdGggYW4gYXZlcmFnZSBz
+aWRlIGxhcCBvZiAyNSAlLiBNdWx0aXBsZSByZXR1cm5zIHdlcmUgcmVjb3JkZWQgZm9yIGVhY2gg
+bGFzZXIgcHVsc2UgYWxvbmcgd2l0aCBhbiBpbnRlbnNpdHkgdmFsdWUgZm9yIGVhY2ggcmV0dXJu
+LiBUaHJlZSAoMykgbWlzc2lvbnMgd2VyZSBmbG93biBiZXR3ZWVuIEFwcmlsIDI5LCAyMDE1IGFu
+ZCBNYXkgNywgMjAxNS4gT25lICgxKSBHbG9iYWwgTmF2aWdhdGlvbiBTYXRlbGxpdGUgU3lzdGVt
+IChHTlNTKSBCYXNlIFN0YXRpb24gd2FzIHVzZWQgaW4gc3VwcG9ydCBvZiB0aGUgbGlkYXIgZGF0
+YSBhY3F1aXNpdGlvbi4gU3BlY2lmaWMgaW5mb3JtYXRpb24gcmVnYXJkaW5nIGxhdGl0dWRlLCBs
+b25naXR1ZGUsIGFuZCBlbGxpcHNvaWQgaGVpZ2h0IHRvIHRoZSBMMSBwaGFzZSBjZW50ZXIgaXMg
+aW5jbHVkZWQgaW4gdGhlIGxpZGFyIHByb2Nlc3NpbmcgcmVwb3J0LiBUaGUgZ2VvaWQgdXNlZCB0
+byByZWR1Y2Ugc2F0ZWxsaXRlIGRlcml2ZWQgZWxldmF0aW9ucyB0byBvcnRob21ldHJpYyBoZWln
+aHRzIHdhcyBHRU9JRDA5LiBEYXRhIGZvciB0aGUgdGFzayBvcmRlciBpcyByZWZlcmVuY2VkIHRv
+IHRoZSB0byBOQUQgODMgKDIwMDcpIFBlbm5zeWx2YW5pYSBTdGF0ZSBQbGFuZSBOb3J0aCwgTkFW
+RDg4LCBVUyBTdXJ2ZXkgRmVldC4gT25jZSB0aGUgZGF0YSBhY3F1aXNpdGlvbiBhbmQgR1BTIHBy
+b2Nlc3NpbmcgcGhhc2VzIGFyZSBjb21wbGV0ZSwgdGhlIGxpZGFyIGRhdGEgd2FzIHByb2Nlc3Nl
+ZCBpbW1lZGlhdGVseSB0byB2ZXJpZnkgdGhlIGNvdmVyYWdlIGhhZCBubyB2b2lkcy4gVGhlIEdQ
+UyBhbmQgSU1VIGRhdGEgd2FzIHBvc3QgcHJvY2Vzc2VkIHVzaW5nIGRpZmZlcmVudGlhbCBhbmQg
+S2FsbWFuIGZpbHRlciBhbGdvcml0aG1zIHRvIGRlcml2ZSBhIGJlc3QgZXN0aW1hdGUgb2YgdHJh
+amVjdG9yeS4gVGhlIHF1YWxpdHkgb2YgdGhlIHNvbHV0aW9uIHdhcyB2ZXJpZmllZCB0byBiZSBj
+b25zaXN0ZW50IHdpdGggdGhlIGFjY3VyYWN5IHJlcXVpcmVtZW50cyBvZiB0aGUgcHJvamVjdC4g
+VGhlIFNCRVQgd2FzIHVzZWQgdG8gcmVkdWNlIHRoZSBsaWRhciBzbGFudCByYW5nZSBtZWFzdXJl
+bWVudHMgdG8gYSByYXcgcmVmbGVjdGl2ZSBzdXJmYWNlIGZvciBlYWNoIGZsaWdodCBsaW5lLiBU
+aGUgY292ZXJhZ2Ugd2FzIGNsYXNzaWZpZWQgdG8gZXh0cmFjdCBhIGJhcmUgZWFydGggZGlnaXRh
+bCBlbGV2YXRpb24gbW9kZWwgKERFTSkgYW5kIHNlcGFyYXRlIGxhc3QgcmV0dXJucy4gVGhlIEFM
+UzcwIGNhbGlicmF0aW9uIGFuZCBzeXN0ZW0gcGVyZm9ybWFuY2UgaXMgdmVyaWZpZWQgb24gYSBw
+ZXJpb2RpYyBiYXNpcyB1c2luZyBXb29scGVydCdzIGNhbGlicmF0aW9uIHJhbmdlLiBUaGUgY2Fs
+aWJyYXRpb24gcmFuZ2UgY29uc2lzdHMgb2YgYSBsYXJnZSBidWlsZGluZyBhbmQgcnVud2F5LiBU
+aGUgZWRnZXMgb2YgdGhlIGJ1aWxkaW5nIGFuZCBjb250cm9sIHBvaW50cyBhbG9uZyB0aGUgcnVu
+d2F5IGhhdmUgYmVlbiBsb2NhdGVkIHVzaW5nIGNvbnZlbnRpb25hbCBzdXJ2ZXkgbWV0aG9kcy4g
+SW5lcnRpYWwgbWVhc3VyZW1lbnQgdW5pdCAoSU1VKSBtaXNhbGlnbm1lbnQgYW5nbGVzIGFuZCBo
+b3Jpem9udGFsIGFjY3VyYWN5IGFyZSBjYWxjdWxhdGVkIGJ5IGNvbXBhcmluZyB0aGUgcG9zaXRp
+b24gb2YgdGhlIGJ1aWxkaW5nIGVkZ2VzIGJldHdlZW4gb3Bwb3NpbmcgZmxpZ2h0IGxpbmVzLiBU
+aGUgc2Nhbm5lciBzY2FsZSBmYWN0b3IgYW5kIHZlcnRpY2FsIGFjY3VyYWN5IGlzIGNhbGN1bGF0
+ZWQgdGhyb3VnaCBjb21wYXJpc29uIG9mIGxpZGFyIGRhdGEgYWdhaW5zdCBjb250cm9sIHBvaW50
+cyBhbG9uZyB0aGUgcnVud2F5LiBGaWVsZCBjYWxpYnJhdGlvbiBpcyBwZXJmb3JtZWQgb24gYWxs
+IGZsaWdodCBsaW5lcyB0byByZWZpbmUgdGhlIElNVSBtaXNhbGlnbm1lbnQgYW5nbGVzLiBJTVUg
+bWlzYWxpZ25tZW50IGFuZ2xlcyBhcmUgY2FsY3VsYXRlZCBmcm9tIHRoZSByZWxhdGl2ZSBkaXNw
+bGFjZW1lbnQgb2YgZmVhdHVyZXMgd2l0aGluIHRoZSBvdmVybGFwIHJlZ2lvbiBvZiBhZGphY2Vu
+dCAoYW5kIG9wcG9zaW5nKSBmbGlnaHQgbGluZXMuIFRoZSByYXcgbGlkYXIgZGF0YSBpcyByZWR1
+Y2VkIHVzaW5nIHRoZSByZWZpbmVkIG1pc2FsaWdubWVudCBhbmdsZXMuPC9wcm9jZGVzYz4NCiAg
+ICAgICAgPHNyY3VzZWQ+TGFrZSBFcmllIFdhdGVyc2hlZCAyMDE1IE9ydGhvL0xpREFSL0h5ZHJv
+IFByb2plY3QgLSBMaWRhciBBY3F1aXNpdGlvbjwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRl
+PjIwMTUwNDI5PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEyMDA8L3Byb2N0aW1lPg0K
+ICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAgICAgICA8Y250
+b3JncD4NCiAgICAgICAgICAgICAgPGNudG9yZz5Xb29scGVydCwgSW5jLjwvY250b3JnPg0KICAg
+ICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5HZW9zcGF0aWFsIFNlcnZp
+Y2VzPC9jbnRwb3M+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0
+eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgICAg
+ICA8YWRkcmVzcz40NDU0IElkZWEgQ2VudGVyIEJsdmQuPC9hZGRyZXNzPg0KICAgICAgICAgICAg
+ICA8Y2l0eT5EYXl0b248L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5PSDwvc3RhdGU+DQog
+ICAgICAgICAgICAgIDxwb3N0YWw+NDU0MzA8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50
+cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNu
+dHZvaWNlPig5MzcpIDQ2MS01NjYwPC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+KDkz
+NykgNDYxLTA3NDM8L2NudGZheD4NCiAgICAgICAgICAgIDxob3Vycz44OjAwIGEubS4gdG8gNTow
+MCBwLm0uIEVhc3Rlcm4gVGltZTwvaG91cnM+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAg
+ICA8L3Byb2Njb250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAg
+ICAgPHByb2NkZXNjPkZvciB0aGlzIHN1cnZleSwgV29vbHBlcnQgZmllbGQgY3Jld3MgdXRpbGl6
+ZWQgdHdvICgyKSBXb29scGVydC1vd25lZCwgVHJpbWJsZSBOYXZpZ2F0aW9uIFI4IE1vZGVsIDMg
+c2VyaWVzIGR1YWwgZnJlcXVlbmN5IEdQUyByZWNlaXZlcnMsIGFuZCBvbmUgKDEpIFdvb2xwZXJ0
+LW93bmVkLCBUcmltYmxlIE5hdmlnYXRpb24gUjggTW9kZWwgMiBzZXJpZXMgZHVhbCBmcmVxdWVu
+Y3kgR1BTIHJlY2VpdmVyLiBUaGUgZmllbGQgY3JldyB1dGlsaXplZCBSZWFsLVRpbWUgS2luZW1h
+dGljIChSVEspIEdQUyBzdXJ2ZXlpbmcgdGhyb3VnaG91dCB0aGUgZ3JvdW5kIGNvbnRyb2wgZGF0
+YSBjb2xsZWN0aW9uIHByb2Nlc3MuIFVzaW5nIFJUSyBHUFMgdGVjaG5pcXVlcywgb2JzZXJ2YXRp
+b25zIHdlcmUgcGVyZm9ybWVkIG9uIExpREFSIHF1YWxpdHkgY29udHJvbCBwb2ludHMuIFRoZSBz
+dXJ2ZXkgd2FzIGNvbmR1Y3RlZCB1c2luZyBhIDEtc2Vjb25kIGVwb2NoIHJhdGUsIGluIGEgZml4
+ZWQgc29sdXRpb24gUlRLIG1vZGUsIHdpdGggZWFjaCBvYnNlcnZhdGlvbiBsYXN0aW5nIDE4MCBz
+ZWNvbmRzLiBFYWNoIHN0YXRpb24gd2FzIG9jY3VwaWVkIHR3aWNlIHRvIGVuc3VyZSB0aGUgbmVj
+ZXNzYXJ5IGhvcml6b250YWwgYW5kIHZlcnRpY2FsIGFjY3VyYWNpZXMgd2VyZSBiZWluZyBtZXQg
+Zm9yIHRoaXMgcHJvamVjdC48L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5MYWtlIEVyaWUg
+V2F0ZXJzaGVkIDIwMTUgT3J0aG8vTGlEQVIvSHlkcm8gUHJvamVjdCAtIENvbnRyb2wgYW5kIFFB
+UUMgY29udHJvbCBBY3F1aXNpdGlvbjwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIwMTUw
+NjE1PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEyMDA8L3Byb2N0aW1lPg0KICAgICAg
+ICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAgICAgICA8Y250b3JncD4N
+CiAgICAgICAgICAgICAgPGNudG9yZz5Xb29scGVydCwgSW5jLjwvY250b3JnPg0KICAgICAgICAg
+ICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5HZW9zcGF0aWFsIFNlcnZpY2VzPC9j
+bnRwb3M+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0eXBlPm1h
+aWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgICAgICA8YWRk
+cmVzcz40NDU0IGlkZWEgQ2VudGVyIEJsdmQuPC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8Y2l0
+eT5EYXl0b248L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5PSDwvc3RhdGU+DQogICAgICAg
+ICAgICAgIDxwb3N0YWw+NDU0MzA8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50cnk+VVNB
+PC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNudHZvaWNl
+Pig5MzcpIDQ2MS01NjYwPC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+KDkzNykgNDYx
+LTA3NDM8L2NudGZheD4NCiAgICAgICAgICAgIDxob3Vycz44OjAwIGEubS4gdG8gNTowMCBwLm0u
+IEVhc3Rlcm4gVGltZTwvaG91cnM+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAgICA8L3By
+b2Njb250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHBy
+b2NkZXNjPlRoZSBpbmRpdmlkdWFsIGZsaWdodCBsaW5lcyB3ZXJlIGluc3BlY3RlZCB0byBlbnN1
+cmUgdGhlIHN5c3RlbWF0aWMgYW5kIHJlc2lkdWFsIGVycm9ycyBoYXZlIGJlZW4gaWRlbnRpZmll
+ZCBhbmQgcmVtb3ZlZC4gVGhlbiwgdGhlIGZsaWdodCBsaW5lcyB3ZXJlIGNvbXBhcmVkIHRvIGFk
+amFjZW50IGZsaWdodCBsaW5lcyBmb3IgYW55IG1pc21hdGNoZXMgdG8gb2J0YWluIGEgaG9tb2dl
+bm91cyBjb3ZlcmFnZSB0aHJvdWdob3V0IHRoZSBwcm9qZWN0IGFyZWEuIFRoZSBwb2ludCBjbG91
+ZCB1bmRlcndlbnQgYSBjbGFzc2lmaWNhdGlvbiBwcm9jZXNzIHRvIGRldGVybWluZSBiYXJlLWVh
+cnRoIHBvaW50cyBhbmQgbm9uLWdyb3VuZCBwb2ludHMgdXRpbGl6aW5nICJmaXJzdCBhbmQgb25s
+eSIgYXMgd2VsbCBhcyAibGFzdCBvZiBtYW55IiBsaWRhciByZXR1cm5zLiBUaGlzIHByb2Nlc3Mg
+ZGV0ZXJtaW5lZCBEZWZhdWx0IHBvaW50cyAoQ2xhc3MgMSksIEdyb3VuZCBwb2ludHMgKENsYXNz
+IDIpLCBMb3cgdmVnZXRhdGlvbiAoQ2xhc3MgMyksIE1lZGl1bSB2ZWdldGF0aW9uIChDbGFzcyA0
+KSwgSGlnaCB2ZWdldGF0aW9uIChDbGFzcyA1KSwgQnVpbGRpbmcgKENsYXNzIDYpLCBOb2lzZSAo
+Q2xhc3MgNyksIFdhdGVyIChDbGFzcyA5KSwgSWdub3JlZCBHcm91bmQgKENsYXNzIDEwKSwgQnJp
+ZGdlIGRlY2sgKENsYXNzIDEzKSwgT3ZlcmxhcCBEZWZhdWx0IChDbGFzcyAxNyksIE92ZXJsYXAg
+R3JvdW5kIChDbGFzcyAxOCkuIFRoZSBiYXJlLWVhcnRoIChDbGFzcyAyIC0gR3JvdW5kKSBsaWRh
+ciBwb2ludHMgdW5kZXJ3ZW50IGEgbWFudWFsIFFBL1FDIHN0ZXAgdG8gdmVyaWZ5IHRoZSBxdWFs
+aXR5IG9mIHRoZSBERU0gYXMgd2VsbCBhcyBhIHBlZXItYmFzZWQgUUMgcmV2aWV3LiBUaGlzIGlu
+Y2x1ZGVkIGEgcmV2aWV3IG9mIHRoZSBERU0gc3VyZmFjZSB0byByZW1vdmUgYXJ0aWZhY3RzIGFu
+ZCBlbnN1cmUgdG9wb2dyYXBoaWMgcXVhbGl0eS4gQ2xhc3NpZmljYXRpb24gb2Ygd2F0ZXIgKGNs
+YXNzIDkpIGFuZCBpZ25vcmVkIGdyb3VuZCAoY2xhc3MgMTApIHdhcyBjb21wbGV0ZWQgdmlhIHRo
+ZSB1c2Ugb2YgdGhlIGh5ZHJvbG9naWMgYnJlYWtsaW5lcyBjb2xsZWN0ZWQgZm9yIHRoZSBoeWRy
+by1mbGF0dGVuaW5nIHBoYXNlLiBUaGUgb3ZlcmxhcCBjbGFzc2VzIHdlcmUgZGV0ZXJtaW5lZCBi
+eSBmaXJzdCBpZGVudGlmeWluZyB0aGUgb3ZlcmxhcHBpbmcgYXJlYXMgYW5kIHJlY2xhc3NpZnlp
+bmcgdGhlIExBUyBkYXRhIGJ5IG9mZnNldCBmcm9tIGEgY29ycmlkb3IuIFRoaXMgYWxsb3dzIHRo
+ZSByZXR1cm5zIGxvY2F0ZWQgb24gdGhlIGVkZ2Ugb2YgdGhlIHN3YXRoIHRvIGJlIHJlbW92ZWQg
+ZnJvbSB0aGUgYmFyZSBlYXJ0aCBjb3ZlcmFnZSBpbiBhbiBlZmZvcnQgdG8gcHJvZHVjZSBhIG1v
+cmUgdW5pZm9ybSBkYXRhIGRlbnNpdHkuIFRoZSBzdXJ2ZXllZCBncm91bmQgY29udHJvbCBwb2lu
+dHMgYXJlIHVzZWQgdG8gbWFrZSB2ZXJ0aWNhbCBhZGp1c3RtZW50cyB0byB0aGUgZGF0YSBzZXQg
+YW5kIHRvIHBlcmZvcm0gdGhlIGFjY3VyYWN5IGNoZWNrcyBhbmQgc3RhdGlzdGljYWwgYW5hbHlz
+aXMgb2YgdGhlIGxpZGFyIGRhdGFzZXQuIFN1cGVydmlzb3J5IFFDIG1vbml0b3Jpbmcgb2Ygd29y
+ayBpbiBwcm9ncmVzcyBhbmQgY29tcGxldGVkIGVkaXRpbmcgZW5zdXJlZCBjb25zaXN0ZW5jeSBv
+ZiBjbGFzc2lmaWNhdGlvbiBjaGFyYWN0ZXIgYW5kIGFkaGVyZW5jZSB0byBwcm9qZWN0IHJlcXVp
+cmVtZW50cyBhY3Jvc3MgdGhlIGVudGlyZSBwcm9qZWN0IGFyZWEuIFRoZSByZXN1bHRpbmcgZGVs
+aXZlcmFibGVzIGZvciB0aGlzIHRhc2sgb3JkZXIgY29uc2lzdCBvZiBjbGFzc2lmaWVkIExBUyBm
+aWxlIGluIExBUyAxLjIgZm9ybWF0LCAyLjUgZnQgcGl4ZWwgc2l6ZSBERU0gZmlsZXMgaW4gRVJE
+QVMgSU1HIGZvcm1hdCBhbmQgSHlkcm9sb2dpYyBCcmVha2xpbmUgZGF0YSBpbiBFU1JJIHNoYXBl
+IGZpbGUgZm9ybWF0LiBUaGUgbWV0aG9kIHVzZWQgdG8gY3JlYXRlIHRoZSBERU0gY29uc2lzdGVk
+IG9mIGlzb2xhdGluZyB0aGUgZ3JvdW5kIChjbGFzcyAyKSBwb2ludHMgYW5kIGludHJvZHVjaW5n
+IDMtZCBicmVha2xpbmUgZGF0YSBkZXJpdmVkIGZyb20gZGVsaW5lYXRpbmcgaHlkcm9sb2dpYyBm
+ZWF0dXJlcyBhbmQgYXBwbHlpbmcgVVNHUyB2MS4wIGh5ZHJvIGZsYXR0ZW5pbmcgc3BlY2lmaWNh
+dGlvbiB6LXZhbHVlcy4gVGhpcyBjb21iaW5lZCBkYXRhc2V0IHdhcyB0aGVuIHByb2Nlc3NlZCBp
+bnRvIGEgZ3JpZGRlZCBmb3JtYXQgZm9yIGFkZGl0aW9uYWwgUUFRQyB0byBlbnN1cmUgREVNIHF1
+YWxpdHkuIEZvbGxvd2luZyBRQVFDIHByb2Nlc3MgY29tcGxldGlvbiwgYSBncmlkZGVkIHJhc3Rl
+ciBmaWxlIHdhcyBjcmVhdGVkIG9uIGEgcGVyIHRpbGUgYmFzaXMuIFRoZSB0YXNrIG9yZGVyIHBy
+b2plY3Rpb24gaW5mb3JtYXRpb24gd2FzIGFwcGxpZWQgdG8gdGhlIGZpbmFsIHJhc3RlciBkYXRh
+c2V0LiBQcmlvciB0byBkZWxpdmVyeSwgYWxsIHJhc3RlciBmaWxlcyB3ZXJlIHZpc3VhbGx5IHJl
+dmlld2VkIHRvIGVuc3VyZSBjb3ZlcmFnZSBhbmQgcmV2aWV3ZWQgdXNpbmcgYXV0b21hdGVkIHBy
+b2Nlc3NlcyB0byBlbnN1cmUgcHJvcGVyIGZvcm1hdHRpbmcuIDwvcHJvY2Rlc2M+DQogICAgICAg
+IDxzcmN1c2VkPkxha2UgRXJpZSBXYXRlcnNoZWQgMjAxNSBPcnRoby9MaURBUi9IeWRybyBQcm9q
+ZWN0IC0gRGVsaXZlcmFibGUgUHJvY2Vzc2luZyA8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0
+ZT4yMDE1MDQyOTwvcHJvY2RhdGU+DQogICAgICAgIDxwcm9jdGltZT4xMjAwPC9wcm9jdGltZT4N
+CiAgICAgICAgPHByb2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNu
+dG9yZ3A+DQogICAgICAgICAgICAgIDxjbnRvcmc+V29vbHBlcnQsIEluYy48L2NudG9yZz4NCiAg
+ICAgICAgICAgIDwvY250b3JncD4NCiAgICAgICAgICAgIDxjbnRwb3M+R2Vvc3BhdGlhbCBTZXJ2
+aWNlczwvY250cG9zPg0KICAgICAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgICAgIDxhZGRy
+dHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICAg
+ICAgPGFkZHJlc3M+NDQ1NCBJZGVhIENlbnRlciBCbHZkLjwvYWRkcmVzcz4NCiAgICAgICAgICAg
+ICAgPGNpdHk+RGF5dG9uPC9jaXR5Pg0KICAgICAgICAgICAgICA8c3RhdGU+T0g8L3N0YXRlPg0K
+ICAgICAgICAgICAgICA8cG9zdGFsPjQ1NDMwPC9wb3N0YWw+DQogICAgICAgICAgICAgIDxjb3Vu
+dHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxj
+bnR2b2ljZT4oOTM3KSA0NjEtNTY2MDwvY250dm9pY2U+DQogICAgICAgICAgICA8Y250ZmF4Pig5
+MzcpIDQ2MS0wNzQzPC9jbnRmYXg+DQogICAgICAgICAgICA8aG91cnM+ODowMCBhLm0uIHRvIDU6
+MDAgcC5tLiBFYXN0ZXJuIFRpbWU8L2hvdXJzPg0KICAgICAgICAgIDwvY250aW5mbz4NCiAgICAg
+ICAgPC9wcm9jY29udD4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAg
+ICAgIDxwcm9jZGVzYz5UaGUgY29tcGlsYXRpb24gcHJvY2VkdXJlIGluY2x1ZGVkIHVzZSBvZiBs
+aWRhciBpbnRlbnNpdHksIGJhcmUgZWFydGggc3VyZmFjZSBtb2RlbCwgcG9pbnQgY2xvdWQgZGF0
+YSwgYW5kIG9wZW4gc291cmNlIGltYWdlcnkgaW4gYW4gZWZmb3J0IHRvIG1hbnVhbGx5IGNvbXBp
+bGUgaHlkcm9sb2dpYyBmZWF0dXJlcyBpbiBhIDItZCBlbnZpcm9ubWVudC4gRm9sbG93aW5nIHRo
+ZSBjb21waWxhdGlvbiBwaGFzZSwgYSBzZXBhcmF0ZSBwcm9jZXNzIHdhcyB1c2VkIHRvIGFkanVz
+dCB0aGUgYnJlYWtsaW5lIGRhdGEgdG8gYmVzdCBtYXRjaCB0aGUgd2F0ZXIgbGV2ZWwgYXQgdGhl
+IHRpbWUgb2YgdGhlIGxpZGFyIGNvbGxlY3Rpb24uIEFueSBwb25kcyBhbmQvb3IgbGFrZXMgd2Vy
+ZSBhZGp1c3RlZCB0byBiZSBhdCBvciBqdXN0IGJlbG93IHRoZSBiYW5rIGFuZCB0byBiZSBhdCBh
+IGNvbnN0YW50IGVsZXZhdGlvbi4gQW55IHN0cmVhbXMgd2VyZSBhZGp1c3RlZCB0byBiZSBhdCBv
+ciBqdXN0IGJlbG93IHRoZSBiYW5rIGFuZCB0byBiZSBtb25vdG9uaWMuIE1hbnVhbCBRQVFDIGFu
+ZCBwZWVyLWJhc2VkIFFDIHJldmlldyB3YXMgcGVyZm9ybWVkIG9uIGFsbCBkZWxpbmVhdGVkIGRh
+dGEgdG8gZW5zdXJlIGhvcml6b250YWwgcGxhY2VtZW50IHF1YWxpdHkgYW5kIG9uIGFsbCBhZGp1
+c3RlZCBkYXRhIHRvIGVuc3VyZSB2ZXJ0aWNhbCBwbGFjZW1lbnQgcXVhbGl0eS4gVGhlIGZpbmFs
+IGh5ZHJvbG9naWMgYnJlYWtsaW5lIHByb2R1Y3Qgd2FzIGRlbGl2ZXJlZCBpbiBFU1JJIHNoYXBl
+IGZpbGUgZm9ybWF0IGFuZCB3YXMgYWxzbyB1c2VkIGluIHRoZSBwcm9jZXNzaW5nIG9mIHRoZSBE
+RU0gZGVsaXZlcmFibGUuPC9wcm9jZGVzYz4NCiAgICAgICAgPHNyY3VzZWQ+TGFrZSBFcmllIFdh
+dGVyc2hlZCAyMDE1IE9ydGhvL0xpREFSL0h5ZHJvIFByb2plY3QgLSBIeWRyb2xvZ2ljIEJyZWFr
+bGluZSBEZWxpdmVyYWJsZSBQcm9jZXNzaW5nIDwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRl
+PjIwMTUwNDI5PC9wcm9jZGF0ZT4NCiAgICAgICAgPHByb2N0aW1lPjEyMDA8L3Byb2N0aW1lPg0K
+ICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAgICAgICA8Y250
+b3JncD4NCiAgICAgICAgICAgICAgPGNudG9yZz5Xb29scGVydCwgSW5jLjwvY250b3JnPg0KICAg
+ICAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICAgICAgPGNudHBvcz5HZW9zcGF0aWFsIFNlcnZp
+Y2VzPC9jbnRwb3M+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICAgICAgPGFkZHJ0
+eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgICAg
+ICA8YWRkcmVzcz40NDU0IElkZWEgQ2VudGVyIEJsdmQuPC9hZGRyZXNzPg0KICAgICAgICAgICAg
+ICA8Y2l0eT5EYXl0b248L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5PSDwvc3RhdGU+DQog
+ICAgICAgICAgICAgIDxwb3N0YWw+NDU0MzA8L3Bvc3RhbD4NCiAgICAgICAgICAgICAgPGNvdW50
+cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICAgICAgPGNu
+dHZvaWNlPig5MzcpIDQ2MS01NjYwPC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+KDkz
+NykgNDYxLTA3NDM8L2NudGZheD4NCiAgICAgICAgICAgIDxob3Vycz44OjAwIGEubS4gdG8gNTow
+MCBwLm0uIEVhc3Rlcm4gVGltZTwvaG91cnM+DQogICAgICAgICAgPC9jbnRpbmZvPg0KICAgICAg
+ICA8L3Byb2Njb250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAg
+ICAgPHByb2NkZXNjPlRpbGUgU2l6ZTogMiw1MDBmdCB4IDIsNTAwZnQuIFRoZSB0aWxlIGZpbGUg
+bmFtZSB3YXMgZGVyaXZlZCBmcm9tIHRoZSBzb3V0aHdlc3QgY29ybmVyIG9mIGVhY2ggdGlsZS4g
+VGlsZSBpbmRleCBhbmQgZXh0ZW50IGFyZSBwcm92aWRlZCBpbiBzaGFwZSBmaWxlIGZvcm1hdC48
+L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5MYWtlIEVyaWUgV2F0ZXJzaGVkIDIwMTUgT3J0
+aG8vTGlEQVIvSHlkcm8gUHJvamVjdCAtIEh5ZHJvbG9naWMgQnJlYWtsaW5lIERlbGl2ZXJhYmxl
+IFByb2Nlc3NpbmcgPC9zcmN1c2VkPg0KICAgICAgICA8cHJvY2RhdGU+MjAxNTA0Mjk8L3Byb2Nk
+YXRlPg0KICAgICAgICA8cHJvY3RpbWU+MTIwMDwvcHJvY3RpbWU+DQogICAgICAgIDxwcm9jY29u
+dD4NCiAgICAgICAgICA8Y250aW5mbz4NCiAgICAgICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAg
+ICAgICA8Y250b3JnPldvb2xwZXJ0LCBJbmMuPC9jbnRvcmc+DQogICAgICAgICAgICA8L2NudG9y
+Z3A+DQogICAgICAgICAgICA8Y250cG9zPkdlb3NwYXRpYWwgU2VydmljZXM8L2NudHBvcz4NCiAg
+ICAgICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQg
+cGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgICAgIDxhZGRyZXNzPjQ0NTQg
+SWRlYSBDZW50ZXIgQmx2ZC48L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxjaXR5PkRheXRvbjwv
+Y2l0eT4NCiAgICAgICAgICAgICAgPHN0YXRlPk9IPC9zdGF0ZT4NCiAgICAgICAgICAgICAgPHBv
+c3RhbD40NTQzMDwvcG9zdGFsPg0KICAgICAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+
+DQogICAgICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250dm9pY2U+KDkzNykgNDYx
+LTU2NjA8L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNudGZheD4oOTM3KSA0NjEtMDc0MzwvY250
+ZmF4Pg0KICAgICAgICAgICAgPGhvdXJzPjg6MDAgYS5tLiB0byA1OjAwIHAubS4gRWFzdGVybiBU
+aW1lPC9ob3Vycz4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQog
+ICAgICA8L3Byb2NzdGVwPg0KICAgIDwvbGluZWFnZT4NCiAgPC9kYXRhcXVhbD4NCiAgPHNwZG9p
+bmZvPg0KICAgIDxkaXJlY3Q+UG9pbnQ8L2RpcmVjdD4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVm
+Pg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxtYXBwcm9qPg0KICAg
+ICAgICAgIDxtYXBwcm9qbj5OQUQgMTk4MyBIQVJOIFN0YXRlUGxhbmUgUGVubnN5bHZhbmlhIE5v
+cnRoIEZJUFMgMzcwMSBGZWV0PC9tYXBwcm9qbj4NCiAgICAgICAgICA8bGFtYmVydGM+DQogICAg
+ICAgICAgICA8c3RkcGFybGw+NDAuODgzMzMzMzMzMzMzMzM8L3N0ZHBhcmxsPg0KICAgICAgICAg
+ICAgPHN0ZHBhcmxsPjQxLjk1PC9zdGRwYXJsbD4NCiAgICAgICAgICAgIDxsb25nY20+LTc3Ljc1
+PC9sb25nY20+DQogICAgICAgICAgICA8bGF0cHJqbz40MC4xNjY2NjY2NjY2NjY2NjwvbGF0cHJq
+bz4NCiAgICAgICAgICAgIDxmZWFzdD4xOTY4NTAwLjA8L2ZlYXN0Pg0KICAgICAgICAgICAgPGZu
+b3J0aD4wLjA8L2Zub3J0aD4NCiAgICAgICAgICA8L2xhbWJlcnRjPg0KICAgICAgICA8L21hcHBy
+b2o+DQogICAgICAgIDxwbGFuY2k+DQogICAgICAgICAgPHBsYW5jZT5jb29yZGluYXRlIHBhaXI8
+L3BsYW5jZT4NCiAgICAgICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMDAw
+MDAwMDI2ODIyNTg4NTk0NjU0OTIzPC9hYnNyZXM+DQogICAgICAgICAgICA8b3JkcmVzPjAuMDAw
+MDAwMDI2ODIyNTg4NTk0NjU0OTIzPC9vcmRyZXM+DQogICAgICAgICAgPC9jb29yZHJlcD4NCiAg
+ICAgICAgICA8cGxhbmR1PmZvb3RfdXM8L3BsYW5kdT4NCiAgICAgICAgPC9wbGFuY2k+DQogICAg
+ICA8L3BsYW5hcj4NCiAgICAgIDxnZW9kZXRpYz4NCiAgICAgICAgPGhvcml6ZG4+RCBOb3J0aCBB
+bWVyaWNhbiAxOTgzIEhBUk48L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R1JTIDE5ODA8L2Vs
+bGlwcz4NCiAgICAgICAgPHNlbWlheGlzPjYzNzgxMzcuMDwvc2VtaWF4aXM+DQogICAgICAgIDxk
+ZW5mbGF0PjI5OC4yNTcyMjIxMDE8L2RlbmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwv
+aG9yaXpzeXM+DQogICAgPHZlcnRkZWY+DQogICAgICA8YWx0c3lzPg0KICAgICAgICA8YWx0ZGF0
+dW0+Tm9ydGggQW1lcmljYW4gVmVydGljYWwgRGF0dW0gb2YgMTk4OChHRU9JRDA5KTwvYWx0ZGF0
+dW0+DQogICAgICAgIDxhbHRyZXM+MC4wMDAxMDA8L2FsdHJlcz4NCiAgICAgICAgPGFsdHVuaXRz
+Pm1ldGVyczwvYWx0dW5pdHM+DQogICAgICAgIDxhbHRlbmM+RXhwbGljaXQgZWxldmF0aW9uIGNv
+b3JkaW5hdGUgaW5jbHVkZWQgd2l0aCBob3Jpem9udGFsIGNvb3JkaW5hdGVzPC9hbHRlbmM+DQog
+ICAgICA8L2FsdHN5cz4NCiAgICA8L3ZlcnRkZWY+DQogIDwvc3ByZWY+DQogIDxkaXN0aW5mbz4N
+CiAgICA8ZGlzdHJpYj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAg
+ICAgICA8Y250b3JnPlBlbm4gU3RhdGUgVW5pdmVyc2l0eSA8L2NudG9yZz4NCiAgICAgICAgPC9j
+bnRvcmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBh
+bmQgcGh5c2ljYWwgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+UGh5c2lj
+YWwgUGxhbnQgQnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+VW5pdmVyc2l0eSBQ
+YXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQogICAgICAgICAgPHBvc3Rh
+bD4xNjgwMjwvcG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAg
+ICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+VW5rbm93bjwvY250dm9pY2U+DQogICAg
+ICAgIDxjbnRmYXg+VW5rbm93bjwvY250ZmF4Pg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvZGlz
+dHJpYj4NCiAgICA8cmVzZGVzYz5Eb3dubG9hZGFibGUgRGF0YTwvcmVzZGVzYz4NCiAgICA8ZGlz
+dGxpYWI+V29vbHBlcnQgcHJlcGFyZWQgdGhlIG9yaWdpbmFsIGRhdGEgYXMgc2V0IGZvcnRoIGlu
+IHRoZSBTY29wZSBvZiBTZXJ2aWNlcywgaW4gYWNjb3JkYW5jZSB3aXRoIHJlYXNvbmFibGUgY2Fy
+ZSBhbmQgZHVlIGRpbGlnZW5jZSBhcyBzZXQgZm9ydGggaW4gdGhpcyBBZ3JlZW1lbnQsIGhvd2V2
+ZXIsIGR1ZSB0byB0aGUgZWFzaWx5IGFsdGVyYWJsZSBuYXR1cmUgb2YgZWxlY3Ryb25pYyBtZWRp
+YSwgZmlsZXMsIGRvY3VtZW50cywgYW5kIG90aGVyIGRlbGl2ZXJhYmxlcywgV29vbHBlcnQsIElu
+Yy4gbWFrZXMgbm8gd2FycmFudGllcywgZWl0aGVyIGV4cHJlc3NlZCBvciBpbXBsaWVkLCB3aXRo
+IHJlc3BlY3QgdG8gdGhlIGFjY3VyYWN5LCBjb21wbGV0ZW5lc3MsIG1lcmNoYW50YWJpbGl0eSwg
+b3IgZml0bmVzcyBmb3IgYW55IHBhcnRpY3VsYXIgcHVycG9zZSwgaW5jbHVkaW5nLCBidXQgbm90
+IGxpbWl0ZWQgdG8sIHVzZSBvZiBhbnkvYWxsIGRhdGEgYXMgZGVzY3JpYmVkIHdpdGhpbiB0aGlz
+IG1ldGFkYXRhIGZpbGUsIGJ5IGFueSB1c2VyIG9mIHRoaXMgZGF0YS4gQW55IHVzZSB3aWxsIGJl
+IGF0IHRoZSBlbmQtdXNlcuKAmXMgc29sZSByaXNrLjwvZGlzdGxpYWI+DQogICAgPGF2YWlsYWJs
+Pg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0
+ZT51bmtub3duPC9jYWxkYXRlPg0KICAgICAgICAgIDx0aW1lPnVua25vd248L3RpbWU+DQogICAg
+ICAgIDwvc25nZGF0ZT4NCiAgICAgIDwvdGltZWluZm8+DQogICAgPC9hdmFpbGFibD4NCiAgPC9k
+aXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTUxMTEwPC9tZXRkPg0KICAgIDxt
+ZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRv
+cmc+V29vbHBlcnQ8L2NudG9yZz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250YWRk
+cj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWwgYWRkcmVzczwvYWRk
+cnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+NDQ1NCBJZGVhIENlbnRlciBCbHZkLjwvYWRkcmVz
+cz4NCiAgICAgICAgICA8Y2l0eT5EYXl0b248L2NpdHk+DQogICAgICAgICAgPHN0YXRlPk9IPC9z
+dGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjQ1NDMwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50
+cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT4o
+OTM3KSA0NjEtNTY2MDwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+KDkzNykgNDYxLTA3NDMg
+PC9jbnRmYXg+DQogICAgICAgIDxob3Vycz44OjAwIGEubS4gdG8gNTowMCBwLm0uIEVhc3Rlcm4g
+VGltZTwvaG91cnM+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICAgIDxtZXRzdGRu
+PkZHREMgQ29udGVudCBTdGFuZGFyZHMgZm9yIERpZ2l0YWwgR2Vvc3BhdGlhbCBNZXRhZGF0YTwv
+bWV0c3Rkbj4NCiAgICA8bWV0c3Rkdj5GR0RDLVNURC0wMDEtMTk5ODwvbWV0c3Rkdj4NCiAgICA8
+bWV0dGM+bG9jYWwgdGltZTwvbWV0dGM+DQogICAgPG1ldHNpPg0KICAgICAgPG1ldHNjcz5VbmNs
+YXNzaWZpZWQ8L21ldHNjcz4NCiAgICAgIDxtZXRzYz5VbmNsYXNzaWZpZWQ8L21ldHNjPg0KICAg
+ICAgPG1ldHNoZD5VbmNsYXNzaWZpZWQ8L21ldHNoZD4NCiAgICA8L21ldHNpPg0KICA8L21ldGFp
+bmZvPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

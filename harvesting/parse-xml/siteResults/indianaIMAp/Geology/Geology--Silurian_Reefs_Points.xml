@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Curtis H. Ault (data compiler)</origin>
+        <origin>Leroy E. Becker (data compiler)</origin>
+        <origin>John B. Droste (data compiler)</origin>
+        <origin>Stanley J. Keller (data compiler)</origin>
+        <origin>Robert H. Shaver (data compiler)</origin>
+        <origin>Chris Dintaman (digital compiler)</origin>
+        <pubdate>20031003</pubdate>
+        <title>
+SILURIAN_REEF_POINTS_MM54_IN: Silurian Reef Locations in Indiana
+(Indiana Geological Survey, 1:500,000, Point Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was derived and modified from a preexisting published paper map:
+Ault, C.H., Becker, L.E., Droste, J.B., Keller, S.J., and Shaver, R.H., 1992, Map of
+Indiana Showing Thickness of Silurian Rocks and Location of Reefs, Indiana Geological
+Survey Miscellaneous Map 54.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SILURIAN_REEF_POINTS_MM54_IN is a point shapefile that shows the locations of Silurian rock reef
+formations in Indiana. These data include five categories: (1) buried reef masses, (2) exposed reef,
+(3) exposed reef in active stone quarries, (4) reef-induced structure in overlying rocks, and
+(5) reef-induced structure in overlying rocks related to oil, gas, and gas storage fields.
+
+This shapefile can be used in conjunction with SILURIAN_REEF_POLYGONS_MM54_IN.
+</abstract>
+      <purpose>
+SILURIAN_REEF_POINTS_MM54_IN was created to provide a digital shapefile of the locations of Silurian
+rock reef data in the state of Indiana, suitable for use in a GIS, from a preexisting published paper
+map (Ault, C.H., Becker, L.E., Droste, J.B., Keller, S.J., and Shaver, R.H., 1992, Map of Indiana
+Showing Thickness of Silurian Rocks and Location of Reefs, Indiana Geological Survey Miscellaneous
+Map 54).
+
+This shapefile can be used in conjunction with SILURIAN_REEF_POLYGONS_MM54_IN.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1992</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>bedrock geology</themekey>
+        <themekey>coral</themekey>
+        <themekey>coral reef</themekey>
+        <themekey>fossil</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>geologic map</themekey>
+        <themekey>geologic mapping</themekey>
+        <themekey>geology</themekey>
+        <themekey>historical geology</themekey>
+        <themekey>limestone</themekey>
+        <themekey>marine</themekey>
+        <themekey>paleobiology</themekey>
+        <themekey>paleontology</themekey>
+        <themekey>point</themekey>
+        <themekey>reef</themekey>
+        <themekey>sedimentology</themekey>
+        <themekey>vector</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 8.3 shapefile format, approximately 108 Kb.</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>Geology--Silurian_Reefs_Points</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+SILURIAN_REEF_POINTS_MM54_IN contains internal attributes with designations that refer to various
+types of reef exposures. The designations are the same as those appearing on the published map
+from which the shapefile was derived.
+</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>
+The digital shapefile was derived with minor modifications from a preexisting published paper map
+(Ault and others, 1992) and is assumed to embody the same definitions and generalizations as were used
+in the creation of the published map.
+
+SILURIAN_REEF_POINTS_MM54_IN contains internal attributes with designations that refer to various
+types of reef exposures. The designations are the same as those appearing on the published map
+from which the shapefile was derived.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding horizontal positional accuracy of this shapefile. The coordinates used
+in georeferencing this shapefile were derived from a shapefile named LANDSURVEY_STATE_POLY_IN that
+was created by the Indiana Geological Survey at a source scale of 1:24,000.
+
+The following note appears on the published source map (Ault and others, 1992): "Base modified from
+U.S. Geological Survey Base Map of Indiana; 1950." No quantitative tests were performed.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the digital
+production of SILURIAN_REEF_POINTS_MM54_IN.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>1992</pubdate>
+            <title>
+Map of Indiana Showing Thickness of Silurian Rocks and Location of Reefs, Indiana Geological Survey
+Miscellaneous Map 54.
+</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Paper map</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1992</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>1992</srccurr>
+        </srctime>
+        <srccitea>Indiana Geological Survey Miscellaneous Map 54</srccitea>
+        <srccontr>SILURIAN_REEF_POINTS_MM54_IN.SHP was extracted from information contained in IGS MM54.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A paper copy of the map titled "Map of Indiana Showing Thickness of Silurian Rocks and Location of Reefs, Indiana Geological
+Survey Miscellaneous Map 54" was scanned using a wide-bed color scanner at the Indiana Geological Survey. The scanned TIFF image was
+then loaded into ESRI's ArcMap 8.3 and georeferenced using the shapefile named LANDSURVEY_STATE_POLY_IN that was created at a scale of
+1:24,000 by the Indiana Geological Survey, to obtain control points in UTM Zone 16, NAD 83 coordinates. The georeferenced image was then used as a backround image
+at the approximate on-screen zoom scale of 1:356,000. ESRI's ArcCatalog was then used to create an empty shapefile named
+SILURIAN_REEF_POINTS_MM54_IN. SILURIAN_REEF_POINTS_MM54_IN was then loaded into ESRI's ArcMap where an edit session was
+started and all data points were manually digitized. The shapefile table was then attributed with information obtained from the
+backround image file. All edits were then saved to the shapefile SILURIAN_REEF_POINTS_MM54_IN.
+</procdesc>
+        <srcused>Paper copy of IGS MM54</srcused>
+        <procdate>20030929</procdate>
+        <srcprod>SILURIAN_REEF_POINTS_MM54_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20031030</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>444</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SILURIAN_REEF_POINTS_MM54_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Legend</attrlabl>
+        <attrdef>Legend description as given in IGS MM54</attrdef>
+        <attrdefs>IGS MM54</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Exposed reef</edomv>
+            <edomvd>Point location of an exposed reef structure</edomvd>
+            <edomvds>IGS MM54</edomvds>
+          </edom>
+          <edom>
+            <edomv>Exposed reef in active stone quarry</edomv>
+            <edomvd>Point location of an exposed reef structure found at active stone quarry</edomvd>
+            <edomvds>IGS MM54</edomvds>
+          </edom>
+          <edom>
+            <edomv>
+Buried reef (discrete reef masses generally not shown in Fort Wayne and Terre Haute
+Reef Bank areas)
+</edomv>
+            <edomvd>Point location of buried reef locations</edomvd>
+            <edomvds>IGS MM54</edomvds>
+          </edom>
+          <edom>
+            <edomv>Reef-induced structure in overlying rocks</edomv>
+            <edomvd>Point location of reef-induced structures in overlying rocks</edomvd>
+            <edomvds>IGS MM54</edomvds>
+          </edom>
+          <edom>
+            <edomv>Reef-induced structure in overlying rocks related to oil, gas, and gas storage fields</edomv>
+            <edomvd>
+Point location of reef-induced structures in overlying rocks related to
+oil, gas, and gas storage fields
+</edomvd>
+            <edomvds>IGS MM54</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Field</attrlabl>
+        <attrdef>Oil, gas and gas storage field name associated with reef-induced structures</attrdef>
+        <attrdefs>IGS MM54</attrdefs>
+        <attrdomv>
+          <udom>Unrepresentable text</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2003, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any
+copying, adaptation, distribution, public performance, or public display of this information without the
+express written consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data.
+The following source citation should be included: SILURIAN_REEF_POINTS_MM54_IN: Silurian Reef Locations in Indiana
+(Indiana Geological Survey, 1:500,000, Point Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored
+will be free from defect in materials and workmanship for ninety (90) days from the date of acquisition.
+If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties
+or conditions, expressed or implied, including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting from the use of this product is
+assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to,
+loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University,
+Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate liability
+to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20031003</metd>
+    <metrd>20040407</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist/Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered or
+summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the
+data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

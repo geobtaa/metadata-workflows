@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Transportation</origin>
+        <pubdate>20050426</pubdate>
+        <title>AIRPORTS_PUBLIC_INDOT_IN: Public-Use Airports in Indiana (Indiana Department of Transportation, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Transportation, Aeronautics Section</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of the Indiana Geological Survey (IGS) by Andy
+Nahrwold, E.I.T., Airport Engineer, Aeronautics Section, Multi-Modal Transportation Division.
+The data was originally provided in the form of a Microsoft Excel spreadsheet named
+"04-20-05 Pub-use Lat-long.xls." Data in the spreadsheet was manipulated by IGS personnel to convert
+locations given in degrees-minutes-seconds into decimal degrees. The spreadsheet was saved as a
+text-delimited file, and the "Add Theme" and "Convert to Shapefile" functions were used in ESRI ArcView
+to convert the data into a shapefile. The shapefile was then projected into Universal Transverse Mercator
+(UTM), Zone 16, NAD83 using ESRI ArcToolbox. Metadata were prepared using information provided
+by Martin Blake, Project Manager, INDOT-Aeronautics, (317) 232-1489.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+AIRPORTS_PUBLIC_INDOT_IN is a point shapefile that shows public-use airports in Indiana. It is derived from data
+provided by personnel of the Indiana Department of Transportation (INDOT), Aeronautics Section. Personnel of INDOT obtained
+the data from the airport application/ FAA Master Record on file at the Indiana Department of Transportation, Aeronautics
+Section. The data is collected as part of the application for an airport site. The data is used to identify the airport.
+</abstract>
+      <purpose>This data set was developed to provide accurate coordinate information for public-use airport locations in Indiana.</purpose>
+      <supplinf>
+This data set contains the location of public-use airports in Indiana.
+The Indiana Department of Transportation (INDOT) also hosts a Web site titled "Indiana Public Use Airports" that
+contains the airport master records at the following URL:
+
+http://www.state.in.us/dot/modetrans/airports/aerials.html
+
+INDOT also provides an Adobe PDF document titled "Indiana Airport Directory" which provides various contact information
+for each facility, at the following URL:
+
+http://www.state.in.us/dot/div/multimodal/airports/directory.pdf
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20050420</begdate>
+          <enddate>unknown</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>
+Based on an e-mail message from personnel at INDOT, Aeronautics Section, for the source
+spreadsheet named "04-20-05 Pub-use Lat-long.xls."
+</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.516619</westbc>
+        <eastbc>-84.844218</eastbc>
+        <northbc>41.760618</northbc>
+        <southbc>37.958784</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Transportation (INDOT)</themekey>
+        <themekey>airport</themekey>
+        <themekey>public</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Transportation, Aeronautics Section</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>100 North Senate Avenue</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-1485</cntvoice>
+        <hours>0730 to 1700 Eastern Standard Time</hours>
+        <cntinst>Tuesday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView shapefile format, approximately 21 Kb</native>
+    <useconst>Infrastructure--Airports_Public_Use_INDOT</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This data set was provided by INDOT personnel and is assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>This data set was provided by INDOT personnel and is assumed to be accurate.</logic>
+    <complete>This data set was provided by INDOT personnel and is assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This data set was provided by INDOT personnel and is assumed to be accurate.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not a factor for this dataset.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>INDOT, Aeronautics Section; Current airport inspector</origin>
+            <pubdate>20050420</pubdate>
+            <title>04-20-05 Pub-use Lat-long.xls</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>INDOT, Aeronautics Section</publish>
+            </pubinfo>
+            <othercit>None</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Electronic mail system</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040420</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on a Microsoft Excel spreadsheet provided by INDOT, Aeronautics Section.</srccurr>
+        </srctime>
+        <srccitea>04-20-05 Pub-use Lat-long.xls</srccitea>
+        <srccontr>Public-use airports in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+This data set was provided to personnel of the Indiana Geological Survey (IGS) by Andy Nahrwold, E.I.T., Airport Engineer,
+Aeronautics Section, Multi-Modal Transportation Division. The data was originally provided in the form of a Microsoft Excel
+spreadsheet named "04-20-05 Pub-use Lat-long.xls." Data in the spreadsheet was manipulated by IGS personnel to convert
+locations given in degrees-minutes-seconds into decimal degrees. The spreadsheet was saved as a text-delimited file, and
+the "Add Theme" and "Convert to Shapefile" functions were used in ESRI ArcView (v 3.3) to convert the data into a
+shapefile. The shapefile was then projected into Universal Transverse Mercator (UTM), Zone 16, NAD83 using ESRI ArcToolbox.
+</procdesc>
+        <srcused>04-20-05 Pub-use Lat-long.xls</srcused>
+        <procdate>20050426</procdate>
+        <srcprod>AIRPORTS_PUBLIC_INDOT_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey).  The errors generated by MP were all addressed
+and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20050524</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>109</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AIRPORTS_PUBLIC_INDOT_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Airport</attrlabl>
+        <attrdef>Name of airport</attrdef>
+        <attrdefs>Indiana Department of Transportation, Aeronautics Section</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Facility_c</attrlabl>
+        <attrdef>Name of city or town</attrdef>
+        <attrdefs>Indiana Department of Transportation, Aeronautics Section</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Value of latitude provided by Indiana Department of Transportation, Aeronautics Section</attrdef>
+        <attrdefs>Indiana Department of Transportation, Aeronautics Section</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat_DD</attrlabl>
+        <attrdef>Value of decimal latitude calculated by Indiana Geological Survey</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Value of longitude provided by Indiana Department of Transportation, Aeronautics Section</attrdef>
+        <attrdefs>Indiana Department of Transportation, Aeronautics Section</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Long_DD</attrlabl>
+        <attrdef>Value of decimal longitude calculated by Indiana Geological Survey</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Aeronautics Section, Indiana Department of Transportation be cited in any products
+generated from this data.  The following source citation should be included: [AIRPORTS_PUBLIC_INDOT_IN: Incorporated
+Boundaries in Indiana (Indiana Department of Transportation, Point Shapefile)].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Transportation</cntorg>
+          <cntper>Martin Blake</cntper>
+        </cntorgp>
+        <cntpos>Project Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>100 North Senate Avenue</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46206-6015</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-1489</cntvoice>
+        <cntemail>mblake@indot.state.in.us</cntemail>
+        <hours>Tuesday through Friday, 7:30am to 5:00pm, Eastern Standard Time</hours>
+        <cntinst>None</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+The Indiana Department of Transportation (INDOT) Provides these geographic data "as is" and the user accepts the data "as is", and assumes
+all risks associated with its use. By acceptance of this data, the user agrees not to transmit this data or provide access to it, or any
+part of it, to another party unless the user shall include with the data a copy of this disclaimer. INDOT makes no guarantee or warranty
+concerning the accuracy of information contained in the geographic data. INDOT further makes no warranties, either expressed or implied as
+to any other matter whatsoever, including, without limitation, the condition of any product, or its fitness for any particular purpose. The
+burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of
+INDOT, no warranty, expressed or implied, is made by INDOT regarding the use of these data on any other system, nor does the fact of distribution
+constitute or imply any such warranty.
+
+In no event shall INDOT have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of
+any kind, including, but not limited to, any loss of profits arising out of or reliance on the geographic data or arising out of the delivery,
+installation, operation, or support by INDOT."
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20050426</metd>
+    <metrd>20050524</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

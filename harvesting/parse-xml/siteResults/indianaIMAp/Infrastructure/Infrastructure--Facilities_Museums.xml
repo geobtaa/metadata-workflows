@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey (Data source)</origin>
+        <origin>Denver Harper (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20070531</pubdate>
+        <title>MUSEUMS_IGS_IN: Museums in Indiana (Indiana Geological Survey, Point Shapefile)</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+The addresses, URLs, and information regarding type of facility were obtained from various Web pages,
+including the following: Museum and Historic Site Directory (http://www.collectics.com/museums_indiana.html),
+MuseumLink's Museum of Museums (http://www.museumlink.com/indiana.htm), Step into Places
+(http://www.stepintoplaces.com/resource%20guide/Quick/Guide_IN.htm), and Historical Museum Guide for Indiana
+(http://www.censusfinder.com/indiana-historical-museums.htm#Indiana%20Museums).
+Personnel of the Indiana Geological Survey used ESRI ArcMap 9.2 to build an "Address Locator" and used
+the "Geocoding" tool to perform address-matching, using street information licensed from Tele Atlas, Dynamap 2000, v. 17.0.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+MUSEUMS_IGS_IN is a point shapefile showing the locations of 118 museums in Indiana.
+Using street addresses obtained from Web pages, a shapefile was created using the "Geocoding" tool in ESRI ArcMap 9.2 and
+street information licensed from Tele Atlas, Dynamap 2000, v. 17.0.
+</abstract>
+      <purpose>This data set was compiled to create a GIS layer showing locations of museums in Indiana.</purpose>
+      <supplinf>
+Museum and Historic Site Directory (http://www.collectics.com/museums_indiana.html),
+MuseumLink's Museum of Museums (http://www.museumlink.com/indiana.htm), Step into Places
+(http://www.stepintoplaces.com/resource%20guide/Quick/Guide_IN.htm), and Historical Museum Guide for Indiana
+(http://www.censusfinder.com/indiana-historical-museums.htm#Indiana%20Museums)
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2007</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>2007</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.987391</westbc>
+        <eastbc>-84.804901</eastbc>
+        <northbc>41.753268</northbc>
+        <southbc>37.930328</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>culture</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>museum</themekey>
+        <themekey>museums</themekey>
+        <themekey>history</themekey>
+        <themekey>historic</themekey>
+        <themekey>art</themekey>
+        <themekey>children</themekey>
+        <themekey>historical society</themekey>
+        <themekey>house museum</themekey>
+        <themekey>music</themekey>
+        <themekey>science</themekey>
+        <themekey>sport</themekey>
+        <themekey>transportation</themekey>
+        <themekey>culture</themekey>
+        <themekey>cultural resources</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 9.2 shapefile format, approximately 152 Kb</native>
+    <useconst>Infrastructure--Facilities_Museums</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Street addresses for museums were obtained from various Web sites and are assumed
+to be accurate. Geocoding initially produced match scores of more than 80 percent for about 90 percent of museums.
+Locations of other museums were plotted by personnel of the Indiana
+Geological Survey using the "Editor" tool in ESRI ArcMap version 9.2, together with information obtained from
+Google searches, MapQuest (http://www.mapquest.com/maps/), and inspection of aerial photographs of the 2005
+Indiana Orthophotography Project.
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>
+Additional museums may exist that are not included. In particular, not all county-based,
+historical society museums are included.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+For match scores greater than 80 percent, plotted locations are generally within
+several hundred feet of actual locations.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>
+Addresses and Web-site URLs obtained from directories downloaded from the Web, including: Museum and Historic Site
+Directory (http://www.collectics.com/museums_indiana.html), MuseumLink's Museum of Museums (http://www.museumlink.com/indiana.htm),
+Step into Places (http://www.stepintoplaces.com/resource%20guide/Quick/Guide_IN.htm), and Historical Museum Guide for
+Indiana (http://www.censusfinder.com/indiana-historical-museums.htm#Indiana%20Museums).
+</title>
+            <geoform>Microsoft Excel spreadsheet</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital spreadsheet</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2007</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Museums_IN.xls</srccitea>
+        <srccontr>Addresses of museums</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tele Atlas</origin>
+            <pubdate>2007</pubdate>
+            <title>Dynamap 2000</title>
+            <edition>17.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Lebanon, New Hampshire</pubplace>
+              <publish>Tele Atlas</publish>
+            </pubinfo>
+            <othercit>Indiana Roads from Tele Atlas, Dynamap 2000, v. 17.0, licensed to the Indiana Geological Survey</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Indiana Roads from Tele Atlas, Dynamap 2000, v. 17.0</srccitea>
+        <srccontr>Indiana streets and roads suitable for geocoding</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The addresses for each museum were obtained by personnel of the Indiana Geological Survey (IGS)
+from various directories on the Web. The street addresses, together with Web-site URLs for each facility, were
+compiled into a spreadsheet. The spreadsheet was saved as a comma-delimited text file.
+</procdesc>
+        <srcused>Museums_IN.xls</srcused>
+        <procdate>20070529</procdate>
+        <srcprod>museums_in_csv.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel used street information licensed from Tele Atlas in ESRI ArcMap 9.2 to build an "Address Locator." Using
+the "Geocoding" tool to perform address-matching, the comma-delimited text file named "Museums_in_csv.txt" was address-matched.
+Ninety-two (92) museums were matched to known addresses. Twenty-six (26) locations were manually
+plotted using the "Editor" tool in ESRI ArcMap, as well as information obtained through Google searches, locations plotted
+by MapQuest, and inspection of aerial photographs of the 2005 Indiana Orthophotography Project. The
+output was saved as MUSEUMS_IGS_IN.SHP. In the attribute table of this shapefile, the field named "ARC_Street" was
+renamed as "GeoAddress," and the field named "Arc_Zone" was renamed as "GeoZip." The fields named "Side" and "Zip" were
+deleted.
+</procdesc>
+        <srcused>museums_in_csv.txt, Dynamap 2000, v. 17.0</srcused>
+        <procdate>20070530</procdate>
+        <srcprod>MUSEUMS_IGS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20070620</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>118</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0</absres>
+            <ordres>0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MUSEUMS_IGS_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Match status from geocoding</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>
+Originally either an "unmatched" address in batch geocoding
+or a matched address with a low (less than 80) match score. Location was subsequently plotted
+or revised by personnel of the IGS.
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>
+In batch geocoding, the address was automatically matched
+with a match score of more than 80
+</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+        <attrdef>
+In geocoding, a value is assigned to all potential candidates for an address
+match. The match score is based on how well the location found in the reference data matches
+with the address data being searched.
+</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>80</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MuseName</attrlabl>
+        <attrdef>Name of museum</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Street address obtained from the Web.</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GeoAddress</attrlabl>
+        <attrdef>
+Address using for geocoding, as obtained from the Web or through Google searches
+conducted by personnel of the Indiana Geological Survey.
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GeoZip</attrlabl>
+        <attrdef>Zip-code area of museum</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City_IN</attrlabl>
+        <attrdef>City in which museum is located</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MuseType</attrlabl>
+        <attrdef>
+Type of museum. Types include Art, Children, General, Historical
+Society, History, House Museum, Military, Music, Science, Sport, and Transportation.
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Web_Site</attrlabl>
+        <attrdef>Web URL for the museum</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+COPYRIGHT 2007, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation must be included: MUSEUMS_IGS_IN: Museums in Indiana (Indiana Geological Survey,
+Point Shapefile), digital representation by Denver Harper, 2007.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070531</metd>
+    <metrd>20070620</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1369</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

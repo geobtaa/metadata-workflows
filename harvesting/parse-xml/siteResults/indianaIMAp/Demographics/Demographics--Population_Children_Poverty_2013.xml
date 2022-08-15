@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Commerce, United States Census Bureau (creator)</origin>
+        <origin>Indiana Business Research Institute (data provider)</origin>
+        <origin>Indiana Geological Survey (processor)</origin>
+        <pubdate>20150304</pubdate>
+        <title>
+CHILDREN_POVERTY_2013_USCB_IN: Children, Ages 5 to 17, from Families in Poverty in Indiana in 2013, by 2013-2014 School District (United
+States Census Bureau, 1:500,000, Polygon Shapefile)
+</title>
+        <edition>2013 Census TIGER/Line Shapefiles</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, D. C.</pubplace>
+          <publish>United States Census Bureau</publish>
+        </pubinfo>
+        <othercit>
+The source data set named "TL_2014_18_UNSD.SHP" provided the 2013-2014 school district boundaries within Indiana, and was downloaded by
+personnel of the Indiana Geological Survey (IGS) on January 26, 2015, from the following Web page of the U. S. Department of Commerce,
+U. S. Census Bureau: http://www.census.gov/geo/maps-data/data/tiger-line.html
+
+Data regarding children in poverty (in Microsoft XLS format) for 2013 were obtained from personnel of the Indiana Business Research Center
+(Rachel Strange, Geodemographic Analyst, Managing Editor, IBRC). IBRC originally obtained the data from the following Web page of the U. S.
+Department of Commerce, U. S. Census Bureau, titled "Small Area Income and Poverty Estimates":
+http://www.census.gov/did/www/saipe/data/interactive/#
+
+Further discussion of these data, which are estimates produced under the Census Bureau's Small Area Income and Poverty Estimates (SAIPE)
+program, are provided at the following Website: http://www.census.gov/did/www/saipe/about/index.html
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+CHILDREN_POVERTY_2013_USCB_IN.SHP is a polygon shapefile showing 2013 census data showing percentages of children in poverty for each
+2013-2014 school district within Indiana. Poverty data were provided by personnel of the Indiana Business Research Center (Rachel Strange,
+Geodemographic Analyst, Managing Editor, IBRC), which were obtained from the Web page of the U. S. Department of Commerce, U. S. Census Bureau,
+titled "Small Area Income and Poverty Estimates," &lt;http://www.census.gov/did/www/saipe/data/interactive/#&gt;. Discussion of these data, which are
+estimates produced under the Census Bureau's Small Area Income and Poverty Estimates (SAIPE) program, are provided at
+&lt;http://www.census.gov/did/www/saipe/about/index.html&gt;.
+
+The following is excerpted from metata of the U.S. Census Bureau (2013-2014 School Districts) and also from the Web page
+of the SAIPE program ( http://www.census.gov/did/www/saipe/downloads/sd13/README.txt ) :
+
+"School Districts are single-purpose administrative units within which local officials provide public educational services for the area's
+residents. The Census Bureau obtains school district boundaries, names, local education agency codes, grade ranges, and school district
+levels biennially from state school officials. The Census Bureau collects this information for the primary purpose of providing the U.S.
+Department of Education with annual estimates of the number of children in poverty within each school district, county, and state. This
+information serves as the basis for the Department of Education to determine the annual allocation of Title I funding to states and school
+districts.
+
+"The 2014 TIGER/Line Shapefiles include separate shapefiles for elementary, secondary, and unified school districts. The 2014 shapefiles
+contain information from the 2013-2014 school year. The 2013-2014 school districts represent districts in operation as of January 1, 2014.
+
+"The elementary school districts provide education to the lower grade/age levels and the secondary school districts provide education to
+the upper grade/age levels. The unified school districts are districts that provide education to children of all school ages. In general,
+where there is a unified school district, no elementary or secondary school district exists (see exceptions described below), and where
+there is an elementary school district the secondary school district may or may not exist (see explanation below).
+
+"The U.S. Census Bureau's Small Area Income and Poverty Estimates (SAIPE) program provides annual estimates of income and poverty statistics
+for all school districts, counties, and states. The main objective of this program is to provide estimates of income and poverty for the
+administration of federal programs and the allocation of federal funds to local jurisdictions. In addition to these federal programs, state
+and local programs use the income and poverty estimates for distributing funds and managing programs.
+
+"The SAIPE program produces the following county and state estimates: Total number of people in poverty. Number of childer
+under age 5 in poevery (for states only). •number of related children ages 5 to 17 in families in poverty. Number of children
+under age 18 in poverty. Median household income."
+</abstract>
+      <purpose>
+CHILDREN_POVERTY_2013_USCB_IN.SHP was created to provide a GIS data layer showing percentages of children from families in poverty as
+of 2013, by 2013-2014 school districts within Indiana.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Based on information contained in technical documentation from the U.S. Census Bureau, and the SAIPE Program</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.161392</westbc>
+        <eastbc>-84.688378</eastbc>
+        <northbc>41.781127</northbc>
+        <southbc>37.755397</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Feature Identifier</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>United States Department of Commerce</themekey>
+        <themekey>United States Census Bureau (USCB)</themekey>
+        <themekey>Indiana Business Research Center (IBRC)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>school district</themekey>
+        <themekey>school</themekey>
+        <themekey>unified school district</themekey>
+        <themekey>children</themekey>
+        <themekey>poverty</themekey>
+        <themekey>census</themekey>
+        <themekey>TIGER/Line</themekey>
+        <themekey>demographic</themekey>
+        <themekey>statistical boundary</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcCatalog version 10.2 shapefile format, approximately 3.7 Mb</native>
+    <useconst>Demographics--Population_Children_Poverty_2013</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+No formal metadata in the format of the Federal Geographic Data Committee (FGDC) was provided by the U.S. Census Bureau pertaining
+to the source data for this shapefile. For a more detailed discussion of how the U.S. Census Bureau created these data, please access
+the USCB technical documents for 2014 school districts data found at the following URL: http://www.census.gov/geo/maps-data/data/tiger-line.html
+</attraccr>
+    </attracc>
+    <logic>This data set was provided by the U. S. Census Bureau and is assumed to be topologically accurate and complete.</logic>
+    <complete>This data set was provided by the U. S. Census Bureau and is assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No information was provided by the U.S. Census Bureau pertaining to the horizontal positional accuracy of the source data.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Department of Commerce, United States Census Bureau (USCB)</origin>
+            <pubdate>20150126</pubdate>
+            <title>tl_2014_18_unsd.SHP (2013-2014 Unified School Districts of Indiana from 2014 TIGER/Line shapefiles)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D. C.</pubplace>
+              <publish>USCB</publish>
+            </pubinfo>
+            <othercit>Data is from U.S.Census Bureau, 2014 TIGER/Line shapefiles.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>.ZIP file downloaded from the following URL ( http://www.census.gov/geo/maps-data/data/tiger-line.html ).</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20140101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by USCB for the source shapefile tl_2014_18_unsd.SHP.</srccurr>
+        </srctime>
+        <srccitea>tl_2014_18_unsd.SHP</srccitea>
+        <srccontr>2013-2014 Unified school districts in Indiana from 2014 TIGER/Line shapefiles</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Business Research Center (IBRC) processed SAIPE data from USCB</origin>
+            <pubdate>20140107</pubdate>
+            <title>ChildPoverty2013.xlsx (Microsoft Excel Spreadseet)</title>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Business Research Center (IBRC)</publish>
+            </pubinfo>
+            <othercit>Data is originally from the SAIPE program of the U.S.Census Bureau.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>Tabular digital data, originally obtained by IBRC from the following URL ( http://www.census.gov/did/www/saipe/data/interactive/# )</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2013</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on communications with IBRC personnel</srccurr>
+        </srctime>
+        <srccitea>ChildPoverty2013.xlsx</srccitea>
+        <srccontr>
+Estimated percentages of children in poverty in 2013, to be appended to the unified school districts districts (2013-2014 school year)
+for Indiana from the 2014 edition of the USCB TIGER/Line shapefiles.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+IGS personnel downloaded the file named "tl_2014_18_unsd.SHP" from the U.S. Census Bureau Web site for 2014 TIGER/Line Shapefiles
+( http://www.census.gov/geo/maps-data/data/tiger-line.html ). The shapefile was loaded into ESRI ArcMap 10.2 and examined
+for completeness, attribute accuracy, and spatial accuracy. The shapefile was then reprojected into the Transverse Mercator projection
+and UTM Zone 16, NAD 1983 coordinate system. The fields named "INTPTLAT," "INTPTLON," and "SDTYP" were deleted from the attribute table.
+Data from ChildPoverty2013.xlsx was then joined to the school district polygons using the field named "GEOID." The shapefile was then
+renamed "CHILDREN_POVERTY_2013_USCB_IN.SHP" to conform to the internal file-naming conventions of the IGS.
+</procdesc>
+        <srcused>tl_2014_18_unsd.SHP, ChildPoverty2013.xlsx</srcused>
+        <procdate>20150304</procdate>
+        <srcprod>CHILDREN_POVERTY_2013_USCB_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by
+Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were
+assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150311</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>291</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CHILDREN_POVERTY_2013_USCB_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Feature Identification Number</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Polygon</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEFP</attrlabl>
+        <attrdef>State FIPS Code (Indiana = 18)</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNSDLEA</attrlabl>
+        <attrdef>Unified school district local education agency code</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID</attrlabl>
+        <attrdef>School district identifier; a concatenation of the state FIPS code and unified school district local education agency code</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Unified school district name</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LSAD</attrlabl>
+        <attrdef>Legal/statistical area description code for unified school district</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOGRADE</attrlabl>
+        <attrdef>Lowest grade covered by school district</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HIGGRADE</attrlabl>
+        <attrdef>Highest grade covered by school district</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC</attrlabl>
+        <attrdef>MAF/TIGER Feature class code</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT</attrlabl>
+        <attrdef>Functional status</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALAND</attrlabl>
+        <attrdef>Census land area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWATER</attrlabl>
+        <attrdef>Census water area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRADES</attrlabl>
+        <attrdef>Range of grades the school district covers</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT_POP</attrlabl>
+        <attrdef>Total population in 2013 within the 2013-2014 school district</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1316 (one district contained no data)</rdommin>
+            <rdommax>304657</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT_CHIL</attrlabl>
+        <attrdef>Total population of school-age children in 2013 within the 2013-2014 school district</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>164 (one district contained no data)</rdommin>
+            <rdommax>49287</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHIL_POV</attrlabl>
+        <attrdef>Total population of school-age children in 2013 within the 2013-2014 school district who are in poverty</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>14 (one district contained no data)</rdommin>
+            <rdommax>20961</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PCT_POV</attrlabl>
+        <attrdef>Percentage of all school-age children in 2013 within the 2013-2014 school district who are in poverty</attrdef>
+        <attrdefs>U.S. Census Bureau Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.9 (one district contained no data)</rdommin>
+            <rdommax>49.8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the U. S. Department of Commerce, U. S. Census Bureau, the Indiana Business Research Center, and the Indiana Geological Survey
+be cited in any products generated from these data. The following source citation should be included: [CHILDREN_POVERTY_2013_USCB_IN: Children, Ages
+5 to 17, from Families in Poverty in Indiana in 2013, by 2013-2014 School District (United States Census Bureau, 1:500,000, Polygon Shapefile), 20150304].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150304</metd>
+    <metrd>20150311</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or
+summarized. IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set
+it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

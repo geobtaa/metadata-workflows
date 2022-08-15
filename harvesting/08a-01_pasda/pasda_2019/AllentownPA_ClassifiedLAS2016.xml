@@ -1,0 +1,1045 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial</origin>
+        <pubdate>2016</pubdate>
+        <title>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</title>
+        <geoform>Lidar point cloud</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20160823</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.557001119897</westbc>
+        <eastbc>-75.4113585764082</eastbc>
+        <northbc>40.6416381950144</northbc>
+        <southbc>40.5461340160323</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc>2577499.99179171</leftbc>
+        <rightbc>2617499.99180565</rightbc>
+        <topbc>484999.984121652</topbc>
+        <bottombc>449999.984109487</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+        <placekey>Lehigh County</placekey>
+        <placekey>Allentown</placekey>
+      </place>
+      <theme>
+        <themekey>Lidar</themekey>
+        <themekey>Elevation data</themekey>
+        <themekey>Hydrology</themekey>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Data Acquisition Department</cntorg>
+          <cntper>Chris Holder</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>cholder@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+		    MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System 
+		    \\PSIHQ_NX3200\Projects\Projects\27136_Allentown_USGS 3.65 GB and \\matrix\matrix\LIDAR\27136_USGS_Allentown_LiDAR_from_RCA 138 GB
+		</native>
+    <descript>
+      <abstract>AllentownPA_ClassifiedLAS2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Data cover the entire area specified for this project.</logic>
+    <complete>
+			These raw LAS data files include all data points collected.
+		    No points have been removed or excluded.
+		    A visual qualitative assessment was performed to ensure data completeness.
+		    No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.
+		</complete>
+    <posacc>
+      <vertacc>
+        <vertaccr>
+					The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 20 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.
+				</vertaccr>
+        <qvertpa>
+          <vertaccv>0.03</vertaccv>
+          <vertacce>
+						The raw NVA was tested using 20 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.016 meters (0.051 feet) and AccuracyZ to be 0.030 meters (0.100 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.
+					</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Herbert, Rowland, and Grubic, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>Control Survey Report: Allentown, PA</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Herbert, Rowland, and Grubic, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_gnd_ctrl</srccitea>
+        <srccontr>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Richard Crouse and Associates</origin>
+            <pubdate>2016</pubdate>
+            <title>Lidar RAW Data for Delaware Valley 2015</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Frederick, MD</pubplace>
+              <publish>Richard Crouse and Associates</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160326</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_Data</srccitea>
+        <srccontr>This data source was used to populate the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Herbert, Rowland, and Grubic, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>Control Survey Report: Allentown, PA</title>
+            <geoform>Lidar point cloud</geoform>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Herbert, Rowland, and Grubic, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PA_Allentown_2016_LiDAR_qc_ctrl</srccitea>
+        <srccontr>This data source was used to QC and vertically adjust the lidar point cloud data.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+					Classified LAS Processing:
+					The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points.  After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization.
+					All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality.  A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10).  All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed.  All bridge decks were classified to Class 17.
+					All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS.  The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications.
+					All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler.  Global Mapper us used as a final check of the bare earth dataset.  GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth.  Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.
+				</procdesc>
+        <srcused>PA_Allentown_2016_LiDAR_ctrl</srcused>
+        <srcused>PA_Allentown_2016_LiDAR_Data</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Classified LAS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial</cntorg>
+              <cntper>Ryan Griffin</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>523 Wellington Way</address>
+              <city>Lexington</city>
+              <state>KY</state>
+              <postal>40503</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>859-277-8700</cntvoice>
+            <cntfax>859-277-8901</cntfax>
+            <cntemail>rgriffin@quantumspatial.com</cntemail>
+            <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+            <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (Geoid 12B)</altdatum>
+        <altres>0.01</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20160826</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+          <cntper>Sarah Zibart</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>szibart@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None.</metac>
+    <metuc>None.</metuc>
+    <metsi>
+      <metscs>None.</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>NONE</metshd>
+    </metsi>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Sarah Zibart</rpIndName>
+    <rpOrgName>Quantum Spatial</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>859-277-8700</voiceNum>
+        <faxNum>859-277-8901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>523 Wellington Way</delPoint>
+        <city>Lexington</city>
+        <adminArea>KY</adminArea>
+        <postCode>40503</postCode>
+        <country>US</country>
+        <eMailAdd>szibart@quantumspatial.com</eMailAdd>
+      </cntAddress>
+      <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+      <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20160826</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USGS QL1 LiDAR for Allentown, PA 2016 - Classified LAS</resTitle>
+      <date>
+        <pubDate>2016-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Quantum Spatial</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Geographic Extent: Allentown, Pennsylvania, covering approximately 20 square miles in eastern Pennsylvania. Dataset Description: Allentown, Pennsylvania 2016 QL1 LiDAR project called for the planning, acquisition, processing, and production of products derivative of LIDAR data to be collected at a nominal pulse spacing (NPS) of 0.35 meters. Project specifications are based on the U.S. Geological Survey National Geospatial Program Base LIDAR Specification, Version 1.2. The data was developed based on a horizontal projection/datum of NAD83 (2011) State Plane Pennsylvania South Zone, US survey feet and vertical datum of NAVD1988 (GEOID 12B), US survey feet. LiDAR data was delivered in RAW flight line swath format, processed to create Classified LAS 1.4 Files formatted to 129 individual 2,500-foot X 2,500-foot tiles, 1-foot hydro-flattened bare-earth raster DEMs in ERDAS .IMG format and intensity images in GeoTIFF format, tiled to the same 2,500-foot X 2,500-foot tile schema. Hydro-flattened breaklines were produced in Esri file geodatabase format. A mosaic of the hydro-flattened bare-earth raster DEMs was produced in ERDAS .IMG format. Ground Conditions: LiDAR was collected in spring of 2016, while no snow was on the ground and rivers were at or below normal levels. In order to post process the LiDAR data to meet task order specifications, A total of 18 calibration control points in order to calibrate the LIDAR to known ground locations established throughout the project area. The accuracy of the data was checked with 20 NVA points and 5 VVA points (25 total QC checkpoints).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>Classified LAS files are used to show the manually reviewed bare earth surface. This allows the user to create Breaklines and Raster DEMs. The purpose of these lidar data was to produce high accuracy 3D hydro-flattened Digital Elevation Model (DEM) with a 1-foot cell size. These raw lidar point cloud data were used to create classified lidar LAS files, 3D breaklines, and hydro-flattened DEMs as necessary.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Chris Holder</rpIndName>
+      <rpOrgName>Quantum Spatial, Data Acquisition Department</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>859-277-8700</voiceNum>
+          <faxNum>859-277-8901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>523 Wellington Way</delPoint>
+          <city>Lexington</city>
+          <adminArea>KY</adminArea>
+          <postCode>40503</postCode>
+          <country>US</country>
+          <eMailAdd>cholder@quantumspatial.com</eMailAdd>
+        </cntAddress>
+        <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+        <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>PA</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>US</keyword>
+      <keyword>United States</keyword>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+      <keyword>Hydrology</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>PA</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>Lidar</keyword>
+      <keyword>Elevation data</keyword>
+      <keyword>US</keyword>
+      <keyword>Hydrology</keyword>
+      <keyword>United States</keyword>
+      <keyword>Pennsylvania</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <othConsts>No restrictions apply to this data.</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>MicroStation Version 8; TerraScan Version 15; TerraModeler Version 15; GeoCue Version 2014.1.21.1; ESRI ArcGIS 10.2; Global Mapper 16; Leica Cloud Pro 1.2; Windows 7 Operating System \\PSIHQ_NX3200\Projects\Projects\27136_Allentown_USGS 3.65 GB and \\matrix\matrix\LIDAR\27136_USGS_Allentown_LiDAR_from_RCA 138 GB</envirDesc>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2016-08-23</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.557001119897</westBL>
+          <eastBL>-75.4113585764082</eastBL>
+          <southBL>40.5461340160323</southBL>
+          <northBL>40.6416381950144</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <suppInfo>USGS Contract: G16PC00016 Task Order Number: G16PD00442 CONTRACTOR: Quantum Spatial Quantum Spatial used LiDAR data acquired by Richard Crouse, and Associates with control collected by Herbert, Rowland, and Grubic, Inc. All follow-on processing was completed by the prime contractor.</suppInfo>
+    <tpCat>
+      <TopicCatCd value="006" />
+    </tpCat>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>None.</classSys>
+      <handDesc>NONE</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Data cover the entire area specified for this project.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>These raw LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Nonvegetated Vertical Accuracy specifications.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>The specifications require that only raw Nonvegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud swath files. The raw NVA was tested with 20 independent survey points distributed throughout the project area and located in open terrain. These checkpoints were not used in the calibration or post-processing of the lidar point cloud data. Specifications for this project require that the raw NVA be 19.6 cm or better AccuracyZ at 95 percent confidence level.</measDesc>
+      <evalMethDesc>The raw NVA was tested using 20 independent survey points located in open terrain. The surveyed checkpoints were distributed throughout the project area and surveyed using GNSS procedures and methodologies that provide reliable and consistent results to meet the project's accuracy requirements. Please see the Survey Report for more information. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the unclassified lidar surface were then compared to the elevation values of the surveyed control. The RMSEz was computed to be 0.016 meters (0.051 feet) and AccuracyZ to be 0.030 meters (0.100 feet). This meets the required AccuracyZ value of 19.6 cm raw NVA at 95 percent confidence level using (RMSEz * 1.9600) as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASPRS Guidelines.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.03</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>This data source was used to populate the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Lidar RAW Data for Delaware Valley 2015</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Frederick, MD</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-03-26</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used (along with the airborne GPS/IMU Data) to aid in the georeferencing of the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report: Allentown, PA</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_gnd_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Harrisburg, PA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>This data source was used to QC and vertically adjust the lidar point cloud data.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Control Survey Report: Allentown, PA</resTitle>
+          <resAltTitle>PA_Allentown_2016_LiDAR_qc_ctrl</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Harrisburg, PA</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>Lidar point cloud</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Classified LAS Processing: The bare earth surface is then manually reviewed to ensure correct classification on the Class 2 (Ground) points. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization. All ground (ASPRS Class 2) LiDAR data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were then classified to water (ASPRS Class 9) using TerraScan macro functionality. A buffer of 3 feet was also used around each hydro-flattened feature to classify these ground (ASPRS Class 2) points to Ignored ground (ASPRS Class 10). All Lake Pond Island and Double Line Drain Island features were checked to ensure that the ground (ASPRS Class 2) points were reclassified to the correct classification after the automated classification was completed. All bridge decks were classified to Class 17. All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes by USGS. The overlap data was identified using the Overlap Flag, per LAS 1.4 specifications. All data was manually reviewed and any remaining artifacts removed using functionality provided by TerraScan and TerraModeler. Global Mapper us used as a final check of the bare earth dataset. GeoCue was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data and the Bare Earth. Quantum Spatial proprietary software was used to perform final statistical analysis of the classes in the LAS files, on a per tile level to verify final classification metrics and full LAS header information.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepProc>
+          <rpIndName>Ryan Griffin</rpIndName>
+          <rpOrgName>Quantum Spatial</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>859-277-8700</voiceNum>
+              <faxNum>859-277-8901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>523 Wellington Way</delPoint>
+              <city>Lexington</city>
+              <adminArea>KY</adminArea>
+              <postCode>40503</postCode>
+              <country>US</country>
+              <eMailAdd>rgriffin@quantumspatial.com</eMailAdd>
+            </cntAddress>
+            <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+            <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_Allentown_2016_LiDAR_Data</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>PA_Allentown_2016_LiDAR_ctrl</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Classified LAS</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="004" />
+        </geoObjTyp>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170221</CreaDate>
+    <CreaTime>09362100</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ModDate>20170221</ModDate>
+    <ModTime>9555300</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="6a1973137fafc7bf16574d2eeaeef8d" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTY8L3B1YmRhdGU+
+DQogICAgICAgIDx0aXRsZT4NCgkJCQkgICAgQWxsZW50b3duLCBQQSAyMDE2IFFMMSBMaURBUg0K
+CQkJCSAgICBVU0dTIENvbnRyYWN0OiBHMTZQQzAwMDE2ICBUYXNrIE9yZGVyIE51bWJlcjogRzE2
+UEQwMDQ0Mg0KCQkJCSAgICBQQV9BbGxlbnRvd25fMjAxNg0KCQkJCTwvdGl0bGU+DQogICAgICAg
+IDxnZW9mb3JtPkxpZGFyIHBvaW50IGNsb3VkPC9nZW9mb3JtPg0KICAgICAgPC9jaXRlaW5mbz4N
+CiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD4NCgkJCQlH
+ZW9ncmFwaGljIEV4dGVudDogQWxsZW50b3duLCBQZW5uc3lsdmFuaWEsIGNvdmVyaW5nIGFwcHJv
+eGltYXRlbHkgMjAgc3F1YXJlIG1pbGVzIGluIGVhc3Rlcm4gUGVubnN5bHZhbmlhLiAgICAgDQoJ
+CQkJRGF0YXNldCBEZXNjcmlwdGlvbjogQWxsZW50b3duLCBQZW5uc3lsdmFuaWEgMjAxNiBRTDEg
+TGlEQVIgcHJvamVjdCBjYWxsZWQgZm9yIHRoZSBwbGFubmluZywgYWNxdWlzaXRpb24sIHByb2Nl
+c3NpbmcsIGFuZCBwcm9kdWN0aW9uIG9mIHByb2R1Y3RzIGRlcml2YXRpdmUgb2YgTElEQVIgZGF0
+YSB0byBiZSBjb2xsZWN0ZWQgYXQgYSBub21pbmFsIHB1bHNlIHNwYWNpbmcgKE5QUykgb2YgMC4z
+NSBtZXRlcnMuICBQcm9qZWN0IHNwZWNpZmljYXRpb25zIGFyZSBiYXNlZCBvbiB0aGUgVS5TLiBH
+ZW9sb2dpY2FsIFN1cnZleSBOYXRpb25hbCBHZW9zcGF0aWFsIFByb2dyYW0gQmFzZSBMSURBUiBT
+cGVjaWZpY2F0aW9uLCBWZXJzaW9uIDEuMi4gIFRoZSBkYXRhIHdhcyBkZXZlbG9wZWQgYmFzZWQg
+b24gYSBob3Jpem9udGFsIHByb2plY3Rpb24vZGF0dW0gb2YgTkFEODMgKDIwMTEpIFN0YXRlIFBs
+YW5lIFBlbm5zeWx2YW5pYSBTb3V0aCBab25lLCBVUyBzdXJ2ZXkgZmVldCBhbmQgdmVydGljYWwg
+ZGF0dW0gb2YgTkFWRDE5ODggKEdFT0lEIDEyQiksIFVTIHN1cnZleSBmZWV0LiAgTGlEQVIgZGF0
+YSB3YXMgZGVsaXZlcmVkIGluIFJBVyBmbGlnaHQgbGluZSBzd2F0aCBmb3JtYXQsIHByb2Nlc3Nl
+ZCB0byBjcmVhdGUgQ2xhc3NpZmllZCBMQVMgMS40IEZpbGVzIGZvcm1hdHRlZCB0byAxMjkgaW5k
+aXZpZHVhbCAyLDUwMC1mb290IFggMiw1MDAtZm9vdCB0aWxlcywgMS1mb290IGh5ZHJvLWZsYXR0
+ZW5lZCBiYXJlLWVhcnRoIHJhc3RlciBERU1zIGluIEVSREFTIC5JTUcgZm9ybWF0IGFuZCBpbnRl
+bnNpdHkgaW1hZ2VzIGluIEdlb1RJRkYgZm9ybWF0LCB0aWxlZCB0byB0aGUgc2FtZSAyLDUwMC1m
+b290IFggMiw1MDAtZm9vdCB0aWxlIHNjaGVtYS4gSHlkcm8tZmxhdHRlbmVkIGJyZWFrbGluZXMg
+d2VyZSBwcm9kdWNlZCBpbiBFc3JpIGZpbGUgZ2VvZGF0YWJhc2UgZm9ybWF0LiBBIG1vc2FpYyBv
+ZiB0aGUgaHlkcm8tZmxhdHRlbmVkIGJhcmUtZWFydGggcmFzdGVyIERFTXMgd2FzIHByb2R1Y2Vk
+IGluIEVSREFTIC5JTUcgZm9ybWF0Lg0KCQkJCUdyb3VuZCBDb25kaXRpb25zOiBMaURBUiB3YXMg
+Y29sbGVjdGVkIGluIHNwcmluZyBvZiAyMDE2LCB3aGlsZSBubyBzbm93IHdhcyBvbiB0aGUgZ3Jv
+dW5kIGFuZCByaXZlcnMgd2VyZSBhdCBvciBiZWxvdyBub3JtYWwgbGV2ZWxzLiAgSW4gb3JkZXIg
+dG8gcG9zdCBwcm9jZXNzIHRoZSBMaURBUiBkYXRhIHRvIG1lZXQgdGFzayBvcmRlciBzcGVjaWZp
+Y2F0aW9ucywgQSB0b3RhbCBvZiAxOCBjYWxpYnJhdGlvbiBjb250cm9sIHBvaW50cyBpbiBvcmRl
+ciB0byBjYWxpYnJhdGUgdGhlIExJREFSIHRvIGtub3duIGdyb3VuZCBsb2NhdGlvbnMgZXN0YWJs
+aXNoZWQgdGhyb3VnaG91dCB0aGUgcHJvamVjdCBhcmVhLiAgVGhlIGFjY3VyYWN5IG9mIHRoZSBk
+YXRhIHdhcyBjaGVja2VkIHdpdGggMjAgTlZBIHBvaW50cyBhbmQgNSBWVkEgcG9pbnRzICgyNSB0
+b3RhbCBRQyBjaGVja3BvaW50cykuDQoJCQk8L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+DQoJ
+CQkJQ2xhc3NpZmllZCBMQVMgZmlsZXMgYXJlIHVzZWQgdG8gc2hvdyB0aGUgbWFudWFsbHkgcmV2
+aWV3ZWQgYmFyZSBlYXJ0aCBzdXJmYWNlLiAgVGhpcyBhbGxvd3MgdGhlIHVzZXIgdG8gY3JlYXRl
+IEJyZWFrbGluZXMgYW5kIFJhc3RlciBERU1zLiANCgkJCQlUaGUgcHVycG9zZSBvZiB0aGVzZSBs
+aWRhciBkYXRhIHdhcyB0byBwcm9kdWNlIGhpZ2ggYWNjdXJhY3kgM0QgaHlkcm8tZmxhdHRlbmVk
+IERpZ2l0YWwgRWxldmF0aW9uIE1vZGVsIChERU0pIHdpdGggYSAxLWZvb3QgY2VsbCBzaXplLg0K
+CQkJCVRoZXNlIHJhdyBsaWRhciBwb2ludCBjbG91ZCBkYXRhIHdlcmUgdXNlZCB0byBjcmVhdGUg
+Y2xhc3NpZmllZCBsaWRhciBMQVMgZmlsZXMsIDNEIGJyZWFrbGluZXMsIGFuZCBoeWRyby1mbGF0
+dGVuZWQgREVNcyBhcyBuZWNlc3NhcnkuDQoJCQk8L3B1cnBvc2U+DQogICAgICA8bGlkYXI+DQog
+ICAgICAgIDxsZHJpbmZvPg0KICAgICAgICAgIDxsZHJzcGVjPlVTR1MtTkdQIEJhc2UgTGlkYXIg
+U3BlY2lmaWNhdGlvbiB2MS4yPC9sZHJzcGVjPg0KICAgICAgICAgIDxsZHJzZW5zPlJpZWdsIExN
+UyA2ODBpPC9sZHJzZW5zPg0KICAgICAgICAgIDxsZHJtYXhucj4yPC9sZHJtYXhucj4NCiAgICAg
+ICAgICA8bGRybnBzPjAuMzU8L2xkcm5wcz4NCiAgICAgICAgICA8bGRyZGVucz44LjAwPC9sZHJk
+ZW5zPg0KICAgICAgICAgIDxsZHJhbnBzPjAuMzU8L2xkcmFucHM+DQogICAgICAgICAgPGxkcmFk
+ZW5zPjguMDA8L2xkcmFkZW5zPg0KICAgICAgICAgIDxsZHJmbHRodD40ODcuNjg8L2xkcmZsdGh0
+Pg0KICAgICAgICAgIDxsZHJmbHRzcD4xMjU8L2xkcmZsdHNwPg0KICAgICAgICAgIDxsZHJzY2Fu
+YT42MDwvbGRyc2NhbmE+DQogICAgICAgICAgPGxkcnNjYW5yPjQwMDwvbGRyc2NhbnI+DQogICAg
+ICAgICAgPGxkcnB1bHNyPjQwMDwvbGRycHVsc3I+DQogICAgICAgICAgPGxkcnB1bHNkPjQ8L2xk
+cnB1bHNkPg0KICAgICAgICAgIDxsZHJwdWxzdz4wLjI0PC9sZHJwdWxzdz4NCiAgICAgICAgICA8
+bGRyd2F2ZWw+MTU1MDwvbGRyd2F2ZWw+DQogICAgICAgICAgPGxkcm1waWE+MTwvbGRybXBpYT4N
+CiAgICAgICAgICA8bGRyYm1kaXY+MC41PC9sZHJibWRpdj4NCiAgICAgICAgICA8bGRyc3dhdHc+
+NTYzLjEyPC9sZHJzd2F0dz4NCiAgICAgICAgICA8bGRyc3dhdG8+MzU8L2xkcnN3YXRvPg0KICAg
+ICAgICAgIDxsZHJnZW9pZD5nMjAxMmJ1MC5iaW48L2xkcmdlb2lkPg0KICAgICAgICA8L2xkcmlu
+Zm8+DQogICAgICAgIDxsZHJhY2N1cj4NCiAgICAgICAgICA8bGRyY2hhY2M+MC4xOTY8L2xkcmNo
+YWNjPg0KICAgICAgICAgIDxyYXdudmE+MC4wMTY8L3Jhd252YT4NCiAgICAgICAgICA8IS0tbWV0
+ZXJzOyByYXcgTlZBIEFjY3VyYWN5WiBhdCA5NSBwZXJjZW50IENvbmZpZGVuY2UgSW50ZXJ2YWwt
+LT4NCiAgICAgICAgICA8cmF3bnZhbj4yMDwvcmF3bnZhbj4NCiAgICAgICAgICA8Y2xzbnZhPjAu
+MDE3PC9jbHNudmE+DQogICAgICAgICAgPCEtLW1ldGVyczsgTlZBIEFjY3VyYWN5WiBhdCA5NSBw
+ZXJjZW50IENvbmZpZGVuY2UgSW50ZXJ2YWwtLT4NCiAgICAgICAgICA8Y2xzbnZhbj4yMDwvY2xz
+bnZhbj4NCiAgICAgICAgICA8Y2xzdnZhPjAuMDQ1PC9jbHN2dmE+DQogICAgICAgICAgPCEtLW1l
+dGVyczsgVlZBIEFjY3VyYWN5WiBhdCA5NXRoIHBlcmNlbnRpbGUtLT4NCiAgICAgICAgICA8Y2xz
+dnZhbj41PC9jbHN2dmFuPg0KICAgICAgICA8L2xkcmFjY3VyPg0KICAgICAgICA8bGFzaW5mbz4N
+CiAgICAgICAgICA8bGFzdmVyPjEuNDwvbGFzdmVyPg0KICAgICAgICAgIDxsYXNwcmY+NjwvbGFz
+cHJmPg0KICAgICAgICAgIDxsYXN3aGVsZD5XaXRoaGVsZCAoaWdub3JlKSBwb2ludHMgd2VyZSBp
+ZGVudGlmaWVkIGluIHRoZXNlIGZpbGVzIHVzaW5nIHRoZSBzdGFuZGFyZCBMQVMgV2l0aGhlbGQg
+Yml0PC9sYXN3aGVsZD4NCiAgICAgICAgICA8bGFzb2xhcD5Td2F0aCAib3ZlcmFnZSIgcG9pbnRz
+IHdlcmUgaWRlbnRpZmllZCBpbiB0aGVzZSBmaWxlcyB1c2luZyB0aGUgc3RhbmRhcmQgTEFTIG92
+ZXJsYXAgYml0PC9sYXNvbGFwPg0KICAgICAgICAgIDxsYXNpbnRyPjE2LWJpdDwvbGFzaW50cj4N
+CiAgICAgICAgICA8bGFzY2xhc3M+DQogICAgICAgICAgICA8Y2xhc2NvZGU+MTwvY2xhc2NvZGU+
+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+UHJvY2Vzc2VkIGJ1dCB1bmNsYXNzaWZpZWQ8L2NsYXNp
+dGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAg
+ICAgICAgPGNsYXNjb2RlPjI8L2NsYXNjb2RlPg0KICAgICAgICAgICAgPGNsYXNpdGVtPkJhcmUg
+ZWFydGggZ3JvdW5kPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xhc2NsYXNzPg0KICAgICAgICAg
+IDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT43PC9jbGFzY29kZT4NCiAgICAgICAg
+ICAgIDxjbGFzaXRlbT5Mb3cgbm9pc2U8L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+
+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAgICAgICAgPGNsYXNjb2RlPjk8L2NsYXNjb2Rl
+Pg0KICAgICAgICAgICAgPGNsYXNpdGVtPldhdGVyPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xh
+c2NsYXNzPg0KICAgICAgICAgIDxsYXNjbGFzcz4NCiAgICAgICAgICAgIDxjbGFzY29kZT4xMDwv
+Y2xhc2NvZGU+DQogICAgICAgICAgICA8Y2xhc2l0ZW0+SWdub3JlZCBHcm91bmQ8L2NsYXNpdGVt
+Pg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2NsYXNzPg0KICAgICAgICAg
+ICAgPGNsYXNjb2RlPjE3PC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxjbGFzaXRlbT5CcmlkZ2Ug
+RGVja3M8L2NsYXNpdGVtPg0KICAgICAgICAgIDwvbGFzY2xhc3M+DQogICAgICAgICAgPGxhc2Ns
+YXNzPg0KICAgICAgICAgICAgPGNsYXNjb2RlPjE4PC9jbGFzY29kZT4NCiAgICAgICAgICAgIDxj
+bGFzaXRlbT5IaWdoIG5vaXNlPC9jbGFzaXRlbT4NCiAgICAgICAgICA8L2xhc2NsYXNzPg0KICAg
+ICAgICA8L2xhc2luZm8+DQogICAgICA8L2xpZGFyPg0KICAgICAgPHN1cHBsaW5mPg0KCQkJCVVT
+R1MgQ29udHJhY3Q6IEcxNlBDMDAwMTYgIFRhc2sgT3JkZXIgTnVtYmVyOiBHMTZQRDAwNDQyDQoJ
+CQkgICAgQ09OVFJBQ1RPUjogUXVhbnR1bSBTcGF0aWFsDQoJCQkgICAgUXVhbnR1bSBTcGF0aWFs
+IHVzZWQgTGlEQVIgZGF0YSBhY3F1aXJlZCBieSBSaWNoYXJkIENyb3VzZSwgYW5kIEFzc29jaWF0
+ZXMgd2l0aCBjb250cm9sIGNvbGxlY3RlZCBieSBIZXJiZXJ0LCBSb3dsYW5kLCBhbmQgR3J1Ymlj
+LCBJbmMuIA0KCQkJICAgIEFsbCBmb2xsb3ctb24gcHJvY2Vzc2luZyB3YXMgY29tcGxldGVkIGJ5
+IHRoZSBwcmltZSBjb250cmFjdG9yLg0KCQkJPC9zdXBwbGluZj4NCiAgICA8L2Rlc2NyaXB0Pg0K
+ICAgIDx0aW1lcGVyZD4NCiAgICAgIDx0aW1laW5mbz4NCiAgICAgICAgPHNuZ2RhdGU+DQogICAg
+ICAgICAgPGNhbGRhdGU+MjAxNjA4MjM8L2NhbGRhdGU+DQogICAgICAgIDwvc25nZGF0ZT4NCiAg
+ICAgIDwvdGltZWluZm8+DQogICAgICA8Y3VycmVudD5ncm91bmQgY29uZGl0aW9uPC9jdXJyZW50
+Pg0KICAgIDwvdGltZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5Db21wbGV0
+ZTwvcHJvZ3Jlc3M+DQogICAgICA8dXBkYXRlPk5vbmUgcGxhbm5lZDwvdXBkYXRlPg0KICAgIDwv
+c3RhdHVzPg0KICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4NCiAgICAgICAgPHdlc3RiYz4t
+NzUuNTU3MDAxMTE5ODk3PC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+LTc1LjQxMTM1ODU3NjQw
+ODI8L2Vhc3RiYz4NCiAgICAgICAgPG5vcnRoYmM+NDAuNjQxNjM4MTk1MDE0NDwvbm9ydGhiYz4N
+CiAgICAgICAgPHNvdXRoYmM+NDAuNTQ2MTM0MDE2MDMyMzwvc291dGhiYz4NCiAgICAgIDwvYm91
+bmRpbmc+DQogICAgICA8bGJvdW5kbmc+DQogICAgICAgIDxsZWZ0YmM+MjU3NzQ5OS45OTE3OTE3
+MTwvbGVmdGJjPg0KICAgICAgICA8cmlnaHRiYz4yNjE3NDk5Ljk5MTgwNTY1PC9yaWdodGJjPg0K
+ICAgICAgICA8dG9wYmM+NDg0OTk5Ljk4NDEyMTY1MjwvdG9wYmM+DQogICAgICAgIDxib3R0b21i
+Yz40NDk5OTkuOTg0MTA5NDg3PC9ib3R0b21iYz4NCiAgICAgIDwvbGJvdW5kbmc+DQogICAgPC9z
+cGRvbT4NCiAgICA8a2V5d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0Pk5v
+bmU8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5FbGV2YXRpb24gZGF0YTwvdGhlbWVrZXk+
+DQogICAgICAgIDx0aGVtZWtleT5MaWRhcjwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5I
+eWRyb2xvZ3k8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAgICAg
+ICAgPHBsYWNla3Q+Tm9uZTwvcGxhY2VrdD4NCiAgICAgICAgPHBsYWNla2V5PlVuaXRlZCBTdGF0
+ZXM8L3BsYWNla2V5Pg0KICAgICAgICA8cGxhY2VrZXk+VVM8L3BsYWNla2V5Pg0KICAgICAgICA8
+cGxhY2VrZXk+UGVubnN5bHZhbmlhPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlBBPC9w
+bGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkxlaGlnaCBDb3VudHk8L3BsYWNla2V5Pg0KICAg
+ICAgICA8cGxhY2VrZXk+QWxsZW50b3duPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAg
+PC9rZXl3b3Jkcz4NCiAgICA8YWNjY29uc3Q+Tm8gcmVzdHJpY3Rpb25zIGFwcGx5IHRvIHRoaXMg
+ZGF0YS48L2FjY2NvbnN0Pg0KICAgIDx1c2Vjb25zdD5Ob25lLiBIb3dldmVyLCB1c2VycyBzaG91
+bGQgYmUgYXdhcmUgdGhhdCB0ZW1wb3JhbCBjaGFuZ2VzIG1heSBoYXZlIG9jY3VycmVkIHNpbmNl
+IHRoaXMgZGF0YXNldCB3YXMgY29sbGVjdGVkIGFuZCB0aGF0IHNvbWUgcGFydHMgb2YgdGhlc2Ug
+ZGF0YSBtYXkgbm8gbG9uZ2VyIHJlcHJlc2VudCBhY3R1YWwgc3VyZmFjZSBjb25kaXRpb25zLiBV
+c2VycyBzaG91bGQgbm90IHVzZSB0aGVzZSBkYXRhIGZvciBjcml0aWNhbCBhcHBsaWNhdGlvbnMg
+d2l0aG91dCBhIGZ1bGwgYXdhcmVuZXNzIG9mIGl0cyBsaW1pdGF0aW9ucy4gQWNrbm93bGVkZ2Vt
+ZW50IG9mIHRoZSBVLlMuIEdlb2xvZ2ljYWwgU3VydmV5IHdvdWxkIGJlIGFwcHJlY2lhdGVkIGZv
+ciBwcm9kdWN0cyBkZXJpdmVkIGZyb20gdGhlc2UgZGF0YS48L3VzZWNvbnN0Pg0KICAgIDxwdGNv
+bnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250
+b3JnPlF1YW50dW0gU3BhdGlhbCwgRGF0YSBBY3F1aXNpdGlvbiBEZXBhcnRtZW50PC9jbnRvcmc+
+DQogICAgICAgICAgPGNudHBlcj5DaHJpcyBIb2xkZXI8L2NudHBlcj4NCiAgICAgICAgPC9jbnRv
+cmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQg
+cGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjUyMyBXZWxsaW5ndG9uIFdh
+eTwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5MZXhpbmd0b248L2NpdHk+DQogICAgICAgICAg
+PHN0YXRlPktZPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjQwNTAzPC9wb3N0YWw+DQogICAg
+ICAgICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAg
+IDxjbnR2b2ljZT44NTktMjc3LTg3MDA8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4Pjg1OS0y
+NzctODkwMTwvY250ZmF4Pg0KICAgICAgICA8Y250ZW1haWw+Y2hvbGRlckBxdWFudHVtc3BhdGlh
+bC5jb208L2NudGVtYWlsPg0KICAgICAgICA8aG91cnM+TW9uZGF5IHRocm91Z2ggRnJpZGF5IDg6
+MDAgQU0gdG8gNTowMCBQTSAoRWFzdGVybiBUaW1lKTwvaG91cnM+DQogICAgICAgIDxjbnRpbnN0
+PklmIHVuYWJsZSB0byByZWFjaCB0aGUgY29udGFjdCBieSB0ZWxlcGhvbmUsIHBsZWFzZSBzZW5k
+IGFuIGVtYWlsLiBZb3Ugc2hvdWxkIGdldCBhIHJlc3BvbnNlIHdpdGhpbiAyNCBob3Vycy48L2Nu
+dGluc3Q+DQogICAgICA8L2NudGluZm8+DQogICAgPC9wdGNvbnRhYz4NCiAgICA8bmF0aXZlPg0K
+CQkgICAgTWljcm9TdGF0aW9uIFZlcnNpb24gODsgVGVycmFTY2FuIFZlcnNpb24gMTU7IFRlcnJh
+TW9kZWxlciBWZXJzaW9uIDE1OyBHZW9DdWUgVmVyc2lvbiAyMDE0LjEuMjEuMTsgRVNSSSBBcmNH
+SVMgMTAuMjsgR2xvYmFsIE1hcHBlciAxNjsgTGVpY2EgQ2xvdWQgUHJvIDEuMjsgV2luZG93cyA3
+IE9wZXJhdGluZyBTeXN0ZW0gDQoJCSAgICBcXFBTSUhRX05YMzIwMFxQcm9qZWN0c1xQcm9qZWN0
+c1wyNzEzNl9BbGxlbnRvd25fVVNHUyAzLjY1IEdCIGFuZCBcXG1hdHJpeFxtYXRyaXhcTElEQVJc
+MjcxMzZfVVNHU19BbGxlbnRvd25fTGlEQVJfZnJvbV9SQ0EgMTM4IEdCDQoJCTwvbmF0aXZlPg0K
+ICA8L2lkaW5mbz4NCiAgPGRhdGFxdWFsPg0KICAgIDxsb2dpYz5EYXRhIGNvdmVyIHRoZSBlbnRp
+cmUgYXJlYSBzcGVjaWZpZWQgZm9yIHRoaXMgcHJvamVjdC48L2xvZ2ljPg0KICAgIDxjb21wbGV0
+ZT4NCgkJCVRoZXNlIHJhdyBMQVMgZGF0YSBmaWxlcyBpbmNsdWRlIGFsbCBkYXRhIHBvaW50cyBj
+b2xsZWN0ZWQuDQoJCSAgICBObyBwb2ludHMgaGF2ZSBiZWVuIHJlbW92ZWQgb3IgZXhjbHVkZWQu
+DQoJCSAgICBBIHZpc3VhbCBxdWFsaXRhdGl2ZSBhc3Nlc3NtZW50IHdhcyBwZXJmb3JtZWQgdG8g
+ZW5zdXJlIGRhdGEgY29tcGxldGVuZXNzLg0KCQkgICAgTm8gdm9pZCBhcmVhcyBvciBtaXNzaW5n
+IGRhdGEgZXhpc3QuIFRoZSByYXcgcG9pbnQgY2xvdWQgaXMgb2YgZ29vZCBxdWFsaXR5IGFuZCBk
+YXRhIHBhc3NlcyBOb252ZWdldGF0ZWQgVmVydGljYWwgQWNjdXJhY3kgc3BlY2lmaWNhdGlvbnMu
+DQoJCTwvY29tcGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDx2ZXJ0YWNjPg0KICAgICAgICA8
+dmVydGFjY3I+DQoJCQkJCVRoZSBzcGVjaWZpY2F0aW9ucyByZXF1aXJlIHRoYXQgb25seSByYXcg
+Tm9udmVnZXRhdGVkIFZlcnRpY2FsIEFjY3VyYWN5IChOVkEpIGJlIGNvbXB1dGVkIGZvciByYXcg
+bGlkYXIgcG9pbnQgY2xvdWQgc3dhdGggZmlsZXMuIFRoZSByYXcgTlZBIHdhcyB0ZXN0ZWQgd2l0
+aCAyMCBpbmRlcGVuZGVudCBzdXJ2ZXkgcG9pbnRzIGRpc3RyaWJ1dGVkIHRocm91Z2hvdXQgdGhl
+IHByb2plY3QgYXJlYSBhbmQgbG9jYXRlZCBpbiBvcGVuIHRlcnJhaW4uIFRoZXNlIGNoZWNrcG9p
+bnRzIHdlcmUgbm90IHVzZWQgaW4gdGhlIGNhbGlicmF0aW9uIG9yIHBvc3QtcHJvY2Vzc2luZyBv
+ZiB0aGUgbGlkYXIgcG9pbnQgY2xvdWQgZGF0YS4gU3BlY2lmaWNhdGlvbnMgZm9yIHRoaXMgcHJv
+amVjdCByZXF1aXJlIHRoYXQgdGhlIHJhdyBOVkEgYmUgMTkuNiBjbSBvciBiZXR0ZXIgQWNjdXJh
+Y3laIGF0IDk1IHBlcmNlbnQgY29uZmlkZW5jZSBsZXZlbC4NCgkJCQk8L3ZlcnRhY2NyPg0KICAg
+ICAgICA8cXZlcnRwYT4NCiAgICAgICAgICA8dmVydGFjY3Y+MC4wMzwhLS1tZXRlcnM7IHJhdyBO
+VkEgYXQgOTUgcGVyY2VudCBDb25maWRlbmNlIEludGVydmFsLS0+PC92ZXJ0YWNjdj4NCiAgICAg
+ICAgICA8dmVydGFjY2U+DQoJCQkJCQlUaGUgcmF3IE5WQSB3YXMgdGVzdGVkIHVzaW5nIDIwIGlu
+ZGVwZW5kZW50IHN1cnZleSBwb2ludHMgbG9jYXRlZCBpbiBvcGVuIHRlcnJhaW4uIFRoZSBzdXJ2
+ZXllZCBjaGVja3BvaW50cyB3ZXJlIGRpc3RyaWJ1dGVkIHRocm91Z2hvdXQgdGhlIHByb2plY3Qg
+YXJlYSBhbmQgc3VydmV5ZWQgdXNpbmcgR05TUyBwcm9jZWR1cmVzIGFuZCBtZXRob2RvbG9naWVz
+IHRoYXQgcHJvdmlkZSByZWxpYWJsZSBhbmQgY29uc2lzdGVudCByZXN1bHRzIHRvIG1lZXQgdGhl
+IHByb2plY3QncyBhY2N1cmFjeSByZXF1aXJlbWVudHMuIFBsZWFzZSBzZWUgdGhlIFN1cnZleSBS
+ZXBvcnQgZm9yIG1vcmUgaW5mb3JtYXRpb24uIEVsZXZhdGlvbnMgZnJvbSB0aGUgdW5jbGFzc2lm
+aWVkIGxpZGFyIHN1cmZhY2Ugd2VyZSBtZWFzdXJlZCBmb3IgdGhlIHgseSBsb2NhdGlvbiBvZiBl
+YWNoIGNoZWNrIHBvaW50LiBFbGV2YXRpb25zIGludGVycG9sYXRlZCBmcm9tIHRoZSB1bmNsYXNz
+aWZpZWQgbGlkYXIgc3VyZmFjZSB3ZXJlIHRoZW4gY29tcGFyZWQgdG8gdGhlIGVsZXZhdGlvbiB2
+YWx1ZXMgb2YgdGhlIHN1cnZleWVkIGNvbnRyb2wuIFRoZSBSTVNFeiB3YXMgY29tcHV0ZWQgdG8g
+YmUgMC4wMTYgbWV0ZXJzICgwLjA1MSBmZWV0KSBhbmQgQWNjdXJhY3laIHRvIGJlIDAuMDMwIG1l
+dGVycyAoMC4xMDAgZmVldCkuIFRoaXMgbWVldHMgdGhlIHJlcXVpcmVkIEFjY3VyYWN5WiB2YWx1
+ZSBvZiAxOS42IGNtIHJhdyBOVkEgYXQgOTUgcGVyY2VudCBjb25maWRlbmNlIGxldmVsIHVzaW5n
+IChSTVNFeiAqIDEuOTYwMCkgYXMgZGVmaW5lZCBieSB0aGUgTmF0aW9uYWwgU3RhbmRhcmRzIGZv
+ciBTcGF0aWFsIERhdGEgQWNjdXJhY3kgKE5TU0RBKTsgYXNzZXNzZWQgYW5kIHJlcG9ydGVkIHVz
+aW5nIE5hdGlvbmFsIERpZ2l0YWwgRWxldmF0aW9uIFByb2dyYW0gKE5ERVApL0FTUFJTIEd1aWRl
+bGluZXMuDQoJCQkJCTwvdmVydGFjY2U+DQogICAgICAgIDwvcXZlcnRwYT4NCiAgICAgIDwvdmVy
+dGFjYz4NCiAgICA8L3Bvc2FjYz4NCiAgICA8bGluZWFnZT4NCiAgICAgIDxzcmNpbmZvPg0KICAg
+ICAgICA8c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2lu
+PkhlcmJlcnQsIFJvd2xhbmQsIGFuZCBHcnViaWMsIEluYy48L29yaWdpbj4NCiAgICAgICAgICAg
+IDxwdWJkYXRlPjIwMTY8L3B1YmRhdGU+DQogICAgICAgICAgICA8dGl0bGU+Q29udHJvbCBTdXJ2
+ZXkgUmVwb3J0OiBBbGxlbnRvd24sIFBBPC90aXRsZT4NCiAgICAgICAgICAgIDxnZW9mb3JtPkxp
+ZGFyIHBvaW50IGNsb3VkPC9nZW9mb3JtPg0KICAgICAgICAgICAgPHB1YmluZm8+DQogICAgICAg
+ICAgICAgIDxwdWJwbGFjZT5IYXJyaXNidXJnLCBQQTwvcHVicGxhY2U+DQogICAgICAgICAgICAg
+IDxwdWJsaXNoPkhlcmJlcnQsIFJvd2xhbmQsIGFuZCBHcnViaWMsIEluYy48L3B1Ymxpc2g+DQog
+ICAgICAgICAgICA8L3B1YmluZm8+DQogICAgICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9z
+cmNjaXRlPg0KICAgICAgICA8dHlwZXNyYz5vbmxpbmU8L3R5cGVzcmM+DQogICAgICAgIDxzcmN0
+aW1lPg0KICAgICAgICAgIDx0aW1laW5mbz4NCiAgICAgICAgICAgIDxzbmdkYXRlPg0KICAgICAg
+ICAgICAgICA8Y2FsZGF0ZT4yMDE2PC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0K
+ICAgICAgICAgIDwvdGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlv
+bjwvc3JjY3Vycj4NCiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+UEFfQWxs
+ZW50b3duXzIwMTZfTGlEQVJfZ25kX2N0cmw8L3NyY2NpdGVhPg0KICAgICAgICA8c3JjY29udHI+
+VGhpcyBkYXRhIHNvdXJjZSB3YXMgdXNlZCAoYWxvbmcgd2l0aCB0aGUgYWlyYm9ybmUgR1BTL0lN
+VSBEYXRhKSB0byBhaWQgaW4gdGhlIGdlb3JlZmVyZW5jaW5nIG9mIHRoZSBsaWRhciBwb2ludCBj
+bG91ZCBkYXRhLjwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8c3JjaW5mbz4N
+CiAgICAgICAgPHNyY2NpdGU+DQogICAgICAgICAgPGNpdGVpbmZvPg0KICAgICAgICAgICAgPG9y
+aWdpbj5SaWNoYXJkIENyb3VzZSBhbmQgQXNzb2NpYXRlczwvb3JpZ2luPg0KICAgICAgICAgICAg
+PHB1YmRhdGU+MjAxNjwvcHViZGF0ZT4NCiAgICAgICAgICAgIDx0aXRsZT5MaWRhciBSQVcgRGF0
+YSBmb3IgRGVsYXdhcmUgVmFsbGV5IDIwMTU8L3RpdGxlPg0KICAgICAgICAgICAgPGdlb2Zvcm0+
+TGlkYXIgcG9pbnQgY2xvdWQ8L2dlb2Zvcm0+DQogICAgICAgICAgICA8cHViaW5mbz4NCiAgICAg
+ICAgICAgICAgPHB1YnBsYWNlPkZyZWRlcmljaywgTUQ8L3B1YnBsYWNlPg0KICAgICAgICAgICAg
+ICA8cHVibGlzaD5SaWNoYXJkIENyb3VzZSBhbmQgQXNzb2NpYXRlczwvcHVibGlzaD4NCiAgICAg
+ICAgICAgIDwvcHViaW5mbz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2Np
+dGU+DQogICAgICAgIDx0eXBlc3JjPm9ubGluZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+
+DQogICAgICAgICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAg
+ICAgIDxjYWxkYXRlPjIwMTYwMzI2PC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0K
+ICAgICAgICAgIDwvdGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlv
+bjwvc3JjY3Vycj4NCiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+UEFfQWxs
+ZW50b3duXzIwMTZfTGlEQVJfRGF0YTwvc3JjY2l0ZWE+DQogICAgICAgIDxzcmNjb250cj5UaGlz
+IGRhdGEgc291cmNlIHdhcyB1c2VkIHRvIHBvcHVsYXRlIHRoZSBsaWRhciBwb2ludCBjbG91ZCBk
+YXRhLjwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+DQogICAgICA8c3JjaW5mbz4NCiAgICAg
+ICAgPHNyY2NpdGU+DQogICAgICAgICAgPGNpdGVpbmZvPg0KICAgICAgICAgICAgPG9yaWdpbj5I
+ZXJiZXJ0LCBSb3dsYW5kLCBhbmQgR3J1YmljLCBJbmMuPC9vcmlnaW4+DQogICAgICAgICAgICA8
+cHViZGF0ZT4yMDE2PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPkNvbnRyb2wgU3VydmV5
+IFJlcG9ydDogQWxsZW50b3duLCBQQTwvdGl0bGU+DQogICAgICAgICAgICA8Z2VvZm9ybT5MaWRh
+ciBwb2ludCBjbG91ZDwvZ2VvZm9ybT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0KICAgICAgICAg
+ICAgICA8cHVicGxhY2U+SGFycmlzYnVyZywgUEE8L3B1YnBsYWNlPg0KICAgICAgICAgICAgICA8
+cHVibGlzaD5IZXJiZXJ0LCBSb3dsYW5kLCBhbmQgR3J1YmljLCBJbmMuPC9wdWJsaXNoPg0KICAg
+ICAgICAgICAgPC9wdWJpbmZvPg0KICAgICAgICAgIDwvY2l0ZWluZm8+DQogICAgICAgIDwvc3Jj
+Y2l0ZT4NCiAgICAgICAgPHR5cGVzcmM+b25saW5lPC90eXBlc3JjPg0KICAgICAgICA8c3JjdGlt
+ZT4NCiAgICAgICAgICA8dGltZWluZm8+DQogICAgICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAg
+ICAgICAgPGNhbGRhdGU+MjAxNjwvY2FsZGF0ZT4NCiAgICAgICAgICAgIDwvc25nZGF0ZT4NCiAg
+ICAgICAgICA8L3RpbWVpbmZvPg0KICAgICAgICAgIDxzcmNjdXJyPmdyb3VuZCBjb25kaXRpb248
+L3NyY2N1cnI+DQogICAgICAgIDwvc3JjdGltZT4NCiAgICAgICAgPHNyY2NpdGVhPlBBX0FsbGVu
+dG93bl8yMDE2X0xpREFSX3FjX2N0cmw8L3NyY2NpdGVhPg0KICAgICAgICA8c3JjY29udHI+VGhp
+cyBkYXRhIHNvdXJjZSB3YXMgdXNlZCB0byBRQyBhbmQgdmVydGljYWxseSBhZGp1c3QgdGhlIGxp
+ZGFyIHBvaW50IGNsb3VkIGRhdGEuPC9zcmNjb250cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAg
+IDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNjPg0KCQkJCQlDbGFzc2lmaWVkIExBUyBQcm9j
+ZXNzaW5nOg0KCQkJCQlUaGUgYmFyZSBlYXJ0aCBzdXJmYWNlIGlzIHRoZW4gbWFudWFsbHkgcmV2
+aWV3ZWQgdG8gZW5zdXJlIGNvcnJlY3QgY2xhc3NpZmljYXRpb24gb24gdGhlIENsYXNzIDIgKEdy
+b3VuZCkgcG9pbnRzLiAgQWZ0ZXIgdGhlIGJhcmUtZWFydGggc3VyZmFjZSBpcyBmaW5hbGl6ZWQs
+IGl0IGlzIHRoZW4gdXNlZCB0byBnZW5lcmF0ZSBhbGwgaHlkcm8tYnJlYWtsaW5lcyB0aHJvdWdo
+IGhlYWRzLXVwIGRpZ2l0aXphdGlvbi4NCgkJCQkJQWxsIGdyb3VuZCAoQVNQUlMgQ2xhc3MgMikg
+TGlEQVIgZGF0YSBpbnNpZGUgb2YgdGhlIExha2UgUG9uZCBhbmQgRG91YmxlIExpbmUgRHJhaW4g
+aHlkcm8gZmxhdHRlbmluZyBicmVha2xpbmVzIHdlcmUgdGhlbiBjbGFzc2lmaWVkIHRvIHdhdGVy
+IChBU1BSUyBDbGFzcyA5KSB1c2luZyBUZXJyYVNjYW4gbWFjcm8gZnVuY3Rpb25hbGl0eS4gIEEg
+YnVmZmVyIG9mIDMgZmVldCB3YXMgYWxzbyB1c2VkIGFyb3VuZCBlYWNoIGh5ZHJvLWZsYXR0ZW5l
+ZCBmZWF0dXJlIHRvIGNsYXNzaWZ5IHRoZXNlIGdyb3VuZCAoQVNQUlMgQ2xhc3MgMikgcG9pbnRz
+IHRvIElnbm9yZWQgZ3JvdW5kIChBU1BSUyBDbGFzcyAxMCkuICBBbGwgTGFrZSBQb25kIElzbGFu
+ZCBhbmQgRG91YmxlIExpbmUgRHJhaW4gSXNsYW5kIGZlYXR1cmVzIHdlcmUgY2hlY2tlZCB0byBl
+bnN1cmUgdGhhdCB0aGUgZ3JvdW5kIChBU1BSUyBDbGFzcyAyKSBwb2ludHMgd2VyZSByZWNsYXNz
+aWZpZWQgdG8gdGhlIGNvcnJlY3QgY2xhc3NpZmljYXRpb24gYWZ0ZXIgdGhlIGF1dG9tYXRlZCBj
+bGFzc2lmaWNhdGlvbiB3YXMgY29tcGxldGVkLiAgQWxsIGJyaWRnZSBkZWNrcyB3ZXJlIGNsYXNz
+aWZpZWQgdG8gQ2xhc3MgMTcuDQoJCQkJCUFsbCBvdmVybGFwIGRhdGEgd2FzIHByb2Nlc3NlZCB0
+aHJvdWdoIGF1dG9tYXRlZCBmdW5jdGlvbmFsaXR5IHByb3ZpZGVkIGJ5IFRlcnJhU2NhbiB0byBj
+bGFzc2lmeSB0aGUgb3ZlcmxhcHBpbmcgZmxpZ2h0IGxpbmUgZGF0YSB0byBhcHByb3ZlZCBjbGFz
+c2VzIGJ5IFVTR1MuICBUaGUgb3ZlcmxhcCBkYXRhIHdhcyBpZGVudGlmaWVkIHVzaW5nIHRoZSBP
+dmVybGFwIEZsYWcsIHBlciBMQVMgMS40IHNwZWNpZmljYXRpb25zLg0KCQkJCQlBbGwgZGF0YSB3
+YXMgbWFudWFsbHkgcmV2aWV3ZWQgYW5kIGFueSByZW1haW5pbmcgYXJ0aWZhY3RzIHJlbW92ZWQg
+dXNpbmcgZnVuY3Rpb25hbGl0eSBwcm92aWRlZCBieSBUZXJyYVNjYW4gYW5kIFRlcnJhTW9kZWxl
+ci4gIEdsb2JhbCBNYXBwZXIgdXMgdXNlZCBhcyBhIGZpbmFsIGNoZWNrIG9mIHRoZSBiYXJlIGVh
+cnRoIGRhdGFzZXQuICBHZW9DdWUgd2FzIHRoZW4gdXNlZCB0byBjcmVhdGUgdGhlIGRlbGl2ZXJh
+YmxlIGluZHVzdHJ5LXN0YW5kYXJkIExBUyBmaWxlcyBmb3IgYm90aCB0aGUgQWxsIFBvaW50IENs
+b3VkIERhdGEgYW5kIHRoZSBCYXJlIEVhcnRoLiAgUXVhbnR1bSBTcGF0aWFsIHByb3ByaWV0YXJ5
+IHNvZnR3YXJlIHdhcyB1c2VkIHRvIHBlcmZvcm0gZmluYWwgc3RhdGlzdGljYWwgYW5hbHlzaXMg
+b2YgdGhlIGNsYXNzZXMgaW4gdGhlIExBUyBmaWxlcywgb24gYSBwZXIgdGlsZSBsZXZlbCB0byB2
+ZXJpZnkgZmluYWwgY2xhc3NpZmljYXRpb24gbWV0cmljcyBhbmQgZnVsbCBMQVMgaGVhZGVyIGlu
+Zm9ybWF0aW9uLg0KCQkJCTwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPlBBX0FsbGVudG93
+bl8yMDE2X0xpREFSX2N0cmw8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPlBBX0FsbGVudG93
+bl8yMDE2X0xpREFSX0RhdGE8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE2PC9wcm9j
+ZGF0ZT4NCiAgICAgICAgPHNyY3Byb2Q+Q2xhc3NpZmllZCBMQVM8L3NyY3Byb2Q+DQogICAgICAg
+IDxwcm9jY29udD4NCiAgICAgICAgICA8Y250aW5mbz4NCiAgICAgICAgICAgIDxjbnRvcmdwPg0K
+ICAgICAgICAgICAgICA8Y250b3JnPlF1YW50dW0gU3BhdGlhbDwvY250b3JnPg0KICAgICAgICAg
+ICAgICA8Y250cGVyPlJ5YW4gR3JpZmZpbjwvY250cGVyPg0KICAgICAgICAgICAgPC9jbnRvcmdw
+Pg0KICAgICAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5n
+IGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgICAgIDxhZGRyZXNzPjUyMyBXZWxs
+aW5ndG9uIFdheTwvYWRkcmVzcz4NCiAgICAgICAgICAgICAgPGNpdHk+TGV4aW5ndG9uPC9jaXR5
+Pg0KICAgICAgICAgICAgICA8c3RhdGU+S1k8L3N0YXRlPg0KICAgICAgICAgICAgICA8cG9zdGFs
+PjQwNTAzPC9wb3N0YWw+DQogICAgICAgICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAg
+ICAgICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgICAgIDxjbnR2b2ljZT44NTktMjc3LTg3MDA8
+L2NudHZvaWNlPg0KICAgICAgICAgICAgPGNudGZheD44NTktMjc3LTg5MDE8L2NudGZheD4NCiAg
+ICAgICAgICAgIDxjbnRlbWFpbD5yZ3JpZmZpbkBxdWFudHVtc3BhdGlhbC5jb208L2NudGVtYWls
+Pg0KICAgICAgICAgICAgPGhvdXJzPk1vbmRheSB0aHJvdWdoIEZyaWRheSA4OjAwIEFNIHRvIDU6
+MDAgUE0gKEVhc3Rlcm4gVGltZSk8L2hvdXJzPg0KICAgICAgICAgICAgPGNudGluc3Q+SWYgdW5h
+YmxlIHRvIHJlYWNoIHRoZSBjb250YWN0IGJ5IHRlbGVwaG9uZSwgcGxlYXNlIHNlbmQgYW4gZW1h
+aWwuIFlvdSBzaG91bGQgZ2V0IGEgcmVzcG9uc2Ugd2l0aGluIDI0IGhvdXJzLjwvY250aW5zdD4N
+CiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJvY2NvbnQ+DQogICAgICA8L3Byb2Nz
+dGVwPg0KICAgIDwvbGluZWFnZT4NCiAgPC9kYXRhcXVhbD4NCiAgPHNwZG9pbmZvPg0KICAgIDxk
+aXJlY3Q+UG9pbnQ8L2RpcmVjdD4NCiAgICA8cHR2Y3RpbmY+DQogICAgICA8c2R0c3Rlcm0+DQog
+ICAgICAgIDxzZHRzdHlwZT5Qb2ludDwvc2R0c3R5cGU+DQogICAgICA8L3NkdHN0ZXJtPg0KICAg
+IDwvcHR2Y3RpbmY+DQogIDwvc3Bkb2luZm8+DQogIDxzcHJlZj4NCiAgICA8aG9yaXpzeXM+DQog
+ICAgICA8cGxhbmFyPg0KICAgICAgICA8Z3JpZHN5cz4NCiAgICAgICAgICA8Z3JpZHN5c24+U3Rh
+dGUgUGxhbmUgQ29vcmRpbmF0ZSBTeXN0ZW0gMTk4MzwvZ3JpZHN5c24+DQogICAgICAgICAgPHNw
+Y3M+DQogICAgICAgICAgICA8c3Bjc3pvbmU+MzcwMjwvc3Bjc3pvbmU+DQogICAgICAgICAgICA8
+bGFtYmVydGM+DQogICAgICAgICAgICAgIDxzdGRwYXJsbD4zOS45MzMzMzMzMzMzMzMzMzwvc3Rk
+cGFybGw+DQogICAgICAgICAgICAgIDxsb25nY20+LTc3Ljc1PC9sb25nY20+DQogICAgICAgICAg
+ICAgIDxsYXRwcmpvPjM5LjMzMzMzMzMzMzMzMzM0PC9sYXRwcmpvPg0KICAgICAgICAgICAgICA8
+ZmVhc3Q+MTk2ODUwMC4wPC9mZWFzdD4NCiAgICAgICAgICAgICAgPGZub3J0aD4wLjA8L2Zub3J0
+aD4NCiAgICAgICAgICAgIDwvbGFtYmVydGM+DQogICAgICAgICAgPC9zcGNzPg0KICAgICAgICA8
+L2dyaWRzeXM+DQogICAgICAgIDxwbGFuY2k+DQogICAgICAgICAgPHBsYW5jZT5jb29yZGluYXRl
+IHBhaXI8L3BsYW5jZT4NCiAgICAgICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVz
+PjAuMDE8L2Fic3Jlcz4NCiAgICAgICAgICAgIDxvcmRyZXM+MC4wMTwvb3JkcmVzPg0KICAgICAg
+ICAgIDwvY29vcmRyZXA+DQogICAgICAgICAgPHBsYW5kdT5zdXJ2ZXkgZmVldDwvcGxhbmR1Pg0K
+ICAgICAgICA8L3BsYW5jaT4NCiAgICAgIDwvcGxhbmFyPg0KICAgICAgPGdlb2RldGljPg0KICAg
+ICAgICA8aG9yaXpkbj5Ob3J0aCBBbWVyaWNhbiBEYXR1bSBvZiAxOTgzICgyMDExKTwvaG9yaXpk
+bj4NCiAgICAgICAgPGVsbGlwcz5HZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+
+DQogICAgICAgIDxzZW1pYXhpcz42Mzc4MTM3PC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZsYXQ+
+Mjk4LjI1NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3JpenN5
+cz4NCiAgICA8dmVydGRlZj4NCiAgICAgIDxhbHRzeXM+DQogICAgICAgIDxhbHRkYXR1bT5Ob3J0
+aCBBbWVyaWNhbiBWZXJ0aWNhbCBEYXR1bSBvZiAxOTg4IChHZW9pZCAxMkIpPC9hbHRkYXR1bT4N
+CiAgICAgICAgPGFsdHJlcz4wLjAxPC9hbHRyZXM+DQogICAgICAgIDxhbHR1bml0cz5mZWV0PC9h
+bHR1bml0cz4NCiAgICAgICAgPGFsdGVuYz5FeHBsaWNpdCBlbGV2YXRpb24gY29vcmRpbmF0ZSBp
+bmNsdWRlZCB3aXRoIGhvcml6b250YWwgY29vcmRpbmF0ZXM8L2FsdGVuYz4NCiAgICAgIDwvYWx0
+c3lzPg0KICAgIDwvdmVydGRlZj4NCiAgPC9zcHJlZj4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRk
+PjIwMTYwODI2PC9tZXRkPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxj
+bnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+UXVhbnR1bSBTcGF0aWFsPC9jbnRvcmc+DQogICAg
+ICAgICAgPGNudHBlcj5TYXJhaCBaaWJhcnQ8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0K
+ICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2lj
+YWw8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjUyMyBXZWxsaW5ndG9uIFdheTwvYWRk
+cmVzcz4NCiAgICAgICAgICA8Y2l0eT5MZXhpbmd0b248L2NpdHk+DQogICAgICAgICAgPHN0YXRl
+PktZPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjQwNTAzPC9wb3N0YWw+DQogICAgICAgICAg
+PGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2
+b2ljZT44NTktMjc3LTg3MDA8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4Pjg1OS0yNzctODkw
+MTwvY250ZmF4Pg0KICAgICAgICA8Y250ZW1haWw+c3ppYmFydEBxdWFudHVtc3BhdGlhbC5jb208
+L2NudGVtYWlsPg0KICAgICAgICA8aG91cnM+TW9uZGF5IHRocm91Z2ggRnJpZGF5IDg6MDAgQU0g
+dG8gNTowMCBQTSAoRWFzdGVybiBUaW1lKTwvaG91cnM+DQogICAgICAgIDxjbnRpbnN0PklmIHVu
+YWJsZSB0byByZWFjaCB0aGUgY29udGFjdCBieSB0ZWxlcGhvbmUsIHBsZWFzZSBzZW5kIGFuIGVt
+YWlsLiBZb3Ugc2hvdWxkIGdldCBhIHJlc3BvbnNlIHdpdGhpbiAyNCBob3Vycy48L2NudGluc3Q+
+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVu
+dCBTdGFuZGFyZCBmb3IgRGlnaXRhbCBHZW9zcGF0aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAg
+IDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9tZXRzdGR2Pg0KICAgIDxtZXRhYz5Ob25lLjwv
+bWV0YWM+DQogICAgPG1ldHVjPk5vbmUuPC9tZXR1Yz4NCiAgICA8bWV0c2k+DQogICAgICA8bWV0
+c2NzPk5vbmUuPC9tZXRzY3M+DQogICAgICA8bWV0c2M+VW5jbGFzc2lmaWVkPC9tZXRzYz4NCiAg
+ICAgIDxtZXRzaGQ+Tk9ORTwvbWV0c2hkPg0KICAgIDwvbWV0c2k+DQogIDwvbWV0YWluZm8+DQo8
+L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

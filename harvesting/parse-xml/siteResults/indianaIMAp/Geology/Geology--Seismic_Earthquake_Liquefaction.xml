@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <pubdate>20030304</pubdate>
+        <title>
+EARTHQUAKE_LIQUEFACTION_IN: Earthquake Paleoliquefaction Sites in Indiana (Indiana Geological
+Survey, 1:24,000, Point Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+The points shown in this shapefile were derived from a database that appears as an appendix
+in the following project report: Munson, P.J., and Munson, C.A., 1996, Paleoliquefaction Evidence
+for Recurrent Strong Earthquakes Since 20,000 Years BP in the Wabash Valley Area of Indiana, Final
+Report, National Earthquake Hazards Reduction Program (USGS) Grant No. 14-08-0001-G2117, 137 p.
+
+NOTE: EARTHQUAKE_LIQUEFACTION_IN of July 18, 2002, was updated on March 4, 2003. The updated
+shapefile contains these additional attribute fields: Quadrangle, County, Exposure_L, No_dikes,
+Width_larg, Depth_to_b, Inferred_e, and Site_code. It also contains 8 additional points that
+are located in Illinois along the Wabash River.
+</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+EARTHQUAKE_LIQUEFACTION_IN is a point shapefile that shows sites where paleoliquefaction features
+have been identified in the field by Pat Munson of the Indiana Geological Survey and by archeologists
+of the Department of Anthropology, Indiana University, Bloomington. The ages of the features, which were
+determined by radiocarbon dating, dating of associated archaeological artifacts, and flood plain
+stratigraphy are all within 20,000 years before present.
+</abstract>
+      <purpose>
+The purpose of EARTHQUAKE_LIQUEFACTION_IN is to provide a GIS layer showing the locations of known
+paleoliquefaction features in Indiana. Such features were caused by strong-motion earthquakes having
+energies equivalent to Mb 5.0 or greater.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1990</begdate>
+          <enddate>19960331</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>1996</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0933</westbc>
+        <eastbc>-85.7365</eastbc>
+        <northbc>40.0339</northbc>
+        <southbc>37.8460</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey</themekey>
+        <themekey>IGS</themekey>
+        <themekey>earthquake</themekey>
+        <themekey>liquefaction</themekey>
+        <themekey>paleoliquefaction</themekey>
+        <themekey>seismic response</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Illinois</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Gallatin County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Washington County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-5067</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView 3.2 shapefile format, approximately 22 Kb</native>
+    <useconst>Geology--Seismic_Earthquake_Liquefaction</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Internal attributes were derived from a preexisting database and are presumed to be accurate.</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>
+According to John Hill, Indiana Geological Survey, the points shown probably represent 85 to 90 percent of all paleoliquefaction
+features visible in exposures along the streams that were investigated in southern Indiana.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding the horizontal positional accuracy of this shapefile. It is assumed
+that UTM coordinates were derived by digitizing points that had been plotted on 1:24,000 scale
+USGS topographic quadrangle maps.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the production
+of this shapefile.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>P.J. Munson and C.A. Munson</origin>
+            <pubdate>19960331</pubdate>
+            <title>
+Paleoliquefaction Evidence for Recurrent Strong Earthquakes Since 20,000 Years
+BP in the Wabash Valley Area of Indiana
+</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Map</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>19960331</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NEHRP Contract Rpt. No. 14-08-0001-G2117</srccitea>
+        <srccontr>
+Field observations were plotted on 1:24,000 scale topographic quadrangle maps and locations were
+entered into a database.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Data from a report by P.J. Munson and C.A. Munson was entered into an Access database.</procdesc>
+        <srcused>NEHRP Report</srcused>
+        <procdate>20000327</procdate>
+        <srcprod>unnamed Access database</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>John Hill</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Associate Director</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-5067</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>hill6@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+An Access database was exported as a text file. The text file was imported into an ESRI ArcView View
+and converted to the shapefile named "EQLIQ." The shapefile was then edited to remove fields such as quadrangle
+name and county name. The shapefile was converted to an ESRI ArcInfo coverage using the "shapearc"
+command in ESRI ArcInfo.
+</procdesc>
+        <srcused>unnamed Access database</srcused>
+        <procdate>20000428</procdate>
+        <srcprod>EQLIQ</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The original coverage, EQLIQ, was first reprojected to  UTM Zone 16, NAD83. This coverage was then clipped to
+another coverage, INCLP83, containing the area within the 92 county boundaries for the state
+of Indiana, which was compiled at a scale of 1:24,000. The resulting coverage was converted to a
+shapefile named "EARTHQUAKE_LIQUEFACTION_IN."
+</procdesc>
+        <srcused>EQLIQ</srcused>
+        <procdate>20020321</procdate>
+        <srcprod>EARTHQUAKE_LIQUEFACTION_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+An updated shapefile, PALEOLIQUEF_PTS, was provided by John Hill of the IGS. PALEOLIQEF_PTS was reprojected
+to UTM Zone 16, NAD83. This shapefile was then renamed "EARTHQUAKE_LIQUEFACTION_IN." This version
+replaces the former version of EARTHQUAKE_LIQUEFACTION_IN that is described in the above process step.
+The new version contains the following additional attribute fields: Quadrangle, County,
+Exposure_L, No_dikes, Width_larg, Depth_to_b, Inferred_e, and Site_code. Also, the new version was
+not clipped to the boundary of Indiana, so that additional points exist along the Wabash River.
+</procdesc>
+        <srcused>PALEOLIQUEF_PTS</srcused>
+        <procdate>20030304</procdate>
+        <srcprod>EARTHQUAKE_LIQUEFACTION_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20030304</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>84</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>earthquake_liquefaction_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Id</attrlabl>
+        <attrdef>Identification number of site within preexisting Access database</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quadrangle</attrlabl>
+        <attrdef>Name of the 7.5-minute USGS topographic quadrangle map that is associated with the paleoliquefaction feature</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>Name of the county in which the paleoliquefaction feature exists</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stream</attrlabl>
+        <attrdef>Name of stream associated with paleoliquefaction feature</attrdef>
+        <attrdefs>John Hill, Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Exposure_L</attrlabl>
+        <attrdef>Exposure length</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20</rdommin>
+            <rdommax>3120</rdommax>
+            <attrunit>meters</attrunit>
+            <attrmres>5</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>No_dikes</attrlabl>
+        <attrdef>Number of dikes</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>29</rdommax>
+            <attrunit>count</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Width_larg</attrlabl>
+        <attrdef>Width of the largest dike</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>250</rdommax>
+            <attrunit>centimeters</attrunit>
+            <attrmres>1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth_to_b</attrlabl>
+        <attrdef>Depth to bedrock</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0-14</edomv>
+            <edomvd>Range of depths to bedrock (in meters)</edomvd>
+            <edomvds>Munson and Munson (1996)</edomvds>
+          </edom>
+          <edom>
+            <edomv>15-30</edomv>
+            <edomvd>Range of depths to bedrock (in meters)</edomvd>
+            <edomvds>Munson and Munson (1996)</edomvds>
+          </edom>
+          <edom>
+            <edomv>&gt;30</edomv>
+            <edomvd>Range of depths to bedrock (in meters)</edomvd>
+            <edomvds>Munson and Munson (1996)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Inferred_e</attrlabl>
+        <attrdef>Name of inferred earthquake</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_code</attrlabl>
+        <attrdef>Unique identifier for each liquefaction site</attrdef>
+        <attrdefs>Munson and Munson (1996)</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>
+EARTHQUAKE_LIQUEFACTION_IN: Earthquake Paleoliquefaction Sites in Indiana (Indiana
+Geological Survey, 1:24,000, Point Shapefile)
+</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [EARTHQUAKE_LIQUEFACTION_IN: Earthquake Paleoliquefaction Sites in Indiana (Indiana
+Geological Survey, 1:24,000, Point Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020718</metd>
+    <metrd>20030304</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

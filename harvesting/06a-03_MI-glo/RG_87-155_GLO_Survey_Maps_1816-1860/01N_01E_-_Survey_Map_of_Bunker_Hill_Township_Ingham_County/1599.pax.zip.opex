@@ -1,0 +1,70 @@
+            <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+            <OPEXMetadata xmlns="http://www.openpreservationexchange.org/opex/v1.0">
+                <Transfer>
+                    <SourceID>59bd8ed8-088c-4932-97c9-544135dd9d64</SourceID>
+                    <Fixities>
+                        <Fixity type="SHA-1" value="92f9334875f2657cb016603ed6d56c7cb31d38f6"/>
+                    </Fixities>
+                </Transfer>
+                <Properties>
+                    <Title>1599</Title>
+                    <SecurityDescriptor>Public</SecurityDescriptor>
+                    <Identifiers>
+TODO: ID                <Identifier type="io_v4_fileRef">f6f8df0c-b039-4702-b856-a39bdd2a2b99</Identifier>
+                    </Identifiers>
+                </Properties>
+                <DescriptiveMetadata>
+                    <LegacyXIP xmlns="http://preservica.com/LegacyXIP">
+                        <LastModifiedDate>2019-07-06T10:23:54.179-04:00</LastModifiedDate>
+                        <WorkingPath>01N 01E - Survey Map of Bunker Hill Township, Ingham County</WorkingPath>
+                    </LegacyXIP>
+                    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.4" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+                        <titleInfo>
+TODO: Title                 <title>01N 01E - Survey Map of Bunker Hill Township, Ingham County</title>  
+                        </titleInfo>
+                        <identifier displayLabel="Record Group" type="local">RG 87-155</identifier>
+                        <name type="corporate">
+TODO: Publisher             <namePart displayLabel="Agency">Department of Natural Resources</namePart> 
+                            <role>
+                                <roleTerm type="text">Agency</roleTerm>
+                                    </role>
+                                </name>
+                        <originInfo>
+TODO: Date Issued           <dateCreated>1826</dateCreated> 
+                        </originInfo>
+                        <language> 
+TODO: Language              <languageTerm>English</languageTerm> 
+                        </language>
+                        <location>
+TODO: Spatial Coverage      <physicalLocation displayLabel="Item Location" type="origninal">Archives of Michigan</physicalLocation>  
+                        </location>
+                        <name>
+                            <namePart displayLabel="Surveyor">Wampler, Joseph</namePart>
+                            <role>
+                                <roleTerm>Surveyor</roleTerm>
+                                    </role>
+                                </name>
+                        <typeOfResource>cartographic</typeOfResource>
+                        <genre authority="">Map</genre>
+                        <physicalDescription>
+                            <digitalOrigin>reformatted digital</digitalOrigin>
+                            <note displayLabel="Arrangement of Material" type="arrangement"/>
+                            <note displayLabel="Original Container" type="container">Drawer #29-30, Folder #1</note>
+                                </physicalDescription>
+                        <subject>
+                            <hierarchicalGeographic type="geographic">
+                                <county displayLabel="County" type="geographic">Ingham</county>
+                                <township displayLabel="Township" type="geographic">Bunker Hill</township>
+                                    </hierarchicalGeographic>
+                            <cartographics>
+                                <coordinates displayLabel="Township and Range" type="geographic">01N 01E</coordinates>
+                                    </cartographics>
+                                </subject>
+                        <accessCondition>
+TODO: Rights                <note type="use">Please contact the Archives of Michigan for permission to publish.</note>
+                            <note displayLabel="Access Restrictions" type="restriction on access">To preserve the original items, this collection is only available online.</note>
+                                </accessCondition>
+                        <abstract displayLabel="Scope and Content" type="scope and content">A survey map of Bunker Hill Township in Ingham County, Michigan, measured in 1826.</abstract>
+                            </mods:mods>
+                </DescriptiveMetadata>
+            </OPEXMetadata>

@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Environmental Management, Office of Water (Data creator)</origin>
+        <origin>Bernardin, Lochmueller &amp; Associates (Data processor)</origin>
+        <pubdate>20060621</pubdate>
+        <title>
+IMPAIRED_STREAMS_IDEM_IN: Impaired Streams in Indiana on the 303(d) List of 2006 (Indiana Department
+of Environmental Management, Line Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Environmental Management, Office of Water Quality</publish>
+        </pubinfo>
+        <othercit>
+This data set was provided to personnel of Bernardin, Lochmueller &amp; Associates (BLA) by Indiana
+Department of Environmental Management, Office of Water personnel.
+
+The data set provided was in an ESRI shapefile format, and was named "in_303d2006_utm_streams."
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This 2006 303(d) list of impaired streams represents the streams, and rivers, that are eligible for the development of
+Total Maximum Daily Load limits. There are fields for each parameter for which the water body may be impaired. These
+boolean fields allow for easy legend queries on each parameter or sets of parameters. Twenty-four listed streams that
+are included in the data table (indicated by 0 values for Dur_id, T_meas, Rch_date) do not have topology so that they
+do not show in the line features and will not query from the view or with theme queries; only table queries.
+
+All impaired lakes represented by polygons are contained in a separate shapefile called IMPAIRED_LAKES_IDEM_IN. These
+shapefiles must be used together to view all waters listed on the 303d report.
+</abstract>
+      <purpose>
+This data layer was developed to communicate the location and extent of the listed impaired streams as determined by
+the TMDL Committee and Technical Staff. The shapefile illustrates the impaired streams for display at public meetings,
+to include in reports and to use for comparison over time.
+</purpose>
+      <supplinf>
+All impaired lakes represented by polygons are contained in a separate shapefile called IMPAIRED_LAKES_IDEM_IN. These
+shapefiles must be used together to view all waters listed on the 303d report.
+
+The level of editing done by BLA is fully disclosed in the process steps of this metadata; credit for the information
+is retained by the originator.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20060621</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>303(d) list publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7654</northbc>
+        <southbc>37.7541</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+        <themekey>health</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Total Daily Maximum Load (TMDL)</themekey>
+        <themekey>impaired water body</themekey>
+        <themekey>impaired stream</themekey>
+        <themekey>lake</themekey>
+        <themekey>stream</themekey>
+        <themekey>303d list</themekey>
+        <themekey>305b report</themekey>
+        <themekey>pollution</themekey>
+        <themekey>water quality</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Environmental GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>neal@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 9.2 shapefile format, approximately 9.4 Mb</native>
+    <useconst>Hydrology--Water_Quality_Streams_Impaired</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Unknown. No records exist at Bernardin, Lochmueller &amp; Associates regarding the attribute accuracy of this
+shapefile. For more information, contact Jody Arthur, 305(b)/303(d) Coordinator, Indiana
+Department of Environmental Management, (jarthur@dem.state.in.us), 317-234-1424.
+</attraccr>
+    </attracc>
+    <logic>This data set was provided by IDEM personnel and is assumed to be accurate.</logic>
+    <complete>
+Unknown. No records exist at Bernardin, Lochmueller &amp; Associates regarding the attribute accuracy of this
+shapefile. For more information, contact Jody Arthur, 305(b)/303(d) Coordinator, Indiana
+Department of Environmental Management, (jarthur@dem.state.in.us), 317-234-1424. Twenty four segments
+are listed in the table but not given topology to appear in the objects in the view.
+
+This file must be used with its companion IMPAIRED_LAKES_IDEM_IN shapefile to obtain a full assessment of impaired waters.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Unknown. No records exist at Bernardin, Lochmueller &amp; Associates regarding the attribute accuracy of this
+shapefile. For more information, contact Jody Arthur, 305(b)/303(d) Coordinator, Indiana Department of
+Environmental Management, Office of Water Quality (jarthur@dem.state.in.us), 317-234-1424.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Environmental Management, Office of Water Quality</origin>
+            <pubdate>20060621</pubdate>
+            <title>IN_303d2006_UTM_Streams</title>
+            <geoform>Spreadsheet</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Environmental Management, Office of Water Quality</publish>
+            </pubinfo>
+            <othercit>2004 303(d) list is available from IDEM's TMDL Web site.</othercit>
+            <onlink>http://www.in.gov/idem/programs/water/303d/index.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060621</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>303(d) list</srccitea>
+        <srccontr>Listing of all impaired waters eligible for TMDL limits</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Environmental Management, Office of Water Quality</origin>
+            <pubdate>20060621</pubdate>
+            <title>303d_epa2004_streams</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Environmental Management, Office of Water Quality</publish>
+            </pubinfo>
+            <othercit>
+This file must be used in conjunction with the companion IMPAIRED_LAKES_IDEM_IN shapefile
+to get a full count of all impaired waters.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>Electronic mail system</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060621</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Source publication date</srccurr>
+        </srctime>
+        <srccitea>303(d) shapefile</srccitea>
+        <srccontr>Shapefile of impaired streams</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The ESRI ArcGIS shapefile named "In_303d2006_utm_streams.shp" containing the 303(d) impaired streams were delivered to
+BLA personnel on March 15, 2007. In_303d2006_utm_streams.shp was loaded into ArcGIS 9.2 and renamed
+"IMPAIRED_STREAMS06_IDEM_IN." The attribute fields "OID_," "State," and "County" were deleted.
+</procdesc>
+        <srcused>In_303d2006_utm_streams.shp, 303(d) list</srcused>
+        <procdate>20070316</procdate>
+        <srcprod>IMPAIRED_STREAMS06_IDEM_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntemail>
+neal@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written
+by Peter N. Schweitzer (United States Geological Survey).  The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20070508</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental GIS Manager</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+neal@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>5236</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.000000</absres>
+            <ordres>0.000000</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>IMPAIRED_STREAMS_IDEM_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>F_meas</attrlabl>
+        <attrdef>"From measure"</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Duu_id</attrlabl>
+        <attrdef>NHD Digital Update Unit Identification number</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool (from NHD Transport Reach theme)</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_meas</attrlabl>
+        <attrdef>"To measure"</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rch_date</attrlabl>
+        <attrdef>Date record was created. Corresponds to the date that the assessment unit was originally indexed to the NHD.</attrdef>
+        <attrdefs>NHD</attrdefs>
+        <attrdomv>
+          <udom>date field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Entity_id</attrlabl>
+        <attrdef>Identifies the ADB assessment unit, or segment, associated with the NHD reach.</attrdef>
+        <attrdefs>U.S. Environmental Protection Agency (USEPA)</attrdefs>
+        <attrdomv>
+          <udom>character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rch_code</attrlabl>
+        <attrdef>An identification number for the NHD reach associated with a given ADB assessment unit, or segment.</attrdef>
+        <attrdefs>U.S. Environmental Protection Agency (USEPA)</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Eoffset</attrlabl>
+        <attrdef>event display offset</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Attr_val</attrlabl>
+        <attrdef>
+Identifies the original assessment unit, or segment for any segments that were split in the ADB for
+assessment purposes and subsequently re-indexed to facilitate mapping.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>EXC</edomv>
+            <edomvd>Exceptional use stream</edomvd>
+            <edomvds>Indiana Administrative Code 327 IAC 2-1-11(b)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LMTD</edomv>
+            <edomvd>Limited use stream</edomvd>
+            <edomvds>Indiana Administrative Code, 327 IAC 2-1-11(a)</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OSR</edomv>
+            <edomvd>Outstanding state resource water</edomvd>
+            <edomvds>Indiana Code, IC 13-18-3-2</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OSR-EXC</edomv>
+            <edomvd>Outstanding water resource and Exceptional use stream</edomvd>
+            <edomvds>IAC and IC</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>eventid</attrlabl>
+        <attrdef>Event ID - date, time sequence, and 4 character code</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>meta_id</attrlabl>
+        <attrdef>Metadata ID - date, time sequence, and 4 character code</attrdef>
+        <attrdefs>NHD, Reach Indexing Tool</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Miles</attrlabl>
+        <attrdef>Corresponds to the length of the NHD reach (RCH_CODE) indexed</attrdef>
+        <attrdefs>U.S. Environmental Protection Agency (USEPA)</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Basin</attrlabl>
+        <attrdef>
+The major hydrologic basin in which the reach is located; Basins do not correspond
+to USGS 6-dig HUCs. Rather, they correspond to IDEM's rotating monitoring schedule.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HUC14</attrlabl>
+        <attrdef>U.S. Geological Survey 14-digit hydrologic unit code (HUC) number.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wbsegid</attrlabl>
+        <attrdef>Identifies the ADB assessment unit, or segment, associated with the NHD reach (RCH_CODE); Analogous to Enity_ID</attrdef>
+        <attrdefs>U.S. Environmental Protection Agency (USEPA)</attrdefs>
+        <attrdomv>
+          <udom>character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Segname</attrlabl>
+        <attrdef>Name of the ADB assessment unit, or segment.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Segsize</attrlabl>
+        <attrdef>Segment length (miles)</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Unit</attrlabl>
+        <attrdef>Defines unit of measurement for Segsize; M (miles)</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>"Miles"</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Imp_Total</attrlabl>
+        <attrdef>
+Represents the total number of impairments for the ADB assessment unit (segment) to which the NHD
+reach is associated. Note that this value is redundant and appears once for each NHD reach included associated with a
+given "Wbsegid."  Note that this value is redundant and appears once for each record associated with a given "Wbsegid" or "Entity_ID."
+This value is not additive.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FCA_Hg</attrlabl>
+        <attrdef>
+Fish Consumption Advisory for Mercury - more than one result in three-year period exceeds chronic
+aquatic criterion (CAC) defined in Indiana's water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FCA_PCBS</attrlabl>
+        <attrdef>Fish Consumption Advisory (FCA) for polychlorinated biphenyls (PCB's)</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ecoli</attrlabl>
+        <attrdef>Ecoli exceeds State limits</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IBC</attrlabl>
+        <attrdef>Impaired Biotic Community</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DO</attrlabl>
+        <attrdef>
+Waterbody is impaired for low dissolved oxygen. Impairment applies to all records associated with a
+given "Wbsegid" or "Entity_ID."
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nutrients</attrlabl>
+        <attrdef>Inorganic nutrients driving physio/chemical stream imbalance.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Algae</attrlabl>
+        <attrdef>Aquatic plant or algal growth that creates a nuisance, is unsightly, or otherwise impairs designated use.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Taste_Odor</attrlabl>
+        <attrdef>
+Waterbody is impaired for taste and odor. Impairment applies to all records associated with a
+given "Wbsegid" or "Entity_ID."
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ammonia</attrlabl>
+        <attrdef>Presence of Ammonia exceeds accepted State limits.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ph</attrlabl>
+        <attrdef>pH value is outside criteria range defined in Indiana's water quality standards.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Siltation</attrlabl>
+        <attrdef>Imbeddedness and smothering of substrate in streams,  or loss of depth in lakes.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TDS</attrlabl>
+        <attrdef>Total Dissolved Solids exceeds accepted State limits.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sulfates</attrlabl>
+        <attrdef>Sulfate anion concentration exceeds State water quality standards.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Chlorides</attrlabl>
+        <attrdef>Chloride anion concentration exceeds State water quality standards.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Copper</attrlabl>
+        <attrdef>
+More than one result in three-year period exceeds chronic aquatic criterion (CAC) for "copper" as defined
+in State water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cyanide</attrlabl>
+        <attrdef>Free cyanide in waterbodies within the Great Lakes watersheds. Total cyanide in other Indiana waterbodies.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lead</attrlabl>
+        <attrdef>
+More than one result in three-year period exceeds chronic aquatic criterion (CAC) for "lead" as defined
+in State water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nickel</attrlabl>
+        <attrdef>
+More than one result in three-year period exceeds chronic aquatic criterion (CAC) for "nickel" as defined
+in State water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zinc</attrlabl>
+        <attrdef>
+More than one result in three-year period exceeds chronic aquatic criterion (CAC) for "Zinc" as defined
+in State water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dioxins</attrlabl>
+        <attrdef>Dioxin concentration exceeds ORSANCO 2003 criterion for human health protection for the Ohio River.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pesticides</attrlabl>
+        <attrdef>
+Refers to chlordane, endrin, or DDT. More than one result in three-year period exceeds chronic aquatic criterion (CAC)
+defined in State water quality standards.
+</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Oil_grease</attrlabl>
+        <attrdef>Legacy code no longer used to indicate impairment. PAH and Priority Organics are now used when data is available.</attrdef>
+        <attrdefs>IDEM</attrdefs>
+        <attrdomv>
+          <udom>Boolean field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website: www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited
+to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use
+of this product is assumed by the user. Bernardin, Lochmueller and Associates shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin, Lochmueller and Associates is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070425</metd>
+    <metrd>20070508</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Neal Schroeder</cntper>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntperp>
+        <cntpos>Environmental GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+neal@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the BLA/IGS. It should not to be
+altered or summarized. BLA/IGS does not support secondary distribution. If this data set was received from anyone besides
+the BLA/IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

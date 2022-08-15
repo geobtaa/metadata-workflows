@@ -1,0 +1,394 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Curblines</title>
+        <geoform>vector digital data</geoform>
+        <onlink>Server=geodb2.phila.gov; Service=esri_sde; User=gis_streets; Version=SDE.DEFAULT</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-75.285383</westbc>
+        <eastbc>-74.955645</eastbc>
+        <northbc>40.144365</northbc>
+        <southbc>39.851173</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyStreets_curblines</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>40181</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00006400000005960458</absres>
+            <ordres>0.00006400000005960458</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>curblines</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE_</attrlabl>
+        <attrdef>Date that curb segment was last modified</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CURBS_ID</attrlabl>
+        <attrdef>System attribute</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ADD_DATE</attrlabl>
+        <attrdef>If curb segment did not exist in original version of curbline layer, the date that it was added</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CHG_SRC</attrlabl>
+        <attrdef>A code indicating reason that a segment had been edited</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+        <attrdef>Classification of a line segment, and whether it is visible from above or hidden</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CL_ID</attrlabl>
+        <attrdef>unique indentification number of a curb segment</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CURBS_</attrlabl>
+        <attrdef>System attribute</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>curbs_final.pat</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CURBS_FINAL#</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CURBS_FINAL-ID</attrlabl>
+        <attrdef>User-defined feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>U-G</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_ADD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_DEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CHANGE_SOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODENEW</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CP_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-1_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-2_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-3_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>U-G_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_ADD_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_DEL_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CHANGE_SOURCE_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODENEW_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODE_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-1_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-2_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ELEV-3_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>U-G_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_ADD_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DATE_CURB_DEL_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CHANGE_SOURCE_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODENEW_IN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GROUP_INDEX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCODENEW_IN</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>curbs_final.tatstn</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STN#</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STN-ID</attrlabl>
+        <attrdef>User-defined feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>X</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Y</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OFFSETX</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OFFSETY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HEIGHT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYMBOL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LEVEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TEXT</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Geographic attributes for curblines</eaover>
+      <eadetcit>ArcView, ArcInfo, or ArcGis</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20160524</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>(814) 865 8792</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

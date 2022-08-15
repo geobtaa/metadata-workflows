@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2005-07-01</pubdate>
+        <title>Historical 15 minute series USGS Map Collection for Pennsylvania</title>
+        <geoform>raster digital data</geoform>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/maptech_historic/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1890-01-01</begdate>
+          <enddate>1950-01-01</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.875</westbc>
+        <eastbc>-74.625</eastbc>
+        <northbc>42.3750</northbc>
+        <southbc>39.6250</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>raster image</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>topographic map</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>topopgraphic quadrangle</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>drg</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>digital raster graphic</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>historic</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories </themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>For historical purposes only.</accconst>
+    <useconst>For historical purposes only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>none</addrtype>
+        </cntaddr>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Historian Christopher Marshall and others who scanned and compiled the collection, MapTech for hosting the collection online, and PASDA for combining and registering the images for GIS use.</datacred>
+    <secinfo />
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+    <descript>
+      <abstract>pasda-psu-edu&amp;gt;</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>USGS digital raster graphics (DRG's) normally use a standard palette to ensure uniform color throughout a particular map series.  This is to ensure that a particular color will remain consistent thoughout a DRG series.  For these raster images derived from the MapTech Historical collection at http://historical.maptech.com, there is no guarantee given for consistent colors.  This is due to the fact that images downloaded from the collection as jpegs had a 16 million color resolution, and after being combined, were reduced by an optimal best match method to 256 color (8 bit) depth.</attraccr>
+    </attracc>
+    <logic>Great care was taken by eye to seam together the four separate jpeg images that were scanned for each topographic map at library sites.  Because of small levels of inaccuracy due to image rotation or scanner operation, there are varying amounts of error at seams where the images line up.  As other methods of lining up images automatically through software become available, some of these historical map images may be redone and replaced.</logic>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1890-01-01</pubdate>
+            <title>15 Minute Series Topographic Quadrangles</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>62,500</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1890-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>map</srccitea>
+        <srccontr>Maps scanned at library sites to produce digital images.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Scanned USGS 15 minute quadrangle jpeg images were downloaded from the MapTech Historical Map Collection website (http://historical.maptech.com).  Each full map had previously been scanned into four separate images at a library site.  The jpeg images were then carefully assembled into whole map images through the use of Paint Shop Pro software.  The whole map jpeg images were then converted to tiff images and reduced in color resolution to 256 colors.  Finally, using Arc/Info software, the tiff images were registered and rectified to UTM Zone 17 or 18, NAD 83.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>3850</rowcount>
+      <colcount>2976</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Band_1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>Red</attrlabl>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>Green</attrlabl>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>Blue</attrlabl>
+        <attscale>0</attscale>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>TIFF</formname>
+          <transize>9.842</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>&lt;http://pasda.psu.edu&gt;</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>MapTech, Inc.</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>10 Industrial Way</address>
+          <city>Amesbury</city>
+          <state>MA</state>
+          <postal>01913</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>Chris Marshall &lt;sales@maptech.com&gt;</cntemail>
+        <cntinst>Through a connection established by Maptech employee Ed Lecuyer, Chris Marshall approached Maptech to host the MapTech Historical Map collection.  Other contributors include Stephen Titchenal and Derrick Brashear. If you would like to help expand this collection, contact Chris Marshall through Maptech's e-mail address: sales@maptech.com.</cntinst>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>9.842</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>null354</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2007-10-30</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>PASDA</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns />
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>1da5513a-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

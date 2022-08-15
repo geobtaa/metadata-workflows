@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Denver Harper (digital compiler)</origin>
+        <pubdate>20110418</pubdate>
+        <title>ETHANOL_PRODUCTION_FACILITIES_IN: Ethanol Production Facilities in Indiana (Indiana Geological Survey, Point Shapefile)</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This GIS layer shows the locations of ethanol production facilities in the state of Indiana. Attributes include the name and
+address of the facility, and information regarding ethanol production capacity.
+</abstract>
+      <purpose>This GIS layer was developed to show the locations of ethanol production facilities in Indiana.</purpose>
+      <supplinf>
+Information regarding ethanol production facilities was obtained from the following sources --
+
+(1) Fact Sheet - Biofuel Plants in Indiana at http://www.in.gov/isda/biofuels/factsheet.pdf
+
+(2) Indiana Ethanol Plants -- Purdue University at http://cobweb.ecn.purdue.edu/~lorre/16/Biofuel%20Factsheets/pdms
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110418</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.606285</westbc>
+        <eastbc>-84.838241</eastbc>
+        <northbc>41.743091</northbc>
+        <southbc>38.147601</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>location</themekey>
+        <themekey>utilitiesCommunication</themekey>
+        <themekey>environment</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>ethanol</themekey>
+        <themekey>biofuels</themekey>
+        <themekey>agriculture</themekey>
+        <themekey>alternative fuel</themekey>
+        <themekey>corn</themekey>
+        <themekey>production facility</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>St. Joseph County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Wells County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 10, 207 KB.</native>
+    <useconst>Infrastructure--Energy_Ethanol_Production_Facilities</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Locations were obtained from two sources
+(1) Fact Sheet - Biofuel Plants in Indiana at http://www.in.gov/isda/biofuels/factsheet.pdf
+(2) Indiana Ethanol Plants -- Purdue University at  http://cobweb.ecn.purdue.edu/~lorre/16/Biofuel%20Factsheets/pdms
+Addresses were entered into the Web site named "Mapquest" at http://www.mapquest.com/.
+Using ESRI ArcMap, a new shapefile named "ETHANOL_PRODUCTION_041811.SHP" was created, and points were added by visual comparison with
+sites located using Mapquest. Attributes were populated with values obtained from Items 1 and 2, above.
+</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>All ethanol-production sites listed in the sources cited above are represented in this dataset.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Mapquest (http://www.mapquest.com/) was used to locate the ethanol production facilities. Using ESRI ArcMap, points were
+added by visual comparison with Mapquest.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana State Department of Agriculture</origin>
+            <pubdate>20090309</pubdate>
+            <title>Fact Sheet -- Biofuel Plants in Indiana</title>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana State Department of Agriculture</publish>
+            </pubinfo>
+            <onlink>http://www.in.gov/isda/biofuels/factsheet.pdf</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20090309</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Fact Sheet, Indiana State Department of Agriculture</srccitea>
+        <srccontr>Names of ethanol production facilities in Indiana.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Chris Hurt</origin>
+            <pubdate>200709</pubdate>
+            <title>Indiana Ethanol Plants</title>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>West Lafayette, Indiana</pubplace>
+              <publish>Purdue University</publish>
+            </pubinfo>
+            <onlink>http://cobweb.ecn.purdue.edu/~lorre/16/Biofuel%20Factsheets/pdms</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>200709</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Indiana Ethanol Plants, Purdue University</srccitea>
+        <srccontr>Names of ethanol-production facilities, together with production capacities.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Locations were obtained from two sources
+(1) Fact Sheet - Biofuel Plants in Indiana at http://www.in.gov/isda/biofuels/factsheet.pdf
+(2) Indiana Ethanol Plants -- Purdue University at  http://cobweb.ecn.purdue.edu/~lorre/16/Biofuel%20Factsheets/pdms
+Addresses were entered into the Web site named "Mapquest" at
+http://www.mapquest.com/. Using ESRI ArcMap, a new shapefile named "ETHANOL_PRODUCTION_041811.SHP" was created,
+and points were added by visual comparison with sites located using Mapquest. Attributes were populated with values
+obtained from Items (1) and (2), above. The shapefile was renamed as "ETHANOL_PRODUCTION_FACILITIES_IN.SHP."
+</procdesc>
+        <procdate>20110418</procdate>
+        <srcprod>Fact Sheet, Indiana State Department of Agriculture, and Indiana Ethanol Plants, Purdue University</srcprod>
+        <srcprod>ETHANOL_PRODUCTION_FACILITIES_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Denver Harper</cntper>
+            </cntorgp>
+            <cntpos>Geologist, GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software
+written by Peter N. Schweitzer (U.S. Geological Survey).  The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20110524</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>14</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ETHANOL_PRODUCTION_FACILITIES_IN.DBF</enttypl>
+        <enttypd>Alternative fuel sites in Indiana</enttypd>
+        <enttypds>Indiana Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Facility</attrlabl>
+        <attrdef>Name of the ethanol production facility</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Street</attrlabl>
+        <attrdef>Street address of the ethanol production facility</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>City in which facility is located</attrdef>
+        <attrdefs>See source information</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zip</attrlabl>
+        <attrdef>USPS zip code for facility address</attrdef>
+        <attrdefs>See source information</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cap_MGY_</attrlabl>
+        <attrdef>Capacity, in units of "millions of gallons per year." No data is indicated by "-999."</attrdef>
+        <attrdefs>Chris Hurt, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>40</rdommin>
+            <rdommax>220</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CapMilBu</attrlabl>
+        <attrdef>Capacity, in units of "millions of bushels." No data is indicated by "-999."</attrdef>
+        <attrdefs>Chris Hurt, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>14</rdommin>
+            <rdommax>81</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DDGTonYr</attrlabl>
+        <attrdef>Distiller's dried grains, in units of "1,000 Tons/yr." No data is indicated by "-999."</attrdef>
+        <attrdefs>Chris Hurt, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>129</rdommin>
+            <rdommax>354</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YrBuilt</attrlabl>
+        <attrdef>Year in which the facility was built. No data is indicated by "-999."</attrdef>
+        <attrdefs>Chris Hurt, Purdue University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1984</rdommin>
+            <rdommax>2008</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2011, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation must be included: ETHANOL_PRODUCTION_FACILITIES_IN: Ethanol Production Facilities
+in Indiana (Indiana Geological Survey, Point Shapefile), compiled by Denver Harper, 2011.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be
+free from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North Walnut Grove,
+Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110524</metd>
+    <metrd>20110524</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Analyst</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1369</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

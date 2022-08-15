@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Toby Carlson, Penn State University</origin>
+        <pubdate>2003</pubdate>
+        <title>Impervious surface area for Southwest Pennsylvania, 2000</title>
+        <edition>Rev. 2003</edition>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>Penn State University, Dept. of Meteorology</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/isa_pa/pa2000isaa_sw.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1999</begdate>
+          <enddate>2002</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.605790</westbc>
+        <eastbc>
+-77.585966</eastbc>
+        <northbc>
+40.975806</northbc>
+        <southbc>
+39.660265</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Impervious surface area</themekey>
+        <themekey>Hydrologic satellite data</themekey>
+        <themekey>transportaion</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>No restrictions on usage.</accconst>
+    <useconst>For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance.
+These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dr. Toby Carlson</cntper>
+          <cntorg>Department of Meteorology, Penn State University</cntorg>
+        </cntperp>
+        <cntpos>Professor</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Dept. of Meteorology, 6th fl., Walker Bldg.</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>tnc@essc.psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://www.pasda.psu.edu/preview/isa_pa/pa2000isaa_ne.gif</browsen>
+      <browset>JPEG</browset>
+    </browse>
+    <descript>
+      <abstract>impervioussurfaceswpa2000</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+    </attracc>
+    <logic>Availability of suitable imagery required that imagery captured at different times between 1985 and 1987 were used.</logic>
+    <complete>Thematic Mapper imagery was gathered from a three year span of flights to ensure complete coverage of the state of Pennsylvania.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Dr. Toby Carlson</origin>
+            <pubdate>2003</pubdate>
+            <title>Fractional Vegetation Cover for Pennsylvania, 2000</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Penn State University, Dept. of Meteorology</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>250000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1999</begdate>
+              <enddate>2002</enddate>
+            </rngdates>
+          </timeinfo>
+        </srctime>
+        <srccitea>fvca</srccitea>
+        <srccontr>Fractional vegetation for estimation of vegetation</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Dr. Toby Carlson</origin>
+            <pubdate>Unpublished Material</pubdate>
+            <title>Pennsylvania Land Use, 5-classification recode, 2000</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>250000</srcscale>
+        <typesrc>online</typesrc>
+        <srccitea>recode2000</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>The impervious surface area depends partly on the landuse classification and partly on the fractional vegetation cover (fvca) images. The assumption is made that the non-vegetated fraction of pixels classified as urban is impervious. Pixels classified as non-urban are assumed to represent totally pervious surfaces. As such, therefore, the constraint on the 1985 images referred to above will cause the ISA and urban fraction (but not the fractional vegetation cover) to be somewhat underestimated in the 1985 image.
+
+Pixels that became de-urbanized in the landuse classification between 1985 and 2000 are not accepted, which imposes a somewhat restrictive condition on the earlier image (1985) that any pixel not urban in 2000 must also be not urban in the earlier images. Since the easiest mistake to make in classification is to mistake a bright, dry field to be urban, all pixels in the earlier image that were not urban in the later one but classified urban in the earlier one are assumed to be in to be in the bare soil/scrub category. This tends to underestimate the impervious surface area and urban cover a bit on the 1985 image, but has no effect on the fractional vegetation cover.
+
+For complete information on the processes and algorithms used see the following:
+Carlson, T.N. and D.A. J. Ripley, 1997: On the relationship between NDVI, fractional vegetation cover and leaf area index.  Remote Sensing of the Environ.,, 62, 241-252.
+
+Gillies. R. R. and T. N. Carlson, 1995: Thermal remote sensing of surface soil water content with partial vegetation cover for incorporation into climate models. J. Appl. Meteor., 34, 745-756.
+
+Hebble, E. E., T. N. Carlson and K. Daniel, 2001: Impervious surface area and residential housing density: a satellite perspective. Geocarto International, 16 13-18.</procdesc>
+        <srcused>fvca2000</srcused>
+        <srcused>recode2000</srcused>
+        <procdate>2002</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>11742</rowcount>
+      <colcount>19130</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <metainfo>
+    <metd>20051108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park </city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <resdesc>downloadabledata </resdesc>
+    <distrib>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>09123400</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Appalachian Trail Conference and National Park Service Appalachian Trail Park Office</origin>
+        <pubdate>20011015</pubdate>
+        <title>Appalachian National Scenic Trail  - Shelter Locations</title>
+        <edition>First</edition>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Harpers Ferry, WV</pubplace>
+          <publish>Appalachian Trail Conference</publish>
+        </pubinfo>
+        <onlink>http://www.appalachiantrail.org/</onlink>
+        <ftname Sync="TRUE">AT_ShelterLoactions</ftname>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19981206</begdate>
+          <enddate>20020312</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Ongoing</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-84.199846</westbc>
+        <eastbc Sync="TRUE">-68.995692</eastbc>
+        <northbc Sync="TRUE">45.881650</northbc>
+        <southbc Sync="TRUE">34.617557</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-84.199846</leftbc>
+        <rightbc Sync="TRUE">-68.995692</rightbc>
+        <bottombc Sync="TRUE">34.617557</bottombc>
+        <topbc Sync="TRUE">45.881650</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Appalachian National Scenic Trail</themekey>
+        <themekey>Appalachian Trail</themekey>
+        <themekey>National Scenic Trail</themekey>
+        <themekey>A.T.</themekey>
+        <themekey>AT</themekey>
+        <themekey>A.T. GPS</themekey>
+        <themekey>Appalachian Trail Shelters</themekey>
+        <themekey>A.T. Shelter</themekey>
+        <themekt>ISO19115 Topic Categories</themekt>
+        <themekey>biota</themekey>
+        <themekey>shelter</themekey>
+      </theme>
+      <place>
+        <placekey>Appalachian National Scenic Trail</placekey>
+        <placekey>Appalachian Trail</placekey>
+        <placekey>A.T.</placekey>
+        <placekey>AT</placekey>
+        <placekey>ME-GA</placekey>
+        <placekey>ME</placekey>
+        <placekey>NH</placekey>
+        <placekey>VT</placekey>
+        <placekey>MA</placekey>
+        <placekey>CT</placekey>
+        <placekey>NY</placekey>
+        <placekey>NJ</placekey>
+        <placekey>PA</placekey>
+        <placekey>MD</placekey>
+        <placekey>WV</placekey>
+        <placekey>VA</placekey>
+        <placekey>TN</placekey>
+        <placekey>NC</placekey>
+        <placekey>GA</placekey>
+      </place>
+    </keywords>
+    <accconst>It is asked that proper citation be used on any materials (digital or printed) in which this information appears.</accconst>
+    <useconst>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The Appalachian Trail Conference, the National Park Service Appalachian Trail Park Office, agency partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held responsible for use or misuse of this data. Please see the Distribution_Liability section for more detailed information.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Matthew C. Robinson</cntper>
+          <cntorg>Appalachian Trail Conference</cntorg>
+        </cntperp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 807</address>
+          <city>Harpers Ferry</city>
+          <state>West Virginia</state>
+          <postal>25425</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(304) 535-6331</cntvoice>
+        <cntfax>(304) 535-2667</cntfax>
+        <cntemail>mrobinson@atconf.org</cntemail>
+        <hours>9-5 EST</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Appalachian Trail Conferene and National Park Service Appalachian Trail Park Office</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>AT_ShelterLoactions</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All attributes associated with this data set were verified and should reflect the qualities of each portion of the data. Length (distance) information was calculated within the GIS though, so may not accurately reflect true distance values such as those calculated on the ground with a wheel or other measuring device. These values may also vary slightly throughout the data set, depending on the source data used to determine length.</attraccr>
+    </attracc>
+    <logic>Information within this data set are considered to be logically consistent, though no formal tests were performed. Line geometry is topologically clean.</logic>
+    <complete>All portions of the Appalachian National Scenic Trail are represented within this data set using the most accurate information available. This includes high accuracy Global Positioning Systems (GPS) data in some areas and digitized information from USGS topographic maps and Appalachian Trail maps in others. As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy of this data set varies depending on the source data from which it was compiled. All GPS data used to create this data set were collected using Trimble GeoExplorer II, ProXL, or ProXR GPS equipment and  post-process differentially corrected. However, in some areas this included only 2D GPS data (which is generally less accurate than 3D GPS data). Though no formal tests were conducted, all portions of the data based on 3D data are assumed to meet National Mapping Standards of +/- 46.5 feet horizontal accuracy at a 95% confidence level. Portions based on 2D data, however, may exceed National Mapping Standards in some areas. All portions of the data based on GPS data are noted within the attribute information.
+
+
+
+
+
+All digitized information used to create this data set were based on information depicted on USGS 1:24,000 topographic maps or Appalachian Trail maps, which vary in scale from 1:24,000 to 1:100,000. Generally, this information was only used as a supplement to the GPS data (e.g. in areas where no GPS data was collected or where GPS data did not reflect current conditions such as recent relocations). Though no formal tests were conducted, those portions of the data based on USGS topographic map information are assumed to be within National Mapping Standards. Those based on Appalachian Trail map information, however, may exceed National Mapping Standards in some areas. All portions of the data based on digitized information are noted within the attribute information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Appalachian Trail Conference and National Park Service Appalachian Trail Park Office</origin>
+            <pubdate>20011015</pubdate>
+            <title>Appalachian National Scenic Trail Centerline</title>
+            <edition>First</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Harpers Ferry, WV</pubplace>
+              <publish>Appalachian Trail Conference</publish>
+            </pubinfo>
+            <onlink>http://www.appalachiantrail.org/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>1:5,000 to 1:24,000</srcscale>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19981206</begdate>
+              <enddate>20011015</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>ATC and NPS ATPO</srccitea>
+        <srccontr>Information used in compiling this data set was collected and contributed by Dr. Vernon Vernier (1998-1999), the Green Mountain National Forest (1999), the White Mountain National Forest (1999-2001), and A.T. staff members (1998-2001).</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Appalachian National Scenic Trail Centerline data was created  from a number of sources. These include Global Positioning System (GPS) survey data collected by Dr. Vernon Vernier (1998-1999), the Green Mountain National Forest (1999), the White Mountain National Forest (1999-2001), and A.T. staff members (1998-2001) as well as some digitized information based on information depicted on USGS topographical maps and Appalachian Trail maps.
+
+
+
+
+All GPS data was post-process differentially corrected either by A.T. staff members or by the party that collected the data. Next, it was populated with data source and supplier information. All GPS data used to create this data set was collected using Trimble's recommended data capture settings (e.g. maximum PDOP of 6.0 and elevation mask of 15 degrees) except the Manual 3D setting for those data collected by Dr. Vernier. Dr. Vernier used the Automatic data setting, which collects 3D GPS data when available and 2D GPS data all other times. Those portions of the data based on 3D GPS data and those based on 2D GPS data were identified and noted in the data. All GPS data were then combine to produce a seamlessly data set and attribute information (e.g. length) was updated for the entire set.
+
+
+
+
+Gaps were then identified and supplemented using digital data based on information depicted on USGS 1:24,000 scale topographic maps and Appalachian Trail maps, which vary in scale from 1:24,000 to 1:100,000. Attribute information (e.g. length) was then updated for the entire set.
+
+
+
+Data were then compared to a list of major trail relocations since 1998. Those portions of the data set that no longer accurately depicted the current trail location (e.g. the trail had been relocated since the GPS data in that area was collected) were replaced with digitized information, based on the most accurate and up-to-date information available as to the current trail location, whether that be an Appalachian Trail map (1:24,000 to 1:100,000 scale) or marked up USGS topographic maps (1:24,000 scale). Once combine with the rest of the data set, attribute information (e.g. length and data source) were updated for the entire set.
+
+
+
+
+As more accurate and up-to-date information is collected or becomes available, it will be incorporated within, or used to update, the current data set.</procdesc>
+        <procdate>19981206-20020312</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">D:\AppTrail\at_centerline.xml</srcused>
+        <date Sync="TRUE">20080414</date>
+        <time Sync="TRUE">10595100</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="AT_ShelterLoactions">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">290</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="AT_ShelterLoactions">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">290</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="AT_ShelterLoactions">
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>ID</attrdef>
+      </attr>
+      <enttyp>
+        <enttypl Sync="TRUE">AT_ShelterLoactions</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">290</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Note about specific portion of the data</attrdef>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Source of data</attrdef>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">40</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TYPE</attrlabl>
+        <attalias Sync="TRUE">TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INFO</attrlabl>
+        <attalias Sync="TRUE">INFO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">80</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NAME</attrlabl>
+        <attalias Sync="TRUE">NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">30</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OFFICIAL</attrlabl>
+        <attalias Sync="TRUE">OFFICIAL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NEAR_AT</attrlabl>
+        <attalias Sync="TRUE">NEAR_AT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FEE</attrlabl>
+        <attalias Sync="TRUE">FEE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CAPACITY</attrlabl>
+        <attalias Sync="TRUE">CAPACITY</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ACCURACY</attrlabl>
+        <attalias Sync="TRUE">ACCURACY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">80</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QUAD_24K</attrlabl>
+        <attalias Sync="TRUE">QUAD_24K</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QUAD_ID</attrlabl>
+        <attalias Sync="TRUE">QUAD_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">15</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ZONE</attrlabl>
+        <attalias Sync="TRUE">ZONE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SEGMENT</attrlabl>
+        <attalias Sync="TRUE">SEGMENT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AT_LAND</attrlabl>
+        <attalias Sync="TRUE">AT_LAND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">5</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CAMPING</attrlabl>
+        <attalias Sync="TRUE">CAMPING</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CLUB</attrlabl>
+        <attalias Sync="TRUE">CLUB</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">USFS_LAND</attrlabl>
+        <attalias Sync="TRUE">USFS_LAND</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WAYPOINT</attrlabl>
+        <attalias Sync="TRUE">WAYPOINT</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Appalachian Trail Conference</cntorg>
+          <cntper>Matthew C. Robinson</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 807</address>
+          <city>Harpers Ferry</city>
+          <state>West Virginia</state>
+          <postal>25425</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(304) 535-6331</cntvoice>
+        <cntfax>(304) 535-2667</cntfax>
+        <cntemail>mrobinson@atconf.org</cntemail>
+        <hours>9-5 EST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>This data set was developed to support the A.T. project and the mission and goals of the Appalachian Trail Conference and the National Park Service Appalachian Trail Park Office.</resdesc>
+    <distliab>Although a large portion of this data is quite accurate, the information depicted in this data set is for general reference purposes only and does not represent legal survey information. The Appalachian Trail Conference, the National Park Service Appalachian Trail Park Office, agency partners (including other units of the National Park Service and the USDA Forest Service), and associated trail-maintaining clubs shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data are not legal documents and are not intended to be used as such. 
+
+
+
+ 
+
+
+
+The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent with the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. 
+
+
+
+
+
+
+
+The Appalachian Trail Conference and National Park Service give no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data be directly acquired from ATC or NPS and not indirectly through other sources that may have changed the data in some way. Although these data have been processed successfully on a computer system at both the Appalachian Trail Conference and the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>6.484</transize>
+          <dssize Sync="TRUE">0.008</dssize>
+        </digtinfo>
+      </digform>
+      <fees>None</fees>
+      <ordering>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</ordering>
+    </stdorder>
+    <custom>Refer to http://www.appalachiantrail.org/ or the contact person listed within this metadata for ordering information or instructions.</custom>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20080414</metd>
+    <metrd>20020312</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Appalachian Trail Conference</cntorg>
+          <cntper>Matthew C. Robinson</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 807</address>
+          <city>Harpers Ferry</city>
+          <state>West Virginia</state>
+          <postal>25425</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(304) 535-6331</cntvoice>
+        <cntfax>(304) 535-2667</cntfax>
+        <cntemail>mrobinson@atconf.org</cntemail>
+        <hours>9-5 EST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <MetaID>{25F9D328-B554-41B2-9EF2-499189DF2938}</MetaID>
+    <CreaDate>20080414</CreaDate>
+    <CreaTime>10595100</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20080414</SyncDate>
+    <SyncTime>11272500</SyncTime>
+    <ModDate>20080414</ModDate>
+    <ModTime>11272500</ModTime>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">AT_ShelterLoactions</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-84.199846</westBL>
+          <eastBL Sync="TRUE">-68.995692</eastBL>
+          <northBL Sync="TRUE">45.88165</northBL>
+          <southBL Sync="TRUE">34.617557</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-84.199846</westBL>
+      <eastBL Sync="TRUE">-68.995692</eastBL>
+      <northBL Sync="TRUE">45.88165</northBL>
+      <southBL Sync="TRUE">34.617557</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC36\D$\AppTrail\AT_ShelterLoactions.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.008</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1927</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="AT_ShelterLoactions">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">290</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20080414</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16801</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

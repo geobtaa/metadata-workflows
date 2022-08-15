@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>John Steinmetz (Data compiler)</origin>
+        <origin>Walter E. Gray (Data compiler)</origin>
+        <origin>Nathan Eaton (GIS compiler)</origin>
+        <origin>John Hill (Data compiler)</origin>
+        <origin>John Rupp (Data compiler)</origin>
+        <origin>Matthew R. Johnson (GIS compiler)</origin>
+        <pubdate>20140630</pubdate>
+        <title>EARTHQUAKE_EPICENTERS_IN: Epicenters of Earthquakes in Indiana with a Moment Magnitude Equal to or Greater Than 3.0 (Indiana Geological Survey, 1:500,000, Point Shapefile)</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+NOTE: EARTHQUAKE_EPICENTERS_IN.SHP was originally published on August 28, 2002, and was subsequently updated on March 5, 2003, and June 30, 2014. The shapefile
+contains historic and recent event information. The historic data was originally published by the U.S. Nuclear Regulatory Commission (USNRC) in a catalog of
+events compiled in the "The Central and Eastern United States Seismic Source Characterization for Nuclear Facilities" (CEUS SSC). The CEUS SSC catalog contains
+historic events up to December 31, 2008. The event information for three more recent earthquakes occuring on December 30, 2010, January 26, 2012, and May 10, 2012
+were obtained from the U.S. Geological Survey, National Earthquake Information Center.
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+EARTHQUAKE_EPICENTERS_IN.SHP shows the locations of all known historical earthquakes in Indiana with a moment magnitude (Mw) greater than or equal to 3.0. It includes
+earthquake locations derived from both instrumented recordings and estimations from historical accounts. The shapefile is an amalgam of points created from the CEUS SSC
+catalog maintained by the U.S. Nuclear Regulatory Commission (up to December 31, 2008) and the U.S. Geological Survey, National Earthquake Information Center (three
+events on December 30, 2010, January 26, 2012, and May 10, 2012). Values of Moment Magnitude (Mw) are used in this data. Mw refers to the energy released by the event,
+which is proportional to the slip on a fault multiplied by the area of the fault surface that slips. Events below Mw 3.0 have been omitted, as those events are below
+the energies felt by humans. Also, all pre-shock and aftershock, non-tectonic (e.g., mine blast), and duplicate event entries have been omitted. Data attributes include
+event date and time, x-y coordinate locations, and Moment Magnitude (Mw) values.
+</abstract>
+      <purpose>
+EARTHQUAKE_EPICENTERS_IN.SHP was created to show the distribution of earthquakes (with Mw greater than or equal to 3.0) that have occurred in Indiana, in the form of a
+GIS data layer. It was subsequently updated by personnel of the IGS when the more authoritative and standardized source of event records became available from the
+CEUS SSC catalog (as of December 31, 2008) and the U.S. Geological Survey, National Earthquake Information Center (for three recent earthquake events that occurred on
+December 30, 2010, January 26, 2012, and May 10, 2012).
+</purpose>
+      <supplinf>
+The following two web sites were used by IGS staff to obtain historic and more recent earthquake event data:
+
+1) "The Central and Eastern United States Seismic Source Characterization for Nuclear Facilities" (CEUS SSC), (USNRC) - http://www.ceus-ssc.com/
+
+2) U.S. Geological Survey, National Earthquake Information Center - http://earthquake.usgs.gov/regional/neic/
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>18170116</begdate>
+          <enddate>20140630</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>U.S. Nuclear Regulatory Commission (USNRC)</themekey>
+        <themekey>The Central and Eastern United States Seismic Source Characterization for Nuclear Facilities (CEUS SSC)</themekey>
+        <themekey>U.S. Geological Survey (USGS)</themekey>
+        <themekey>National Earthquake Information Center (NEIC)</themekey>
+        <themekey>earthquake</themekey>
+        <themekey>epicenter</themekey>
+        <themekey>seismology</themekey>
+        <themekey>geologic hazard</themekey>
+        <themekey>hazard tectonic</themekey>
+        <themekey>Moment Magnitude (Mw)</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>State Geologist</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>igsinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcCatalog 10.2, approximately 47 Kb</native>
+    <useconst>Geology--Seismic_Earthquake_Epicenters</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Earthquake event locations and Moment Magnitude values were obtained by IGS personnel from catalogs of the USNRC and USGS and
+are assumed to be accurate.
+</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>
+Earthquake events with an Mw of 3.0 or greater have been included in this dataset. Events below Mw 3.0 have been omitted, as those events are
+below the energies felt by humans.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The horizontal accuracy is of highly variable quality. Some of the older calculated events are very poorly located while
+the more recent events that were located using instruments are much more accurate.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No vertical data are given in this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Nuclear Regulatory Commission</origin>
+            <pubdate>20120101</pubdate>
+            <title>CEUS_EQ_CATALOG_R0.SHP [Central Eastern United States - Seismic Source Characterization for Nuclear Facilities (CEUS SSC) (Earthquake Catalog Compilation)]</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Palo Alto, CA</pubplace>
+              <publish>U.S. Nuclear Regulatory Commission</publish>
+            </pubinfo>
+            <onlink>http://www.ceus-ssc.com/ (homepage, follow links to "Products &gt; Earthquake Catalog")</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1568</begdate>
+              <enddate>20081231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>CEUS_EQ_CATALOG_R0.SHP (ESRI point shapefile)</srccitea>
+        <srccontr>
+An earthquake catalog of the Central and Eastern United States. Several sources were compiled for this study. See the CEUS SSC report for a
+complete description of data sets and sources used in the compilation of this dataset. (http://www.ceus-ssc.com/project_report.html)
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20120510</pubdate>
+            <title>"Earthquake Catalog Search" of the National Earthquake Information Center (NEIC)</title>
+            <geoform>Online digital data</geoform>
+            <pubinfo>
+              <pubplace>Golden, CO</pubplace>
+              <publish>U.S. Geological Survey, National Earthquake Information Center</publish>
+            </pubinfo>
+            <onlink>http://earthquake.usgs.gov/regional/neic/ (homepage, to search the database select "Earthquake Catalog Search")</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20090101</begdate>
+              <enddate>20120926</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>USGS National Earthquake Information Center Earthquake Database, an online search engine</srccitea>
+        <srccontr>The last three earthquake event entries in Indiana (December 30, 2010, January 26, 2012 and May 10, 2012) were obtained from the NEIC</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+NOTE: The older process steps used to construct the original versions of these data (in 2002-2003) for Indiana by IGS personnel have been removed from
+this document. The methods that were used are no longer valid since some of the older earthquake event catalogs are no longer readily available online.
+
+Personnel of the IGS downloaded the shapefile named "CEUS_EQ_CATALOG_R0.SHP" from the web pages of the U.S. Nuclear Regulatory Commission, (Central
+Eastern United States - Seismic Source Characterization for Nuclear Facilities (CEUS SSC)). It was opened in Esri ArcMap (v 10.2) and clipped to the
+boundary of Indiana (Landsurvey_State_Poly_IN.SHP). Events in Indiana with Moment Magnitude values of less than 3.0 were then deleted, and the temporary
+output file was named INDIANA_EPICENTERS_MW3_OR_GREATER.SHP.
+</procdesc>
+        <srcused>CEUS_EQ_CATALOG_R0.SHP</srcused>
+        <procdate>20120215</procdate>
+        <srcprod>INDIANA_EPICENTERS_MW3_OR_GREATER.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Matthew R. Johnson</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographer</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5893</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>mrj21@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+INDIANA_EPICENTERS_MW3_OR_GREATER.SHP was appended with three more recent earthquake events in Indiana that were obtained from the "Earthquake Catalog Search" of the
+National Earthquake Information Center (NEIC), U.S. Geological Survey. The dates of the events were December 30, 2010, January 26, 2012, and May 10, 2012. The file
+was then renamed to "EARTHQUAKE_EPICENTERS_IN.SHP" to comply with the internal naming conventions of the Indiana Geological Survey.
+</procdesc>
+        <srcused>INDIANA_EPICENTERS_MW3_OR_GREATER.SHP, "Earthquake Catalog Search" (NEIC, USGS)</srcused>
+        <procdate>20120926</procdate>
+        <srcprod>EARTHQUAKE_EPICENTERS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Matthew R. Johnson</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Cartographer</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5893</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>mrj21@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and
+Ordinate_Resolution."
+</procdesc>
+        <procdate>20141117</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5456</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>44</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>EARTHQUAKE_EPICENTERS_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>TID</attrlabl>
+        <attrdef>Temporary ID (Duplicate events have the same TID value)</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Yr</attrlabl>
+        <attrdef>Calendar year for the date of event</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1817</rdommin>
+            <rdommax>2012</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mo</attrlabl>
+        <attrdef>Calendar month for the date of event</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hr</attrlabl>
+        <attrdef>The hour the event occurred during the calendar date</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mn</attrlabl>
+        <attrdef>The minute of the hour the event occurred during the calendar date</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sec</attrlabl>
+        <attrdef>The seconds of the minute and the hour the event occurred during the calendar date</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat</attrlabl>
+        <attrdef>Latitudinal coordinate of the event epicenter</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>37.9</rdommin>
+            <rdommax>41.62</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lon</attrlabl>
+        <attrdef>Longitudinal coordinate of the event epicenter</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-88.0</rdommin>
+            <rdommax>-84.927</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dep</attrlabl>
+        <attrdef>Depth below the earth of the event epicenter (in kilometers)</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>20</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Erh</attrlabl>
+        <attrdef>
+Estimated horizontal locational uncertainty (in kilometers). Provides a measure of the uncertainty
+in location of the earthquake. The values represent a mixture of reported standard errors for instrumentally located earthquakes
+from various catalog sources, as well as uncertainty for locations based on descriptions or felt effects (shaking intensity) of witness
+descriptions.
+</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Em</attrlabl>
+        <attrdef>Expected value of Moment magnitude</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.0</rdommin>
+            <rdommax>4.9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Efac</attrlabl>
+        <attrdef>Alternative magnitude values and magnitude types</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SM</attrlabl>
+        <attrdef>Alternative magnitude values and magnitude types</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mag</attrlabl>
+        <attrdef>Alternative magnitude values and magnitude types</attrdef>
+        <attrdefs>USNRC, Bob Youngs, AMEX Geomatrix</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MapNumber</attrlabl>
+        <attrdef>Indiana Geological Survey's map identification number for the event</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>43</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be included:
+[EARTHQUAKE_EPICENTERS_IN: Epicenters of Earthquakes in Indiana with a Moment Magnitude Equal to or Greater Than 3.0 (Indiana Geological Survey, 1:500,000,
+Point Shapefile), 20140630]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020828</metd>
+    <metrd>20141117</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Walter E. Gray</cntper>
+        </cntorgp>
+        <cntpos>Education Outreach Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1378</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>grayw@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS
+does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

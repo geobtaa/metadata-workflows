@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey (IGS)</origin>
+        <origin>Center for Geospatial Data Analysis (CGDA)</origin>
+        <origin>Sally L. Letsinger (data compiler)</origin>
+        <pubdate>20150630</pubdate>
+        <title>Aquifer_Recharge_Near_Surface_IN: Groundwater recharge rates to shallow aquifers, Indiana (Indiana Geological Survey, 100-Meter TIFF Image)</title>
+        <edition>1.0</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>None</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological Survey</origin>
+            <origin>Sally L. Letsinger</origin>
+            <pubdate>20150630</pubdate>
+            <title>Relationship of groundwater recharge rates to aquifer sensitivity to contamination in shallow aquifers in Indiana, using multiple regression analysis</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Aquifer_Recharge_Near_Surface_IN is a raster data layer that displays the results of a regression analysis to determine the estimated rate of diffuse groundwater recharge to the water table in shallow aquifers in Indiana based on numerous landscape-level variables as predictors. The goal of this project was to use an objective, reproducible methodology to estimate groundwater recharge rates in both glaciated and driftless environments. This groundwater-recharge raster layer was developed by combining a multiple regression analysis of groundwater recharge with characteristics of near-surface geologic materials. The groundwater recharge data used in the multiple regression analysis was derived from calculations of groundwater baseflow and surface-water runoff for 279 streams in Indiana. Estimates of groundwater base flow were determined using hydrograph separation analysis (Institute of Hydrology, 1980) determined using a local-minimums approach with a recession slope test, and were converted to recharge by multiplying by using estimates of runoff following Wolock (2003). The baseflow index (BFI) provides the proportion of runoff that is assumed to be groundwater contribution, so recharge was estimated as BFI * interpolated statewide runoff (not runoff per basin). The average annual rate of groundwater recharge (in/year) was used as the dependent variable in a multiple regression analysis using ordinary least squares with several landscape and morphometric independent variables representing geologic, terrain, climate, and hydrogeologic characteristics. The regression model developed for Indiana had a global R2 value of 0.50, and the most influential variables at the 95% confidence level were:
+
+- Cumulative percent area of upstream impervious surfaces
+- Surface clay thickness
+- Percent of clay in soil
+- Average annual air temperature
+- Presence/absence of unconsolidated aquifers
+- Slope of ground surface
+- Cumulative percent area of upstream water bodies
+- Sand composition of water well boreholes
+- Cumulative percent area of upstream medium-height vegetation
+- Hydrologic group classification of soil (A,B,C,D - SSURGO)
+
+The regression model was used as a mapping tool to spatially distribute estimates of recharge across Indiana, incorporating details of the important landscape variables.
+</abstract>
+      <purpose>This data set was created to support a statistical regression analysis of groundwater recharge rates in shallow unconsolidated aquifers, Indiana.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1900</begdate>
+          <enddate>2013</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Aquifer_Recharge_Near_Surface_IN</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>recharge</themekey>
+        <themekey>aquifer</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>regression</themekey>
+        <themekey>probability</themekey>
+        <themekey>landscape variables</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aquifer sensitivity</themekey>
+        <themekey>contamination</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.2.1 (build 3497) raster (TIFF) format, Windows 7, approximately 62.3 Mb</native>
+    <useconst>Hydrology--Aquifer_Recharge_Near_Surface</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The ranges of all numeric attributes that went into the analysis were checked to ensure the values represented the content of the field. The attribute accuracy varies by the original source scale of the data used to calculate each field. Many high resolution data inputs used to calculate each field were degraded in scale when mean values or centroid samples were taken to represent the independent landscape variables at a resolution of 100 m.</attraccr>
+    </attracc>
+    <logic>Checks for duplicates (unique values in unique records) were performed on this data set. No checks on topology were performed on this data set.</logic>
+    <complete>All fields were checked to ensure that all records were populated.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The raster resolution is 100 meters; the horizontal positional accuracy of the raster is 200 meters. The effective horizontal accuracy for the value attributes of groundwater recharge is unknown; the raster values represent a predicted value of groundwater recharge, but 95% confidence limits are not represented in this product.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological Survey</origin>
+            <pubdate>2014</pubdate>
+            <title>Statewide_Indiana_Gaging_Stations_UTM_runoff_rech_in.shp</title>
+            <geoform>Vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>200000</srcscale>
+        <typesrc>Offline Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1900</begdate>
+              <enddate>2013</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Recharge regression data, 2015</srccitea>
+        <srccontr>Point locations of stream gages in Indiana.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological Survey</origin>
+            <pubdate>2015</pubdate>
+            <title>Statewide_regression_rech_20150424_40.shp</title>
+            <geoform>Vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>200000</srcscale>
+        <typesrc>Offline Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1900</begdate>
+              <enddate>2013</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Recharge regression data, 2015</srccitea>
+        <srccontr>Point locations of stream gages in Indiana, associated landscape, terrain, and morphometric variables at each point location that were used in the final regression model.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Geological Survey</origin>
+            <pubdate>1987</pubdate>
+            <title>Average annual runoff in the United States, 1951-1980</title>
+            <geoform>Vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>2000000</srcscale>
+        <typesrc>Offline Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1951</begdate>
+              <enddate>1980</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Runoff</srccitea>
+        <srccontr>Generalized average estimates of annual surface runoff totals (inches)</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>For each variable evaluated, depending on the data type and source scale of the original data, GIS data layers were created in vector or 100-meter raster formats. For this analysis, 279 point locations representing United States Geological Survey stream gages were the focus. For this study, the following attributes were considered: watershed area; contributing area; elevation; slope; compound topographic index; height above minimum base level, depth to groundwater, downslope distance to nearest stream, thickness of shallow clay deposits, weighted saturated soil hydraulic conductivity, soil parent material, soil drainage class, average annual precipitation, average annual maximum temperature, average annual minimum temperature, growing degree days, stream flow, stream density, wetland density, groundwater withdrawals, surface water withdrawals, modeled incoming solar radiation (insolation); land-over classification (agriculture, various types of forest, developed and undeveloped land, wetlands, impervious surface, and so on). The data were used to identify a statistical regression model aimed at predicting the rate of groundwater migration from the surface into the subsurface in Indiana. The values for each independent landscape variable in each analysis cell were tabulated in an Excel spreadsheet, and exported to a text file for use in an external statistical ordinary least squares regression code, In addition, each regression was performed using the ESRI ArcGIS Ordinary Least Squares regression tool (Spatial Statistics Toolbox) to check results and map the spatial distribution of residuals. The models were repeated in R and Excel to obtain different metrics in the output files. The best-fit model achieved an R2=0.50 at the 95% confidence level for the 279 point locations. The model equation was used to spatially distribute (map) the predicted estimates of recharge across the landscape using Raster Calculator in ESRI ArcGIS, at a raster resolution of 100 m.</procdesc>
+        <srcused>Recharge regression data, 2015</srcused>
+        <procdate>2015</procdate>
+        <srcprod>Aquifer_Recharge_Near_Surface_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150630</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>4438</rowcount>
+      <colcount>2879</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Aquifer_Recharge_Near_Surface_IN.tif.vat.dbf</enttypl>
+        <enttypd>TIF attribute table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Predicted rate of groundwater recharge</attrdef>
+        <attrdefs>Center for Geospatial Data Analysis, Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>14</rdommax>
+            <attrunit>inches per year</attrunit>
+            <attrmres>0.1</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Offline Data</resdesc>
+    <distliab>
+COPYRIGHT 2015, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: Aquifer_Recharge_Near_Surface_IN: Groundwater recharge rates to shallow aquifers, Indiana (Indiana Geological Survey, 100-Meter TIFF Image), digital compilation by Sally L. Letsinger, 2015.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150630</metd>
+    <metrd>20150630</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+          <cntper>Sally L. Letsinger</cntper>
+        </cntorgp>
+        <cntpos>Research Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1356</cntvoice>
+        <cntfax>812 855 2781</cntfax>
+        <cntemail>sletsing@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered
+or summarized. IGS does not support secondary distribution. If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey (IGS)</origin>
+        <origin>Ned Bleuer (data compiler)</origin>
+        <origin>Steve Brown (data compiler, digital compiler)</origin>
+        <origin>Jennifer Olejnik (data compiler, digital compiler)</origin>
+        <origin>Marni Karaffa (data compiler)</origin>
+        <origin>Jack Haddan (data compiler, digital compiler)</origin>
+        <origin>Denver Harper (digital processor)</origin>
+        <pubdate>20120509</pubdate>
+        <title>
+GAMMA_RAY_LOGS_IGS_IN: Wells with Natural Gamma-Ray Logs or Physical Samples in Unconsolidated Sediments in Indiana (Indiana Geological Survey,
+1:100,000, Point Shapefile)
+</title>
+        <edition>1.0</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+GAMMA_RAY_LOGS_IGS_IN.shp shows the locations of the Indiana Geological Survey's natural gamma-ray logs that were collected from 1978 to 2012.
+It was updated by Indiana Geological Survey (IGS) personnel on May 9, 2012 to add new data and to include existing locations of wells with "sample
+only" designations (rotary cuttings or cores) that were formerly excluded. Additionally, the dataset now contains an attribute field named
+"SAMPLE_ID" for referencing physical samples in the IGS Archives. Data were updated in the attribute field named "Type" to differentiate between wells
+which have only gamma-ray logs (value of "GL"), wells with gamma-ray logs and physical samples (value of "LS"), or wells where only samples (value of
+"SO") were collected. This shapefile also includes information concerning coordinate locations, surface elevation, and vertical depths of gamma-logs.
+</abstract>
+      <purpose>
+This shapefile was created to show the locations in Indiana where gamma-ray log records have been collected, as well as some locations where only samples
+(rotary cuttings or cores) were collected to describe the detail of subsurface geology of Indiana. Some verification have been done on location
+information in the database.
+</purpose>
+      <supplinf>
+This gamma-ray log data was collected using MLS Widco logging equipment (through 2007), and Mount Sopris logging equipment (2007 to present).
+This data was taken as analog through 1993, and also as digital data after 1993. Various scales were used to record the data depending on the conditions
+of each well location and the environment in which they were located. The database was started in 1990 by data entry of information into county-based
+spreadsheets. The numbering system of the gamma-logs changed from a county-based number such as MA-1 (Marion County 1) to a vehicle-based number system.
+At that time there were two vans and one was given odd numbers, the other even numbers, and these sequential numbers were preceded by the last two digits
+of the year followed by a dash. At that time, all unnumbered logs were given a number and the ones from the county-based system retained their old number
+for reference and were renumbered. Two files were created for each log: an “original” file and a “county” file. In either 1992 or 1993, the separate county
+spreadsheets were merged into a single database using Paradox V3.5 software. Fields and general organization were still being refined. In 1997, the database was
+converted from Paradox to Microsoft Access, which is still used as the database’s software. In 1993 work was done with the Indiana University
+Electronics Department to devise a way to collect digital logs. Using laptops in the field, IGS summer field personnel collected the digital logs and
+entered new data into the database. This field-entered data was added to the main database at the end of each field year. Location information was
+plotted on topographic maps in 1994 and then digitized to obtain UTM coordinates for gamma-logs that had a location. In 1998 field personnel began
+using GPS units in the field to record UTM coordinates for each location of gamma-ray log. Following 1998 additional fields were added and certain location
+fields were verified, using the UTM coordinates, including the county, quadrangle, township, range, and section. The UTM coordinates were converted to
+NAD 83 from NAD 27. Surface elevation values are derived from the U.S. Geological Survey National Elevation Dataset.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19780101</begdate>
+          <enddate>20120509</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0185</westbc>
+        <eastbc>-84.7543</eastbc>
+        <northbc>41.7689</northbc>
+        <southbc>37.8943</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>aquifer</themekey>
+        <themekey>borehole</themekey>
+        <themekey>boring</themekey>
+        <themekey>domestic water supply</themekey>
+        <themekey>gamma-ray log</themekey>
+        <themekey>global positioning system (GPS)</themekey>
+        <themekey>ground water</themekey>
+        <themekey>hydrogeology</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Indiana Division of Water (IDNR DOW)</themekey>
+        <themekey>organization</themekey>
+        <themekey>public water supply</themekey>
+        <themekey>rural water supply</themekey>
+        <themekey>tools and techniques</themekey>
+        <themekey>water</themekey>
+        <themekey>water supply</themekey>
+        <themekey>water well</themekey>
+        <themekey>well</themekey>
+        <themekey>well drilling</themekey>
+        <themekey>well log</themekey>
+        <themekey>well logging</themekey>
+        <themekey>rock sample</themekey>
+        <themekey>rock cutting</themekey>
+        <themekey>rock core</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>LaGrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Windows 7, ESRI ArcMap 10 shapefile format, approximately 6.8 Mb</native>
+    <useconst>Geology--Surficial_Gamma_Ray_Logs</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The locations were initially plotted on paper-based 7.5-minute U.S. Geological Survey quadrangle maps in the fieldand then transferred to a
+1:100,000-scale map in the office. The original UTM coordinates were derived from the 7.5-minute U.S. Geological Survey quadrangle maps using
+the UTM tics on the edge of the paper-based map. After 1997, the location was taken with a GPS unit and compared to the 7.5-minute U.S. Geological
+Survey quadrangle paper maps. The location information such as the county, quadrangle, township, range, and section was checked against the UTM
+coordinates for accuracy. The point data were plotted using the UTM coordinates. The bottom depth of the log was taken from the gamma-logging
+equipment as the gamma-log was being produced.
+</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>
+GAMMA_RAY_LOGS_IGS_IN.shp contains locations forall gamma-ray logs, or physical rock material samples collected as part of the
+IGS Gamma-Log database.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of this data has not been formally tested. The locations were initially plotted on paper-based 7.5-minute
+quadrangle maps in the field and then transferred to a 1:100,000-scale map in the office. The UTM coordinates were
+derived from these maps. After 1997, the location was taken with a GPS unit and compared to the 7.5-minute quadrangle paper maps. The
+location information such as the county, quadrangle, township, range, and section was checked against the UTM coordinates for accuracy.
+The point data was plotted using the UTM coordinates. The data collected before 1999 used UTM NAD 27; data collected
+after 1999 used UTM NAD 83.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Surface elevation values for all wells have been obtained from the U.S. Geological Survey National Elevation Dataset (30-meter grid).</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>UNCONSOLIDATED_GAMMAS_IN_2012.XLSX, internal gamma-log database</title>
+            <edition>3.0</edition>
+            <geoform>Tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Microsoft Excel Spreadsheet</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19780101</begdate>
+              <enddate>20120509</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>UNCONSOLIDATED_GAMMAS_IN_2012.XLSX</srccitea>
+        <srccontr>
+UNCONSOLIDATED_GAMMAS_IN_2012.XLSX provides locations and detailed information for gamma-logs that
+were taken by the Indiana Geological Survey from 1978 to 2012.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The following is a list of steps describing the procedure to select the data included in this shapefile.
+1. The original data were taken from the working database, GLDB.mdb. All the
+manipulations to restrict this data set were performed in the database subset_gldb_redo.mdb using Microsoft Access 2002.
+The data was first restricted to 17 columns from 83. There were 4,683 original records.
+
+2. A delete query was performed to remove records with the designation SO (samples only). This reduced
+the number of records by 141 from 4,683 to 4,542.
+
+3. A delete query was performed to remove records with incomplete UTM records. This reduced the number
+of records by 237 from 4,542 to 4,305 records.
+
+4. A new table showing the following fields, INDEX, the unique IGS identification number, and the checklist fields that make
+up the paper file inventory, ORIGINAL and COUNTY, were imported from the working database, GLDB.mdb.
+This table was combined with the columns from the table in step 3, resulting in a new table containing 4,305 records. This new table
+contained the new columns "original" and "county" from the working database, which were updated from a recent file inventory, and deleted
+the old fields original and county from the table in the previous step.
+
+5. The table created in the previous step 4 was used to query out records that did not contain either an original or
+county paper file. This resulted in a new table containing 4,269 records by removing 36 records without paper gamma-logs.
+
+6. A new table was imported from the working database GLDB.mdb containing the 2005 gamma-log data set with 51 records. The data from this table
+was appended to the table from the previous step 5 containing 4,269 records. This combined data set resulted in 4,320 records.
+
+7. The newest table containing 4,320 records was imported into ESRI ArcView 3.X using SQL connect. The data table was displayed using the "Add Event Theme"
+command. This was converted into a point shapefile using the "Convert To Shapefile" command. Another shapefile, Indiana_statebdy_24k_igs_p.shp was also
+brought into the view. Indiana_statebdy_24k_igs_p.shp was selected using the select tool. The "Select By Theme" command was
+used to select the gamma-log points that intersected the theme Indiana_statebdy_24k_igs_p.shp. These highlighted points were converted into a new shapefile,
+UNCONSOLIDATED_GAMMA_LOGS_IGS_IN.shp.
+
+8. Unconsolidated_gamma_logs_in.dbf file was copied, pasted and renamed in its directory to 4270_gl.dbf to import into the subset_gldb_redo.mdb database.
+It was imported into the database and used in the creation of the final data set with limited fields.
+
+9. The table 4270_gl.dbf was queried for fields, "INDEX", "UTM_83X", "UTM_83Y" and the table, LOCATION, from the working database; GLDB.mdb, was
+queried for the field depth_logged. The depth_logged column was missing 66 values. These were obtained by examination of the paper records and
+updated in the working database. The identical query was rerun to combine the four final database fields that were used.  This also caused
+another four records to be removed owing to their status changing from having a gamma-log, GL to a SO, samples only file. Two records were also
+removed becuase of the absence of paper gamma-logs. The final table created had 4,264 records.
+
+10. The shapefile UNCONSOLIDATED_GAMMA_LOGS_IGS_IN.shp's table Unconsolidated_gamma_logs_in.dbf was renamed unconsolidated_gamma_logs_in1.dbf and
+was replaced with the tbl_fnl_4_col_4264 table exported as a .dbf file from Microsoft Access 2002.The exported table was renamed
+unconsolidated_gamma_logs_in.dbf. This resulted in a final shapefile UNCONSOLIDATED_GAMMA_LOGS_IGS_IN.shp with 4,264 records and four columns of data.
+</procdesc>
+        <srcused>GLDB.mdb</srcused>
+        <procdate>20060314</procdate>
+        <srcprod>UNCONSOLIDATED_GAMMA_LOGS_IGS_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Jennifer Olejnik</cntper>
+            </cntorgp>
+            <cntpos>Assistant Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1347</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>jolejnik@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A shapefile named "UNCONSOLIDATED_GAMMAS_IGS_2010" was obtained from personnel ofthe Indiana Geological Survey. The shapefile was a successor
+shapefile of UNCONSOLIDATED_GAMMA_LOGS_IGS_IN. The shapefile had been updated with information that was current through 2010. Using ESRI ArcMAP,
+wells that were outside of Indiana were removed. In the field named "Type2," all records with a value of "SO" ("sample only")
+were deleted. Numerous fields that were related to location and ownership of the well were deleted. The field named "Z_DEMFT_83" was renamed as
+"SURFELEV." The field named "TYPE2" was renamed as "TYPE." The shapefile was then renamed "GAMMA_RAY_LOGS_IGS_IN."
+</procdesc>
+        <procdate>20110124</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Denver Harper</cntper>
+            </cntorgp>
+            <cntpos>Geologist and GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A Microsoft Excel spreadsheed named "UNCONSOLIDATED_GAMMAS_IN_2012.XLSX" was obtained from personnel of the Indiana Geological Survey on May 9, 2012.
+This new data is considered a successor to the shapefile named "GAMMA_RAY_LOGS_IGS_IN.SHP" that was updated in 2011 (which contained 4455
+locations). The data now includes a total of 4738 locations along with attribute information (field named "Type") about whether the locations
+have only gamma-ray logs (value of "GL"), gamma-ray logs and physical samples (value of "LS"), or samples only (value of "SO").
+The spreadsheet was loaded into ESRI ArcMap software and exported to a shapefile format and saved as "GAMMA_RAY_LOGS_IGS_IN_2012UPDATE.SHP."
+An attribute field named "ARCHIVE_ID" was then added to the shapefile using data provided in a Microsoft Excel spreadsheet named
+"GammLogs_SedimentSampleBarCodes2011.XLSX." This field provides bar code IDs of sample cuttings and cores in the IGS archives.
+The resultant shapefile was then exported and saved as "GAMMA_RAY_LOGS_IGS_IN.SHP"
+</procdesc>
+        <srcused>UNCONSOLIDATED_GAMMAS_IN_2012.XLSX, GAMMA_RAY_LOGS_IGS_IN_2012UPDATE.SHP, GammLogs_SedimentSampleBarCodes2011.XLSX</srcused>
+        <procdate>20120625</procdate>
+        <srcprod>GAMMA_RAY_LOGS_IGS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist and GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v2.6.1) and MP (Metadata Parser, v 2.8.27) software
+written by Peter N. Schweitzer (USGS). The errors generated by MP were all addressed and corrected, except
+that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20120718</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist and GIS Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>4738</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GAMMA_RAY_LOGS_IGS_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Indiana County name</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INDEX</attrlabl>
+        <attrdef>Unique index number given to each gamma-log</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>
+The values for the index are listed as year-number. For example, an index number of 06-1000
+indicates that the gamma-ray-log was collected in 2006, while a number of 98-1000 indicates
+that the log was collected in 1998.These numbers were used in numeric order, the values
+in this shapefile represent the gamma-logs that exist in paper format with a location.
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_83X</attrlabl>
+        <attrdef>The Universal Transverse Mercator, Zone 16 Easting, North American Datum 1983</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>415342</rdommin>
+            <rdommax>686708</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_83Y</attrlabl>
+        <attrdef>The Universal Transverse Mercator, Zone 16 Northing, North American Datum 1983</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4196210</rdommin>
+            <rdommax>4633033</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth_logg</attrlabl>
+        <attrdef>The depth to which the gamma-log reaches</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1061</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurfElev</attrlabl>
+        <attrdef>
+Elevation of the ground surface where the well was located. A value of "0" indicates
+that no data are available.
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>353</rdommin>
+            <rdommax>1228</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>The type of data that are available from the well</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>LS</edomv>
+            <edomvd>Gamma-ray log and sample (rotary cuttings or core)</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>GL</edomv>
+            <edomvd>Gamma-ray log only</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>SO</edomv>
+            <edomvd>Sample only (rotary cuttings or core)</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PDF_FILES</attrlabl>
+        <attrdef>Indicates whether the Gamma-ray logs have been scanned and made available as an Adobe PDF file (Yes/No)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PDF_URL</attrlabl>
+        <attrdef>Web site URL Address for PDF scans of Gamma-ray log files</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLES</attrlabl>
+        <attrdef>Indicates whether the physical samples associated with a well have been archived and assigned "Sample identification number(s)" in the IGS Archives (Yes/No)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_ID</attrlabl>
+        <attrdef>Sample identification number(s) that are used to reference the physical samples in the IGS Archive</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The following source citation must be included:
+GAMMA_RAY_LOGS_IGS_IN: Wells with Natural Gamma-Ray Logs or Physical Samples in Unconsolidated Sediments in Indiana (Indiana Geological Survey,
+1:100,000, Point Shapefile), compiled by Ned Bleuer (data compiler), Steve Brown (data compiler, digital compiler), Jennifer Olejnik (data compiler,
+digital compiler), Marni Karaffa (data compiler) Jack Haddan, (data compiler, digital compiler), 2012.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect
+in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication
+Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILIT
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110124</metd>
+    <metrd>20120718</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Marni Karaffa</cntper>
+        </cntorgp>
+        <cntpos>Glacial Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1366</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>karaffam@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or summarized. IGS
+does not support secondary distribution. If this data set was received from anyone other than the IGS, this metadata file and the data set
+it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<?xml-stylesheet type="text/xsl" href="FGDC.xsl"?>
+<metadata GROUP="'drg24k'">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>1996</pubdate>
+        <title>7.5 minute Digital Raster Graphics for Pennsylvania - UTM grid - NAD 1983 - cropped collars</title>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+        <lworkcit>
+          <citeinfo GROUP="'drg24k'">
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>Digital Raster Graphic</title>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>none</othercit>
+            <onlink>http://www.usgs.gov</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd GROUP="'drg24k'">
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.5194</westbc>
+        <eastbc>-74.696</eastbc>
+        <northbc>42.2695</northbc>
+        <southbc>39.7199</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>digital raster graphic</themekey>
+        <themekey>drg</themekey>
+        <themekey>topographic quadrangle</themekey>
+        <themekey>topographic map</themekey>
+        <themekey>raster image</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst GROUP="'drg24k'">
+Acknowledgment of the USGS would be appreciated in products derived 
+from these data.
+</useconst>
+    <ptcontac>
+      <cntinfo GROUP="'drg24k'">
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>508 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>22092</postal>
+        </cntaddr>
+        <cntvoice>1-800-USA-MAPS</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>drg24k83-cu</abstract>
+    </descript>
+  </idinfo>
+  <dataqual GROUP="'drg24k'">
+    <attracc>
+      <attraccr>
+The DRG uses a standard palette to ensure uniform color throughout a particular map series. The RGB values for a particular color, therefore, will remain consistent throughout that DRG series. Although the color values of the DRG may sometimes match those of the paper source map, a user will usually notice small differences between the colors on the digital image and on the paper map. Also, the quality of the user's monitor affects the DRG color displayed. Although the DRG generally contains the complete content of the source map, features may occasionally be blurred because of substandard source materials. The DRG also may contain misclassified pixels (color noise). 
+													 The DRG is an 8-bit color image that employs a color palette to ensure uniform colors throughout a particular DRG series. All DRG's within a series must have the same RGB value.
+</attraccr>
+    </attracc>
+    <logic>The USGS DRG is produced with the intention of replicating as close as possible the original source map. Users of the DRG will note, however, that a certain amount of "noise" can be discerned when small areas are blown up or viewed under zoomed-in conditions. This noise is in the form of random specks or pixels of color and halos due to any number of factors, such as, the quality of the source, the use of screens and patterns on the litho, and the unevenness of ink due to saturation and absorption. Discontinuities or breaks in linear features may also be present and are due to improper calibration or usage of the scanner, the condition of the source, and resampling.  Descreening, quantizing, and noise filtering are methods used to reduce noise, which, besides creating a more aesthetically pleasing image, have the added benefit of reducing the size of the image file. Removal of lithographic screen patterns is preferred but not required.</logic>
+    <complete>Image completeness is checked by visually inspecting a sampling of DRG's. Each selected DRG will be examined for gaps (missing data) in the main body of the map, the map collar, the overedge areas, and any insets </complete>
+    <posacc>
+      <horizpa>DRG's will retain the horizontal accuracy of the source maps. Most USGS printed maps contain the National Map Accuracy Standards (NMAS) note in the collar area. The NMAS states that for maps on publication scales of 1:20,000 or smaller, not more than 10 percent of the points tested shall be in error by more than 1/50 inch measured on the publication scale.  Test points must be "well-defined", that is, easily visible or recoverable on the ground. For DRG's this accuracy statement applies only to that area of the DRG that falls within the neatline of the source map (excluding inset areas). Overedge areas falling outside the transformation boundary area (the map neatline), can exhibit anomalies or discrepancies.  These anomalies also will appear in the map inset areas and in the map collar. For maps without the NMAS note, the horizontal accuracy is unknown. However, the DRG will retain the accuracy of the source map. </horizpa>
+      <vertacc>In the DRG the vertical positional accuracy is referenced in the DRG collar.</vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>7.5 Minute Series Topographic Quadrangles</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>map1</srccitea>
+        <srccontr>The source map is scanned to produce the DRG</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The production procedures, instrumentation, harware and software used in the 
+collection of standard DRG products vary depending on systems used at the 
+contract, cooperator, or the USGS production sites.  The majority of DRG data sets 
+are acquired through government partnership and contract.  The process step 
+describes, in general, the process used in the production of DRGs from 
+1:24,000-scale maps.
+1. Production of a DRG begins with the scanning of a paper
+7.5-minute topographic map (map1) on a high-resolution scanner. Scanning 
+resolutions range from 500-1,000 dpi with an output file of 160-300 Mb in size.
+2. Removal of screens (descreening) and color quantization to reduce  the number 
+of colors also takes place during the scanning phase.
+3. The raw scan file is then transformed and georeferenced using UTM coordinates 
+of the sixteen 2.5-minute grid ticks, which are obtained using the in-house 
+produced program COORDAT and stored in a ground control file.  Those sixteen 
+2.5-minute ticks are interactively visited and assigned their respective UTM 
+coordinates. The USGS program XSHAPES4 then performs a piecewise linear rubber 
+sheet transformation.
+4. An output resolution of 2.4 meters (8.2 feet) is chosen to resample the file to 
+250 dpi.
+5.  The image file is converted to a TIFF 6.0 image and further reduced by 
+converting the file to a run length encoded PackBits compression (type 32773).
+6.  The color palette of the compressed DRG is then standardized by replacing the 
+original RGB values assigned during the scanning process with standard RGB value 
+combinations using the in-houseproduced TIFFREMAP program.
+7. The DRG metadata file is completed.
+8.  Prior to archiving the DRG undergoes the following quality  assurance 
+procedures:
+a. The color index values of each DRG are checked to ensure
+the RGB combinations are consistent with the standardized
+color palette.
+b. All DRG files are inspected to ensure that they are
+geometrically consistent with normal map presentation.
+c. Selected DRG's are checked to ensure that data elements in
+the DRG metadata file correspond to the map collar information
+and to the information in the associated image file.
+d. Selected DRG's are checked for georeferencing accuracy by
+comparing the General Cartographic Transformation Package
+(GCTP) calculated value of latitude and longitude tick marks
+with corresponding tick intersections in the DRG image.
+e. Transformations are checked on selected DRG's by comparing
+the positions of well defined points, such as UTM grid
+intersections in the graphic product, with the corresponding
+image points in the DRG.
+</procdesc>
+        <procdate>1997</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo GROUP="'drg24k'">
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>25.40000078</absres>
+            <ordres>25.40000078</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo GROUP="'drg24k'">
+    <overview>
+      <eaover>Each raster entity or pixel contains a digital number from 0 through 12 referencing a color palette of RGB values from 0 through 255 in which the standard colors used in the DRG are defined. </eaover>
+      <eadetcit>Standards for Digital Raster Graphic</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo GROUP="'drg24k'">
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Tagged Image File Format (TIFF)</formname>
+          <formvern>6.0</formvern>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.pasda.psu.edu</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey EROS Data Center</cntorg>
+        </cntorgp>
+        <cntpos>Customer Services Representative</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Customer Services U.S. Geological Survey EROS Data Center</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cnttdd>605-594-6933</cnttdd>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>custserv@edcmail.cr.usgs.gov</cntemail>
+        <hours>7:30 am to 4:00 pm CT</hours>
+        <cntinst>
+Automated Ordering. Your order is forwarded to Customer Services at the U.S. Geological Survey's EROS Data Center. A Customer Services Representative contacts you to discuss your order and your mode of payment. 
+
+Manual Ordering. Write down the ordering ID(s) for your item(s). Contact Customer Services.
+</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>
+Although these data have been processed successfully on a computer system at the USGS, no warrenty expressed or implied is made by the USGS regarding the use of the data on any other system, nor does the act of distribution constitute any such warranty.  The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer input peripherals, or when the physical medium is delivered in damaged condition.  Requests for adjustment of credit must be made within 90 days of the shipment from the 
+ordering site.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>TIFF</formname>
+          <formvern>6.0</formvern>
+          <formverd>Unknown</formverd>
+        </digtinfo>
+        <digtopt>
+          <offmedia>CD-ROM</offmedia>
+          <recfmt>ISO 9660</recfmt>
+        </digtopt>
+      </digform>
+      <fees>
+From USGS: $32 for each cd-rom.  FTP from http://www.pasda.psu.edu free 
+of charge
+</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo GROUP="'drg24k'">
+    <metd>19961125</metd>
+    <metrd>19990726</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>PASDA</cntorg>
+        </cntorgp>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20080611</ModDate>
+    <ModTime>14273900</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080611</mdDateSt>
+</metadata>

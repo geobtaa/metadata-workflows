@@ -1,0 +1,416 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Philadelphia Buildings 2017</title>
+        <geoform>vector digital data</geoform>
+        <origin>City of Philadelphia</origin>
+        <pubdate>2017</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-75.283111</westbc>
+        <eastbc>-74.955605</eastbc>
+        <northbc>40.143622</northbc>
+        <southbc>39.865774</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Building Roof Outlines</themekey>
+        <themekey>structure</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>ConditionsThe Building Outline Creation service is conducted based on the information visible in the following:For clients that have purchased and are using their Pictometry Imagery - the most nadir, orthorectified, orthogonal frame image will be used for processing. Additionally, oblique imagery from the same year/flight will be used to verify outline accuracy. If Pictometry AccuPLUS™ imagery has been purchased, the AccuPLUS orthomosaic tiles from the same year/flight will be used for processing the project.For clients that are providing third-party imagery, the previously approved orthomosiac tiles will be used for processing. Specifications are based on 12-inch (30 cm) or better ground sample distance (GSD) Pictometry-acquired imagery. Better GSD orthorectified, orthogonal imagery will result in more accurate Building Outlines.</useconst>
+    <datacred>Pictometry Intelligent Images
+</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</native>
+    <ptcontac>
+      <cntinfo>
+        <cntemail>daniel.interrante@phila.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <descript>
+      <abstract>PhiladelphiaBuildings2017</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>542311</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PhiladelphiaBuildings2017</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BASE_HGT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AVG_HGT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MAX_HGT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>BIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_AREA</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20170530</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdDateSt>20170530</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>PhiladelphiaBuildings2017</resTitle>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>AbstractPolygon geometric features created to represent buildings visible in the PAPHIL15-LEAF-OFF imagery.Data DevelopmentData was captured from AccuPLUS Orthomosaic tiles created off PAPHIL15-LEAF-OFF imagery, flown by Pictometry. Decks are included within the building outline polygon. Key attribute field names and descriptionsPRIMARYIND: Field Type –Double; Unique Identifier for building outlinePARCEL: Field Type -String; The name of this field will match the associated field in the client’s parcel file (as identified by the client) and will contain the associate record ID. This field will be blank for clients that do not provide an electronic parcel file for processingFCODE: Field Type –String; Identifies the feature type by code. Codes defined by customerX, Y (two separate fields): Field type –Double; Identifies the geographic center of the outline polygon Area: Field Type –Double; The area enclosed by the outline polygon in the unit of the map coordinate systemBASE_HGT: Field Type –Double; Elevation of the lowest point of the earth’s surface within the building’s footprint (including a small buffer dependent upon the GSD)AVG_HGT: Field Type –Double; Numeric Average Elevation of all relevant non-ground points within the building’s footprint minus the BASE_HGT measurement for that buildingMAX_HGT: Field Type –Double; Numeric Maximum Elevation of all relevant non-ground points within the building’s footprint minus the BASE_HGT measurement for that buildingFCODE Key1810 = Building1830 = Tank Targets of ServiceThe following structures of 150 sq. feet (14 sq. meters) or larger and five pixels wide or larger (based on imagery with 12-inch/30 cm GSD or better) are targeted by the ChangeFinder process.Residential, commercial and industrial buildingsIsolated garages, mobile homes, shedsGreenhouses and silosBuildings under construction that at least have wallsTrailer boxes with windows or doorsOther features with a roofAdditionally, the following structures are targeted if/when identifiable (included within building outline):Attached decks or porches that have a roof or railing or are visibly raisedThe following structures are NOT targeted by the Building Outline Creation service:Vehicles, boats, shipsDocksPaved areas, including patios without a railing or wallBare ground surrounded by a fence or wallSteel tower/frames, antenna, cell phone towersChanges in the vertical direction (e.g. a one-story building that is renovated to a two-story building)BillboardsTombstonesTemporary tentsTrailer boxes (temporary/storage)Structures or components that are invisible or unrecognizable due to image resolution, quality or artifacting from the mosaicing process (in cases where client-provided orthomosaic tiles are used as part of the process) or are obscured from view are not targeted by the service.Pools (unless PoolFinder is purchased with the project)Building Outline Creation AccuracyPositional accuracy: Offset from the imagery less than or equal to five pixelsGeometric accuracy: Length of untraced edges less than or equal to five pixelsError rate: Ratio of positionally/geometrically inaccurate buildings and missed buildings less than or equal to 0.5%. Date CapturedFeatures updated: 12/24/2015Attributes updated: 12/24/2015Metadata updated 10/06/2016Captured ByCollected By = PictometryCoordinate SystemProjected Coordinate System: NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_FeetProjection: Lambert_Conformal_ConicFalse_Easting: 1968500.00000000False_Northing: 0.00000000Central_Meridian: -77.75000000Standard_Parallel_1: 39.93333333Standard_Parallel_2: 40.96666667Latitude_Of_Origin: 39.33333333Linear Unit: Foot_US</idAbs>
+    <idPurp>Building roof outlines to be generated off the 2015 Leaf-Off 3” AccuPLUS Imagery. Outlines represent the building roof visible within the imagery. Alignment of outlines takes into account building lean (so building outlines may have been shifted to the base of the building in order to account for lean). All buildings, institutions, and tanks to be captured as individual polygon features. Decks are included within the building outline polygon. Structures with multiple owners (such a row houses) collected as an individual shapes for each section snapped to the neighboring structure. Heights and elevation to be attributed separately for each structure from 2015 LiDAR data capture – see LiDAR Based Mapping – Misc product description. For additional information, please visit: http://metadata.phila.gov/#home/datasetdetails/5543864f20583086178c4ea5/representationdetails/581396f734a815c9365cf7fb/</idPurp>
+    <idCredit>Pictometry Intelligent Images</idCredit>
+    <themeKeys>
+      <keyword>Building Roof Outlines</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Building Roof Outlines</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>ConditionsThe Building Outline Creation service is conducted based on the information visible in the following:For clients that have purchased and are using their Pictometry Imagery - the most nadir, orthorectified, orthogonal frame image will be used for processing. Additionally, oblique imagery from the same year/flight will be used to verify outline accuracy. If Pictometry AccuPLUS™ imagery has been purchased, the AccuPLUS orthomosaic tiles from the same year/flight will be used for processing the project.For clients that are providing third-party imagery, the previously approved orthomosiac tiles will be used for processing. Specifications are based on 12-inch (30 cm) or better ground sample distance (GSD) Pictometry-acquired imagery. Better GSD orthorectified, orthogonal imagery will result in more accurate Building Outlines.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.283111</westBL>
+          <eastBL>-74.955605</eastBL>
+          <southBL>39.865774</southBL>
+          <northBL>40.143622</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>542311</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170530</CreaDate>
+    <CreaTime>12202100</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="dfab48de3df39abd374bc5c76ad47c7" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5Q
+aGlsYWRlbHBoaWFCdWlsZGluZ3MyMDE3PC90aXRsZT4NCiAgICAgICAgPGdlb2Zvcm0+dmVjdG9y
+IGRpZ2l0YWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRhdGlv
+bj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+QWJzdHJhY3RQb2x5Z29uIGdlb21l
+dHJpYyBmZWF0dXJlcyBjcmVhdGVkIHRvIHJlcHJlc2VudCBidWlsZGluZ3MgdmlzaWJsZSBpbiB0
+aGUgUEFQSElMMTUtTEVBRi1PRkYgaW1hZ2VyeS5EYXRhIERldmVsb3BtZW50RGF0YSB3YXMgY2Fw
+dHVyZWQgZnJvbSBBY2N1UExVUyBPcnRob21vc2FpYyB0aWxlcyBjcmVhdGVkIG9mZiBQQVBISUwx
+NS1MRUFGLU9GRiBpbWFnZXJ5LCBmbG93biBieSBQaWN0b21ldHJ5LiBEZWNrcyBhcmUgaW5jbHVk
+ZWQgd2l0aGluIHRoZSBidWlsZGluZyBvdXRsaW5lIHBvbHlnb24uIEtleSBhdHRyaWJ1dGUgZmll
+bGQgbmFtZXMgYW5kIGRlc2NyaXB0aW9uc1BSSU1BUllJTkQ6IEZpZWxkIFR5cGUg4oCTRG91Ymxl
+OyBVbmlxdWUgSWRlbnRpZmllciBmb3IgYnVpbGRpbmcgb3V0bGluZVBBUkNFTDogRmllbGQgVHlw
+ZSAtU3RyaW5nOyBUaGUgbmFtZSBvZiB0aGlzIGZpZWxkIHdpbGwgbWF0Y2ggdGhlIGFzc29jaWF0
+ZWQgZmllbGQgaW4gdGhlIGNsaWVudOKAmXMgcGFyY2VsIGZpbGUgKGFzIGlkZW50aWZpZWQgYnkg
+dGhlIGNsaWVudCkgYW5kIHdpbGwgY29udGFpbiB0aGUgYXNzb2NpYXRlIHJlY29yZCBJRC4gVGhp
+cyBmaWVsZCB3aWxsIGJlIGJsYW5rIGZvciBjbGllbnRzIHRoYXQgZG8gbm90IHByb3ZpZGUgYW4g
+ZWxlY3Ryb25pYyBwYXJjZWwgZmlsZSBmb3IgcHJvY2Vzc2luZ0ZDT0RFOiBGaWVsZCBUeXBlIOKA
+k1N0cmluZzsgSWRlbnRpZmllcyB0aGUgZmVhdHVyZSB0eXBlIGJ5IGNvZGUuIENvZGVzIGRlZmlu
+ZWQgYnkgY3VzdG9tZXJYLCBZICh0d28gc2VwYXJhdGUgZmllbGRzKTogRmllbGQgdHlwZSDigJNE
+b3VibGU7IElkZW50aWZpZXMgdGhlIGdlb2dyYXBoaWMgY2VudGVyIG9mIHRoZSBvdXRsaW5lIHBv
+bHlnb24gQXJlYTogRmllbGQgVHlwZSDigJNEb3VibGU7IFRoZSBhcmVhIGVuY2xvc2VkIGJ5IHRo
+ZSBvdXRsaW5lIHBvbHlnb24gaW4gdGhlIHVuaXQgb2YgdGhlIG1hcCBjb29yZGluYXRlIHN5c3Rl
+bUJBU0VfSEdUOiBGaWVsZCBUeXBlIOKAk0RvdWJsZTsgRWxldmF0aW9uIG9mIHRoZSBsb3dlc3Qg
+cG9pbnQgb2YgdGhlIGVhcnRo4oCZcyBzdXJmYWNlIHdpdGhpbiB0aGUgYnVpbGRpbmfigJlzIGZv
+b3RwcmludCAoaW5jbHVkaW5nIGEgc21hbGwgYnVmZmVyIGRlcGVuZGVudCB1cG9uIHRoZSBHU0Qp
+QVZHX0hHVDogRmllbGQgVHlwZSDigJNEb3VibGU7IE51bWVyaWMgQXZlcmFnZSBFbGV2YXRpb24g
+b2YgYWxsIHJlbGV2YW50IG5vbi1ncm91bmQgcG9pbnRzIHdpdGhpbiB0aGUgYnVpbGRpbmfigJlz
+IGZvb3RwcmludCBtaW51cyB0aGUgQkFTRV9IR1QgbWVhc3VyZW1lbnQgZm9yIHRoYXQgYnVpbGRp
+bmdNQVhfSEdUOiBGaWVsZCBUeXBlIOKAk0RvdWJsZTsgTnVtZXJpYyBNYXhpbXVtIEVsZXZhdGlv
+biBvZiBhbGwgcmVsZXZhbnQgbm9uLWdyb3VuZCBwb2ludHMgd2l0aGluIHRoZSBidWlsZGluZ+KA
+mXMgZm9vdHByaW50IG1pbnVzIHRoZSBCQVNFX0hHVCBtZWFzdXJlbWVudCBmb3IgdGhhdCBidWls
+ZGluZ0ZDT0RFIEtleTE4MTAgPSBCdWlsZGluZzE4MzAgPSBUYW5rIFRhcmdldHMgb2YgU2Vydmlj
+ZVRoZSBmb2xsb3dpbmcgc3RydWN0dXJlcyBvZiAxNTAgc3EuIGZlZXQgKDE0IHNxLiBtZXRlcnMp
+IG9yIGxhcmdlciBhbmQgZml2ZSBwaXhlbHMgd2lkZSBvciBsYXJnZXIgKGJhc2VkIG9uIGltYWdl
+cnkgd2l0aCAxMi1pbmNoLzMwIGNtIEdTRCBvciBiZXR0ZXIpIGFyZSB0YXJnZXRlZCBieSB0aGUg
+Q2hhbmdlRmluZGVyIHByb2Nlc3MuUmVzaWRlbnRpYWwsIGNvbW1lcmNpYWwgYW5kIGluZHVzdHJp
+YWwgYnVpbGRpbmdzSXNvbGF0ZWQgZ2FyYWdlcywgbW9iaWxlIGhvbWVzLCBzaGVkc0dyZWVuaG91
+c2VzIGFuZCBzaWxvc0J1aWxkaW5ncyB1bmRlciBjb25zdHJ1Y3Rpb24gdGhhdCBhdCBsZWFzdCBo
+YXZlIHdhbGxzVHJhaWxlciBib3hlcyB3aXRoIHdpbmRvd3Mgb3IgZG9vcnNPdGhlciBmZWF0dXJl
+cyB3aXRoIGEgcm9vZkFkZGl0aW9uYWxseSwgdGhlIGZvbGxvd2luZyBzdHJ1Y3R1cmVzIGFyZSB0
+YXJnZXRlZCBpZi93aGVuIGlkZW50aWZpYWJsZSAoaW5jbHVkZWQgd2l0aGluIGJ1aWxkaW5nIG91
+dGxpbmUpOkF0dGFjaGVkIGRlY2tzIG9yIHBvcmNoZXMgdGhhdCBoYXZlIGEgcm9vZiBvciByYWls
+aW5nIG9yIGFyZSB2aXNpYmx5IHJhaXNlZFRoZSBmb2xsb3dpbmcgc3RydWN0dXJlcyBhcmUgTk9U
+IHRhcmdldGVkIGJ5IHRoZSBCdWlsZGluZyBPdXRsaW5lIENyZWF0aW9uIHNlcnZpY2U6VmVoaWNs
+ZXMsIGJvYXRzLCBzaGlwc0RvY2tzUGF2ZWQgYXJlYXMsIGluY2x1ZGluZyBwYXRpb3Mgd2l0aG91
+dCBhIHJhaWxpbmcgb3Igd2FsbEJhcmUgZ3JvdW5kIHN1cnJvdW5kZWQgYnkgYSBmZW5jZSBvciB3
+YWxsU3RlZWwgdG93ZXIvZnJhbWVzLCBhbnRlbm5hLCBjZWxsIHBob25lIHRvd2Vyc0NoYW5nZXMg
+aW4gdGhlIHZlcnRpY2FsIGRpcmVjdGlvbiAoZS5nLiBhIG9uZS1zdG9yeSBidWlsZGluZyB0aGF0
+IGlzIHJlbm92YXRlZCB0byBhIHR3by1zdG9yeSBidWlsZGluZylCaWxsYm9hcmRzVG9tYnN0b25l
+c1RlbXBvcmFyeSB0ZW50c1RyYWlsZXIgYm94ZXMgKHRlbXBvcmFyeS9zdG9yYWdlKVN0cnVjdHVy
+ZXMgb3IgY29tcG9uZW50cyB0aGF0IGFyZSBpbnZpc2libGUgb3IgdW5yZWNvZ25pemFibGUgZHVl
+IHRvIGltYWdlIHJlc29sdXRpb24sIHF1YWxpdHkgb3IgYXJ0aWZhY3RpbmcgZnJvbSB0aGUgbW9z
+YWljaW5nIHByb2Nlc3MgKGluIGNhc2VzIHdoZXJlIGNsaWVudC1wcm92aWRlZCBvcnRob21vc2Fp
+YyB0aWxlcyBhcmUgdXNlZCBhcyBwYXJ0IG9mIHRoZSBwcm9jZXNzKSBvciBhcmUgb2JzY3VyZWQg
+ZnJvbSB2aWV3IGFyZSBub3QgdGFyZ2V0ZWQgYnkgdGhlIHNlcnZpY2UuUG9vbHMgKHVubGVzcyBQ
+b29sRmluZGVyIGlzIHB1cmNoYXNlZCB3aXRoIHRoZSBwcm9qZWN0KUJ1aWxkaW5nIE91dGxpbmUg
+Q3JlYXRpb24gQWNjdXJhY3lQb3NpdGlvbmFsIGFjY3VyYWN5OiBPZmZzZXQgZnJvbSB0aGUgaW1h
+Z2VyeSBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gZml2ZSBwaXhlbHNHZW9tZXRyaWMgYWNjdXJhY3k6
+IExlbmd0aCBvZiB1bnRyYWNlZCBlZGdlcyBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gZml2ZSBwaXhl
+bHNFcnJvciByYXRlOiBSYXRpbyBvZiBwb3NpdGlvbmFsbHkvZ2VvbWV0cmljYWxseSBpbmFjY3Vy
+YXRlIGJ1aWxkaW5ncyBhbmQgbWlzc2VkIGJ1aWxkaW5ncyBsZXNzIHRoYW4gb3IgZXF1YWwgdG8g
+MC41JS4gRGF0ZSBDYXB0dXJlZEZlYXR1cmVzIHVwZGF0ZWQ6IDEyLzI0LzIwMTVBdHRyaWJ1dGVz
+IHVwZGF0ZWQ6IDEyLzI0LzIwMTVNZXRhZGF0YSB1cGRhdGVkIDEwLzA2LzIwMTZDYXB0dXJlZCBC
+eUNvbGxlY3RlZCBCeSA9IFBpY3RvbWV0cnlDb29yZGluYXRlIFN5c3RlbVByb2plY3RlZCBDb29y
+ZGluYXRlIFN5c3RlbTogTkFEXzE5ODNfU3RhdGVQbGFuZV9QZW5uc3lsdmFuaWFfU291dGhfRklQ
+U18zNzAyX0ZlZXRQcm9qZWN0aW9uOiBMYW1iZXJ0X0NvbmZvcm1hbF9Db25pY0ZhbHNlX0Vhc3Rp
+bmc6IDE5Njg1MDAuMDAwMDAwMDBGYWxzZV9Ob3J0aGluZzogMC4wMDAwMDAwMENlbnRyYWxfTWVy
+aWRpYW46IC03Ny43NTAwMDAwMFN0YW5kYXJkX1BhcmFsbGVsXzE6IDM5LjkzMzMzMzMzU3RhbmRh
+cmRfUGFyYWxsZWxfMjogNDAuOTY2NjY2NjdMYXRpdHVkZV9PZl9PcmlnaW46IDM5LjMzMzMzMzMz
+TGluZWFyIFVuaXQ6IEZvb3RfVVM8L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+QnVpbGRpbmcg
+cm9vZiBvdXRsaW5lcyB0byBiZSBnZW5lcmF0ZWQgb2ZmIHRoZSAyMDE1IExlYWYtT2ZmIDPigJ0g
+QWNjdVBMVVMgSW1hZ2VyeS4gT3V0bGluZXMgcmVwcmVzZW50IHRoZSBidWlsZGluZyByb29mIHZp
+c2libGUgd2l0aGluIHRoZSBpbWFnZXJ5LiBBbGlnbm1lbnQgb2Ygb3V0bGluZXMgdGFrZXMgaW50
+byBhY2NvdW50IGJ1aWxkaW5nIGxlYW4gKHNvIGJ1aWxkaW5nIG91dGxpbmVzIG1heSBoYXZlIGJl
+ZW4gc2hpZnRlZCB0byB0aGUgYmFzZSBvZiB0aGUgYnVpbGRpbmcgaW4gb3JkZXIgdG8gYWNjb3Vu
+dCBmb3IgbGVhbikuIA0KDQpBbGwgYnVpbGRpbmdzLCBpbnN0aXR1dGlvbnMsIGFuZCB0YW5rcyB0
+byBiZSBjYXB0dXJlZCBhcyBpbmRpdmlkdWFsIHBvbHlnb24gZmVhdHVyZXMuIERlY2tzIGFyZSBp
+bmNsdWRlZCB3aXRoaW4gdGhlIGJ1aWxkaW5nIG91dGxpbmUgcG9seWdvbi4gDQpTdHJ1Y3R1cmVz
+IHdpdGggbXVsdGlwbGUgb3duZXJzIChzdWNoIGEgcm93IGhvdXNlcykgY29sbGVjdGVkIGFzIGFu
+IGluZGl2aWR1YWwgc2hhcGVzIGZvciBlYWNoIHNlY3Rpb24gc25hcHBlZCB0byB0aGUgbmVpZ2hi
+b3Jpbmcgc3RydWN0dXJlLg0KSGVpZ2h0cyBhbmQgZWxldmF0aW9uIHRvIGJlIGF0dHJpYnV0ZWQg
+c2VwYXJhdGVseSBmb3IgZWFjaCBzdHJ1Y3R1cmUgZnJvbSAyMDE1IExpREFSIGRhdGEgY2FwdHVy
+ZSDigJMgc2VlIExpREFSIEJhc2VkIE1hcHBpbmcg4oCTIE1pc2MgcHJvZHVjdCBkZXNjcmlwdGlv
+bi4NCg0KRm9yIGFkZGl0aW9uYWwgaW5mb3JtYXRpb24sIHBsZWFzZSB2aXNpdDogaHR0cDovL21l
+dGFkYXRhLnBoaWxhLmdvdi8jaG9tZS9kYXRhc2V0ZGV0YWlscy81NTQzODY0ZjIwNTgzMDg2MTc4
+YzRlYTUvcmVwcmVzZW50YXRpb25kZXRhaWxzLzU4MTM5NmY3MzRhODE1YzkzNjVjZjdmYi8NCjwv
+cHVycG9zZT4NCiAgICA8L2Rlc2NyaXB0Pg0KICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4N
+CiAgICAgICAgPHdlc3RiYz4tNzUuMjgzMTExPC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+LTc0
+Ljk1NTYwNTwvZWFzdGJjPg0KICAgICAgICA8bm9ydGhiYz40MC4xNDM2MjI8L25vcnRoYmM+DQog
+ICAgICAgIDxzb3V0aGJjPjM5Ljg2NTc3NDwvc291dGhiYz4NCiAgICAgIDwvYm91bmRpbmc+DQog
+ICAgPC9zcGRvbT4NCiAgICA8a2V5d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVt
+ZWt0Pk5vbmU8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5CdWlsZGluZyBSb29mIE91dGxp
+bmVzPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8YWNj
+Y29uc3Q+Tm9uZTwvYWNjY29uc3Q+DQogICAgPHVzZWNvbnN0PkNvbmRpdGlvbnNUaGUgQnVpbGRp
+bmcgT3V0bGluZSBDcmVhdGlvbiBzZXJ2aWNlIGlzIGNvbmR1Y3RlZCBiYXNlZCBvbiB0aGUgaW5m
+b3JtYXRpb24gdmlzaWJsZSBpbiB0aGUgZm9sbG93aW5nOkZvciBjbGllbnRzIHRoYXQgaGF2ZSBw
+dXJjaGFzZWQgYW5kIGFyZSB1c2luZyB0aGVpciBQaWN0b21ldHJ5IEltYWdlcnkgLSB0aGUgbW9z
+dCBuYWRpciwgb3J0aG9yZWN0aWZpZWQsIG9ydGhvZ29uYWwgZnJhbWUgaW1hZ2Ugd2lsbCBiZSB1
+c2VkIGZvciBwcm9jZXNzaW5nLiBBZGRpdGlvbmFsbHksIG9ibGlxdWUgaW1hZ2VyeSBmcm9tIHRo
+ZSBzYW1lIHllYXIvZmxpZ2h0IHdpbGwgYmUgdXNlZCB0byB2ZXJpZnkgb3V0bGluZSBhY2N1cmFj
+eS4gSWYgUGljdG9tZXRyeSBBY2N1UExVU+KEoiBpbWFnZXJ5IGhhcyBiZWVuIHB1cmNoYXNlZCwg
+dGhlIEFjY3VQTFVTIG9ydGhvbW9zYWljIHRpbGVzIGZyb20gdGhlIHNhbWUgeWVhci9mbGlnaHQg
+d2lsbCBiZSB1c2VkIGZvciBwcm9jZXNzaW5nIHRoZSBwcm9qZWN0LkZvciBjbGllbnRzIHRoYXQg
+YXJlIHByb3ZpZGluZyB0aGlyZC1wYXJ0eSBpbWFnZXJ5LCB0aGUgcHJldmlvdXNseSBhcHByb3Zl
+ZCBvcnRob21vc2lhYyB0aWxlcyB3aWxsIGJlIHVzZWQgZm9yIHByb2Nlc3NpbmcuIFNwZWNpZmlj
+YXRpb25zIGFyZSBiYXNlZCBvbiAxMi1pbmNoICgzMCBjbSkgb3IgYmV0dGVyIGdyb3VuZCBzYW1w
+bGUgZGlzdGFuY2UgKEdTRCkgUGljdG9tZXRyeS1hY3F1aXJlZCBpbWFnZXJ5LiBCZXR0ZXIgR1NE
+IG9ydGhvcmVjdGlmaWVkLCBvcnRob2dvbmFsIGltYWdlcnkgd2lsbCByZXN1bHQgaW4gbW9yZSBh
+Y2N1cmF0ZSBCdWlsZGluZyBPdXRsaW5lcy48L3VzZWNvbnN0Pg0KICAgIDxkYXRhY3JlZD5QaWN0
+b21ldHJ5IEludGVsbGlnZW50IEltYWdlcw0KPC9kYXRhY3JlZD4NCiAgICA8bmF0aXZlPk1pY3Jv
+c29mdCBXaW5kb3dzIDcgVmVyc2lvbiA2LjEgKEJ1aWxkIDc2MDEpIFNlcnZpY2UgUGFjayAxOyBF
+c3JpIEFyY0dJUyAxMC40LjEuNTY4NjwvbmF0aXZlPg0KICA8L2lkaW5mbz4NCiAgPHNwZG9pbmZv
+Pg0KICAgIDxkaXJlY3Q+VmVjdG9yPC9kaXJlY3Q+DQogICAgPHB0dmN0aW5mPg0KICAgICAgPHNk
+dHN0ZXJtPg0KICAgICAgICA8c2R0c3R5cGU+R1QtcG9seWdvbiBjb21wb3NlZCBvZiBjaGFpbnM8
+L3NkdHN0eXBlPg0KICAgICAgICA8cHR2Y3RjbnQ+NTQyMzExPC9wdHZjdGNudD4NCiAgICAgIDwv
+c2R0c3Rlcm0+DQogICAgPC9wdHZjdGluZj4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0KICAg
+IDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxtYXBwcm9qPg0KICAgICAgICAg
+IDxtYXBwcm9qbj5OQUQgMTk4MyBTdGF0ZVBsYW5lIFBlbm5zeWx2YW5pYSBTb3V0aCBGSVBTIDM3
+MDIgRmVldDwvbWFwcHJvam4+DQogICAgICAgICAgPGxhbWJlcnRjPg0KICAgICAgICAgICAgPHN0
+ZHBhcmxsPjM5LjkzMzMzMzMzMzMzMzMzPC9zdGRwYXJsbD4NCiAgICAgICAgICAgIDxzdGRwYXJs
+bD40MC45NjY2NjY2NjY2NjY2Nzwvc3RkcGFybGw+DQogICAgICAgICAgICA8bG9uZ2NtPi03Ny43
+NTwvbG9uZ2NtPg0KICAgICAgICAgICAgPGxhdHByam8+MzkuMzMzMzMzMzMzMzMzMzQ8L2xhdHBy
+am8+DQogICAgICAgICAgICA8ZmVhc3Q+MTk2ODUwMC4wPC9mZWFzdD4NCiAgICAgICAgICAgIDxm
+bm9ydGg+MC4wPC9mbm9ydGg+DQogICAgICAgICAgPC9sYW1iZXJ0Yz4NCiAgICAgICAgPC9tYXBw
+cm9qPg0KICAgICAgICA8cGxhbmNpPg0KICAgICAgICAgIDxwbGFuY2U+Y29vcmRpbmF0ZSBwYWly
+PC9wbGFuY2U+DQogICAgICAgICAgPGNvb3JkcmVwPg0KICAgICAgICAgICAgPGFic3Jlcz4wLjAw
+MDAwMDAyNjkwNzk2NDc0NTI0ODU5ODwvYWJzcmVzPg0KICAgICAgICAgICAgPG9yZHJlcz4wLjAw
+MDAwMDAyNjkwNzk2NDc0NTI0ODU5ODwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQog
+ICAgICAgICAgPHBsYW5kdT5mb290X3VzPC9wbGFuZHU+DQogICAgICAgIDwvcGxhbmNpPg0KICAg
+ICAgPC9wbGFuYXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPkQgTm9ydGgg
+QW1lcmljYW4gMTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5HUlMgMTk4MDwvZWxsaXBz
+Pg0KICAgICAgICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZs
+YXQ+Mjk4LjI1NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3Jp
+enN5cz4NCiAgPC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQ+DQogICAgICA8ZW50
+dHlwPg0KICAgICAgICA8ZW50dHlwbD5QaGlsYWRlbHBoaWFCdWlsZGluZ3MyMDE3PC9lbnR0eXBs
+Pg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkZJRDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwvYXR0
+cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRv
+bXY+DQogICAgICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVycyB0aGF0
+IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNIQVBFPC9h
+dHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+RmVhdHVyZSBnZW9tZXRyeS48L2F0dHJkZWY+DQog
+ICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAg
+ICAgICAgIDx1ZG9tPkNvb3JkaW5hdGVzIGRlZmluaW5nIHRoZSBmZWF0dXJlcy48L3Vkb20+DQog
+ICAgICAgIDwvYXR0cmRvbXY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsPkFSRUE8L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibD5CQVNFX0hHVDwvYXR0cmxhYmw+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkFWR19IR1Q8L2F0dHJsYWJsPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5NQVhfSEdUPC9hdHRybGFibD4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+QklOPC9hdHRy
+bGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+U0hB
+UEVfQVJFQTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkFyZWEgb2YgZmVhdHVyZSBpbiBp
+bnRlcm5hbCB1bml0cyBzcXVhcmVkLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8
+L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20+UG9zaXRpdmUg
+cmVhbCBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAg
+ICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+U0hBUEVfTEVOPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFp
+bGVkPg0KICA8L2VhaW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTcwNTMwPC9tZXRk
+Pg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBmb3IgRGlnaXRhbCBHZW9zcGF0
+aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZHREMtU1RELTAwMS0xOTk4PC9t
+ZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4NCiAgPC9tZXRhaW5mbz4NCjwv
+bWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States </country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

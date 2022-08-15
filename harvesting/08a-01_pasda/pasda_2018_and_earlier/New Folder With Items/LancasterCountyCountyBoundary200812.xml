@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County County Boundary</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Lancaster, PA</pubplace>
+          <publish>Lancaster County GIS Department</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>5 years</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.722888</westbc>
+        <eastbc>-75.898884</eastbc>
+        <northbc>40.315260</northbc>
+        <southbc>39.720830</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Lancaster County</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>
+For use at 1:2400 or smaller scale.
+
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>LancasterCountyCountyBoundary200812</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+    </attracc>
+    <logic>Topology exists.</logic>
+    <complete>Complete from aerial photography.</complete>
+    <posacc>
+      <horizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1400</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.933333</stdparll>
+              <stdparll>40.966667</stdparll>
+              <longcm>-77.750000</longcm>
+              <latprjo>39.333333</latprjo>
+              <feast>1968500.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000512</absres>
+            <ordres>0.000512</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bridges</enttypl>
+        <enttypd>Attribute table for bridges polygons</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area of polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Polygon perimeter</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BRIDGES_</attrlabl>
+        <attrdef>ID for polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BRIDGES_ID</attrlabl>
+        <attrdef>ID for polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_NAM</attrlabl>
+        <attrdef>Code identifying the organization generating the data record.  All data originally created by ADR in 1993 should have an ADR code.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>ADR</edomv>
+            <edomvd>Aerial Data Reduction, Inc.</edomvd>
+          </edom>
+          <edom>
+            <edomv>ATS</edomv>
+            <edomvd>Advanced Tech. Solutions, Inc.</edomvd>
+          </edom>
+          <edom>
+            <edomv>LCG</edomv>
+            <edomvd>Lancaster County GIS Dept.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPD_NAME</attrlabl>
+        <attrdef>Can be blank, but must be filled in with "ADR" if UPD-DATE, UPD-FEATURE or UPD-ACTION have a value.  A code identifying the organization updating the data record.  All data updated by ADR as part of this contract should have an ADR code.  The first three characters is a code for the organization as listed below.  Characters 4 through 15 should contain an identification code for the employee updating the feature.  Valid ADR codes will be ADR_305 and ADR_319</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>ADR</edomv>
+            <edomvd>Aerial Data Reduction, Inc.</edomvd>
+          </edom>
+          <edom>
+            <edomv>ATS</edomv>
+            <edomvd>Advanced Tech. Solutions, Inc.</edomvd>
+          </edom>
+          <edom>
+            <edomv>LCG</edomv>
+            <edomvd>Lancaster County GIS Dept.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_DAT</attrlabl>
+        <attrdef>YYYYMMDD format.  Modifies the SOURCE-NAME item, and reflects the date of aerial photography (1988)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPD_DATE</attrlabl>
+        <attrdef>YYYYMMDD format.  Modifies the UPD-NAME item, and reflects the date the data was updated.  Date on which record was last updated in ArcInfo</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_MAP</attrlabl>
+        <attrdef>Identifies the map source (if any) for the record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UPD_MAP</attrlabl>
+        <attrdef>Identifies the map source of the update (if any) for the record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_MET</attrlabl>
+        <attrdef>Identifies the data collection method used to acquire the record.  Encoded with values representing various data collection methods.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>DIG</edomv>
+            <edomvd>map digitization</edomvd>
+          </edom>
+          <edom>
+            <edomv>PAP</edomv>
+            <edomvd>Photogrammetric analysis of aerial photography</edomvd>
+          </edom>
+          <edom>
+            <edomv>PSI</edomv>
+            <edomvd>Photogrammetric analysis of satellite imagery</edomvd>
+          </edom>
+          <edom>
+            <edomv>FR</edomv>
+            <edomvd>field reconnaissance</edomvd>
+          </edom>
+          <edom>
+            <edomv>GPS</edomv>
+            <edomvd>Global Positioning System</edomvd>
+          </edom>
+          <edom>
+            <edomv>SCA</edomv>
+            <edomvd>Scanning</edomvd>
+          </edom>
+          <edom>
+            <edomv>OTH</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPD_FEATUR</attrlabl>
+        <attrdef>Identifies the type of feature updated.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>arc</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>polygon</edomvd>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>point (marker)</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>node</edomvd>
+          </edom>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>label</edomvd>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>tile</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>annotation (character)</edomvd>
+          </edom>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>region</edomvd>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>other</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UPD_ACTION</attrlabl>
+        <attrdef>Identifies the type of update action performed</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Add (new feature added)</edomvd>
+          </edom>
+          <edom>
+            <edomv>U</edomv>
+            <edomvd>update (modification of existing feature shape)</edomvd>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>move (location change for a feature)</edomvd>
+          </edom>
+          <edom>
+            <edomv>G</edomv>
+            <edomvd>generalize</edomvd>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>split</edomvd>
+          </edom>
+          <edom>
+            <edomv>J</edomv>
+            <edomvd>unsplit (join)</edomvd>
+          </edom>
+          <edom>
+            <edomv>L</edomv>
+            <edomvd>spline</edomvd>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>other</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pasdadev.erri.psu.edu/lanc/lancdownload2.cgi/lancco_bridges</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Steve Gochenaur</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>gochenas@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Not for commercial use or resale. The User shall save Lancaster County, the Commonwealth and the Pennsylvania State University harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. Lancaster County, the Commonwealth and the Pennsylvania State University excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+          <formvern>7.2.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>3-1/2 inch floppy disk</offmedia>
+            <reccap>
+              <recden>1.44</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>PC</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Arcview Shapefile</formname>
+          <formvern>3.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>DXF</formname>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>$25 for premastered CD containing shapefiles.  Custom requests for small area DXF files available for $40/hour processing fee, $10/CD or $1/floppy media charge.</fees>
+      <ordering>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</ordering>
+    </stdorder>
+    <stdorder>
+      <nondig>Hard copy maps can be ordered and created  from Lancaster County GIS</nondig>
+      <digform>
+        <digtinfo>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>
+8 1/2" x 11" - $5
+11" x 17" - $25
+
+Standard map 33 1/2" x 45" - $75;  discount rate $50
+Mylar map 33 1/2" x 45" - $100;  discount rate $75
+
+Custom maps available at a charge of $40/hr.
+
+Copies of existing maps $25.00
+</fees>
+      <ordering>Acquire, complete and return Map Request form available at: http://www.co.lancaster.pa.us/GISforms.htm</ordering>
+    </stdorder>
+    <custom>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20010726</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metprof>ESRI Metadata Profile</metprof>
+  </metainfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Lancaster\update12_18_08\LancasterCountyCountyBoundary200812</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+  </distInfo>
+  <Esri>
+    <ModDate>20090105</ModDate>
+    <ModTime>11152600</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20090105</mdDateSt>
+</metadata>

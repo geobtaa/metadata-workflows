@@ -1,0 +1,733 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Land Use Land Cover</title>
+        <edition>Based on 2012 aerial photos</edition>
+        <geoform>vector digital data</geoform>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>201403</pubdate>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.727962</westbc>
+        <eastbc>-75.864937</eastbc>
+        <northbc>40.323400</northbc>
+        <southbc>39.714860</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>land use</themekey>
+        <themekey>land cover</themekey>
+        <themekey>cover type</themekey>
+        <themekey>PlanningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201403</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyLulc201403</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>48192</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LancasterCountyLULC</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Modified Anderson Level II Landuse Code 111 through 770. </attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>111</edomv>
+            <edomvd>Residential less than 2 units per acre</edomvd>
+          </edom>
+          <edom>
+            <edomv>112</edomv>
+            <edomvd>Residential 2.1 - 7 units per acre </edomvd>
+          </edom>
+          <edom>
+            <edomv>113</edomv>
+            <edomvd>Residential more than 7 units per acre </edomvd>
+          </edom>
+          <edom>
+            <edomv>114</edomv>
+            <edomvd>farmsteads with outbuildings </edomvd>
+          </edom>
+          <edom>
+            <edomv>120</edomv>
+            <edomvd>Commercial and services</edomvd>
+          </edom>
+          <edom>
+            <edomv>130</edomv>
+            <edomvd>Industrial </edomvd>
+          </edom>
+          <edom>
+            <edomv>140</edomv>
+            <edomvd>Transportation and utilities </edomvd>
+          </edom>
+          <edom>
+            <edomv>150</edomv>
+            <edomvd>Industrial and commercial complexes </edomvd>
+          </edom>
+          <edom>
+            <edomv>160</edomv>
+            <edomvd>Mixed urban or build up land (urban centers)</edomvd>
+          </edom>
+          <edom>
+            <edomv>170</edomv>
+            <edomvd>other (not fitting other category or cannot be interpreted) </edomvd>
+          </edom>
+          <edom>
+            <edomv>180</edomv>
+            <edomvd>Institutional (schools, hospitals, churches) </edomvd>
+          </edom>
+          <edom>
+            <edomv>190</edomv>
+            <edomvd>Recreational (park, campground) </edomvd>
+          </edom>
+          <edom>
+            <edomv>210</edomv>
+            <edomvd>Cropland and pasture </edomvd>
+          </edom>
+          <edom>
+            <edomv>211</edomv>
+            <edomvd>Cropland </edomvd>
+          </edom>
+          <edom>
+            <edomv>212</edomv>
+            <edomvd>Pasture</edomvd>
+          </edom>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>Orchards/groves/vinyards/nurseries</edomvd>
+          </edom>
+          <edom>
+            <edomv>230</edomv>
+            <edomvd>Large confined feeding operations </edomvd>
+          </edom>
+          <edom>
+            <edomv>240</edomv>
+            <edomvd>Other agriculture</edomvd>
+          </edom>
+          <edom>
+            <edomv>310</edomv>
+            <edomvd>Herbaceous (open grassy areas with few trees or shrubs) </edomvd>
+          </edom>
+          <edom>
+            <edomv>320</edomv>
+            <edomvd>Shrub/brush </edomvd>
+          </edom>
+          <edom>
+            <edomv>330</edomv>
+            <edomvd>mixed cover </edomvd>
+          </edom>
+          <edom>
+            <edomv>410</edomv>
+            <edomvd>Deciduous forest </edomvd>
+          </edom>
+          <edom>
+            <edomv>420</edomv>
+            <edomvd>Coniferous forest</edomvd>
+          </edom>
+          <edom>
+            <edomv>430</edomv>
+            <edomvd>Mixed forest </edomvd>
+          </edom>
+          <edom>
+            <edomv>500</edomv>
+            <edomvd>Open water </edomvd>
+          </edom>
+          <edom>
+            <edomv>610</edomv>
+            <edomvd>Forested wetlands </edomvd>
+          </edom>
+          <edom>
+            <edomv>620</edomv>
+            <edomvd>Non-forested wetlands</edomvd>
+          </edom>
+          <edom>
+            <edomv>730</edomv>
+            <edomvd>Sandy non-beach </edomvd>
+          </edom>
+          <edom>
+            <edomv>740</edomv>
+            <edomvd>Rock outcrops </edomvd>
+          </edom>
+          <edom>
+            <edomv>750</edomv>
+            <edomvd>Mines, quarries, pits, junk yards, landfills </edomvd>
+          </edom>
+          <edom>
+            <edomv>760</edomv>
+            <edomvd>Transitional (under construction)</edomvd>
+          </edom>
+          <edom>
+            <edomv>770</edomv>
+            <edomvd>Mixed barren and vegetated (basic disturbed class)</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWI_CLASS</attrlabl>
+        <attrdef>National Wetlands Inventory Classification</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FLAG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Editor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Edit_Date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>DESCRIPTION OF LAND USE/LAND COVER INTERPRETATION CODES
+Land Use Codes:
+ID, 100 Level (Residential)
+ID, 200+ Levels (Other)
+---------------National Wetlands Inventory Class (NWI_Class)
+Estuarine
+Palustrine
+Riverine
+Marine
+Lacustrine
+SourceLand Use Codes:
+100 Level
+111 Residential Less than 2 units per acre.
+112 Residential 2.1 to 7 units per acre (villages, neighborhoods, highway strip houses).
+113 Residential More than 7 units per acre (trailer parks, apartment buildings, condominiums, row homes).
+114 Farmsteads Farm houses, usually associated with and including, barns and outbuildings. (NOT including large, commercial-sized hog/chicken operations - #230). Agricultural production may or may not be active.
+120 Commercial and services Any apparent store, shop, mall, gas station or place of business where large-scale production is not occurring.
+130 Industrial Large buildings that may have production in process.
+140 Transportation and utilities Wide transportation corridors (including 4-lane divided highways), toll booth areas, highway departments, transmission stations, water towers/tanks, sewage treatment plants.
+150 Industrial and commercial complexes Large areas where there are many adjacent industrial plants and/or other businesses. Only used when unable to determine the exact use as either 120 or 130.
+160 Mixed urban or built-up land Densely developed land generally associated with urban centers. This category is often comprised of a mix of other developed land categories (i.e. 113, 120, 150, and 180) and is generally only used where development patterns are too complex to easily delineate separate developed land categories. For this project, this category will be rarely (if ever) used because the 300-scale photos appear to be sufficiently detailed to allow discrimination of separate categories.
+170 Other Areas whose land use does not fit into any particular category or can not be interpreted from the aerial photography.
+180 Institutional Schools, hospitals, or other institutional facilities. Churches and adjoining cemeteries. Stand-alone municipal buildings, including parking/storage areas for municipal equipment (i.e. snow plows). Also, stand-alone fire houses. Usually large buildings, surrounding access road with parking areas some landscaping, well-kept grounds.
+190 Recreational Active Recreation Parks (i.e. ball fields, playgrounds, tennis courts). Also campgrounds, golf courses, hunt clubs.
+Land Use Codes: 200+ Levels
+210 Cropland and pasture Any land that is in agricultural use. Fields with crops or tractor tracks and grassy areas that may have cattle grazing or paths made by cattle.
+211 Cropland
+212 Pasture
+220 Orchards/groves/vineyards/nurseries/other horticulture Trees/plants forming grid or regular patterns.
+230 Large Confined Feeding Operations Usually associated with a farmstead (114) these are commercial-sized buildings housing hog or chicken operations.
+240 Other agriculture
+310 Herbaceous Open, grassy areas with few tress or shrubs. Generally refers to ungrazed or uncontrolled grass land, but also includes very large lawns and large cemeteries not adjacent to a church.
+320 Shrub/brush Areas where shrubs, brush, and/or very small trees are present.
+330 Mixed cover Areas that are not forested but have a mixture of vegetation.
+410 Deciduous forest.
+420 Coniferous forest.
+430 Mixed forest.
+500 Open water (Hydrology polygons from ADR).
+610 Forested wetlands Wooded areas that appear to have very wet ground (location from NWI or TNC; linework by GDI).
+620 Non-forested wetlands Swamps, and areas that have substantially wet ground (location from NWI or TNC; linework by GDI).
+730 Sandy non-beach.
+740 Rock outcrops
+750 Mines/quarries/pits and junk yards/land fills.
+760 Transitional (under construction).
+770 Mixed barren and vegetated (basic disturbed class).
+Ecological System:
+Estuarine
+E1RB1  Estuarine, Subtidal, Rock Bottom, Bedrock
+E1RB2  Estuarine, Subtidal, Rock Bottom, Boulder
+E1UB1  Estuarine, Subtidal, Unconsolidated Bottom, Cobble/Gravel
+E1UB2  Estuarine, Subtidal, Unconsolidated Bottom, Sand
+E1UB3  Estuarine, Subtidal, Unconsolidated Bottom, Mud
+E1UB4  Estuarine, Subtidal, Unconsolidated Bottom, Organic
+E1AB1  Estuarine, Subtidal, Aquatic Bed, Submergent Algal
+E1AB2  Estuarine, Subtidal, Aquatic Bed, Submergent Vascular
+E1AB4  Estuarine, Subtidal, Aquatic Bed, Floating - Leaved
+E1AB5  Estuarine, Subtidal, Aquatic Bed, Floating
+E1AB6  Estuarine, Subtidal, Aquatic Bed, Unknown Submergent
+E1AB7  Estuarine, Subtidal, Aquatic Bed, Unknown Surface
+E1RF2  Estuarine, Subtidal, Reef, Mollusc
+E1RF3  Estuarine, Subtidal, Reef, Worm
+E1OW-  Estuarine, Subtidal, Open Water, Unknown Bottom
+E2AB1  Estuarine, Intertidal, Aquatic Bed, Submergent Algal
+E2AB2  Estuarine, Intertidal, Aquatic Bed, Submergent Vascular
+E2AB6  Estuarine, Intertidal, Aquatic Bed, Unknown Submergent
+E2AB7  Estuarine, Intertidal, Aquatic Bed, Unknown Surface
+E2RF2  Estuarine, Intertidal, Reef, Mollusc
+E2RF3  Estuarine, Intertidal, Reef, Worm
+E2FL1  Estuarine, Intertidal, Flat, Cobble/Gravel
+E2FL2  Estuarine, Intertidal, Flat, Sand
+E2FL3  Estuarine, Intertidal, Flat, Mud
+E2FL4  Estuarine, Intertidal, Flat, Organic
+E2FL5  Estuarine, Intertidal, Flat, Vegetated Pioneer
+E2FL6  Estuarine, Intertidal, Flat, Vegetated Non-pioneer
+E2SB1  Estuarine, Intertidal, Streambed, Cobble/Gravel
+E2SB2  Estuarine, Intertidal, Streambed, Sand
+E2SB3  Estuarine, Intertidal, Streambed, Mud
+E2SB4  Estuarine, Intertidal, Streambed, Organic
+E2RS1  Estuarine, Intertidal, Rocky Shore, Bedrock
+E2RS2  Estuarine, Intertidal, Rocky Shore, Boulder
+E2RS6  Estuarine, Intertidal, Rocky Shore, Vegetated Non-pioneer
+E2BB1  Estuarine, Intertidal, Beach/Bar, Cobble/Gravel
+E2BB2  Estuarine, Intertidal, Beach/Bar, Sand
+E2EM1  Estuarine, Intertidal, Emergent, Persistent
+E2EM2  Estuarine, Intertidal, Emergent, Nonpersistent
+E2EM3  Estuarine, Intertidal, Emergent, Narrow-leaved Nonpersistent
+E2EM4  Estuarine, Intertidal, Emergent, Broad-leaved Nonpersistent
+E2EM5  Estuarine, Intertidal, Emergent, Narrow-leaved Persistent
+E2EM6  Estuarine, Intertidal, Emergent, Broad-leaved Persistent
+E2SS1  Estuarine, Intertidal, Scrub/Shrub, Broad-leaved Deciduous
+E2SS3  Estuarine, Intertidal, Scrub/Shrub, Broad-leaved Evergreen
+E2SS4  Estuarine, Intertidal, Scrub/Shrub, Needle-leaved Evergreen
+E2SS5  Estuarine, Intertidal, Scrub/Shrub, Dead
+E2SS6  Estuarine, Intertidal, Scrub/Shrub, Deciduous
+E2SS7  Estuarine, Intertidal, Scrub/Shrub, Evergreen
+E2FO1  Estuarine, Intertidal, Forested, Broad-leaved Deciduous
+E2FO3  Estuarine, Intertidal, Forested, Broad-leaved Evergreen
+E2FO4  Estuarine, Intertidal, Forested, Needle-leaved Evergreen
+E2FO5  Estuarine, Intertidal, Forested, Dead
+E2FO6  Estuarine, Intertidal, Forested, Deciduous
+E2FO7  Estuarine, Intertidal, Forested, Evergreen
+Ecological System:
+Palustrine
+PRB1  Palustrine, No Ecological Subsystem, Rock Bottom, Bedrock
+PRB2  Palustrine, No Ecological Subsystem, Rock Bottom, Boulder
+PUB1  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Cobble/Gravel
+PUB2  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Sand
+PUB3  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Mud
+PUB4  Palustrine, No Ecological Subsystem, Unconsolidated Bottom, Organic
+PAB1  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Algal
+PAB2  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Vascular
+PAB3  Palustrine, No Ecological Subsystem, Aquatic Bed, Submergent Moss
+PAB4  Palustrine, No Ecological Subsystem, Aquatic Bed, Floating-leaved
+PAB5  Palustrine, No Ecological Subsystem, Aquatic Bed, Floating
+PAB6  Palustrine, No Ecological Subsystem, Aquatic Bed, Unknown Submergent
+PAB7  Palustrine, No Ecological Subsystem, Aquatic Bed, Unknown Surface
+PFL1  Palustrine, No Ecological Subsystem, Flat, Cobble/Gravel
+PFL2  Palustrine, No Ecological Subsystem, Flat, Sand
+PFL3  Palustrine, No Ecological Subsystem, Flat, Mud
+PFL4  Palustrine, No Ecological Subsystem, Flat, Organic
+PFL5  Palustrine, No Ecological Subsystem, Flat, Vegetated Pioneer
+PFL6  Palustrine, No Ecological Subsystem, Flat, Vegetated Non-pioneer
+PML1  Palustrine, No Ecological Subsystem, Moss/Lichen, Moss
+PML2  Palustrine, No Ecological Subsystem, Moss/Lichen, Lichen
+PEM1  Palustrine, No Ecological Subsystem, Emergent, Persistent
+PEM2  Palustrine, No Ecological Subsystem, Emergent, Nonpersistent
+PEM3  Palustrine, No Ecological Subsystem, Emergent, Narrow-leaved Nonpersistent
+PEM4  Palustrine, No Ecological Subsystem, Emergent, Broad-leaved Nonpersistent
+PEM5  Palustrine, No Ecological Subsystem, Emergent, Narrow-leaved Persistent
+PEM6  Palustrine, No Ecological Subsystem, Emergent, Broad-leaved Persistent
+PSS1  Palustrine, No Ecological Subsystem, Scrub/Shrub, Broad-leaved Deciduous
+PSS2  Palustrine, No Ecological Subsystem, Scrub/Shrub, Needle-leaved Deciduous
+PSS3  Palustrine, No Ecological Subsystem, Scrub/Shrub, Broad-leaved Evergreen
+PSS4  Palustrine, No Ecological Subsystem, Scrub/Shrub, Needle-leaved Evergreen
+PSS5  Palustrine, No Ecological Subsystem, Scrub/Shrub, Dead
+PSS6  Palustrine, No Ecological Subsystem, Scrub/Shrub, Deciduous
+PSS7  Palustrine, No Ecological Subsystem, Scrub/Shrub, Evergreen
+PFO1  Palustrine, No Ecological Subsystem, Forested, Broad-leaved Deciduous
+PFO2  Palustrine, No Ecological Subsystem, Forested, Needle-leaved Deciduous
+PFO3  Palustrine, No Ecological Subsystem, Forested, Broad-leaved Evergreen
+PFO4  Palustrine, No Ecological Subsystem, Forested, Needle-leaved Evergreen
+PFO5  Palustrine, No Ecological Subsystem, Forested, Dead
+PFO6  Palustrine, No Ecological Subsystem, Forested, Deciduous
+PFO7  Palustrine, No Ecological Subsystem, Forested, Evergreen
+POW-  Palustrine, No Ecological Subsystem, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Tidal
+R1EM2  Riverine, Tidal, Emergent, Nonpersistent
+R1EM3  Riverine, Tidal, Emergent, Narrow-leaved Nonpersistent
+R1EM4  Riverine, Tidal, Emergent, Broad-leaved Nonpersistent
+R1RB1  Riverine, Tidal, Rock Bottom, Bedrock
+R1RB2  Riverine, Tidal, Rock Bottom, Bolder
+R1UB1  Riverine, Tidal, Unconsolidated Bottom, Cobble/Gravel
+R1UB2  Riverine, Tidal, Unconsolidated Bottom, Sand
+R1UB3  Riverine, Tidal, Unconsolidated Bottom, Mud
+R1UB4  Riverine, Tidal, Unconsolidated Bottom, Organic
+R1AB1  Riverine, Tidal, Aquatic Bed, Submergent Algal
+R1AB2  Riverine, Tidal, Aquatic Bed, Submergent Vascular
+R1AB3  Riverine, Tidal, Aquatic Bed, Submergent Moss
+R1AB4  Riverine, Tidal, Aquatic Bed, Floating - Leaved
+R1AB5  Riverine, Tidal, Aquatic Bed, Floating
+R1AB6  Riverine, Tidal, Aquatic Bed, Unknown Submergent
+R1AB7  Riverine, Tidal, Aquatic Bed, Unknown Surface
+R1FL1  Riverine, Tidal, Flat, Cobble/Gravel
+R1FL2  Riverine, Tidal, Flat, Sand
+R1FL3  Riverine, Tidal, Flat, Mud
+R1FL4  Riverine, Tidal, Flat, Organic
+R1FL5  Riverine, Tidal, Flat, Vegetated Pioneer
+R1FL6  Riverine, Tidal, Flat, Vegetated Non-pioneer
+R1SB1  Riverine, Tidal, Streambed, Cobble/Gravel
+R1SB2  Riverine, Tidal, Streambed, Sand
+R1SB3  Riverine, Tidal, Streambed, Mud
+R1SB4  Riverine, Tidal, Streambed, Organic
+R1RS1  Riverine, Tidal, Rocky Shore, Bedrock
+R1RS2  Riverine, Tidal, Rocky Shore, Boulder
+R1BB1  Riverine, Tidal, Beach/Bar, Cobble/Gravel
+R1BB2  Riverine, Tidal, Beach/Bar, Sand
+R1OW-  Riverine, Tidal, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Lower Perennial
+R2EM2  Riverine, Lower Perennial, Emergent, Nonpersistent
+R2EM3  Riverine, Lower Perennial, Emergent, Narrow-leaved Nonpersistent
+R2EM4  Riverine, Lower Perennial, Emergent, Broad-leaved Nonpersistent
+R2RB1  Riverine, Lower Perennial, Rock Bottom, Bedrock
+R2RB2  Riverine, Lower Perennial, Rock Bottom, Bolder
+R2UB1  Riverine, Lower Perennial, Unconsolidated Bottom, Cobble/Gravel
+R2UB2  Riverine, Lower Perennial, Unconsolidated Bottom, Sand
+R2UB3  Riverine, Lower Perennial, Unconsolidated Bottom, Mud
+R2UB4  Riverine, Lower Perennial, Unconsolidated Bottom, Organic
+R2AB1  Riverine, Lower Perennial, Aquatic Bed, Submergent Algal
+R2AB2  Riverine, Lower Perennial, Aquatic Bed, Submergent Vascular
+R2AB3  Riverine, Lower Perennial, Aquatic Bed, Submergent Moss
+R2AB4  Riverine, Lower Perennial, Aquatic Bed, Floating - Leaved
+R2AB5  Riverine, Lower Perennial, Aquatic Bed, Floating
+R2AB6  Riverine, Lower Perennial, Aquatic Bed, Unknown Submergent
+R2AB7  Riverine, Lower Perennial, Aquatic Bed, Unknown Surface
+R2FL1  Riverine, Lower Perennial, Flat, Cobble/Gravel
+R2FL2  Riverine, Lower Perennial, Flat, Sand
+R2FL3  Riverine, Lower Perennial, Flat, Mud
+R2FL4  Riverine, Lower Perennial, Flat, Organic
+R2FL5  Riverine, Lower Perennial, Flat, Vegetated Pioneer
+R2FL6  Riverine, Lower Perennial, Flat, Vegetated Non-pioneer
+R2SB1  Riverine, Lower Perennial, Streambed, Cobble/Gravel
+R2SB2  Riverine, Lower Perennial, Streambed, Sand
+R2SB3  Riverine, Lower Perennial, Streambed, Mud
+R2SB4  Riverine, Lower Perennial, Streambed, Organic
+R2RS1  Riverine, Lower Perennial, Rocky Shore, Bedrock
+R2RS2  Riverine, Lower Perennial, Rocky Shore, Boulder
+R2BB1  Riverine, Lower Perennial, Beach/Bar, Cobble/Gravel
+R2BB2  Riverine, Lower Perennial, Beach/Bar, Sand
+R2OW-  Riverine, Lower Perennial, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Upper Perennial
+R3EM2  Riverine, Upper Perennial, Emergent, Nonpersistent
+R3EM3  Riverine, Upper Perennial, Emergent, Narrow-leaved Nonpersistent
+R3EM4  Riverine, Upper Perennial, Emergent, Broad-leaved Nonpersistent
+R3RB1  Riverine, Upper Perennial, Rock Bottom, Bedrock
+R3RB2  Riverine, Upper Perennial, Rock Bottom, Bolder
+R3UB1  Riverine, Upper Perennial, Unconsolidated Bottom, Cobble/Gravel
+R3UB2  Riverine, Upper Perennial, Unconsolidated Bottom, Sand
+R3UB3  Riverine, Upper Perennial, Unconsolidated Bottom, Mud
+R3UB4  Riverine, Upper Perennial, Unconsolidated Bottom, Organic
+R3AB1  Riverine, Upper Perennial, Aquatic Bed, Submergent Algal
+R3AB2  Riverine, Upper Perennial, Aquatic Bed, Submergent Vascular
+R3AB3  Riverine, Upper Perennial, Aquatic Bed, Submergent Moss
+R3AB4  Riverine, Upper Perennial, Aquatic Bed, Floating - Leaved
+R3AB5  Riverine, Upper Perennial, Aquatic Bed, Floating
+R3AB6  Riverine, Upper Perennial, Aquatic Bed, Unknown Submergent
+R3AB7  Riverine, Upper Perennial, Aquatic Bed, Unknown Surface
+R3FL1  Riverine, Upper Perennial, Flat, Cobble/Gravel
+R3FL2  Riverine, Upper Perennial, Flat, Sand
+R3FL3  Riverine, Upper Perennial, Flat, Mud
+R3FL4  Riverine, Upper Perennial, Flat, Organic
+R3FL5  Riverine, Upper Perennial, Flat, Vegetated Pioneer
+R3FL6  Riverine, Upper Perennial, Flat, Vegetated Non-pioneer
+R3SB1  Riverine, Upper Perennial, Streambed, Cobble/Gravel
+R3SB2  Riverine, Upper Perennial, Streambed, Sand
+R3SB3  Riverine, Upper Perennial, Streambed, Mud
+R3SB4  Riverine, Upper Perennial, Streambed, Organic
+R3RS1  Riverine, Upper Perennial, Rocky Shore, Bedrock
+R3RS2  Riverine, Upper Perennial, Rocky Shore, Boulder
+R3BB1  Riverine, Upper Perennial, Beach/Bar, Cobble/Gravel
+R3BB2  Riverine, Upper Perennial, Beach/Bar, Sand
+R3OW-  Riverine, Upper Perennial, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Intermittent
+R4EM2  Riverine, Intermittent, Emergent, Nonpersistent
+R4EM3  Riverine, Intermittent, Emergent, Narrow-leaved Nonpersistent
+R4EM4  Riverine, Intermittent, Emergent, Broad-leaved Nonpersistent
+R4RB1  Riverine, Intermittent, Rock Bottom, Bedrock
+R4RB2  Riverine, Intermittent, Rock Bottom, Bolder
+R4UB1  Riverine, Intermittent, Unconsolidated Bottom, Cobble/Gravel
+R4UB2  Riverine, Intermittent, Unconsolidated Bottom, Sand
+R4UB3  Riverine, Intermittent, Unconsolidated Bottom, Mud
+R4UB4  Riverine, Intermittent, Unconsolidated Bottom, Organic
+R4AB1  Riverine, Intermittent, Aquatic Bed, Submergent Algal
+R4AB2  Riverine, Intermittent, Aquatic Bed, Submergent Vascular
+R4AB3  Riverine, Intermittent, Aquatic Bed, Submergent Moss
+R4AB4  Riverine, Intermittent, Aquatic Bed, Floating - Leaved
+R4AB5  Riverine, Intermittent, Aquatic Bed, Floating
+R4AB6  Riverine, Intermittent, Aquatic Bed, Unknown Submergent
+R4AB7  Riverine, Intermittent, Aquatic Bed, Unknown Surface
+R4FL1  Riverine, Intermittent, Flat, Cobble/Gravel
+R4FL2  Riverine, Intermittent, Flat, Sand
+R4FL3  Riverine, Intermittent, Flat, Mud
+R4FL4  Riverine, Intermittent, Flat, Organic
+R4FL5  Riverine, Intermittent, Flat, Vegetated Pioneer
+R4FL6  Riverine, Intermittent, Flat, Vegetated Non-pioneer
+R4SB1  Riverine, Intermittent, Streambed, Cobble/Gravel
+R4SB2  Riverine, Intermittent, Streambed, Sand
+R4SB3  Riverine, Intermittent, Streambed, Mud
+R4SB4  Riverine, Intermittent, Streambed, Organic
+R4RS1  Riverine, Intermittent, Rocky Shore, Bedrock
+R4RS2  Riverine, Intermittent, Rocky Shore, Boulder
+R4BB1  Riverine, Intermittent, Beach/Bar, Cobble/Gravel
+R4BB2  Riverine, Intermittent, Beach/Bar, Sand
+R4OW-  Riverine, Intermittent, Open Water, Unknown Bottom
+Ecological System, Subsystem:
+Riverine, Unknown
+R5EM2  Riverine, Unknown Perennial, Emergent, Nonpersistent
+R5EM3  Riverine, Unknown Perennial, Emergent, Narrow-leaved Nonpersistent
+R5EM4  Riverine, Unknown Perennial, Emergent, Broad-leaved Nonpersistent
+R5RB1  Riverine, Unknown Perennial, Rock Bottom, Bedrock
+R5RB2  Riverine, Unknown Perennial, Rock Bottom, Bolder
+R5UB1  Riverine, Unknown Perennial, Unconsolidated Bottom, Cobble/Gravel
+R5UB2  Riverine, Unknown Perennial, Unconsolidated Bottom, Sand
+R5UB3  Riverine, Unknown Perennial, Unconsolidated Bottom, Mud
+R5UB4  Riverine, Unknown Perennial, Unconsolidated Bottom, Organic
+R5AB1  Riverine, Unknown Perennial, Aquatic Bed, Submergent Algal
+R5AB2  Riverine, Unknown Perennial, Aquatic Bed, Submergent Vascular
+R5AB3  Riverine, Unknown Perennial, Aquatic Bed, Submergent Moss
+R5AB4  Riverine, Unknown Perennial, Aquatic Bed, Floating - Leaved
+R5AB5  Riverine, Unknown Perennial, Aquatic Bed, Floating
+R5AB6  Riverine, Unknown Perennial, Aquatic Bed, Unknown Submergent
+R5AB7  Riverine, Unknown Perennial, Aquatic Bed, Unknown Surface
+R5FL1  Riverine, Unknown Perennial, Flat, Cobble/Gravel
+R5FL2  Riverine, Unknown Perennial, Flat, Sand
+R5FL3  Riverine, Unknown Perennial, Flat, Mud
+R5FL4  Riverine, Unknown Perennial, Flat, Organic
+R5FL5  Riverine, Unknown Perennial, Flat, Vegetated Pioneer
+R5FL6  Riverine, Unknown Perennial, Flat, Vegetated Non-pioneer
+R5SB1  Riverine, Unknown Perennial, Streambed, Cobble/Gravel
+R5SB2  Riverine, Unknown Perennial, Streambed, Sand
+R5SB3  Riverine, Unknown Perennial, Streambed, Mud
+R5SB4  Riverine, Unknown Perennial, Streambed, Organic
+R5RS1  Riverine, Unknown Perennial, Rocky Shore, Bedrock
+R5RS2  Riverine, Unknown Perennial, Rocky Shore, Boulder
+R5BB1  Riverine, Unknown Perennial, Beach/Bar, Cobble/Gravel
+R5BB2  Riverine, Unknown Perennial, Beach/Bar, Sand
+R5OW-  Riverine, Unknown Perennial, Open Water, Unknown Bottom
+Ecological System:
+Marine
+M1RB1  Marine, Subtidal, Rock Bottom, Bedrock
+M1RB2  Marine, Subtidal, Rock Bottom, Boulder
+M1UB1  Marine, Subtidal, Unconsolidated Bottom, Cobble/Gravel
+M1UB2  Marine, Subtidal, Unconsolidated Bottom, Sand
+M1UB3  Marine, Subtidal, Unconsolidated Bottom, Mud
+M1UB4  Marine, Subtidal, Unconsolidated Bottom, Organic
+M1AB1  Marine, Subtidal, Aquatic Bed, Submergent Algal
+M1AB2  Marine, Subtidal, Aquatic Bed, Submergent Vascular
+M1AB6  Marine, Subtidal, Aquatic Bed, Unknown Submergent
+M1RF1  Marine, Subtidal, Reef, Coral
+M1RF3  Marine, Subtidal, Reef, Worm
+M1OW-  Marine, Subtidal, Open Water, Unknown Bottom
+M2AB1  Marine, Intertidal, Aquatic Bed, Submergent Algal
+M2AB2  Marine, Intertidal, Aquatic Bed, Submergent Vascular
+M2AB6  Marine, Intertidal, Aquatic Bed, Unknown Submergent
+M2RF1  Marine, Intertidal, Reef, Coral
+M2RF3  Marine, Intertidal, Reef, Worm
+M2FL1  Marine, Intertidal, Flat, Cobble/Gravel
+M2FL2  Marine, Intertidal, Flat, Sand
+M2FL3  Marine, Intertidal, Flat, Mud
+M2FL6  Marine, Intertidal, Flat, Vegetated Non-pioneer
+M2RS1  Marine, Intertidal, Rocky Shore, Bedrock
+M2RS2  Marine, Intertidal, Rocky Shore, Boulder
+M2RS6  Marine, Intertidal, Rocky Shore, Vegetated Non-pioneer
+M2BB1  Marine, Intertidal, Beach/Bar, Cobble/Gravel
+M2BB2  Marine, Intertidal, Beach/Bar, SandEcological System:
+Lacustrine
+L1RB1  Lacustrine, Limnetic, Rock Bottom, Bedrock
+L1RB2  Lacustrine, Limnetic, Rock Bottom, Boulder
+L1UB1  Lacustrine, Limnetic, Unconsolidated Bottom, Cobble/Gravel
+L1UB2  Lacustrine, Limnetic, Unconsolidated Bottom, Sand
+L1UB3  Lacustrine, Limnetic, Unconsolidated Bottom, Mud
+L1UB4  Lacustrine, Limnetic, Unconsolidated Bottom, Organic
+L1AB1  Lacustrine, Limnetic, Aquatic Bed, Submergent Algal
+L1AB2  Lacustrine, Limnetic, Aquatic Bed, Submergent Vascular
+L1AB3  Lacustrine, Limnetic, Aquatic Bed, Submergent Moss
+L1AB4  Lacustrine, Limnetic, Aquatic Bed, Floating-leaved
+L1AB5  Lacustrine, Limnetic, Aquatic Bed, Floating
+L1AB6  Lacustrine, Limnetic, Aquatic Bed, Unknown Submergent
+L1AB7  Lacustrine, Limnetic, Aquatic Bed, Unknown Surface
+L1OW-  Lacustrine, Limnetic, Open Water, Unknown Bottom
+L2RB1  Lacustrine, Littoral, Rock Bottom, Bedrock
+L2RB2  Lacustrine, Littoral, Rock Bottom, Boulder
+L2UB1  Lacustrine, Littoral, Unconsolidated Bottom, Cobble/Gravel
+L2UB2  Lacustrine, Littoral, Unconsolidated Bottom, Sand
+L2UB3  Lacustrine, Littoral, Unconsolidated Bottom, Mud
+L2UB4  Lacustrine, Littoral, Unconsolidated Bottom, Organic
+L2AB1  Lacustrine, Littoral, Aquatic Bed, Submergent Algal
+L2AB2  Lacustrine, Littoral, Aquatic Bed, Submergent Vascular
+L2AB3  Lacustrine, Littoral, Aquatic Bed, Submergent Moss
+L2AB4  Lacustrine, Littoral, Aquatic Bed, Floating -leaved
+L2AB5  Lacustrine, Littoral, Aquatic Bed, Floating
+L2AB6  Lacustrine, Littoral, Aquatic Bed, Unknown Submergent
+L2AB7  Lacustrine, Littoral, Aquatic Bed, Unknown Surface
+L2FL1  Lacustrine, Littoral, Flat, Cobble/Gravel
+L2FL2  Lacustrine, Littoral, Flat, Sand
+L2FL3  Lacustrine, Littoral, Flat, Mud
+L2FL4  Lacustrine, Littoral, Flat, Organic
+L2FL5  Lacustrine, Littoral, Flat, Vegetated Pioneer
+L2FL6  Lacustrine, Littoral, Flat, Vegetated Non-pioneer
+L2RS1  Lacustrine, Littoral, Rocky Shale, Bedrock
+L2RS2  Lacustrine, Littoral, Rocky Shale, Boulder
+L2BB1  Lacustrine, Littoral, Beach/Bar, Cobble/Gravel
+L2BB2  Lacustrine, Littoral, Beach/Bar, Sand
+L2EM1  Lacustrine, Littoral, Emergent, Nonpersistent
+L2EM3  Lacustrine, Littoral, Emergent, Narrow-leaved Nonpersistent
+L2EM4  Lacustrine, Littoral, Emergent, Broad-leaved Nonpersistent
+L2OW-  Lacustrine, Littoral, Open Water, Unknown Bottom
+National Wetlands Inventory Class Source
+Source  1 = ADR
+2 = NWI
+3 = GDI
+4 = TNC 
+</eaover>
+      <eadetcit>Lancaster County GIS </eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140318</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

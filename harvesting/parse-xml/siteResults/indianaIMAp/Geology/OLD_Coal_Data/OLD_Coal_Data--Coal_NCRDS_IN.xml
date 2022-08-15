@@ -1,0 +1,1726 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Carol L. Conolly (Database Compiler)</origin>
+        <origin>Wei Qin (Database Manipulator)</origin>
+        <origin>Denver Harper (Shapefile Creator)</origin>
+        <pubdate>20030603</pubdate>
+        <title>
+COAL_NCRDS_IN: Coal Resource Data in Indiana, Derived from the
+National Coal Resource Data System (Indiana Geological
+Survey, Point Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>200104</pubdate>
+            <title>
+The Indiana Geological Survey Coal Stratigraphic Database, Indiana Geological Survey
+Open-File Study 01-5
+</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This ESRI ArcInfo point shapefile depicts the location of 9,117 public point-source coal resource data
+points in Indiana.  This shapefile includes location and coal resource information for
+each data point.  The coal resource information consists of total coal thickness, depth to the top
+of the coalbed, and elevation of the top of the coalbed for 26 named coal members of
+Indiana.
+
+Detailed location and stratigraphic information for each data point are stored in a Microsoft Access database named
+"NCRDS_Indiana2000.mdb" that is contained in Open-File Study 01-5 of the Indiana Geological Survey.
+COAL_NCRDS_IN is a GIS representation of the data contained within NCRDS_Indiana2000.mdb.
+</abstract>
+      <purpose>
+The purpose of this ESRI ArcInfo point shapefile is to provide a visual representation and a summary of
+the data contained within the database NCRDS_Indiana2000.mdb: The Indiana Geological Survey National Coal
+Resources Data System database, a Microsoft Access database of public, point-source coal resource data
+in Indiana.
+
+Since 1980, staff members of the Indiana Geological Survey (IGS) have collected and entered coal
+resource information into the NCRDS_Indiana2000.mdb database as a cooperative project with the U.S.
+Geological Survey (USGS).  The purpose of this project is to provide a means of rapid retrieval of
+point-source coal resource information, including coal location, thickness, depth, and other
+parameters.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19800101</begdate>
+          <enddate>20000501</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>20000501</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0679</westbc>
+        <eastbc>-86.5911</eastbc>
+        <northbc>40.4135</northbc>
+        <southbc>37.7844</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>
+ESRI ArcView version 3.3 point shapefile
+Microsoft Windows NT version 4.0
+</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>OLD_Coal_Data--Coal_NCRDS_IN</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Data points were checked to determine whether or not all data points are located within the areal extent of the
+Pennsylvanian System boundary, as depicted in a 1:500,000 scale ESRI ArcInfo polygon coverage of Indiana
+bedrock information. Since this database is limited to data points of coal resource information,
+one should expect all data points to lie within the coal-bearing Pennsylvanian System boundary. This
+test was performed by displaying this point coverage on the bedrock polygon coverage using ESRI
+ArcView software. The result of this check revealed that all but a small fraction of the data points
+were located within the areal extent of the Pennsylvanian System boundary. Those few data points
+that were outside of the Pennsylvanian System boundary were within one mile of the boundary and are
+assumed to be valid data.
+
+Spot checks were conducted to compare the values that appear in the fields named "Twnship" and
+"Range" with townships and ranges in the Public Land Survey System (PLSS) of Indiana.
+Several discrepancies were noted but not corrected.
+
+Coal beds in Indiana seldom exceed 15 feet in thickness. However, inspection of thickness values indicates
+that some records exceed reasonable limits for coal thickness.
+</attraccr>
+    </attracc>
+    <logic>Point features present.</logic>
+    <complete>
+This point shapefile contains 9,117 data points. The coals that are
+described in this point shapefile are limited to 26 named coal members of Indiana. Unnamed coals
+in Indiana are not included in this compilation.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of the location information contained in this ESRI ArcInfo point shapefile is dependent upon
+the accuracy of the source data of each data point, and the accuracy with which these data were
+manually entered into the database. Based upon the source data, the location accuracy ranges from
+recorded x,y coordinates based upon surveyed locations to x,y coordinates obtained by plotting the
+data point on a 1:24,000-scale 7.5-minute quadrangle topographic map based upon township, range, section
+and quarter information, and then digitizing the data point to obtain x,y coordinate information.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The accuracy of the location information contained in this ESRI ArcInfo
+point shapefile is dependent upon the accuracy of the source data of each data point, and the accuracy with which
+these data were manually entered into the database. Based upon the source data, the vertical positional accuracy
+ranges from ground surface elevation information based upon surveyed locations to elevations obtained by plotting
+the data point on a 1:24,000-scale 7.5-minute quadrangle topographic map based upon township, range, section and
+quarter information, and then recording the elevation value from the topographic map.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>200104</pubdate>
+            <title>
+NCRDS_Indiana2000.mdb: The Indiana Geological Survey National Coal Resources Data System
+database, a Microsoft Access database of public, point-source coal resource data in
+Indiana.
+</title>
+            <geoform>Digital tabular data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Microsoft Access database</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19800101</begdate>
+              <enddate>20000501</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Date of most recent update to the database</srccurr>
+        </srctime>
+        <srccitea>NCRDS_Indiana2000.mdb</srccitea>
+        <srccontr>
+The source contributed location and attribute information for 11,560 public point-source
+coal resource data points in Indiana.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A Microsoft Access database named "NCRDS_Indiana2000.mdb" was obtained from Open-File Study 01-5
+of the Indiana Geological Survey. All the work was done with a table  named “STRATIGRAPHY.”
+Two intermediate crosstab queries, “STRATIGRAPHY_CROSSTAB” and
+“STRATIGRAPHY_CROSSTAB1” were created. The first query used the table fields named “pointid,” “bed,”
+and “FROMDEPTH,” while the second used the fields named “pointid,” “bed,” and “thk.” The next step was to
+create a result query by using the intermediate queries joined with “pointid.” The result
+query was called “RESULT.” Finally, the dbf and txt files were generated by exporting the query
+“Result” to dbf and txt format, named "TESTRESU.DBF" and "TESTRESULT.TXT," respectively.
+</procdesc>
+        <srcused>NCRDS_Indiana2000.mdb</srcused>
+        <procdate>20020822</procdate>
+        <srcprod>testresult.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Wei Qin</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Database specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-2503</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>weiqin@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The file named "TESTRESU.DBF" was opened in Microsoft Excel. The database was sorted to identify
+all records for which no data existed for any coal bed. The records that did not contain
+any values for depth, elevation, or thickness for any coal bed (2,443 in total) were deleted. The database
+was then saved as "TESTRESU_9999.DBF."
+</procdesc>
+        <srcused>TESTRESU.DBF</srcused>
+        <procdate>20030219</procdate>
+        <srcprod>TESTRESU_9999.DBF</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The file named "TESTRESU_9999.DBF" was added as a table to a View in ESRI ArcView. The "Add Event Theme"
+function was then used to import the data, using fields named "UTMX83" and UTMY83" in TESTRESU_9999.DBF
+for x- and y-coordinates. The "Convert to Shapefile" function was used to create a shapefile named
+"COAL_NCRDS_IN."
+</procdesc>
+        <srcused>TESTRESU_9999.DBF</srcused>
+        <procdate>20030219</procdate>
+        <srcprod>COAL_NCRDS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20030623</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@exchange.indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>9117</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>coal_ncrds_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Pointid</attrlabl>
+        <attrdef>Data point identification value</attrdef>
+        <attrdefs>User assigned</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Collector</attrlabl>
+        <attrdef>
+Name of the person who supervised the entry of a given data point into
+the database
+</attrdef>
+        <attrdefs>User-assigned</attrdefs>
+        <attrdomv>
+          <udom>
+Valid values for this field are the surnames, or first name initial
+and surname of Indiana Geological Survey staff members preceded by "INGS-"
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Description of the source from which the data are derived</attrdef>
+        <attrdefs>User-assigned based upon information obtained from the source data</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Surfelv</attrlabl>
+        <attrdef>Elevation of the ground surface relative to mean sea level in decimal feet</attrdef>
+        <attrdefs>Source data set of the data point or user assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>294</rdommin>
+            <rdommax>852.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Elvprec</attrlabl>
+        <attrdef>Numeric code to be used (if necessary) to qualify the ground surface elevation values (surfelv)</attrdef>
+        <attrdefs>User-assigned based upon the elevation accuracy of the source data</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No code was entered</edomvd>
+            <edomvds>User-defined</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>etm +/- 10 ft (etm = estimated from topographic map)</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>etm +/- 20 ft (etm = estimated from topographic map)</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>As reported by driller</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Totdept</attrlabl>
+        <attrdef>The total thickness in decimal feet of the section, core, log, etc. that is being described</attrdef>
+        <attrdefs>USGS NCRDS data entry manual</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>4350</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dscplog</attrlabl>
+        <attrdef>Numeric code used to describe the type of data point</attrdef>
+        <attrdefs>USGS NCRDS data entry manual</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>101</edomv>
+            <edomvd>ROADCUT</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>102</edomv>
+            <edomvd>OUTCROP</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>103</edomv>
+            <edomvd>UNDERGROUND MINE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>104</edomv>
+            <edomvd>SURFACE MINE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>105</edomv>
+            <edomvd>PROSPECT PIT</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>106</edomv>
+            <edomvd>MEASURED SECTION</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>107</edomv>
+            <edomvd>MINE MOUTH</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>108</edomv>
+            <edomvd>COMPOSITE SECTION</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>109</edomv>
+            <edomvd>COMPANY MINE MAP</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>201</edomv>
+            <edomvd>CORE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>202</edomv>
+            <edomvd>DRILL HOLE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>203</edomv>
+            <edomvd>ROTARY</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>204</edomv>
+            <edomvd>DRILLERS LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>205</edomv>
+            <edomvd>ELECTRIC LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>206</edomv>
+            <edomvd>GEOPHYSICAL LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>207</edomv>
+            <edomvd>GAMMA LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>208</edomv>
+            <edomvd>DENSITY LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>209</edomv>
+            <edomvd>NEUTRON LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>210</edomv>
+            <edomvd>RESISTIVITY LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>211</edomv>
+            <edomvd>SPONTANEOUS POTENTIAL</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>212</edomv>
+            <edomvd>SONIC LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>213</edomv>
+            <edomvd>LATEROLOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>214</edomv>
+            <edomvd>SONIC LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>215</edomv>
+            <edomvd>CALIPER LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>216</edomv>
+            <edomvd>COAL TEST</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>217</edomv>
+            <edomvd>OIL AND GAS</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>218</edomv>
+            <edomvd>WATER WELL</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>219</edomv>
+            <edomvd>SOIL TEST</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>220</edomv>
+            <edomvd>POWER LINE HOLE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>221</edomv>
+            <edomvd>PUMP HOLE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>222</edomv>
+            <edomvd>VENTILATION SHAFT</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>223</edomv>
+            <edomvd>GAMMA &amp; NEUTRON LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>224</edomv>
+            <edomvd>GAMMA &amp; DENSITY LOG</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+          <edom>
+            <edomv>225</edomv>
+            <edomvd>ROTARY &amp; CORE</edomvd>
+            <edomvds>USGS NCRDS data entry manual</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quartr1</attrlabl>
+        <attrdef>
+The fourth (and smallest) of four quarters in a section within a given
+Township and Range of the Public Land Survey System
+</attrdef>
+        <attrdefs>User assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quartr2</attrlabl>
+        <attrdef>
+The third (and second smallest) of four quarters in a section within a
+given township and range of the Public Land Survey System
+</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quartr3</attrlabl>
+        <attrdef>
+The second (and second largest) of four quarters in a section within a
+given township and range of the Public Land Survey System
+</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Quartr4</attrlabl>
+        <attrdef>
+The first (and largest) of four quarters in a section within a given
+township and range of the Public Land Survey System
+</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Section</attrlabl>
+        <attrdef>
+Number of the section within a given township and range of the Public
+Land Survey System
+</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>36</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Twnship</attrlabl>
+        <attrdef>Township value</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>21</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tns</attrlabl>
+        <attrdef>One-letter code used to indicate whether the township north or township south</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Valid values are: N or S</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Range</attrlabl>
+        <attrdef>Range value</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>15</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rew</attrlabl>
+        <attrdef>One-letter code used to indicate range east or range west</attrdef>
+        <attrdefs>User-assigned based upon data point location</attrdefs>
+        <attrdomv>
+          <udom>Valid values are: E or W</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comment1</attrlabl>
+        <attrdef>
+Values in this field provide additional information about the source dataset
+for a given data point
+</attrdef>
+        <attrdefs>User-assigned</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Datadesc</attrlabl>
+        <attrdef>Code value in the dscplog field</attrdef>
+        <attrdefs>USGS NCRDS data entry manual</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Datatype</attrlabl>
+        <attrdef>Explanation of the values in the datadesc field</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Blu_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Blue Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>142.3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Blu_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Blue Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>451</rdommin>
+            <rdommax>820</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Blu_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Blue Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buck_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Bucktown Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>930</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buck_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Bucktown Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-546</rdommin>
+            <rdommax>598.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buck_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Bucktown Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.1</rdommin>
+            <rdommax>193.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buff_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Buffaloville\Minshall Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>425</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buff_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Buffaloville\Minshall Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>57</rdommin>
+            <rdommax>614</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Buff_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Buffaloville\Minshall Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Coh_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Cohn Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10</rdommin>
+            <rdommax>201.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Coh_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Cohn Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>302.5</rdommin>
+            <rdommax>575.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Coh_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Cohn Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.5</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Col_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Colchester Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1207</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Col_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Colchester Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-763</rdommin>
+            <rdommax>644.9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Col_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Colchester Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>43.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dan_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Danville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>908</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dan_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Danville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-423</rdommin>
+            <rdommax>615.8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dan_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Danville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>14</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dav_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Davis Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>792</rdommin>
+            <rdommax>1142</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dav_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Davis Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-768</rdommin>
+            <rdommax>-370</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dav_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Davis Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>5.1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dek_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Dekoven Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>780</rdommin>
+            <rdommax>1156</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dek_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Dekoven Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-782</rdommin>
+            <rdommax>-355</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dek_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Dekoven Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.2</rdommin>
+            <rdommax>2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dit_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Ditney Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>563</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dit_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Ditney Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>585.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dit_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Ditney Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>10.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fai_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Fairbanks Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.4</rdommin>
+            <rdommax>307.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fai_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Fairbanks Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>110</rdommin>
+            <rdommax>508</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fai_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Fairbanks Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.4</rdommin>
+            <rdommax>307.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fre_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the French Lick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8</rdommin>
+            <rdommax>924</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fre_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the French Lick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-486</rdommin>
+            <rdommax>562</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fre_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the French Lick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8</rdommin>
+            <rdommax>924</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Haz_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Hazelton Bridge Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.9</rdommin>
+            <rdommax>343</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Haz_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Hazelton Bridge Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>59</rdommin>
+            <rdommax>538</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Haz_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Hazelton Bridge Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.2</rdommin>
+            <rdommax>12</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Her_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Herrin Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.4</rdommin>
+            <rdommax>958</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Her_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Herrin Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-485</rdommin>
+            <rdommax>494.6</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Her_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Herrin Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.02</rdommin>
+            <rdommax>7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hou_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Houchin Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1137</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hou_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Houchin Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-698</rdommin>
+            <rdommax>630.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hou_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Houchin Creek Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>70</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hym_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Hymera Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>580</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hym_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Hymera Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-157</rdommin>
+            <rdommax>598</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hym_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Hymera Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>86.9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lbl_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Lower Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>794.8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lbl_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Lower Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-341.8</rdommin>
+            <rdommax>805</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lbl_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Lower Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>16</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mar_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Mariah Hill Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20.7</rdommin>
+            <rdommax>161.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mar_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Mariah Hill Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>380</rdommin>
+            <rdommax>502</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mar_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Mariah Hill Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>119</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Par_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Parker Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.3</rdommin>
+            <rdommax>419.4</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Par_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Parker Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>84.6</rdommin>
+            <rdommax>550.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Par_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Parker Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.2</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pin_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Pinnick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>146.6</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pin_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Pinnick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>356.4</rdommin>
+            <rdommax>765</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pin_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Pinnick Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>6</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pir_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Pirtle Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>12</rdommin>
+            <rdommax>766</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pir_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Pirtle Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-254</rdommin>
+            <rdommax>571</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pir_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Pirtle Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.2</rdommin>
+            <rdommax>7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rab_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Raben Branch Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>47.1</rdommin>
+            <rdommax>119.3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rab_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Raben Branch Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>451.7</rdommin>
+            <rdommax>452.9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rab_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Raben Branch Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.05</rdommin>
+            <rdommax>0.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>See_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Seelyville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1309</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>See_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Seelyville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-830.5</rdommin>
+            <rdommax>683.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>See_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Seelyville Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>52</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sha_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Shady Lane Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>241.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sha_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Shady Lane Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>405.3</rdommin>
+            <rdommax>580</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sha_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Shady Lane Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Spr_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Springfield Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1027</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Spr_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Springfield Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-579</rdommin>
+            <rdommax>636.6</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Spr_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Springfield Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>53</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sur_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Survant Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sur_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Survant Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>439</rdommin>
+            <rdommax>519.1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sur_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Survant Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ubl_dp</attrlabl>
+        <attrdef>Depth (feet) to the top of the Upper Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>779.9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ubl_el</attrlabl>
+        <attrdef>Elevation (feet) of the top of the Upper Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-326.9</rdommin>
+            <rdommax>740</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ubl_tk</attrlabl>
+        <attrdef>Total coal thickness (feet) of the Upper Block Coal Member</attrdef>
+        <attrdefs>IGS database NCRDS_Indiana2000.mdb</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>42</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: COAL_NCRDS_IN: Coal Resource Data in Indiana, Derived from the
+National Coal Resource Data System (Indiana Geological
+Survey, Point Shapefile)
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20030601</metd>
+    <metrd>20040407</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Denver Harper</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1369</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>dharper@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

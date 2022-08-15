@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>WPC HUC12 (includes percentage land-use)</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <ftname Sync="TRUE">WPC_huc12calc&amp;lu</ftname>
+        <origin>USGS</origin>
+        <pubdate>Unpublished Material</pubdate>
+        <othercit>Land Use data was derived from the National Landcover Dataset while huc12 watersheds were derived from draft huc 12 watersheds being compiled by all states involved.</othercit>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.541923</westbc>
+        <eastbc Sync="TRUE">-74.689899</eastbc>
+        <northbc Sync="TRUE">42.269420</northbc>
+        <southbc Sync="TRUE">39.719742</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.541923</leftbc>
+        <rightbc Sync="TRUE">-74.689899</rightbc>
+        <topbc Sync="TRUE">42.269420</topbc>
+        <bottombc Sync="TRUE">39.719742</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Watersheds</themekey>
+        <themekey>HUC 12</themekey>
+        <themekey>Hydrologic Units</themekey>
+        <themekey>Land Cover</themekey>
+        <themekey>Land use</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Natural Heritage Program (Western Pennsylvania Conservancy)</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>WPC_huc12calclu</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>USGS preliminary HUC 12 watersheds</title>
+            <origin>USGS</origin>
+            <pubdate>Unpublished Material</pubdate>
+            <othercit>Preliminary HUC12 watersheds of Pennsylvania.  Some watersheds to not have accurate HUC numbers due to the preliminary nature of the dataset.</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital compressed file</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS</origin>
+            <pubdate>19990527</pubdate>
+            <title>National Land Cover Dataset</title>
+            <othercit>National Land Cover Dataset was used for defining the land use percentages for each HUC 12</othercit>
+            <onlink>http://landcover.usgs.gov/natllandcover.asp</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1986</begdate>
+              <enddate>1993</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>12 digit unique autonumbers were filled in for HUC 12 sheds lacking a unit code.</procdesc>
+        <procsv>MS Access 2000</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>the number of NLDC cells of each cell type per HUC 12 area were tabulated for all HUC 12s (Tabulate areas option) and then exported as a DBF file.</procdesc>
+        <procsv>ArcView 3.2 Spatial Analyst extension</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Total Number of cells for each HUC 12 were calcuated and then used to determine percent of land use class for each huc 12. at this time field names were changed to more clearly denote what land type each cell class represents ( see http://landcover.usgs.gov/classes.asp ).  Summary land use types (total forest, total agriculture, total developed, total wetland) were also added. This was then exported as a seperate DBF.</procdesc>
+        <procsv>MS Access 2000</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The new land cover percentance table was then attached to the original HUC 12 polygon layer which was then saved as a new shape file.</procdesc>
+        <procsv>ArcView 3.2</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Huc 12 file was overlayed on DEM and average slope was calculated for each HUC 12 by first deriving a slope grid for the DEM and then "summarizing zones" for the HUC12 and adding the average slope value as a field in the shape file.</procdesc>
+        <procsv>ArcView 3.2 Spatial Analyst extension</procsv>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>A grid of calcareous gelogy (all calcareous bedrock types) and a grid layer of calcareous geology within higher quality land-use classes (forested or wetland) was developed from the Pennsylvania geology type layer and a similar process to land use class was used to add percent calcareous and percent high quality calcareous fields to the HUC 12 atribute table.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Shape file was reprojected from PA Albers projection into NAD 27 Decimal Degrees.</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Digital Elevation Model of Pennsylvania</title>
+            <origin>USGS</origin>
+            <pubdate>Unknown</pubdate>
+          </citeinfo>
+        </srccite>
+        <srccitea>DEM</srccitea>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title> Bedrock Geology of Pennsylvania</title>
+            <origin>Pennsylvania Bureau of Topographic and Geologic Survey, Department of Conservation and Natural Resources</origin>
+            <pubdate>2001</pubdate>
+            <onlink>http://www.pasda.psu.edu/summary2.cgi/dcnr/pags/dcnr_bedrockgeology_cov_2001.xml</onlink>
+          </citeinfo>
+        </srccite>
+      </srcinfo>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">C:\LocalGISfiles\DDnad27\Final\huc12calc&amp;lu</srcused>
+        <date Sync="TRUE">20040712</date>
+        <time Sync="TRUE">13120200</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+    <logic>Unknown.</logic>
+    <complete>Several attribute fields have null values.</complete>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="WPC_huc12calc&amp;lu">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">1467</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="WPC_huc12calc&amp;lu">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <efeacnt Sync="TRUE">1467</efeacnt>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="WPC_huc12calc&amp;lu">
+      <enttyp>
+        <enttypl Sync="TRUE">WPC_huc12calc&amp;lu</enttypl>
+        <enttypc Sync="TRUE">1467</enttypc>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypd>PA watershed landuse and slope</enttypd>
+        <enttypds>Pennsylvania Natural Heritage Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attscale Sync="TRUE">0</attscale>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attscale Sync="TRUE">0</attscale>
+        <attwidth Sync="TRUE">0</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attalias Sync="TRUE">AREA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>watershed area</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>area</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attalias Sync="TRUE">PERIMETER</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>watershed perimeter</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>perimeter</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PAHU12_18_</attrlabl>
+        <attalias Sync="TRUE">PAHU12_18_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+        <attrdef>unknown</attrdef>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PAHU12_181</attrlabl>
+        <attalias Sync="TRUE">PAHU12_181</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RECORD_</attrlabl>
+        <attalias Sync="TRUE">RECORD_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">11</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC_11</attrlabl>
+        <attalias Sync="TRUE">HUC_11</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <attrdef>HUC 11 watershed code</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>HUC 11 watershed code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC_8</attrlabl>
+        <attalias Sync="TRUE">HUC_8</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdef>HUC 8 watershed code</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>HUC 8 watershed code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC_14</attrlabl>
+        <attalias Sync="TRUE">HUC_14</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <attrdef>HUC 14 watershed code</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>HUC 14 watershed code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATES</attrlabl>
+        <attalias Sync="TRUE">STATES</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <attrdef>The states that the watershed occurs within</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>state abbreviations</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC_10</attrlabl>
+        <attalias Sync="TRUE">HUC_10</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdef>HUC 10 watershed code</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>HUC 10 watershed code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC_12</attrlabl>
+        <attalias Sync="TRUE">HUC_12</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>HUC 12 ID number (autonumber beginning with 99 used to fill in blank entries</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>HUC 12 ID number (autonumber beginning with 99 used to fill in blank entries</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NCONTRB_A</attrlabl>
+        <attalias Sync="TRUE">NCONTRB_A</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_10_DS</attrlabl>
+        <attalias Sync="TRUE">HU_10_DS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_10_NAME</attrlabl>
+        <attalias Sync="TRUE">HU_10_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">80</attwidth>
+        <attrdef>HUC 10 watershed name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>watershed name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_10_MOD</attrlabl>
+        <attalias Sync="TRUE">HU_10_MOD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_10_TYPE</attrlabl>
+        <attalias Sync="TRUE">HU_10_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_12_DS</attrlabl>
+        <attalias Sync="TRUE">HU_12_DS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_12_NAME</attrlabl>
+        <attalias Sync="TRUE">HU_12_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">80</attwidth>
+        <attrdef>HUC 12 watershed name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>HUC 12 watershed name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_12_MOD</attrlabl>
+        <attalias Sync="TRUE">HU_12_MOD</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HU_12_TYPE</attrlabl>
+        <attalias Sync="TRUE">HU_12_TYPE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>unknown</attrdef>
+        <attrdefs>unknown</attrdefs>
+        <attrdomv>
+          <udom>unknown</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CALCACRES</attrlabl>
+        <attalias Sync="TRUE">CALCACRES</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>The calculated acreage of the HUC 12</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>The calculated acreage of the HUC 12 watershed</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">1</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <attrdef>The primary county the watershed is in.</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>county names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LIME_</attrlabl>
+        <attalias Sync="TRUE">LIME_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">18</attwidth>
+        <attrdef>% Calcareous Lithography for the watershed</attrdef>
+        <attrdefs>Pennsylvania Bureau of Topographic and Geologic Survey</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">2</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OPEN_WATER</attrlabl>
+        <attalias Sync="TRUE">OPEN_WATER</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% open water (class 11) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LOWINTDEVO</attrlabl>
+        <attalias Sync="TRUE">LOWINTDEVO</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 21 (Low Intensity Residential) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HIGHINTRES</attrlabl>
+        <attalias Sync="TRUE">HIGHINTRES</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 22 (High Intensity Residential) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HIGINTCOMM</attrlabl>
+        <attalias Sync="TRUE">HIGINTCOMM</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 23 (Commercial/Industrial/Transportation) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BARE</attrlabl>
+        <attalias Sync="TRUE">BARE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 31 (Bare Rock/Sand/Clay) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QRY_MINES_</attrlabl>
+        <attalias Sync="TRUE">QRY_MINES_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 32 (Quarries/Strip Mines/Gravel Pits) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TRANS_BARE</attrlabl>
+        <attalias Sync="TRUE">TRANS_BARE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 33 (Transitional) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DEC_4EST</attrlabl>
+        <attalias Sync="TRUE">DEC_4EST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 41 (Deciduous Forest) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EVGR_4EST</attrlabl>
+        <attalias Sync="TRUE">EVGR_4EST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 42 (Evergreen Forest) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MXD_4EST</attrlabl>
+        <attalias Sync="TRUE">MXD_4EST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 43 (Mixed Forest) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HAYPAST</attrlabl>
+        <attalias Sync="TRUE">HAYPAST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 81 (Pasture/Hay) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ROWCROPS</attrlabl>
+        <attalias Sync="TRUE">ROWCROPS</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 82 (Row Crops) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OTHERGRASS</attrlabl>
+        <attalias Sync="TRUE">OTHERGRASS</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 85 (Urban/Recreational/Other Grasses) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FORST_WET</attrlabl>
+        <attalias Sync="TRUE">FORST_WET</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 91 (Woody Wetlands) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EMRG_HERB_</attrlabl>
+        <attalias Sync="TRUE">EMRG_HERB_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% class 92 (Emergent Herbaceous Wetlands) for the watershed.</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOTAL_WET</attrlabl>
+        <attalias Sync="TRUE">TOTAL_WET</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% total wetland for the watershed (class 91 and 92).</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOTAL__4ST</attrlabl>
+        <attalias Sync="TRUE">TOTAL__4ST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% total forest for the watershed (41, 42, &amp; 43)</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOTAL_DEVO</attrlabl>
+        <attalias Sync="TRUE">TOTAL_DEVO</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% total development for the watershed (class 21, 22 &amp;23)</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TOTAL_AG</attrlabl>
+        <attalias Sync="TRUE">TOTAL_AG</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% total agricultural land use for the watershed (class 81,82, and 85).</attrdef>
+        <attrdefs>NLCD</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MEANSLOPE</attrlabl>
+        <attalias Sync="TRUE">MEANSLOPE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>average slope of the watershed.</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>average slope</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">3</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">QUALCALC_</attrlabl>
+        <attalias Sync="TRUE">QUALCALC_</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>% calcareous geology in high quality land use areas (forest or wetland) for the watershed.</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>percentage</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">3</atnumdec>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>12 digit USGS hydrological unit code (HUC) watersheds within Pennsylvania with  percentage land-use information from the National Land Cover Dataset for each HUC 12, average slope for each HUC 12, and percent calcareous geology for each HUC 12.</dsoverv>
+      <eaover>Attributes include HUC 8,10,11,12,and 14 codes, HUC 10 and 12 watershed names, average slope, % calcareous geology, and % land use for 19 land use types.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">15.662</transize>
+          <dssize Sync="TRUE">15.662</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100323</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Aquatic Ecologist</cntper>
+          <cntorg>Western Pennsylvania Coservancy; Natural Heritage Program</cntorg>
+        </cntperp>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.541923</westBL>
+      <eastBL Sync="TRUE">-74.689899</eastBL>
+      <northBL Sync="TRUE">42.26942</northBL>
+      <southBL Sync="TRUE">39.719742</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idCitation>
+      <resTitle Sync="TRUE">WPC_huc12calc&amp;lu</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-80.541923</westBL>
+          <northBL Sync="TRUE">42.26942</northBL>
+          <southBL Sync="TRUE">39.719742</southBL>
+          <eastBL Sync="TRUE">-74.689899</eastBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <linkage Sync="TRUE">file://\\PASDA-WX\E$\PASDA\mxds\Shapes\Aquatic Community Classification Project\WPC_huc12calc&amp;lu.shp</linkage>
+        </onLineSrc>
+        <transSize Sync="TRUE">15.662</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <Esri>
+    <CreaDate>20040712</CreaDate>
+    <ModDate>20100323</ModDate>
+    <ModTime>11042700</ModTime>
+    <SyncDate>20100323</SyncDate>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncTime>10221400</SyncTime>
+    <CreaTime>11155000</CreaTime>
+    <MetaID>{F1C63BDD-2B7F-4B3F-AC61-C8827933B4FB}</MetaID>
+  </Esri>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdDateSt Sync="TRUE">20100323</mdDateSt>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1927</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="WPC_huc12calc&amp;lu">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">1467</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

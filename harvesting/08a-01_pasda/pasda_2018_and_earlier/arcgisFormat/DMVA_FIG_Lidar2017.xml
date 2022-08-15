@@ -1,0 +1,480 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Department of Military Veterans Affairs</origin>
+        <pubdate>2017</pubdate>
+        <title>USACE Bare Earth LiDAR and derived projects for Fort Indiantown Gap near Lebanon, Pennsylvania</title>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.755715</westbc>
+        <eastbc>-76512210</eastbc>
+        <northbc>40.493479</northbc>
+        <southbc>40.384648</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Elevation Data</themekey>
+        <themekey>LiDAR</themekey>
+        <themekey>DTM</themekey>
+        <themekey>Land Surface</themekey>
+        <themekey>Bare Earth LAS</themekey>
+        <themekey>DEM</themekey>
+        <themekey>LAS</themekey>
+        <themekey>Ground Control</themekey>
+        <themekey>Point Cloud</themekey>
+        <themekey>GeoTIFF</themekey>
+        <themekey>ERDAS Imagine</themekey>
+        <themekey>Tile Index</themekey>
+        <themekey>US Army Corps of Engineers</themekey>
+        <themekey>USACE</themekey>
+        <themekey>IMG</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Fort Indiantown Gap</placekey>
+        <placekey>Lebanon</placekey>
+        <placekey>Lebanon County</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>USA</placekey>
+        <placekey>PA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Continental Mapping Consultants</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>121 S Bristol Street</address>
+          <city>Sun Prairie</city>
+          <state>WI</state>
+          <postal>53590</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>888-815-3327</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Data credit goes to Continental Mapping Consultants who was contracted by US Army Corps of Engineers St. Loius.</datacred>
+    <secinfo>
+      <secsys>N/A</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>N/A</sechandl>
+    </secinfo>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Professional; Esri ArcGIS 10.2.2; Microstation V8i Select Series 3 (version 8.11.09.459); TerraScan (version 016.001)</native>
+    <natvform>Shapefile</natvform>
+    <descript>
+      <abstract>DMVA_FIG_Lidar2017</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>N/A</attraccr>
+    </attracc>
+    <logic>Survey data have been confirmed to be in proper units, coordinate systems and format.  The terrain data have been confirmed as complete LAS format data files.</logic>
+    <complete>Survey data have been checked for completeness, points have been collected in correct vegetation locations, and distributed throughout the AOI.  The terrain data have been checked for completeness against AOI polygons.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>N/A</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>USACE EM 1110-1-1000, 30, APR 2015 Requirements
+Vertical Accuracy Class: 10 cm
+RMSE Non-Vegetated: 10 cm
+NVA at 95% Confidence Level: 19.6 cm
+VVA at 95th Percentile: 30 cm
+
+Non-Vegetated Vertical Accuracy
+Vertical RMSE: 0.028
+
+Vegetated Vertical Accuracy
+Vertical RMSE: 0.041</vertaccr>
+        <qvertpa>
+          <vertaccv>0.035 centimeters</vertaccv>
+          <vertacce>Non-Vegetated Vertical Accuracy (NVA) equal to the 95th Percentile confidence level calculated in open terrain.  Reported in centimeters.</vertacce>
+        </qvertpa>
+        <qvertpa>
+          <vertaccv>0.035 centimeters</vertaccv>
+          <vertacce>It passes the Vegetated Vertical Accuracy (VVA) requirements at 95th percentile.  Reported in centimeters.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Continental Mapping Consultants was tasked with performing a LiDAR ground control survey in support of LiDAR collection of Fort Indiantown Gap (FIG) in central Pennsylvania. The Global Positioning System (GPS) was used to establish the ground control network, and a total station was also used to survey the woods VVA checkpoints. The map in figure 1 shows the location of the ten ground control points (GCP, shown as red dots) and the twenty-five checkpoints (CP, shown as green dots). Also shown are two control stations which provided a tie to the NSRS (red cross inside white square).
+
+The National Spatial Reference System (NSRS) was used to provide control for the network. An existing ground station of the National Spatial Reference System (NSRS) was occupied during the survey to provide a direct tie to the NSRS. In addition, a private CORS which is rigorously tied to the NSRS was also included.  The horizontal datum was NAD83 (2011) epoch 2010.0, and the vertical
+datum was NAVD88, realized through the use of the GEOID12B model.
+
+The field survey was done by using the KeyNetVirtual Reference Station Network. In the VRS method, a GPS receiver (a R10 dual frequency receivers was used) equipped with a data connection is used as a rover to occupy each survey point. Data is received via the cellular network for a “virtual” reference station nearby. The data is processed in real time to compute a position and elevation for the unknown station. The rover is positioned from the nearest physical CORS point and the vector data is stored in a data collector as a vector from this position, along with statistical data for the solution.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The aerial LiDAR acquisition was completed by Keystone Aerial Surveys.  The sensor used was an Optech Galaxy.  There were 25 project flight lines, and 1 cross flights collected.  The LiDAR acquisition was completed in one (1) aircraft lift occurring on March 29, 2017.  
+
+Altitude: 1800 meters
+Aircraft Ground Speed: 113 knots average
+Pulse Rate: 300 kHz
+Scan Rate: 72 Hz
+Full Field of View: 35 degrees
+Full Swath Width: 680 meters
+Swath Overlap: 30%
+Average Point Density: 4.179 pts/m^2</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The Continental team utilized Optech's LMS to initially process the data and convert into LAS format.  TerraMatch was then used to refine the calibration of the LiDAR dataset.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The trajectory files and point cloud swaths are imported into GeoCue to perform project setup.  This project set up phase sets the project parameters, tiling scheme, and is the platform for initial macro runs. After import, checkpoints are run against the point cloud to verify the accuracy of the data prior to classification. The detailed description of this process is below in 4.0 Accuracy Assessment. After verifying the accuracy, the processing continues. Multiple macros are run through TerraScan to flag overlap, and to classify the ground. Due to differing terrain, this step may take multiple iterations. Once the analyst has verified the results with the ground macro, the ground classification QC begins. During the QC phase, analysts are reclassifying the point cloud in areas where the macro was not able to, or were misclassified.
+Multiple macros are run on the dataset after the ground classification is complete including the building and water macros. The same rigorous quality steps are performed each classification.  The bare earth lidar points that were within 1 meter of the water were classified to class 10. After the analysts have completed the QC process in TerraScan, raster files were produced into 32-bit floating GeoTiffs and Erdas Imagine IMG files using Global Mapper. These files were created using only the ground and building classes.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The calibrated and controlled lidar files were processed using automatic point classification routines in proprietary software. These routines operate against the entire collection (all swaths, all lifts), eliminating character differences between files.  The trajectory files and point cloud swaths were imported into GeoCue to perform project setup.  This project set up phase set the project parameters, tiling scheme, and was the platform for initial macro runs.  After import, checkpoints were run against the point cloud to verify the accuracy of the data prior to classification.  After verifying the NVA accuracy, the processing continued.  Multiple macros were run through TerraScan to flag overlap, ground, low points, etc.  Points below ground surface that were identified as low points were classified to class 7. A bare earth ground surface was derived from the unclassed points and put to class 2 using a suitable macro function for the project's terrain type. Points above the treeline that were not identified as a feature were classified to class 18. Ground points inside of water features were classifed to class 9 to represent water and ground points outside of hydro features but within 1 meter of hydro breaklines were classified to class 10. All remaining points were classified to class 1.  Final lidar LAS delivery classes for the fully classed LAS tiles consistent with ASPRS LAS classes to be compliant with USGS LiDAR Guidelines and Base Specifications v13 consist of: Class 1 - Unclassified; Class 2 - Ground; Class 7 – Low Noise; Class 8 – Model Key; Class 9 - Water; Class 10 - Ignored Ground (including 2-meter buffer around water breaklines); Class 12 - Overlap points exceeding scan angles of +/- 20 degrees; and Class 18 - High Noise.  Once the analyst was comfortable with the ground macro results, the ground classification QC began using TerraScan.  During the QC phase, analysts reclassified the point cloud in areas where the macro was not able to, or created misclassifications.  The same rigorous quality steps were performed on each classification.
+
+Data were then distributed as virtual tiles to experienced lidar analysts for localized automatic classification, manual editing, and peer-based QC checks. Supervisory QC monitoring of work in progress and completed editing ensured consistency of classification character and adherence to project requirements across the entire project.
+
+Upon completion of point classification, an automated process was executed to turn any points to class 1 in the Fully Classified LAS files and to delete any point for the Bare Earth and Key Point LAS Files that fell outside of the provided project buffered boundary.
+
+Breaklines were digitized at water elevation for any bodies of water over the entire project area including streams greater than 25ft in nominal width, water bodies greater than 0.5 acres in area, and islands greater than 0.5 acre. A macro was then run to classify points that lay at nominal water elevation to class 9 that fell within bodies of water. Concurrently a 1-meter buffer zone around water polygons was derived from the ground class and put to class 10. Water bodies and streams with flow were hydro-enforced using the Ponds, Islands, and Double Line Drain shapefiles to demonstrate the removal of unnatural surface artifacts in both ponds and streams and to show downward flow for streams.
+
+A DEM data set was generated for both the Bare Earth LAS set and Model Key Point LAS set as 32-bit Erdas Imagine .IMG files at a resolution of 1.0 m (meter) supported by the Hydro Breaklines.
+
+1-foot contours were generated in LP360 using the hydro breaklines and Bare Earth data.  </procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Continental utilized various software packages and techniques to verify the accuracy of the data. Utilizing QCoherent’s LP360, Continental ran a survey to las check, followed by seamline analysis. The survey to las check calculates the deviation between the survey point elevation and the point cloud elevation and export a Non-Vegetated Vertical Accuracy (NVA) report. The second check, calculates the deviation between the seamlines of the point cloud swaths. The third check, the Vegetated Vertical Accuracy (VVA) testing occurred after the ground classification has been completed. The VVA testing utilized both the points that were labeled VVA and NVA if those points were either located in or under vegetation. Other software like Terra Solid and Global Mapper were utilized to verify the results of LP360.
+
+Continental appreciates the time-critical nature of this product. The field survey and aerial survey teams were deployed at the first opportunity based on availability of acceptable weather conditions and base personnel (for coordination). The area of interest contains subareas of dense vegetation which present fewer bare ground returns, higher variability, and potentially less accuracy than typical vegetated areas.  Per the table below the survey accuracy results meet industry standards for both NVA and VVA based on the ground survey control points collected in December.
+
+Once all of the deliverables have been produced and verified, the data was moved to the Quality office for final review. The Quality Office verifies that the correct procedures were followed, tests the data, and verifies that all of the deliverables in the SOW are finished.</procdesc>
+        <procdate>2017</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <esriterm Name="NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="4" Sync="TRUE" />
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.500000</absres>
+            <ordres>0.500000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_NAD_1983_2011</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.00</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn>GCS_NAD_1983_2011</geogcsn>
+        <projcsn>NAD_1983_2011_UTM_Zone_18N</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.01</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84">
+      <enttyp>
+        <enttypl Sync="TRUE">NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">Esri</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Id</attrlabl>
+        <attalias Sync="TRUE">Id</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+        <atprecis Sync="TRUE">6</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Proj_Desc</attrlabl>
+        <attalias Sync="TRUE">Proj_Desc</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ProjCoord</attrlabl>
+        <attalias Sync="TRUE">ProjCoord</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>N/A</resdesc>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <nondig>N/A</nondig>
+    </stdorder>
+    <custom>N/A</custom>
+    <techpreq>N/A</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>2017</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Continental Mapping Consultants</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>121 S Bristol Street</address>
+          <city>Sun Prairie</city>
+          <state>WI</state>
+          <postal>53590</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>888-815-3327</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metsi>
+      <metscs>None</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+    <metextns>
+      <onlink>None</onlink>
+      <metprof>None</metprof>
+    </metextns>
+    <langmeta>en</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>20170828</CreaDate>
+    <CreaTime>16281600</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\ALCES\D$\NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84 (1)</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <itemName Sync="TRUE">NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">351205.710721</westBL>
+          <eastBL Sync="TRUE">371649.294555</eastBL>
+          <southBL Sync="TRUE">4471926.782907</southBL>
+          <northBL Sync="TRUE">4483633.550640</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemSize Sync="TRUE">0.014</itemSize>
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84" dest="\\ALCES\D$\NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84 (1)" date="20170828" time="16281600" />
+      </copyHistory>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn Sync="TRUE">WGS_1984_UTM_Zone_18N</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;PROJCS[&amp;quot;WGS_1984_UTM_Zone_18N&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-75.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,32618]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;32618&lt;/WKID&gt;&lt;LatestWKID&gt;32618&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <SyncDate>20170828</SyncDate>
+    <SyncTime>16113600</SyncTime>
+    <ModDate>20170828</ModDate>
+    <ModTime>16325200</ModTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</envirDesc>
+    <dataLang>
+      <languageCode value="eng" Sync="TRUE" />
+      <countryCode value="USA" Sync="TRUE" />
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="FALSE">USACE Bare Earth LiDAR and derived projects for Fort Indiantown Gap near Lebanon, Pennsylvania</resTitle>
+      <presForm>
+        <PresFormCd value="005" Sync="TRUE" />
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd value="001" Sync="TRUE" />
+    </spatRpType>
+    <dataExt>
+      <geoEle xmlns="">
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+          <westBL Sync="TRUE">-76.755717</westBL>
+          <eastBL Sync="TRUE">-76.512212</eastBL>
+          <northBL Sync="TRUE">40.493487</northBL>
+          <southBL Sync="TRUE">40.384656</southBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <idPurp>The National Guard Bureau (NGB) requires the collection and processing of high accuracy classified LiDAR data in .LAS format as well as a combination of raster digital elevation models and additional hydrographic breaklines. The data is to be acquired during the Spring 2017 timeframe, during leaf-off conditions. The acquired LiDAR data will be used for various planning, design, research and mapping purposes. The NGB requires this data collection for Fort Indiantown Gap near Lebanon, Pennsylvania.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The National Guard Bureau (NGB) required high accruacy classified LiDAR data in combination with raster digital elevation models and hydrographic breaklines. For this effort, Continental Mapping Consultants (Continental) will collect and process high accuracy classified LiDAR data in .LAS format as well as a combination of raster digital elevation models.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCredit>Data credit goes to Continental Mapping Consultants who was contracted by US Army Corps of Engineers St. Loius.</idCredit>
+    <searchKeys>
+      <keyword>Elevation Data</keyword>
+      <keyword>LiDAR</keyword>
+      <keyword>DTM</keyword>
+      <keyword>Land Surface</keyword>
+      <keyword>Bare Earth LAS</keyword>
+      <keyword>DEM</keyword>
+      <keyword>LAS</keyword>
+      <keyword>Ground Control</keyword>
+      <keyword>Point Cloud</keyword>
+      <keyword>GeoTIFF</keyword>
+      <keyword>ERDAS Imagine</keyword>
+      <keyword>Tile Index</keyword>
+      <keyword>US Army Corps of Engineers</keyword>
+      <keyword>USACE</keyword>
+      <keyword>IMG</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode value="eng" Sync="TRUE" />
+    <countryCode value="USA" Sync="TRUE" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" Sync="TRUE" />
+  </mdChar>
+  <distInfo>
+    <distFormat>
+      <formatName Sync="TRUE">Shapefile</formatName>
+    </distFormat>
+    <distTranOps>
+      <transSize Sync="TRUE">0.014</transSize>
+    </distTranOps>
+  </distInfo>
+  <mdHrLv>
+    <ScopeCd value="005" Sync="TRUE" />
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode code="32618" Sync="TRUE" />
+        <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+        <idVersion Sync="TRUE">8.6.2</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs Name="NGB_FIG_2017_Lidar_Boundary_UTM18N_WGS84">
+        <geoObjTyp>
+          <GeoObjTypCd value="002" Sync="TRUE" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">1</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE" />
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20170828</mdDateSt>
+</metadata>

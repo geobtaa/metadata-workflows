@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Lancaster County GIS Department</origin>
+        <pubdate>200812</pubdate>
+        <title>Lancaster County covered bridges</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Lancaster, PA</pubplace>
+          <publish>Lancaster County GIS Department</publish>
+        </pubinfo>
+        <othercit>Created based on 1 inch to 600 foot aerial photography</othercit>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>200812</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>5 years</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.721893</westbc>
+        <eastbc>-75.875</eastbc>
+        <northbc>40.315701</northbc>
+        <southbc>39.7211</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>covered bridges</themekey>
+        <themekey>infrastructure</themekey>
+        <themekey>bridges</themekey>
+        <themekey>culture</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Lancaster County</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>
+For use at 1:2400 or smaller scale.
+
+For educational/demonstration purposes only.  The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance
+
+These data are not to be redistributed for commercial profit.  Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden.  The Originator and Publisher should be clearly cited in any product derived from this data.  Any modifications to this data must be described in any digital or hardcopy product derived from this data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>LancasterCountyCoveredBridges200812</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute tables verified visually and through use.</attraccr>
+    </attracc>
+    <logic>Topology exists for coverage.  The same number of polygons exist in the exported shapefile.  No polygon overlap.</logic>
+    <complete>Complete from aerial photography.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy conforms to National Mapping Accuracy Standards of planimetric and topographic mapping data at a design scale of 1"=200'.</horizpar>
+        <qhorizpa>
+          <horizpav>3.5</horizpav>
+          <horizpae>Estimated that 95% of points fall within 3.5 meters (10 ft.) or ground position.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Aerial Data Reduction Associates, Inc.</origin>
+            <pubdate>1993</pubdate>
+            <title>Orthophotographs of Lancaster County - 1993</title>
+            <geoform>remote sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>19200</srcscale>
+        <typesrc>stable-base material</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>aerials</srccitea>
+        <srccontr>features for digitization</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Features digitized from aerial photography.  Supplemented and revised by Lancaster GIS staff from information gathered through assessment, fieldwork and surveys.</procdesc>
+        <srcused>aerials</srcused>
+        <procdate>1993</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">D:\Lancaster\LancasterCountyCoveredBridges200812</srcused>
+        <procdate Sync="TRUE">20090105</procdate>
+        <proctime Sync="TRUE">10242400</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>34</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3702</spcszone>
+            <lambertc>
+              <stdparll>39.933333</stdparll>
+              <stdparll>40.966667</stdparll>
+              <longcm>-77.750000</longcm>
+              <latprjo>39.333333</latprjo>
+              <feast>1968500.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>1.6</absres>
+            <ordres>1.6</ordres>
+          </coordrep>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378206</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>brdgcov</enttypl>
+        <enttypd>Attribute table for brdgcov polygons</enttypd>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>area of polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Polygon perimeter</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BRDGCOV_</attrlabl>
+        <attrdef>Key ID for polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BRDGCOV_ID</attrlabl>
+        <attrdef>Key ID for polygon</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib GROUP="'pasda'">
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <filedec>zip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pasdadev.erri.psu.edu/lanc/lancdownload2.cgi/lancco_brdgcov</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Steve Gochenaur</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>gochenas@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Not for commercial use or resale. The User shall save Lancaster County, the Commonwealth and the Pennsylvania State University harmless from any suits, claims or actions arising out of the use of the data files or accompanying documentation, or arising out of any defect in the data files or accompanying documentation. Lancaster County, the Commonwealth and the Pennsylvania State University excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fitness for a particular purpose. These data files and documentation are provided AS IS and the User assumes the entire risk as to their quality and performance.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC/INFO Export</formname>
+          <formvern>7.2.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <reccap>
+              <recden>650</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>ISO 9660</recfmt>
+          </offoptn>
+        </digtopt>
+        <digtopt>
+          <offoptn>
+            <offmedia>3-1/2 inch floppy disk</offmedia>
+            <reccap>
+              <recden>1.44</recden>
+              <recdenu>MB</recdenu>
+            </reccap>
+            <recfmt>PC</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Arcview Shapefile</formname>
+          <formvern>3.1</formvern>
+          <transize>17.207</transize>
+        </digtinfo>
+        <digtopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>DXF</formname>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>$25 for premastered CD containing shapefiles.  Custom requests for small area DXF files available for $40/hour processing fee, $10/CD or $1/floppy media charge.</fees>
+      <ordering>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</ordering>
+    </stdorder>
+    <stdorder>
+      <nondig>Hard copy maps can be ordered and created  from Lancaster County GIS</nondig>
+      <digform>
+        <digtinfo>
+          <transize>17.207</transize>
+        </digtinfo>
+      </digform>
+      <fees>
+8 1/2" x 11" - $5
+11" x 17" - $25
+
+Standard map 33 1/2" x 45" - $75;  discount rate $50
+Mylar map 33 1/2" x 45" - $100;  discount rate $75
+
+Custom maps available at a charge of $40/hr.
+
+Copies of existing maps $25.00
+</fees>
+      <ordering>Acquire, complete and return Map Request form available at: http://www.co.lancaster.pa.us/GISforms.htm</ordering>
+    </stdorder>
+    <custom>Complete instructions and forms available from http://www.co.lancaster.pa.us/GIS.htm</custom>
+  </distinfo>
+  <metainfo>
+    <metd>200812</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Linda McCawley</cntper>
+          <cntorg>Lancaster County GIS Department</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>50 North Duke St., PO Box 83480</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17608-3480</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>mccawlel@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metprof>ESRI Metadata Profile</metprof>
+  </metainfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <linkage Sync="TRUE">file://\\PC36\D$\Lancaster\update12_18_08\LancasterCountyCoveredBridges200812</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+  </distInfo>
+  <Esri>
+    <ModDate>20090105</ModDate>
+    <ModTime>11153200</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20090105</mdDateSt>
+</metadata>

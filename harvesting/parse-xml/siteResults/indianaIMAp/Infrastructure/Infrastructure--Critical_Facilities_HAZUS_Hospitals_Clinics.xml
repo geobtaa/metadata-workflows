@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Federal Emergency Management Agency</origin>
+        <pubdate>20020626</pubdate>
+        <title>
+HOSPITALS_HAZUS_IN: Hospitals and Clinics in Indiana, Derived from HAZUS (Federal
+Emergency Management Agency, Point Shapefile)
+</title>
+        <geoform>Vector Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Washington, D.C.</pubplace>
+          <publish>Federal Emergency Management Agency</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was derived from a predecessor shapefile, named "HOSPITAL.SHP," which was
+derived from a shapefile (named "EFCARE.SHP") provided by the Federal Emergency Management Agency
+(FEMA) and the National Institute of Building Sciences (NIBS). EFCARE was included on a CD-ROM
+(titled "arcHAZUS99, Central US") that is the product of a program referred to as "HAZUS, The FEMA
+Tool for Estimating Earthquake Losses." The original shapefile (referred to as "EFCARE.SHP") has
+been modified by personnel of the IGS. These metadata were created by personnel of IGS, using
+information included in the HAZUS user's manuals.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+HOSPITALS_HAZUS_IN is a point shapefile that shows locations of hospitals and clinics in Indiana.
+HOSPITALS_HAZUS_IN was derived from the shapefile named "HOSPITAL."  A predecessor shapefile of HOSPITAL, named
+"EFCARE," was obtained by the Indiana Geological Survey (IGS) from the Federal Emergency Management Agency
+(FEMA) and the National Institute of Building Sciences (NIBS). The shapefile was included on a CD-ROM
+(titled "arcHAZUS99, Central US") that is the product of a program referred to as "HAZUS, The FEMA Tool for
+Estimating Earthquake Losses." The original shapefile (referred to as "EFCARE.SHP") has been modified
+by personnel of the IGS. These metadata were created by personnel of IGS, using information included
+in the HAZUS user's manuals. Data for the predecessor shapefile was obtained from an AHA Database (1999)
+(HAZUS99, Technical and User Manuals, Appendices.pdf, Appendix D, Summary of Inventory Databases.)
+</abstract>
+      <purpose>
+The predecessor shapefile ("EFCARE.SHP") was produced by FEMA and NIBS to serve as supplemental data
+for use by HAZUS, a software tool for estimating earthquake losses. That predecessor shapefile was then
+modified by personnel of IGS to provide a GIS layer that could be included within the GIS repository
+of IGS.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1999</begdate>
+          <enddate>1999</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>1999 Federal Emergency Management Agency Database</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>health</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format, approximately 38 Kb</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>Infrastructure--Critical_Facilities_HAZUS_Hospitals_Clinics</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Unknown. No records exist at the Indiana Geological Survey regarding the attribute accuracy of this
+shapefile. For more information, contact HAZUS Technical Support:
+ph: 800-955-9442, fax: 404-261-0117 (attn: HAZUSHELP), e-mail: hazushelp@durtech.com.
+</attraccr>
+    </attracc>
+    <logic>
+Unknown. No records exist at the Indiana Geological Survey regarding the attribute accuracy of this
+shapefile. For more information, contact HAZUS Technical Support:
+ph: 800-955-9442, fax: 404-261-0117 (attn: HAZUSHELP), e-mail: hazushelp@durtech.com.
+</logic>
+    <complete>
+Unknown. No records exist at the Indiana Geological Survey regarding the attribute accuracy of this
+shapefile. For more information, contact HAZUS Technical Support:
+ph: 800-955-9442, fax: 404-261-0117 (attn: HAZUSHELP), e-mail: hazushelp@durtech.com.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Unknown. No records exist at the Indiana Geological Survey regarding the attribute accuracy of this
+shapefile. For more information, contact HAZUS Technical Support:
+ph: 800-955-9442, fax: 404-261-0117 (attn: HAZUSHELP), e-mail: hazushelp@durtech.com.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Federal Emergency Management Agency (FEMA)</origin>
+            <origin>National Institute of Building Sciences (NIBS)</origin>
+            <pubdate>1999</pubdate>
+            <title>HAZUS, The FEMA Tool for Estimating Earthquake Losses</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>
+Federal Emergency Management Agency (FEMA); National
+Institute of Building Sciences (NIBS)
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1999</begdate>
+              <enddate>1999</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>1999 Federal Emergency Management Agency Database</srccurr>
+        </srctime>
+        <srccitea>EFCARE.SHP, arcHAZUS99</srccitea>
+        <srccontr>The data contained within EFCARE.SHP were used to generate a shapefile named "HOSPITAL."</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A shapefile named "EFCARE.SHP" was obtained from the CD-ROM titled "arcHAZUS99, Central US" by
+personnel of the Indiana Geological Survey (IGS). The shapefile was opened in ESRI ArcView. Within
+ESRI ArcView, the projection was set to UTM NAD83, Zone 16. The original shapefile was then converted
+to another shapefile (named "HOSPITAL.SHP") by using the "Convert to Shapefile" utility of ESRI ArcView.
+The Table Edit function of ESRI ArcView was then used to drop the following fields: ID, state, zipcode,
+contact, phone, class, mapping, bldg_type, designlvl, bias, foundation, year_b, cost, bu_pwr,
+aha_id, elevat, lat, long, geores, county, comment, ID_.
+</procdesc>
+        <srcused>EFCARE</srcused>
+        <procdate>20000525</procdate>
+        <srcprod>HOSPITAL</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>dharper@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The shapefile named "HOSPITAL" was clipped to INCLP83, a boundary coverage for the State of
+Indiana (compiled at a scale of 1:24,000). The resulting shapefile was named
+"HOSPITALS_HAZUS_IN."
+</procdesc>
+        <srcused>HOSPITAL</srcused>
+        <procdate>20020318</procdate>
+        <srcprod>HOSPITALS_HAZUS_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@exchange.indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20020711</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>191</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>hospitals_hazus_in.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of hospital or clinic</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Address of hospital or clinic</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>Location of hospital or clinic</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Function</attrlabl>
+        <attrdef>Hospital or clinic</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Num_beds</attrlabl>
+        <attrdef>Number of beds</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>822</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales Coordinator</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+WARRANTY
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+LIMITATION OF WARRANTIES AND LIABILITY
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020318</metd>
+    <metrd>20020711</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Walls</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geographer, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1346</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>awalls@exchange.indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

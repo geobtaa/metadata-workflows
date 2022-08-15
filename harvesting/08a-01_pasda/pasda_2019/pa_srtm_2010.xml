@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>National Aeronautics and Space Administration (NASA)</origin>
+        <origin>National Imagery and Mapping Agency (NIMA)</origin>
+        <origin>German Aerospace Center (DLR)</origin>
+        <origin>Italian Space Agency (ASI)</origin>
+        <pubdate>13-JAN-10</pubdate>
+        <title>Shuttle Radar Topography Mission (SRTM) Elevation Dataset 2010</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://earthexplorer.usgs.gov</onlink>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>February 2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75</westbc>
+        <eastbc>-74</eastbc>
+        <northbc>40</northbc>
+        <southbc>39</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>GCMD Parameter Keywords</themekt>
+        <themekey>EARTH SCIENCE</themekey>
+        <themekey>LAND SURFACE</themekey>
+        <themekey>TOPOGRAPHY</themekey>
+        <themekey>LANDFORMS</themekey>
+        <themekey>TERRAIN ELEVATION</themekey>
+        <themekey>1-DEGREE DEM</themekey>
+        <themekey>1-ARC-SECOND DEM</themekey>
+        <themekey>CARTOGRAPHY</themekey>
+        <themekey>DEM</themekey>
+        <themekey>DIGITAL ELEVATION MODEL</themekey>
+        <themekey>DIGITAL SURFACE MODEL</themekey>
+        <themekey>DIGITAL MAPPING</themekey>
+        <themekey>EDC</themekey>
+        <themekey>EROS</themekey>
+        <themekey>GEODATA</themekey>
+        <themekey>GIS</themekey>
+        <themekey>MAPPING</themekey>
+        <themekey>RASTER</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+        <themekey>30-meter resolution- 1 arc second of the United States</themekey>
+        <themekey>Elevation</themekey>
+        <themekey>SRTM</themekey>
+        <themekey>Mapping</themekey>
+        <themekey>Topography</themekey>
+        <themekey>90-meter resolution- 3 arc second of the world</themekey>
+        <themekey>DTED</themekey>
+        <themekey>NASA</themekey>
+        <themekey>NGA</themekey>
+        <themekey>Shuttle Radar Topography Mission</themekey>
+      </theme>
+      <place>
+        <placekt>GCMD Location Keywords</placekt>
+        <placekey>UNITED STATES</placekey>
+        <placekey>UNITED STATES OF AMERICA</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None.  Acknowledgement of the originating agencies would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Customer Services Representative</cntper>
+          <cntorg>EROS Data Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>U.S. Geological Survey EROS Data Center</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>lta@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.2.0.700</native>
+    <descript>
+      <abstract>pa_srtm_2010</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <posacc>
+      <horizpa>
+        <horizpar>The mission objective is to produce digital topographic map products with &amp;lt;=20 m absolute horizontal circular accuracy. All accuracies are quoted at the 90% level, consistent with National Map Accuracy Standards.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The mission objective is to produce digital topographic map products with &amp;lt;=16 m absolute vertical height accuracy and &amp;lt;= 10 m relative vertical height accuracy. All accuracies are quoted at the 90% level, consistent with National Map Accuracy Standards.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NASA, NIMA, DLR, and ASI</origin>
+            <title>SRTM Data Collection</title>
+          </citeinfo>
+        </srccite>
+        <srccitea>SRTM 2000</srccitea>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Jet Propulsion Laboratory</origin>
+            <title>JPL Processing</title>
+            <onlink>&amp;lt;ftp://edcsgs9.cr.usgs.gov/pub/srtm&amp;gt;</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>JPL 2002</srccitea>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey EROS Data Center</origin>
+            <title>EDC Processing</title>
+            <onlink>&amp;lt;http://seamless.usgs.gov&amp;gt;</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>EDC 2002</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+SRTM data is being processed in a systematic fashion using the SRTM Ground Data Processing System (GDPS) supercomputer system at the Jet Propulsion Laboratory. Data are being mosaicked into approximately 14,000 one degree by one degree cells and formatted according to the Digital Terrain Elevation Data (DTED) specification for delivery to NIMA, who will use it to update and extend their DTED products. Data are being processed on a continent-by-continent basis beginning with North America. NIMA will apply several post-processing steps to these data including editing, spike and well removal, water body leveling and coastline definition. Following these &amp;quot;finishing&amp;quot; steps data will be returned to NASA for distribution to the scientific and civil user communities, as well as the public.
+However, in advance of that, some portion of the data processed by the GDPS is being released to Principal Investigators selected by NASA under the Solid Earth and Natural Hazards program, in response to requests for specific research programs.
+Each SRTM data tile contains a mosaic of elevations generated by averaging all data takes that fall within that tile. Since the primary error source in synthetic aperture radar data is speckle, which has the characteristics of random noise, combining data through averaging reduces the error by the square root of the number of data takes used. In the case of SRTM the number of data takes could range from a minimum of one (in a very few cases) up to as many as ten.
+As with all digital geospatial data sets, users of SRTM must be aware of certain characteristics of the data set (resolution, accuracy, method of production and any resulting artifacts, etc.) in order to better judge its suitability for a specific application. A characteristic of SRTM that renders it unsuitable for one application may have no relevance as a limiting factor for its use in a different application.
+No editing has been performed on the data, and the elevation data in particular contain numerous voids and other spurious points such as anomalously high (spike) or low (well) values. Water bodies will generally not be well-defined - in fact since water surfaces generally produce very low radar backscatter they will appear quite &amp;quot;noisy&amp;quot; or rough, in the elevations data. Similarly, coastlines will not be well-defined.
+</procdesc>
+        <srcused>SRTM 2000</srcused>
+        <srcprod>JPL 2002</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Process SRTM data to a digital surface model in grid format.  To complete this step run SRTM2DSM.AML which unzips the data files, renames the file extensions from .HGT to .BIL, creates a .HDR file, creates a GRID, converts 16-bit signed integer height data, sets (-32768) values to NODATA, define projection as geographic with WGS84 datum, and converts to real data type.</procdesc>
+        <srcused>JPL 2002</srcused>
+        <srcprod>EDC 2002</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>158451</rowcount>
+      <colcount>327635</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Customer Services Representative</cntper>
+          <cntorg>EROS Data Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>U.S. Geological Survey EROS Data Center</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, EROS Data Center, no warranty expressed or implied is made by either regarding the utility of the data on any system, nor shall the act of distribution constitute any such warranty. The USGS will warrant the delivery of this product in computer-readable format and will offer appropriate adjustment of credit when the product is determined unreadable by correctly adjusted computer peripherals, or when the physical medium is delivered in damaged condition. Requests for adjustments of credit must be made within 90 days from the date of this shipment from the ordering site.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.000</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201108</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Customer Services Representative</cntper>
+          <cntorg>EROS Data Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>U.S. Geological Survey EROS Data Center</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>605-594-6151</cntvoice>
+        <cntfax>605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>&amp;lt;http://www.esri.com/metadata/esriprof80.html&amp;gt;</onlink>
+      <metprof>
+ESRI Metadata Profile
+mp version 2.7.3 on Tue Oct 29 11:55:12 2002
+</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10473800</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water research building</address>
+          <city>University Park</city>
+          <state>Pennsylvania </state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

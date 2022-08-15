@@ -1,0 +1,870 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+  <Esri>
+    <MetaID>{36432667-CC90-45CF-81DA-732A61364816}</MetaID>
+    <CreaDate>20100121</CreaDate>
+    <CreaTime>14095300</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20100122</SyncDate>
+    <SyncTime>11102100</SyncTime>
+    <ModDate>20100122</ModDate>
+    <ModTime>11110400</ModTime>
+  </Esri>
+  <idinfo>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <citation>
+      <citeinfo>
+        <origin>The Pennsylvania State University</origin>
+        <pubdate>01/20/2010</pubdate>
+        <title>Biofuel Feedstock Potential in the Chesapeake Bay - Rye, Barley and Switchgrass</title>
+        <ftname Sync="TRUE">ChesBayBiofuelFeedstocks_HUC6</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>2010</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.767272</westbc>
+        <eastbc Sync="TRUE">-74.554929</eastbc>
+        <northbc Sync="TRUE">43.015255</northbc>
+        <southbc Sync="TRUE">36.632310</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-225773.921606</leftbc>
+        <rightbc Sync="TRUE">281125.343708</rightbc>
+        <bottombc Sync="TRUE">-257386.495322</bottombc>
+        <topbc Sync="TRUE">445887.265330</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <place>
+        <placekey>Chesapeake Bay</placekey>
+      </place>
+      <theme>
+        <themekey>Farming</themekey>
+        <themekey>Environment</themekey>
+        <themekey>utilitiesCommunication</themekey>
+        <themekt>ISO 19115 Topic Categories</themekt>
+      </theme>
+      <theme>
+        <themekey>Energy</themekey>
+        <themekey>Biofuel</themekey>
+        <themekey>Switchgrass</themekey>
+      </theme>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The user shall indemnify, save harmless, and, if requested, defend the Commonwealth, the University, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation.
+
+The University excludes any and all implied warranties, including warranties or merchantability and fitness for a particular purpose.
+
+The University makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance.
+
+The University will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+
+The USER is granted permission to translate and add value to the FILES for the use of the FILES on its computer hardware; provided, however, that the USER annually notify the University of any customizing or value-adding work done.</useconst>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ryan E. Baxter</cntper>
+          <cntorg>The Pennsylvania State University</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>rbaxter@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>ChesBayBiofuelFeedstocks_HUC6</abstract>
+    </descript>
+  </idinfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">ChesBayBiofuelFeedstocks_HUC6</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-225773.921606</westBL>
+          <eastBL Sync="TRUE">281125.343708</eastBL>
+          <northBL Sync="TRUE">445887.26533</northBL>
+          <southBL Sync="TRUE">-257386.495322</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.767272</westBL>
+      <eastBL Sync="TRUE">-74.554929</eastBL>
+      <northBL Sync="TRUE">43.015255</northBL>
+      <southBL Sync="TRUE">36.63231</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <address>115 Land &amp; Water Research Building</address>
+          <country>USA</country>
+        </cntaddr>
+        <cntperp>
+          <cntper>Ryan E. Baxter</cntper>
+          <cntorg>The Pennsylvania State University</cntorg>
+        </cntperp>
+        <cntemail>rbaxter@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metd Sync="TRUE">20100122</metd>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.719</transize>
+          <dssize Sync="TRUE">0.719</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access</cntorg>
+        </cntorgp>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <linkage Sync="TRUE">file://\\PC-36\D\ChesBayBiofuelFeedstocks_HUC6.shp</linkage>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.719</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="ChesBayBiofuelFeedstocks_HUC6">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">7</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="ChesBayBiofuelFeedstocks_HUC6">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">7</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll Sync="TRUE">40.000000</stdparll>
+            <stdparll Sync="TRUE">42.000000</stdparll>
+            <longcm Sync="TRUE">-78.000000</longcm>
+            <latprjo Sync="TRUE">39.000000</latprjo>
+            <feast Sync="TRUE">0.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="ChesBayBiofuelFeedstocks_HUC6">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">7</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="ChesBayBiofuelFeedstocks_HUC6">
+      <enttyp>
+        <enttypl Sync="TRUE">ChesBayBiofuelFeedstocks_HUC6</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">7</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ACCT_UNIT</attrlabl>
+        <attalias Sync="TRUE">ACCT_UNIT</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HUC</attrlabl>
+        <attalias Sync="TRUE">HUC</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>HUC6 Watershed ID</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FARMLAND</attrlabl>
+        <attalias Sync="TRUE">FARMLAND</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Land in Farms (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CROPLAND</attrlabl>
+        <attalias Sync="TRUE">CROPLAND</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Total Cropland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NONCROP</attrlabl>
+        <attalias Sync="TRUE">NONCROP</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Total non-cropland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HARVEST</attrlabl>
+        <attalias Sync="TRUE">HARVEST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Harvested Cropland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NONHRVST</attrlabl>
+        <attalias Sync="TRUE">NONHRVST</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Non-harvested cropland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PASTURE</attrlabl>
+        <attalias Sync="TRUE">PASTURE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Cropland for pasture (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FAIL</attrlabl>
+        <attalias Sync="TRUE">FAIL</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Cropland on which all crops failed (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">IDLE</attrlabl>
+        <attalias Sync="TRUE">IDLE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Cropland idle or used for cover crops (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FALLOW</attrlabl>
+        <attalias Sync="TRUE">FALLOW</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Fallow cropland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WOODLAND</attrlabl>
+        <attalias Sync="TRUE">WOODLAND</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Total Woodlands (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RANGELND</attrlabl>
+        <attalias Sync="TRUE">RANGELND</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Permanent pasture and rangeland (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LIVESTCK</attrlabl>
+        <attalias Sync="TRUE">LIVESTCK</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Land in farmsteads and livestock (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOYBN</attrlabl>
+        <attalias Sync="TRUE">SOYBN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Soybeans (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SMGRN</attrlabl>
+        <attalias Sync="TRUE">SMGRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Small grains (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NETSOY</attrlabl>
+        <attalias Sync="TRUE">NETSOY</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Soybean land minus small grain land (acres)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CRN</attrlabl>
+        <attalias Sync="TRUE">CRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Corn (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CRNSILGE</attrlabl>
+        <attalias Sync="TRUE">CRNSILGE</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Corn silage (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CRNGRN</attrlabl>
+        <attalias Sync="TRUE">CRNGRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Corn grain (fodder) (acres)</attrdef>
+        <attrdefs>USDA/NASS</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CRNGRNHA</attrlabl>
+        <attalias Sync="TRUE">CRNGRNHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Corn (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOYBNHA</attrlabl>
+        <attalias Sync="TRUE">SOYBNHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Soybean (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SMGRNHA</attrlabl>
+        <attalias Sync="TRUE">SMGRNHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Small Grain (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CRNSMGRN</attrlabl>
+        <attalias Sync="TRUE">CRNSMGRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Adjusted Small Grain area estimated to be planted as double crops following corn (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOYSMGRN</attrlabl>
+        <attalias Sync="TRUE">SOYSMGRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Adjusted Small Grain area estimated to be planted as double crops following soybeans (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NETCRNHA</attrlabl>
+        <attalias Sync="TRUE">NETCRNHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Net corn area available after removing the adjusted small grain area (CRNGRNHA - CRNSMGRN) (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NETSOYHA</attrlabl>
+        <attalias Sync="TRUE">NETSOYHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Net soybean area available after removing the adjusted small grain area (SOYBNHA - SOYSMGRN) (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RYYLDCRN</attrlabl>
+        <attalias Sync="TRUE">RYYLDCRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Rye Yield on corn grain land (Mg/ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RYYLDSOY</attrlabl>
+        <attalias Sync="TRUE">RYYLDSOY</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Rye yield on soybean land (Mg/ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRODCRN</attrlabl>
+        <attalias Sync="TRUE">RPRODCRN</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Total rye production on corn land multiplied by a 0.6 factor to compensate for overconfident rye yield model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRDOSOY</attrlabl>
+        <attalias Sync="TRUE">RPRDOSOY</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Total rye production on soybean land multiplied by a 0.6 factor to compensate for overconfident rye yield model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FAILHA</attrlabl>
+        <attalias Sync="TRUE">FAILHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Cropland on which all crops failed (ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGYIELD</attrlabl>
+        <attalias Sync="TRUE">SGYIELD</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Switchgrass yield (Mg/ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFL_L</attrlabl>
+        <attalias Sync="TRUE">SGPDFL_L</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Low range switchgrass production on failed cropland multiplied by a 0.4 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFL_H</attrlabl>
+        <attalias Sync="TRUE">SGPDFL_H</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>High range switchgrass production on failed cropland multiplied by a 0.75 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">IDLEHA</attrlabl>
+        <attalias Sync="TRUE">IDLEHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Idle cropland (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDID_L</attrlabl>
+        <attalias Sync="TRUE">SGPDID_L</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Low range switchgrass production on idle cropland multiplied by a 0.4 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDID_H</attrlabl>
+        <attalias Sync="TRUE">SGPDID_H</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>High range switchgrass production on idle cropland multiplied by a 0.75 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FALLOWHA</attrlabl>
+        <attalias Sync="TRUE">FALLOWHA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Fallow cropland (hectares)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFW_L</attrlabl>
+        <attalias Sync="TRUE">SGPDFW_L</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>Low range switchgrass production on fallow cropland multiplied by a 0.4 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFW_H</attrlabl>
+        <attalias Sync="TRUE">SGPDFW_H</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdef>High range switchgrass production on fallow cropland multiplied by a 0.75 factor to account for over confident model. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">6</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRCRN40</attrlabl>
+        <attalias Sync="TRUE">RPRCRN40</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Rye Production on Corn land multiplied by a .40 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRCRN60</attrlabl>
+        <attalias Sync="TRUE">RPRCRN60</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Rye Production on Corn land multiplied by a .60 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRSOY40</attrlabl>
+        <attalias Sync="TRUE">RPRSOY40</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Rye Production on Soybean land multiplied by a .40 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RPRSOY60</attrlabl>
+        <attalias Sync="TRUE">RPRSOY60</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Rye Production on Soybean land multiplied by a .60 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFL30</attrlabl>
+        <attalias Sync="TRUE">SGPDFL30</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on failed cropland multiplied by a .30 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFL50</attrlabl>
+        <attalias Sync="TRUE">SGPDFL50</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on failed cropland multiplied by a .50 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDID30</attrlabl>
+        <attalias Sync="TRUE">SGPDID30</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on idle cropland multiplied by a .30 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDID50</attrlabl>
+        <attalias Sync="TRUE">SGPDID50</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on idle cropland multiplied by a .50 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFW30</attrlabl>
+        <attalias Sync="TRUE">SGPDFW30</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on fallow cropland multiplied by a .30 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SGPDFW50</attrlabl>
+        <attalias Sync="TRUE">SGPDFW50</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Switchgrass Production on fallow cropland multiplied by a .50 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BarlyYld</attrlabl>
+        <attalias Sync="TRUE">BarlyYld</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Average barley yield. (bu/acre)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BARGRNYD</attrlabl>
+        <attalias Sync="TRUE">BARGRNYD</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley grain yield (Mg/ha). (converted from bu/ac)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BARSTWYD</attrlabl>
+        <attalias Sync="TRUE">BARSTWYD</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley straw yield (Mg/ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BPRGRN40</attrlabl>
+        <attalias Sync="TRUE">BPRGRN40</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley grain production on corn and soybean land adjusted by a .4 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BPRGRN60</attrlabl>
+        <attalias Sync="TRUE">BPRGRN60</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley grain production on corn and soybean land adjusted by a .6 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BPRSTW40</attrlabl>
+        <attalias Sync="TRUE">BPRSTW40</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley straw production on corn and soybean land adjusted by a .4 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BPRSTW60</attrlabl>
+        <attalias Sync="TRUE">BPRSTW60</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Barley straw production on corn and soybean land adjusted by a .6 "willingness to manage" factor. (Mg)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">NETCRNSY</attrlabl>
+        <attalias Sync="TRUE">NETCRNSY</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Sum of total corn and soy land area. (Ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">POTENT69</attrlabl>
+        <attalias Sync="TRUE">POTENT69</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Former agricultural land abandonded sometime since 1969 and not currently urban. (Ha)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">POTENTAC</attrlabl>
+        <attalias Sync="TRUE">POTENTAC</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Former agricultural land abandonded sometime since 1969 and not currently urban. (acres)</attrdef>
+        <attrdefs>PSU</attrdefs>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdDateSt Sync="TRUE">20100122</mdDateSt>
+</metadata>

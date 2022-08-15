@@ -1,0 +1,1057 @@
+<metadata xml:lang="en">
+  <Esri>
+    <CreaDate>201801</CreaDate>
+    <CreaTime>13310200</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110104</SyncDate>
+    <SyncTime>15591100</SyncTime>
+    <ModDate>201801</ModDate>
+    <ModTime>14464000</ModTime>
+    <PublishStatus>Published</PublishStatus>
+    <MetaID>{88450207-C6AF-43B1-AA91-1B58E18A5423}</MetaID>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110104" Time="151148">FeatureClassToFeatureClass "Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V" C:\PASDA_Updates\PASDA_01_2011.mdb AS_NON_ATTAIN_V # "GNIS_ID 'GNIS_ID' true true false 10 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,GNIS_ID,-1,-1;GNIS_NAME 'GNIS_NAME' true true false 65 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,GNIS_NAME,-1,-1;REACHCODE 'REACHCODE' true true false 14 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,REACHCODE,-1,-1;COMID 'COMID' true false false 4 Long 0 10 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,COMID,-1,-1;ASSESSMENT_ID 'ASSESSMENT_ID' true false false 4 Long 0 10 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,ASSESSMENT_ID,-1,-1;INT_EVENT_ID 'INT_EVENT_ID' true false false 4 Long 0 8 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,INT_EVENT_ID,-1,-1;INT_F_MEASURE 'INT_F_MEASURE' true false false 4 Float 3 6 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,INT_F_MEASURE,-1,-1;INT_T_MEASURE 'INT_T_MEASURE' true false false 4 Float 3 6 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,INT_T_MEASURE,-1,-1;MILES 'MILES' true false false 8 Double 11 18 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,MILES,-1,-1;SECONDARY_ID 'SECONDARY_ID' true true false 50 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,SECONDARY_ID,-1,-1;STR_HUC 'STR_HUC' true true false 12 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,STR_HUC,-1,-1;STR_USER 'STR_USER' true true false 20 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,STR_USER,-1,-1;DTE_CREATED 'DTE_CREATED' true true false 36 Date 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,DTE_CREATED,-1,-1;ATTAINING 'ATTAINING' true false false 1 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,ATTAINING,-1,-1;INT_WAVE_SYMBOL 'INT_WAVE_SYMBOL' true true false 4 Long 0 6 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,INT_WAVE_SYMBOL,-1,-1;STR_ASSESSED_USE_DESC 'STR_ASSESSED_USE_DESC' true true false 255 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,STR_ASSESSED_USE_DESC,-1,-1;STR_ATTAIN_USE_DESC 'STR_ATTAIN_USE_DESC' true false false 200 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,STR_ATTAIN_USE_DESC,-1,-1;SOURCE_CAUSE 'SOURCE_CAUSE' true true false 4000 Text 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,SOURCE_CAUSE,-1,-1;SHAPE_LEN 'SHAPE_LEN' false false true 0 Double 0 0 ,First,#,Database Connections\PGNET_DirectConnect.sde\GDC.AS_NON_ATTAIN_V,SHAPE.LEN,-1,-1" # C:\PASDA_Updates\PASDA_01_2011.mdb\AS_NON_ATTAIN_V</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20110104" Time="160018">CopyFeatures D:\DEP\PASDA_01_2011.mdb\AS_NON_ATTAIN_V D:\DEP\AS_NON_ATTAIN_V.shp # 0 0 0</Process>
+      </lineage>
+      <itemProps>
+        <itemName Sync="TRUE">AS_NON_ATTAIN_V</itemName>
+        <itemSize Sync="TRUE">0.000</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\URSUS\dataD\DEP\April2016\Shapes\IntegratedListNonAttaining2016_04</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">albers_dep</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;albers_dep&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-16085300&lt;/XOrigin&gt;&lt;YOrigin&gt;-8515400&lt;/YOrigin&gt;&lt;XYScale&gt;279982320.96202713&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+      <copyHistory>
+        <copy source="D:\dataD\DEP\April2016\IntegratedListNonAttaining2016_04" dest="\\URSUS\dataD\DEP\April2016\Shapes\IntegratedListNonAttaining2016_04" date="20180106" time="15332700" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>201801</pubdate>
+        <ftname Sync="TRUE">AS_NON_ATTAIN_V</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <pubinfo>
+          <publish>Pennsylvania Department of Environmental Protection</publish>
+          <pubplace>RCSOB</pubplace>
+        </pubinfo>
+        <origin>Office of Water Management, Bureau of Water Supply &amp; Wastewater Management, Water Quality Assessment and Standards Division.</origin>
+        <title>Integrated List Non-Attaining</title>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <native Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <current>publication date</current>
+      <timeinfo>
+        <sngdate>
+          <caldate>201801</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Nightly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.602960</westbc>
+        <eastbc Sync="TRUE">-74.617958</eastbc>
+        <northbc Sync="TRUE">42.257143</northbc>
+        <southbc Sync="TRUE">39.645593</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-214869.709980</leftbc>
+        <rightbc Sync="TRUE">279238.421020</rightbc>
+        <bottombc Sync="TRUE">76856.524966</bottombc>
+        <topbc Sync="TRUE">361694.549866</topbc>
+      </lboundng>
+      <minalti Sync="TRUE">0.000000</minalti>
+      <maxalti Sync="TRUE">0.000000</maxalti>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>inlandWaters</themekey>
+        <themekey>stream, streams, river, rivers, water, waters, creek, creeks, hydrology, 305b, 303d, 305, 303, assessments, assessment, surface</themekey>
+        <themekey>Streams Integrated List, Integrated List, NHD, National Hydrography Dataset, attaining, non attaining, attain, designated use, Category 5</themekey>
+        <themekt>ISO 19115 Topic Categories </themekt>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+                           Commonwealth of Pennsylvania
+                      Department of Environmental Protection
+                                Disclaimer for Data
+
+The user shall save the Commonwealth harmless from any suits, claims, or actions arising out of the use of the data files or accompanying documentation, or arising out of any defects in the datafiles or accompanying documentation.
+
+The Commonwealth excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fits for a particular purpose.  These data files and documentation are provided "as is" and the user assumes the entire risk as to their quality and performance. </useconst>
+    <natvform Sync="TRUE">Personal GeoDatabase Feature Class</natvform>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA DEP, Geospatial Data Center</cntorg>
+        </cntperp>
+        <cntemail>ra-epgeospatialdatacenter@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <descript>
+      <abstract>IntegratedListNonAttaining2018_01</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Existing GIS 305b layer was conflated against the geometry of the NHD.  New assessments are added via the ArcGIS 9 application ICE (Instream Comprehensive Evaluation) tool.</procdesc>
+        <date Sync="TRUE">20030516</date>
+        <time Sync="TRUE">12104900</time>
+        <procsv>ArcINFO 9.1</procsv>
+      </procstep>
+    </lineage>
+    <attracc>
+      <attraccr>Conforms to National Mapping Program Geospatial Data Standards. Attribute accuracy has been checked by visual comparison against source materials and peer review at ERRI</attraccr>
+    </attracc>
+    <logic>Chain-node topology present. Verified visually.</logic>
+    <complete>Verified against source materials. All geometry based on the NHD.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Data compiled from sources conforming to National Map Accuracy Standards. Checked visually against source materials.</horizpar>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <metainfo>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntper>Rodney Kime</cntper>
+          <cntorg>Pennsylvania Department of Environmental Protection</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17102</postal>
+          <address>RCSOB 400 Market Street</address>
+          <country>USA</country>
+        </cntaddr>
+        <cntpos>Water Pollution Biologist 3</cntpos>
+        <cntvoice>717 783-7964</cntvoice>
+        <cntemail>rkime@state.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metd>201801</metd>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>PA DEP</cntper>
+          <cntorg>Geospatial Data Center</cntorg>
+        </cntperp>
+        <cntvoice>717 772-1669</cntvoice>
+        <cntemail>ra-epgeospatialdatacenter@state.pa.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.003</transize>
+          <dssize Sync="TRUE">0.003</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="AS_NON_ATTAIN_V">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">3</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">0</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">TRUE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">albers_dep</projcsn>
+      </cordsysn>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <plandu Sync="TRUE">meters</plandu>
+          <coordrep>
+            <absres Sync="TRUE">0.000069</absres>
+            <ordres Sync="TRUE">0.000069</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+        <altres Sync="TRUE">0.250000</altres>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="AS_NON_ATTAIN_V">
+      <attr>
+        <attrlabl Sync="TRUE">SHAPE</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ATTAINING</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Length of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <enttyp>
+        <enttypl Sync="TRUE">AS_NON_ATTAIN_V</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">0</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">GNIS_ID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GNIS_ID</attrlabl>
+        <attalias Sync="TRUE">GNIS_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">65</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GNIS_NAME</attrlabl>
+        <attalias Sync="TRUE">REACHCODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">14</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">REACHCODE</attrlabl>
+        <attalias Sync="TRUE">COMID</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ASSESSMENT</attrlabl>
+        <attalias Sync="TRUE">ASSESSMENT</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INT_EVENT_</attrlabl>
+        <attalias Sync="TRUE">INT_EVENT_</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INT_F_MEAS</attrlabl>
+        <attalias Sync="TRUE">INT_F_MEAS</attalias>
+        <attrtype Sync="TRUE">Single</attrtype>
+        <attwidth Sync="TRUE">13</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INT_T_MEAS</attrlabl>
+        <attalias Sync="TRUE">INT_T_MEAS</attalias>
+        <attrtype Sync="TRUE">Single</attrtype>
+        <attwidth Sync="TRUE">13</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">COMID</attrlabl>
+        <attalias Sync="TRUE">STR_HUC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SECONDARY_</attrlabl>
+        <attalias Sync="TRUE">SECONDARY_</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STR_HUC</attrlabl>
+        <attalias Sync="TRUE">STR_USER</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STR_USER</attrlabl>
+        <attalias Sync="TRUE">MILES</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DTE_CREATE</attrlabl>
+        <attalias Sync="TRUE">DTE_CREATE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MILES</attrlabl>
+        <attalias Sync="TRUE">ATTAINING</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">INT_WAVE_S</attrlabl>
+        <attalias Sync="TRUE">INT_WAVE_S</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STR_ASSESS</attrlabl>
+        <attalias Sync="TRUE">STR_ASSESS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STR_ATTAIN</attrlabl>
+        <attalias Sync="TRUE">STR_ATTAIN</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SOURCE_CAU</attrlabl>
+        <attalias Sync="TRUE">SOURCE_CAU</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">254</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+        <attalias Sync="TRUE">Shape_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Rodney Kime</rpIndName>
+    <rpOrgName>Pennsylvania Department of Environmental Protection</rpOrgName>
+    <rpPosName>Water Pollution Biologist 3</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717 783-7964</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>RCSOB 400 Market Street</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>PA</adminArea>
+        <postCode>17102</postCode>
+        <country>US</country>
+        <eMailAdd>rkime@state.pa.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20180101</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distributor>
+      <distorCont>
+        <rpIndName>PA DEP</rpIndName>
+        <rpOrgName>Geospatial Data Center</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>717 772-1669</voiceNum>
+          </cntPhone>
+          <cntAddress>
+            <eMailAdd>ra-epgeospatialdatacenter@state.pa.us</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Integrated List Non-Attaining</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Office of Water Management, Bureau of Water Supply &amp; Wastewater Management, Water Quality Assessment and Standards Division.</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Department of Environmental Protection</rpOrgName>
+        <rpCntInfo>
+          <cntAddress>
+            <delPoint>RCSOB</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>This layer shows only non-attaining segments of the Integrated List. The Streams Integrated List represents stream assessments in an integrated format for the Clean Water Act Section 305(b) reporting and Section 303(d) listing. Streams are bodies of flowing surface water that collectively form a network that drains a catchment or basin. PA DEP protects 4 stream water uses: aquatic life, fish consumption, potable water supply, and recreation. The 305(b) layers represents stream segments that have been evaluated for attainment of those uses. If a stream segment is not attaining any one of its 4 uses, it is considered impaired. · Aquatic Life use attainment - The integrity reflected in any component of the biological community. (i.e. fish or fish food organisms) · Fish Consumption use attainment - The risk posed to people by the consumption of aquatic organisms (ex. fish, shellfish, frogs, turtles, crayfish, etc.) · Recreational use attainment - The risk associated with human recreation activities in or on a water body. (i.e. exposure to bacteria and other disease causing organisms through water contact recreation like swimming or water skiing) · Potable Water Supply use attainment - The risk posed to people by the ingestion of drinking water Segments that have appeared on an approved Category 5 Integrated Listing are the entries labeled as approved. Integrated Lists are submitted for approval every other year. Segments entered subsequent to the latest approved Category 5 listing are labeled tentative. After appearing on an approved listing, the tentative entries move to approved. The Stream Integrated List is provided as two separate layers determined if the stream is attaining or not attaining its designated uses. DEP Streams Integrated List layer is maintained by the PADEP Office of Water Management, Bureau of Water Supply &amp; Wastewater Management, Water Quality Assessment and Standards Division. The layer is based on the High Resolution National Hydrography Dataset (NHD). Additional update information is provided by Bureau of Watershed Management, Water Use Planning Division.</idAbs>
+    <idPurp>Layer representing the streams of Pennsylvania with attributes needed in PADEP managed programs.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>PA DEP, Geospatial Data Center</rpOrgName>
+      <rpCntInfo>
+        <cntAddress>
+          <eMailAdd>ra-epgeospatialdatacenter@state.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint />
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Streams Integrated List</keyword>
+      <keyword>Integrated List</keyword>
+      <keyword>NHD</keyword>
+      <keyword>National Hydrography Dataset</keyword>
+      <keyword>attaining</keyword>
+      <keyword>non attaining</keyword>
+      <keyword>attain</keyword>
+      <keyword>designated use</keyword>
+      <keyword>Category 5</keyword>
+      <keyword>stream</keyword>
+      <keyword>streams</keyword>
+      <keyword>river</keyword>
+      <keyword>rivers</keyword>
+      <keyword>water</keyword>
+      <keyword>waters</keyword>
+      <keyword>creek</keyword>
+      <keyword>creeks</keyword>
+      <keyword>hydrology</keyword>
+      <keyword>305b</keyword>
+      <keyword>303d</keyword>
+      <keyword>305</keyword>
+      <keyword>303</keyword>
+      <keyword>assessments</keyword>
+      <keyword>assessment</keyword>
+      <keyword>surface</keyword>
+      <keyword>inlandWaters</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Streams Integrated List</keyword>
+      <keyword>Integrated List</keyword>
+      <keyword>NHD</keyword>
+      <keyword>National Hydrography Dataset</keyword>
+      <keyword>attaining</keyword>
+      <keyword>non attaining</keyword>
+      <keyword>attain</keyword>
+      <keyword>designated use</keyword>
+      <keyword>Category 5</keyword>
+      <keyword>stream</keyword>
+      <keyword>streams</keyword>
+      <keyword>river</keyword>
+      <keyword>rivers</keyword>
+      <keyword>water</keyword>
+      <keyword>waters</keyword>
+      <keyword>creek</keyword>
+      <keyword>creeks</keyword>
+      <keyword>hydrology</keyword>
+      <keyword>305b</keyword>
+      <keyword>303d</keyword>
+      <keyword>305</keyword>
+      <keyword>303</keyword>
+      <keyword>assessments</keyword>
+      <keyword>assessment</keyword>
+      <keyword>surface</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Pennsylvania</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <class>
+          <ClasscationCd value="001" />
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>Commonwealth of Pennsylvania Department of Environmental Protection Disclaimer for Data The user shall save the Commonwealth harmless from any suits, claims, or actions arising out of the use of the data files or accompanying documentation, or arising out of any defects in the datafiles or accompanying documentation. The Commonwealth excludes any and all implied warranties and makes no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability, or fits for a particular purpose. These data files and documentation are provided "as is" and the user assumes the entire risk as to their quality and performance.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="012" />
+    </tpCat>
+    <dataExt>
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>Within the DEP network this layer is maintained on a nightly basis reflecting the previous days production database. Some older assessment records maybe archived. If they are archived those assessments will no longer be displayed in this layer. Those records with values of -1 or -2 in the field INT_WAVE_SYMBOL field are considered to be tentative and have not been approved by central office staff of the Department.</suppInfo>
+  </dataIdInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQTopConsis">
+      <evalMethDesc>Chain-node topology present. Verified visually.</evalMethDesc>
+    </report>
+    <report type="DQConcConsis">
+      <measDesc>Chain-node topology present. Verified visually.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Verified against source materials. All geometry based on the NHD.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Conforms to National Mapping Program Geospatial Data Standards. Attribute accuracy has been checked by visual comparison against source materials and peer review at ERRI</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Data compiled from sources conforming to National Map Accuracy Standards. Checked visually against source materials.</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Existing GIS 305b layer was conflated against the geometry of the NHD. New assessments are added via the ArcGIS 9 application ICE (Instream Comprehensive Evaluation) tool.</stepDesc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="1da28ea6a4c5fe07034d678338840ff" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSB4bWw6bGFu
+Zz0iZW4iPg0KICA8RXNyaT4NCiAgICA8Q3JlYURhdGU+MjAxNzAxPC9DcmVhRGF0ZT4NCiAgICA8
+Q3JlYVRpbWU+MTMzMTAyMDA8L0NyZWFUaW1lPg0KICAgIDxTeW5jT25jZT5GQUxTRTwvU3luY09u
+Y2U+DQogICAgPFN5bmNEYXRlPjIwMTEwMTA0PC9TeW5jRGF0ZT4NCiAgICA8U3luY1RpbWU+MTU1
+OTExMDA8L1N5bmNUaW1lPg0KICAgIDxNb2REYXRlPjIwMTcwMTwvTW9kRGF0ZT4NCiAgICA8TW9k
+VGltZT4xNDQ2NDAwMDwvTW9kVGltZT4NCiAgICA8UHVibGlzaFN0YXR1cz5QdWJsaXNoZWQ8L1B1
+Ymxpc2hTdGF0dXM+DQogICAgPE1ldGFJRD57ODg0NTAyMDctQzZBRi00M0IxLUFBOTEtMUI1OEUx
+OEE1NDIzfTwvTWV0YUlEPg0KICAgIDxEYXRhUHJvcGVydGllcz4NCiAgICAgIDxsaW5lYWdlPg0K
+ICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVzXEFyY0dJU1xBcmNU
+b29sYm94XFRvb2xib3hlc1xDb252ZXJzaW9uIFRvb2xzLnRieFxGZWF0dXJlQ2xhc3NUb0ZlYXR1
+cmVDbGFzcyIgRGF0ZT0iMjAxMTAxMDQiIFRpbWU9IjE1MTE0OCI+RmVhdHVyZUNsYXNzVG9GZWF0
+dXJlQ2xhc3MgIkRhdGFiYXNlIENvbm5lY3Rpb25zXFBHTkVUX0RpcmVjdENvbm5lY3Quc2RlXEdE
+Qy5BU19OT05fQVRUQUlOX1YiIEM6XFBBU0RBX1VwZGF0ZXNcUEFTREFfMDFfMjAxMS5tZGIgQVNf
+Tk9OX0FUVEFJTl9WICMgIkdOSVNfSUQgJ0dOSVNfSUQnIHRydWUgdHJ1ZSBmYWxzZSAxMCBUZXh0
+IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RDb25uZWN0LnNk
+ZVxHREMuQVNfTk9OX0FUVEFJTl9WLEdOSVNfSUQsLTEsLTE7R05JU19OQU1FICdHTklTX05BTUUn
+IHRydWUgdHJ1ZSBmYWxzZSA2NSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9u
+c1xQR05FVF9EaXJlY3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLEdOSVNfTkFNRSwt
+MSwtMTtSRUFDSENPREUgJ1JFQUNIQ09ERScgdHJ1ZSB0cnVlIGZhbHNlIDE0IFRleHQgMCAwICxG
+aXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXFBHTkVUX0RpcmVjdENvbm5lY3Quc2RlXEdEQy5B
+U19OT05fQVRUQUlOX1YsUkVBQ0hDT0RFLC0xLC0xO0NPTUlEICdDT01JRCcgdHJ1ZSBmYWxzZSBm
+YWxzZSA0IExvbmcgMCAxMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJl
+Y3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLENPTUlELC0xLC0xO0FTU0VTU01FTlRf
+SUQgJ0FTU0VTU01FTlRfSUQnIHRydWUgZmFsc2UgZmFsc2UgNCBMb25nIDAgMTAgLEZpcnN0LCMs
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcUEdORVRfRGlyZWN0Q29ubmVjdC5zZGVcR0RDLkFTX05PTl9B
+VFRBSU5fVixBU1NFU1NNRU5UX0lELC0xLC0xO0lOVF9FVkVOVF9JRCAnSU5UX0VWRU5UX0lEJyB0
+cnVlIGZhbHNlIGZhbHNlIDQgTG9uZyAwIDggLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+UEdORVRfRGlyZWN0Q29ubmVjdC5zZGVcR0RDLkFTX05PTl9BVFRBSU5fVixJTlRfRVZFTlRfSUQs
+LTEsLTE7SU5UX0ZfTUVBU1VSRSAnSU5UX0ZfTUVBU1VSRScgdHJ1ZSBmYWxzZSBmYWxzZSA0IEZs
+b2F0IDMgNiAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RDb25uZWN0
+LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLElOVF9GX01FQVNVUkUsLTEsLTE7SU5UX1RfTUVBU1VS
+RSAnSU5UX1RfTUVBU1VSRScgdHJ1ZSBmYWxzZSBmYWxzZSA0IEZsb2F0IDMgNiAsRmlyc3QsIyxE
+YXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FU
+VEFJTl9WLElOVF9UX01FQVNVUkUsLTEsLTE7TUlMRVMgJ01JTEVTJyB0cnVlIGZhbHNlIGZhbHNl
+IDggRG91YmxlIDExIDE4ICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXFBHTkVUX0RpcmVj
+dENvbm5lY3Quc2RlXEdEQy5BU19OT05fQVRUQUlOX1YsTUlMRVMsLTEsLTE7U0VDT05EQVJZX0lE
+ICdTRUNPTkRBUllfSUQnIHRydWUgdHJ1ZSBmYWxzZSA1MCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRh
+YmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJ
+Tl9WLFNFQ09OREFSWV9JRCwtMSwtMTtTVFJfSFVDICdTVFJfSFVDJyB0cnVlIHRydWUgZmFsc2Ug
+MTIgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcUEdORVRfRGlyZWN0Q29u
+bmVjdC5zZGVcR0RDLkFTX05PTl9BVFRBSU5fVixTVFJfSFVDLC0xLC0xO1NUUl9VU0VSICdTVFJf
+VVNFUicgdHJ1ZSB0cnVlIGZhbHNlIDIwIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5l
+Y3Rpb25zXFBHTkVUX0RpcmVjdENvbm5lY3Quc2RlXEdEQy5BU19OT05fQVRUQUlOX1YsU1RSX1VT
+RVIsLTEsLTE7RFRFX0NSRUFURUQgJ0RURV9DUkVBVEVEJyB0cnVlIHRydWUgZmFsc2UgMzYgRGF0
+ZSAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgQ29ubmVjdGlvbnNcUEdORVRfRGlyZWN0Q29ubmVjdC5z
+ZGVcR0RDLkFTX05PTl9BVFRBSU5fVixEVEVfQ1JFQVRFRCwtMSwtMTtBVFRBSU5JTkcgJ0FUVEFJ
+TklORycgdHJ1ZSBmYWxzZSBmYWxzZSAxIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5l
+Y3Rpb25zXFBHTkVUX0RpcmVjdENvbm5lY3Quc2RlXEdEQy5BU19OT05fQVRUQUlOX1YsQVRUQUlO
+SU5HLC0xLC0xO0lOVF9XQVZFX1NZTUJPTCAnSU5UX1dBVkVfU1lNQk9MJyB0cnVlIHRydWUgZmFs
+c2UgNCBMb25nIDAgNiAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RD
+b25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLElOVF9XQVZFX1NZTUJPTCwtMSwtMTtTVFJf
+QVNTRVNTRURfVVNFX0RFU0MgJ1NUUl9BU1NFU1NFRF9VU0VfREVTQycgdHJ1ZSB0cnVlIGZhbHNl
+IDI1NSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJlY3RD
+b25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLFNUUl9BU1NFU1NFRF9VU0VfREVTQywtMSwt
+MTtTVFJfQVRUQUlOX1VTRV9ERVNDICdTVFJfQVRUQUlOX1VTRV9ERVNDJyB0cnVlIGZhbHNlIGZh
+bHNlIDIwMCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25uZWN0aW9uc1xQR05FVF9EaXJl
+Y3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLFNUUl9BVFRBSU5fVVNFX0RFU0MsLTEs
+LTE7U09VUkNFX0NBVVNFICdTT1VSQ0VfQ0FVU0UnIHRydWUgdHJ1ZSBmYWxzZSA0MDAwIFRleHQg
+MCAwICxGaXJzdCwjLERhdGFiYXNlIENvbm5lY3Rpb25zXFBHTkVUX0RpcmVjdENvbm5lY3Quc2Rl
+XEdEQy5BU19OT05fQVRUQUlOX1YsU09VUkNFX0NBVVNFLC0xLC0xO1NIQVBFX0xFTiAnU0hBUEVf
+TEVOJyBmYWxzZSBmYWxzZSB0cnVlIDAgRG91YmxlIDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBDb25u
+ZWN0aW9uc1xQR05FVF9EaXJlY3RDb25uZWN0LnNkZVxHREMuQVNfTk9OX0FUVEFJTl9WLFNIQVBF
+LkxFTiwtMSwtMSIgIyBDOlxQQVNEQV9VcGRhdGVzXFBBU0RBXzAxXzIwMTEubWRiXEFTX05PTl9B
+VFRBSU5fVjwvUHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJvZ3Jh
+bSBGaWxlc1xBcmNHSVNcRGVza3RvcDEwLjBcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5h
+Z2VtZW50IFRvb2xzLnRieFxDb3B5RmVhdHVyZXMiIERhdGU9IjIwMTEwMTA0IiBUaW1lPSIxNjAw
+MTgiPkNvcHlGZWF0dXJlcyBEOlxERVBcUEFTREFfMDFfMjAxMS5tZGJcQVNfTk9OX0FUVEFJTl9W
+IEQ6XERFUFxBU19OT05fQVRUQUlOX1Yuc2hwICMgMCAwIDA8L1Byb2Nlc3M+DQogICAgICA8L2xp
+bmVhZ2U+DQogICAgICA8Y29weUhpc3Rvcnk+DQogICAgICAgIDxjb3B5IHNvdXJjZT0iRDpcZGF0
+YURcREVQXEFwcmlsMjAxNlxJbnRlZ3JhdGVkTGlzdE5vbkF0dGFpbmluZzIwMTZfMDQiIGRlc3Q9
+IlxcVVJTVVNcZGF0YURcREVQXEFwcmlsMjAxNlxTaGFwZXNcSW50ZWdyYXRlZExpc3ROb25BdHRh
+aW5pbmcyMDE2XzA0IiBkYXRlPSIyMDE3MDEwNiIgdGltZT0iMTUzMzI3MDAiIC8+DQogICAgICA8
+L2NvcHlIaXN0b3J5Pg0KICAgIDwvRGF0YVByb3BlcnRpZXM+DQogIDwvRXNyaT4NCiAgPGlkaW5m
+bz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxwdWJkYXRlPjIw
+MTcwMTwvcHViZGF0ZT4NCiAgICAgICAgPHB1YmluZm8+DQogICAgICAgICAgPHB1Ymxpc2g+UGVu
+bnN5bHZhbmlhIERlcGFydG1lbnQgb2YgRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uPC9wdWJsaXNo
+Pg0KICAgICAgICAgIDxwdWJwbGFjZT5SQ1NPQjwvcHVicGxhY2U+DQogICAgICAgIDwvcHViaW5m
+bz4NCiAgICAgICAgPG9yaWdpbj5PZmZpY2Ugb2YgV2F0ZXIgTWFuYWdlbWVudCwgQnVyZWF1IG9m
+IFdhdGVyIFN1cHBseSAmYW1wOyBXYXN0ZXdhdGVyIE1hbmFnZW1lbnQsIFdhdGVyIFF1YWxpdHkg
+QXNzZXNzbWVudCBhbmQgU3RhbmRhcmRzIERpdmlzaW9uLjwvb3JpZ2luPg0KICAgICAgICA8dGl0
+bGU+SW50ZWdyYXRlZCBMaXN0IE5vbi1BdHRhaW5pbmc8L3RpdGxlPg0KICAgICAgICA8b25saW5r
+Pmh0dHA6Ly93d3cucGFzZGEucHN1LmVkdTwvb25saW5rPg0KICAgICAgPC9jaXRlaW5mbz4NCiAg
+ICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4NCiAgICAgIDxhYnN0cmFjdD5UaGlzIGxheWVy
+IHNob3dzIG9ubHkgbm9uLWF0dGFpbmluZyBzZWdtZW50cyBvZiB0aGUgSW50ZWdyYXRlZCBMaXN0
+LiAgVGhlIFN0cmVhbXMgSW50ZWdyYXRlZCBMaXN0IHJlcHJlc2VudHMgc3RyZWFtIGFzc2Vzc21l
+bnRzIGluIGFuIGludGVncmF0ZWQgZm9ybWF0IGZvciB0aGUgQ2xlYW4gV2F0ZXIgQWN0IFNlY3Rp
+b24gMzA1KGIpIHJlcG9ydGluZyBhbmQgU2VjdGlvbiAzMDMoZCkgbGlzdGluZy4gIFN0cmVhbXMg
+YXJlIGJvZGllcyBvZiBmbG93aW5nIHN1cmZhY2Ugd2F0ZXIgdGhhdCBjb2xsZWN0aXZlbHkgZm9y
+bSBhIG5ldHdvcmsgdGhhdCBkcmFpbnMgYSBjYXRjaG1lbnQgb3IgYmFzaW4uIFBBIERFUCBwcm90
+ZWN0cyA0ICBzdHJlYW0gd2F0ZXIgdXNlczogYXF1YXRpYyBsaWZlLCAgIGZpc2ggY29uc3VtcHRp
+b24sIHBvdGFibGUgd2F0ZXIgc3VwcGx5LCBhbmQgcmVjcmVhdGlvbi4gVGhlIDMwNShiKSBsYXll
+cnMgIHJlcHJlc2VudHMgc3RyZWFtIHNlZ21lbnRzIHRoYXQgaGF2ZSBiZWVuIGV2YWx1YXRlZCBm
+b3IgYXR0YWlubWVudCBvZiB0aG9zZSB1c2VzLiBJZiBhIHN0cmVhbSBzZWdtZW50IGlzIG5vdCBh
+dHRhaW5pbmcgYW55IG9uZSBvZiBpdHMgIDQgdXNlcywgaXQgaXMgY29uc2lkZXJlZCBpbXBhaXJl
+ZC4gIA0KDQrCtwlBcXVhdGljIExpZmUgdXNlIGF0dGFpbm1lbnQgLSBUaGUgaW50ZWdyaXR5IHJl
+ZmxlY3RlZCBpbiBhbnkgY29tcG9uZW50IG9mIHRoZSBiaW9sb2dpY2FsIGNvbW11bml0eS4gKGku
+ZS4gZmlzaCBvciBmaXNoIGZvb2Qgb3JnYW5pc21zKQ0KwrcJIEZpc2ggQ29uc3VtcHRpb24gdXNl
+IGF0dGFpbm1lbnQgIC0gVGhlIHJpc2sgcG9zZWQgdG8gcGVvcGxlIGJ5IHRoZSBjb25zdW1wdGlv
+biBvZiBhcXVhdGljIG9yZ2FuaXNtcyAoZXguIGZpc2gsIHNoZWxsZmlzaCwgZnJvZ3MsIHR1cnRs
+ZXMsIGNyYXlmaXNoLCBldGMuKSANCsK3CVJlY3JlYXRpb25hbCB1c2UgYXR0YWlubWVudCAtIFRo
+ZSByaXNrIGFzc29jaWF0ZWQgd2l0aCBodW1hbiByZWNyZWF0aW9uIGFjdGl2aXRpZXMgaW4gb3Ig
+b24gYSB3YXRlciBib2R5LiAoaS5lLiBleHBvc3VyZSB0byBiYWN0ZXJpYSBhbmQgb3RoZXIgZGlz
+ZWFzZSBjYXVzaW5nIG9yZ2FuaXNtcyB0aHJvdWdoIHdhdGVyIGNvbnRhY3QgcmVjcmVhdGlvbiBs
+aWtlIHN3aW1taW5nIG9yIHdhdGVyIHNraWluZykNCsK3CVBvdGFibGUgV2F0ZXIgU3VwcGx5IHVz
+ZSBhdHRhaW5tZW50IC0gVGhlIHJpc2sgcG9zZWQgdG8gcGVvcGxlIGJ5IHRoZSBpbmdlc3Rpb24g
+b2YgZHJpbmtpbmcgd2F0ZXINCg0KDQpTZWdtZW50cyB0aGF0IGhhdmUgYXBwZWFyZWQgb24gYW4g
+YXBwcm92ZWQgQ2F0ZWdvcnkgNSBJbnRlZ3JhdGVkIExpc3RpbmcgYXJlIHRoZSBlbnRyaWVzIGxh
+YmVsZWQgYXMgYXBwcm92ZWQuIEludGVncmF0ZWQgTGlzdHMgYXJlIHN1Ym1pdHRlZCBmb3IgYXBw
+cm92YWwgZXZlcnkgb3RoZXIgeWVhci4gU2VnbWVudHMgZW50ZXJlZCBzdWJzZXF1ZW50IHRvIHRo
+ZSBsYXRlc3QgYXBwcm92ZWQgQ2F0ZWdvcnkgNSBsaXN0aW5nIGFyZSBsYWJlbGVkIHRlbnRhdGl2
+ZS4gQWZ0ZXIgYXBwZWFyaW5nIG9uIGFuIGFwcHJvdmVkIGxpc3RpbmcsIHRoZSB0ZW50YXRpdmUg
+ZW50cmllcyBtb3ZlIHRvIGFwcHJvdmVkLiAgVGhlIFN0cmVhbSBJbnRlZ3JhdGVkIExpc3QgaXMg
+cHJvdmlkZWQgYXMgdHdvIHNlcGFyYXRlIGxheWVycyBkZXRlcm1pbmVkIGlmIHRoZSBzdHJlYW0g
+aXMgYXR0YWluaW5nIG9yIG5vdCBhdHRhaW5pbmcgaXRzIGRlc2lnbmF0ZWQgdXNlcy4NCg0KREVQ
+IFN0cmVhbXMgSW50ZWdyYXRlZCBMaXN0IGxheWVyIGlzIG1haW50YWluZWQgYnkgdGhlIFBBREVQ
+IE9mZmljZSBvZiBXYXRlciBNYW5hZ2VtZW50LCBCdXJlYXUgb2YgV2F0ZXIgU3VwcGx5ICZhbXA7
+IFdhc3Rld2F0ZXIgTWFuYWdlbWVudCwgV2F0ZXIgUXVhbGl0eSBBc3Nlc3NtZW50IGFuZCBTdGFu
+ZGFyZHMgRGl2aXNpb24uICBUaGUgbGF5ZXIgaXMgYmFzZWQgb24gdGhlIEhpZ2ggUmVzb2x1dGlv
+biBOYXRpb25hbCBIeWRyb2dyYXBoeSBEYXRhc2V0IChOSEQpLiAgQWRkaXRpb25hbCB1cGRhdGUg
+aW5mb3JtYXRpb24gaXMgcHJvdmlkZWQgYnkgQnVyZWF1IG9mIFdhdGVyc2hlZCBNYW5hZ2VtZW50
+LCBXYXRlciBVc2UgUGxhbm5pbmcgRGl2aXNpb24uPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3Nl
+PkxheWVyIHJlcHJlc2VudGluZyB0aGUgc3RyZWFtcyBvZiBQZW5uc3lsdmFuaWEgd2l0aCBhdHRy
+aWJ1dGVzIG5lZWRlZCBpbiBQQURFUCBtYW5hZ2VkIHByb2dyYW1zLjwvcHVycG9zZT4NCiAgICAg
+IDxzdXBwbGluZj5XaXRoaW4gdGhlIERFUCBuZXR3b3JrIHRoaXMgbGF5ZXIgaXMgbWFpbnRhaW5l
+ZCBvbiBhIG5pZ2h0bHkgYmFzaXMgcmVmbGVjdGluZyB0aGUgcHJldmlvdXMgZGF5cyBwcm9kdWN0
+aW9uIGRhdGFiYXNlLiAgU29tZSBvbGRlciBhc3Nlc3NtZW50IHJlY29yZHMgbWF5YmUgYXJjaGl2
+ZWQuICBJZiB0aGV5IGFyZSBhcmNoaXZlZCB0aG9zZSBhc3Nlc3NtZW50cyB3aWxsIG5vIGxvbmdl
+ciBiZSBkaXNwbGF5ZWQgaW4gdGhpcyBsYXllci4gIFRob3NlIHJlY29yZHMgd2l0aCB2YWx1ZXMg
+b2YgLTEgb3IgLTIgaW4gdGhlIGZpZWxkIElOVF9XQVZFX1NZTUJPTCBmaWVsZCBhcmUgY29uc2lk
+ZXJlZCB0byBiZSB0ZW50YXRpdmUgYW5kIGhhdmUgbm90IGJlZW4gYXBwcm92ZWQgYnkgY2VudHJh
+bCBvZmZpY2Ugc3RhZmYgb2YgdGhlIERlcGFydG1lbnQuPC9zdXBwbGluZj4NCiAgICA8L2Rlc2Ny
+aXB0Pg0KICAgIDx0aW1lcGVyZD4NCiAgICAgIDxjdXJyZW50PnB1YmxpY2F0aW9uIGRhdGU8L2N1
+cnJlbnQ+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxj
+YWxkYXRlPjIwMTcwMTwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1l
+aW5mbz4NCiAgICA8L3RpbWVwZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29t
+cGxldGU8L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0ZT5OaWdodGx5PC91cGRhdGU+DQogICAgPC9z
+dGF0dXM+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrZXk+
+aW5sYW5kV2F0ZXJzPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PnN0cmVhbSwgc3RyZWFt
+cywgcml2ZXIsIHJpdmVycywgd2F0ZXIsIHdhdGVycywgY3JlZWssIGNyZWVrcywgaHlkcm9sb2d5
+LCAzMDViLCAzMDNkLCAzMDUsIDMwMywgYXNzZXNzbWVudHMsIGFzc2Vzc21lbnQsIHN1cmZhY2U8
+L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+U3RyZWFtcyBJbnRlZ3JhdGVkIExpc3QsIElu
+dGVncmF0ZWQgTGlzdCwgTkhELCBOYXRpb25hbCBIeWRyb2dyYXBoeSBEYXRhc2V0LCBhdHRhaW5p
+bmcsIG5vbiBhdHRhaW5pbmcsIGF0dGFpbiwgZGVzaWduYXRlZCB1c2UsIENhdGVnb3J5IDU8L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrdD5JU08gMTkxMTUgVG9waWMgQ2F0ZWdvcmllcyA8L3Ro
+ZW1la3Q+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2VrZXk+
+UGVubnN5bHZhbmlhPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgPC9rZXl3b3Jkcz4N
+CiAgICA8YWNjY29uc3Q+Tm9uZTwvYWNjY29uc3Q+DQogICAgPHVzZWNvbnN0Pg0KICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgQ29tbW9ud2VhbHRoIG9mIFBlbm5zeWx2YW5pYQ0KICAgICAgICAg
+ICAgICAgICAgICAgIERlcGFydG1lbnQgb2YgRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uDQogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIERpc2NsYWltZXIgZm9yIERhdGENCg0KVGhlIHVz
+ZXIgc2hhbGwgc2F2ZSB0aGUgQ29tbW9ud2VhbHRoIGhhcm1sZXNzIGZyb20gYW55IHN1aXRzLCBj
+bGFpbXMsIG9yIGFjdGlvbnMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvZiB0aGUgZGF0YSBmaWxl
+cyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwgb3IgYXJpc2luZyBvdXQgb2YgYW55IGRl
+ZmVjdHMgaW4gdGhlIGRhdGFmaWxlcyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbi4NCg0K
+VGhlIENvbW1vbndlYWx0aCBleGNsdWRlcyBhbnkgYW5kIGFsbCBpbXBsaWVkIHdhcnJhbnRpZXMg
+YW5kIG1ha2VzIG5vIHdhcnJhbnR5IG9yIHJlcHJlc2VudGF0aW9uIHdpdGggcmVzcGVjdCB0byB0
+aGUgZGF0YSBmaWxlcyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwgaW5jbHVkaW5nIHF1
+YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZpdHMgZm9yIGEgcGFydGlj
+dWxhciBwdXJwb3NlLiAgVGhlc2UgZGF0YSBmaWxlcyBhbmQgZG9jdW1lbnRhdGlvbiBhcmUgcHJv
+dmlkZWQgImFzIGlzIiBhbmQgdGhlIHVzZXIgYXNzdW1lcyB0aGUgZW50aXJlIHJpc2sgYXMgdG8g
+dGhlaXIgcXVhbGl0eSBhbmQgcGVyZm9ybWFuY2UuIDwvdXNlY29uc3Q+DQogICAgPHB0Y29udGFj
+Pg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAgICAgICAgIDxjbnRvcmc+
+UEEgREVQLCBHZW9zcGF0aWFsIERhdGEgQ2VudGVyPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVy
+cD4NCiAgICAgICAgPGNudGVtYWlsPnJhLWVwZ2Vvc3BhdGlhbGRhdGFjZW50ZXJAc3RhdGUucGEu
+dXM8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogICAgPHNl
+Y2luZm8+DQogICAgICA8c2VjY2xhc3M+VW5jbGFzc2lmaWVkPC9zZWNjbGFzcz4NCiAgICA8L3Nl
+Y2luZm8+DQogIDwvaWRpbmZvPg0KICA8ZGF0YXF1YWw+DQogICAgPGxpbmVhZ2U+DQogICAgICA8
+cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5FeGlzdGluZyBHSVMgMzA1YiBsYXllciB3YXMg
+Y29uZmxhdGVkIGFnYWluc3QgdGhlIGdlb21ldHJ5IG9mIHRoZSBOSEQuICBOZXcgYXNzZXNzbWVu
+dHMgYXJlIGFkZGVkIHZpYSB0aGUgQXJjR0lTIDkgYXBwbGljYXRpb24gSUNFIChJbnN0cmVhbSBD
+b21wcmVoZW5zaXZlIEV2YWx1YXRpb24pIHRvb2wuPC9wcm9jZGVzYz4NCiAgICAgICAgPHByb2Nz
+dj5BcmNJTkZPIDkuMTwvcHJvY3N2Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAgICA8L2xpbmVhZ2U+
+DQogICAgPGF0dHJhY2M+DQogICAgICA8YXR0cmFjY3I+Q29uZm9ybXMgdG8gTmF0aW9uYWwgTWFw
+cGluZyBQcm9ncmFtIEdlb3NwYXRpYWwgRGF0YSBTdGFuZGFyZHMuIEF0dHJpYnV0ZSBhY2N1cmFj
+eSBoYXMgYmVlbiBjaGVja2VkIGJ5IHZpc3VhbCBjb21wYXJpc29uIGFnYWluc3Qgc291cmNlIG1h
+dGVyaWFscyBhbmQgcGVlciByZXZpZXcgYXQgRVJSSTwvYXR0cmFjY3I+DQogICAgPC9hdHRyYWNj
+Pg0KICAgIDxsb2dpYz5DaGFpbi1ub2RlIHRvcG9sb2d5IHByZXNlbnQuIFZlcmlmaWVkIHZpc3Vh
+bGx5LjwvbG9naWM+DQogICAgPGNvbXBsZXRlPlZlcmlmaWVkIGFnYWluc3Qgc291cmNlIG1hdGVy
+aWFscy4gQWxsIGdlb21ldHJ5IGJhc2VkIG9uIHRoZSBOSEQuPC9jb21wbGV0ZT4NCiAgICA8cG9z
+YWNjPg0KICAgICAgPGhvcml6cGE+DQogICAgICAgIDxob3JpenBhcj5EYXRhIGNvbXBpbGVkIGZy
+b20gc291cmNlcyBjb25mb3JtaW5nIHRvIE5hdGlvbmFsIE1hcCBBY2N1cmFjeSBTdGFuZGFyZHMu
+IENoZWNrZWQgdmlzdWFsbHkgYWdhaW5zdCBzb3VyY2UgbWF0ZXJpYWxzLjwvaG9yaXpwYXI+DQog
+ICAgICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQogIDwvZGF0YXF1YWw+DQogIDxkYXRhSWRJ
+bmZvPg0KICAgIDxkZXNjS2V5cz4NCiAgICAgIDx0aGVzYU5hbWUgdXVpZHJlZj0iNzIzZjY5OTgt
+MDU4ZS0xMWRjLTgzMTQtMDgwMDIwMGM5YTY2IiAvPg0KICAgIDwvZGVzY0tleXM+DQogIDwvZGF0
+YUlkSW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAg
+ICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRwZXI+Um9kbmV5IEtpbWU8L2NudHBlcj4NCiAg
+ICAgICAgICA8Y250b3JnPlBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIEVudmlyb25tZW50YWwg
+UHJvdGVjdGlvbjwvY250b3JnPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRy
+Pg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRy
+dHlwZT4NCiAgICAgICAgICA8Y2l0eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0
+ZT5QQTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNzEwMjwvcG9zdGFsPg0KICAgICAgICAg
+IDxhZGRyZXNzPlJDU09CIDQwMCBNYXJrZXQgU3RyZWV0PC9hZGRyZXNzPg0KICAgICAgICAgIDxj
+b3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250cG9z
+PldhdGVyIFBvbGx1dGlvbiBCaW9sb2dpc3QgMzwvY250cG9zPg0KICAgICAgICA8Y250dm9pY2U+
+NzE3IDc4My03OTY0PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPnJraW1lQHN0YXRlLnBh
+LnVzPC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQogICAgPG1ldGQ+
+MjAxNzAxPC9tZXRkPg0KICA8L21ldGFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPGRpc3RyaWI+
+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudHBlcnA+DQogICAgICAgICAgPGNudHBlcj5Q
+QSBERVA8L2NudHBlcj4NCiAgICAgICAgICA8Y250b3JnPkdlb3NwYXRpYWwgRGF0YSBDZW50ZXI8
+L2NudG9yZz4NCiAgICAgICAgPC9jbnRwZXJwPg0KICAgICAgICA8Y250dm9pY2U+NzE3IDc3Mi0x
+NjY5PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPnJhLWVwZ2Vvc3BhdGlhbGRhdGFjZW50
+ZXJAc3RhdGUucGEudXM8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvZGlzdHJp
+Yj4NCiAgPC9kaXN0aW5mbz4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQgTmFtZT0iQVNfTk9O
+X0FUVEFJTl9WIj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+
+U0hBUEU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U2hhcGU8L2F0
+dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+R2VvbWV0cnk8L2F0dHJ0eXBl
+Pg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MDwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5GZWF0dXJl
+IGdlb21ldHJ5LjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8
+L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJV
+RSI+Q29vcmRpbmF0ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9h
+dHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwg
+U3luYz0iVFJVRSI+QVRUQUlOSU5HPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPkZJRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5PSUQ8
+L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVF
+Ij5MZW5ndGggb2YgZmVhdHVyZSBpbiBpbnRlcm5hbCB1bml0cy48L2F0dHJkZWY+DQogICAgICAg
+IDxhdHRyZGVmcyBTeW5jPSJUUlVFIj5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212
+Pg0KICAgICAgICAgIDx1ZG9tIFN5bmM9IlRSVUUiPlBvc2l0aXZlIHJlYWwgbnVtYmVycyB0aGF0
+IGFyZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+
+DQogICAgICA8L2F0dHI+DQogICAgICA8ZW50dHlwPg0KICAgICAgICA8ZW50dHlwbCBTeW5jPSJU
+UlVFIj5BU19OT05fQVRUQUlOX1Y8L2VudHR5cGw+DQogICAgICAgIDxlbnR0eXB0IFN5bmM9IlRS
+VUUiPkZlYXR1cmUgQ2xhc3M8L2VudHR5cHQ+DQogICAgICAgIDxlbnR0eXBjIFN5bmM9IlRSVUUi
+PjA8L2VudHR5cGM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmwgU3luYz0iVFJVRSI+U2hhcGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3lu
+Yz0iVFJVRSI+R05JU19JRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVF
+Ij5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTA8L2F0
+dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5GZWF0dXJlIGdlb21ldHJ5Ljwv
+YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzIFN5bmM9IlRSVUUiPkVTUkk8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPHVkb20gU3luYz0iVFJVRSI+Q29vcmRpbmF0
+ZXMgZGVmaW5pbmcgdGhlIGZlYXR1cmVzLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAg
+ICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2Nh
+bGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4N
+CiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkdOSVNfSUQ8L2F0dHJsYWJsPg0KICAgICAg
+ICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+R05JU19OQU1FPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0
+dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBT
+eW5jPSJUUlVFIj42NTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4w
+PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0K
+ICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVF
+Ij5HTklTX05BTUU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UkVB
+Q0hDT0RFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwv
+YXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xNDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5SRUFDSENPREU8L2F0dHJsYWJsPg0KICAg
+ICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q09NSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0
+cnR5cGUgU3luYz0iVFJVRSI+SW50ZWdlcjwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBT
+eW5jPSJUUlVFIj45PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjk8
+L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQog
+ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUi
+PkFTU0VTU01FTlQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+QVNT
+RVNTTUVOVDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5JbnRlZ2Vy
+PC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjk8L2F0dHdpZHRoPg0K
+ICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+OTwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRz
+Y2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+SU5UX0VWRU5UXzwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5JTlRfRVZFTlRfPC9hdHRhbGlhcz4NCiAgICAg
+ICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkludGVnZXI8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0
+d2lkdGggU3luYz0iVFJVRSI+OTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJU
+UlVFIj45PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNj
+YWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5j
+PSJUUlVFIj5JTlRfRl9NRUFTPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRS
+VUUiPklOVF9GX01FQVM8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+
+U2luZ2xlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjEzPC9hdHR3
+aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAg
+ICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPklOVF9UX01FQVM8L2F0dHJs
+YWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+SU5UX1RfTUVBUzwvYXR0YWxpYXM+
+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TaW5nbGU8L2F0dHJ0eXBlPg0KICAgICAg
+ICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTM8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMg
+U3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4w
+PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+YmwgU3luYz0iVFJVRSI+Q09NSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0i
+VFJVRSI+U1RSX0hVQzwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5T
+dHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTI8L2F0dHdp
+ZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAg
+IDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U0VDT05EQVJZXzwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TRUNPTkRBUllfPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj41MDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBT
+eW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8
+L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFi
+bCBTeW5jPSJUUlVFIj5TVFJfSFVDPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPlNUUl9VU0VSPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUi
+PlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0
+d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAg
+ICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TVFJfVVNFUjwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5NSUxFUzwvYXR0YWxpYXM+DQogICAg
+ICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0
+d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0i
+VFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRz
+Y2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3lu
+Yz0iVFJVRSI+RFRFX0NSRUFURTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJU
+UlVFIj5EVEVfQ1JFQVRFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUi
+PkRhdGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lk
+dGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAg
+PGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5NSUxFUzwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5BVFRBSU5JTkc8L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdp
+ZHRoIFN5bmM9IlRSVUUiPjE8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2Fs
+ZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0i
+VFJVRSI+SU5UX1dBVkVfUzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVF
+Ij5JTlRfV0FWRV9TPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPklu
+dGVnZXI8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+OTwvYXR0d2lk
+dGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj45PC9hdHByZWNpcz4NCiAgICAgICAg
+PGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TVFJfQVNTRVNTPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNUUl9BU1NFU1M8L2F0dGFsaWFzPg0K
+ICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAg
+PGF0dHdpZHRoIFN5bmM9IlRSVUUiPjI1NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBT
+eW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8
+L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFi
+bCBTeW5jPSJUUlVFIj5TVFJfQVRUQUlOPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5
+bmM9IlRSVUUiPlNUUl9BVFRBSU48L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjIw
+MDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4N
+CiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TT1VSQ0VfQ0FV
+PC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNPVVJDRV9DQVU8L2F0
+dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4N
+CiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjI1NDwvYXR0d2lkdGg+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibCBTeW5jPSJUUlVFIj5TaGFwZV9MZW5nPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dGFsaWFzIFN5bmM9IlRSVUUiPlNoYXBlX0xlbmc8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5
+cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9
+IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4NCiAgPC9lYWluZm8+DQogIDxkaXN0aW5mbz4NCiAg
+ICA8ZGlzdHJpYj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAg
+ICA8Y250b3JnPlBlbm5zeWx2YW5pYSBTcGF0aWFsIERhdGEgQWNjZXNzIChQQVNEQSk8L2NudG9y
+Zz4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRk
+cnR5cGU+bWFpbGluZyBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz4xMTUg
+TGFuZCBhbmQgV2F0ZXIgYnVpbGRpbmc8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+VW5pdmVy
+c2l0eSBQYXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5uc3lsdmFuaWE8L3N0YXRlPg0K
+ICAgICAgICAgIDxwb3N0YWw+MTY4MDI8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5Vbml0
+ZWQgU3RhdGVzPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2lj
+ZT4oODE0KSA4NjUgLSA4NzkyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPnBhc2RhQHBz
+dS5lZHU8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvZGlzdHJpYj4NCiAgICA8
+ZGlzdGxpYWI+VGhlIFVTRVIgc2hhbGwgaW5kZW1uaWZ5LCBzYXZlIGhhcm1sZXNzLCBhbmQsIGlm
+IHJlcXVlc3RlZCwgZGVmZW5kIHRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2ZWxv
+cG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEsIHRoZWlyIG9mZmljZXJzLCBhZ2Vu
+dHMsIGFuZCBlbXBsb3llZXMgZnJvbSBhbmQgYWdhaW5zdCBhbnkgc3VpdHMsIGNsYWltcywgb3Ig
+YWN0aW9ucyBmb3IgaW5qdXJ5LCBkZWF0aCwgb3IgcHJvcGVydHkgZGFtYWdlIGFyaXNpbmcgb3V0
+IG9mIHRoZSB1c2Ugb2Ygb3IgYW55IGRlZmVjdCBpbiB0aGUgRklMRVMgb3IgYW55IGFjY29tcGFu
+eWluZyBkb2N1bWVudGF0aW9uLiBUaG9zZSBwYXJ0aWVzIGludm9sdmVkIHdpdGggdGhlIGRldmVs
+b3BtZW50IGFuZCBkaXN0cmlidXRpb24gZXhjbHVkZWQgYW55IGFuZCBhbGwgaW1wbGllZCB3YXJy
+YW50aWVzLCBpbmNsdWRpbmcgd2FycmFudGllcyBvciBtZXJjaGFudGFiaWxpdHkgYW5kIGZpdG5l
+c3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlIGFuZCBtYWtlcyBubyB3YXJyYW50eSBvciByZXBy
+ZXNlbnRhdGlvbiwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZCwgd2l0aCByZXNwZWN0IHRvIHRo
+ZSBGSUxFUyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwgaW5jbHVkaW5nIGl0cyBxdWFs
+aXR5LCBwZXJmb3JtYW5jZSwgbWVyY2hhbnRhYmlsaXR5LCBvciBmaXRuZXNzIGZvciBhIHBhcnRp
+Y3VsYXIgcHVycG9zZS4gVGhlIEZJTEVTIGFuZCBkb2N1bWVudGF0aW9uIGFyZSBwcm92aWRlZCAi
+YXMgaXMiIGFuZCB0aGUgVVNFUiBhc3N1bWVzIHRoZSBlbnRpcmUgcmlzayBhcyB0byBpdHMgcXVh
+bGl0eSBhbmQgcGVyZm9ybWFuY2UuIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2
+ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEgd2lsbCBub3QgYmUgbGlhYmxl
+IGZvciBhbnkgZGlyZWN0LCBpbmRpcmVjdCwgc3BlY2lhbCwgaW5jaWRlbnRhbCwgb3IgY29uc2Vx
+dWVudGlhbCBkYW1hZ2VzIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb3IgaW5hYmlsaXR5IHRvIHVz
+ZSB0aGUgRklMRVMgb3IgYW55IGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLjwvZGlzdGxpYWI+
+DQogIDwvZGlzdGluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

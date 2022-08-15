@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+        <pubdate>201102</pubdate>
+        <title>Allegheny County Wooded Areas 2011</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <serinfo>
+          <sername>Base Data</sername>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Pittsburgh, PA</pubplace>
+          <publish>Allegheny County Division of Computer Services Geographic Information Systems Group</publish>
+        </pubinfo>
+        <othercit>Derived from the original NATURE dataset.</othercit>
+        <ftname Sync="TRUE">WoodedAreas</ftname>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>Spring 1992</begdate>
+          <enddate>2005</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Original data was derived from aerial photography flown in the spring of 1992 for the eastern half of the County and the spring of 1993 for the western half of the County.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.368573</westbc>
+        <eastbc Sync="TRUE">-79.678470</eastbc>
+        <northbc Sync="TRUE">40.683049</northbc>
+        <southbc Sync="TRUE">40.185801</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">1242220.902002</leftbc>
+        <rightbc Sync="TRUE">1429845.124998</rightbc>
+        <topbc Sync="TRUE">497613.184121</topbc>
+        <bottombc Sync="TRUE">321233.250025</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+    </keywords>
+    <accconst>Call for Details</accconst>
+    <useconst>All parties acknowledge that the data is for informational purposes only. The existing digital data is shipped as is and there is no guarantee as to its completeness or accuracy. Allegheny County Division of Computer Services Geographic Information Systems Group is not responsible for any reliance upon said data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Ave.</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(412) 350-4774</cntvoice>
+        <cntfax>(412) 350-4754</cntfax>
+        <cntemail>GIShelp@alleghenycounty.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.3500</native>
+    <crossref>
+      <citeinfo>
+        <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+      </citeinfo>
+    </crossref>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>AlleghenyCounty_WoodedAreas2011</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>Data was subject to QA/QC process at the time it was recieved (1992-1996).  Data was produced in a series of 1,362 tiles measuring about 4,600 feet X 3,500 feet.  Tiles are numbered in a clockwise spiral fashion starting with #1 at the point in downtown Pittsburgh.  Data from most tiles was delivered by 1996 when GIS Operations ceased in Allegheny County, with the exception of one person in the Health Department.</logic>
+    <complete>There is data for all of the municipalities in the county, with some holes in some layers.  It is estimated that between 16 and 91 tiles of data might be missing in  a layer.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Geodetic reference framrwork was created using NAD 83, the result of the latest geodetic readjustment by NGS at the time.  Photography was produced at a scale of 1"=1,500'.  Mapping was stereo digitized at a scale of 1"=200'. Map data meets or exceeds map accuracy standards in effect during the spring of 1992.</horizpar>
+        <qhorizpa>
+          <horizpav>+/- 5 feet</horizpav>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Geodetic reference framrwork was created using NAGVD 29 in conformance with the monument densification program outlined in the County of Allegheny Geodetic Control Report</vertaccr>
+        <qvertpa>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Allegheny County Division of Computer Services Geographic Information Systems Group</origin>
+            <pubdate>1992</pubdate>
+            <title>Baymont Tiles, Base Data</title>
+            <othercit>Data was created in ArcInfo Coverages on Sun 4/330 Workstations in a distributed environment.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>200"</srcscale>
+        <typesrc>digital tape media</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1992</begdate>
+              <enddate>1993</enddate>
+            </rngdates>
+          </timeinfo>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>During Y2K efforts of 1999-2000, data was transferred to Microsoft NT Server running ArcInfo 7 and was made available to county users across the network from a single location.</procdesc>
+        <procdate>2000</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Tiles edgematched to create a single seamless County coverage</procdesc>
+        <procdate>2000-2003</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset updated as a result of 2004 flyover</procdesc>
+        <date Sync="TRUE">20070619</date>
+        <time Sync="TRUE">10504800</time>
+        <procdate>2004-05</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata Updated</procdesc>
+        <procdate>2010</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="WoodedAreas">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">14674</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm Name="label">
+        <sdtstype Sync="TRUE">Label point</sdtstype>
+        <ptvctcnt Sync="TRUE">22384</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm Name="polygon">
+        <sdtstype Sync="TRUE">GT-polygon composed of chains</sdtstype>
+        <ptvctcnt Sync="TRUE">14674</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm Name="tic">
+        <sdtstype Sync="TRUE">Point</sdtstype>
+        <ptvctcnt Sync="TRUE">1756</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="WoodedAreas">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <efeacnt Sync="TRUE">14674</efeacnt>
+      </esriterm>
+      <esriterm Name="label">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <efeageom Sync="TRUE">Label</efeageom>
+        <efeacnt Sync="TRUE">22384</efeacnt>
+      </esriterm>
+      <esriterm Name="polygon">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">TRUE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <efeacnt Sync="TRUE">14674</efeacnt>
+      </esriterm>
+      <esriterm Name="tic">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <efeageom Sync="TRUE">Tic</efeageom>
+        <efeacnt Sync="TRUE">1756</efeacnt>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">39.933333</stdparll>
+            <stdparll Sync="TRUE">40.966667</stdparll>
+            <longcm Sync="TRUE">-77.750000</longcm>
+            <latprjo Sync="TRUE">39.333333</latprjo>
+            <feast Sync="TRUE">1968500.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="WoodedAreas">
+      <attr>
+        <attrlabl Sync="TRUE">NATURE_COD</attrlabl>
+        <attalias Sync="TRUE">NATURE_COD</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <enttyp>
+        <enttypl>Allegheny County Wooded Areas </enttypl>
+        <enttypc Sync="TRUE">14674</enttypc>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attscale Sync="TRUE">0</attscale>
+        <attwidth Sync="TRUE">0</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">AREA</attrlabl>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attalias Sync="TRUE">AREA</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">PERIMETER</attrlabl>
+        <attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atoutwid Sync="TRUE">18</atoutwid>
+        <attalias Sync="TRUE">PERIMETER</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WOODLAND_</attrlabl>
+        <attalias Sync="TRUE">WOODLAND_</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WOODLAND_I</attrlabl>
+        <attalias Sync="TRUE">WOODLAND_I</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+        <attalias Sync="TRUE">Shape_Leng</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_Area</attrlabl>
+        <attalias Sync="TRUE">Shape_Area</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Acres</attrlabl>
+        <attalias Sync="TRUE">Acres</attalias>
+        <attrtype Sync="TRUE">Float</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>542 Forbes Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219-2952</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412 350-4774</cntvoice>
+        <cntfax>412 350-4754</cntfax>
+        <cntorgp>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems Group</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </distrib>
+    <resdesc>Call for information</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">21.492</transize>
+          <dssize Sync="TRUE">21.492</dssize>
+        </digtinfo>
+      </digform>
+      <ordering>Call for Details</ordering>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20110201</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kathryn Reed</cntper>
+          <cntorg>Allegheny County Division of Computer Services Geographic Information Systems Group</cntorg>
+        </cntperp>
+        <cntpos>System Supervisor, GIS</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>621 County Office Building</address>
+          <address>524 Forbes Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15219-2952</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412 350-5126</cntvoice>
+        <cntfax>412 350-4754</cntfax>
+        <cntemail>kreed@county.allegheny.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.3500</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-80.368573</westBL>
+      <eastBL Sync="TRUE">-79.67847</eastBL>
+      <northBL Sync="TRUE">40.683049</northBL>
+      <southBL Sync="TRUE">40.185801</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idCitation>
+      <resTitle Sync="TRUE">WoodedAreas</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">1242220.902002</westBL>
+          <northBL Sync="TRUE">497613.184121</northBL>
+          <southBL Sync="TRUE">321233.250025</southBL>
+          <eastBL Sync="TRUE">1429845.124998</eastBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <linkage Sync="TRUE">file://\\DCSCOB0315AD004\C$\PASDA\WoodedAreas.shp</linkage>
+        </onLineSrc>
+        <transSize Sync="TRUE">21.492</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <Esri>
+    <CreaDate>20070619</CreaDate>
+    <ModDate>20110201</ModDate>
+    <ModTime>16224200</ModTime>
+    <SyncDate>20110201</SyncDate>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncTime>16122600</SyncTime>
+    <CreaTime>10504800</CreaTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070606" Time="144623">CopyFeatures W:\shapefiles\woodlands.shp "W:\GIS ADMIN\CountywideCont.mdb\woodlands" # 0 0 0</Process>
+        <Process ToolSource="C:\Program Files (x86)\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110128" Time="152337">FeatureClassToFeatureClass W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp C:\PASDA WoodedAreas.shp # "AREA 'AREA' true true false 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,AREA,-1,-1;PERIMETER 'PERIMETER' true true false 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,PERIMETER,-1,-1;WOODLAND_ 'WOODLAND_' true true false 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,WOODLAND_,-1,-1;WOODLAND_I 'WOODLAND_I' true true false 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,WOODLAND_I,-1,-1;NATURE_COD 'NATURE_COD' true true false 2 Short 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,NATURE_COD,-1,-1;Shape_Leng 'Shape_Length' false true true 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,Shape_Length,-1,-1;Shape_Area 'Shape_Area' false true true 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,Shape_Area,-1,-1;Acres 'Acres' true true false 8 Double 0 0 ,First,#,W:\Data\Countywide\Geodatabase\Countywide_Environmental.mdb\woodlands_shp,Acres,-1,-1" # C:\PASDA\WoodedAreas.shp</Process>
+      </lineage>
+    </DataProperties>
+    <MetaID>{83F3B55B-C6D5-4BA5-BD45-EB3F41DA71A1}</MetaID>
+  </Esri>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdDateSt Sync="TRUE">20110201</mdDateSt>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">NAD_1983_StatePlane_Pennsylvania_South_FIPS_3702_Feet</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="WoodedAreas">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">14674</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

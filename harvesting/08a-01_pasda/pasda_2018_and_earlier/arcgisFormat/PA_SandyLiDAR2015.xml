@@ -1,0 +1,428 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U S Geological Survey</origin>
+        <pubdate>20150424</pubdate>
+        <title>Pennsylvania Sandy LiDAR</title>
+        <geoform>LiDAR</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20141125</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141201</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141204</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141207</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141219</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141226</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20141227</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-77.145912</westbc>
+        <eastbc>-75.867347</eastbc>
+        <northbc>+40.319010</northbc>
+        <southbc>+39.706287</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc>317629.178684</leftbc>
+        <rightbc>425664.250168</rightbc>
+        <topbc>4397322.248107</topbc>
+        <bottombc>4463532.452256</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>LiDAR</themekey>
+        <themekey>Terrain</themekey>
+        <themekey>Model</themekey>
+        <themekey>Elevation</themekey>
+        <themekey>Surface</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>York County</placekey>
+        <placekey>Lancaster County</placekey>
+      </place>
+    </keywords>
+    <accconst>NONE</accconst>
+    <useconst>None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Any conclusions drawn from the analysis of this information are not the responsibility of the U.S. Geological Survey, York County, PA, Lancaster County, PA or its partners. Acknowledgement of the U.S. Geological Survey, Lancaster County, PA, and York County, PA would be appreciated for products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Fugro</cntorg>
+          <cntper>Becky Jordan</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>MD</state>
+          <postal>21704</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+      </cntinfo>
+    </ptcontac>
+    <native>ArcGIS 10.2; Global Mapper 14; Fugro proprietary software; Windows XP and 7 Operating Systems
+\\server\directory path\*.img
+21 GB</native>
+    <descript>
+      <abstract>PA_SandyLiDAR2015</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>During LiDAR data collection the airborne GPS receiver was collecting data at 2 Hz frequency and the Dilution of Precision (PDOP) was monitored. Multiple GPS base stations were also running in the project area and were recording data at 1 Hz. The airborne GPS data was post-processed in DGPS mode together with  base station data to provide high accuracy aircraft positions. The GPS trajectory then was combined with the IMU data using loosely coupled approach to yield high accuracy aircraft positions and attitude angles. Then the LiDAR data was processed using the aircraft trajectory and raw LiDAR data.</attraccr>
+    </attracc>
+    <logic>Compliance with the accuracy standard was ensured by the collection of ground control and the establishment of a GPS base station at the operation airport as well as multiple other active stations in the project area.</logic>
+    <complete>The DEM raster files cover the entire project delivery boundary. The pixels fall that outside the project delivery boundary are set to Void with a unique “NODATA” value. The value is identified in the file headers. There are no void pixels inside the project boundary. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The bare earth surface is of good quality and passes Vertical Accuracy requirements.</complete>
+    <posacc>
+      <vertacc>
+        <vertaccr>The Fundamental Vertical Accuracy (FVA) of the LiDAR Point Cloud data was calculated against TINs derived from the final calibrated and controlled swath data. The required accuracy (ACCZ) is: 18.13 cm at a 95% confidence level, derived according to the National Standard for Spatial Database Accuracy (NSSDA), i.e., based on RMSE of 9.25 cm in the “open terrain” land cover category.</vertaccr>
+        <qvertpa>
+          <vertaccv>0.09</vertaccv>
+          <vertacce>Tested 0.09 meters vertical accuracy at 95 percent confidence level according to the Federal Geographic Data Committee, 1998, Geospatial Positioning Accuracy Standard, Part 3: National Standard for Spatial Data Accuracy, FGDC-STD-007.3-1998.</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Richard Crouse &amp; Associates, Inc.</origin>
+            <pubdate>20141227</pubdate>
+            <title>Pennsylvania Sandy LiDAR Aerial Acquisition</title>
+            <pubinfo>
+              <pubplace>Richard Crouse &amp; Associates, Inc.; Frederick, MD</pubplace>
+              <publish>Richard Crouse &amp; Associates, Inc.; Aviation Department</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>External hard drive</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20141125</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141201</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141204</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141207</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141219</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141226</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20141227</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Aerial LiDAR Acquisition</srccitea>
+        <srccontr>Under Fugro’s direction, acquisition was performed by Fugro’s approved ID/IQ subcontractor RC&amp;A. RC&amp;A collected Riegl-derived LiDAR over York and Lancaster Counties, Pennsylvania with 0.7 meters NPS using a twin engine aircraft. Data was collected when environmental conditions meet the criteria specified. To be specific, the following conditions existed prior to launch of the aircraft: 1) Cloud and fog-free between the aircraft and ground, 2) Snow free, 3) No unusual flooding or inundation, and 4) Leaf off. The collection for the entire project area was accomplished on November 25 and December 1, 4, 7, 19, 26, and 27, 2014; 148 flight lines were acquired in 11 lifts. Lift 141125_863_14001100_01 comprised of 22 flight lines (1 through 22), lift 141125_863_14001100_02 comprised of 14 flight lines (23 through 34, 141, and 142), lift 141201_863_14001100_03 comprised of 3 flight lines (143 through 145), lift 141204_863_14001100_04 comprised of 16 flight lines (35 through 49, and partial re-flight of line 22 flown on lift 1), lift 141204_863_14001100_05 comprised of 14 flight lines (50 through 63), lift 141207_863_14001100_06 comprised of 10 flight lines (64 through 73), lift 141207_863_14001100_07 comprised of 11 flight lines (131 through 138 and 146 through 148), lift 141207_863_14001100_08 comprised of 13 flight lines (74 through 85 and 140), lift 141219_863_14001100_09 comprised of 15 flight lines (86 through 100), lift 141226_863_14001100_10 comprised of 18 flight lines (114 through 130 and 139), and lift 141227_863_14001100_11 comprised of 13 flight lines (101 through 113). The collection was performed using a Riegl Q-680i LiDAR system, serial number 863.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Terrasurv, Inc.</origin>
+            <pubdate>20150108</pubdate>
+            <title>Pennsylvania Sandy LiDAR Report of Survey</title>
+            <pubinfo>
+              <pubplace>Terrasurv, Inc.; Pittsburgh, PA</pubplace>
+              <publish>Terrasurv, Inc.</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Electronic mail system</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20141216</begdate>
+              <enddate>20141231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Ground Control</srccitea>
+        <srccontr>Under Fugro’s direction, all surveying activities were performed by Fugro's approved ID/IQ subcontractor Terrasurv, Inc.  A total of 44 ground control points along with 72 checkpoints in each of the following land cover classifications were collected: agricultural/crops (20 checkpoints), forest (20 checkpoints), bare earth/open terrain (20 checkpoints), and urban (12 checkpoints).  A Virtual Reference System (VRS) was used to determine the 3-D positions of each of the stations.  The KeyNet VRS is a private subscription network which covers the project area. In the VRS method, a network of Continuously Operating Reference Stations (CORS) is used to compute real time corrections for a selected location which are transmitted to a remote GPS unit over the cellular network.  These corrections are then applied at the remote GPS receiver to obtain real time positions, stored as vectors from either the nearest CORS or from a nearby virtual station created at the time of observation.  The horizontal datum was the North American Datum of 1983 (NAD83, NSRS 2011), and the vertical datum was the North American Vertical Datum of 1988, using the GEOID12A model.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Fugro was tasked with planning, acquiring, processing, and producing derivative products of LiDAR data collected at a NPS of 0.7 meters, including overlap, for an Area of Interest (AOI) covering the entire counties of York and Lancaster in south-eastern Pennsylvania. The AOI covers approximately 1,899 square miles. A 100-meter buffer was added to the AOI covering approximately 1,917 square miles; all products were generated to the limit of this buffered boundary. LiDAR data was acquired using a twin engine aircraft equipped with an antenna and receiver for airborne GPS collection. Flight status was communicated during data collection. All acquired LiDAR data went through a preliminary review to assure that complete coverage was obtained and that there were no gaps between flight lines before the flight crew left the project site. Once back in the office, the data was run through a complete iteration of processing to ensure that it is complete, uncorrupted, and that the entire project area has been covered without gaps between flight lines. There are essentially three steps to this processing: 1) GPS/IMU Processing - Airborne GPS and IMU data was immediately processed using the airport GPS base station data, which was available to the flight crew upon landing the plane.  This ensures the integrity of all the mission data. The following GPS base stations were utilized: RCA1, YORK, DEW3, AAM1, and KCI1.  These results were also used to perform the initial LiDAR system calibration test. 2) Raw LiDAR Data Processing - Technicians processed the raw data to LAS format flight lines with full resolution output before performing QC. A starting configuration file is used in this process, which contains the latest calibration parameters for the sensor. The technicians also generated flight line trajectories for each of the flight lines during this process. 3) Verification of Coverage and Data Quality - Technicians checked flight line trajectory files to ensure completeness of acquisition for the flight lines, calibration lines, and cross flight lines. The intensity images were generated for the entire lift at the required 0.7 meter nominal post spacing for the project. The technician visually checked the intensity images against the acquisition boundary to ensure full coverage to the 100 meter buffer beyond the project boundary. The intensity histogram was analyzed to ensure the quality of the intensity values. The technician also thoroughly reviewed the data for any gaps in project area. The technician generated a sample TIN surface to ensure no anomalies were present in the data. Turbulence was inspected for each flight line; if any adverse quality issues were discovered, the flight line was rejected and re-flown. The technician also evaluated the achieved post spacing against project specified 0.7 meter nominal post spacing as well as making sure no clustering in point distribution.</procdesc>
+        <srcused>Raw LiDAR Data</srcused>
+        <procdate>20150101</procdate>
+        <srcprod>Verified LiDAR Data</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro</cntorg>
+              <cntper>Becky Jordan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The boresight for each lift was done individually as the solution may change slightly from lift to lift. The following steps describe the Raw Data Processing and Boresight process: 1) Technicians processed the raw data to LAS format flight lines using the final GPS/IMU solution. This LAS data set was used as source data for boresight. 2) Technicians first used Fugro proprietary and commercial software to calculate initial boresight adjustment angles based on sample areas selected in the lift. These areas cover calibration flight lines collected in the lift, cross tie and production flight lines. These areas are well distributed in the lift coverage and cover multiple terrain types that are necessary for boresight angle calculation. The technician then analyzed the results and made any necessary additional adjustment until it is acceptable for the selected areas. 3) Once the boresight angle calculation was completed for the selected areas, the adjusted settings were applied to all of the flight lines of the lift and checked for consistency. The technicians utilized commercial and proprietary software packages to analyze how well flight line overlaps match for the entire lift and adjusted as necessary until the results met the project specifications. 4) Once all lifts were completed with individual boresight adjustment, the technicians checked and corrected the vertical misalignment of all flight lines and also the matching between data and ground truth. The relative accuracy was &lt;= 7cm RMSEZ within individual swaths and &lt;=10 cm RMSEZ or within swath overlap (between adjacent swaths). 5) The technicians ran a final vertical accuracy check of the boresighted flight lines against the surveyed check points after the z correction to ensure the requirement of FVA = 18.13 cm 95% Confidence Level (Required Accuracy) was met.</procdesc>
+        <srcused>Verified LiDAR Data</srcused>
+        <procdate>20150112</procdate>
+        <srcprod>Boresighted LiDAR Data</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro</cntorg>
+              <cntper>Becky Jordan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Once boresighting was complete for the project, the project was first set up for automatic classification. The LiDAR data was cut to production tiles. The flight line Overlap points, Noise points and Ground points were classified automatically in this process. Fugro utilized commercial software, as well as proprietary, in-house developed software for automatic filtering. The parameters used in the process were customized for each terrain type to obtain optimum results. Once the automated filtering was completed, the files were run through a visual inspection to ensure that the filtering was not too aggressive or not aggressive enough. In cases where the filtering was too aggressive and important terrain were filtered out, the data was either run through a different filter within local area or was corrected during the manual filtering process. Interactive editing was completed in visualization software that provides manual and automatic point classification tools. Fugro utilized commercial and proprietary software for this process. All manually inspected tiles went through a peer review to ensure proper editing and consistency. After the manual editing and peer review, all tiles went through another final automated classification routine. This process ensures only the required classifications are used in the final product (all points classified into any temporary classed during manual editing will be re-classified into the project specified classifications). During this process, the points originally classified as flight line overlap were tagged as withheld points. Once manual inspection, QC and final autofilter is complete for the LiDAR tiles, the LAS data was packaged to the project specified tiling scheme, clipped to project boundary including the 100 meter buffer and formatted to LAS v1.2. It was also re-projected to UTM Zone 18 north; NAD83(NSRS2011), meters; NAVD88(GEOID12A), meters. The file header was formatted to meet the project specification with File Source ID assigned. This Classified Point Cloud product was used for the generation of derived products. This product was delivered in fully compliant LAS v1.2, Point Record Format 1 with Adjusted Standard GPS Time at a precision sufficient to allow unique timestamps for each return.  Georeference information is included in all LAS file headers. Intensity values are included for each point.  Each tile has unique File Source ID assigned. The Point Source ID matches to the flight line ID in flight trajectory files. The following classifications are included: Code 1 – Processed, but unclassified; Code 2 – Bare-earth ground; Code 7 – Noise (low or high, manually identified, if needed); Code 9 – Water; and Code 10 – Ignored Ground (Breakline Proximity).</procdesc>
+        <srcused>Boresighted LiDAR Data</srcused>
+        <procdate>20150429</procdate>
+        <srcprod>Classified Point Cloud</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro</cntorg>
+              <cntper>Becky Jordan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Hydro linework is produced by heads-up digitizing using classified LiDAR datasets. Additionally, products created from LiDAR including intensity images, shaded-relief TIN surfaces, and contours are used. Hydrographic features were collected as separate feature classes: 1) Inland Ponds and Lakes approximately 2-acre or greater surface area (Lakes) and 2) Inland Streams and Rivers of 100 feet nominal width (River). After initial collection, features were combined into working regions based on watershed sub-basins. Linework was then checked for the following topological and attribution rules: 1) Lines must be attributed with the correct feature code and 2) Lake and stream banklines must form closed polygons. Hydro features were collected as vector linework using LiDAR and its derived products listed above. This linework is initially 2D, meaning that it does not have elevation values assigned to individual line vertices. Vertex elevation values were assigned using a distance weighted distribution of LiDAR points closest to each vertex. This is similar to draping the 2D linework to a surface modeled from the LiDAR points. After the initial ‘drape’, the linework elevation values were further adjusted based on the following rules: 1) Lake feature vertices were re-assigned (flattened) to lowest draped vertex value, excluding any noise points, 2) Stream centerline vertices were adjusted so that subsequent vertices are lower than previous ones based on line direction, and 3) Double stream bankline vertices were re-assigned based on the vertices of the closest adjusted double stream connector line. The hydro flattened breaklines were delivered in Esri ArcGIS version 10.1 geodatabase format.</procdesc>
+        <srcused>LiDAR Data</srcused>
+        <procdate>20150424</procdate>
+        <srcprod>Hydro Flattened Breaklines</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro</cntorg>
+              <cntper>Becky Jordan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Once the deliverable LAS files were generated for the entire project area and QC’ed, and the 3D breaklines were collected and QC’ed, they were used to produce the bare earth DEM to the specified cell size of 1.0 meter. First the bare earth points that fall within 1*NPS along the hydro breaklines were classified as class 10 to be excluded from the DEM generation process. This is analogous to the removal of mass points for the same reason in a traditional photogrammetrically compiled DTM. This process was done in batch using proprietary software. The technicians then used Fugro proprietary software for the production of the LiDAR-derived hydro flattened bare earth DEM surface in initial grid format at 1m GSD. Water bodies (inland ponds and lakes)and inland streams and rivers were hydro-flattened within the DEM. Hydro-flattening was applied to all water impoundments, natural or man-made, that are larger than approximately 2 acres in area and to all streams that are nominally wider than 100 feet. This process was done in batch. Once the initial, hydro-flattened bare earth DEM was generated, the technicians checked the tiles to ensure that the grid spacing met specifications. The technicians also checked the surface to ensure proper hydro-flattening. The entire data set was checked for complete project coverage. Once the data was checked, the tiles were then converted to ERDAS Imagine format. Georeference information is included in the raster files. Void areas (i.e., areas outside the project boundary but within the tiling scheme) are coded using a unique “NODATA” value.</procdesc>
+        <srcused>LiDAR Data, 3D Hydro Breaklines</srcused>
+        <procdate>20150424</procdate>
+        <srcprod>Hydro Flattened Bare Earth DEM</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Fugro</cntorg>
+              <cntper>Becky Jordan</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>7320 Executive Way</address>
+              <city>Frederick</city>
+              <state>MD</state>
+              <postal>21704</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>301-948-8550</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>1500</rowcount>
+      <colcount>1500</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>+00.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.01</absres>
+            <ordres>0.01</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (National Spatial Reference System 2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.01</altres>
+        <altunits>Meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <metainfo>
+    <metd>20150501</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Fugro</cntorg>
+          <cntper>Becky Jordan</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>7320 Executive Way</address>
+          <city>Frederick</city>
+          <state>MD</state>
+          <postal>21704</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>301-948-8550</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <dataIdInfo>
+    <idPurp>This data will assist in the evaluation of coastal storm damage impacts; aid in post-event reconstruction and mitigation planning for future events and collect LiDAR for counties heavily impacted by storm and flooding for which data is incomplete or inadequate to conduct proper analysis, as part of USGS Hurricane Sandy response.</idPurp>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Fugro EarthData, Inc. (Fugro) was tasked by the U.S. Geological Survey (USGS) to plan, acquire, process, and produce derivative products of LiDAR data at a nominal pulse spacing (NPS) of 0.7 meters based on the “U.S. Geological Survey National Geospatial Program LiDAR Base Specification Version 1.0”. The project area consists of approximately 1,917 square miles and covers York and Lancaster Counties, Pennsylvania. Fugro’s approved ID/IQ subcontractor Richard Crouse &amp;amp; Associates, Inc. (RC) acquired 148 flight lines in 11 lifts between November 25 and December 27, 2014. LiDAR data collection was performed with a twin engine aircraft, utilizing a Riegl Q-680i sensor; collecting multiple return x, y, and z as well as intensity data. Specialized in-house and commercial software processes the native LiDAR data into 3-dimensional positions that can be imported into GIS software for visualization and further analysis. The horizontal datum for the data is the North American Datum of 1983 (NAD83, NSRS2011) and the vertical datum is the North American Vertical Datum of 1988 (NAVD88).&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idCitation>
+      <resTitle>Pennsylvania Sandy LiDAR</resTitle>
+    </idCitation>
+    <searchKeys>
+      <keyword>LiDAR</keyword>
+      <keyword>Terrain</keyword>
+      <keyword>Model</keyword>
+      <keyword>Elevation</keyword>
+      <keyword>Surface</keyword>
+      <keyword>imageryBaseMapsEarthCover</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Any conclusions drawn from the analysis of this information are not the responsibility of the U.S. Geological Survey, York County, PA, Lancaster County, PA or its partners. Acknowledgement of the U.S. Geological Survey, Lancaster County, PA, and York County, PA would be appreciated for products derived from these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+  </dataIdInfo>
+  <Esri>
+    <ModDate>20150928</ModDate>
+    <ModTime>10434600</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <mdHrLv>
+    <ScopeCd value="005">
+    </ScopeCd>
+  </mdHrLv>
+</metadata>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Commerce, United States Census Bureau (creator)</origin>
+        <origin>Indiana Geological Survey (processor)</origin>
+        <pubdate>20120827</pubdate>
+        <title>CENSUS_BLOCKS_TIGER2011_IN: Census Block Areas for Indiana in 2011 (United States Census Bureau, 1:100,000, Polygon Shapefile)</title>
+        <edition>2011 Census TIGER/Line Shapefiles</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Washington, D. C.</pubplace>
+          <publish>United States Census Bureau</publish>
+        </pubinfo>
+        <othercit>
+The source data set was downloaded by personnel of the Indiana Geological Survey (IGS) on August 27, 2012, from the following Web
+page of the U. S. Department of Commerce, U. S. Census Bureau: http://www.census.gov/geo/www/tiger/tgrshp2011/tgrshp2011.html
+(The data set provided was in an ESRI shapefile format, and was named "tl_2011_18_tabblock.shp.")
+
+Please visit the following URL to read the technical documentation for the 2011 TIGER/Line shapefiles (downloadable from
+the following link as an  Adobe Acrobat PDF document named "TGRSHP2011_TECHDOC.PDF":
+http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+CENSUS_TRACTS_TIGER2011_IN.SHP is a polygon shapefile that contains 2011 census block boundaries for the state of Indiana.
+Census blocks are not legal boundaries, but are considered stable geographic units used for the presentation of decennial census data.
+
+The following is excerpted from an Adobe Acrobat PDF document named "TGRSHP2011_TECHDOC.PDF (U.S. Census Bureau):
+
+"Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad
+tracks, and by non-visible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of
+streets and roads. Generally, census blocks are small in area; for example, a block in a city. Census blocks in suburban and
+rural areas may be large, irregular, and bounded by a variety of features, such as roads, streams, and/or transmission line
+rights-of-way. In remote areas census blocks may encompass hundreds of square miles. Census blocks cover all territory in the
+United States, Puerto Rico, and the Island areas. A block may consist of one or more faces.
+
+"Blocks never cross county or census tract boundaries (See Figures 3 and 4). They do not cross the boundaries of any entity
+for which the Census Bureau tabulates data, including American Indian, Alaska Native, and Native Hawaiian areas, congressional
+districts, county subdivisions, places, state legislative districts, urbanized areas, urban clusters, school districts, voting
+districts, or ZIP Code Tabulation Areas (ZCTAs) or some special administrative areas such as military installations, and national
+parks and monuments.
+
+"Census 2010 blocks are numbered uniquely within the 2010 boundaries of each state/county/census tract with a 4-digit census
+block number. The first digit of the tabulation block number identifies the block group."
+</abstract>
+      <purpose>
+To provide a GIS data layer of 2011 census block boundaries for the state of Indiana. Census blocks are not legal boundaries, but are
+considered stable geographic units used for the presentation of decennial census data.
+
+The following is excerpted from an Adobe Acrobat PDF document named "TGRSHP2011_TECHDOC.PDF (U.S. Census Bureau):
+
+"Census Blocks are statistical areas bounded on all sides by visible features, such as streets, roads, streams, and railroad
+tracks, and by non-visible boundaries such as city, town, township, and county limits, and short line-of-sight extensions of
+streets and roads. Generally, census blocks are small in area; for example, a block in a city. Census blocks in suburban and
+rural areas may be large, irregular, and bounded by a variety of features, such as roads, streams, and/or transmission line
+rights-of-way. In remote areas census blocks may encompass hundreds of square miles. Census blocks cover all territory in the
+United States, Puerto Rico, and the Island areas. A block may consist of one or more faces.
+
+"Blocks never cross county or census tract boundaries (See Figures 3 and 4). They do not cross the boundaries of any entity
+for which the Census Bureau tabulates data, including American Indian, Alaska Native, and Native Hawaiian areas, congressional
+districts, county subdivisions, places, state legislative districts, urbanized areas, urban clusters, school districts, voting
+districts, or ZIP Code Tabulation Areas (ZCTAs) or some special administrative areas such as military installations, and national
+parks and monuments.
+
+"Census 2010 blocks are numbered uniquely within the 2010 boundaries of each state/county/census tract with a 4-digit census
+block number. The first digit of the tabulation block number identifies the block group."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20110101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Based on information contained in technical document "TGRSHP2011_TECHDOC.PDF" (U.S. Census Bureau)</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.161392</westbc>
+        <eastbc>-84.688378</eastbc>
+        <northbc>41.781127</northbc>
+        <southbc>37.755397</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Feature Identifier</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>United States Department of Commerce</themekey>
+        <themekey>United States Census Bureau (USCB)</themekey>
+        <themekey>census block</themekey>
+        <themekey>block</themekey>
+        <themekey>polygon</themekey>
+        <themekey>vector</themekey>
+        <themekey>census</themekey>
+        <themekey>TIGER/Line</themekey>
+        <themekey>demographic</themekey>
+        <themekey>statistical boundary</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcCatalog version 10.1 shapefile format, approximately 210 Mb</native>
+    <useconst>Demographics--Census_Blocks_2011</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+No formal metadata in the format of the Federal Geographic Data Committee (FGDC) was provided by the U.S. Census Bureau pertaining
+to the source data for this shapefile. For a more detailed discussion of how the U.S. Census Bureau created these data, please access
+the technical document Adobe Acrobat file found at the following URL: http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html
+</attraccr>
+    </attracc>
+    <logic>This data set was provided by the U. S. Census Bureau and is assumed to be topologically accurate and complete.</logic>
+    <complete>This data set was provided by the U. S. Census Bureau and is assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No information was provided by the U.S. Census Bureau pertaining to the horizontal positional accuracy of the source data.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>United States Department of Commerce, United States Census Bureau (USCB)</origin>
+            <pubdate>20120827</pubdate>
+            <title>tl_2011_18_tabblock.SHP (Indiana Census Blocks from 2011 TIGER/Line shapefiles)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D. C.</pubplace>
+              <publish>USCB</publish>
+            </pubinfo>
+            <othercit>Data is from U.S.Census Bureau, 2011 TIGER/Line shapefiles.</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>.ZIP file downloaded from the following URL ( http://www.census.gov/geo/www/tiger/tgrshp2011/tgrshp2011.html ).</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by USCB for the source shapefile tl_2011_18_tabblock.SHP.</srccurr>
+        </srctime>
+        <srccitea>tl_2011_18_tabblock.SHP</srccitea>
+        <srccontr>Indiana census blocks from 2011 TIGER/Line shapefiles</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+IGS personnel downloaded the file named "tl_2011_18_tabblock.SHP" from the U.S. Census Bureau Web site for 2011
+TIGER/Line Shapefiles ( http://www.census.gov/geo/www/tiger/tgrshp2011/tgrshp2011.html ). The shapefile was loaded
+into ESRI ArcMap 10.1 and examined for completeness, attribute accuracy, and spatial accuracy. The shapefile was then
+reprojected into the Transverse Mercator projection and UTM Zone 16, NAD 1983 coordinate system. The fields named
+"INTPTLAT" and "INTPTLON" were deleted from the attribute table. IGS Personnel then renamed then saved the shapefile
+as CENSUS_BLOCKS_TIGER2011_IN.SHP. It should be noted that attribute data from the 2010 U.S. Census Data SF1 tables
+have not been added to the attribute data.
+</procdesc>
+        <srcused>tl_2011_18_tabblock.SHP</srcused>
+        <procdate>20130120</procdate>
+        <srcprod>CENSUS_BLOCKS_TIGER2011_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20130204</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>267199</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CENSUS_BLOCKS_TIGER2011_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Feature Identification Number</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Polygon</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEFP10</attrlabl>
+        <attrdef>State FIPS Code (Indiana = 18) of 2010 Census</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYFP10</attrlabl>
+        <attrdef>County FIPS Code of 2010 Census</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRACTCE10</attrlabl>
+        <attrdef>Census Tract Code of 2010 Census</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BLOCKCE10</attrlabl>
+        <attrdef>Census Tabulation Block Number of 2010 Census</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUFFIXCE</attrlabl>
+        <attrdef>Census Tabulation Block Suffix of 2010 Census</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID</attrlabl>
+        <attrdef>
+2010 Census Block Identifier, a concatenation of State FIPS code,
+County FIPS Code, and Census Tract Code, and tabulation block number
+</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>
+2010 Census Tract Name, this is the census tract code converted to
+an integer or integer plus two-digit decimal if the last two characters of the code
+are not both zeros
+</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC</attrlabl>
+        <attrdef>MAF/TIGER Feature class code</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UR10</attrlabl>
+        <attrdef>2010 Census Tabulation Block rural or urban indicator</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UACE10</attrlabl>
+        <attrdef>2010 Census Tabulation Block urban area code</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT</attrlabl>
+        <attrdef>2010 Census functional status</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALAND</attrlabl>
+        <attrdef>2010 Census land area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWATER</attrlabl>
+        <attrdef>2010 Census water area (square meters)</attrdef>
+        <attrdefs>U.S. Census Bureau, 2010 Census, Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the U. S. Department of Commerce, U. S. Census Bureau and the Indiana Geological Survey be cited in any products generated
+from these data. The following source citation should be included: [CENSUS_BLOCKS_TIGER2011_IN: Census Block Areas for Indiana in 2011 (United States
+Census Bureau, 1:100,000, Polygon Shapefile)].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20120827</metd>
+    <metrd>20130204</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set
+it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

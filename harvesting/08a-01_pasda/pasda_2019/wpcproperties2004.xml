@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Western Pennsylvania Conservancy</origin>
+        <pubdate>20040128</pubdate>
+        <title>Western Pennsylvania Conservancy Properties</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Pittsburgh, Pennsylvania</pubplace>
+          <publish>Western Pennsylvania Conservancy</publish>
+        </pubinfo>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/wpc/wpc_properties.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20040128</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Bi-Annually   January, July</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-80.599555</westbc>
+        <eastbc>
+-78.329474</eastbc>
+        <northbc>
+42.064332</northbc>
+        <southbc>
+39.695159</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Property</themekey>
+        <themekey>properties</themekey>
+        <themekey>holdings</themekey>
+        <themekey>tracts</themekey>
+        <themekey>parcels</themekey>
+        <themekey>protected land</themekey>
+        <themekey>Planning Cadastre</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Western Pennsylvania</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+          <cntper>Land Protection Department</cntper>
+        </cntorgp>
+        <cntpos>GIS staff</cntpos>
+        <cntaddr>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntfax>412-281-1792</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+    </browse>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+    <crossref>
+      <citeinfo>
+        <title>Western Pennsylvania Conservancy Properties</title>
+      </citeinfo>
+    </crossref>
+    <descript>
+      <abstract>wpcproperties2004</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy of the attribution of the file was accomplished through visual verification and peer review.</attraccr>
+    </attracc>
+    <logic>This data set was made by reaserching the Land Protection Department's hard copy files.  Some property boundaries were estimated from County Platt books.  Hard copy maps were sometimes heads up digitized from old photo copied topo maps with the boundary handrawn on the map.  Some boundaries were digitized from tax maps on a digitizing tablet.  Others are from Auto Cad drawings produced by land surveyors and then imported and added to the to the shapefile.  Boundary accuracy varies greatly.</logic>
+    <complete>Complete for WPC holdings.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This data set was made by reaserching the Land Protection Department's hard copy files.  Some property boundaries were estimated from County Platt books.  Hard copy maps were sometimes heads up digitized from old photo copied topo maps with the boundary handrawn on the map.  Some boundaries were digitized from tax maps on a digitizing tablet.  Others are from Auto Cad drawings produced by land surveyors and then imported and added to the to the shapefile.  Boundary accuracy varies greatly.</horizpar>
+      </horizpa>
+      <vertacc>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+      </srcinfo>
+      <procstep>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>
+        </srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>57</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000010</latres>
+        <longres>0.000010</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>NAD27</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres>1.000000</altres>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+SDE.ADD1.WPCProperties2004</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WPC_PROJEC</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>WPC project area</attrdef>
+        <attrdefs>WPC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TRACT_NAME</attrlabl>
+        <attrdef>number of acres</attrdef>
+        <attrdefs>WPC land database</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AQUISITION</attrlabl>
+        <attrdef>name of tract, property or project</attrdef>
+        <attrdefs>WPC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPALI</attrlabl>
+        <attrdef>date(s) WPC acquired the property</attrdef>
+        <attrdefs>WPC</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_NAM</attrlabl>
+        <attrdef>municipality where project is locacted</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>County where project is located</attrdef>
+        <attrdefs>WPC</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Area()</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE..Length()</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>WPC_Projec: WPC Project Areas
+Acres:  Acreage of Property
+Tract_name:  Name of property or project
+Aquisiton:  The date(s) that WPC aquired the property
+Muncipali:  The township, bourgh, or city that the property lies in
+County_Name:  The county that the property lies in</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>
+          </cntper>
+          <cntorg>
+          </cntorg>
+        </cntperp>
+        <cntpos>
+        </cntpos>
+        <cntaddr>
+          <address>
+          </address>
+          <city>
+          </city>
+          <state>
+          </state>
+          <postal>
+          </postal>
+        </cntaddr>
+        <cntvoice>
+        </cntvoice>
+        <cntfax>
+        </cntfax>
+        <cntemail>
+        </cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Western Pennsylvania Conservancy policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Western Pennsylvania Conservancyfor its own internal business purposes.  The Western Pennsylvania Conservancy does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>0.240</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040212</metd>
+    <metrd>20040405</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+          <cntper>Land Protection</cntper>
+        </cntorgp>
+        <cntpos>GIS staff</cntpos>
+        <cntaddr>
+          <addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+        </cntaddr>
+        <cntvoice>412-586-2300</cntvoice>
+        <cntfax>412-281-1792</cntfax>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.gis.state.mn.us/stds/metadata.htm</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080613</ModDate>
+    <ModTime>09423000</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080613</mdDateSt>
+</metadata>

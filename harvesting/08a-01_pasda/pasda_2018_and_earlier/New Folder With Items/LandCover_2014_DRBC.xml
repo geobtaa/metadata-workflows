@@ -1,0 +1,363 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>University of Vermont Spatial Analysis Laboratory</origin>
+        <pubdate>20140221</pubdate>
+        <title>High-Resolution Land Cover, State of Delaware, 2014</title>
+        <edition>Second</edition>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140114</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.794113</westbc>
+        <eastbc>-75.033426</eastbc>
+        <northbc>39.843921</northbc>
+        <southbc>38.449847</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>structure</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Delaware</placekey>
+        <placekey>Delaware River Basin</placekey>
+        <placekey>Chesapeake Bay Watershed</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2014</tempkey>
+        <tempkey>2013</tempkey>
+        <tempkey>2012</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Aiken Room 205</address>
+          <address>81 Carrigan Drive</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 205</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This land cover dataset was developed by the University of Vermont Spatial Analysis Laboratory. The development of the algorithms was done in collaboration with the United States Forest Service. Funding for the Delaware River Basin portion was provided by the William Penn Foundation under a collaborative grant with Shippensburg University. Funding for the Chesapeake Bay Watershed portion was provided by the National Park Service and Environmental Protection Agency under a collaborative grant with the Chesapeake Bay Conservancy.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+    <descript>
+      <abstract>LandCover_2014_DRBC</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Overall accuracy exceeds 90%.</attraccr>
+      <qattracc>
+        <attracce>Point-based accuracy assessment.</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Each cell has been assigned a valid land cover code.</logic>
+    <complete>Complete coverage for the study area using the most recent boundary data.</complete>
+    <lineage>
+      <srcinfo>
+        <typesrc>onLine</typesrc>
+        <srccontr>Leaf-off 2012 Delware orthophotos</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>2013 leaf-on imagery from the National Agricultural Imagery Program (NAIP)</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>Ancillary vector datasets obtained from the State of Delware.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>2014 leaf-off LiDAR for the State of Delaware.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Object based image analysis (OBIA) using a rule-based expert system</procdesc>
+        <procdate>20141230</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Manual corrections to land cover classification</procdesc>
+        <procdate>20150226</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>154700</rowcount>
+      <colcount>65106</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <transmer>
+            <sfctrmer>0.999995</sfctrmer>
+            <longcm>-75.41666666666667</longcm>
+            <latprjo>38.0</latprjo>
+            <feast>200000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00000000222090124069041</absres>
+            <ordres>0.00000000222090124069041</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Land Cover</enttypl>
+        <enttypd>Land Cover Class</enttypd>
+        <enttypds>Project specific</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land cover code</attrdef>
+        <attrdefs>UTC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Background</edomvd>
+            <edomvds>Project specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Emergent Wetlands</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Tree Canopy</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Scrub/Shrub</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Low Vegetation</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Barren</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Structures</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Other Impervious Surfaces</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Roads</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Tree Canopy over Structures</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Tree Canopy over Other Paved Surfaces</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Tree Canopy over Roads</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+        </attrdomv>
+        <attrvai>
+          <attrvae>90</attrvae>
+        </attrvai>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef># pixels per land cover class</attrdef>
+        <attrdefs>Internal</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LandCover</attrlabl>
+        <attrdef>Land cover class
+0 - Background
+1 - Water
+2 - Emergent Wetlands
+3 - Tree Canopy
+4 - Scrub/Shrub
+5 - Low Vegetation
+6 - Barren
+7 - Structures
+8 - Other Paved Surfaces
+9 - Roads/Railroads
+10 - Tree Canopy over Structures
+11 - Tree Canopy over Other Paved Surfaces
+12 - Tree Canopy over Roads</attrdef>
+        <attrdefs>Project specific</attrdefs>
+        <attrvai>
+          <attrvae>90</attrvae>
+        </attrvai>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Twelve land cover classes were mapped:
+0 - Background
+1 - Water
+2 - Emergent Wetlands
+3 - Tree Canopy
+4 - Scrub/Shrub
+5 - Low Vegetation
+6 - Barren
+7 - Structures
+8 - Other Paved Surfaces
+9 - Roads/Railroads
+10 - Tree Canopy over Structures
+11 - Tree Canopy over Other Paved Surfaces
+12 - Tree Canopy over Roads</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20160819</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 205</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>The organizations responsible for generating and funding this dataset make no representations of any kind including, but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.Although every effort has been made to ensure the accuracy of information, errors may be reflected in data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other condition. Secondary distribution must be accompanied by this documentation. Credit should always be given to the data source when this data is transferred, altered, or used for analysis.</metuc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

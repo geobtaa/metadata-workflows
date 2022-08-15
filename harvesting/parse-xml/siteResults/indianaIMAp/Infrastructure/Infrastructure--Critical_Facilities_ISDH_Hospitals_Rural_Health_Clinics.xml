@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana State Department of Health (ISDH) (Data source)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Denver Harper (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20070516</pubdate>
+        <title>HOSPITALS_CLINICS_ISDH_IN: Hospitals and Rural Health Clinics in Indiana in 2007 (Indiana State Department of Health, Point Shapefile)</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+Phone numbers, addresses, and information regarding type of facility were obtained from Web pages
+of the Indiana State Department of Health (http://www.indiana.gov/isdh/regsvcs/acc/hospital/wdirhos.htm;
+http://www.in.gov/isdh/regsvcs/acc/rhcdir/wdirrhc.htm).
+Personnel of the Indiana Geological Survey used ESRI ArcMap 9.2 to build an "Address Locator" and used
+the "Geocoding" tool to perform address matching, using street information licensed from Tele Atlas, Dynamap/2000, v. 17.0.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+HOSPITALS_CLINICS_ISDH_IN is a point shapefile showing the locations of 160 hospitals included in a "Hospital Directory" that
+appears on a Web page of the Indiana State Department of Health (ISDH) (http://www.indiana.gov/isdh/regsvcs/acc/hospital/wdirhos.htm),
+as well as the locations of 55 rural health clinics included in a "Rural Health Care Clinic Directory" that appears on
+the ISDH Web site (http://www.in.gov/isdh/regsvcs/acc/rhcdir/wdirrhc.htm).
+Using street addresses from the directory, a shapefile was created using the "Geocoding" tool in ESRI ArcMap 9.2 and
+street information licensed from Tele Atlas, Dynamap 2000 v. 17.0. On May 11, 2009, at the request of a user, the location of
+</abstract>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2007</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>2007 Indiana State Department of Health Web site</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>health</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana State Department of Health (ISDH)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>hospital</themekey>
+        <themekey>clinic</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 9.2 shapefile format, approximately 302 Kb</native>
+St Margaret Mercy Healthcare Center South, Dyer, Indiana, was more accurately located.
+<useconst>UNIQUEFILENAME</useconst><datacred>UNIQUEFILENAME</datacred><accconst>None</accconst></idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Street addresses and telephone numbers for hospitals and rural health clinics were obtained from the Web site of the
+Indiana State Department of Health and are assumed to be accurate. Geocoding produced match scores of more than
+80 percent for 90 percent of hospitals on the "Hospital Directory" obtained from a Web site of the Indiana State
+Department of Health and for 74 percent of rural health clinics. Locations of other hospitals and rural health clinics
+with scores less than 80 percent were plotted by personnel of the Indiana Geological Survey using the "Editor" tool
+in ESRI ArcMap version 9.2, together with information obtained from Google searches, MapQuest (http://www.mapquest.com/maps/),
+and inspection of aerial photographs of the 2005 Indiana Orthophotography Project.
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>
+All hospitals listed by the Indiana State Department of Health have been included. Fifty-five (55) of
+fifty-seven(57) rural health clinics are included; two clinics (St. Vincent North Clinic and St. Vincent South Clinic, located
+near Williamsport and Veedersburg, respectively) could not be located using either Tele Atlas, Dynamap 2000, or Mapquest,
+and these were deleted from the list of rural health clinics.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+For match scores greater than 80 percent, plotted locations are generally within
+several hundred feet of actual locations.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana State Department of Health</origin>
+            <pubdate>2007</pubdate>
+            <title>Hospital Directory (http://www.indiana.gov/isdh/regsvcs/acc/hospital/wdirhos.htm)</title>
+            <geoform>Web site</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>On-line</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2007</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Hospital Directory (http://www.indiana.gov/isdh/regsvcs/acc/hospital/wdirhos.htm)</srccitea>
+        <srccontr>Addresses and phone numbers of hospitals</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana State Department of Health</origin>
+            <pubdate>2007</pubdate>
+            <title>Rural Health Clinic Directory (http://www.in.gov/isdh/regsvcs/acc/rhcdir/wdirrhc.htm)</title>
+            <geoform>Web site</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>On line</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2007</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Rural Health Clinic Directory (http://www.in.gov/isdh/regsvcs/acc/rhcdir/wdirrhc.htm)</srccitea>
+        <srccontr>Addresses and phone numbers of rural health clinics.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tele Atlas</origin>
+            <pubdate>2007</pubdate>
+            <title>Dynamap 2000</title>
+            <edition>17.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Lebanon, New Hampshire</pubplace>
+              <publish>Tele Atlas</publish>
+            </pubinfo>
+            <othercit>Indiana roads from Tele Atlas, Dynamap/2000, v. 17.0, licensed to the Indiana Geological Survey</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Indiana roads from Tele Atlas, Dynamap/2000, v. 17.0</srccitea>
+        <srccontr>Indiana streets and roads suitable for geocoding</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Telephone numbers and addresses for each hospital and rural health clinic were compiled by personnel of the Indiana Geological Survey (IGS)
+from directories available on the Web site of the Indiana State Department of Health.
+The hospital address list was saved as a Microsoft Excel spreadsheet named "HOSPITAL_LOCATIONS.XLS." The clinic address list
+was saved as a Microsoft Excel spreadsheet named "CLINIC_LOCATIONS.XLS."
+</procdesc>
+        <srcused>
+ISDH Hospital Directory (http://www.indiana.gov/isdh/regsvcs/acc/hospital/wdirhos.htm); ISDH Rural Health
+Clinic Facility Directory (http://www.in.gov/isdh/regsvcs/acc/rhcdir/wdirrhc.htm)
+</srcused>
+        <procdate>20070322</procdate>
+        <srcprod>HOSPITAL_LOCATIONS.XLS, CLINIC_LOCATIONS.XLS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Technician</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>
+812-855-2862
+Contact_Website: http://igs.indiana.edu/
+</cntfax>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel used street information licensed from Tele Atlas in ESRI ArcMap 9.2 to build an "Address Locator." Using
+the "Geocoding" tool to perform address matching, HOSPITAL_LOCATIONS.XLS and CLINIC_LOCATIONS.XLS were address-
+matched. A total of 144 hospitals were matched to known addresses. Sixteen (16) hospital locations needed to be manually
+plotted using the "Editor" tool in ESRI ArcMap, together with locations obtained using Google searches, MapQuest, and
+inspection of aerial photographs of the 2005 Indiana Orthophotography Project. The output was saved as HOSPITALS_ISDH_IN.SHP.
+The following fields were then deleted from the attribute table: "Side," "ARC_Street," "ARC_Zone," "Zip," and "State."
+A total of 48 clinics were matched to known addresses. Seven (7) clinic locations needed to be manually plotted using the "Editor"
+tool in ESRI ArcMap, together with locations obtained using Google searches, MapQuest, and inspection of aerial photographs of
+the 2005 Indiana Orthophotography Project. Two (2) clincs were deleted because they could not be located using Google searches
+and Mapquest. The output was saved as CLINICS_ISDH_IN.SHP. The following fields were then deleted from the attribute table:
+"Side," "ARC_Street," "ARC_Zone," "Zip," and "State."
+Using ESRI ArcToolbox, HOSPITALS_ISDH_IN.SHP and CLINICS_ISDH_IN.SHP were merged to create HOSPITALS_CLINICS_ISDH_IN.SHP
+</procdesc>
+        <srcused>HOSPITAL_LOCATIONS.XLS, Dynamap/2000, v. 17.0</srcused>
+        <procdate>20070510</procdate>
+        <srcprod>HOSPITALS_CLINICS_ISDH_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855-1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20070516</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1369</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>215</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0</absres>
+            <ordres>0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HOSPITALS_CLINICS_ISDH_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Match status from geocoding</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>
+Originally "unmatched" address in batch geocoding. Subsequently
+plotted by personnel of the IGS.
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>"Matched" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>"Tied" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+        <attrdef>
+In geocoding, a value assigned to all potential candidates for an address
+match. The match score is based on how well the location found in the reference data matches
+with the address data being searched. The top score (best match) is 100.
+</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>48</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of hospital or rural health clinic</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Street</attrlabl>
+        <attrdef>Street address of hospital or rural health clinic</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City_Zip</attrlabl>
+        <attrdef>City and Zip-code area in which hospital or rural health clinic is located</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Telephone</attrlabl>
+        <attrdef>Phone number of hospital or rural health clinic</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>
+Type of facility. Types include CHURCH HOSPITAL, LOCAL HOSPITAL, OTHER HOSPITAL,
+PRIVATE HOSPITAL, PROPRIETARY HOSPITAL, STATE HOSPITAL, and RURAL HEALTH CLINIC.
+</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2007, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation must be included: HOSPITALS_CLINICS_ISDH_IN: Hospitals and Rural Health Clinics in
+Indiana in 2007 (Indiana State Department of Health, Point Shapefile), digital representation by Denver Harper
+and Chris Dintaman, 2007.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070601</metd>
+    <metrd>20070601</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1369</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

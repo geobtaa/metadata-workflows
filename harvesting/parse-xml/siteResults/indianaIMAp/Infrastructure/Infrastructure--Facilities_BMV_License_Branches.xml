@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Bureau of Motor Vehicles (BMV) (Data source)</origin>
+        <origin>Indiana Geological Survey (Digital compiler)</origin>
+        <origin>Denver Harper (Digital compiler)</origin>
+        <origin>Chris Dintaman (Digital compiler)</origin>
+        <pubdate>20070514</pubdate>
+        <title>
+BMV_LICENSE_BRANCHES_IN: Bureau of Motor Vehicle License Branch Locations in
+Indiana (Indiana Geological Survey, Point Shapefile)
+</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+Web-site URLs and addresses for each license branch were compiled from the Indiana Bureau of
+Motor Vehicles (BMV), Branch Locator (http://www.in.gov/bmv/branches/). Personnel of the Indiana Geological Survey
+used ESRI ArcMap 9.2 to build an "Address Locator" and used the "Geocoding" tool to perform address matching, using
+street information licensed from Tele Atlas, Dynamap 2000 v. 17.0.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+BMV_LICENSE_BRANCHES_IN is a point shapefile showing the locations of 142 branch offices of the Indiana Bureau of Motor
+Vehicles (BMV). Addresses for each branch office were obtained on March 22, 2007, from the Web site of the
+BMV (http://www.in.gov/bmv/branches/). A shapefile was created using the "Geocoding" tool in ESRI ArcMap 9.2 and street
+information licensed from Tele Atlas, Dynamap 2000 v. 17.0.
+</abstract>
+      <purpose>This data set was compiled to create a statewide GIS layer showing locations of BMV license branches in Indiana.</purpose>
+      <supplinf>Indiana Bureau of Motor Vehicles Web site (http://www.in.gov/bmv/branches/)</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2007</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Data collection date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.945659</westbc>
+        <eastbc>-84.763106</eastbc>
+        <northbc>41.687465</northbc>
+        <southbc>37.882614</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bureau of Motor Vehicles (BMV)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>license branch</themekey>
+        <themekey>license bureau</themekey>
+        <themekey>license</themekey>
+        <themekey>license plate</themekey>
+        <themekey>driver's license</themekey>
+        <themekey>branch office</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 9.2 shapefile format, approximately 303 Kb</native>
+    <useconst>Infrastructure--Facilities_BMV_License_Branches</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Street addresses for branch office locations were obtained from the Web site of the Indiana Bureau of Motor Vehicles
+and are assumed to be accurate. Automated geocoding produced match scores of 100 percent for 111 offices and match scores of
+81 to 96 percent for 16 offices. Nine locations were re-matched to produce scores ranging from 32 to 76 percent. Six
+locations could not be matched (match score equals zero); the locations of these offices were determined by using
+MapQuest (http://www.mapquest.com/maps/) or by plotting the nearest town center.
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>All branch offices listed by the Indiana Bureau of Motor Vehicles have been included.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+For match scores greater than 80 percent, plotted locations are generally within a few hundred feet of actual locations.
+For match scores less than 80 percent, horizontal accuracy is unknown.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Bureau of Motor Vehicles</origin>
+            <pubdate>2007</pubdate>
+            <title>Branch Locator (http://www.in.gov/bmv/branches/)</title>
+            <geoform>Web site</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>On line</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2007</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Branch Locator (http://www.in.gov/bmv/branches/)</srccitea>
+        <srccontr>Addresses of BMV branch offices with Web-site URLs for each branch.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tele Atlas</origin>
+            <pubdate>2007</pubdate>
+            <title>Dynamap 2000</title>
+            <edition>17.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Lebanon, New Hampshire</pubplace>
+              <publish>Tele Atlas</publish>
+            </pubinfo>
+            <othercit>Indiana Roads from Tele Atlas, Dynamap 2000 v. 17.0, licensed to the Indiana Geological Survey</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Indiana Roads from Tele Atlas, Dynamap 2000 v. 17.0</srccitea>
+        <srccontr>Indiana streets and roads suitable for geocoding</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Web-site URLs and addresses for each license branch were compiled by personnel of the Indiana Geological Survey (IGS)
+from the Indiana Bureau of Motor Vehicles (BMV), Branch Locator (http://www.in.gov/bmv/branches/). The BMV address list
+was savee as a Microsoft Excel spreadsheet named "BMV_LOCATIONS.XLS."
+</procdesc>
+        <srcused>Indiana BMV Branch Locator (http://www.in.gov/bmv/branches/)</srcused>
+        <procdate>20070305</procdate>
+        <srcprod>BMV_LOCATIONS.XLS</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Tyler Putt</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Technician</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>
+812-855-2862
+Contact_Website: http://igs.indiana.edu/
+</cntfax>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel used street information licensed from Tele Atlas in ESRI ArcMap 9.2 to build an "Address Locator." Using
+the "Geocoding" tool to perform address matching, locations contained in BMV_LOCATIONS.XLS were address-matched. All 136
+branch locations were matched to known addresses. Six locations needed to be plotted manually, either by using locations
+plotted by MapQuest or using the nearest town center. The output was saved as BMV_LICENSE_BRANCHES_IN.SHP. The following
+fields were then deleted from the attribute table: "Side," "ARC_Street," "ARC_Zone," "Address2," and "State."
+</procdesc>
+        <srcused>BMV_LOCATIONS.XLS, Dynamap 2000 v. 17.0</srcused>
+        <procdate>20070510</procdate>
+        <srcprod>BMV_LICENSE_BRANCHES_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20070517</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>142</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0</absres>
+            <ordres>0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BMV_LICENSE_BRANCHES_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Match status from geocoding</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>
+Originally "Unmatched" address in batch geocoding. Subsequently
+plotted by personnel of the IGS.
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>"Matched" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>"Tied" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+        <attrdef>
+In geocoding, a value assigned to all potential candidates for an address match. The match score
+is based on how well the location found in the reference data matches with the address data being searched.
+A score of 100 represents the best possible match to the street network that is being utilized by the
+geocoding tool, while lower scores represent relatively less reliable matches.
+</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>County in which license branch is located</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Building</attrlabl>
+        <attrdef>Name of branch office</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Street address of branch office</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>City in which branch office is located</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZipCode</attrlabl>
+        <attrdef>Zip code of branch office</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phone</attrlabl>
+        <attrdef>Phone number of branch office</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Website</attrlabl>
+        <attrdef>Web site URL for branch office</attrdef>
+        <attrdefs>Indiana Bureau of Motor Vehicles</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+COPYRIGHT 2007, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation must be included: BMV_LICENSE_BRANCHES_IN: Bureau of Motor Vehicle License Branch Locations in
+Indiana (Indiana Geological Survey, Point Shapefile), digital representation by Denver Harper and Chris Dintaman, 2007.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070514</metd>
+    <metrd>20070517</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological and Water Survey (IGWS) (Data processor)</origin>
+        <origin>Indiana State Department of Health (ISDH) (Data originator)</origin>
+        <pubdate>20180226</pubdate>
+        <title>NALOXONE_PROVIDERS_ISDH_IN.SHP: Registered Naloxone Dispensing Entities in Indiana (Indiana State Department of Health, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological and Water Survey</publish>
+        </pubinfo>
+        <othercit>
+NOTE: NALOXONE_PROVIDERS_ISDH_IN.SHP is an Esri point shapefile that was produced from data that were harvested on February 26, 2018 from the
+"Overdose Prevention Therapy-Indiana Registry" website of the Indiana State Department of Health (ISDH). These data should not be considered
+completely current, as entities could potentially be added or removed from the registry since the last date of publication. Further, entities
+that temporarily run out of naloxone stock are temporarily removed from the live optIN Registry website, and are reinstated when the ISDH is
+notified that the entity has been resupplied with dosages. For the most current information about naloxone entities, and other related online
+resources, please visit the ISDH optIN Registry website ( https://optin.in.gov/ ).
+
+The following is excerpted from the file named "Indiana-Statewide-Naloxone-Standing-Order-Toolkit.pdf" which is
+hosted online by the ISDH ( https://optin.in.gov/files/Indiana-Statewide-Naloxone-Standing-Order-Toolkit.pdf ):
+
+"Naloxone Entity Defined - "Naloxone Entities" may include pharmacies, pharmacists or other
+non-pharmacy organizations, non-profit entities or individuals that are in a position to
+assist an individual who, there is reason to believe, is at risk of experiencing an
+opioid-related overdose. Naloxone Entities must, at all times, comply with the following
+criteria and all other conditions enumerated in Indiana Code 16-42-27 et seq.:
+
+"1. Obtain naloxone from a prescriber (physician, physician assistant or advanced
+practice nurse with authority to prescribe) either by virtue of the attached standing
+order or other standing order or prescription issued by a prescriber;
+
+"2. Annually register as a "Naloxone Entity" at https://optin.in.gov/ in a manner prescribed
+by the Indiana State Department of Health (ISDH);
+
+"3. Provide education and training on drug overdose response and treatment, including the
+administration of an overdose intervention drug and the legal requirement to call 9-1-1
+immediately before or after administering the drug; and
+
+"4. Provide drug addiction treatment information and referrals to drug treatment programs,
+including programs in the local area and programs that offer medication assisted treatment
+that includes a federal Food and Drug Administration approved long acting, non-addictive
+medication for the treatment of opioid or alcohol dependence."
+
+The ISDH optIN website ( https://optin.in.gov/ ) also states the following:
+
+"The state is committed to saving lives by making naloxone, a drug that reverses the symptoms of opioid overdose,
+available to first responders, family, friends and others who are likely to be the first on the scene if someone
+overdoses. Naloxone, also known by the brand name "Narcan," is a non-narcotic medication that is an antidote for
+opioid overdoses. If administered in a timely manner, naloxone can reverse the life-threatening respiratory failure
+that is usually the cause of overdose deaths. Naloxone has been proven effective in reversing overdoses caused by
+heroin and prescription medications such as "OxyContin," "Percocet," "Methadone," and "Vicodin."
+
+"The ISDH has created the Overdose Prevention Therapy-Indiana, or optIN, registry where entities can register as
+naloxone dispensers. The registry, which can be accessed at www.optin.in.gov, allows nonprofits, pharmacies, local
+health departments, addiction treatment facilities, correctional facilities and other entities to register as providers
+of naloxone. Entities must provide training in the use of naloxone, instruct those who administer it to call 911 and
+provide a list of options for substance abuse treatment. Registered entities must annually report, among other things,
+the number of naloxone doses distributed to the state."
+
+Visit the following webpage for further information from the ISDH concerning opioid misuse, prevention, and fatal
+overdoses - ( https://www.in.gov/isdh/27358.htm ).
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+NALOXONE_PROVIDERS_ISDH_IN.SHP is an Esri point shapefile showing the locations of 705 registered Naloxone Entities in Indiana.
+These registered entities can dispense naloxone to people without a prescription (no prescription is needed). A person seeking naloxone
+can ask the entity to use the state health commissioner's "Statewide Standing Order." The Statewide Standing Order, authorized by I.C 16-42-27,
+is renewed each year. Naloxone Entities must at all times remain compliant with Indiana law to act under the Statewide Standing Order, and
+abide by the attestations made on the optIN Registry website. All entities are also required to provide training for usage of naloxone, as
+well as to provide other available addictions resources within Indiana. Attribute information includes entity name, address, contact phone,
+contact email, and website URLs.
+
+NOTE: NALOXONE_PROVIDERS_ISDH_IN.SHP should not be considered completely current, as entities could potentially be added or removed from
+the registry since the last date of publication (20180226). Further, entities that temporarily run out of naloxone stock are temporarily
+removed from the live optIN Registry website, and are reinstated when the ISDH is notified that the entity has been resupplied with
+dosages. For the most current information about Naloxone Entities in Indiana, and other related online resources, please visit the
+ISDH optIN Registry website ( https://optin.in.gov/ ).
+</abstract>
+      <purpose>
+NALOXONE_PROVIDERS_ISDH_IN.SHP was created to provide a GIS layer that shows the registered Naloxone Entities in Indiana. These registered
+entities have the ability to provide a person access to dosages of the non-narcotic medication naloxone, as well as to provide training or
+assistance in usage of naloxone. For the most current information about Naloxone Entities in Indiana, and other related online resources,
+please visit the ISDH optIN Registry website ( https://optin.in.gov/ ).
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180226</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.945276</westbc>
+        <eastbc>-84.762980</eastbc>
+        <northbc>41.756497</northbc>
+        <southbc>37.915590</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>health</themekey>
+        <themekey>location</themekey>
+        <themekey>structure</themekey>
+      </theme>
+      <theme>
+        <themekt>IGWS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological and Water Survey (IGWS)</themekey>
+        <themekey>Indiana State Department of Health (ISDH)</themekey>
+        <themekey>Overdose Prevention Therapy-Indiana Registry (optIN)</themekey>
+        <themekey>naloxone</themekey>
+        <themekey>non-narcotic medication</themekey>
+        <themekey>Narcan</themekey>
+        <themekey>opioid antidote</themekey>
+        <themekey>OxyContin</themekey>
+        <themekey>Percocet</themekey>
+        <themekey>Methadone</themekey>
+        <themekey>Vicodin</themekey>
+        <themekey>heroin</themekey>
+        <themekey>nonprofits</themekey>
+        <themekey>pharmacies</themekey>
+        <themekey>local health departments</themekey>
+        <themekey>addiction treatment facilities</themekey>
+        <themekey>correctional facilities</themekey>
+        <themekey>school</themekey>
+        <themekey>medical service</themekey>
+        <themekey>substance abuse</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana State Department of Health</cntorg>
+          <cntper>Chris Waldron</cntper>
+        </cntorgp>
+        <cntpos>Director of Health Data, Informatics, and Geographics (HDIG)</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>2 N Meridian Street</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 233 5570</cntvoice>
+        <cntemail>cwaldron@isdh.in.gov</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Esri ArcGIS point shapefile format (v 10.5), approximately 500 Kb</native>
+    <useconst>Infrastructure--Facilities_Naloxone_Providers_ISDH</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All attributes values were harvested from the ISDH optIn Registry website ( https://optin.in.gov/ ) and are assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>Esri point shapefile format.</logic>
+    <complete>This dataset contains all naloxone dispensing entities in Indiana (as of 20180226) that have registered on the ISDH optIn Registry website ( https://optin.in.gov/ ).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The data were provided by ISDH and assumed to be accurate.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana State Department of Health</origin>
+            <pubdate>20180226</pubdate>
+            <title>"Overdose Prevention Therapy-Indiana Registry" (optIN)</title>
+            <geoform>Website</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana State Department of Health</publish>
+            </pubinfo>
+            <onlink>https://optin.in.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20180226</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>optIN_Naloxone_Dispensers_26Feb2018.txt (GeoJSON format)</srccitea>
+        <srccontr>Provides locations of registered naloxone dispensing entities in Indiana as of February 26, 2018.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+IGWS personnel harvested the locations of registered naloxone entites in Indiana from the ISDH "Overdose Prevention Therapy-Indiana Registry" (optIN)
+website, and saved the output as a text file named "optIN_Naloxone_Dispensers_26Feb2018.txt" in GeoJSON format. The GeoJSON file was then converted
+to an Esri point shapefile using an online conversion tool ( https://mygeodata.cloud/converter/geojson-to-shp ). The resulting shapefile was reprojected
+to UTM (Zone 16 North) coordinates (NAD83), and saved as "NALOXONE_PROVIDERS_ISDH_IN.SHP" to conform to naming conventions of the IGWS. The following
+empty or superfluous attribute fields were then deleted from the attribute table; CNTY, ORG, ADR, GEO, PHYS, HOURS, STATE, and WEBNAME. Also, one entity
+was removed because the actual location is in Michigan, while five entity locations were manually re-adjusted to more accurate locations (Walgreens #12812,
+Walgreens #5141, Walgreens #5718, Walgreens #7618, and Walgreens #9359) by visual inspection using aerial imagery and online web search results for store
+address locations.
+</procdesc>
+        <srcused>optIN_Naloxone_Dispensers_26Feb2018.txt (GeoJSON format)</srcused>
+        <procdate>20180226</procdate>
+        <srcprod>NALOXONE_PROVIDERS_ISDH_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+After internal review of the data, IGWS personnel added the attribute field named "TypeCorr" to the attribute table so that potential errors in the facility
+designation attribute field named "EntityType" could be fixed. A total of sixteen (16) records were estimated to have an entity designation that were in error.
+A better estimate for these 16 entities were based on interpretation of the information provided in the "Name" attribute field. (For example, the entity named
+"Bloomington Police Department" was originally labeled as "other (99)" but has now been attributed to represent "Corrections/Fire (30)".
+</procdesc>
+        <procdate>20180319</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer
+(U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20180413</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological and Water Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>705</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>NALOXONE_PROVIDERS_ISDH_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of entity</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STREET</attrlabl>
+        <attrdef>Street address for the entity location</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>City name where the entity is located</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>ZIP Code for the address where the entity is located</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHONE</attrlabl>
+        <attrdef>Telephone number for contact for the entity</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EMAIL</attrlabl>
+        <attrdef>Electronic-mail address for contact for the entity</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WEB</attrlabl>
+        <attrdef>Website URL address for the entity</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENTITYTYPE</attrlabl>
+        <attrdef>Coded value for the type of entity</attrdef>
+        <attrdefs>Indiana State Department of Health</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Entity is designated as a "501(c) Non-Profit" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Entity is designated as a "Addictions Treatment" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Entity is designated as a "Corrections" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>Entity is designated as a "Health Department" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>Entity is designated as a "Pharmacy" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>60</edomv>
+            <edomvd>Entity is designated as a "School" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>Entity is designated as "Other" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPECORR</attrlabl>
+        <attrdef>coded value for the type of entity (IGWS corrected 16 entties designations, based on the facility names)</attrdef>
+        <attrdefs>Indiana Geological and Water Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Entity is designated as a "501(c) Non-Profit" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Entity is designated as a "Addictions Treatment" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>Entity is designated as a "Corrections" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>Entity is designated as a "Health Department" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>Entity is designated as a "Pharmacy" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>60</edomv>
+            <edomvd>Entity is designated as a "School" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>Entity is designated as "Other" facility</edomvd>
+            <edomvds>Indiana State Department of Health</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological and Water Survey be cited in any products generated from this data. The
+following source citation should be included: [NALOXONE_PROVIDERS_ISDH_IN.SHP: Registered Naloxone Dispensing Entities
+in Indiana (Indiana State Department of Health, Point Shapefile), 20180226].
+
+WARRANTY
+
+Indiana University, Indiana Geological and Water Survey warrants that the media on which this product is stored will be free
+from defect in materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return
+the media to Publication Sales, Indiana Geological and Water Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana
+47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions,
+expressed or implied, including, but not limited to, warranties for product quality, or suitability to a particular purpose
+or use. The risk or liability resulting from the use of this product is assumed by the user. Indiana University,
+Indiana Geological and Water Survey shares no liability with product users indirect, incidental, special, or consequential
+damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial
+or economic loss. Indiana University, Indiana Geological and Water Survey is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180227</metd>
+    <metrd>20180413</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological and Water Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGWS. It is not to be altered or summarized. IGWS does
+not support secondary distribution. If this data set was received from anyone other than the IGWS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

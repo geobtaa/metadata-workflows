@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey (IGS)</origin>
+        <origin>Center for Geospatial Data Analysis (CGDA)</origin>
+        <origin>Sally L. Letsinger (data compiler)</origin>
+        <pubdate>20150630</pubdate>
+        <title>Aquifer_Sensitivity_Near_Surface_IN: Aquifer sensitivity in shallow aquifers, Indiana (Indiana Geological Survey, 100-Meter TIFF Image)</title>
+        <edition>1.0</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>None</othercit>
+        <onlink>None</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological Survey</origin>
+            <origin>Sally L. Letsinger</origin>
+            <pubdate>2015</pubdate>
+            <title>Relationship of groundwater recharge rates to aquifer sensitivity to contamination in shallow aquifers in Indiana using multiple regression analysis</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Aquifer_Sensitivity_Near_Surface_IN is a raster data layer that displays a reclassified raster data layer of estimated rates of diffuse groundwater recharge to the water table in shallow aquifers in Indiana (see Aquifer_Recharge_Near_Surface_IN). The goal of this project was to use an objective, reproducible methodology to rank aquifer sensitivity in shallow aquifers based on estimates of diffuse groundwater recharge rates. To achieve the aquifer sensitivity ranking, the groundwater recharge rates were classified by standard deviation, and the classifications were then compared to databases of contaminants in groundwater to validate the classification.</abstract>
+      <purpose>This data set was created to support decision making in Indiana where knowledge of the sensitivity to aquifer contamination is desired.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1900</begdate>
+          <enddate>2013</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Aquifer_Sensitivity_Near_Surface_IN</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificinformation</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>recharge</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>regression</themekey>
+        <themekey>probability</themekey>
+        <themekey>landscape variables</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aquifer sensitivity</themekey>
+        <themekey>contamination</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.2.1 (build 3497) raster (TIFF) format, Windows 7, approximately 1.73 Mb</native>
+    <useconst>Hydrology--Aquifer_Sensitivity_Near_Surface</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The ranges of all numeric attributes that went into the analysis were checked to ensure the values represented the content of the field. The attribute accuracy varies by the original source scale of the data used to calculate each field. Many high resolution data inputs used to calculate each field were degraded in scale when mean values or centroid samples were taken to represent the independent landscape variables at a resolution of 100 m.</attraccr>
+    </attracc>
+    <logic>Checks for duplicates (unique values in unique records) were performed on this data set. No checks on topology were performed on this data set.</logic>
+    <complete>All fields were checked to ensure that all records were populated.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The raster resolution is 100 meters; the horizontal positional accuracy of the raster is 200 meters. The effective horizontal accuracy for the value attributes of groundwater recharge is unknown; the raster values represent a predicted value of groundwater recharge, but 95% confidence limits are not represented in this product.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data layer.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Center for Geospatial Data Analysis, Indiana Geological Survey</origin>
+            <pubdate>20150630</pubdate>
+            <title>Aquifer_Recharge_Near_Surface_IN: Groundwater recharge rates to shallow aquifers, Indiana (Indiana Geological Survey, 100-Meter TIFF Image)</title>
+            <geoform>Raster digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>200000</srcscale>
+        <typesrc>Offline Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1900</begdate>
+              <enddate>2013</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Data collection date</srccurr>
+        </srctime>
+        <srccitea>Recharge rate estimates, 2015</srccitea>
+        <srccontr>Estimates of estimated diffuse recharge rates to the water table in glacial environments, Indiana, in inches per year</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The recharge rate estimates (2015) for Indiana were classified by standard deviation in the Symbology editor of ESRI ArcMap, resulting in five categories. The categories are "Very Low" (sensitivity to contamination, equating to very low recharge rates: 0.0-0.8 inches/year), "Low" (sensitivity to contamination, equating to low recharge rates: 0.08-4.3 inches/year), "Moderate" (sensitivity to contamination, equating to moderate recharge rates: 4.3-6.1 inches/year), "High" (sensitivity to contamination, equating to high recharge rates: 6.1-9.7 inches/year), and "Very High" (sensitivity to contamination, equating to very high recharge rates: &gt;9.7 inches/year). Recharge rates fall within 0-14 inches per year in the estimates that resulted from a multiple regression analysis. To validate the classification, databases (Indiana Department of Environmental Management, Indiana Geological Survey) were used to identify the recharge rates and sensitivity classifications of aquifers already compromised by contamination. The highest density of contaminated sites was in the "very high" category, whereas the lowest density of contamination was in the very low, low, and moderate categories. Dissolved metals were found in every classification, likely at landfills and leaking underground storage tanks, highlighting that the conceptual model for the recharge estimates was for diffuse flow from the surface, and not for point sources of contamination from introduction into the subsurface.</procdesc>
+        <srcused>Recharge rate estimates, 2015</srcused>
+        <procdate>2015</procdate>
+        <srcprod>Aquifer_Sensitivity_Near_Surface_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150630</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Sally L. Letsinger</cntper>
+              <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>4438</rowcount>
+      <colcount>2879</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Aquifer_Sensitivity_Near_Surface_IN.tif.vat.dbf</enttypl>
+        <enttypd>TIF attribute table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Aquifer sensitivity classification</attrdef>
+        <attrdefs>Center for Geospatial Data Analysis, Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Very low sensitivity to contamination, equating to recharge rates: 0-0.8 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Moderate sensitivity to contamination, equating to recharge rates: 0.8-4.3 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>High sensitivity to contamination, equating to recharge rates: 4.3-6.1 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Very high sensitivity to contamination, equating to recharge rates: 6.1-9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Very high sensitivity to contamination, equating to recharge rates: &gt; 9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>A nominal integer value that designates the number of pixels with the same value</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Integer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rech_in_yr</attrlabl>
+        <attrdef>Estimated groundwater recharge range for aquifer sensitivity classification</attrdef>
+        <attrdefs>Center for Geospatial Data Analysis, Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0.0 - 0.8 in/year</edomv>
+            <edomvd>Recharge rates: 0-0.8 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>0.8 - 4.3 in/year</edomv>
+            <edomvd>Recharge rates: 0.8-4.3 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>4.3 - 6.1 in/year</edomv>
+            <edomvd>Recharge rates: 4.3-6.1 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>6.1 - 9.7 in/year</edomv>
+            <edomvd>Recharge rates: 6.1-9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>9.7 - 14.0 in/year</edomv>
+            <edomvd>Recharge rates: &gt; 9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AqSens</attrlabl>
+        <attrdef>Aquifer sensitivity classification description</attrdef>
+        <attrdefs>Center for Geospatial Data Analysis, Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Very low</edomv>
+            <edomvd>Very low sensitivity to contamination, equating to recharge rates: 0-0.8 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>Low</edomv>
+            <edomvd>Low sensitivity to contamination, equating to recharge rates: 0.8-4.3 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>Medium</edomv>
+            <edomvd>Moderate sensitivity to contamination, equating to recharge rates: 4.3-6.1 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>High</edomv>
+            <edomvd>High sensitivity to contamination, equating to recharge rates: 6.1-9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>Very high</edomv>
+            <edomvd>Very high sensitivity to contamination, equating to recharge rates: &gt; 9.7 inches/year</edomvd>
+            <edomvds>Center for Geospatial Data Analysis, Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Offline Data</resdesc>
+    <distliab>
+COPYRIGHT 2015, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: Aquifer_Sensitivity_Near_Surface_IN: Aquifer sensitivity in shallow aquifers, Indiana (Indiana Geological Survey, 100-Meter TIFF Image), digital compilation by Sally L. Letsinger, 2015.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150630</metd>
+    <metrd>20150630</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Center for Geospatial Data Analysis, Indiana Geological Survey</cntorg>
+          <cntper>Sally L. Letsinger</cntper>
+        </cntorgp>
+        <cntpos>Research Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1356</cntvoice>
+        <cntfax>812 855 2781</cntfax>
+        <cntemail>sletsing@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered
+or summarized. IGS does not support secondary distribution. If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

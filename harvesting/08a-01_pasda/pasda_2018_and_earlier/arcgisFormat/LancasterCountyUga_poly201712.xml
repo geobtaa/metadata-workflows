@@ -1,0 +1,637 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Lancaster County Urban Growth Area - Polygon</title>
+        <geoform>vector digital data</geoform>
+        <origin>County of Lancaster</origin>
+        <pubdate>201712</pubdate>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <status>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.667304</westbc>
+        <eastbc>-75.954501</eastbc>
+        <northbc>40.281346</northbc>
+        <southbc>39.734068</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>urban growth boundaries</themekey>
+        <themekey>village growth boundaries</themekey>
+        <themekey>municipal boundaries</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>150 N Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</native>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201712</caldate>
+        </sngdate>
+      </timeinfo>
+    </timeperd>
+    <descript>
+      <abstract>LancasterCountyUga_poly201712</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>174</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Lancaster County UGA_poly</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>type of growth boundary</attrdef>
+        <attrdefs>Lancaster County Planning</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>UGB</edomv>
+            <edomvd>Urban Growth Boundary</edomvd>
+          </edom>
+          <edom>
+            <edomv>VGB</edomv>
+            <edomvd>Village Growth Boundary</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNICIPAL_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ADOPTED</attrlabl>
+        <attrdef>current status of growth area</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Adopted</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Draft</edomvd>
+          </edom>
+          <edom>
+            <edomv>A</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_ID</attrlabl>
+        <attrdef>municipal district number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MUNI_NAME</attrlabl>
+        <attrdef>Name of Municipality</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>UGB_NAME</attrlabl>
+        <attrdef>Name of growth zone enclosing the polygon </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACREAGE</attrlabl>
+        <attrdef>Calculated acreage of Polygon</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>TYPE_STAT</attrlabl>
+        <attrdef>Type and status of growth boundary combined</attrdef>
+        <attrdefs>Lancaster County Planning</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AU</edomv>
+            <edomvd>Abopted UGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>AV</edomv>
+            <edomvd>Adopted VGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>DU</edomv>
+            <edomvd>Draft UGB</edomvd>
+          </edom>
+          <edom>
+            <edomv>DV</edomv>
+            <edomvd>Draft VGB </edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_len</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201712</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>County of Lancaster</cntorg>
+          <cntper>IT/GIS</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>150 N. Queen St., Suite 322</address>
+          <city>Lancaster</city>
+          <state>PA</state>
+          <postal>17603</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>717-391-7550</cntvoice>
+        <cntemail>ithelpdesk@co.lancaster.pa.us</cntemail>
+      </cntinfo>
+    </metc>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>IT/GIS</rpIndName>
+    <rpOrgName>County of Lancaster</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-391-7550</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>150 N. Queen St., Suite 322</delPoint>
+        <city>Lancaster</city>
+        <adminArea>PA</adminArea>
+        <postCode>17603</postCode>
+        <country>US</country>
+        <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20171201</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Lancaster County Urban Growth Area - Polygon</resTitle>
+      <date>
+        <pubDate>2017-03</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>County of Lancaster</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This a county-wide coverage that contains polygons showing the urban and village growth boundaries in the county. Growth boundaries are split along municipal boundaries.</idAbs>
+    <idPurp>Data created for Lancaster County planning. Intended for illustration and demonstration purposes only.</idPurp>
+    <idPoC>
+      <rpIndName>IT/GIS</rpIndName>
+      <rpOrgName>County of Lancaster</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-391-7550</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>150 N Queen St., Suite 322</delPoint>
+          <city>Lancaster</city>
+          <adminArea>PA</adminArea>
+          <postCode>17603</postCode>
+          <eMailAdd>ithelpdesk@co.lancaster.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>village growth boundaries</keyword>
+      <keyword>urban growth boundaries</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>planningCadastre</keyword>
+      <keyword>municipal boundaries</keyword>
+      <keyword>village growth boundaries</keyword>
+      <keyword>urban growth boundaries</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>See access and use constraints information.</useLimit>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>For use at 1:2400 or smaller scale. For educational/demonstration purposes only. The Originator, Publisher and Distributor exclude any and all implied warranties and make no warranty or representation with respect to the data files or accompanying documentation, including quality, performance, merchantability or fitness for a particular purpose. These data files and documentation are provided 'as is' and the User assumes the entire risk as to their quality and performance These data are not to be redistributed for commercial profit. Reproduction or redistribution of this digital data set without permission of the Originator/Publisher is expressly forbidden. The Originator and Publisher should be clearly cited in any product derived from this data. Any modifications to this data must be described in any digital or hardcopy product derived from this data.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.4.4000</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-76.667304</westBL>
+          <eastBL>-75.954501</eastBL>
+          <southBL>39.734068</southBL>
+          <northBL>40.281346</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-03</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="001" />
+        </geoObjTyp>
+        <geoObjCnt>174</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20171223</CreaDate>
+    <CreaTime>10482700</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b7cc849d61138bb38dfdcf73cd4d81f" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDx0aXRsZT5M
+YW5jYXN0ZXIgQ291bnR5IFVyYmFuIEdyb3d0aCBBcmVhIC0gUG9seWdvbjwvdGl0bGU+DQogICAg
+ICAgIDxnZW9mb3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICAgIDxvcmln
+aW4+Q291bnR5IG9mIExhbmNhc3Rlcjwvb3JpZ2luPg0KICAgICAgICA8cHViZGF0ZT4yMDE3MDE8
+L3B1YmRhdGU+DQogICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5wYXNkYS5wc3UuZWR1Lzwvb25s
+aW5rPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdD4N
+CiAgICAgIDxhYnN0cmFjdD5UaGlzIGEgY291bnR5LXdpZGUgY292ZXJhZ2UgdGhhdCBjb250YWlu
+cyBwb2x5Z29ucyBzaG93aW5nIHRoZSB1cmJhbiBhbmQgdmlsbGFnZSBncm93dGggYm91bmRhcmll
+cyBpbiB0aGUgY291bnR5LiBHcm93dGggYm91bmRhcmllcyBhcmUgc3BsaXQgYWxvbmcgbXVuaWNp
+cGFsIGJvdW5kYXJpZXMuPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPkRhdGEgY3JlYXRlZCBm
+b3IgTGFuY2FzdGVyIENvdW50eSBwbGFubmluZy4gSW50ZW5kZWQgZm9yIGlsbHVzdHJhdGlvbiBh
+bmQgZGVtb25zdHJhdGlvbiBwdXJwb3NlcyBvbmx5LjwvcHVycG9zZT4NCiAgICA8L2Rlc2NyaXB0
+Pg0KICAgIDxzdGF0dXM+DQogICAgICA8dXBkYXRlPkFzIG5lZWRlZDwvdXBkYXRlPg0KICAgIDwv
+c3RhdHVzPg0KICAgIDxzcGRvbT4NCiAgICAgIDxib3VuZGluZz4NCiAgICAgICAgPHdlc3RiYz4t
+NzYuNjY3MzA0PC93ZXN0YmM+DQogICAgICAgIDxlYXN0YmM+LTc1Ljk1NDUwMTwvZWFzdGJjPg0K
+ICAgICAgICA8bm9ydGhiYz40MC4yODEzNDY8L25vcnRoYmM+DQogICAgICAgIDxzb3V0aGJjPjM5
+LjczNDA2ODwvc291dGhiYz4NCiAgICAgIDwvYm91bmRpbmc+DQogICAgPC9zcGRvbT4NCiAgICA8
+a2V5d29yZHM+DQogICAgICA8dGhlbWU+DQogICAgICAgIDx0aGVtZWt0PklTTyAxOTExNSBUb3Bp
+YyBDYXRlZ29yaWVzPC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+dXJiYW4gZ3Jvd3RoIGJv
+dW5kYXJpZXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+dmlsbGFnZSBncm93dGggYm91
+bmRhcmllczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5tdW5pY2lwYWwgYm91bmRhcmll
+czwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5wbGFubmluZ0NhZGFzdHJlPC90aGVtZWtl
+eT4NCiAgICAgIDwvdGhlbWU+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8YWNjY29uc3Q+Tm9uZTwv
+YWNjY29uc3Q+DQogICAgPHVzZWNvbnN0PkZvciB1c2UgYXQgMToyNDAwIG9yIHNtYWxsZXIgc2Nh
+bGUuIEZvciBlZHVjYXRpb25hbC9kZW1vbnN0cmF0aW9uIHB1cnBvc2VzIG9ubHkuIFRoZSBPcmln
+aW5hdG9yLCBQdWJsaXNoZXIgYW5kIERpc3RyaWJ1dG9yIGV4Y2x1ZGUgYW55IGFuZCBhbGwgaW1w
+bGllZCB3YXJyYW50aWVzIGFuZCBtYWtlIG5vIHdhcnJhbnR5IG9yIHJlcHJlc2VudGF0aW9uIHdp
+dGggcmVzcGVjdCB0byB0aGUgZGF0YSBmaWxlcyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlv
+biwgaW5jbHVkaW5nIHF1YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHkgb3IgZml0
+bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UuIFRoZXNlIGRhdGEgZmlsZXMgYW5kIGRvY3Vt
+ZW50YXRpb24gYXJlIHByb3ZpZGVkICdhcyBpcycgYW5kIHRoZSBVc2VyIGFzc3VtZXMgdGhlIGVu
+dGlyZSByaXNrIGFzIHRvIHRoZWlyIHF1YWxpdHkgYW5kIHBlcmZvcm1hbmNlIFRoZXNlIGRhdGEg
+YXJlIG5vdCB0byBiZSByZWRpc3RyaWJ1dGVkIGZvciBjb21tZXJjaWFsIHByb2ZpdC4gUmVwcm9k
+dWN0aW9uIG9yIHJlZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGlnaXRhbCBkYXRhIHNldCB3aXRob3V0
+IHBlcm1pc3Npb24gb2YgdGhlIE9yaWdpbmF0b3IvUHVibGlzaGVyIGlzIGV4cHJlc3NseSBmb3Ji
+aWRkZW4uIFRoZSBPcmlnaW5hdG9yIGFuZCBQdWJsaXNoZXIgc2hvdWxkIGJlIGNsZWFybHkgY2l0
+ZWQgaW4gYW55IHByb2R1Y3QgZGVyaXZlZCBmcm9tIHRoaXMgZGF0YS4gQW55IG1vZGlmaWNhdGlv
+bnMgdG8gdGhpcyBkYXRhIG11c3QgYmUgZGVzY3JpYmVkIGluIGFueSBkaWdpdGFsIG9yIGhhcmRj
+b3B5IHByb2R1Y3QgZGVyaXZlZCBmcm9tIHRoaXMgZGF0YS48L3VzZWNvbnN0Pg0KICAgIDxwdGNv
+bnRhYz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250
+b3JnPkNvdW50eSBvZiBMYW5jYXN0ZXI8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPklUL0dJ
+UzwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAg
+ICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAg
+PGFkZHJlc3M+MTUwIE4gUXVlZW4gU3QuLCBTdWl0ZSAzMjI8L2FkZHJlc3M+DQogICAgICAgICAg
+PGNpdHk+TGFuY2FzdGVyPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQogICAg
+ICAgICAgPHBvc3RhbD4xNzYwMzwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAg
+IDxjbnR2b2ljZT43MTctMzkxLTc1NTA8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+aXRo
+ZWxwZGVza0Bjby5sYW5jYXN0ZXIucGEudXM8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0K
+ICAgIDwvcHRjb250YWM+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2luZG93cyA3IFZlcnNpb24g
+Ni4xIChCdWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sgMTsgRVNSSSBBcmNHSVMgMTAuMC40LjQwMDA8
+L25hdGl2ZT4NCiAgICA8dGltZXBlcmQ+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdk
+YXRlPg0KICAgICAgICAgIDxjYWxkYXRlPjIwMTcwMTwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdk
+YXRlPg0KICAgICAgPC90aW1laW5mbz4NCiAgICA8L3RpbWVwZXJkPg0KICA8L2lkaW5mbz4NCiAg
+PHNwZG9pbmZvPg0KICAgIDxkaXJlY3Q+VmVjdG9yPC9kaXJlY3Q+DQogICAgPHB0dmN0aW5mPg0K
+ICAgICAgPHNkdHN0ZXJtPg0KICAgICAgICA8c2R0c3R5cGU+R1QtcG9seWdvbiBjb21wb3NlZCBv
+ZiBjaGFpbnM8L3NkdHN0eXBlPg0KICAgICAgICA8cHR2Y3RjbnQ+MTc0PC9wdHZjdGNudD4NCiAg
+ICAgIDwvc2R0c3Rlcm0+DQogICAgPC9wdHZjdGluZj4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVm
+Pg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxtYXBwcm9qPg0KICAg
+ICAgICAgIDxtYXBwcm9qbj5MYW1iZXJ0IENvbmZvcm1hbCBDb25pYzwvbWFwcHJvam4+DQogICAg
+ICAgICAgPGxhbWJlcnRjPg0KICAgICAgICAgICAgPHN0ZHBhcmxsPjM5LjkzMzMzMzMzMzMzMzMz
+PC9zdGRwYXJsbD4NCiAgICAgICAgICAgIDxzdGRwYXJsbD40MC45NjY2NjY2NjY2NjY2Nzwvc3Rk
+cGFybGw+DQogICAgICAgICAgICA8bG9uZ2NtPi03Ny43NTwvbG9uZ2NtPg0KICAgICAgICAgICAg
+PGxhdHByam8+MzkuMzMzMzMzMzMzMzMzMzQ8L2xhdHByam8+DQogICAgICAgICAgICA8ZmVhc3Q+
+MTk2ODUwMC4wPC9mZWFzdD4NCiAgICAgICAgICAgIDxmbm9ydGg+MC4wPC9mbm9ydGg+DQogICAg
+ICAgICAgPC9sYW1iZXJ0Yz4NCiAgICAgICAgPC9tYXBwcm9qPg0KICAgICAgICA8cGxhbmNpPg0K
+ICAgICAgICAgIDxwbGFuY2U+Y29vcmRpbmF0ZSBwYWlyPC9wbGFuY2U+DQogICAgICAgICAgPGNv
+b3JkcmVwPg0KICAgICAgICAgICAgPGFic3Jlcz4wLjAwMDAwMDAyNjkwNzk2NDc0NTI0ODU5ODwv
+YWJzcmVzPg0KICAgICAgICAgICAgPG9yZHJlcz4wLjAwMDAwMDAyNjkwNzk2NDc0NTI0ODU5ODwv
+b3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQogICAgICAgIDwvcGxhbmNpPg0KICAgICAg
+PC9wbGFuYXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPkQgTm9ydGggQW1l
+cmljYW4gMTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5HUlMgMTk4MDwvZWxsaXBzPg0K
+ICAgICAgICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZsYXQ+
+Mjk4LjI1NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3JpenN5
+cz4NCiAgPC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQ+DQogICAgICA8ZW50dHlw
+Pg0KICAgICAgICA8ZW50dHlwbD5MYW5jYXN0ZXIgQ291bnR5IFVHQV9wb2x5PC9lbnR0eXBsPg0K
+ICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkZJRDwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkludGVybmFsIGZlYXR1cmUgbnVtYmVyLjwvYXR0cmRl
+Zj4NCiAgICAgICAgPGF0dHJkZWZzPkVzcmk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+
+DQogICAgICAgICAgPHVkb20+U2VxdWVudGlhbCB1bmlxdWUgd2hvbGUgbnVtYmVycyB0aGF0IGFy
+ZSBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQog
+ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlRZUEU8L2F0dHJs
+YWJsPg0KICAgICAgICA8YXR0cmRlZj50eXBlIG9mIGdyb3d0aCBib3VuZGFyeTwvYXR0cmRlZj4N
+CiAgICAgICAgPGF0dHJkZWZzPkxhbmNhc3RlciBDb3VudHkgUGxhbm5pbmc8L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+
+VUdCPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+VXJiYW4gR3Jvd3RoIEJvdW5kYXJ5PC9l
+ZG9tdmQ+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAg
+PGVkb212PlZHQjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPlZpbGxhZ2UgR3Jvd3RoIEJv
+dW5kYXJ5PC9lZG9tdmQ+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0K
+ICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5NVU5JQ0lQQUxf
+PC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+QURPUFRFRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPmN1cnJlbnQgc3RhdHVzIG9m
+IGdyb3d0aCBhcmVhPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVk
+b20+DQogICAgICAgICAgICA8ZWRvbXY+WTwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkFk
+b3B0ZWQ8L2Vkb212ZD4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAg
+ICAgICAgICA8ZWRvbXY+TjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkRyYWZ0PC9lZG9t
+dmQ+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVk
+b212PkE8L2Vkb212Pg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TVVOSV9JRDwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPm11bmljaXBhbCBkaXN0cmljdCBudW1iZXI8L2F0dHJk
+ZWY+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk1VTklf
+TkFNRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPk5hbWUgb2YgTXVuaWNpcGFsaXR5PC9h
+dHRyZGVmPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5V
+R0JfTkFNRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPk5hbWUgb2YgZ3Jvd3RoIHpvbmUg
+ZW5jbG9zaW5nIHRoZSBwb2x5Z29uIDwvYXR0cmRlZj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxh
+dHRyPg0KICAgICAgICA8YXR0cmxhYmw+QUNSRUFHRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkNhbGN1bGF0ZWQgYWNyZWFnZSBvZiBQb2x5Z29uPC9hdHRyZGVmPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5UWVBFX1NUQVQ8L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5UeXBlIGFuZCBzdGF0dXMgb2YgZ3Jvd3RoIGJvdW5kYXJ5IGNvbWJp
+bmVkPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+TGFuY2FzdGVyIENvdW50eSBQbGFubmlu
+ZzwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAg
+ICAgICAgIDxlZG9tdj5BVTwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkFib3B0ZWQgVUdC
+PC9lZG9tdmQ+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAg
+ICAgPGVkb212PkFWPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+QWRvcHRlZCBWR0I8L2Vk
+b212ZD4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8
+ZWRvbXY+RFU8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5EcmFmdCBVR0I8L2Vkb212ZD4N
+CiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+
+RFY8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5EcmFmdCBWR0IgPC9lZG9tdmQ+DQogICAg
+ICAgICAgPC9lZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TSEFQRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRl
+cyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5TSEFQRV9hcmVhPC9h
+dHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+QXJlYSBvZiBmZWF0dXJlIGluIGludGVybmFsIHVu
+aXRzIHNxdWFyZWQuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RXNyaTwvYXR0cmRlZnM+
+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Qb3NpdGl2ZSByZWFsIG51bWJl
+cnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0
+dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5T
+SEFQRV9sZW48L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgIDwvZGV0YWlsZWQ+DQogIDwv
+ZWFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPGRpc3RsaWFiPlNlZSBhY2Nlc3MgYW5kIHVzZSBj
+b25zdHJhaW50cyBpbmZvcm1hdGlvbi48L2Rpc3RsaWFiPg0KICAgIDxzdGRvcmRlcj4NCiAgICAg
+IDxkaWdmb3JtPg0KICAgICAgICA8ZGlndGluZm8+DQogICAgICAgICAgPGZvcm1uYW1lPlNERSBG
+ZWF0dXJlIENsYXNzPC9mb3JtbmFtZT4NCiAgICAgICAgPC9kaWd0aW5mbz4NCiAgICAgIDwvZGln
+Zm9ybT4NCiAgICA8L3N0ZG9yZGVyPg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+DQogICAg
+PG1ldGQ+MjAxNzAxPC9tZXRkPg0KICAgIDxtZXRzdGRuPkZHREMgQ29udGVudCBTdGFuZGFyZCBm
+b3IgRGlnaXRhbCBHZW9zcGF0aWFsIE1ldGFkYXRhPC9tZXRzdGRuPg0KICAgIDxtZXRzdGR2PkZH
+REMtU1RELTAwMS0xOTk4PC9tZXRzdGR2Pg0KICAgIDxtZXR0Yz5sb2NhbCB0aW1lPC9tZXR0Yz4N
+CiAgICA8bWV0Yz4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAg
+ICA8Y250b3JnPkNvdW50eSBvZiBMYW5jYXN0ZXI8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVy
+PklUL0dJUzwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0K
+ICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlw
+ZT4NCiAgICAgICAgICA8YWRkcmVzcz4xNTAgTi4gUXVlZW4gU3QuLCBTdWl0ZSAzMjI8L2FkZHJl
+c3M+DQogICAgICAgICAgPGNpdHk+TGFuY2FzdGVyPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5Q
+QTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNzYwMzwvcG9zdGFsPg0KICAgICAgICAgIDxj
+b3VudHJ5PlVuaXRlZCBTdGF0ZXM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAg
+ICAgPGNudHZvaWNlPjcxNy0zOTEtNzU1MDwvY250dm9pY2U+DQogICAgICAgIDxjbnRlbWFpbD5p
+dGhlbHBkZXNrQGNvLmxhbmNhc3Rlci5wYS51czwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+
+DQogICAgPC9tZXRjPg0KICA8L21ldGFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPGRpc3RyaWI+
+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5Q
+ZW5uc3lsdmFuaWEgU3BhdGlhbCBEYXRhIEFjY2VzcyAoUEFTREEpPC9jbnRvcmc+DQogICAgICAg
+IDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxp
+bmcgYW5kIHBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjEx
+NSBMYW5kIGFuZCBXYXRlciBidWlsZGluZzwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5Vbml2
+ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5pYTwvc3RhdGU+
+DQogICAgICAgICAgPHBvc3RhbD4xNjgwMjwvcG9zdGFsPg0KICAgICAgICAgIDxjb3VudHJ5PlVu
+aXRlZCBTdGF0ZXM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZv
+aWNlPig4MTQpIDg2NSAtIDg3OTI8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+cGFzZGFA
+cHN1LmVkdTwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9kaXN0cmliPg0KICAg
+IDxkaXN0bGlhYj5UaGUgVVNFUiBzaGFsbCBpbmRlbW5pZnksIHNhdmUgaGFybWxlc3MsIGFuZCwg
+aWYgcmVxdWVzdGVkLCBkZWZlbmQgdGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZl
+bG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSwgdGhlaXIgb2ZmaWNlcnMsIGFn
+ZW50cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBzdWl0cywgY2xhaW1zLCBv
+ciBhY3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBkYW1hZ2UgYXJpc2luZyBv
+dXQgb2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxFUyBvciBhbnkgYWNjb21w
+YW55aW5nIGRvY3VtZW50YXRpb24uIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2
+ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBleGNsdWRlZCBhbnkgYW5kIGFsbCBpbXBsaWVkIHdh
+cnJhbnRpZXMsIGluY2x1ZGluZyB3YXJyYW50aWVzIG9yIG1lcmNoYW50YWJpbGl0eSBhbmQgZml0
+bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UgYW5kIG1ha2VzIG5vIHdhcnJhbnR5IG9yIHJl
+cHJlc2VudGF0aW9uLCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLCB3aXRoIHJlc3BlY3QgdG8g
+dGhlIEZJTEVTIG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBpbmNsdWRpbmcgaXRzIHF1
+YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZpdG5lc3MgZm9yIGEgcGFy
+dGljdWxhciBwdXJwb3NlLiBUaGUgRklMRVMgYW5kIGRvY3VtZW50YXRpb24gYXJlIHByb3ZpZGVk
+ICJhcyBpcyIgYW5kIHRoZSBVU0VSIGFzc3VtZXMgdGhlIGVudGlyZSByaXNrIGFzIHRvIGl0cyBx
+dWFsaXR5IGFuZCBwZXJmb3JtYW5jZS4gVGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBk
+ZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3aWxsIG5vdCBiZSBsaWFi
+bGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25z
+ZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8g
+dXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlh
+Yj4NCiAgPC9kaXN0aW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

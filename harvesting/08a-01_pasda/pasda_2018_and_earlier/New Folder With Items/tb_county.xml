@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Wayne Myers</origin>
+        <pubdate>1998</pubdate>
+        <title>PA Explorer: Terrabyte Image</title>
+        <pubinfo>
+          <pubplace>University Park, PA</pubplace>
+          <publish>The Pennsylvania State University</publish>
+        </pubinfo>
+        <othercit>Produced in cooperation with the National Gap Analysis Program, the National Biological Service/US Geologic Survey Biological Resources Division and the Pennsylvania Mapping and Geographic Information Consortium.</othercit>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/tbcounty</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>19980501</pubdate>
+            <title>Pennsylvania Explorer</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>Pennsylvania State University</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19970101</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.361214</westbc>
+        <eastbc>-79.689194</eastbc>
+        <northbc>40.6745</northbc>
+        <southbc>40.194199</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>remote remotely sensed landsat satellite satellites imagery thematic mapper terrabyte spectraflex</themekey>
+        <themekey>Imagery/Base Maps/Earth Cover</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>INTENDED FOR EDUCATIONAL/DEMONSTRATION PURPOSES ONLY. The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the  development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the  development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation. </useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Wayne Myers</cntper>
+          <cntorg>Office for Remote Sensing of Earth Resources</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land  Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntvoice>814-863-0291</cntvoice>
+        <cntemail>WLM@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>tb_county</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>In process</logic>
+    <complete>Data is tentative, now in the process of being ground checked.  A supplement to the original dataset may be issued when ground check has been completed.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Landsat</origin>
+            <pubdate>19930509</pubdate>
+            <title>TM-014-031 through TM-18-32</title>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>Landsat</publish>
+            </pubinfo>
+            <othercit>Landsat Thematic Mapper Images</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>magnetic tape</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1993</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Landsat</srccitea>
+        <srccontr>Original 6 band Landsat scenes, thermal infrared band was not included.  Data was transferred to PSU from the EROS Data Center, Sioux Falls, SD. on 8mm magnetic tape.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wayne Myers</origin>
+            <pubdate>1997</pubdate>
+            <title>Terrabyte Images of Pennsylvania</title>
+            <pubinfo>
+              <pubplace>University Park, PA</pubplace>
+              <publish>The Pennsylvania State University</publish>
+            </pubinfo>
+            <othercit>Produced in cooperation with the National Gap Analysis Program, the National Biological Service/US Geologic Survey Biological Resources Division and the Pennsylvania Mapping and Geographic Information Corsortium.</othercit>
+            <onlink>http://www.pasda.psu.edu</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1997</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>PA Terrabyte images</srccitea>
+        <srccontr>Intermediate dataset consisting of 10 Terrabyte images clipped to the Pennsylvania borders.  This was cut by county to produce the current dataset.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>All tiles were purchased from EOSAT by the MultiResolution Land Characteristics Consortium and were terrain corrected at EROS.  Data extracted through the SpectraPlex Process and clipped to Pennsylvania boundaries.</procdesc>
+        <srcused>Landsat</srcused>
+        <procdate>1990's</procdate>
+        <srcprod>PA Terrabyte images</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Wayne Myers</cntper>
+              <cntorg>Office for Remote Sensing of Earth Resources</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>Land and Water Building</address>
+              <city>University Park</city>
+              <state>PA</state>
+              <postal>16802</postal>
+            </cntaddr>
+            <cntvoice>814-863-0291</cntvoice>
+            <cntemail>WLM@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Original Terrabyte images were reprojected to Lambert Conformal Conic projection and converted to ESRI shapefile format.</procdesc>
+        <srcused>PA Terrabyte images</srcused>
+        <procdate>1990</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Wayne Myers</cntper>
+              <cntorg>Office for Remote Sensing of Earth Resources</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>Land  Water Building</address>
+              <city>University Park</city>
+              <state>PA</state>
+              <postal>16802</postal>
+            </cntaddr>
+            <cntvoice>814-863-0291</cntvoice>
+            <cntemail>WLM@psu.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>33.0</stdparll>
+            <stdparll>45.0</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>39.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6,378,206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+        </cntaddr>
+        <cntvoice>814-865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.pasda.psu.edu</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>19980409</metd>
+    <metrd>19981027</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <Esri>
+    <ModDate>20100608</ModDate>
+    <ModTime>09450100</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20100608</mdDateSt>
+</metadata>

@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. National Park Service (Data source)</origin>
+        <origin>Bernardin, Lochmueller &amp; Associates, Inc. (Data compiler)</origin>
+        <pubdate>20070521</pubdate>
+        <title>
+Rivers_NRI_NPS_IN: Nationwide Rivers Inventory for Indiana
+(U.S. National Park Service, 1:100,000, Line Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Evansville, Indiana</pubplace>
+          <publish>Bernardin, Lochmueller &amp; Associates, Inc.</publish>
+        </pubinfo>
+        <othercit>
+This information was obtained by personnel of Bernardin, Lochmueller &amp; Associates, Inc., (BLA) from the
+Web site of the Indiana Segments of the Nationawide Rivers Inventory published by the U.S. National Park Service at -
+http://www.nps.gov/ncrc/programs/rtca/nri/states/in.html. The information was last updated in November
+2004.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Dataset includes all Indiana river reaches on the Nationwide Rivers
+Inventory (NRI) listed by the U.S. National Park Service (NPS). The file was
+created using 1:100,000 scale data from the National Hydrography Dataset (NHD),
+therefore, the lines remain in the NHD reaches, resulting in multiple line
+segments for each NRI listing. The line segments have NOT been dissolved.
+The start and end point of each listing segment is approximate and located by
+described landmarks.
+
+The following excerpt from the NPS, NRI website describes the eligibility for a
+river to be listed-
+
+In order to be listed on the NRI, a river must be free-flowing and
+possess one or more Outstandingly Remarkable Values (ORVs). Thus, the
+eligibility analysis consists of an examination of the river's hydrology,
+including any man-made alterations, and an inventory of its natural,
+cultural, and recreational resources. There are a variety of methods to
+determine whether certain resources are so unique, rare or exemplary as to
+make them outstandingly remarkable. The determination that a river area
+contains ORVs is a professional judgment on the part of the
+interdisciplinary study team (IDT), based on objective, scientific
+analysis. Input from organizations and individuals familiar with specific
+river resources should be sought and documented as part of the process.
+In order to be assessed as outstandingly remarkable, a river-related value
+must be a unique, rare, or exemplary feature that is significant at a
+comparative regional or national scale. Dictionary definitions of the
+words "unique" and "rare" indicate that such a value would be one that is
+conspicuous example from among a number of similar values that are
+themselves uncommon or extraordinary. Only one such value is needed for
+eligibility.”
+</abstract>
+      <purpose>These data were developed to provide the Indiana subset of the Nationwide Rivers Inventory as a GIS layer.</purpose>
+      <supplinf>
+Digital data creation done by BLA is fully disclosed in the process steps of this metadata; credit for the information is retained by
+the U.S. National Park Service (NPS).
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20041123</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Nationwide rivers inventory (NRI)</themekey>
+        <themekey>
+National Park Service (NPS)
+</themekey>
+        <themekey>outstanding river</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>river</themekey>
+        <themekey>wildlife</themekey>
+        <themekey>scenic</themekey>
+        <themekey>recreation</themekey>
+        <themekey>fishing</themekey>
+        <themekey>canoeing</themekey>
+        <themekey>history</themekey>
+        <themekey>culture</themekey>
+        <themekey>geology</themekey>
+        <themekey>prehistory</themekey>
+        <themekey>
+outstanding river values (ORV)
+</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>White County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>Environmental GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 9.2 shapefile format, approximately 765 Kb</native>
+    <useconst>Hydrology--Water_Bodies_Rivers_Inventory</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Accuracy is determined by the source website
+listing the classifications, outstanding river values (ORVs), and descriptions of each NRI river.  Two
+exceptions include: (1) Two records for the Little Blue River
+which appear to encompass the same stretches of river.  The attributes of these
+two records were combined and represented here as a single record.  (2) One
+record of the Wabash River does not have any outstanding values recorded
+in the original data.  This is a known error because all listed rivers
+must have at least one ORV.  It is suspected by the comments to be
+outstanding for fishing, recreation, and history, but in order to be true
+to the source, assumptions are not made and the fields are left blank.
+</attraccr>
+    </attracc>
+    <logic>
+Data are consistent with the 1:100,000 National Hydrography Dataset (NHD).  There are
+no known overlaps or line gaps. Each line segment ends at intersections. Lines remain
+in the individual reaches consistent with the NHD and have not been dissolved to
+reflect singular NRI listings.
+</logic>
+    <complete>
+All Stream segments in the NPS List of Nationwide Rivers Inventory (NRI) and
+are included.  Stream segments begin and end as closely to the
+described limits as the data compiler could determine.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Horizontal position is dependent on the accuracy of the national
+hydrography dataset (1:100,000).
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. National Park Service</origin>
+            <pubdate>20041123</pubdate>
+            <title>Nationwide Rivers Inventory – Indiana Segments</title>
+            <geoform>Web site</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. National Park Service</publish>
+            </pubinfo>
+            <onlink>http://www.nps.gov/ncrc/programs/rtca/nri/states/in.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20041123</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Web site publication date</srccurr>
+        </srctime>
+        <srccitea>NRI</srccitea>
+        <srccontr>All base information to identify river segments and complete attributes.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey and U.S. Environmental Protection Agency</origin>
+            <pubdate>20021200</pubdate>
+            <title>
+HYDROGRAPHY_LINE_NHD_IN: Streams, Rivers, Canals, and
+Ditches in Indiana (United States Geological Survey, 1:100000,
+Polygon Shapefile)
+</title>
+            <edition>National Hydography Dataset, 2002</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+Data are from the 2002 NHD data set
+downloadable from, http://nhd.usgs.gov/index.html
+</othercit>
+            <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20010101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>NHD Publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>Base file for river/stream lines</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+National Hydrography Dataset (NHD) was copied for use
+as the base line file.  The Nationwide Rivers Inventory for Indiana
+segments was used to identify all listed river/stream segments. New attribute
+fields were added to provide classification categories, outstanding
+river values (ORVs) and descriptions.
+</procdesc>
+        <srcused>Indiana subset of NRI Web site, HYDROGRAPHY_LINE_NHD_IN.SHP</srcused>
+        <procdate>20040804</procdate>
+        <srcprod>Rivers_NRI_NPS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Initial work described in the previous process step
+was reviewed and sources were checked for currentness.  No updates were identified
+</procdesc>
+        <srcused>NRI, NHD</srcused>
+        <procdate>20070520</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written
+by Peter N. Schweitzer (United States Geological Survey).  The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20070620</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>605</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>RIVERS_NRI_NPS_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>COM_ID</attrlabl>
+        <attrdef>Common Identifier</attrdef>
+        <attrdefs>National Hydrography Dataset, U.S. GEOLOGICAL SURVEY</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RCH_CODE</attrlabl>
+        <attrdef>Reach common identifier</attrdef>
+        <attrdefs>National Hydrography Dataset, U.S. GEOLOGICAL SURVEY</attrdefs>
+        <attrdomv>
+          <udom>Numeric</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RCH_DATE</attrlabl>
+        <attrdef>Date of reach code assignment</attrdef>
+        <attrdefs>National Hydrography Dataset, U.S. GEOLOGICAL SURVEY</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LEVEL</attrlabl>
+        <attrdef>
+Main path to which a particular transport reach
+belongs
+</attrdef>
+        <attrdefs>National Hydrography Dataset, U.S. GEOLOGICAL SURVEY</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>METERS</attrlabl>
+        <attrdef>Length of line segment in meters</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>22</rdommin>
+            <rdommax>42772</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+        <attrdef>Link to the Geographic Names Information System (GNIS)</attrdef>
+        <attrdefs>National Hydrography Dataset, U.S. GEOLOGICAL SURVEY</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Name of the reach</attrdef>
+        <attrdefs>
+National Hydrography Dataset, From RF3 validated against GNIS
+and USGS 1:24000 quadrangles
+</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FTYPE</attrlabl>
+        <attrdef>Feature Type</attrdef>
+        <attrdefs>
+Standards for National
+Hydrography Dataset
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ARTIFICIAL PATH</edomv>
+            <edomvd>
+Centerline through open water bodies to facilitate
+hydrologic modeling
+</edomvd>
+            <edomvds>
+Standards for
+National Hydrography Dataset
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>CANAL/DITCH</edomv>
+            <edomvd>
+Artificial open waterway constructed to transport water, to
+irrigate or drain land, to connect water bodies, or to
+serve watercraft.
+</edomvd>
+            <edomvds>
+Standards for National
+Hydrography Dataset
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>STREAM/RIVER</edomv>
+            <edomvd>Body of flowing water</edomvd>
+            <edomvds>
+Standards for National
+Hydrography Dataset
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FCODE</attrlabl>
+        <attrdef>
+Code with detailed explanations of FTYPE in table
+NHD FCODE
+</attrdef>
+        <attrdefs>National Hydrography Dataset Users Guide</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>REACH</attrlabl>
+        <attrdef>Extent of the listed River segment</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YR_LIST</attrlabl>
+        <attrdef>Year listed</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DSG_MILES</attrlabl>
+        <attrdef>Length of listed segment in river miles</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CL_WILD</attrlabl>
+        <attrdef>
+Potential “Wild River” Classification - Those rivers
+or sections of rivers that are free of impoundments and generally
+inaccessible except by trail, with watersheds or shorelines essentially
+primitive and waters unpolluted. These represent vestiges of primitive
+America.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CL_SCEN</attrlabl>
+        <attrdef>
+Potential “Scenic River” Classification - Those
+rivers or sections of rivers that are free of impoundments, with
+shorelines or watersheds still largely primitive and shorelines largely
+undeveloped, but accessible in places by roads.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CL_REC</attrlabl>
+        <attrdef>
+Potential “Recreational River” Classification –
+Those rivers or sections of rivers that are readily accessible by road
+or railroad, that may have some development along their shorelines, and
+that may have undergone some impoundment or diversion in the past.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_SCEN</attrlabl>
+        <attrdef>
+Scenery - The landscape elements of landform,
+vegetation, water, color, and related factors result in notable or
+exemplary visual features and/or attractions. When analyzing scenic
+values, additional factors -- such as seasonal variations in vegetation,
+scale of cultural modifications, and the length of time negative
+intrusions are viewed -- may be considered. Scenery and visual
+attractions may be highly diverse over the majority of the river or
+river segment.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_REC</attrlabl>
+        <attrdef>
+Recreation - Recreational opportunities are, or have
+the potential to be, popular enough to attract visitors from throughout
+or beyond the region of comparison or are unique or rare within the
+region. Visitors are willing to travel long distances to use the river
+resources for recreational purposes. River-related opportunities could
+include, but are not limited to, sightseeing, wildlife observation,
+camping, photography, hiking, fishing and boating. (1) Interpretive
+opportunities may be exceptional and attract, or have the potential to
+attract, visitors from outside the region of comparison. (2)The river
+may provide, or have the potential to provide, settings for national or
+regional usage or competitive events.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_GEOL</attrlabl>
+        <attrdef>
+Geology - The river, or the area within the river
+corridor, contains one or more example of a geologic feature, process or
+phenomenon that is unique or rare within the region of comparison. The
+feature(s) may be in an unusually active stage of development, represent
+a "textbook" example, and/or represent a unique or rare combination of
+geologic features (erosional, volcanic, glacial, or other geologic
+structures).
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_FISH</attrlabl>
+        <attrdef>
+Fish - Fish values may be judged on the
+relative merits of either fish populations, habitat, or a combination of
+these river-related conditions. (1) Populations- The river is nationally
+or regionally an important producer of resident and/or anadromous fish
+species. Of particular significance is the presence of wild stocks
+and/or federal or state listed (or candidate) threatened, endangered or
+sensitive species. Diversity of species is an important consideration
+and could, in itself, lead to a determination of "outstandingly
+remarkable." (2) Habitat- The river provides exceptionally high quality
+habitat for fish species indigenous to the region of comparison. Of
+particular significance is habitat for wild stocks and/or federal or
+state listed (or candidate) threatened, endangered or sensitive species.
+Diversity of habitats is an important consideration and could, in
+itself, lead to a determination of "outstandingly remarkable."
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_WILD</attrlabl>
+        <attrdef>
+Wildlife - values may be judged on the merits
+of either terrestrial or aquatic wildlife populations or habitat or a
+combination of these conditions. (1) Populations- The river, or area
+within the river corridor, contains nationally or regionally important
+populations of indigenous wildlife species. Of particular significance
+are species considered to be unique, and/or populations of federal or
+state listed (or candidate) threatened, endangered or sensitive species.
+Diversity of species is an important consideration and could, in itself,
+lead to a determination of "outstandingly remarkable." (2) Habitat- The
+river, or area within the river corridor, provides exceptionally high
+quality habitat for wildlife of national or regional significance,
+and/or may provide unique habitat or a critical link in habitat
+conditions for federal or state listed (or candidate) threatened,
+endangered or sensitive species. Contiguous habitat conditions are such
+that the biological needs of the species are met. Diversity of habitats
+is an important consideration and could, in itself, lead to a
+determination of "outstandingly remarkable."
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_PRHIST</attrlabl>
+        <attrdef>
+Prehistory - The river, or area within the river
+corridor, contains a site(s) where there is evidence of occupation or
+use by Native Americans. Sites must have unique or rare characteristics
+or exceptional human interest value(s). Sites may have national or
+regional importance for interpreting prehistory; may be rare and
+represent an  area where a culture or cultural period was first
+identified and  described; may have been used concurrently by two or
+more cultural groups; and/or may have been used by cultural groups for
+rare sacred purposes. Many such sites are listed on the National
+Register of Historic Places, which is administered by the NPS.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_HIST</attrlabl>
+        <attrdef>
+History - The river or area within the river
+corridor contains a site(s) or feature(s) associated with a significant
+event, an important person, or a cultural activity of the past that was
+rare or one-of-a-kind in the region. Many such sites are listed on the
+National Register of Historic Places. A historic site(s) and/or
+features(s) is 50 years old or older in most cases.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_CULT</attrlabl>
+        <attrdef>
+Culture - The river or area within the river
+corridor contains archaeological sites or areas significant to
+traditional cultures. Examples might be American Indian burial grounds,
+petroglyphs, the oldest known human use site in a region, or streams
+that support traditional agriculture, subsistence fishing, or religious
+ceremonies.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORV_OTHER</attrlabl>
+        <attrdef>
+Other - While no specific national evaluation
+guidelines have been developed for the "other similar values" category,
+assessments of additional river-related values consistent with the
+foregoing guidance may be developed -- including, but not limited to,
+hydrology, paleontology and botany resources.
+</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>Y indicates this classification is listed as an ORV for the record.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>River descriptions provided in the NRI listings</attrdef>
+        <attrdefs>NRI</attrdefs>
+        <attrdomv>
+          <udom>
+river descriptions
+</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to,
+warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Bernardin, Lochmueller &amp; Associates, Inc., shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or
+other commercial or economic loss. Bernardin, Lochmueller &amp; Associates, Inc., is not responsible for claims by a third party. The maximum
+aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040804</metd>
+    <metrd>20070620</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin, Lochmueller &amp; Associates, Inc.</cntorg>
+        </cntperp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the BLA. It should not to be
+altered or summarized. BLA does not support secondary distribution. If this data set was received from anyone besides
+the BLA, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

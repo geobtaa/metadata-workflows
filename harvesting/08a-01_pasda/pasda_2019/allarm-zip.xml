@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>ALLIANCE for Aquatic Resource Monitoring</origin>
+        <pubdate>2004-09-01</pubdate>
+        <title>ALLARM Pennsylvania water quality database</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Carlisle, PA</pubplace>
+          <publish>ALLARM</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/data/allarm/allarm_200409.zip</onlink>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/allarm/allarm_200409.zip</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <rngdates />
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.5181</westbc>
+        <eastbc>-74.617</eastbc>
+        <northbc>42.234</northbc>
+        <southbc>39.693</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>water quality</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Codoras Creek</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conamaugh Valley</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conewengo</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Coppley Creek</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Roaring Run</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Stoney Creek</placekey>
+      </place>
+    </keywords>
+    <accconst>Credit for the original data should be given to the Alliance for Aquatic Resource Monitoring</accconst>
+    <useconst>The Alliance (ALLARM) excludes any and all implied warranties of merchantability and fitness for any digital file obtained from the Alliance. No guarantees are expressed or implied as to the use or application of the digital information supplied. ALLARM assumes no responsibility to maintain them in any manner or form.  ALLARM will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the material supplied, or arising out of any inaccuracy or defect in the digital information supplied.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Alliance for Aquatic Resource Monitoring</cntorg>
+          <cntper>Lauren Imgrund</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Environmental Studies Department, Dickinson College, PO Box 1773</address>
+          <city>Carlisle</city>
+          <state>PA</state>
+          <postal>17013-2896</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-245-1565</cntvoice>
+        <cntfax>717-245-1940</cntfax>
+        <cntemail>allarm@dickinson.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo />
+    <native>Microsoft Windows 2000 Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 8.3.0.800</native>
+    <descript>
+      <abstract>allarm-zip</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy checked through review of volunteer submitted reports.  All sampling volunteers are trained and receive testing kits from ALLARM and must pass ALLARM Quality control.  Sample analysis completed at ALLARM lab.</attraccr>
+    </attracc>
+    <logic>Topology exists</logic>
+    <complete>Volunteer sampled data weekly.  Not all 622 sites sampled regularly for entire time period.  All records contain information for alkalinity and pH.  Beginning in 1996 increased information included for certain locations to include nitrates and phosphates.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Positions of testing sites digitized from USGS 1:24,000 Topographic maps and PennDOT roads and stream data as reported by volunteers.  Location reports include the intersections of streams and roads, etc.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Geological Survey (U.S.)</origin>
+            <title>USGS 7.5 minute topographic maps</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>United States Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate />
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>topos</srccitea>
+        <srccontr>sampling locations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Institute</origin>
+            <pubdate>1996-01-01</pubdate>
+            <title>Pennsylvania major roads</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/documents.cgi/compendium/majrrds.xml</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>1996-05-01</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>DEP Roads</srccitea>
+        <srccontr>sampling locations</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Resources Research Instititute</origin>
+            <pubdate>1996-01-01</pubdate>
+            <title>Major rivers in Pennsylvania</title>
+            <pubinfo>
+              <pubplace>Harrisburg, PA</pubplace>
+              <publish>Pennsylvania Department of Environmental Protection</publish>
+            </pubinfo>
+            <onlink>http://www.pasda.psu.edu/documents.cgi/compendium/majrivrs.xml</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Pennsylvania Department of Environmental Protection</origin>
+                <pubdate>1996-05-01</pubdate>
+                <title>Pennsylvania GIS Compendium</title>
+                <pubinfo>
+                  <pubplace>Harrisburg, PA</pubplace>
+                  <publish>Pennsylvania Department of Environmental Protection</publish>
+                </pubinfo>
+                <onlink>ftp://www.pasda.psu.edu/pub/pasda/compendium</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996-01-01</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>see citation</srccurr>
+        </srctime>
+        <srccitea>DEP Streams</srccitea>
+        <srccontr>sampling locations</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Volunteers recruited through the ALLARM and associated watershed organizations were trained and receive sampling kits from the Alliance.  Weekly reports are submitted and entered into MS-Access database which is linked to ArcView shapefile coverage of sampling locations throughought the state.</procdesc>
+        <srcused>topos</srcused>
+        <srcused>DEP Roads</srcused>
+        <srcused>DEP Streams</srcused>
+        <procdate>1999-01-01</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Alliance for Aquatic Resource Monitoring</cntorg>
+              <cntper>Lauren Imgrund</cntper>
+            </cntorgp>
+            <cntpos>Director</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>Environmental Studies Department, Dickinson College, PO Box 1773</address>
+              <city>Carlisle</city>
+              <state>PA</state>
+              <postal>17013-2896</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>717-245-1565</cntvoice>
+            <cntfax>717-245-1940</cntfax>
+            <cntemail>allarm@dickinson.edu</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm />
+    </ptvctinf>
+  </spdoinfo>
+  <refSysInfo />
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+merged1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STREAM_NAM</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>MONITOR_LA</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OLD_SITE__</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>GROUP_</attrlabl>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attnullsallowed>false</attnullsallowed>
+        <attisprimarykey>false</attisprimarykey>
+        <attisunique>false</attisunique>
+        <attisindex>false</attisindex>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Archive contains shape file merged1.shp and associated files containing location, name of stream and sampling
+volunteer and SQL links to database file accomplishments1.dbf containing sampling records.  Sampling records include
+alkalinity, pH and other testing results.</eaover>
+      <eadetcit>ALLARM</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Research Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>allarm001</resdesc>
+    <distliab>Not for commercial use or resale. The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcView Shapefile</formname>
+          <transize>0.115</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://www.pasda.psu.edu/pub/pasda/allarm/allarm.zip</networkr>
+              </networka>
+            </computer>
+            <accinstr>http://www.pasda.psu.edu</accinstr>
+          </onlinopt>
+          <offoptn>
+            <reccap />
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2006-01-24</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access</cntorg>
+          <cntper>James Spayd</cntper>
+        </cntorgp>
+        <cntpos>Metadata Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Research Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntfax>814-865-3378</cntfax>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi />
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metalang>UNKNOWN</metalang>
+    <characterSet>UNKNOWN</characterSet>
+    <mdFileID>156ad7ea-1bee-11e8-b3f0-1866da3917eb</mdFileID>
+  </metainfo>
+</metadata>

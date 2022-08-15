@@ -1,0 +1,943 @@
+<metadata GROUP="'coal'">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</origin>
+        <pubdate>12/02/2016</pubdate>
+        <pubinfo>
+          <pubplace>Harrisburg, PA</pubplace>
+          <publish>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</publish>
+        </pubinfo>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <title>Industrial_Minerals_Mine_Permits_12022016</title>
+        <ftname Sync="TRUE">Anthracite_coal_mine_permits_update_020811</ftname>
+        <geoform Sync="TRUE">vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <timeperd GROUP="'coal'">
+      <timeinfo>
+        <sngdate>
+          <caldate>12/02/2016</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-76.649616</westbc>
+        <eastbc Sync="TRUE">-76.027413</eastbc>
+        <northbc Sync="TRUE">40.846739</northbc>
+        <southbc Sync="TRUE">40.578533</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">114301.469758</leftbc>
+        <rightbc Sync="TRUE">166331.444102</rightbc>
+        <bottombc Sync="TRUE">177118.983621</bottombc>
+        <topbc Sync="TRUE">205923.074170</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>geology geo geologic geological</themekey>
+        <themekey>mining</themekey>
+        <themekey>noncoal</themekey>
+        <themekey>Industrial Minerals</themekey>
+        <themekey>Geoscientific Information</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst GROUP="'coal'">THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND.  THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.</useconst>
+    <ptcontac GROUP="'coal'">
+      <cntinfo>
+        <cntperp>
+          <cntper>Keith Previc</cntper>
+          <cntorg>Pennsylvania Bureau of Mining and Reclamation</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Department of Environmental Protection, Bureau of Mining and Reclamation, Division of Environmental Analysis and Support</address>
+          <address>P.O. Box 8461</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17105-8461</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-783-9585</cntvoice>
+        <cntemail>kprevic@state.pa.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.1.0.722</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>Industrial_Minerals_Mine_Permits_12022016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual GROUP="'coal'">
+    <logic>Polygon topology present.</logic>
+    <lineage>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">\\Mirror\share\pa_anthracite_Template.xml</srcused>
+        <date Sync="TRUE">20110209</date>
+        <time Sync="TRUE">12484700</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="Anthracite_coal_mine_permits_update_020811">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">210</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+      <sdtsterm Name="Anthracite_coal_mine_permits_update_020811">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">210</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000128</absres>
+            <ordres Sync="TRUE">0.000128</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">meters</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll Sync="TRUE">40.000000</stdparll>
+            <stdparll Sync="TRUE">42.000000</stdparll>
+            <longcm Sync="TRUE">-78.000000</longcm>
+            <latprjo Sync="TRUE">39.000000</latprjo>
+            <feast Sync="TRUE">0.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">PA_Albers_Equal_Area_Conic</projcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo GROUP="'coal'">
+    <detailed Name="Anthracite_coal_mine_permits_update_020811" xmlns="">
+      <enttyp>
+        <enttypl>Industrial_Minerals_Mine_Permits_12022016</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">210</enttypc>
+      </enttyp>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">INDEX_NO</attrlabl>
+        <attalias Sync="TRUE">INDEX_NO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">PERMIT_NO</attrlabl>
+        <attalias Sync="TRUE">PERMIT_NO</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">COAL_SEAM</attrlabl>
+        <attalias Sync="TRUE">COAL_SEAM</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">SHAPE_LENG</attrlabl>
+        <attalias Sync="TRUE">SHAPE_LENG</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">SHAPE_AREA</attrlabl>
+        <attalias Sync="TRUE">SHAPE_AREA</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">11</atnumdec>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">QUAD_NAME</attrlabl>
+        <attalias Sync="TRUE">QUAD_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">QUAD__</attrlabl>
+        <attalias Sync="TRUE">QUAD__</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">TOPO__</attrlabl>
+        <attalias Sync="TRUE">TOPO__</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">INDEX_NO_1</attrlabl>
+        <attalias Sync="TRUE">INDEX_NO_1</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">ZONE</attrlabl>
+        <attalias Sync="TRUE">ZONE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">MISC</attrlabl>
+        <attalias Sync="TRUE">MISC</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">39</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">DATE_ISSUE</attrlabl>
+        <attalias Sync="TRUE">DATE_ISSUE</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">MUNICIPALI</attrlabl>
+        <attalias Sync="TRUE">MUNICIPALI</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">34</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">COUNTY</attrlabl>
+        <attalias Sync="TRUE">COUNTY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">COMPANY</attrlabl>
+        <attalias Sync="TRUE">COMPANY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">52</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">STREET1</attrlabl>
+        <attalias Sync="TRUE">STREET1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">39</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">STREET2</attrlabl>
+        <attalias Sync="TRUE">STREET2</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">CITY</attrlabl>
+        <attalias Sync="TRUE">CITY</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">21</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">STATE</attrlabl>
+        <attalias Sync="TRUE">STATE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">ZIP</attrlabl>
+        <attalias Sync="TRUE">ZIP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">6</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">MINE_NAME</attrlabl>
+        <attalias Sync="TRUE">MINE_NAME</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">46</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">PERMIT_TYP</attrlabl>
+        <attalias Sync="TRUE">PERMIT_TYP</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">82</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">MINERAL</attrlabl>
+        <attalias Sync="TRUE">MINERAL</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">76</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">PRIMARY_FA</attrlabl>
+        <attalias Sync="TRUE">PRIMARY_FA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">24</attwidth>
+      </attr>
+      <attr xmlns="">
+        <attrlabl Sync="TRUE">COAL_SEAM_</attrlabl>
+        <attalias Sync="TRUE">COAL_SEAM_</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">240</attwidth>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo GROUP="'coal'">
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Land and Water Building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntinst>Contact via email</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARCE (ARC/INFO Export)</formname>
+          <formvern>7.1.1</formvern>
+          <filedec>zip</filedec>
+          <transize Sync="TRUE">0.136</transize>
+          <dssize Sync="TRUE">0.136</dssize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>see Online Linkage in Identification information section of metadata</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+  </distinfo>
+  <metainfo GROUP="'coal'">
+    <metc>
+      <cntinfo>
+        <cntpos>Metadata Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>PA</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>814-865-8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <metd>12/02/2016</metd>
+    <langmeta Sync="TRUE">en</langmeta>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20161209</ModDate>
+    <ModTime>16180700</ModTime>
+    <CreaDate>20161209</CreaDate>
+    <CreaTime>15454300</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20110209</SyncDate>
+    <SyncTime>12545400</SyncTime>
+    <ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+    <DataProperties>
+      <itemProps>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Industrial_Minerals_Mine_Permits_12022016</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <imsContentType export="False" />
+      </itemProps>
+      <copyHistory>
+        <copy source="D:\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\Industrial_Minerals_Mine_Permits_12022016" dest="\\EPMPCOW01\D$\GIS_Data\Mylar_GIS_Data\Geodatabase\Shapefiles_For_PASDA\NEW_Shapefiles_For_PASDA\DEP_Mining_Updated_Layers_Dec2016\Industrial_Minerals_Mine_Permits_12022016" date="20161209" time="16384200" />
+      </copyHistory>
+    </DataProperties>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <scaleRange>
+      <minScale>625000</minScale>
+      <maxScale>50000</maxScale>
+    </scaleRange>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact xmlns="">
+    <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+    <rpPosName>Metadata Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>814-865-8792</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>115 Land and Water building</delPoint>
+        <city>University Park</city>
+        <adminArea>PA</adminArea>
+        <postCode>16802</postCode>
+        <country>US</country>
+        <eMailAdd>pasda@psu.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20161209</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo xmlns="">
+    <distributor xmlns="">
+      <distorCont xmlns="">
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntAddress addressType="both">
+            <delPoint>Land and Water Building</delPoint>
+            <city>University Park</city>
+            <adminArea>PA</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+          <cntInstr>Contact via email</cntInstr>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+      <distorOrdPrc xmlns="">
+        <resFees units="">none</resFees>
+      </distorOrdPrc>
+      <distorFormat xmlns="">
+        <formatName>Shapefile</formatName>
+        <fileDecmTech>zip</fileDecmTech>
+      </distorFormat>
+      <distorTran xmlns="">
+        <onLineSrc xmlns="">
+          <linkage>see Online Linkage in Identification information section of metadata</linkage>
+        </onLineSrc>
+      </distorTran>
+    </distributor>
+    <distTranOps xmlns="">
+      <onLineSrc xmlns="">
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation xmlns="">
+      <resTitle>Industrial_Minerals_Mine_Permits_12022016</resTitle>
+      <date>
+        <pubDate>2016-12-02T00:00:00</pubDate>
+      </date>
+      <citRespParty xmlns="">
+        <rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs</rpOrgName>
+        <rpCntInfo xmlns="">
+          <cntAddress addressType="">
+            <delPoint>Harrisburg, PA</delPoint>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="010" />
+        </role>
+      </citRespParty>
+      <citRespParty xmlns="">
+        <rpOrgName>Pennsylvania Dept. of Environmental Protection, Bureau of Mining Programs (BMP)</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Pennsylvania state law requires those who wish to conduct mining activities within the Commonwealth to apply for permits issued by the Pennsylvania Department of Environmental Protection (DEP). This data set indicates the approximate location of permit area boundaries of active and historical noncoal mining operations derived from location maps included with the permit applications submitted by the mine operators. Each polygon represents an area where industrial mineral removal, reclamation, and/or related supporting activities have been authorized to occur.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>The purpose of this data set is to provide DEP staff and other environmental professionals with a spatially referenced inventory of active and historical noncoal mine permit area boundaries located in Pennsylvania.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC xmlns="">
+      <rpIndName>Keith Previc</rpIndName>
+      <rpOrgName>Pennsylvania Bureau of Mining Programs</rpOrgName>
+      <rpCntInfo xmlns="">
+        <cntPhone>
+          <voiceNum tddtty="">717-783-9585</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="postal">
+          <delPoint>P.O. Box 8461</delPoint>
+          <delPoint>Department of Environmental Protection, Bureau of Mining Programs, Division of Environmental Analysis and Support</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17105-8461</postCode>
+          <country>US</country>
+          <eMailAdd>kprevic@state.pa.us</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint xmlns="">
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <themeKeys xmlns="">
+      <thesaName xmlns="">
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+      <keyword>Geoscientific Information</keyword>
+      <keyword>mining</keyword>
+      <keyword>geology geo geologic geological</keyword>
+      <keyword>Industrial Minerals</keyword>
+      <keyword>noncoal</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Geoscientific Information</keyword>
+      <keyword>mining</keyword>
+      <keyword>geology geo geologic geological</keyword>
+      <keyword>Industrial Minerals</keyword>
+      <keyword>noncoal</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts xmlns="">
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts xmlns="">
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;THE ENCLOSED REPRODUCTIONS OF HISTORICAL MINE RECORDS ARE PROVIDED SOLELY FOR INFORMATIONAL PURPOSES AND ARE NOT INTENDED FOR USE IN MINERAL EXPLORATION OR CONSTRUCTION OF ANY KIND. THE DEPARTMENT OF ENVIRONMENTAL PROTECTION MAKES NO CLAIM, EXPRESSED OR IMPLIED, REGARDING THE ACCURACY, COMPLETENESS OR DEGREE OF IMAGE DISTORTION OF SAID INFORMATION.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <dataExt xmlns="">
+      <exDesc>publication date</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2016-12-02T00:00:00</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt xmlns="">
+      <geoEle xmlns="">
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>0</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataChar>
+      <CharSetCd value="004" />
+    </dataChar>
+    <tpCat>
+      <TopicCatCd value="008" />
+    </tpCat>
+  </dataIdInfo>
+  <dqInfo xmlns="">
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQTopConsis" dimension="" xmlns="">
+      <evalMethDesc>Polygon topology present.</evalMethDesc>
+    </report>
+    <report type="DQConcConsis" dimension="" xmlns="">
+      <measDesc>Polygon topology present.</measDesc>
+    </report>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="79a8c105551f2b4059b011834d66bf" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YSBHUk9VUD0i
+J2NvYWwnIj4NCiAgPGlkaW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQog
+ICAgICAgIDxvcmlnaW4+UGVubnN5bHZhbmlhIERlcHQuIG9mIEVudmlyb25tZW50YWwgUHJvdGVj
+dGlvbiwgQnVyZWF1IG9mIE1pbmluZyBhbmQgUmVjbGFtYXRpb24gKEJNUik8L29yaWdpbj4NCiAg
+ICAgICAgPHB1YmRhdGU+MjAxMjEyPC9wdWJkYXRlPg0KICAgICAgICA8cHViaW5mbz4NCiAgICAg
+ICAgICA8cHVicGxhY2U+SGFycmlzYnVyZywgUEE8L3B1YnBsYWNlPg0KICAgICAgICAgIDxwdWJs
+aXNoPlBlbm5zeWx2YW5pYSBEZXB0LiBvZiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24sIEJ1cmVh
+dSBvZiBNaW5pbmcgYW5kIFJlY2xhbWF0aW9uPC9wdWJsaXNoPg0KICAgICAgICA8L3B1YmluZm8+
+DQogICAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5wYXNkYS5wc3UuZWR1Lzwvb25saW5rPg0KICAg
+ICAgICA8dGl0bGU+QW50aHJhY2l0ZV9Db2FsX01pbmVfUGVybWl0c18xMTI1MTQ8L3RpdGxlPg0K
+ICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlwdCBHUk9VUD0i
+J2NvYWwnIj4NCiAgICAgIDxwdXJwb3NlPlRoZSBwdXJwb3NlIG9mIHRoaXMgZGF0YSBzZXQgaXMg
+dG8gcHJvdmlkZSBERVAgc3RhZmYgYW5kIG90aGVyIGVudmlyb25tZW50YWwgcHJvZmVzc2lvbmFs
+cyB3aXRoIGEgc3BhdGlhbGx5IHJlZmVyZW5jZWQgaW52ZW50b3J5IG9mIGFjdGl2ZSBhbmQgaGlz
+dG9yaWNhbCBjb2FsIG1pbmUgcGVybWl0IGFyZWEgYm91bmRhcmllcyBsb2NhdGVkIGluIFBlbm5z
+eWx2YW5pYS48L3B1cnBvc2U+DQogICAgICA8YWJzdHJhY3Q+UGVubnN5bHZhbmlhIHN0YXRlIGxh
+dyByZXF1aXJlcyB0aG9zZSB3aG8gd2lzaCB0byBjb25kdWN0IG1pbmluZyBhY3Rpdml0aWVzIHdp
+dGhpbiB0aGUgQ29tbW9ud2VhbHRoIHRvIGFwcGx5IGZvciBwZXJtaXRzIGlzc3VlZCBieSB0aGUg
+UGVubnN5bHZhbmlhIERlcGFydG1lbnQgb2YgRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIChERVAp
+LiBUaGlzIGRhdGEgc2V0IGluZGljYXRlcyB0aGUgYXBwcm94aW1hdGUgbG9jYXRpb24gb2YgcGVy
+bWl0IGFyZWEgYm91bmRhcmllcyBvZiBhY3RpdmUgYW5kIGhpc3RvcmljYWwgY29hbCBtaW5pbmcg
+b3BlcmF0aW9ucyBkZXJpdmVkIGZyb20gbG9jYXRpb24gbWFwcyBpbmNsdWRlZCB3aXRoIHRoZSBw
+ZXJtaXQgYXBwbGljYXRpb25zIHN1Ym1pdHRlZCBieSB0aGUgbWluZSBvcGVyYXRvcnMuIEVhY2gg
+cG9seWdvbiByZXByZXNlbnRzIGFuIGFyZWEgd2hlcmUgY29hbCByZW1vdmFsLCByZWNsYW1hdGlv
+biwgYW5kL29yIHJlbGF0ZWQgc3VwcG9ydGluZyBhY3Rpdml0aWVzIGhhdmUgYmVlbiBhdXRob3Jp
+emVkIHRvIG9jY3VyLjwvYWJzdHJhY3Q+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQg
+R1JPVVA9Iidjb2FsJyI+DQogICAgICA8dGltZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAg
+ICAgICAgIDxjYWxkYXRlPjIwMTIxMjwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAg
+ICAgPC90aW1laW5mbz4NCiAgICAgIDxjdXJyZW50PnB1YmxpY2F0aW9uIGRhdGU8L2N1cnJlbnQ+
+DQogICAgPC90aW1lcGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRl
+PC9wcm9ncmVzcz4NCiAgICAgIDx1cGRhdGU+QXMgbmVlZGVkPC91cGRhdGU+DQogICAgPC9zdGF0
+dXM+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5JU08g
+MTkxMTUgVG9waWMgQ2F0ZWdvcmllczwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5Pmdlb2xv
+Z3kgZ2VvIGdlb2xvZ2ljIGdlb2xvZ2ljYWw8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+
+bWluaW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PmNvYWw8L3RoZW1la2V5Pg0KICAg
+ICAgICA8dGhlbWVrZXk+QW50aHJhY2l0ZTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5H
+ZW9zY2llbnRpZmljIEluZm9ybWF0aW9uPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAg
+ICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWt0Pm5vbmU8L3BsYWNla3Q+DQogICAgICA8L3BsYWNl
+Pg0KICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pm5vbmU8L2FjY2NvbnN0Pg0KICAgIDx1
+c2Vjb25zdCBHUk9VUD0iJ2NvYWwnIj5USEUgRU5DTE9TRUQgUkVQUk9EVUNUSU9OUyBPRiBISVNU
+T1JJQ0FMIE1JTkUgUkVDT1JEUyBBUkUgUFJPVklERUQgU09MRUxZIEZPUiBJTkZPUk1BVElPTkFM
+IFBVUlBPU0VTIEFORCBBUkUgTk9UIElOVEVOREVEIEZPUiBVU0UgSU4gTUlORVJBTCBFWFBMT1JB
+VElPTiBPUiBDT05TVFJVQ1RJT04gT0YgQU5ZIEtJTkQuICBUSEUgREVQQVJUTUVOVCBPRiBFTlZJ
+Uk9OTUVOVEFMIFBST1RFQ1RJT04gTUFLRVMgTk8gQ0xBSU0sIEVYUFJFU1NFRCBPUiBJTVBMSUVE
+LCBSRUdBUkRJTkcgVEhFIEFDQ1VSQUNZLCBDT01QTEVURU5FU1MgT1IgREVHUkVFIE9GIElNQUdF
+IERJU1RPUlRJT04gT0YgU0FJRCBJTkZPUk1BVElPTi48L3VzZWNvbnN0Pg0KICAgIDxwdGNvbnRh
+YyBHUk9VUD0iJ2NvYWwnIj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250cGVycD4NCiAg
+ICAgICAgICA8Y250cGVyPktlaXRoIFByZXZpYzwvY250cGVyPg0KICAgICAgICAgIDxjbnRvcmc+
+UGVubnN5bHZhbmlhIEJ1cmVhdSBvZiBNaW5pbmcgYW5kIFJlY2xhbWF0aW9uPC9jbnRvcmc+DQog
+ICAgICAgIDwvY250cGVycD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBl
+Pm1haWxpbmcgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+RGVwYXJ0bWVu
+dCBvZiBFbnZpcm9ubWVudGFsIFByb3RlY3Rpb24sIEJ1cmVhdSBvZiBNaW5pbmcgYW5kIFJlY2xh
+bWF0aW9uLCBEaXZpc2lvbiBvZiBFbnZpcm9ubWVudGFsIEFuYWx5c2lzIGFuZCBTdXBwb3J0PC9h
+ZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPlAuTy4gQm94IDg0NjE8L2FkZHJlc3M+DQogICAg
+ICAgICAgPGNpdHk+SGFycmlzYnVyZzwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+UEE8L3N0YXRl
+Pg0KICAgICAgICAgIDxwb3N0YWw+MTcxMDUtODQ2MTwvcG9zdGFsPg0KICAgICAgICAgIDxjb3Vu
+dHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+
+NzE3LTc4My05NTg1PC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPmtwcmV2aWNAc3RhdGUu
+cGEudXM8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250YWM+DQogIDwv
+aWRpbmZvPg0KICA8ZGF0YXF1YWwgR1JPVVA9Iidjb2FsJyI+DQogICAgPGxvZ2ljPlBvbHlnb24g
+dG9wb2xvZ3kgcHJlc2VudC48L2xvZ2ljPg0KICA8L2RhdGFxdWFsPg0KICA8ZWFpbmZvIEdST1VQ
+PSInY29hbCciPg0KICAgIDxkZXRhaWxlZCBOYW1lPSJBbnRocmFjaXRlX2NvYWxfbWluZV9wZXJt
+aXRzX3VwZGF0ZV8wMjA4MTEiPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+QW50
+aHJhY2l0ZV9jb2FsX21pbmVfcGVybWl0c191cGRhdGVfMjAxMjEyPC9lbnR0eXBsPg0KICAgICAg
+ICA8ZW50dHlwdCBTeW5jPSJUUlVFIj5GZWF0dXJlIENsYXNzPC9lbnR0eXB0Pg0KICAgICAgICA8
+ZW50dHlwYyBTeW5jPSJUUlVFIj4yMTA8L2VudHR5cGM+DQogICAgICA8L2VudHR5cD4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RklEPC9hdHRybGFibD4NCiAg
+ICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkZJRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRy
+dHlwZSBTeW5jPSJUUlVFIj5PSUQ8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+NDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHBy
+ZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAg
+ICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5JbnRlcm5hbCBmZWF0dXJlIG51bWJlci48L2F0dHJkZWY+
+DQogICAgICAgIDxhdHRyZGVmcyBTeW5jPSJUUlVFIj5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAg
+PGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tIFN5bmM9IlRSVUUiPlNlcXVlbnRpYWwgdW5pcXVl
+IHdob2xlIG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0K
+ICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibCBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJU
+UlVFIj5HZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4w
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0K
+ICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRy
+ZGVmIFN5bmM9IlRSVUUiPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnMgU3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAg
+ICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5Db29yZGluYXRlcyBkZWZpbmluZyB0aGUgZmVhdHVy
+ZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5PQkpFQ1RJRDwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5PQkpFQ1RJRDwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5OdW1iZXI8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lk
+dGggU3luYz0iVFJVRSI+OTwvYXR0d2lkdGg+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4N
+CiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPklOREVYX05PPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPklOREVYX05PPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0
+dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBT
+eW5jPSJUUlVFIj4xMDwvYXR0d2lkdGg+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlBFUk1JVF9OTzwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5QRVJNSVRfTk88L2F0dGFsaWFzPg0KICAgICAgICA8YXR0
+cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5
+bmM9IlRSVUUiPjIwPC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAg
+ICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+Q09BTF9TRUFNPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPkNPQUxfU0VBTTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRy
+dHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3lu
+Yz0iVFJVRSI+NTA8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAg
+ICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TSEFQRV9MRU5HPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNIQVBFX0xFTkc8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0
+cnR5cGUgU3luYz0iVFJVRSI+TnVtYmVyPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5
+bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjEx
+PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+YmwgU3luYz0iVFJVRSI+U0hBUEVfQVJFQTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBT
+eW5jPSJUUlVFIj5TSEFQRV9BUkVBPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPk51bWJlcjwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4x
+OTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmIFN5bmM9IlRSVUUiPkFyZWEgb2YgZmVhdHVy
+ZSBpbiBpbnRlcm5hbCB1bml0cyBzcXVhcmVkLjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZz
+IFN5bmM9IlRSVUUiPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAg
+ICAgPHVkb20gU3luYz0iVFJVRSI+UG9zaXRpdmUgcmVhbCBudW1iZXJzIHRoYXQgYXJlIGF1dG9t
+YXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAg
+PGF0bnVtZGVjIFN5bmM9IlRSVUUiPjExPC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+UVVBRF9OQU1FPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlFVQURfTkFNRTwvYXR0YWxpYXM+DQog
+ICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8
+YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5RVUFEX188L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UVVBRF9fPC9hdHRhbGlhcz4NCiAgICAgICAg
+PGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+VE9QT19fPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlRPUE9fXzwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAg
+PGF0dHJsYWJsIFN5bmM9IlRSVUUiPklOREVYX05PXzE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+SU5ERVhfTk9fMTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5OdW1iZXI8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+MTA8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibCBTeW5jPSJUUlVFIj5aT05FPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPlpPTkU8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjY8L2F0
+dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBT
+eW5jPSJUUlVFIj5NSVNDPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUi
+Pk1JU0M8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9h
+dHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjM5PC9hdHR3aWR0aD4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+
+REFURV9JU1NVRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5EQVRF
+X0lTU1VFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRhdGU8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPk1V
+TklDSVBBTEk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TVVOSUNJ
+UEFMSTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MzQ8L2F0dHdpZHRoPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5D
+T1VOVFk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q09VTlRZPC9h
+dHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+
+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xOTwvYXR0d2lkdGg+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkNPTVBBTlk8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q09NUEFOWTwvYXR0YWxp
+YXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAg
+ICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NTI8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TVFJFRVQxPC9hdHRy
+bGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNUUkVFVDE8L2F0dGFsaWFzPg0K
+ICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAg
+PGF0dHdpZHRoIFN5bmM9IlRSVUUiPjM5PC9hdHR3aWR0aD4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U1RSRUVUMjwvYXR0cmxhYmw+
+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TVFJFRVQyPC9hdHRhbGlhcz4NCiAgICAg
+ICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4yMDwvYXR0d2lkdGg+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0
+cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkNJVFk8L2F0dHJsYWJsPg0KICAgICAg
+ICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q0lUWTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+MjE8L2F0dHdpZHRoPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibCBTeW5jPSJUUlVFIj5TVEFURTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5TVEFURTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJU
+UlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+Njwv
+YXR0d2lkdGg+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+IFN5bmM9IlRSVUUiPlpJUDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVF
+Ij5aSVA8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9h
+dHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjY8L2F0dHdpZHRoPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5N
+SU5FX05BTUU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TUlORV9O
+QU1FPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0
+cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40NjwvYXR0d2lkdGg+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlBF
+Uk1JVF9UWVA8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+UEVSTUlU
+X1RZUDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODI8L2F0dHdpZHRoPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5N
+SU5FUkFMPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPk1JTkVSQUw8
+L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlw
+ZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjc2PC9hdHR3aWR0aD4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+UFJJTUFS
+WV9GQTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5QUklNQVJZX0ZB
+PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5
+cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yNDwvYXR0d2lkdGg+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkNPQUxf
+U0VBTV88L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+Q09BTF9TRUFN
+XzwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MjQwPC9hdHR3aWR0aD4NCiAgICAg
+IDwvYXR0cj4NCiAgICA8L2RldGFpbGVkPg0KICA8L2VhaW5mbz4NCiAgPGRpc3RpbmZvIEdST1VQ
+PSInY29hbCciPg0KICAgIDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRv
+cmdwPg0KICAgICAgICAgIDxjbnRvcmc+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3Mg
+KFBBU0RBKTwvY250b3JnPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0K
+ICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbCBhZGRyZXNzPC9hZGRydHlw
+ZT4NCiAgICAgICAgICA8YWRkcmVzcz5MYW5kIGFuZCBXYXRlciBCdWlsZGluZzwvYWRkcmVzcz4N
+CiAgICAgICAgICA8Y2l0eT5Vbml2ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0YXRl
+PlBBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE2ODAyPC9wb3N0YWw+DQogICAgICAgICAg
+PGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnRl
+bWFpbD5wYXNkYUBwc3UuZWR1PC9jbnRlbWFpbD4NCiAgICAgICAgPGNudGluc3Q+Q29udGFjdCB2
+aWEgZW1haWw8L2NudGluc3Q+DQogICAgICA8L2NudGluZm8+DQogICAgPC9kaXN0cmliPg0KICAg
+IDxkaXN0bGlhYj5UaGUgVVNFUiBzaGFsbCBpbmRlbW5pZnksIHNhdmUgaGFybWxlc3MsIGFuZCwg
+aWYgcmVxdWVzdGVkLCBkZWZlbmQgdGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBkZXZl
+bG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSwgdGhlaXIgb2ZmaWNlcnMsIGFn
+ZW50cywgYW5kIGVtcGxveWVlcyBmcm9tIGFuZCBhZ2FpbnN0IGFueSBzdWl0cywgY2xhaW1zLCBv
+ciBhY3Rpb25zIGZvciBpbmp1cnksIGRlYXRoLCBvciBwcm9wZXJ0eSBkYW1hZ2UgYXJpc2luZyBv
+dXQgb2YgdGhlIHVzZSBvZiBvciBhbnkgZGVmZWN0IGluIHRoZSBGSUxFUyBvciBhbnkgYWNjb21w
+YW55aW5nIGRvY3VtZW50YXRpb24uIFRob3NlIHBhcnRpZXMgaW52b2x2ZWQgd2l0aCB0aGUgZGV2
+ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBleGNsdWRlZCBhbnkgYW5kIGFsbCBpbXBsaWVkIHdh
+cnJhbnRpZXMsIGluY2x1ZGluZyB3YXJyYW50aWVzIG9yIG1lcmNoYW50YWJpbGl0eSBhbmQgZml0
+bmVzcyBmb3IgYSBwYXJ0aWN1bGFyIHB1cnBvc2UgYW5kIG1ha2VzIG5vIHdhcnJhbnR5IG9yIHJl
+cHJlc2VudGF0aW9uLCBlaXRoZXIgZXhwcmVzcyBvciBpbXBsaWVkLCB3aXRoIHJlc3BlY3QgdG8g
+dGhlIEZJTEVTIG9yIGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLCBpbmNsdWRpbmcgaXRzIHF1
+YWxpdHksIHBlcmZvcm1hbmNlLCBtZXJjaGFudGFiaWxpdHksIG9yIGZpdG5lc3MgZm9yIGEgcGFy
+dGljdWxhciBwdXJwb3NlLiBUaGUgRklMRVMgYW5kIGRvY3VtZW50YXRpb24gYXJlIHByb3ZpZGVk
+ICJhcyBpcyIgYW5kIHRoZSBVU0VSIGFzc3VtZXMgdGhlIGVudGlyZSByaXNrIGFzIHRvIGl0cyBx
+dWFsaXR5IGFuZCBwZXJmb3JtYW5jZS4gVGhvc2UgcGFydGllcyBpbnZvbHZlZCB3aXRoIHRoZSBk
+ZXZlbG9wbWVudCBhbmQgZGlzdHJpYnV0aW9uIG9mIHRoaXMgZGF0YSB3aWxsIG5vdCBiZSBsaWFi
+bGUgZm9yIGFueSBkaXJlY3QsIGluZGlyZWN0LCBzcGVjaWFsLCBpbmNpZGVudGFsLCBvciBjb25z
+ZXF1ZW50aWFsIGRhbWFnZXMgYXJpc2luZyBvdXQgb2YgdGhlIHVzZSBvciBpbmFiaWxpdHkgdG8g
+dXNlIHRoZSBGSUxFUyBvciBhbnkgYWNjb21wYW55aW5nIGRvY3VtZW50YXRpb24uPC9kaXN0bGlh
+Yj4NCiAgICA8c3Rkb3JkZXI+DQogICAgICA8ZGlnZm9ybT4NCiAgICAgICAgPGRpZ3RpbmZvPg0K
+ICAgICAgICAgIDxmb3JtbmFtZT5BUkNFIChBUkMvSU5GTyBFeHBvcnQpPC9mb3JtbmFtZT4NCiAg
+ICAgICAgICA8Zm9ybXZlcm4+Ny4xLjE8L2Zvcm12ZXJuPg0KICAgICAgICAgIDxmaWxlZGVjPnpp
+cDwvZmlsZWRlYz4NCiAgICAgICAgPC9kaWd0aW5mbz4NCiAgICAgICAgPGRpZ3RvcHQ+DQogICAg
+ICAgICAgPG9ubGlub3B0Pg0KICAgICAgICAgICAgPGNvbXB1dGVyPg0KICAgICAgICAgICAgICA8
+bmV0d29ya2E+DQogICAgICAgICAgICAgICAgPG5ldHdvcmtyPnNlZSBPbmxpbmUgTGlua2FnZSBp
+biBJZGVudGlmaWNhdGlvbiBpbmZvcm1hdGlvbiBzZWN0aW9uIG9mIG1ldGFkYXRhPC9uZXR3b3Jr
+cj4NCiAgICAgICAgICAgICAgPC9uZXR3b3JrYT4NCiAgICAgICAgICAgIDwvY29tcHV0ZXI+DQog
+ICAgICAgICAgPC9vbmxpbm9wdD4NCiAgICAgICAgPC9kaWd0b3B0Pg0KICAgICAgPC9kaWdmb3Jt
+Pg0KICAgICAgPGZlZXM+bm9uZTwvZmVlcz4NCiAgICA8L3N0ZG9yZGVyPg0KICA8L2Rpc3RpbmZv
+Pg0KICA8bWV0YWluZm8gR1JPVVA9Iidjb2FsJyI+DQogICAgPG1ldGM+DQogICAgICA8Y250aW5m
+bz4NCiAgICAgICAgPGNudHBvcz5NZXRhZGF0YSBTcGVjaWFsaXN0PC9jbnRwb3M+DQogICAgICAg
+IDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFkZHJlc3M8L2FkZHJ0eXBl
+Pg0KICAgICAgICAgIDxhZGRyZXNzPjExNSBMYW5kIGFuZCBXYXRlciBidWlsZGluZzwvYWRkcmVz
+cz4NCiAgICAgICAgICA8Y2l0eT5Vbml2ZXJzaXR5IFBhcms8L2NpdHk+DQogICAgICAgICAgPHN0
+YXRlPlBBPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE2ODAyPC9wb3N0YWw+DQogICAgICAg
+ICAgPGNvdW50cnk+VVNBPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxj
+bnR2b2ljZT44MTQtODY1LTg3OTI8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+cGFzZGFA
+cHN1LmVkdTwvY250ZW1haWw+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+
+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nlc3MgKFBBU0RBKTwvY250b3JnPg0KICAgICAg
+ICA8L2NudG9yZ3A+DQogICAgICA8L2NudGluZm8+DQogICAgPC9tZXRjPg0KICAgIDxtZXRkPjIw
+MTIxMjwvbWV0ZD4NCiAgPC9tZXRhaW5mbz4NCiAgPEVzcmk+DQogICAgPE1vZERhdGU+MjAxNDEx
+MjU8L01vZERhdGU+DQogICAgPE1vZFRpbWU+MTUxODAwMDA8L01vZFRpbWU+DQogICAgPENyZWFE
+YXRlPjIwMTQxMTI1PC9DcmVhRGF0ZT4NCiAgICA8Q3JlYVRpbWU+MTIwMzU2MDA8L0NyZWFUaW1l
+Pg0KICAgIDxTeW5jT25jZT5GQUxTRTwvU3luY09uY2U+DQogICAgPFN5bmNEYXRlPjIwMTEwMjA5
+PC9TeW5jRGF0ZT4NCiAgICA8U3luY1RpbWU+MTI1NDU0MDA8L1N5bmNUaW1lPg0KICAgIDxBcmNH
+SVNzdHlsZT5JdGVtIERlc2NyaXB0aW9uPC9BcmNHSVNzdHlsZT4NCiAgICA8RGF0YVByb3BlcnRp
+ZXM+DQogICAgICA8aXRlbVByb3BzPg0KICAgICAgICA8aW1zQ29udGVudFR5cGU+MDAyPC9pbXND
+b250ZW50VHlwZT4NCiAgICAgIDwvaXRlbVByb3BzPg0KICAgICAgPGNvcHlIaXN0b3J5Pg0KICAg
+ICAgICA8Y29weSBzb3VyY2U9IkQ6XEdJU19EYXRhXFBBU0RBXE15bGFyX1NoYXBlZmlsZXNcQW50
+aHJhY2l0ZV9jb2FsX21pbmVfcGVybWl0c191cGRhdGVfMTIyMTEyIiBkZXN0PSJcXEVQTVBDT1cw
+MVxEJFxHSVNfRGF0YVxNeWxhcl9HSVNfRGF0YVxHZW9kYXRhYmFzZVxJbnRlcm5zXE5hdGVcQW50
+aHJhY2l0ZV9jb2FsX21pbmVfcGVybWl0c191cGRhdGVfMTIyMTEyIiBkYXRlPSIyMDE0MTEyNSIg
+dGltZT0iMTIwMzU2MDAiIC8+DQogICAgICA8L2NvcHlIaXN0b3J5Pg0KICAgIDwvRGF0YVByb3Bl
+cnRpZXM+DQogICAgPHNjYWxlUmFuZ2U+DQogICAgICA8bWluU2NhbGU+NjI1MDAwPC9taW5TY2Fs
+ZT4NCiAgICAgIDxtYXhTY2FsZT41MDAwMDwvbWF4U2NhbGU+DQogICAgPC9zY2FsZVJhbmdlPg0K
+ICAgIDxBcmNHSVNQcm9maWxlPkl0ZW1EZXNjcmlwdGlvbjwvQXJjR0lTUHJvZmlsZT4NCiAgPC9F
+c3JpPg0KICA8ZGF0YUlkSW5mbz4NCiAgICA8aWRDaXRhdGlvbj4NCiAgICAgIDxyZXNUaXRsZSBT
+eW5jPSJGQUxTRSI+QW50aHJhY2l0ZV9Db2FsX01pbmVfUGVybWl0c18xMTI1MTQ8L3Jlc1RpdGxl
+Pg0KICAgIDwvaWRDaXRhdGlvbj4NCiAgICA8aWRQdXJwPlRoZSBwdXJwb3NlIG9mIHRoaXMgZGF0
+YSBzZXQgaXMgdG8gcHJvdmlkZSBERVAgc3RhZmYgYW5kIG90aGVyIGVudmlyb25tZW50YWwgcHJv
+ZmVzc2lvbmFscyB3aXRoIGEgc3BhdGlhbGx5IHJlZmVyZW5jZWQgaW52ZW50b3J5IG9mIGFjdGl2
+ZSBhbmQgaGlzdG9yaWNhbCBjb2FsIG1pbmUgcGVybWl0IGFyZWEgYm91bmRhcmllcyBsb2NhdGVk
+IGluIFBlbm5zeWx2YW5pYS48L2lkUHVycD4NCiAgICA8aWRBYnM+Jmx0O0RJViBTVFlMRT0idGV4
+dC1hbGlnbjpMZWZ0OyImZ3Q7Jmx0O0RJViZndDsmbHQ7RElWJmd0OyZsdDtQJmd0OyZsdDtTUEFO
+Jmd0O1Blbm5zeWx2YW5pYSBzdGF0ZSBsYXcgcmVxdWlyZXMgdGhvc2Ugd2hvIHdpc2ggdG8gY29u
+ZHVjdCBtaW5pbmcgYWN0aXZpdGllcyB3aXRoaW4gdGhlIENvbW1vbndlYWx0aCB0byBhcHBseSBm
+b3IgcGVybWl0cyBpc3N1ZWQgYnkgdGhlIFBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIEVudmly
+b25tZW50YWwgUHJvdGVjdGlvbiAoREVQKS4gVGhpcyBkYXRhIHNldCBpbmRpY2F0ZXMgdGhlIGFw
+cHJveGltYXRlIGxvY2F0aW9uIG9mIHBlcm1pdCBhcmVhIGJvdW5kYXJpZXMgb2YgYWN0aXZlIGFu
+ZCBoaXN0b3JpY2FsIGFudGhyYWNpdGUgY29hbCBtaW5lcyBkZXJpdmVkIGZyb20gbG9jYXRpb24g
+bWFwcyBpbmNsdWRlZCB3aXRoIHRoZSBwZXJtaXQgYXBwbGljYXRpb25zIHN1Ym1pdHRlZCBieSB0
+aGUgbWluZSBvcGVyYXRvcnMuIEVhY2ggcG9seWdvbiByZXByZXNlbnRzIGFuIGFyZWEgd2hlcmUg
+Y29hbCByZW1vdmFsLCByZWNsYW1hdGlvbiwgYW5kIHJlbGF0ZWQgc3VwcG9ydGluZyBhY3Rpdml0
+aWVzIGhhdmUgYmVlbiBhdXRob3JpemVkIHRvIG9jY3VyLiZsdDsvU1BBTiZndDsmbHQ7L1AmZ3Q7
+Jmx0Oy9ESVYmZ3Q7Jmx0Oy9ESVYmZ3Q7Jmx0Oy9ESVYmZ3Q7PC9pZEFicz4NCiAgICA8c2VhcmNo
+S2V5cz4NCiAgICAgIDxrZXl3b3JkPmdlb2xvZ3kgZ2VvIGdlb2xvZ2ljIGdlb2xvZ2ljYWw8L2tl
+eXdvcmQ+DQogICAgICA8a2V5d29yZD5taW5pbmc8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5j
+b2FsPC9rZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+QW50aHJhY2l0ZTwva2V5d29yZD4NCiAgICAg
+IDxrZXl3b3JkPkdlb3NjaWVudGlmaWMgSW5mb3JtYXRpb248L2tleXdvcmQ+DQogICAgPC9zZWFy
+Y2hLZXlzPg0KICAgIDxyZXNDb25zdD4NCiAgICAgIDxDb25zdHM+DQogICAgICAgIDx1c2VMaW1p
+dD4mbHQ7RElWIFNUWUxFPSJ0ZXh0LWFsaWduOkxlZnQ7IiZndDsmbHQ7RElWJmd0OyZsdDtESVYm
+Z3Q7Jmx0O1AmZ3Q7Jmx0O1NQQU4mZ3Q7VEhFIEVOQ0xPU0VEIFJFUFJPRFVDVElPTlMgT0YgSElT
+VE9SSUNBTCBNSU5FIFJFQ09SRFMgQVJFIFBST1ZJREVEIFNPTEVMWSBGT1IgSU5GT1JNQVRJT05B
+TCBQVVJQT1NFUyBBTkQgQVJFIE5PVCBJTlRFTkRFRCBGT1IgVVNFIElOIE1JTkVSQUwgRVhQTE9S
+QVRJT04gT1IgQ09OU1RSVUNUSU9OIE9GIEFOWSBLSU5ELiBUSEUgREVQQVJUTUVOVCBPRiBFTlZJ
+Uk9OTUVOVEFMIFBST1RFQ1RJT04gTUFLRVMgTk8gQ0xBSU0sIEVYUFJFU1NFRCBPUiBJTVBMSUVE
+LCBSRUdBUkRJTkcgVEhFIEFDQ1VSQUNZLCBDT01QTEVURU5FU1MgT1IgREVHUkVFIE9GIElNQUdF
+IERJU1RPUlRJT04gT0YgU0FJRCBJTkZPUk1BVElPTi4mbHQ7L1NQQU4mZ3Q7Jmx0Oy9QJmd0OyZs
+dDsvRElWJmd0OyZsdDsvRElWJmd0OyZsdDsvRElWJmd0OzwvdXNlTGltaXQ+DQogICAgICA8L0Nv
+bnN0cz4NCiAgICA8L3Jlc0NvbnN0Pg0KICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <mdMaint xmlns="">
+    <maintFreq>
+      <MaintFreqCd value="009">
+      </MaintFreqCd>
+    </maintFreq>
+  </mdMaint>
+</metadata>

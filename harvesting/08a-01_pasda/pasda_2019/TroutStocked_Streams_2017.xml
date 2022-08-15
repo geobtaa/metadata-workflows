@@ -1,0 +1,2519 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Fish and Boat Commission</origin>
+        <pubdate>2017</pubdate>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+        <title>Trout Stocked Sections</title>
+        <ftname Sync="TRUE">PFBC_GIS.DBO.Fisheries_AllSections</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2017</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.522230</westbc>
+        <eastbc Sync="TRUE">-74.689450</eastbc>
+        <northbc Sync="TRUE">42.264260</northbc>
+        <southbc Sync="TRUE">39.703258</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-80.522230</leftbc>
+        <rightbc Sync="TRUE">-74.689450</rightbc>
+        <bottombc Sync="TRUE">39.703258</bottombc>
+        <topbc Sync="TRUE">42.264260</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Stocking</themekey>
+        <themekey>Special Regulation</themekey>
+        <themekey>Fishing</themekey>
+        <themekey>Streams</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state.  If modifications are made to the data set, users are obligated to describe the types of modifications they have made.  Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <hours>8:00-4:00</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Pennsylvania Fish and Boat Commission</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <natvform Sync="TRUE">SDE Feature Class</natvform>
+    <descript>
+      <abstract>TroutStocked_Streams_2017</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <srcused>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper />
+              <cntorg>PA Fish and Boat Commission</cntorg>
+            </cntperp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>physical address</addrtype>
+              <address>1601 Elmerton Ave</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17110-9299</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntaddr>
+              <addrtype>mailing address</addrtype>
+              <address>P O Box 67000</address>
+              <city>Harrisburg</city>
+              <state>PA</state>
+              <postal>17106-7000</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>717-705-7909</cntvoice>
+            <cntfax>717-705-7901</cntfax>
+            <cntemail>mbialousz@state.pa.us</cntemail>
+          </cntinfo>
+        </proccont>
+        <procdesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database.  The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography.  Tools in ArcMap were used to generate the stream sections from these values.  Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary.  The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</procdesc>
+        <procsv>ArcGIS 9.1</procsv>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\Temp\Reg_HQ.xml</srcused>
+        <date Sync="TRUE">20070130</date>
+        <time Sync="TRUE">09333600</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">K:\Projects\General_GIS\metadata_template.xml</srcused>
+        <date Sync="TRUE">20070213</date>
+        <time Sync="TRUE">16173000</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged.shp.xml</srcused>
+        <date Sync="TRUE">20070214</date>
+        <time Sync="TRUE">11441000</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <date Sync="TRUE">20070222</date>
+        <time Sync="TRUE">17264100</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS_new.mdb</srcused>
+        <date Sync="TRUE">20080122</date>
+        <time Sync="TRUE">16123400</time>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">\\FBHBGISAPP02\GIS_DATA\Projects\GDB_Edits\PFBC_GIS.mdb</srcused>
+        <procdate Sync="TRUE">20081230</procdate>
+        <proctime Sync="TRUE">16490500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">20090126</procdate>
+        <proctime Sync="TRUE">09423500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=FBHBGISDEV02; Service=5151/tcp; Database=PFBC_GIS; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">20090129</procdate>
+        <proctime Sync="TRUE">00273200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE" />
+        <procdate Sync="TRUE">20090415</procdate>
+        <proctime Sync="TRUE">08565500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset copied.</procdesc>
+        <srcused Sync="TRUE">Server=fbhbgisdev02; Service=5151/tcp; Database=PFBC_GIS; User=sa; Version=dbo.DEFAULT</srcused>
+        <procdate Sync="TRUE">2017</procdate>
+        <proctime Sync="TRUE">13474500</proctime>
+      </procstep>
+    </lineage>
+    <posacc>
+      <horizpa>
+        <qhorizpa>
+          <horizpav>24000</horizpav>
+          <horizpae>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <esriterm Name="TroutStocked_Sections_2017">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">3</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">1105</efeacnt>
+        <spindex Sync="TRUE">FALSE</spindex>
+        <linrefer Sync="TRUE">TRUE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altres Sync="TRUE">1.000000</altres>
+        <altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed Name="TroutStocked_Sections_2017">
+      <enttyp>
+        <enttypl Sync="TRUE">TroutStocked_Sections_2017</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">1105</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WRDS</attrlabl>
+        <attalias Sync="TRUE">WRDS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdef>Water Resources Data System unique stream identifier</attrdef>
+        <attrdefs>Pennsylvania Department of Environmental Protection</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLatLon</attrlabl>
+        <attalias Sync="TRUE">WtrLatLon</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">12</attwidth>
+        <attrdef>PFBC stream unique identifier (consists of latitude/longitude of the mouth)</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLatDD</attrlabl>
+        <attalias Sync="TRUE">WtrLatDD</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Stream mouth latitude in decimal degrees</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrLonDD</attrlabl>
+        <attalias Sync="TRUE">WtrLonDD</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Stream mouth longitude in decimal degrees</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WtrName</attrlabl>
+        <attalias Sync="TRUE">WtrName</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Stream name</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecNum</attrlabl>
+        <attalias Sync="TRUE">SecNum</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>PFBC Fisheries Management stream section number</attrdef>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecDate</attrlabl>
+        <attalias Sync="TRUE">SecDate</attalias>
+        <attrtype Sync="TRUE">Date</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Date the section was established</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpLimLa</attrlabl>
+        <attalias Sync="TRUE">SecUpLimLa</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Latitude of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpLimLo</attrlabl>
+        <attalias Sync="TRUE">SecUpLimLo</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Longitude of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpperLi</attrlabl>
+        <attalias Sync="TRUE">SecUpperLi</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>River Mile (uncorrected) of the upper limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecUpper_1</attrlabl>
+        <attalias Sync="TRUE">SecUpper_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Section upper limit description</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLwLimLa</attrlabl>
+        <attalias Sync="TRUE">SecLwLimLa</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Latitude of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLwLimLo</attrlabl>
+        <attalias Sync="TRUE">SecLwLimLo</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Longitude of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLowerLi</attrlabl>
+        <attalias Sync="TRUE">SecLowerLi</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>River Mile (uncorrected) of the lower limit of the stream section</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_06</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_06</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with warmwater/coolwater species in 2006</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_06</attrlabl>
+        <attalias Sync="TRUE">TrtStk_06</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with trout in 2006</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UpperRM_Ne</attrlabl>
+        <attalias Sync="TRUE">UpperRM_Ne</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Adjusted section upper limit river mile (NHD based)</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LowerRM_Ne</attrlabl>
+        <attalias Sync="TRUE">LowerRM_Ne</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Adjusted section lower limit river mile (NHD based)</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GIS_Key</attrlabl>
+        <attalias Sync="TRUE">GIS_Key</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">16</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Unique identifier for the stream section used in GIS (combo of stream ID and section number)</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SecLower_1</attrlabl>
+        <attalias Sync="TRUE">SecLower_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission Bureau of Fisheries</attrdefs>
+        <attrdef>Section lower limit description</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Length_FT_</attrlabl>
+        <attalias Sync="TRUE">Length_FT_</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Length of the section in feet calculated by GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Length_MI_</attrlabl>
+        <attalias Sync="TRUE">Length_MI_</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Length of the section in miles calculated by GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SpecReg_Ma</attrlabl>
+        <attalias Sync="TRUE">SpecReg_Ma</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <attrdef>The Special Regulation Map ID used on PFBC Regional and County Guide Maps if the section is under a fishing special regulation</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_07</attrlabl>
+        <attalias Sync="TRUE">TrtStk_07</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Whether the section was stocked with trout in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_TrtSt</attrlabl>
+        <attalias Sync="TRUE">Fing_TrtSt</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LL_Lat_GIS</attrlabl>
+        <attalias Sync="TRUE">LL_Lat_GIS</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Lower Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LL_Long_GI</attrlabl>
+        <attalias Sync="TRUE">LL_Long_GI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Lower Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_07</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_07</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2007</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_08</attrlabl>
+        <attalias Sync="TRUE">TrtStk_08</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with trout in 2008</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_1</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_1</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">3</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2008</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_08</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_08</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2008</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UL_Lat_GIS</attrlabl>
+        <attalias Sync="TRUE">UL_Lat_GIS</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdef>Upper Limit Latitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">UL_Long_GI</attrlabl>
+        <attalias Sync="TRUE">UL_Long_GI</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Upper Limit Longitude of Section as calculated by GIS - used for driving directions in web GIS</attrdef>
+        <atprecis Sync="TRUE">18</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_09</attrlabl>
+        <attalias Sync="TRUE">TrtStk_09</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdef>Whether the section will be stocked with trout in 2009</attrdef>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_2</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_2</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section was stocked with fingerling sized trout in 2009</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCWStk_20</attrlabl>
+        <attalias Sync="TRUE">WWCWStk_20</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <attrdefs>Pennsylvania Fish and Boat Commission</attrdefs>
+        <attrdef>Whether the section will be stocked with warmwater/coolwater species in 2009</attrdef>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Rem_Sec</attrlabl>
+        <attalias Sync="TRUE">Rem_Sec</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">ClassA</attrlabl>
+        <attalias Sync="TRUE">ClassA</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WildTrt</attrlabl>
+        <attalias Sync="TRUE">WildTrt</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">WWCW_Fish</attrlabl>
+        <attalias Sync="TRUE">WWCW_Fish</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">GlobalID</attrlabl>
+        <attalias Sync="TRUE">GlobalID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">38</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">SpecReg</attrlabl>
+        <attalias Sync="TRUE">SpecReg</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_10</attrlabl>
+        <attalias Sync="TRUE">TrtStk_10</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_3</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_3</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">TrtStk_11</attrlabl>
+        <attalias Sync="TRUE">TrtStk_11</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Fing_Trt_4</attrlabl>
+        <attalias Sync="TRUE">Fing_Trt_4</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">2</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape_len</attrlabl>
+        <attalias Sync="TRUE">Shape_len</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+    <detailed Name="PFBC_GIS.DBO.Stream_Trout_Stocking_2009">
+      <enttyp>
+        <enttypl Sync="TRUE">PFBC_GIS.DBO.Stream_Trout_Stocking_2009</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+    <detailed Name="Streams_WWCW_Stocking_2008">
+      <enttyp>
+        <enttypl Sync="TRUE">Streams_WWCW_Stocking_2008</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+    <detailed Name="Streams_WWCW_Actual_Stocked_2008">
+      <enttyp>
+        <enttypl Sync="TRUE">Streams_WWCW_Actual_Stocked_2008</enttypl>
+        <enttypt Sync="TRUE">Relationship</enttypt>
+      </enttyp>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec />
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr>
+        <atnumdec Sync="TRUE">8</atnumdec>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>Downloadable Data</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">31.307</transize>
+          <dssize Sync="TRUE">31.307</dssize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building </address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">2017</metd>
+    <metfrd>As needed</metfrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntorg>PA Fish and Boat Commission</cntorg>
+        </cntperp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>physical address</addrtype>
+          <address>1601 Elmerton Ave</address>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17110-9299</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P O Box 67000</address>
+          <city>Harrisburg</city>
+          <state>PA</state>
+          <postal>17106-7000</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>717-705-7909</cntvoice>
+        <cntfax>717-705-7901</cntfax>
+        <hours>8:00-4:00</hours>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <langmeta>English</langmeta>
+  </metainfo>
+  <Esri>
+    <CreaDate>2017</CreaDate>
+    <CreaTime>13474500</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <ModDate>2017</ModDate>
+    <ModTime>14382400</ModTime>
+    <SyncDate>2017</SyncDate>
+    <SyncTime>14382400</SyncTime>
+    <DataProperties>
+      <lineage>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20070214" Time="111013">CopyFeatures K:\PFBC_GIS\Geodatabase\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 C:\WorkSpace\Exports_4_Metadata\Streams_PFBCManaged_2006_1.shp # 0 0 0</Process>
+        <Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070222" Time="155239">FeatureClassToFeatureClass K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006 "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder" Streams_PFBCManaged_2007.shp # "WRDS WRDS true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WRDS,-1,-1;WtrLatLon WtrLatLon true true false 12 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatLon,-1,-1;WtrLatDD WtrLatDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLatDD,-1,-1;WtrLonDD WtrLonDD true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrLonDD,-1,-1;WtrName WtrName true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WtrName,-1,-1;SecNum SecNum true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecNum,-1,-1;SecDate SecDate true true false 8 Date 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecDate,-1,-1;SecUpLimLa SecUpLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLa,-1,-1;SecUpLimLo SecUpLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpLimLo,-1,-1;SecUpperLi SecUpperLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpperLi,-1,-1;SecUpper_1 SecUpper_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecUpper_1,-1,-1;SecLwLimLa SecLwLimLa true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLa,-1,-1;SecLwLimLo SecLwLimLo true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLwLimLo,-1,-1;SecLowerLi SecLowerLi true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLowerLi,-1,-1;SecLower_1 SecLower_1 true true false 50 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SecLower_1,-1,-1;GIS_Key GIS_Key true true false 16 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,GIS_Key,-1,-1;LowerRM_Ne LowerRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,LowerRM_Ne,-1,-1;UpperRM_Ne UpperRM_Ne true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,UpperRM_Ne,-1,-1;Shape_Leng Shape_Length false true true 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Shape_Length,-1,-1;TrtStk_06 TrtStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,TrtStk_06,-1,-1;WWCWStk_06 WWCWStk_06 true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,WWCWStk_06,-1,-1;Spec_Reg Spec_Reg true true false 8 Text 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Spec_Reg,-1,-1;Length_FT_ Length_FT_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_FT_GIS,-1,-1;Length_MI_ Length_MI_ true true false 8 Double 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,Length_MI_GIS,-1,-1;SpecReg_Ma SpecReg_Ma true true false 2 Short 0 0 ,First,#,K:\Projects\GDB_Edits\PFBC_GIS.mdb\PFBC_Mapping\Streams_PFBCManaged_2006,SpecReg_MapID,-1,-1" # "K:\Projects\Fisheries\Fish_Management\Coldwater_Unit\Stocking_2007\New Folder\Streams_PFBCManaged_2007.shp"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20081230" Time="171457">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Access';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.AFM_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Biologist_Reports';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Pts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Boating_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ClassA_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Commissioner_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Coop_nurseries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Dams_RunofRiver';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Erie_Tributaries_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_poly';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.ErieTribs_OpenFishing_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fish_passage';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.fishing_hotspots';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Habitat_Mgmt_Areas_Offices';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Hatcheries';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_PFBCDatabase';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.LawEnforcement_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Maintenance_Regions';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PA_Fish_Database';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waterbodies_pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Approved_Trout_Waters';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Lakes_Point';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_GIS_DBO_Fishing_SpecReg_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.PFBC_Properties';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Reg_HQ';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2006';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCManaged_2007';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2008';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Trout_NaturalReproduction';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WaterTrails_line';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WCO_Districts';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Wilderness_Trout_Streams';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Lakes_Pt';'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.WWCW_Fisheries_Streams'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090126" Time="094757">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Streams_PFBCStocked_2009"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090813" Time="084934">FeatureClassToFeatureClass K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WtrName,-1,-1;SecNum 'SecNum' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecNum,-1,-1;SecDate 'SecDate' true true false 8 Date 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 5 Long 0 5 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 19 Double 8 18 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,K:\Projects\Fisheries\GISLayer_Updates\Fisheries_Sections\Fisheries_Sections.shp,SpecReg,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20090813" Time="085055">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20090813" Time="085123">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\UnregisterAsVersioned" Date="20090813" Time="091848">UnregisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections" NO_KEEP_EDIT NO_COMPRESS_DEFAULT "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_Sections"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20091216" Time="093900">FeatureClassToFeatureClass "Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections" "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping" Fisheries_AllSections_new # "WRDS 'WRDS' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WRDS,-1,-1;WtrLatLon 'WtrLatLon' true true false 12 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatLon,-1,-1;WtrLatDD 'WtrLatDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLatDD,-1,-1;WtrLonDD 'WtrLonDD' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrLonDD,-1,-1;WtrName 'WtrName' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WtrName,-1,-1;SecNum 'SecNum' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecNum,-1,-1;SecDate 'SecDate' true true false 36 Date 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecDate,-1,-1;SecUpLimLa 'SecUpLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLa,-1,-1;SecUpLimLo 'SecUpLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpLimLo,-1,-1;SecUpperLi 'SecUpperLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpperLi,-1,-1;SecUpper_1 'SecUpper_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecUpper_1,-1,-1;SecLwLimLa 'SecLwLimLa' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLa,-1,-1;SecLwLimLo 'SecLwLimLo' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLwLimLo,-1,-1;SecLowerLi 'SecLowerLi' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLowerLi,-1,-1;SecLower_1 'SecLower_1' true true false 50 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SecLower_1,-1,-1;GIS_Key 'GIS_Key' true true false 16 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GIS_Key,-1,-1;LowerRM_Ne 'LowerRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LowerRM_Ne,-1,-1;UpperRM_Ne 'UpperRM_Ne' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UpperRM_Ne,-1,-1;TrtStk_06 'TrtStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_06,-1,-1;WWCWStk_06 'WWCWStk_06' true true false 8 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_06,-1,-1;Length_FT_ 'Length_FT_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_FT_,-1,-1;Length_MI_ 'Length_MI_' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Length_MI_,-1,-1;SpecReg_Ma 'SpecReg_Ma' true true false 4 Long 0 10 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg_Ma,-1,-1;TrtStk_07 'TrtStk_07' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_07,-1,-1;Fing_TrtSt 'Fing_TrtSt' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_TrtSt,-1,-1;WWCWStk_07 'WWCWStk_07' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_07,-1,-1;LL_Long_GI 'LL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Long_GI,-1,-1;LL_Lat_GIS 'LL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,LL_Lat_GIS,-1,-1;Reg_Name 'Reg_Name' true true false 40 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Name,-1,-1;Reg_Link 'Reg_Link' true true false 70 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Reg_Link,-1,-1;TrtStk_08 'TrtStk_08' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_08,-1,-1;Fing_Trt_1 'Fing_Trt_1' true true false 3 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_1,-1,-1;WWCWStk_08 'WWCWStk_08' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_08,-1,-1;UL_Lat_GIS 'UL_Lat_GIS' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Lat_GIS,-1,-1;UL_Long_GI 'UL_Long_GI' true true false 8 Double 8 19 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,UL_Long_GI,-1,-1;TrtStk_09 'TrtStk_09' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,TrtStk_09,-1,-1;Fing_Trt_2 'Fing_Trt_2' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Fing_Trt_2,-1,-1;WWCWStk_20 'WWCWStk_20' true true false 2 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCWStk_20,-1,-1;Rem_Sec 'Rem_Sec' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Rem_Sec,-1,-1;ClassA 'ClassA' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,ClassA,-1,-1;WildTrt 'WildTrt' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WildTrt,-1,-1;WWCW_Fish 'WWCW_Fish' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,WWCW_Fish,-1,-1;SpecReg 'SpecReg' true true false 1 Text 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,SpecReg,-1,-1;GlobalID 'GlobalID' false false true 38 Long 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,GlobalID,-1,-1;Shape_len 'Shape_len' false false true 0 Double 0 0 ,First,#,Database Servers\FBHBGISADM01_SQLEXPRESS.gds\PFBC_GIS (VERSION:dbo.DEFAULT)\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections,Shape.len,-1,-1" # "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddGlobalIDs" Date="20091216" Time="094251">AddGlobalIDs 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new' 'Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new'</Process>
+        <Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RegisterAsVersioned" Date="20091216" Time="094306">RegisterAsVersioned "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new" NO_EDITS_TO_BASE "Database Connections\Connection to FBHBGISDEV02.sde\PFBC_GIS.DBO.PFBC_Mapping\PFBC_GIS.DBO.Fisheries_AllSections_new"</Process>
+      </lineage>
+      <itemProps>
+        <itemName Sync="TRUE">TroutStocked_Sections_2017</itemName>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-213549.484996</westBL>
+          <eastBL Sync="TRUE">274052.885730</eastBL>
+          <southBL Sync="TRUE">80481.579606</southBL>
+          <northBL Sync="TRUE">362884.039832</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemSize Sync="TRUE">7.125</itemSize>
+        <itemLocation>
+          <linkage Sync="TRUE">file://\\PC-36\D\PFBC\TroutStocked_Sections_2017.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </itemLocation>
+        <imsContentType>002</imsContentType>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;USA_Contiguous_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-78.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,42.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,39.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-16085300&lt;/XOrigin&gt;&lt;YOrigin&gt;-8515400&lt;/YOrigin&gt;&lt;XYScale&gt;279982320.96202713&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-939.69696972978568&lt;/MOrigin&gt;&lt;MScale&gt;4194304001953.124&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <MetaID>{9D7290F3-AB42-4294-B7F4-50D677BB030A}</MetaID>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-705-7909</voiceNum>
+        <faxNum>717-705-7901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="postal">
+        <delPoint>P O Box 67000</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>PA</adminArea>
+        <postCode>17106-7000</postCode>
+        <country>US</country>
+      </cntAddress>
+      <cntHours>8:00-4:00</cntHours>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpOrgName>Pennsylvania Spatial Data Access (PASDA)</rpOrgName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>(814) 865 - 8792</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="postal">
+            <delPoint>115 Land and Water building</delPoint>
+            <city>University Park</city>
+            <adminArea>Pennsylvania</adminArea>
+            <postCode>16802</postCode>
+            <country>US</country>
+            <eMailAdd>pasda@psu.edu</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>http://www.pasda.psu.edu/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Trout Stocked Sections</resTitle>
+      <date>
+        <pubDate>2017-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Pennsylvania Fish and Boat Commission</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+    </idCitation>
+    <idAbs>This layer contains flowing waters from the Pennsylvania Fish and Boat Commission Fisheries Resource Database that will be stocked with trout in 2017.</idAbs>
+    <idPurp>Mapping and analysis of flowing waters that are stocked in Pennsylvania. Promotion of fishing opportunities in Pennsylvania.</idPurp>
+    <idCredit>Pennsylvania Fish and Boat Commission</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-705-7909</voiceNum>
+          <faxNum>717-705-7901</faxNum>
+        </cntPhone>
+        <cntAddress addressType="physical">
+          <delPoint>1601 Elmerton Ave</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>PA</adminArea>
+          <postCode>17110-9299</postCode>
+          <country>US</country>
+        </cntAddress>
+        <cntHours>8:00-4:00</cntHours>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Pennsylvania</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>Streams</keyword>
+      <keyword>Stocking</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Special Regulation</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <searchKeys>
+      <keyword>Streams</keyword>
+      <keyword>Stocking</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Fishing</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Special Regulation</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>None provided credit is given to the Pennsylvania Fish and Boat Commission (PFBC) as long as the data is in its original unaltered state. If modifications are made to the data set, users are obligated to describe the types of modifications they have made. Users are not to misrepresent PFBC data sets, nor to imply that changes they (users) have made were approved by the PFBC.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="012" />
+    </tpCat>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-01-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <suppInfo>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flowing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</suppInfo>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012" />
+    </maintFreq>
+    <dateNext />
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <evalMethDesc>Layer is based on the National Hydrography Dataset (NHD) flowing water layer.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>24000</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>This data set was created by loading both River Mile values and latitude/longitude coordinates of section limits existing in the PFBC Fisheries database. The locational values were originally derived from a variety of sources including GPS, scaling from USGS maps and aerial photography. Tools in ArcMap were used to generate the stream sections from these values. Each section was checked against the descriptions contained for each upstream and downstream section limit and the sections were adjusted where necessary. The current 1:24000 National Hydrography Dataset (NHD) flwoing waters layer was used as the base for drawing the sections and this data is coincident with NHD.</stepDesc>
+        <stepDateTm>2006-01-01</stepDateTm>
+        <stepProc>
+          <rpOrgName>PA Fish and Boat Commission</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>717-705-7909</voiceNum>
+              <faxNum>717-705-7901</faxNum>
+            </cntPhone>
+            <cntAddress addressType="postal">
+              <delPoint>P O Box 67000</delPoint>
+              <city>Harrisburg</city>
+              <adminArea>PA</adminArea>
+              <postCode>17106-7000</postCode>
+              <country>US</country>
+              <eMailAdd>mbialousz@state.pa.us</eMailAdd>
+            </cntAddress>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>\\FBHBGISAPP01\GIS_Data\Projects\GDB_Edits\PFBC_GIS.mdb</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="a00d85f8bc1209dcf7584dc7494bd2ab" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvb3JpZ2luPg0KICAgICAgICA8
+cHViZGF0ZT4yMDE3PC9wdWJkYXRlPg0KICAgICAgICA8b25saW5rPmh0dHA6Ly93d3cucGFzZGEu
+cHN1LmVkdS88L29ubGluaz4NCiAgICAgICAgPHRpdGxlPlRyb3V0IFN0b2NrZWQgU2VjdGlvbnM8
+L3RpdGxlPg0KICAgICAgPC9jaXRlaW5mbz4NCiAgICA8L2NpdGF0aW9uPg0KICAgIDxkZXNjcmlw
+dD4NCiAgICAgIDxsYW5nZGF0YT5FbmdsaXNoPC9sYW5nZGF0YT4NCiAgICAgIDxhYnN0cmFjdD5U
+aGlzIGxheWVyIGNvbnRhaW5zIGZsb3dpbmcgd2F0ZXJzIGZyb20gdGhlIFBlbm5zeWx2YW5pYSBG
+aXNoIGFuZCBCb2F0IENvbW1pc3Npb24gRmlzaGVyaWVzIFJlc291cmNlIERhdGFiYXNlIHRoYXQg
+d2lsbCBiZSBzdG9ja2VkIHdpdGggdHJvdXQgaW4gMjAxNy4gPC9hYnN0cmFjdD4NCiAgICAgIDxw
+dXJwb3NlPk1hcHBpbmcgYW5kIGFuYWx5c2lzIG9mIGZsb3dpbmcgd2F0ZXJzIHRoYXQgYXJlIHN0
+b2NrZWQgaW4gUGVubnN5bHZhbmlhLiAgUHJvbW90aW9uIG9mIGZpc2hpbmcgb3Bwb3J0dW5pdGll
+cyBpbiBQZW5uc3lsdmFuaWEuPC9wdXJwb3NlPg0KICAgICAgPHN1cHBsaW5mPlRoaXMgZGF0YSBz
+ZXQgd2FzIGNyZWF0ZWQgYnkgbG9hZGluZyBib3RoIFJpdmVyIE1pbGUgdmFsdWVzIGFuZCBsYXRp
+dHVkZS9sb25naXR1ZGUgY29vcmRpbmF0ZXMgb2Ygc2VjdGlvbiBsaW1pdHMgZXhpc3RpbmcgaW4g
+dGhlIFBGQkMgRmlzaGVyaWVzIGRhdGFiYXNlLiAgVGhlIGxvY2F0aW9uYWwgdmFsdWVzIHdlcmUg
+b3JpZ2luYWxseSBkZXJpdmVkIGZyb20gYSB2YXJpZXR5IG9mIHNvdXJjZXMgaW5jbHVkaW5nIEdQ
+Uywgc2NhbGluZyBmcm9tIFVTR1MgbWFwcyBhbmQgYWVyaWFsIHBob3RvZ3JhcGh5LiAgVG9vbHMg
+aW4gQXJjTWFwIHdlcmUgdXNlZCB0byBnZW5lcmF0ZSB0aGUgc3RyZWFtIHNlY3Rpb25zIGZyb20g
+dGhlc2UgdmFsdWVzLiAgRWFjaCBzZWN0aW9uIHdhcyBjaGVja2VkIGFnYWluc3QgdGhlIGRlc2Ny
+aXB0aW9ucyBjb250YWluZWQgZm9yIGVhY2ggdXBzdHJlYW0gYW5kIGRvd25zdHJlYW0gc2VjdGlv
+biBsaW1pdCBhbmQgdGhlIHNlY3Rpb25zIHdlcmUgYWRqdXN0ZWQgd2hlcmUgbmVjZXNzYXJ5LiAg
+VGhlIGN1cnJlbnQgMToyNDAwMCBOYXRpb25hbCBIeWRyb2dyYXBoeSBEYXRhc2V0IChOSEQpIGZs
+b3dpbmcgd2F0ZXJzIGxheWVyIHdhcyB1c2VkIGFzIHRoZSBiYXNlIGZvciBkcmF3aW5nIHRoZSBz
+ZWN0aW9ucyBhbmQgdGhpcyBkYXRhIGlzIGNvaW5jaWRlbnQgd2l0aCBOSEQuPC9zdXBwbGluZj4N
+CiAgICA8L2Rlc2NyaXB0Pg0KICAgIDx0aW1lcGVyZD4NCiAgICAgIDx0aW1laW5mbz4NCiAgICAg
+ICAgPHNuZ2RhdGU+DQogICAgICAgICAgPGNhbGRhdGU+MjAxNzwvY2FsZGF0ZT4NCiAgICAgICAg
+PC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5mbz4NCiAgICAgIDxjdXJyZW50Pmdyb3VuZCBjb25k
+aXRpb248L2N1cnJlbnQ+DQogICAgPC90aW1lcGVyZD4NCiAgICA8c3RhdHVzPg0KICAgICAgPHBy
+b2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRhdGU+QXMgbmVlZGVkPC91cGRh
+dGU+DQogICAgPC9zdGF0dXM+DQogICAgPGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAg
+ICA8dGhlbWVrdD5JU08gMTkxMTUgVG9waWMgQ2F0ZWdvcmllczwvdGhlbWVrdD4NCiAgICAgICAg
+PHRoZW1la2V5PlN0b2NraW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PlNwZWNpYWwg
+UmVndWxhdGlvbjwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5GaXNoaW5nPC90aGVtZWtl
+eT4NCiAgICAgICAgPHRoZW1la2V5PlN0cmVhbXM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+aW5sYW5kV2F0ZXJzPC90aGVtZWtleT4NCiAgICAgIDwvdGhlbWU+DQogICAgICA8cGxhY2U+
+DQogICAgICAgIDxwbGFjZWtleT5QZW5uc3lsdmFuaWE8L3BsYWNla2V5Pg0KICAgICAgPC9wbGFj
+ZT4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5Ob25lPC9hY2Njb25zdD4NCiAgICA8
+dXNlY29uc3Q+Tm9uZSBwcm92aWRlZCBjcmVkaXQgaXMgZ2l2ZW4gdG8gdGhlIFBlbm5zeWx2YW5p
+YSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gKFBGQkMpIGFzIGxvbmcgYXMgdGhlIGRhdGEgaXMg
+aW4gaXRzIG9yaWdpbmFsIHVuYWx0ZXJlZCBzdGF0ZS4gIElmIG1vZGlmaWNhdGlvbnMgYXJlIG1h
+ZGUgdG8gdGhlIGRhdGEgc2V0LCB1c2VycyBhcmUgb2JsaWdhdGVkIHRvIGRlc2NyaWJlIHRoZSB0
+eXBlcyBvZiBtb2RpZmljYXRpb25zIHRoZXkgaGF2ZSBtYWRlLiAgVXNlcnMgYXJlIG5vdCB0byBt
+aXNyZXByZXNlbnQgUEZCQyBkYXRhIHNldHMsIG5vciB0byBpbXBseSB0aGF0IGNoYW5nZXMgdGhl
+eSAodXNlcnMpIGhhdmUgbWFkZSB3ZXJlIGFwcHJvdmVkIGJ5IHRoZSBQRkJDLjwvdXNlY29uc3Q+
+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRwZXJwPg0KICAg
+ICAgICAgIDxjbnRvcmc+UEEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9jbnRvcmc+DQogICAg
+ICAgIDwvY250cGVycD4NCiAgICAgICAgPGNudHBvcz5HSVMgQ29vcmRpbmF0b3I8L2NudHBvcz4N
+CiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPnBoeXNpY2FsIGFkZHJlc3M8
+L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjE2MDEgRWxtZXJ0b24gQXZlPC9hZGRyZXNz
+Pg0KICAgICAgICAgIDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBB
+PC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjE3MTEwLTkyOTk8L3Bvc3RhbD4NCiAgICAgICAg
+ICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNu
+dGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYWRkcmVzczwvYWRkcnR5cGU+DQog
+ICAgICAgICAgPGFkZHJlc3M+UCBPIEJveCA2NzAwMDwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0
+eT5IYXJyaXNidXJnPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQogICAgICAg
+ICAgPHBvc3RhbD4xNzEwNi03MDAwPC9wb3N0YWw+DQogICAgICAgICAgPGNvdW50cnk+VVNBPC9j
+b3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnR2b2ljZT43MTctNzA1LTc5
+MDk8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZmF4PjcxNy03MDUtNzkwMTwvY250ZmF4Pg0KICAg
+ICAgICA8aG91cnM+ODowMC00OjAwPC9ob3Vycz4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L3B0
+Y29udGFjPg0KICAgIDxkYXRhY3JlZD5QZW5uc3lsdmFuaWEgRmlzaCBhbmQgQm9hdCBDb21taXNz
+aW9uPC9kYXRhY3JlZD4NCiAgPC9pZGluZm8+DQogIDxkYXRhcXVhbD4NCiAgICA8bGluZWFnZT4N
+CiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHNyY3VzZWQ+XFxGQkhCR0lTQVBQMDFcR0lTX0Rh
+dGFcUHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYjwvc3JjdXNlZD4NCiAgICAgICAgPHBy
+b2Njb250Pg0KICAgICAgICAgIDxjbnRpbmZvPg0KICAgICAgICAgICAgPGNudHBlcnA+DQogICAg
+ICAgICAgICAgIDxjbnRvcmc+UEEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9jbnRvcmc+DQog
+ICAgICAgICAgICA8L2NudHBlcnA+DQogICAgICAgICAgICA8Y250cG9zPkdJUyBDb29yZGluYXRv
+cjwvY250cG9zPg0KICAgICAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgICAgIDxhZGRydHlw
+ZT5waHlzaWNhbCBhZGRyZXNzPC9hZGRydHlwZT4NCiAgICAgICAgICAgICAgPGFkZHJlc3M+MTYw
+MSBFbG1lcnRvbiBBdmU8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxjaXR5PkhhcnJpc2J1cmc8
+L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQogICAgICAgICAgICAgIDxw
+b3N0YWw+MTcxMTAtOTI5OTwvcG9zdGFsPg0KICAgICAgICAgICAgICA8Y291bnRyeT5VU0E8L2Nv
+dW50cnk+DQogICAgICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAgICA8Y250YWRkcj4NCiAg
+ICAgICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmcgYWRkcmVzczwvYWRkcnR5cGU+DQogICAgICAg
+ICAgICAgIDxhZGRyZXNzPlAgTyBCb3ggNjcwMDA8L2FkZHJlc3M+DQogICAgICAgICAgICAgIDxj
+aXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgICAgIDxzdGF0ZT5QQTwvc3RhdGU+DQog
+ICAgICAgICAgICAgIDxwb3N0YWw+MTcxMDYtNzAwMDwvcG9zdGFsPg0KICAgICAgICAgICAgICA8
+Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgICAgICA8L2NudGFkZHI+DQogICAgICAgICAg
+ICA8Y250dm9pY2U+NzE3LTcwNS03OTA5PC9jbnR2b2ljZT4NCiAgICAgICAgICAgIDxjbnRmYXg+
+NzE3LTcwNS03OTAxPC9jbnRmYXg+DQogICAgICAgICAgICA8Y250ZW1haWw+bWJpYWxvdXN6QHN0
+YXRlLnBhLnVzPC9jbnRlbWFpbD4NCiAgICAgICAgICA8L2NudGluZm8+DQogICAgICAgIDwvcHJv
+Y2NvbnQ+DQogICAgICAgIDxwcm9jZGVzYz5UaGlzIGRhdGEgc2V0IHdhcyBjcmVhdGVkIGJ5IGxv
+YWRpbmcgYm90aCBSaXZlciBNaWxlIHZhbHVlcyBhbmQgbGF0aXR1ZGUvbG9uZ2l0dWRlIGNvb3Jk
+aW5hdGVzIG9mIHNlY3Rpb24gbGltaXRzIGV4aXN0aW5nIGluIHRoZSBQRkJDIEZpc2hlcmllcyBk
+YXRhYmFzZS4gIFRoZSBsb2NhdGlvbmFsIHZhbHVlcyB3ZXJlIG9yaWdpbmFsbHkgZGVyaXZlZCBm
+cm9tIGEgdmFyaWV0eSBvZiBzb3VyY2VzIGluY2x1ZGluZyBHUFMsIHNjYWxpbmcgZnJvbSBVU0dT
+IG1hcHMgYW5kIGFlcmlhbCBwaG90b2dyYXBoeS4gIFRvb2xzIGluIEFyY01hcCB3ZXJlIHVzZWQg
+dG8gZ2VuZXJhdGUgdGhlIHN0cmVhbSBzZWN0aW9ucyBmcm9tIHRoZXNlIHZhbHVlcy4gIEVhY2gg
+c2VjdGlvbiB3YXMgY2hlY2tlZCBhZ2FpbnN0IHRoZSBkZXNjcmlwdGlvbnMgY29udGFpbmVkIGZv
+ciBlYWNoIHVwc3RyZWFtIGFuZCBkb3duc3RyZWFtIHNlY3Rpb24gbGltaXQgYW5kIHRoZSBzZWN0
+aW9ucyB3ZXJlIGFkanVzdGVkIHdoZXJlIG5lY2Vzc2FyeS4gIFRoZSBjdXJyZW50IDE6MjQwMDAg
+TmF0aW9uYWwgSHlkcm9ncmFwaHkgRGF0YXNldCAoTkhEKSBmbHdvaW5nIHdhdGVycyBsYXllciB3
+YXMgdXNlZCBhcyB0aGUgYmFzZSBmb3IgZHJhd2luZyB0aGUgc2VjdGlvbnMgYW5kIHRoaXMgZGF0
+YSBpcyBjb2luY2lkZW50IHdpdGggTkhELjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jc3Y+QXJj
+R0lTIDkuMTwvcHJvY3N2Pg0KICAgICAgICA8cHJvY2RhdGU+MjAwNjwvcHJvY2RhdGU+DQogICAg
+ICA8L3Byb2NzdGVwPg0KICAgIDwvbGluZWFnZT4NCiAgICA8cG9zYWNjPg0KICAgICAgPGhvcml6
+cGE+DQogICAgICAgIDxxaG9yaXpwYT4NCiAgICAgICAgICA8aG9yaXpwYXY+MjQwMDA8L2hvcml6
+cGF2Pg0KICAgICAgICAgIDxob3JpenBhZT5MYXllciBpcyBiYXNlZCBvbiB0aGUgTmF0aW9uYWwg
+SHlkcm9ncmFwaHkgRGF0YXNldCAoTkhEKSBmbG93aW5nIHdhdGVyIGxheWVyLjwvaG9yaXpwYWU+
+DQogICAgICAgIDwvcWhvcml6cGE+DQogICAgICA8L2hvcml6cGE+DQogICAgPC9wb3NhY2M+DQog
+IDwvZGF0YXF1YWw+DQogIDxlYWluZm8+DQogICAgPGRldGFpbGVkIE5hbWU9IlRyb3V0U3RvY2tl
+ZF9TZWN0aW9uc18yMDE3Ij4NCiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0eXBsIFN5bmM9
+IlRSVUUiPlRyb3V0U3RvY2tlZF9TZWN0aW9uc18yMDE3PC9lbnR0eXBsPg0KICAgICAgICA8ZW50
+dHlwdCBTeW5jPSJUUlVFIj5GZWF0dXJlIENsYXNzPC9lbnR0eXB0Pg0KICAgICAgICA8ZW50dHlw
+YyBTeW5jPSJUUlVFIj4xMTA1PC9lbnR0eXBjPg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0
+cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkZJRDwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUg
+U3luYz0iVFJVRSI+T0lEPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjQ8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgICAgPGF0
+dHJkZWYgU3luYz0iVFJVRSI+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAg
+ICAgICA8YXR0cmRlZnMgU3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRy
+ZG9tdj4NCiAgICAgICAgICA8dWRvbSBTeW5jPSJUUlVFIj5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9s
+ZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAg
+ICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmwgU3luYz0iVFJVRSI+T0JKRUNUSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMg
+U3luYz0iVFJVRSI+T0JKRUNUSUQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjEw
+PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjEwPC9hdHByZWNpcz4N
+CiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0
+cmRlZiBTeW5jPSJUUlVFIj5JbnRlcm5hbCBmZWF0dXJlIG51bWJlci48L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHRyZGVmcyBTeW5jPSJUUlVFIj5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJk
+b212Pg0KICAgICAgICAgIDx1ZG9tIFN5bmM9IlRSVUUiPlNlcXVlbnRpYWwgdW5pcXVlIHdob2xl
+IG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQuPC91ZG9tPg0KICAgICAg
+ICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibCBTeW5jPSJUUlVFIj5TaGFwZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5j
+PSJUUlVFIj5TaGFwZTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5H
+ZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4wPC9hdHR3
+aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAg
+ICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICAgIDxhdHRyZGVmIFN5
+bmM9IlRSVUUiPkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnMg
+U3luYz0iVFJVRSI+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAg
+ICA8dWRvbSBTeW5jPSJUUlVFIj5Db29yZGluYXRlcyBkZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91
+ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XUkRTPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dGFsaWFzIFN5bmM9IlRSVUUiPldSRFM8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjUwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+V2F0ZXIgUmVzb3VyY2VzIERhdGEgU3lz
+dGVtIHVuaXF1ZSBzdHJlYW0gaWRlbnRpZmllcjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZz
+PlBlbm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIEVudmlyb25tZW50YWwgUHJvdGVjdGlvbjwvYXR0
+cmRlZnM+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAg
+ICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XdHJMYXRMb248L2F0dHJs
+YWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+V3RyTGF0TG9uPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xMjwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmPlBG
+QkMgc3RyZWFtIHVuaXF1ZSBpZGVudGlmaWVyIChjb25zaXN0cyBvZiBsYXRpdHVkZS9sb25naXR1
+ZGUgb2YgdGhlIG1vdXRoKTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5zeWx2YW5p
+YSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmllczwvYXR0cmRlZnM+
+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XdHJMYXRERDwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5XdHJMYXRERDwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lk
+dGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZj5TdHJlYW0gbW91
+dGggbGF0aXR1ZGUgaW4gZGVjaW1hbCBkZWdyZWVzPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbiBCdXJlYXUgb2YgRmlzaGVy
+aWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjE4PC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XdHJMb25E
+RDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5XdHJMb25ERDwvYXR0
+YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0K
+ICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0
+cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbiBCdXJlYXUgb2YgRmlz
+aGVyaWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+U3RyZWFtIG1vdXRoIGxvbmdpdHVk
+ZSBpbiBkZWNpbWFsIGRlZ3JlZXM8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJU
+UlVFIj4xODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRz
+Y2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3lu
+Yz0iVFJVRSI+V3RyTmFtZTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVF
+Ij5XdHJOYW1lPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmlu
+ZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj41MDwvYXR0d2lkdGg+
+DQogICAgICAgIDxhdHRyZGVmcz5QZW5uc3lsdmFuaWEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9u
+IEJ1cmVhdSBvZiBGaXNoZXJpZXM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRlZj5TdHJlYW0g
+bmFtZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNlY051bTwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TZWNOdW08L2F0dGFsaWFz
+Pg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjEwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZz
+PlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmll
+czwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPlBGQkMgRmlzaGVyaWVzIE1hbmFnZW1lbnQg
+c3RyZWFtIHNlY3Rpb24gbnVtYmVyPC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0i
+VFJVRSI+MTA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0
+c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5
+bmM9IlRSVUUiPlNlY0RhdGU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJV
+RSI+U2VjRGF0ZTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5EYXRl
+PC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0dHdpZHRoPg0K
+ICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbiBC
+dXJlYXUgb2YgRmlzaGVyaWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+RGF0ZSB0aGUg
+c2VjdGlvbiB3YXMgZXN0YWJsaXNoZWQ8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5j
+PSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0
+dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBT
+eW5jPSJUUlVFIj5TZWNVcExpbUxhPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPlNlY1VwTGltTGE8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENv
+bW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmllczwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVm
+PkxhdGl0dWRlIG9mIHRoZSB1cHBlciBsaW1pdCBvZiB0aGUgc3RyZWFtIHNlY3Rpb248L2F0dHJk
+ZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVjaXM+DQogICAgICAg
+IDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U2VjVXBMaW1MbzwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TZWNVcExpbUxvPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xOTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5Q
+ZW5uc3lsdmFuaWEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uIEJ1cmVhdSBvZiBGaXNoZXJpZXM8
+L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRlZj5Mb25naXR1ZGUgb2YgdGhlIHVwcGVyIGxpbWl0
+IG9mIHRoZSBzdHJlYW0gc2VjdGlvbjwvYXR0cmRlZj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9
+IlRSVUUiPjE4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0
+dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBT
+eW5jPSJUUlVFIj5TZWNVcHBlckxpPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9
+IlRSVUUiPlNlY1VwcGVyTGk8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENv
+bW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmllczwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVm
+PlJpdmVyIE1pbGUgKHVuY29ycmVjdGVkKSBvZiB0aGUgdXBwZXIgbGltaXQgb2YgdGhlIHN0cmVh
+bSBzZWN0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MTg8L2F0
+cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlNl
+Y1VwcGVyXzE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U2VjVXBw
+ZXJfMTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0
+dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NTA8L2F0dHdpZHRoPg0KICAg
+ICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbiBCdXJl
+YXUgb2YgRmlzaGVyaWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+U2VjdGlvbiB1cHBl
+ciBsaW1pdCBkZXNjcmlwdGlvbjwvYXR0cmRlZj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRS
+VUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2Nh
+bGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9
+IlRSVUUiPlNlY0x3TGltTGE8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJV
+RSI+U2VjTHdMaW1MYTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5E
+b3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdp
+ZHRoPg0KICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlz
+c2lvbiBCdXJlYXUgb2YgRmlzaGVyaWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+TGF0
+aXR1ZGUgb2YgdGhlIGxvd2VyIGxpbWl0IG9mIHRoZSBzdHJlYW0gc2VjdGlvbjwvYXR0cmRlZj4N
+CiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjE4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TZWNMd0xpbUxvPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNlY0x3TGltTG88L2F0dGFsaWFzPg0KICAg
+ICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0
+dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5z
+eWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmllczwvYXR0
+cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPkxvbmdpdHVkZSBvZiB0aGUgbG93ZXIgbGltaXQgb2Yg
+dGhlIHN0cmVhbSBzZWN0aW9uPC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJV
+RSI+MTg8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2Nh
+bGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9
+IlRSVUUiPlNlY0xvd2VyTGk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJV
+RSI+U2VjTG93ZXJMaTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5E
+b3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdp
+ZHRoPg0KICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlz
+c2lvbiBCdXJlYXUgb2YgRmlzaGVyaWVzPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+Uml2
+ZXIgTWlsZSAodW5jb3JyZWN0ZWQpIG9mIHRoZSBsb3dlciBsaW1pdCBvZiB0aGUgc3RyZWFtIHNl
+Y3Rpb248L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVj
+aXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+V1dDV1N0
+a18wNjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5XV0NXU3RrXzA2
+PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5
+cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj44PC9hdHR3aWR0aD4NCiAgICAgICAg
+PGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRlZj5XaGV0aGVyIHRoZSBzZWN0aW9uIHdhcyBzdG9ja2VkIHdpdGgg
+d2FybXdhdGVyL2Nvb2x3YXRlciBzcGVjaWVzIGluIDIwMDY8L2F0dHJkZWY+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9
+IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibCBTeW5jPSJUUlVFIj5UcnRTdGtfMDY8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+VHJ0U3RrXzA2PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBl
+IFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJU
+UlVFIj44PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFu
+ZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRlZj5XaGV0aGVyIHRo
+ZSBzZWN0aW9uIHdhcyBzdG9ja2VkIHdpdGggdHJvdXQgaW4gMjAwNjwvYXR0cmRlZj4NCiAgICAg
+ICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUg
+U3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlVwcGVyUk1fTmU8L2F0dHJsYWJsPg0KICAgICAg
+ICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+VXBwZXJSTV9OZTwvYXR0YWxpYXM+DQogICAgICAgIDxh
+dHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGgg
+U3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlh
+IEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPkFk
+anVzdGVkIHNlY3Rpb24gdXBwZXIgbGltaXQgcml2ZXIgbWlsZSAoTkhEIGJhc2VkKTwvYXR0cmRl
+Zj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjE4PC9hdHByZWNpcz4NCiAgICAgICAg
+PGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAg
+PGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5Mb3dlclJNX05lPC9hdHRybGFi
+bD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkxvd2VyUk1fTmU8L2F0dGFsaWFzPg0K
+ICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAg
+PGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBl
+bm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAgICAgICA8
+YXR0cmRlZj5BZGp1c3RlZCBzZWN0aW9uIGxvd2VyIGxpbWl0IHJpdmVyIG1pbGUgKE5IRCBiYXNl
+ZCk8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+R0lTX0tleTwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5HSVNfS2V5PC9hdHRhbGlh
+cz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAg
+ICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xNjwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVm
+cz5QZW5uc3lsdmFuaWEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9hdHRyZGVmcz4NCiAgICAg
+ICAgPGF0dHJkZWY+VW5pcXVlIGlkZW50aWZpZXIgZm9yIHRoZSBzdHJlYW0gc2VjdGlvbiB1c2Vk
+IGluIEdJUyAoY29tYm8gb2Ygc3RyZWFtIElEIGFuZCBzZWN0aW9uIG51bWJlcik8L2F0dHJkZWY+
+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0
+dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5TZWNMb3dlcl8xPC9hdHRybGFibD4N
+CiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNlY0xvd2VyXzE8L2F0dGFsaWFzPg0KICAg
+ICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0
+dHdpZHRoIFN5bmM9IlRSVUUiPjUwPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5z
+eWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24gQnVyZWF1IG9mIEZpc2hlcmllczwvYXR0
+cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPlNlY3Rpb24gbG93ZXIgbGltaXQgZGVzY3JpcHRpb248
+L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAg
+ICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0K
+ICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5MZW5ndGhfRlRfPC9h
+dHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkxlbmd0aF9GVF88L2F0dGFs
+aWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAg
+ICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJk
+ZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAg
+ICAgICA8YXR0cmRlZj5MZW5ndGggb2YgdGhlIHNlY3Rpb24gaW4gZmVldCBjYWxjdWxhdGVkIGJ5
+IEdJUzwvYXR0cmRlZj4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjE4PC9hdHByZWNp
+cz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9h
+dHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5MZW5ndGhf
+TUlfPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkxlbmd0aF9NSV88
+L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlw
+ZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAg
+PGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZz
+Pg0KICAgICAgICA8YXR0cmRlZj5MZW5ndGggb2YgdGhlIHNlY3Rpb24gaW4gbWlsZXMgY2FsY3Vs
+YXRlZCBieSBHSVM8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwv
+YXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+
+U3BlY1JlZ19NYTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TcGVj
+UmVnX01hPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwv
+YXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xMDwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHRyZGVmPlRoZSBTcGVjaWFsIFJlZ3VsYXRpb24gTWFwIElEIHVzZWQgb24gUEZC
+QyBSZWdpb25hbCBhbmQgQ291bnR5IEd1aWRlIE1hcHMgaWYgdGhlIHNlY3Rpb24gaXMgdW5kZXIg
+YSBmaXNoaW5nIHNwZWNpYWwgcmVndWxhdGlvbjwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZz
+PlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAgICAg
+ICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MTA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUg
+U3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPlRydFN0a18wNzwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5UcnRTdGtfMDc8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0
+cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5
+bmM9IlRSVUUiPjM8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZj5XaGV0aGVyIHRoZSBzZWN0
+aW9uIHdhcyBzdG9ja2VkIHdpdGggdHJvdXQgaW4gMjAwNzwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0K
+ICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRz
+Y2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RmluZ19UcnRTdDwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GaW5nX1RydFN0PC9hdHRhbGlhcz4NCiAgICAg
+ICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4zPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+V2hldGhlciB0
+aGUgc2VjdGlvbiB3YXMgc3RvY2tlZCB3aXRoIGZpbmdlcmxpbmcgc2l6ZWQgdHJvdXQgaW4gMjAw
+NzwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlBlbm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0
+IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwv
+YXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+
+TExfTGF0X0dJUzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5MTF9M
+YXRfR0lTPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwv
+YXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xOTwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHRyZGVmcz5QZW5uc3lsdmFuaWEgRmlzaCBhbmQgQm9hdCBDb21taXNzaW9uPC9h
+dHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+TG93ZXIgTGltaXQgTGF0aXR1ZGUgb2YgU2VjdGlv
+biBhcyBjYWxjdWxhdGVkIGJ5IEdJUyAtIHVzZWQgZm9yIGRyaXZpbmcgZGlyZWN0aW9ucyBpbiB3
+ZWIgR0lTPC9hdHRyZGVmPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MTg8L2F0cHJl
+Y2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+ODwvYXR0c2NhbGU+DQogICAgICA8
+L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUiPkxMX0xv
+bmdfR0k8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TExfTG9uZ19H
+STwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTk8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRl
+ZnM+DQogICAgICAgIDxhdHRyZGVmPkxvd2VyIExpbWl0IExvbmdpdHVkZSBvZiBTZWN0aW9uIGFz
+IGNhbGN1bGF0ZWQgYnkgR0lTIC0gdXNlZCBmb3IgZHJpdmluZyBkaXJlY3Rpb25zIGluIHdlYiBH
+SVM8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+V1dDV1N0a18w
+NzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5XV0NXU3RrXzA3PC9h
+dHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+
+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0
+dHJkZWY+V2hldGhlciB0aGUgc2VjdGlvbiB3aWxsIGJlIHN0b2NrZWQgd2l0aCB3YXJtd2F0ZXIv
+Y29vbHdhdGVyIHNwZWNpZXMgaW4gMjAwNzwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPlBl
+bm5zeWx2YW5pYSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb248L2F0dHJkZWZzPg0KICAgICAgICA8
+YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+VHJ0U3RrXzA4PC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dGFsaWFzIFN5bmM9IlRSVUUiPlRydFN0a18wODwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlw
+ZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0i
+VFJVRSI+MzwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5QZW5uc3lsdmFuaWEgRmlzaCBh
+bmQgQm9hdCBDb21taXNzaW9uPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+V2hldGhlciB0
+aGUgc2VjdGlvbiB3YXMgc3RvY2tlZCB3aXRoIHRyb3V0IGluIDIwMDg8L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxl
+IFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5GaW5nX1RydF8xPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkZpbmdfVHJ0XzE8L2F0dGFsaWFzPg0KICAgICAgICA8
+YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRo
+IFN5bmM9IlRSVUUiPjM8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlh
+IEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPldo
+ZXRoZXIgdGhlIHNlY3Rpb24gd2FzIHN0b2NrZWQgd2l0aCBmaW5nZXJsaW5nIHNpemVkIHRyb3V0
+IGluIDIwMDg8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHBy
+ZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XV0NX
+U3RrXzA4PC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPldXQ1dTdGtf
+MDg8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXR0cmRlZj5XaGV0aGVyIHRoZSBzZWN0aW9uIHdpbGwgYmUgc3RvY2tlZCB3aXRoIHdhcm13
+YXRlci9jb29sd2F0ZXIgc3BlY2llcyBpbiAyMDA4PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxl
+IFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5VTF9MYXRfR0lTPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlVMX0xhdF9HSVM8L2F0dGFsaWFzPg0KICAgICAgICA8
+YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRo
+IFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+VXBwZXIgTGltaXQg
+TGF0aXR1ZGUgb2YgU2VjdGlvbiBhcyBjYWxjdWxhdGVkIGJ5IEdJUyAtIHVzZWQgZm9yIGRyaXZp
+bmcgZGlyZWN0aW9ucyBpbiB3ZWIgR0lTPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+UGVu
+bnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAgICAgIDxh
+dHByZWNpcyBTeW5jPSJUUlVFIj4xODwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5j
+PSJUUlVFIj44PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+VUxfTG9uZ19HSTwvYXR0cmxhYmw+DQogICAgICAgIDxh
+dHRhbGlhcyBTeW5jPSJUUlVFIj5VTF9Mb25nX0dJPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPkRvdWJsZTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5j
+PSJUUlVFIj4xOTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHRyZGVmcz5QZW5uc3lsdmFuaWEgRmlz
+aCBhbmQgQm9hdCBDb21taXNzaW9uPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkZWY+VXBwZXIg
+TGltaXQgTG9uZ2l0dWRlIG9mIFNlY3Rpb24gYXMgY2FsY3VsYXRlZCBieSBHSVMgLSB1c2VkIGZv
+ciBkcml2aW5nIGRpcmVjdGlvbnMgaW4gd2ViIEdJUzwvYXR0cmRlZj4NCiAgICAgICAgPGF0cHJl
+Y2lzIFN5bmM9IlRSVUUiPjE4PC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRS
+VUUiPjg8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxh
+dHRybGFibCBTeW5jPSJUUlVFIj5UcnRTdGtfMDk8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxp
+YXMgU3luYz0iVFJVRSI+VHJ0U3RrXzA5PC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5
+bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVF
+Ij4yPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0dHJkZWY+V2hldGhlciB0aGUgc2VjdGlvbiB3aWxs
+IGJlIHN0b2NrZWQgd2l0aCB0cm91dCBpbiAyMDA5PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRl
+ZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxl
+IFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5GaW5nX1RydF8yPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkZpbmdfVHJ0XzI8L2F0dGFsaWFzPg0KICAgICAgICA8
+YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRo
+IFN5bmM9IlRSVUUiPjI8L2F0dHdpZHRoPg0KICAgICAgICA8YXR0cmRlZnM+UGVubnN5bHZhbmlh
+IEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZGVmPldo
+ZXRoZXIgdGhlIHNlY3Rpb24gd2FzIHN0b2NrZWQgd2l0aCBmaW5nZXJsaW5nIHNpemVkIHRyb3V0
+IGluIDIwMDk8L2F0dHJkZWY+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHBy
+ZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5XV0NX
+U3RrXzIwPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPldXQ1dTdGtf
+MjA8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRy
+dHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjI8L2F0dHdpZHRoPg0KICAgICAg
+ICA8YXR0cmRlZnM+UGVubnN5bHZhbmlhIEZpc2ggYW5kIEJvYXQgQ29tbWlzc2lvbjwvYXR0cmRl
+ZnM+DQogICAgICAgIDxhdHRyZGVmPldoZXRoZXIgdGhlIHNlY3Rpb24gd2lsbCBiZSBzdG9ja2Vk
+IHdpdGggd2FybXdhdGVyL2Nvb2x3YXRlciBzcGVjaWVzIGluIDIwMDk8L2F0dHJkZWY+DQogICAg
+ICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxl
+IFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibCBTeW5jPSJUUlVFIj5SZW1fU2VjPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dGFsaWFzIFN5bmM9IlRSVUUiPlJlbV9TZWM8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5
+cGUgU3luYz0iVFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9
+IlRSVUUiPjE8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRw
+cmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAg
+IDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+Q2xh
+c3NBPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPkNsYXNzQTwvYXR0
+YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0K
+ICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHBy
+ZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRS
+VUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxh
+dHRybGFibCBTeW5jPSJUUlVFIj5XaWxkVHJ0PC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPldpbGRUcnQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE8
+L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQog
+ICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+V1dDV19GaXNoPC9h
+dHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPldXQ1dfRmlzaDwvYXR0YWxp
+YXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAg
+ICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+MTwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNp
+cyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5bmM9IlRSVUUi
+PjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibCBTeW5jPSJUUlVFIj5HbG9iYWxJRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBT
+eW5jPSJUUlVFIj5HbG9iYWxJRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJU
+UlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+Mzg8
+L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQog
+ICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U3BlY1JlZzwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TcGVjUmVnPC9hdHRhbGlhcz4N
+CiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAgICAg
+IDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4xPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5
+bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwv
+YXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJs
+IFN5bmM9IlRSVUUiPlRydFN0a18xMDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5j
+PSJUUlVFIj5UcnRTdGtfMTA8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJV
+RSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8L2F0
+dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAg
+ICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RmluZ19UcnRfMzwvYXR0
+cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GaW5nX1RydF8zPC9hdHRhbGlh
+cz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQogICAg
+ICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lz
+IFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+
+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJs
+YWJsIFN5bmM9IlRSVUUiPlRydFN0a18xMTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBT
+eW5jPSJUUlVFIj5UcnRTdGtfMTE8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0i
+VFJVRSI+U3RyaW5nPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjg8
+L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQog
+ICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+RmluZ19UcnRfNDwv
+YXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5GaW5nX1RydF80PC9hdHRh
+bGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9IlRSVUUiPlN0cmluZzwvYXR0cnR5cGU+DQog
+ICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJl
+Y2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJV
+RSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0
+dHJsYWJsIFN5bmM9IlRSVUUiPlNoYXBlX2xlbjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlh
+cyBTeW5jPSJUUlVFIj5TaGFwZV9sZW48L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3lu
+Yz0iVFJVRSI+RG91YmxlPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUi
+PjE5PC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lz
+Pg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0
+dHI+DQogICAgPC9kZXRhaWxlZD4NCiAgICA8ZGV0YWlsZWQgTmFtZT0iUEZCQ19HSVMuREJPLlN0
+cmVhbV9Ucm91dF9TdG9ja2luZ18yMDA5Ij4NCiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0
+eXBsIFN5bmM9IlRSVUUiPlBGQkNfR0lTLkRCTy5TdHJlYW1fVHJvdXRfU3RvY2tpbmdfMjAwOTwv
+ZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3luYz0iVFJVRSI+UmVsYXRpb25zaGlwPC9lbnR0
+eXB0Pg0KICAgICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5
+bmM9IlRSVUUiPjg8L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAg
+ICAgIDxhdG51bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQog
+ICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUi
+Pjg8L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdG51
+bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjg8L2F0bnVt
+ZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdG51bWRlYyBTeW5j
+PSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAg
+ICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjg8L2F0bnVtZGVjPg0KICAg
+ICAgPC9hdHRyPg0KICAgIDwvZGV0YWlsZWQ+DQogICAgPGRldGFpbGVkIE5hbWU9IlN0cmVhbXNf
+V1dDV19TdG9ja2luZ18yMDA4Ij4NCiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0eXBsIFN5
+bmM9IlRSVUUiPlN0cmVhbXNfV1dDV19TdG9ja2luZ18yMDA4PC9lbnR0eXBsPg0KICAgICAgICA8
+ZW50dHlwdCBTeW5jPSJUUlVFIj5SZWxhdGlvbnNoaXA8L2VudHR5cHQ+DQogICAgICA8L2VudHR5
+cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1k
+ZWM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9
+IlRSVUUiPjg8L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdG51bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjg8
+L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdG51bWRl
+YyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAgICA8L2F0dHI+
+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjg8L2F0bnVtZGVj
+Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdG51bWRlYyBTeW5jPSJU
+UlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAgICA8L2F0dHI+DQogICAgPC9k
+ZXRhaWxlZD4NCiAgICA8ZGV0YWlsZWQgTmFtZT0iU3RyZWFtc19XV0NXX0FjdHVhbF9TdG9ja2Vk
+XzIwMDgiPg0KICAgICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGwgU3luYz0iVFJVRSI+U3Ry
+ZWFtc19XV0NXX0FjdHVhbF9TdG9ja2VkXzIwMDg8L2VudHR5cGw+DQogICAgICAgIDxlbnR0eXB0
+IFN5bmM9IlRSVUUiPlJlbGF0aW9uc2hpcDwvZW50dHlwdD4NCiAgICAgIDwvZW50dHlwPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdG51bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAg
+ICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+
+ODwvYXRudW1kZWM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVt
+ZGVjIFN5bmM9IlRSVUUiPjg8L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdG51bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1k
+ZWM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9
+IlRSVUUiPjg8L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdG51bWRlYyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICAg
+IDxhdHRyPg0KICAgICAgICA8YXRudW1kZWMgU3luYz0iVFJVRSI+ODwvYXRudW1kZWM+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0bnVtZGVjIFN5bmM9IlRSVUUiPjg8
+L2F0bnVtZGVjPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdG51bWRl
+YyBTeW5jPSJUUlVFIj44PC9hdG51bWRlYz4NCiAgICAgIDwvYXR0cj4NCiAgICA8L2RldGFpbGVk
+Pg0KICA8L2VhaW5mbz4NCiAgPGRpc3RpbmZvPg0KICAgIDxyZXNkZXNjPkRvd25sb2FkYWJsZSBE
+YXRhPC9yZXNkZXNjPg0KICAgIDxkaXN0cmliPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxj
+bnRwZXJwPg0KICAgICAgICAgIDxjbnRvcmc+UGVubnN5bHZhbmlhIFNwYXRpYWwgRGF0YSBBY2Nl
+c3MgKFBBU0RBKTwvY250b3JnPg0KICAgICAgICA8L2NudHBlcnA+DQogICAgICAgIDxjbnRhZGRy
+Pg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAg
+ICAgIDxhZGRyZXNzPjExNSBMYW5kIGFuZCBXYXRlciBidWlsZGluZyA8L2FkZHJlc3M+DQogICAg
+ICAgICAgPGNpdHk+VW5pdmVyc2l0eSBQYXJrPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5QZW5u
+c3lsdmFuaWE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTY4MDI8L3Bvc3RhbD4NCiAgICAg
+ICAgICA8Y291bnRyeT5Vbml0ZWQgU3RhdGVzPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+
+DQogICAgICAgIDxjbnR2b2ljZT4oODE0KSA4NjUgLSA4NzkyPC9jbnR2b2ljZT4NCiAgICAgICAg
+PGNudGVtYWlsPnBhc2RhQHBzdS5lZHU8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAg
+IDwvZGlzdHJpYj4NCiAgICA8ZGlzdGxpYWI+VGhlIFVTRVIgc2hhbGwgaW5kZW1uaWZ5LCBzYXZl
+IGhhcm1sZXNzLCBhbmQsIGlmIHJlcXVlc3RlZCwgZGVmZW5kIHRob3NlIHBhcnRpZXMgaW52b2x2
+ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEsIHRo
+ZWlyIG9mZmljZXJzLCBhZ2VudHMsIGFuZCBlbXBsb3llZXMgZnJvbSBhbmQgYWdhaW5zdCBhbnkg
+c3VpdHMsIGNsYWltcywgb3IgYWN0aW9ucyBmb3IgaW5qdXJ5LCBkZWF0aCwgb3IgcHJvcGVydHkg
+ZGFtYWdlIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ugb2Ygb3IgYW55IGRlZmVjdCBpbiB0aGUgRklM
+RVMgb3IgYW55IGFjY29tcGFueWluZyBkb2N1bWVudGF0aW9uLiBUaG9zZSBwYXJ0aWVzIGludm9s
+dmVkIHdpdGggdGhlIGRldmVsb3BtZW50IGFuZCBkaXN0cmlidXRpb24gZXhjbHVkZWQgYW55IGFu
+ZCBhbGwgaW1wbGllZCB3YXJyYW50aWVzLCBpbmNsdWRpbmcgd2FycmFudGllcyBvciBtZXJjaGFu
+dGFiaWxpdHkgYW5kIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciBwdXJwb3NlIGFuZCBtYWtlcyBu
+byB3YXJyYW50eSBvciByZXByZXNlbnRhdGlvbiwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZCwg
+d2l0aCByZXNwZWN0IHRvIHRoZSBGSUxFUyBvciBhY2NvbXBhbnlpbmcgZG9jdW1lbnRhdGlvbiwg
+aW5jbHVkaW5nIGl0cyBxdWFsaXR5LCBwZXJmb3JtYW5jZSwgbWVyY2hhbnRhYmlsaXR5LCBvciBm
+aXRuZXNzIGZvciBhIHBhcnRpY3VsYXIgcHVycG9zZS4gVGhlIEZJTEVTIGFuZCBkb2N1bWVudGF0
+aW9uIGFyZSBwcm92aWRlZCAiYXMgaXMiIGFuZCB0aGUgVVNFUiBhc3N1bWVzIHRoZSBlbnRpcmUg
+cmlzayBhcyB0byBpdHMgcXVhbGl0eSBhbmQgcGVyZm9ybWFuY2UuIFRob3NlIHBhcnRpZXMgaW52
+b2x2ZWQgd2l0aCB0aGUgZGV2ZWxvcG1lbnQgYW5kIGRpc3RyaWJ1dGlvbiBvZiB0aGlzIGRhdGEg
+d2lsbCBub3QgYmUgbGlhYmxlIGZvciBhbnkgZGlyZWN0LCBpbmRpcmVjdCwgc3BlY2lhbCwgaW5j
+aWRlbnRhbCwgb3IgY29uc2VxdWVudGlhbCBkYW1hZ2VzIGFyaXNpbmcgb3V0IG9mIHRoZSB1c2Ug
+b3IgaW5hYmlsaXR5IHRvIHVzZSB0aGUgRklMRVMgb3IgYW55IGFjY29tcGFueWluZyBkb2N1bWVu
+dGF0aW9uLjwvZGlzdGxpYWI+DQogIDwvZGlzdGluZm8+DQogIDxtZXRhaW5mbz4NCiAgICA8bWV0
+ZnJkPkFzIG5lZWRlZDwvbWV0ZnJkPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAg
+ICAgIDxjbnRwZXJwPg0KICAgICAgICAgIDxjbnRvcmc+UEEgRmlzaCBhbmQgQm9hdCBDb21taXNz
+aW9uPC9jbnRvcmc+DQogICAgICAgIDwvY250cGVycD4NCiAgICAgICAgPGNudHBvcz5HSVMgQ29v
+cmRpbmF0b3I8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBl
+PnBoeXNpY2FsIGFkZHJlc3M8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNzPjE2MDEgRWxt
+ZXJ0b24gQXZlPC9hZGRyZXNzPg0KICAgICAgICAgIDxhZGRyZXNzPlAgTyBCb3ggNjcwMDA8L2Fk
+ZHJlc3M+DQogICAgICAgICAgPGNpdHk+SGFycmlzYnVyZzwvY2l0eT4NCiAgICAgICAgICA8c3Rh
+dGU+UEE8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+MTcxMTAtOTI5OTwvcG9zdGFsPg0KICAg
+ICAgICAgIDxjb3VudHJ5PlVTQTwvY291bnRyeT4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAg
+ICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRkcnR5cGU+bWFpbGluZyBhZGRyZXNzPC9hZGRydHlw
+ZT4NCiAgICAgICAgICA8YWRkcmVzcz5QIE8gQm94IDY3MDAwPC9hZGRyZXNzPg0KICAgICAgICAg
+IDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBBPC9zdGF0ZT4NCiAg
+ICAgICAgICA8cG9zdGFsPjE3MTA2LTcwMDA8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5V
+U0E8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjcxNy03
+MDUtNzkwOTwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcwNS03OTAxPC9jbnRmYXg+
+DQogICAgICAgIDxob3Vycz44OjAwLTQ6MDA8L2hvdXJzPg0KICAgICAgPC9jbnRpbmZvPg0KICAg
+IDwvbWV0Yz4NCiAgICA8bWV0YWM+Tm9uZTwvbWV0YWM+DQogICAgPG1ldHVjPk5vbmU8L21ldHVj
+Pg0KICAgIDxtZXRleHRucz4NCiAgICAgIDxvbmxpbms+aHR0cDovL3d3dy5lc3JpLmNvbS9tZXRh
+ZGF0YS9lc3JpcHJvZjgwLmh0bWw8L29ubGluaz4NCiAgICAgIDxtZXRwcm9mPkVTUkkgTWV0YWRh
+dGEgUHJvZmlsZTwvbWV0cHJvZj4NCiAgICA8L21ldGV4dG5zPg0KICAgIDxsYW5nbWV0YT5Fbmds
+aXNoPC9sYW5nbWV0YT4NCiAgPC9tZXRhaW5mbz4NCiAgPEVzcmk+DQogICAgPENyZWFEYXRlPjIw
+MTc8L0NyZWFEYXRlPg0KICAgIDxDcmVhVGltZT4xMzQ3NDUwMDwvQ3JlYVRpbWU+DQogICAgPFN5
+bmNPbmNlPkZBTFNFPC9TeW5jT25jZT4NCiAgICA8TW9kRGF0ZT4yMDE3PC9Nb2REYXRlPg0KICAg
+IDxNb2RUaW1lPjE0MzgyNDAwPC9Nb2RUaW1lPg0KICAgIDxTeW5jRGF0ZT4yMDE3PC9TeW5jRGF0
+ZT4NCiAgICA8U3luY1RpbWU+MTQzODI0MDA8L1N5bmNUaW1lPg0KICAgIDxEYXRhUHJvcGVydGll
+cz4NCiAgICAgIDxsaW5lYWdlPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9n
+cmFtIEZpbGVzXEFyY0dJU1xBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1lbnQgVG9v
+bHMudGJ4XENvcHlGZWF0dXJlcyIgRGF0ZT0iMjAwNzAyMTQiIFRpbWU9IjExMTAxMyI+Q29weUZl
+YXR1cmVzIEs6XFBGQkNfR0lTXEdlb2RhdGFiYXNlXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdc
+U3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2IEM6XFdvcmtTcGFjZVxFeHBvcnRzXzRfTWV0YWRhdGFc
+U3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2XzEuc2hwICMgMCAwIDA8L1Byb2Nlc3M+DQogICAgICAg
+IDxQcm9jZXNzIE5hbWU9IkZlYXR1cmVDbGFzc1RvRmVhdHVyZUNsYXNzXzEiIFRvb2xTb3VyY2U9
+IkM6XFByb2dyYW0gRmlsZXNcQXJjR0lTXEFyY1Rvb2xib3hcVG9vbGJveGVzXENvbnZlcnNpb24g
+VG9vbHMudGJ4XEZlYXR1cmVDbGFzc1RvRmVhdHVyZUNsYXNzIiBEYXRlPSIyMDA3MDIyMiIgVGlt
+ZT0iMTU1MjM5Ij5GZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyBLOlxQcm9qZWN0c1xHREJfRWRp
+dHNcUEZCQ19HSVMubWRiXFBGQkNfTWFwcGluZ1xTdHJlYW1zX1BGQkNNYW5hZ2VkXzIwMDYgIks6
+XFByb2plY3RzXEZpc2hlcmllc1xGaXNoX01hbmFnZW1lbnRcQ29sZHdhdGVyX1VuaXRcU3RvY2tp
+bmdfMjAwN1xOZXcgRm9sZGVyIiBTdHJlYW1zX1BGQkNNYW5hZ2VkXzIwMDcuc2hwICMgIldSRFMg
+V1JEUyB0cnVlIHRydWUgZmFsc2UgNTAgVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcR0RC
+X0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdcU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2
+LFdSRFMsLTEsLTE7V3RyTGF0TG9uIFd0ckxhdExvbiB0cnVlIHRydWUgZmFsc2UgMTIgVGV4dCAw
+IDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBp
+bmdcU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2LFd0ckxhdExvbiwtMSwtMTtXdHJMYXRERCBXdHJM
+YXRERCB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdE
+Ql9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAw
+NixXdHJMYXRERCwtMSwtMTtXdHJMb25ERCBXdHJMb25ERCB0cnVlIHRydWUgZmFsc2UgOCBEb3Vi
+bGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19N
+YXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixXdHJMb25ERCwtMSwtMTtXdHJOYW1lIFd0
+ck5hbWUgdHJ1ZSB0cnVlIGZhbHNlIDUwIFRleHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdE
+Ql9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAw
+NixXdHJOYW1lLC0xLC0xO1NlY051bSBTZWNOdW0gdHJ1ZSB0cnVlIGZhbHNlIDIgU2hvcnQgMCAw
+ICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5n
+XFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTZWNOdW0sLTEsLTE7U2VjRGF0ZSBTZWNEYXRlIHRy
+dWUgdHJ1ZSBmYWxzZSA4IERhdGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQ
+RkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTZWNEYXRl
+LC0xLC0xO1NlY1VwTGltTGEgU2VjVXBMaW1MYSB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgMCAw
+ICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5n
+XFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTZWNVcExpbUxhLC0xLC0xO1NlY1VwTGltTG8gU2Vj
+VXBMaW1MbyB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3Rz
+XEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRf
+MjAwNixTZWNVcExpbUxvLC0xLC0xO1NlY1VwcGVyTGkgU2VjVXBwZXJMaSB0cnVlIHRydWUgZmFs
+c2UgOCBEb3VibGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5t
+ZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTZWNVcHBlckxpLC0xLC0x
+O1NlY1VwcGVyXzEgU2VjVXBwZXJfMSB0cnVlIHRydWUgZmFsc2UgNTAgVGV4dCAwIDAgLEZpcnN0
+LCMsSzpcUHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdcU3RyZWFt
+c19QRkJDTWFuYWdlZF8yMDA2LFNlY1VwcGVyXzEsLTEsLTE7U2VjTHdMaW1MYSBTZWNMd0xpbUxh
+IHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcR0RCX0Vk
+aXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdcU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2LFNl
+Y0x3TGltTGEsLTEsLTE7U2VjTHdMaW1MbyBTZWNMd0xpbUxvIHRydWUgdHJ1ZSBmYWxzZSA4IERv
+dWJsZSAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJD
+X01hcHBpbmdcU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2LFNlY0x3TGltTG8sLTEsLTE7U2VjTG93
+ZXJMaSBTZWNMb3dlckxpIHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSAwIDAgLEZpcnN0LCMsSzpc
+UHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdcU3RyZWFtc19QRkJD
+TWFuYWdlZF8yMDA2LFNlY0xvd2VyTGksLTEsLTE7U2VjTG93ZXJfMSBTZWNMb3dlcl8xIHRydWUg
+dHJ1ZSBmYWxzZSA1MCBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xHREJfRWRpdHNcUEZC
+Q19HSVMubWRiXFBGQkNfTWFwcGluZ1xTdHJlYW1zX1BGQkNNYW5hZ2VkXzIwMDYsU2VjTG93ZXJf
+MSwtMSwtMTtHSVNfS2V5IEdJU19LZXkgdHJ1ZSB0cnVlIGZhbHNlIDE2IFRleHQgMCAwICxGaXJz
+dCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVh
+bXNfUEZCQ01hbmFnZWRfMjAwNixHSVNfS2V5LC0xLC0xO0xvd2VyUk1fTmUgTG93ZXJSTV9OZSB0
+cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0
+c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixMb3dl
+clJNX05lLC0xLC0xO1VwcGVyUk1fTmUgVXBwZXJSTV9OZSB0cnVlIHRydWUgZmFsc2UgOCBEb3Vi
+bGUgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19N
+YXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixVcHBlclJNX05lLC0xLC0xO1NoYXBlX0xl
+bmcgU2hhcGVfTGVuZ3RoIGZhbHNlIHRydWUgdHJ1ZSA4IERvdWJsZSAwIDAgLEZpcnN0LCMsSzpc
+UHJvamVjdHNcR0RCX0VkaXRzXFBGQkNfR0lTLm1kYlxQRkJDX01hcHBpbmdcU3RyZWFtc19QRkJD
+TWFuYWdlZF8yMDA2LFNoYXBlX0xlbmd0aCwtMSwtMTtUcnRTdGtfMDYgVHJ0U3RrXzA2IHRydWUg
+dHJ1ZSBmYWxzZSA4IFRleHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJD
+X0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixUcnRTdGtfMDYs
+LTEsLTE7V1dDV1N0a18wNiBXV0NXU3RrXzA2IHRydWUgdHJ1ZSBmYWxzZSA4IFRleHQgMCAwICxG
+aXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0
+cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixXV0NXU3RrXzA2LC0xLC0xO1NwZWNfUmVnIFNwZWNfUmVn
+IHRydWUgdHJ1ZSBmYWxzZSA4IFRleHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0
+c1xQRkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTcGVj
+X1JlZywtMSwtMTtMZW5ndGhfRlRfIExlbmd0aF9GVF8gdHJ1ZSB0cnVlIGZhbHNlIDggRG91Ymxl
+IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xHREJfRWRpdHNcUEZCQ19HSVMubWRiXFBGQkNfTWFw
+cGluZ1xTdHJlYW1zX1BGQkNNYW5hZ2VkXzIwMDYsTGVuZ3RoX0ZUX0dJUywtMSwtMTtMZW5ndGhf
+TUlfIExlbmd0aF9NSV8gdHJ1ZSB0cnVlIGZhbHNlIDggRG91YmxlIDAgMCAsRmlyc3QsIyxLOlxQ
+cm9qZWN0c1xHREJfRWRpdHNcUEZCQ19HSVMubWRiXFBGQkNfTWFwcGluZ1xTdHJlYW1zX1BGQkNN
+YW5hZ2VkXzIwMDYsTGVuZ3RoX01JX0dJUywtMSwtMTtTcGVjUmVnX01hIFNwZWNSZWdfTWEgdHJ1
+ZSB0cnVlIGZhbHNlIDIgU2hvcnQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEdEQl9FZGl0c1xQ
+RkJDX0dJUy5tZGJcUEZCQ19NYXBwaW5nXFN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNixTcGVjUmVn
+X01hcElELC0xLC0xIiAjICJLOlxQcm9qZWN0c1xGaXNoZXJpZXNcRmlzaF9NYW5hZ2VtZW50XENv
+bGR3YXRlcl9Vbml0XFN0b2NraW5nXzIwMDdcTmV3IEZvbGRlclxTdHJlYW1zX1BGQkNNYW5hZ2Vk
+XzIwMDcuc2hwIjwvUHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJv
+Z3JhbSBGaWxlc1xBcmNHSVNcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5hZ2VtZW50IFRv
+b2xzLnRieFxBZGRHbG9iYWxJRHMiIERhdGU9IjIwMDgxMjMwIiBUaW1lPSIxNzE0NTciPkFkZEds
+b2JhbElEcyAnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkFjY2Vzcyc7J0RhdGFi
+YXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5BRk1fQXJlYXMnOydEYXRhYmFzZSBDb25uZWN0
+aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFw
+cGluZ1xQRkJDX0dJUy5EQk8uQUZNX09mZmljZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uQmlvbG9naXN0X1JlcG9ydHMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0
+aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uQm9hdGluZ19TcGVjUmVnX0xha2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVj
+dGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19H
+SVMuREJPLkJvYXRpbmdfU3BlY1JlZ19QdHMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0
+aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uQm9hdGluZ19TcGVjUmVnX1N0cmVhbXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uQ2xhc3NBX1N0cmVhbXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9u
+IHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5E
+Qk8uQ29tbWlzc2lvbmVyX0Rpc3RyaWN0cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rp
+b24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lT
+LkRCTy5Db29wX251cnNlcmllcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8g
+RkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5E
+YW1zX1J1bm9mUml2ZXInOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJH
+SVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRXJpZV9U
+cmlidXRhcmllcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RF
+VjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5FcmllX1RyaWJ1
+dGFyaWVzX3B0JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVW
+MDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkVyaWVUcmlic19P
+cGVuRmlzaGluZ19wb2x5JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhC
+R0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkVyaWVU
+cmlic19PcGVuRmlzaGluZ19wdCc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8g
+RkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5m
+aXNoX3Bhc3NhZ2UnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNE
+RVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaGluZ19o
+b3RzcG90cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAy
+LnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5IYWJpdGF0X01nbXRf
+QXJlYXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5z
+ZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uSGFiaXRhdF9NZ210X0Fy
+ZWFzX09mZmljZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNE
+RVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uSGF0Y2hlcmll
+cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQ
+RkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5MYWtlc19QRkJDRGF0YWJhc2Un
+OydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uTGFrZXNfUG9pbnQnOydEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uTGF3RW5mb3JjZW1lbnRfUmVnaW9ucyc7J0RhdGFi
+YXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5NYWludGVuYW5jZV9SZWdpb25zJzsnRGF0YWJh
+c2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlBBX0Zpc2hfRGF0YWJhc2UnOydEYXRhYmFzZSBD
+b25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0FwcHJvdmVkX1Ryb3V0X1dhdGVy
+Ym9kaWVzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlBGQkNfR0lTX0RCT19B
+cHByb3ZlZF9Ucm91dF9XYXRlcmJvZGllc19wdCc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5l
+Y3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5QRkJDX0dJU19EQk9fQXBwcm92ZWRfVHJvdXRfV2F0ZXJzJzsnRGF0YWJhc2UgQ29u
+bmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJD
+X01hcHBpbmdcUEZCQ19HSVMuREJPLlBGQkNfR0lTX0RCT19GaXNoaW5nX1NwZWNSZWdfTGFrZXMn
+OydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0Zpc2hpbmdf
+U3BlY1JlZ19MYWtlc19Qb2ludCc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8g
+RkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5Q
+RkJDX0dJU19EQk9fRmlzaGluZ19TcGVjUmVnX1N0cmVhbXMnOydEYXRhYmFzZSBDb25uZWN0aW9u
+c1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGlu
+Z1xQRkJDX0dJUy5EQk8uUEZCQ19Qcm9wZXJ0aWVzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29u
+bmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZC
+Q19HSVMuREJPLlJlZ19IUSc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJI
+QkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5TdHJl
+YW1zX1BGQkNNYW5hZ2VkXzIwMDYnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRv
+IEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8u
+U3RyZWFtc19QRkJDTWFuYWdlZF8yMDA3JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLlN0cmVhbXNfUEZCQ1N0b2NrZWRfMjAwOCc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5l
+Y3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5Ucm91dF9OYXR1cmFsUmVwcm9kdWN0aW9uJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNc
+Q29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdc
+UEZCQ19HSVMuREJPLldhdGVyVHJhaWxzX2xpbmUnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uV0NPX0Rpc3RyaWN0cyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24g
+dG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRC
+Ty5XaWxkZXJuZXNzX1Ryb3V0X1N0cmVhbXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0
+aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uV1dDV19GaXNoZXJpZXNfTGFrZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0
+aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uV1dDV19GaXNoZXJpZXNfTGFrZXNfUHQnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uV1dDV19GaXNoZXJpZXNfU3RyZWFtcycgJ0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5BY2Nlc3MnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZC
+SEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uQUZN
+X0FyZWFzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkFGTV9PZmZpY2VzJzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJpb2xvZ2lzdF9SZXBvcnRzJzsnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJvYXRpbmdfU3BlY1JlZ19MYWtlcyc7J0Rh
+dGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJ
+Uy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5Cb2F0aW5nX1NwZWNSZWdfUHRzJzsnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkJvYXRpbmdfU3BlY1JlZ19TdHJlYW1zJzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkNsYXNzQV9TdHJlYW1zJzsnRGF0YWJh
+c2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkNvbW1pc3Npb25lcl9EaXN0cmljdHMnOydEYXRh
+YmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMu
+REJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uQ29vcF9udXJzZXJpZXMnOydEYXRhYmFzZSBD
+b25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRGFtc19SdW5vZlJpdmVyJzsnRGF0YWJhc2UgQ29ubmVj
+dGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01h
+cHBpbmdcUEZCQ19HSVMuREJPLkVyaWVfVHJpYnV0YXJpZXMnOydEYXRhYmFzZSBDb25uZWN0aW9u
+c1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGlu
+Z1xQRkJDX0dJUy5EQk8uRXJpZV9UcmlidXRhcmllc19wdCc7J0RhdGFiYXNlIENvbm5lY3Rpb25z
+XENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5n
+XFBGQkNfR0lTLkRCTy5FcmllVHJpYnNfT3BlbkZpc2hpbmdfcG9seSc7J0RhdGFiYXNlIENvbm5l
+Y3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19N
+YXBwaW5nXFBGQkNfR0lTLkRCTy5FcmllVHJpYnNfT3BlbkZpc2hpbmdfcHQnOydEYXRhYmFzZSBD
+b25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uZmlzaF9wYXNzYWdlJzsnRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLmZpc2hpbmdfaG90c3BvdHMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xD
+b25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQ
+RkJDX0dJUy5EQk8uSGFiaXRhdF9NZ210X0FyZWFzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29u
+bmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZC
+Q19HSVMuREJPLkhhYml0YXRfTWdtdF9BcmVhc19PZmZpY2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlv
+bnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLkhhdGNoZXJpZXMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0
+aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uTGFrZXNfUEZCQ0RhdGFiYXNlJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLkxha2VzX1BvaW50JzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhC
+R0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkxhd0Vu
+Zm9yY2VtZW50X1JlZ2lvbnMnOydEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZC
+SEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uTWFp
+bnRlbmFuY2VfUmVnaW9ucyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJI
+QkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5QQV9G
+aXNoX0RhdGFiYXNlJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lT
+REVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlBGQkNfR0lT
+X0RCT19BcHByb3ZlZF9Ucm91dF9XYXRlcmJvZGllcyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5QRkJDX0dJU19EQk9fQXBwcm92ZWRfVHJvdXRfV2F0ZXJib2RpZXNfcHQnOydE
+YXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0FwcHJvdmVkX1Ry
+b3V0X1dhdGVycyc7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RF
+VjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5QRkJDX0dJU19E
+Qk9fRmlzaGluZ19TcGVjUmVnX0xha2VzJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlv
+biB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMu
+REJPLlBGQkNfR0lTX0RCT19GaXNoaW5nX1NwZWNSZWdfTGFrZXNfUG9pbnQnOydEYXRhYmFzZSBD
+b25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uUEZCQ19HSVNfREJPX0Zpc2hpbmdfU3BlY1JlZ19TdHJl
+YW1zJzsnRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2Rl
+XFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlBGQkNfUHJvcGVydGllcyc7
+J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJD
+X0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5SZWdfSFEnOydEYXRhYmFzZSBDb25u
+ZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNf
+TWFwcGluZ1xQRkJDX0dJUy5EQk8uU3RyZWFtc19QRkJDTWFuYWdlZF8yMDA2JzsnRGF0YWJhc2Ug
+Q29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5Q
+RkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLlN0cmVhbXNfUEZCQ01hbmFnZWRfMjAwNyc7J0RhdGFi
+YXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5TdHJlYW1zX1BGQkNTdG9ja2VkXzIwMDgnOydE
+YXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uVHJvdXRfTmF0dXJhbFJlcHJvZHVjdGlv
+bic7J0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQ
+RkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5XYXRlclRyYWlsc19saW5lJzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldDT19EaXN0cmljdHMnOydEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uV2lsZGVybmVzc19Ucm91dF9TdHJlYW1zJzsnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVyaWVzX0xha2VzJzsnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVyaWVzX0xha2VzX1B0Jzsn
+RGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNf
+R0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLldXQ1dfRmlzaGVyaWVzX1N0cmVhbXMn
+PC9Qcm9jZXNzPg0KICAgICAgICA8UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVz
+XEFyY0dJU1xBcmNUb29sYm94XFRvb2xib3hlc1xEYXRhIE1hbmFnZW1lbnQgVG9vbHMudGJ4XFJl
+Z2lzdGVyQXNWZXJzaW9uZWQiIERhdGU9IjIwMDkwMTI2IiBUaW1lPSIwOTQ3NTciPlJlZ2lzdGVy
+QXNWZXJzaW9uZWQgIkRhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RF
+VjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5TdHJlYW1zX1BG
+QkNTdG9ja2VkXzIwMDkiIE5PX0VESVRTX1RPX0JBU0UgIkRhdGFiYXNlIENvbm5lY3Rpb25zXENv
+bm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5TdHJlYW1zX1BGQkNTdG9ja2VkXzIwMDkiPC9Qcm9jZXNzPg0KICAgICAgICA8
+UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVzXEFyY0dJU1xBcmNUb29sYm94XFRv
+b2xib3hlc1xDb252ZXJzaW9uIFRvb2xzLnRieFxGZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyIg
+RGF0ZT0iMjAwOTA4MTMiIFRpbWU9IjA4NDkzNCI+RmVhdHVyZUNsYXNzVG9GZWF0dXJlQ2xhc3Mg
+SzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25z
+XEZpc2hlcmllc19TZWN0aW9ucy5zaHAgIkRhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24g
+dG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nIiBGaXNoZXJpZXNf
+QWxsU2VjdGlvbnMgIyAiV1JEUyAnV1JEUycgdHJ1ZSB0cnVlIGZhbHNlIDUwIFRleHQgMCAwICxG
+aXJzdCwjLEs6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19T
+ZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlvbnMuc2hwLFdSRFMsLTEsLTE7V3RyTGF0TG9uICdXdHJM
+YXRMb24nIHRydWUgdHJ1ZSBmYWxzZSAxMiBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xG
+aXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1Nl
+Y3Rpb25zLnNocCxXdHJMYXRMb24sLTEsLTE7V3RyTGF0REQgJ1d0ckxhdEREJyB0cnVlIHRydWUg
+ZmFsc2UgMTkgRG91YmxlIDggMTggLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xh
+eWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsV3Ry
+TGF0REQsLTEsLTE7V3RyTG9uREQgJ1d0ckxvbkREJyB0cnVlIHRydWUgZmFsc2UgMTkgRG91Ymxl
+IDggMTggLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlz
+aGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsV3RyTG9uREQsLTEsLTE7V3Ry
+TmFtZSAnV3RyTmFtZScgdHJ1ZSB0cnVlIGZhbHNlIDUwIFRleHQgMCAwICxGaXJzdCwjLEs6XFBy
+b2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xGaXNo
+ZXJpZXNfU2VjdGlvbnMuc2hwLFd0ck5hbWUsLTEsLTE7U2VjTnVtICdTZWNOdW0nIHRydWUgdHJ1
+ZSBmYWxzZSA1IExvbmcgMCA1ICxGaXJzdCwjLEs6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXll
+cl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlvbnMuc2hwLFNlY051
+bSwtMSwtMTtTZWNEYXRlICdTZWNEYXRlJyB0cnVlIHRydWUgZmFsc2UgOCBEYXRlIDAgMCAsRmly
+c3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2Vj
+dGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxTZWNEYXRlLC0xLC0xO1NlY1VwTGltTGEgJ1Nl
+Y1VwTGltTGEnIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9q
+ZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVy
+aWVzX1NlY3Rpb25zLnNocCxTZWNVcExpbUxhLC0xLC0xO1NlY1VwTGltTG8gJ1NlY1VwTGltTG8n
+IHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rp
+b25zLnNocCxTZWNVcExpbUxvLC0xLC0xO1NlY1VwcGVyTGkgJ1NlY1VwcGVyTGknIHRydWUgdHJ1
+ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lT
+TGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxT
+ZWNVcHBlckxpLC0xLC0xO1NlY1VwcGVyXzEgJ1NlY1VwcGVyXzEnIHRydWUgdHJ1ZSBmYWxzZSA1
+MCBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRl
+c1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxTZWNVcHBlcl8xLC0x
+LC0xO1NlY0x3TGltTGEgJ1NlY0x3TGltTGEnIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAx
+OCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJp
+ZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxTZWNMd0xpbUxhLC0xLC0xO1NlY0x3
+TGltTG8gJ1NlY0x3TGltTG8nIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3Qs
+IyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlv
+bnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxTZWNMd0xpbUxvLC0xLC0xO1NlY0xvd2VyTGkgJ1Nl
+Y0xvd2VyTGknIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9q
+ZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVy
+aWVzX1NlY3Rpb25zLnNocCxTZWNMb3dlckxpLC0xLC0xO1NlY0xvd2VyXzEgJ1NlY0xvd2VyXzEn
+IHRydWUgdHJ1ZSBmYWxzZSA1MCBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJp
+ZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25z
+LnNocCxTZWNMb3dlcl8xLC0xLC0xO0dJU19LZXkgJ0dJU19LZXknIHRydWUgdHJ1ZSBmYWxzZSAx
+NiBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRl
+c1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxHSVNfS2V5LC0xLC0x
+O0xvd2VyUk1fTmUgJ0xvd2VyUk1fTmUnIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAs
+Rmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNf
+U2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxMb3dlclJNX05lLC0xLC0xO1VwcGVyUk1f
+TmUgJ1VwcGVyUk1fTmUnIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxL
+OlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNc
+RmlzaGVyaWVzX1NlY3Rpb25zLnNocCxVcHBlclJNX05lLC0xLC0xO1RydFN0a18wNiAnVHJ0U3Rr
+XzA2JyB0cnVlIHRydWUgZmFsc2UgOCBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNo
+ZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rp
+b25zLnNocCxUcnRTdGtfMDYsLTEsLTE7V1dDV1N0a18wNiAnV1dDV1N0a18wNicgdHJ1ZSB0cnVl
+IGZhbHNlIDggVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVy
+X1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsV1dDV1N0
+a18wNiwtMSwtMTtMZW5ndGhfRlRfICdMZW5ndGhfRlRfJyB0cnVlIHRydWUgZmFsc2UgMTkgRG91
+YmxlIDggMTggLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNc
+RmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsTGVuZ3RoX0ZUXywtMSwt
+MTtMZW5ndGhfTUlfICdMZW5ndGhfTUlfJyB0cnVlIHRydWUgZmFsc2UgMTkgRG91YmxlIDggMTgg
+LEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVz
+X1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsTGVuZ3RoX01JXywtMSwtMTtTcGVjUmVn
+X01hICdTcGVjUmVnX01hJyB0cnVlIHRydWUgZmFsc2UgNSBMb25nIDAgNSAsRmlyc3QsIyxLOlxQ
+cm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlz
+aGVyaWVzX1NlY3Rpb25zLnNocCxTcGVjUmVnX01hLC0xLC0xO1RydFN0a18wNyAnVHJ0U3RrXzA3
+JyB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJp
+ZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25z
+LnNocCxUcnRTdGtfMDcsLTEsLTE7RmluZ19UcnRTdCAnRmluZ19UcnRTdCcgdHJ1ZSB0cnVlIGZh
+bHNlIDMgVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVzXEdJU0xheWVyX1Vw
+ZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5zaHAsRmluZ19UcnRT
+dCwtMSwtMTtXV0NXU3RrXzA3ICdXV0NXU3RrXzA3JyB0cnVlIHRydWUgZmFsc2UgMSBUZXh0IDAg
+MCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJp
+ZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxXV0NXU3RrXzA3LC0xLC0xO0xMX0xv
+bmdfR0kgJ0xMX0xvbmdfR0knIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3Qs
+IyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlv
+bnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxMTF9Mb25nX0dJLC0xLC0xO0xMX0xhdF9HSVMgJ0xM
+X0xhdF9HSVMnIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9q
+ZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVy
+aWVzX1NlY3Rpb25zLnNocCxMTF9MYXRfR0lTLC0xLC0xO1JlZ19OYW1lICdSZWdfTmFtZScgdHJ1
+ZSB0cnVlIGZhbHNlIDQwIFRleHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEZpc2hlcmllc1xH
+SVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlvbnMuc2hw
+LFJlZ19OYW1lLC0xLC0xO1JlZ19MaW5rICdSZWdfTGluaycgdHJ1ZSB0cnVlIGZhbHNlIDcwIFRl
+eHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZp
+c2hlcmllc19TZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlvbnMuc2hwLFJlZ19MaW5rLC0xLC0xO1Ry
+dFN0a18wOCAnVHJ0U3RrXzA4JyB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAgMCAsRmlyc3QsIyxL
+OlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNc
+RmlzaGVyaWVzX1NlY3Rpb25zLnNocCxUcnRTdGtfMDgsLTEsLTE7RmluZ19UcnRfMSAnRmluZ19U
+cnRfMScgdHJ1ZSB0cnVlIGZhbHNlIDMgVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlz
+aGVyaWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0
+aW9ucy5zaHAsRmluZ19UcnRfMSwtMSwtMTtXV0NXU3RrXzA4ICdXV0NXU3RrXzA4JyB0cnVlIHRy
+dWUgZmFsc2UgMSBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5
+ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxXV0NX
+U3RrXzA4LC0xLC0xO1VMX0xhdF9HSVMgJ1VMX0xhdF9HSVMnIHRydWUgdHJ1ZSBmYWxzZSAxOSBE
+b3VibGUgOCAxOCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRl
+c1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxVTF9MYXRfR0lTLC0x
+LC0xO1VMX0xvbmdfR0kgJ1VMX0xvbmdfR0knIHRydWUgdHJ1ZSBmYWxzZSAxOSBEb3VibGUgOCAx
+OCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJp
+ZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxVTF9Mb25nX0dJLC0xLC0xO1RydFN0
+a18wOSAnVHJ0U3RrXzA5JyB0cnVlIHRydWUgZmFsc2UgMiBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQ
+cm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlz
+aGVyaWVzX1NlY3Rpb25zLnNocCxUcnRTdGtfMDksLTEsLTE7RmluZ19UcnRfMiAnRmluZ19UcnRf
+MicgdHJ1ZSB0cnVlIGZhbHNlIDIgVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVy
+aWVzXEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9u
+cy5zaHAsRmluZ19UcnRfMiwtMSwtMTtXV0NXU3RrXzIwICdXV0NXU3RrXzIwJyB0cnVlIHRydWUg
+ZmFsc2UgMiBUZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJf
+VXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxXV0NXU3Rr
+XzIwLC0xLC0xO1JlbV9TZWMgJ1JlbV9TZWMnIHRydWUgdHJ1ZSBmYWxzZSAxIFRleHQgMCAwICxG
+aXJzdCwjLEs6XFByb2plY3RzXEZpc2hlcmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19T
+ZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlvbnMuc2hwLFJlbV9TZWMsLTEsLTE7Q2xhc3NBICdDbGFz
+c0EnIHRydWUgdHJ1ZSBmYWxzZSAxIFRleHQgMCAwICxGaXJzdCwjLEs6XFByb2plY3RzXEZpc2hl
+cmllc1xHSVNMYXllcl9VcGRhdGVzXEZpc2hlcmllc19TZWN0aW9uc1xGaXNoZXJpZXNfU2VjdGlv
+bnMuc2hwLENsYXNzQSwtMSwtMTtXaWxkVHJ0ICdXaWxkVHJ0JyB0cnVlIHRydWUgZmFsc2UgMSBU
+ZXh0IDAgMCAsRmlyc3QsIyxLOlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xG
+aXNoZXJpZXNfU2VjdGlvbnNcRmlzaGVyaWVzX1NlY3Rpb25zLnNocCxXaWxkVHJ0LC0xLC0xO1dX
+Q1dfRmlzaCAnV1dDV19GaXNoJyB0cnVlIHRydWUgZmFsc2UgMSBUZXh0IDAgMCAsRmlyc3QsIyxL
+OlxQcm9qZWN0c1xGaXNoZXJpZXNcR0lTTGF5ZXJfVXBkYXRlc1xGaXNoZXJpZXNfU2VjdGlvbnNc
+RmlzaGVyaWVzX1NlY3Rpb25zLnNocCxXV0NXX0Zpc2gsLTEsLTE7U3BlY1JlZyAnU3BlY1JlZycg
+dHJ1ZSB0cnVlIGZhbHNlIDEgVGV4dCAwIDAgLEZpcnN0LCMsSzpcUHJvamVjdHNcRmlzaGVyaWVz
+XEdJU0xheWVyX1VwZGF0ZXNcRmlzaGVyaWVzX1NlY3Rpb25zXEZpc2hlcmllc19TZWN0aW9ucy5z
+aHAsU3BlY1JlZywtMSwtMSIgIyAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBG
+QkhCR0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZp
+c2hlcmllc19BbGxTZWN0aW9ucyI8L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3Vy
+Y2U9IkM6XFByb2dyYW0gRmlsZXNcQXJjR0lTXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFu
+YWdlbWVudCBUb29scy50YnhcQWRkR2xvYmFsSURzIiBEYXRlPSIyMDA5MDgxMyIgVGltZT0iMDg1
+MDU1Ij5BZGRHbG9iYWxJRHMgJ0RhdGFiYXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJI
+QkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNo
+ZXJpZXNfQWxsU2VjdGlvbnMnICdEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZC
+SEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlz
+aGVyaWVzX0FsbFNlY3Rpb25zJzwvUHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJj
+ZT0iQzpcUHJvZ3JhbSBGaWxlc1xBcmNHSVNcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5h
+Z2VtZW50IFRvb2xzLnRieFxSZWdpc3RlckFzVmVyc2lvbmVkIiBEYXRlPSIyMDA5MDgxMyIgVGlt
+ZT0iMDg1MTIzIj5SZWdpc3RlckFzVmVyc2lvbmVkICJEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25u
+ZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJD
+X0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zIiBOT19FRElUU19UT19CQVNFICJEYXRhYmFz
+ZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zIjwvUHJvY2Vz
+cz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJvZ3JhbSBGaWxlc1xBcmNHSVNc
+QXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5hZ2VtZW50IFRvb2xzLnRieFxVbnJlZ2lzdGVy
+QXNWZXJzaW9uZWQiIERhdGU9IjIwMDkwODEzIiBUaW1lPSIwOTE4NDgiPlVucmVnaXN0ZXJBc1Zl
+cnNpb25lZCAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIu
+c2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19TZWN0
+aW9ucyIgTk9fS0VFUF9FRElUIE5PX0NPTVBSRVNTX0RFRkFVTFQgIkRhdGFiYXNlIENvbm5lY3Rp
+b25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBw
+aW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfU2VjdGlvbnMiPC9Qcm9jZXNzPg0KICAgICAgICA8
+UHJvY2VzcyBUb29sU291cmNlPSJDOlxQcm9ncmFtIEZpbGVzXEFyY0dJU1xBcmNUb29sYm94XFRv
+b2xib3hlc1xDb252ZXJzaW9uIFRvb2xzLnRieFxGZWF0dXJlQ2xhc3NUb0ZlYXR1cmVDbGFzcyIg
+RGF0ZT0iMjAwOTEyMTYiIFRpbWU9IjA5MzkwMCI+RmVhdHVyZUNsYXNzVG9GZWF0dXJlQ2xhc3Mg
+IkRhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChW
+RVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRC
+Ty5GaXNoZXJpZXNfQWxsU2VjdGlvbnMiICJEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9u
+IHRvIEZCSEJHSVNERVYwMi5zZGVcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZyIgRmlzaGVyaWVz
+X0FsbFNlY3Rpb25zX25ldyAjICJXUkRTICdXUkRTJyB0cnVlIHRydWUgZmFsc2UgNTAgVGV4dCAw
+IDAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNc
+UEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdc
+UEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxXUkRTLC0xLC0xO1d0ckxhdExvbiAn
+V3RyTGF0TG9uJyB0cnVlIHRydWUgZmFsc2UgMTIgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2Ug
+U2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJv
+LkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmll
+c19BbGxTZWN0aW9ucyxXdHJMYXRMb24sLTEsLTE7V3RyTGF0REQgJ1d0ckxhdEREJyB0cnVlIHRy
+dWUgZmFsc2UgOCBEb3VibGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNB
+RE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19H
+SVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFd0
+ckxhdERELC0xLC0xO1d0ckxvbkREICdXdHJMb25ERCcgdHJ1ZSB0cnVlIGZhbHNlIDggRG91Ymxl
+IDggMTkgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5n
+ZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBp
+bmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxXdHJMb25ERCwtMSwtMTtXdHJO
+YW1lICdXdHJOYW1lJyB0cnVlIHRydWUgZmFsc2UgNTAgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJh
+c2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046
+ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hl
+cmllc19BbGxTZWN0aW9ucyxXdHJOYW1lLC0xLC0xO1NlY051bSAnU2VjTnVtJyB0cnVlIHRydWUg
+ZmFsc2UgNCBMb25nIDAgMTAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFf
+U1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxTZWNOdW0s
+LTEsLTE7U2VjRGF0ZSAnU2VjRGF0ZScgdHJ1ZSB0cnVlIGZhbHNlIDM2IERhdGUgMCAwICxGaXJz
+dCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lT
+IChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lT
+LkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsU2VjRGF0ZSwtMSwtMTtTZWNVcExpbUxhICdTZWNV
+cExpbUxhJyB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBT
+ZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8u
+REVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVz
+X0FsbFNlY3Rpb25zLFNlY1VwTGltTGEsLTEsLTE7U2VjVXBMaW1MbyAnU2VjVXBMaW1MbycgdHJ1
+ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMTkgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhC
+R0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBG
+QkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9u
+cyxTZWNVcExpbUxvLC0xLC0xO1NlY1VwcGVyTGkgJ1NlY1VwcGVyTGknIHRydWUgdHJ1ZSBmYWxz
+ZSA4IERvdWJsZSA4IDE5ICxGaXJzdCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NR
+TEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8u
+UEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsU2VjVXBwZXJM
+aSwtMSwtMTtTZWNVcHBlcl8xICdTZWNVcHBlcl8xJyB0cnVlIHRydWUgZmFsc2UgNTAgVGV4dCAw
+IDAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNc
+UEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdc
+UEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxTZWNVcHBlcl8xLC0xLC0xO1NlY0x3
+TGltTGEgJ1NlY0x3TGltTGEnIHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDE5ICxGaXJzdCwj
+LERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChW
+RVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRC
+Ty5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsU2VjTHdMaW1MYSwtMSwtMTtTZWNMd0xpbUxvICdTZWNM
+d0xpbUxvJyB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBT
+ZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8u
+REVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVz
+X0FsbFNlY3Rpb25zLFNlY0x3TGltTG8sLTEsLTE7U2VjTG93ZXJMaSAnU2VjTG93ZXJMaScgdHJ1
+ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMTkgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhC
+R0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBG
+QkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9u
+cyxTZWNMb3dlckxpLC0xLC0xO1NlY0xvd2VyXzEgJ1NlY0xvd2VyXzEnIHRydWUgdHJ1ZSBmYWxz
+ZSA1MCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxF
+WFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBG
+QkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFNlY0xvd2VyXzEs
+LTEsLTE7R0lTX0tleSAnR0lTX0tleScgdHJ1ZSB0cnVlIGZhbHNlIDE2IFRleHQgMCAwICxGaXJz
+dCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lT
+IChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lT
+LkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsR0lTX0tleSwtMSwtMTtMb3dlclJNX05lICdMb3dl
+clJNX05lJyB0cnVlIHRydWUgZmFsc2UgOCBEb3VibGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBT
+ZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8u
+REVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVz
+X0FsbFNlY3Rpb25zLExvd2VyUk1fTmUsLTEsLTE7VXBwZXJSTV9OZSAnVXBwZXJSTV9OZScgdHJ1
+ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMTkgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhC
+R0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBG
+QkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9u
+cyxVcHBlclJNX05lLC0xLC0xO1RydFN0a18wNiAnVHJ0U3RrXzA2JyB0cnVlIHRydWUgZmFsc2Ug
+OCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBS
+RVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNf
+TWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFRydFN0a18wNiwtMSwt
+MTtXV0NXU3RrXzA2ICdXV0NXU3RrXzA2JyB0cnVlIHRydWUgZmFsc2UgOCBUZXh0IDAgMCAsRmly
+c3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJ
+UyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFdXQ1dTdGtfMDYsLTEsLTE7TGVuZ3RoX0ZUXyAn
+TGVuZ3RoX0ZUXycgdHJ1ZSB0cnVlIGZhbHNlIDggRG91YmxlIDggMTkgLEZpcnN0LCMsRGF0YWJh
+c2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046
+ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hl
+cmllc19BbGxTZWN0aW9ucyxMZW5ndGhfRlRfLC0xLC0xO0xlbmd0aF9NSV8gJ0xlbmd0aF9NSV8n
+IHRydWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDE5ICxGaXJzdCwjLERhdGFiYXNlIFNlcnZlcnNc
+RkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9OOmRiby5ERUZBVUxU
+KVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2Vj
+dGlvbnMsTGVuZ3RoX01JXywtMSwtMTtTcGVjUmVnX01hICdTcGVjUmVnX01hJyB0cnVlIHRydWUg
+ZmFsc2UgNCBMb25nIDAgMTAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFf
+U1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRC
+Ty5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxTcGVjUmVn
+X01hLC0xLC0xO1RydFN0a18wNyAnVHJ0U3RrXzA3JyB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAg
+MCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQ
+RkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQ
+RkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFRydFN0a18wNywtMSwtMTtGaW5nX1Ry
+dFN0ICdGaW5nX1RydFN0JyB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAgMCAsRmlyc3QsIyxEYXRh
+YmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lP
+TjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlz
+aGVyaWVzX0FsbFNlY3Rpb25zLEZpbmdfVHJ0U3QsLTEsLTE7V1dDV1N0a18wNyAnV1dDV1N0a18w
+NycgdHJ1ZSB0cnVlIGZhbHNlIDEgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xG
+QkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQp
+XFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0
+aW9ucyxXV0NXU3RrXzA3LC0xLC0xO0xMX0xvbmdfR0kgJ0xMX0xvbmdfR0knIHRydWUgdHJ1ZSBm
+YWxzZSA4IERvdWJsZSA4IDE5ICxGaXJzdCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAx
+X1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsTExfTG9u
+Z19HSSwtMSwtMTtMTF9MYXRfR0lTICdMTF9MYXRfR0lTJyB0cnVlIHRydWUgZmFsc2UgOCBEb3Vi
+bGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNT
+Lmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFw
+cGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLExMX0xhdF9HSVMsLTEsLTE7
+UmVnX05hbWUgJ1JlZ19OYW1lJyB0cnVlIHRydWUgZmFsc2UgNDAgVGV4dCAwIDAgLEZpcnN0LCMs
+RGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZF
+UlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJP
+LkZpc2hlcmllc19BbGxTZWN0aW9ucyxSZWdfTmFtZSwtMSwtMTtSZWdfTGluayAnUmVnX0xpbmsn
+IHRydWUgdHJ1ZSBmYWxzZSA3MCBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZC
+SEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClc
+UEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rp
+b25zLFJlZ19MaW5rLC0xLC0xO1RydFN0a18wOCAnVHJ0U3RrXzA4JyB0cnVlIHRydWUgZmFsc2Ug
+MyBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBS
+RVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNf
+TWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFRydFN0a18wOCwtMSwt
+MTtGaW5nX1RydF8xICdGaW5nX1RydF8xJyB0cnVlIHRydWUgZmFsc2UgMyBUZXh0IDAgMCAsRmly
+c3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJ
+UyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJ
+Uy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLEZpbmdfVHJ0XzEsLTEsLTE7V1dDV1N0a18wOCAn
+V1dDV1N0a18wOCcgdHJ1ZSB0cnVlIGZhbHNlIDEgVGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2Ug
+U2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJv
+LkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmll
+c19BbGxTZWN0aW9ucyxXV0NXU3RrXzA4LC0xLC0xO1VMX0xhdF9HSVMgJ1VMX0xhdF9HSVMnIHRy
+dWUgdHJ1ZSBmYWxzZSA4IERvdWJsZSA4IDE5ICxGaXJzdCwjLERhdGFiYXNlIFNlcnZlcnNcRkJI
+QkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQ
+RkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlv
+bnMsVUxfTGF0X0dJUywtMSwtMTtVTF9Mb25nX0dJICdVTF9Mb25nX0dJJyB0cnVlIHRydWUgZmFs
+c2UgOCBEb3VibGUgOCAxOSAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9T
+UUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFVMX0xvbmdf
+R0ksLTEsLTE7VHJ0U3RrXzA5ICdUcnRTdGtfMDknIHRydWUgdHJ1ZSBmYWxzZSAyIFRleHQgMCAw
+ICxGaXJzdCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBG
+QkNfR0lTIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBG
+QkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsVHJ0U3RrXzA5LC0xLC0xO0ZpbmdfVHJ0
+XzIgJ0ZpbmdfVHJ0XzInIHRydWUgdHJ1ZSBmYWxzZSAyIFRleHQgMCAwICxGaXJzdCwjLERhdGFi
+YXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9O
+OmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNo
+ZXJpZXNfQWxsU2VjdGlvbnMsRmluZ19UcnRfMiwtMSwtMTtXV0NXU3RrXzIwICdXV0NXU3RrXzIw
+JyB0cnVlIHRydWUgZmFsc2UgMiBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZC
+SEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClc
+UEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rp
+b25zLFdXQ1dTdGtfMjAsLTEsLTE7UmVtX1NlYyAnUmVtX1NlYycgdHJ1ZSB0cnVlIGZhbHNlIDEg
+VGV4dCAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVT
+Uy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01h
+cHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxSZW1fU2VjLC0xLC0xO0Ns
+YXNzQSAnQ2xhc3NBJyB0cnVlIHRydWUgZmFsc2UgMSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFz
+ZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9TUUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpk
+Ym8uREVGQVVMVClcUEZCQ19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVy
+aWVzX0FsbFNlY3Rpb25zLENsYXNzQSwtMSwtMTtXaWxkVHJ0ICdXaWxkVHJ0JyB0cnVlIHRydWUg
+ZmFsc2UgMSBUZXh0IDAgMCAsRmlyc3QsIyxEYXRhYmFzZSBTZXJ2ZXJzXEZCSEJHSVNBRE0wMV9T
+UUxFWFBSRVNTLmdkc1xQRkJDX0dJUyAoVkVSU0lPTjpkYm8uREVGQVVMVClcUEZCQ19HSVMuREJP
+LlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25zLFdpbGRUcnQs
+LTEsLTE7V1dDV19GaXNoICdXV0NXX0Zpc2gnIHRydWUgdHJ1ZSBmYWxzZSAxIFRleHQgMCAwICxG
+aXJzdCwjLERhdGFiYXNlIFNlcnZlcnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNf
+R0lTIChWRVJTSU9OOmRiby5ERUZBVUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNf
+R0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnMsV1dDV19GaXNoLC0xLC0xO1NwZWNSZWcgJ1Nw
+ZWNSZWcnIHRydWUgdHJ1ZSBmYWxzZSAxIFRleHQgMCAwICxGaXJzdCwjLERhdGFiYXNlIFNlcnZl
+cnNcRkJIQkdJU0FETTAxX1NRTEVYUFJFU1MuZ2RzXFBGQkNfR0lTIChWRVJTSU9OOmRiby5ERUZB
+VUxUKVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxs
+U2VjdGlvbnMsU3BlY1JlZywtMSwtMTtHbG9iYWxJRCAnR2xvYmFsSUQnIGZhbHNlIGZhbHNlIHRy
+dWUgMzggTG9uZyAwIDAgLEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FM
+RVhQUkVTUy5nZHNcUEZCQ19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5Q
+RkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxHbG9iYWxJRCwt
+MSwtMTtTaGFwZV9sZW4gJ1NoYXBlX2xlbicgZmFsc2UgZmFsc2UgdHJ1ZSAwIERvdWJsZSAwIDAg
+LEZpcnN0LCMsRGF0YWJhc2UgU2VydmVyc1xGQkhCR0lTQURNMDFfU1FMRVhQUkVTUy5nZHNcUEZC
+Q19HSVMgKFZFUlNJT046ZGJvLkRFRkFVTFQpXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZC
+Q19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9ucyxTaGFwZS5sZW4sLTEsLTEiICMgIkRhdGFi
+YXNlIENvbm5lY3Rpb25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5E
+Qk8uUEZCQ19NYXBwaW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnNfbmV3Ijwv
+UHJvY2Vzcz4NCiAgICAgICAgPFByb2Nlc3MgVG9vbFNvdXJjZT0iQzpcUHJvZ3JhbSBGaWxlc1xB
+cmNHSVNcQXJjVG9vbGJveFxUb29sYm94ZXNcRGF0YSBNYW5hZ2VtZW50IFRvb2xzLnRieFxBZGRH
+bG9iYWxJRHMiIERhdGU9IjIwMDkxMjE2IiBUaW1lPSIwOTQyNTEiPkFkZEdsb2JhbElEcyAnRGF0
+YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhCR0lTREVWMDIuc2RlXFBGQkNfR0lT
+LkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hlcmllc19BbGxTZWN0aW9uc19uZXcn
+ICdEYXRhYmFzZSBDb25uZWN0aW9uc1xDb25uZWN0aW9uIHRvIEZCSEJHSVNERVYwMi5zZGVcUEZC
+Q19HSVMuREJPLlBGQkNfTWFwcGluZ1xQRkJDX0dJUy5EQk8uRmlzaGVyaWVzX0FsbFNlY3Rpb25z
+X25ldyc8L1Byb2Nlc3M+DQogICAgICAgIDxQcm9jZXNzIFRvb2xTb3VyY2U9IkM6XFByb2dyYW0g
+RmlsZXNcQXJjR0lTXEFyY1Rvb2xib3hcVG9vbGJveGVzXERhdGEgTWFuYWdlbWVudCBUb29scy50
+YnhcUmVnaXN0ZXJBc1ZlcnNpb25lZCIgRGF0ZT0iMjAwOTEyMTYiIFRpbWU9IjA5NDMwNiI+UmVn
+aXN0ZXJBc1ZlcnNpb25lZCAiRGF0YWJhc2UgQ29ubmVjdGlvbnNcQ29ubmVjdGlvbiB0byBGQkhC
+R0lTREVWMDIuc2RlXFBGQkNfR0lTLkRCTy5QRkJDX01hcHBpbmdcUEZCQ19HSVMuREJPLkZpc2hl
+cmllc19BbGxTZWN0aW9uc19uZXciIE5PX0VESVRTX1RPX0JBU0UgIkRhdGFiYXNlIENvbm5lY3Rp
+b25zXENvbm5lY3Rpb24gdG8gRkJIQkdJU0RFVjAyLnNkZVxQRkJDX0dJUy5EQk8uUEZCQ19NYXBw
+aW5nXFBGQkNfR0lTLkRCTy5GaXNoZXJpZXNfQWxsU2VjdGlvbnNfbmV3IjwvUHJvY2Vzcz4NCiAg
+ICAgIDwvbGluZWFnZT4NCiAgICA8L0RhdGFQcm9wZXJ0aWVzPg0KICAgIDxNZXRhSUQ+ezlENzI5
+MEYzLUFCNDItNDI5NC1CN0Y0LTUwRDY3N0JCMDMwQX08L01ldGFJRD4NCiAgPC9Fc3JpPg0KICA8
+ZGF0YUlkSW5mbz4NCiAgICA8ZGVzY0tleXM+DQogICAgICA8dGhlc2FOYW1lIHV1aWRyZWY9Ijcy
+M2Y2OTk4LTA1OGUtMTFkYy04MzE0LTA4MDAyMDBjOWE2NiIgLz4NCiAgICA8L2Rlc2NLZXlzPg0K
+ICA8L2RhdGFJZEluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Nathan K. Eaton (GIS compiler)</origin>
+        <pubdate>20020419</pubdate>
+        <title>
+COAL_AML_FEATURES_IN: Abandoned Mine Lands, Miscellaneous Site Features in Indiana
+(Indiana Geological Survey, 1:24,000, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+AML_POLY, the predecessor of COAL_AML_FEATURES_IN, was derived
+from preexisting AutoCAD files digitized by personnel of the Abandoned Mine Lands program of the
+Indiana Department of Natural Resources, Division of Reclamation.
+
+This shapefile contains information that is related to two additional shapefiles produced by the
+Indiana Geological Survey:
+
+1) COAL_AML_HIGHWALLS_IN: Abandoned Mine Lands, Dangerous Highwalls in Indiana
+(Indiana Geological Survey, 1:24,000, PolyLine Shapefile).
+
+2) COAL_AML_MISC_IN: Abandoned Mine Lands, Entrances, Equipment, Facilities, and Dangerous
+Gasses in Indiana, (Indiana Geological Survey, 1:24,000, Point Shapefile).
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+AML_POLY, the predecessor of COAL_AML_FEATURES_IN, is a 1:24,000-scale polygon-based ESRI ArcView shapefile
+that shows the locations and extents of Abandoned Mine Lands (AML) sites and site features in the coal
+region of Indiana. AML_POLY includes all Indiana sites listed on the federal AML site
+inventory by personnel of the Abandoned Mine Lands program of the Indiana Department of Natural
+Resources, Division of Reclamation. COAL_AML_FEATURES_IN includes attributes that allow the polygons to
+be differentiated based on site type, site number, and site feature type.
+</abstract>
+      <purpose>
+COAL_AML_FEATURES_IN is a compilation of all polygon features associated with Abandoned Mine Lands
+(AML) sites in Indiana. AML_POLY was compiled by the Indiana Geological Survey
+(IGS) as part of a contract deliverable for the Abandoned Mine Lands program of the Indiana Department
+of Natural Resources, Division of Reclamation. AML_POLY was generated from data digitized from
+1:24,000-scale topographic maps. All AML data included in AML_POLY are organized in a geographic
+information system (GIS) using ESRI ArcInfo and ESRI ArcView software of the Environmental Systems Research
+Institute (ESRI) on the Windows NT and Windows 2000 platforms. AML_POLY includes attributes which
+allow the polygons to be differentiated based on site type (AML, Bond Forfeiture, or Lost Surety),
+site number, or site feature type (pits, slurry, gob, spoil, haul roads, subsidence, water, dangerous
+piles and embankments, waste sites, and site boundaries).
+</purpose>
+      <supplinf>
+Two ESRI ArcView legend files (*.avl) are provided with this shapefile to aid in symbolizing the polygons.
+The default legend file, COAL_AML_FEATURES_IN.avl, differentiates polygons based on site feature type.
+Site features include pits, slurry, gob, spoil, haul roads, subsidence, water, dangerous piles and
+embankments, waste sites, and site boundaries. The alternative legend file,
+COAL_AML_FEATURES_SITES_IN.avl, differentiates the polygons based on site type. Site type is assigned
+by AML program personnel and refers to the funding source used to reclaim a particular site. Site
+types include AML (normal federal AML program funding for reclamation of pre-1977 mining), Bond
+Forfeiture (funding from bond money forfeited by a coal company that failed to reclaim a site), or
+Lost Surety (post-1977 bond forfeiture reclaimed with federal AML funding because of surety company
+bankruptcy).
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1977</begdate>
+          <enddate>2000</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.5911</westbc>
+        <eastbc>-86.6679</eastbc>
+        <northbc>39.6056</northbc>
+        <southbc>37.9073</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format, Windows 2000, approximately 2.3 Mb</native>
+    <themekey>
+Theme Theme_Keyword_Thesaurus
+Place Place_Keyword_Thesaurus
+</themekey>
+    <useconst>OLD_Coal_Data--Coal_AML_Features_IN</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The AML sites and site features included in COAL_AML_FEATURES_IN are associated with Abandoned
+Mine Lands (AML) sites listed on the federal AML site inventory maintained by the Abandoned Mine Lands
+program of the Indiana Division of Reclamation. All areas from COAL_AML_FEATURES_IN have been identified
+and field-verified by AML program personnel.
+
+Two tests for attribute consistency were performed by IGS personnel using the QueryBuilder Tool in ESRI
+Arcview.
+
+(1) Completeness of values was verified.
+
+- No values were left blank, unless appropriate. (In some instances an AML site is assigned a
+federal number and no state (AML) number, or vice versa.
+
+(2) Validity of values was verified.
+
+- All features were attributed with values in the appropriate range and format.
+</attraccr>
+    </attracc>
+    <logic>ESRI ArcInfo polygon topology is present.</logic>
+    <complete>
+AML_POLY was derived from preexisting AutoCAD files digitized by personnel of the Abandoned Mine Lands
+program of the Indiana Department of Natural Resources, Division of Reclamation. Completeness of
+AML_POLY is dependant on the completeness of the source data files. Spot-checks of areas during the
+attributing process indicate that 95% of the sites shown on the original federal AML site inventory
+maps are represented in AML_POLY.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+No records exist regarding the horizontal positional accuracy of this shapefile. AML_POLY was
+derived from preexisting AutoCAD files digitized by personnel of the Abandoned Mine Lands program
+of the Indiana Department of Natural Resources, Division of Reclamation. Horizontal positional
+accuracy of AML_POLY is dependant on the positional accuracy of the source data files. The source
+AutoCAD files were originally digitized from data shown on 1:24,000-scale topographic maps. The
+topographic map set, which constitutes the AML program's compilation of federally inventoried AML
+sites, was designed to provide a diagrammatic tool for visualizing the types of features associated
+with AML sites. Site features such as pits, slurry, gob, spoil, haul roads, subsidence, and waste
+sites areas were, in most cases, simply sketched in their approximate location within the more
+precisely located AML site boundaries. This means that the horizontal positional accuracy of
+AML_POLY site feature polygons is probably most significantly affected by the lack
+of horizontal positional accuracy associated with the source topographic maps. Because of the potential
+for horizontal positional error associated with AML site feature polygons obtained from AML_POLY, it
+is recommended that this dataset be used only as an index of actual AML site feature locations. If
+the detailed location of a specific type of AML site feature is needed, more detailed information
+is available from the Indiana Division of Reclamation, Abandoned Mine Lands Program.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+The vertical positional accuracy was not a factor in the
+creation of COAL_AML_FEATURES_IN. No quantitative tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>
+Indiana Department of Natural Resources, Division of Reclamation Abandoned
+Mine Lands Program
+</origin>
+            <pubdate>2000</pubdate>
+            <title>Federal Abandoned Mine Lands Site Inventory Maps</title>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Jasonville, Indiana</pubplace>
+              <publish>
+Indiana Department of Natural Resources, Division of Reclamation Abandoned
+Mine Lands Program
+</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Paper</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1977</begdate>
+              <enddate>2000</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Federal Inventory Maps</srccitea>
+        <srccontr>Source from which CAD files were created.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+AML_POLY was created at the IGS using digital CAD data provided by the Indiana Department of
+Natural Resources, Division of Reclamation Abandoned Mine Lands Program. Although the origins
+of the CAD data are somewhat uncertain, the general procedures are known. AML site boundaries
+and site features (gob, slurry, pits, spoil areas, etc.) were digitized using AutoCAD from
+1:24,000-scale topographic maps. The CAD files were then geo-referenced to UTM Zone 16, NAD27
+using tics from 1:24,000-scale topographic maps.
+</procdesc>
+        <srcused>Unknown</srcused>
+        <procdate>1996</procdate>
+        <srcprod>AML_POLY</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jim Metzger</cntper>
+              <cntorg>Indiana Department of Natural Resources, Division of Reclamation</cntorg>
+            </cntperp>
+            <cntpos>Technical Manager</cntpos>
+            <cntaddr>
+              <addrtype>Mailing address</addrtype>
+              <address>P.O. Box 147</address>
+              <city>Jasonville</city>
+              <state>Indiana</state>
+              <postal>47438</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(800)772-6463</cntvoice>
+            <cntemail>jmetzger@kern.osmre.gov</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+County-based AutoCAD (.dwg) files were converted to ESRI ArcView shapefiles using the 'convert to
+shapefile' function in ESRI ArcView (v 3.2). The ESRI ArcView shapefile polygons were then attributed
+with several items including site number, site type, feature type, and source. The CAD
+files included annotation layers which listed information for most of the sites. The source
+Federal Abandoned Mine Lands Site Inventory Maps were consulted to obtain attributes for
+polygons not annotated in the CAD files. After all the county shapefiles had been attributed,
+the ESRI ArcView Geoprocessing wizard was used to merge the county shapefiles to a single shapefile
+named AML_POLY.
+</procdesc>
+        <srcused>digital CAD files (.dwg)</srcused>
+        <procdate>20000320</procdate>
+        <srcprod>AML_POLY</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nathan Eaton</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geotechnical Systems Analyst</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(812)855-0417</cntvoice>
+            <cntfax>(812)855-2862</cntfax>
+            <cntemail>neaton@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The original shapefile, AML_POLY, was first converted to a coverage named "AML_POLY" using the
+'SHAPEARC' command in ESRI ArcInfo.  AML_POLY was then reprojected from NAD27 to NAD83 in ESRI ArcInfo using
+the 'PROJECT' command, to create a coverage named "AML_POLY_83." AML_POLY_83 was clipped to a
+coverage named "INCLP83," which contains the area within the county boundaries in the state of
+Indiana, which was compiled at a scale of 1:24,000.  The Geoprocessing
+Wizard in ESRI ArcView was used to perform the clipping operation to create the shapefile named
+"COAL_AML_FEATURES_IN."
+</procdesc>
+        <srcused>AML_POLY</srcused>
+        <procdate>20020419</procdate>
+        <srcprod>COAL_AML_FEATURES_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20030227</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Walls</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1346</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>awalls@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>
+Monday through Friday, except holidays
+</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2338</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>COAL_AML_FEATURES_IN.dbf</enttypl>
+        <enttypd>Shapefile attribute table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Feature_ty</attrlabl>
+        <attrdef>Type of AML site feature.</attrdef>
+        <attrdefs>Division of Reclamation</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>DPE</edomv>
+            <edomvd>Dangerous piles and embankments</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gob</edomv>
+            <edomvd>Coarse-grained coal refuse material</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Haul Road</edomv>
+            <edomvd>Coal haulage road</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>IR Waste</edomv>
+            <edomvd>Industrial/residential waste</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Other</edomv>
+            <edomvd>N/A</edomvd>
+            <edomvds>N/A</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pit</edomv>
+            <edomvd>N/A</edomvd>
+            <edomvds>N/A</edomvds>
+          </edom>
+          <edom>
+            <edomv>Site Boundary</edomv>
+            <edomvd>
+Extent of site eligible for reclamation;
+may include larger area than actually disturbed or reclaimed
+</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Slurry</edomv>
+            <edomvd>Fine-grained coal refuse material</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Spoil Area</edomv>
+            <edomvd>Overburden material</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Subsidence</edomv>
+            <edomvd>Documented mine subsidence area</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Water</edomv>
+            <edomvd>Hazardous water bodies</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Feature_na</attrlabl>
+        <attrdef>Name of AML site or specific site feature</attrdef>
+        <attrdefs>Indiana Division of Reclamation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_type</attrlabl>
+        <attrdef>Type of AML site</attrdef>
+        <attrdefs>Indiana Division of Reclamation</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AML</edomv>
+            <edomvd>AML Site reclaimed with Federal AML funds</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Lost Surety</edomv>
+            <edomvd>
+Post-1977 bond forfeiture reclaimed with Federal AML
+funds because of a surety bankrupcy
+</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+          <edom>
+            <edomv>Bond Forfeiture</edomv>
+            <edomvd>
+Mine reclaimed with bond money forfeited by a mine
+operator that failed to reclaim a site
+</edomvd>
+            <edomvds>Indiana Division of Reclamation</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Aml_id</attrlabl>
+        <attrdef>State AML site ID number</attrdef>
+        <attrdefs>Indiana Division of Reclamation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fed_id</attrlabl>
+        <attrdef>Federal AML site ID number</attrdef>
+        <attrdefs>Indiana Division of Reclamation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Code for citation of source spatial data</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>100000</edomv>
+            <edomvd>
+Generated from CAD files digitized by Mark Wolfe,
+Indiana Dept. of Natural Resources, Division of
+Reclamation, Jasonville, Indiana
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>100001</edomv>
+            <edomvd>
+Digitized from paper Federal Abandoned Mine Lands
+Site Inventory Maps by Nathan Eaton, Indiana
+Geological Survey
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Comment</attrlabl>
+        <attrdef>Miscellaneous notes; may include secondary/tertiary site numbers</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812/855-7636</cntvoice>
+        <cntfax>812/855-2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: [COAL_AML_FEATURES_IN: Abandoned Mine Lands, Miscellaneous Site Features in Indiana
+(Indiana Geological Survey, 1:24,000, Polygon Shapefile)]
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20020418</metd>
+    <metrd>20040407</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Walls</cntper>
+        </cntorgp>
+        <cntpos>Geographer, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-1346</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>awalls@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

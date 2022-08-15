@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ohio River Valley Water Sanitation Commission</origin>
+        <pubdate>Unpublished Material</pubdate>
+        <title>WPC aquatic sampling locations</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.orsanco.org/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>unknown</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-80.586819</westbc>
+        <eastbc Sync="TRUE">-79.481349</eastbc>
+        <northbc Sync="TRUE">40.955741</northbc>
+        <southbc Sync="TRUE">40.001868</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Aquatic Invertebrates</themekey>
+        <themekey>Benthic Macroinvertebrates</themekey>
+        <themekey>Fish</themekey>
+        <themekey>Water Chemistry</themekey>
+      </theme>
+      <place>
+        <placekey>Allegheny River</placekey>
+        <placekey>Ohio River</placekey>
+        <placekey>Monongahela River</placekey>
+        <placekey>Western Pennsylvania</placekey>
+        <placekey>Ohio River Valley</placekey>
+      </place>
+      <place>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>By acceptance of this data, the user agrees to include a copy of this metadata record, including the liability disclaimer, whenever the user transmits or provides the GIS Data(or any portion of it) to another user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Natural Heritage Program (Western Pennsylvania Conservancy)</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+    <descript>
+      <abstract>WPC_endorsan</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>ESRI point geometry exists.</logic>
+    <complete>Complete.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ohio River Valley Water Sanitation Commission</origin>
+            <pubdate>Unknown</pubdate>
+            <title>ORSANCO datasets</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>Electron Datasets</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>Sites with Latititude and Longitude were added as an event theme.</procdesc>
+        <procdate>20040301</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\DOCUME~1\DHomans.WPC\LOCALS~1\Temp\xml3.tmp</srcused>
+        <procdate>Unknown</procdate>
+        <time Sync="TRUE">09215200</time>
+      </procstep>
+      <procstep>
+        <procdesc>Sites with rivermile and bank locational citations were measured out in their distance from Three Rivers Confluence and added to the dataset.</procdesc>
+        <procdate>20040301</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">C:\LocalGISfiles\DDnad27\Final\endorsan</srcused>
+        <procdate>Unknown</procdate>
+        <time Sync="TRUE">09471400</time>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="endorsan">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">119</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="endorsan">
+      <enttyp>
+        <enttypl Sync="TRUE">endorsan</enttypl>
+        <enttypd>ORSANCO aquatic sampling locations</enttypd>
+        <enttypds>OSANCO</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT_DEC_OR</attrlabl>
+        <attrdef>Original Dataset Site Latitude in Decimal Degrees</attrdef>
+        <attrdefs>Original Report</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONG_DEC_O</attrlabl>
+        <attrdef>Original Dataset Site Longitude in Decimal Degrees</attrdef>
+        <attrdefs>Original Report</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATIONID</attrlabl>
+        <attrdef>Unique Station Identifier name</attrdef>
+        <attrdefs>ORSANCO</attrdefs>
+        <attrdomv>
+          <udom>ID number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RIVERMILE</attrlabl>
+        <attrdef>rivermile</attrdef>
+        <attrdefs>ORSANCO</attrdefs>
+        <attrdomv>
+          <udom>Rivermile</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">EXPR1</attrlabl>
+        <attrdef>Null Field</attrdef>
+        <attrdefs>Pennsylvania Natural Heritage Program</attrdefs>
+        <attrdomv>
+          <udom>null field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RIVER</attrlabl>
+        <attrdef>River Name</attrdef>
+        <attrdefs>ORSANCO</attrdefs>
+        <attrdomv>
+          <udom>free text</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">RMI</attrlabl>
+        <attrdef>Rivermile of site (0 Rivermile located at Three River Confluence in Pittsburgh)</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Rivermile of site (0 Rivermile located at Three River Confluence in Pittsburgh)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BANK</attrlabl>
+        <attrdef>River bank of sample</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>LDB</edomv>
+            <edomvd>Left descending bank</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>RDB</edomv>
+            <edomvd>Right descending bank</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>null</edomv>
+            <edomvd>bank unknown</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">X_COORD</attrlabl>
+        <attrdef>ArcView appointed longitude in decimal degrees.</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>ArcView appointed longitude in decimal degrees.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Y_COORD</attrlabl>
+        <attrdef>ArcView appointed longitude in decimal degrees.</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>ArcView appointed longitude in decimal degrees.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Attributes describe the location of the sampling sites only.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distliab>
+NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.003</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100323</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Coservancy; Natural Heritage Program</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20100323</ModDate>
+    <ModTime>11060300</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20100323</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

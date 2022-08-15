@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>United States Department of Commerce, United States Census Bureau (Data creator)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20040623</pubdate>
+        <title>CENSUS_BLOCKS_TIGER00_IN: Indiana Census Blocks 2000 (U.S. Census Bureau, 1:500,000, Polygon Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey (IGS)</publish>
+        </pubinfo>
+        <othercit>
+CENSUS_BLOCKS_TIGER00_IN.SHP was derived and modified from preexisting ESRI shapefiles that were downloaded as
+county-based zip files named "BLK0018XXX.zip" (where "XXX" was a county code number) from
+the following URL of the Geography Network, an official site maintained by ESRI:
+http://arcdata.esri.com/data/tiger2000/tiger_download.cfm
+
+A table entitled "Census Block Group Demographics Summary File 1 (SF1)" was also downloaded from the ESRI site, and
+then merged with the shapefiles in ArcMap.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The following is excerpted from an on-line document produced by ESRI pertaining to the Census 2000 TIGER Line data:
+
+"The Census 2000 TIGER/Line shapefiles were created from the Topologically Integrated Geographic Encoding and
+Referencing (TIGER) database of the United States Census Bureau.
+
+The shapefiles contain data about the following features:
+
+Line Features—roads, railroads, hydrography, and transportation and utility lines.
+
+Boundary Features—statistical (e.g., census tracts and blocks); government (e.g., places and counties); and
+administrative (e.g., congressional and school districts).
+
+Landmark Features—point (e.g., schools and churches); area (e.g., parks and cemeteries); and key geographic locations
+(e.g., apartment buildings and factories).
+
+The shapefiles do not contain:
+
+Zip Code Tabulation Areas (ZCTAs).
+
+Current address range information as reflected in the Master Address File (MAF).
+
+Corrections to naming of some geographic entities, including voting districts and school districts, and attributes
+such as Place Description Codes (PLACEDC) and Legal/Statistical Area Description Codes (LSADC).
+
+This updated Census information for the 2000 TIGER/Line files is available from the U.S. Census Bureau at the following web
+site url: http://www.census.gov/geo/www/tiger/tiger2k/tgr2000.html
+The U.S. Census Bureau also provides GENERALIZED cartographic boundary files for many of their geographies. These cartographic
+boundary files can be downloaded by state, in shapefile format (.shp), as well as ArcInfo export files (.e00)."
+</abstract>
+      <purpose>CENSUS_BLOCKS_TIGER00_IN.SHP was created to provide a GIS data layer of Census Blocks for Indiana in 2000.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2001</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0972</westbc>
+        <eastbc>-84.6884</eastbc>
+        <northbc>41.7734</northbc>
+        <southbc>37.7606</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>United States Department of Commerce</themekey>
+        <themekey>United States Census Bureau (USCB)</themekey>
+        <themekey>census block</themekey>
+        <themekey>block</themekey>
+        <themekey>polygon</themekey>
+        <themekey>vector</themekey>
+        <themekey>census</themekey>
+        <themekey>TIGER/Line</themekey>
+        <themekey>demographic</themekey>
+        <themekey>minorities</themekey>
+        <themekey>age</themekey>
+        <themekey>population</themekey>
+        <themekey>home ownership</themekey>
+        <themekey>families</themekey>
+        <themekey>statistical boundary</themekey>
+      </theme>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Windows 2000 operating system; ESRI ArcGIS 8.3 shapefile; approximately 149 Mb</native>
+    <useconst>Demographics--Census_Blocks</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"Accurate against Federal information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at
+the 100% level for the codes and base names. The remaining attribute information has been examined but has not been fully
+tested for accuracy."
+
+The following is excerpted from the 634 page Web document produced by the U.S. Census Bureau
+pertaining to Census Block Group Demographics Summary File 1 (SF1), (http://www.census.gov/prod/cen2000/doc/sf1.pdf):
+
+"Summary File 1 (SF 1) contains the 100-percent data, which is the information compiled from the questions asked of all
+people and about every housing unit. Population items include sex, age, race, Hispanic or Latino, household relationship,
+and group quarters. Housing items include occupancy status, vacancy status, and tenure (owner occupied or renter occupied).
+
+There is a total of 171 population tables (identified with a ‘‘P’’) and 56 housing tables (identified with an ‘‘H’’) shown
+down to the block level, and 59 population tables shown down to the census tract level (identified with a ‘‘PCT’’) for a
+total of 286 tables. There are 14 population tables and 4 housing tables shown down to the block level, and 4 population
+tables shown down to the census tract level that are repeated by major race and Hispanic or Latino groups2.
+
+SF 1 includes  population and housing characteristics for the total population, population totals for an extensive list of
+race (American Indian and Alaska Native tribes, Asian, and Native Hawaiian and Other Pacific Islander) and Hispanic or Latino groups,
+and population and housing characteristics for a limited list of race and Hispanic or Latino groups. Population and housing
+items may be cross tabulated. Selected aggregates and medians also are provided. A complete listing of subjects in this file
+is found in the section, 'Subject Locator.'"
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"The feature network of lines (as represented by Record Types 1 and 2) is compete for census purposes.  Spatial objects in
+TIGER/Line belong to the "Geometry and Topology" (GT) class of objects in the "Spatial Data Transfer Standard" (SDTS)
+FIPS Publication 173 and are topologically valid.  Node/geometry and topology (GT)-polygon/chain relationships are
+collected or generated to satisfy topological edit requirements. These requirements include:
+
+* Complete chains must begin and end at nodes.
+
+* Complete chains must connect to each other at nodes.
+
+* Complete chains do not extend through nodes.
+
+* Left and right GT-polygons are defined for each complete chain element and are consistent throughout the extract process.
+
+* the chains representing the limits of the files are free of gaps.
+
+The Census Bureau performed automated tests to ensure logical consistency and limits of files.  All polygons are tested
+for closure.  The Census Bureau uses its internally developed Geographic Update System to enhance and modify spatial
+and attribute data in the Census TIGER data base.  Standard geographic codes, such as FIPS codes for states, counties, municipalities,
+and places, are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency
+of the codes during the compilation of the original Census TIGER data base files.  Most of the Codes themselves were provided
+to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature attribute information has been examined
+but has not been fully tested for consistency."
+</logic>
+    <complete>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"Data completeness of the TIGER/Line files reflects the contents of the Census TIGER
+data base at the time the TIGER/Line files (Redistricting Census 2000 version) were
+created."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"The information present in these files is provided for the purposes of statistical
+analysis and census operations only.  Coordinates in the TIGER/Line files have six
+implied decimal places, but the positional accuracy of these coordinates is not as
+great as the six decimal places suggest.  The positional accuracy varies with the
+source materials used, but generally the information is no better than the established
+national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological
+Survey (USGS); thus it is NOT suitable for high-precision measurement applications
+such as engineering problems, property transfers, or other uses that might require
+highly accurate measurements of the earth's surface.  The USGS 1:100,000-scale maps
+met national map accuracy standards and use coordinates defined by the North
+American Datum, 1983.  For the contiguous 48 States, the cartographic fidelity of
+most of the Redistricting Census 2000 TIGER/Line files, in areas outside the
+1980 census Geographic Base File/Dual Independent map Encoding (GBF/DIME) file
+coverage and selected other large metropolitan areas, compare favorable with the
+USGS 1:100,000-scale maps.  The Census Bureau cannot specify the accuracy of
+features inside of what was the 1980 GBF/DIME-File coverage or selected metropolitan
+areas.  The Census Bureau added updates to the TIGER/Line files that enumerators
+annotated on maps sheets prepared from the Census TIGER data base as they attempted
+to traverse every street feature shown on the Census 2000 map sheets; the Census
+Bureau also made other corrections from updated map sheets supplied by local
+participants for Census Bureau programs.  The locational accuracy of these updates
+is of unknown quality.  In addition to the Federal, State, and local sources,
+portions of the files may contain information obtained in part from maps and
+other materials prepared by private companies.  Despite the fact the TIGER/Line
+data positional accuracy is not as high as the coordinate values imply, the
+six-decimal place precision is useful when producing maps.  The precision allows
+features that are next to each other on the ground to be placed in the correct
+position, on the map, relative to each other, without overlap."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this data.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>2001</pubdate>
+            <title>Census Blocks 2000 (Indiana)</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Operations Branch</publish>
+            </pubinfo>
+            <othercit>The source files can be downloaded at the following URL: http://arcdata.esri.com/data/tiger2000/tiger_download.cfm</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>On line</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>BLK0018XXX.zip</srccitea>
+        <srccontr>Census Blocks for Indiana in 2000</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Ninety-two zipped shapefiles, with the generic name of BLK0018XXX.zip, were downloaded from ESRI's Geography Network and unzipped. The
+Summary File 1 (SF1) data, named TGR18000SF1BLK.DBF, was also downloaded from ESRI's Geography Network.
+
+ESRI ArcToolBox was used to merge the 92 shapefiles into one shapefile for Indiana. ESRI ArcToolBox "Define Projection Wizard" was
+then used to define the projection provided, which was Geographic (Decimal Degrees) NAD83. ESRI ArcToolBox "Project Wizard" was then
+used to reproject to UTM Zone 16, NAD83, and the output shapefile was named CENSUS_BLOCKS_TIGER00_IN.SHP.
+ESRI ArcMap was then used to merge the shapefile with the SF1 data table and was saved as CENSUS_BLOCKS_TIGER00_IN.SHP again.
+</procdesc>
+        <srcused>BLK0018XXX.ZIP</srcused>
+        <srcused>TGR18000SF1BLK.DBF</srcused>
+        <procdate>20040623</procdate>
+        <srcprod>CENSUS_BLOCKS_TIGER00_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and
+MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all addressed and corrected,
+except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20040811</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>201321</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Census_Blocks_TIGER00_IN</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>unique identification</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fipsstco</attrlabl>
+        <attrdef>Combination of state and county FIPS codes.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tract2000</attrlabl>
+        <attrdef>The census tract identification number.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block2000</attrlabl>
+        <attrdef>The census block identification number.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stfid</attrlabl>
+        <attrdef>Combined state, county and tract, and block group FIPS code.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OID_</attrlabl>
+        <attrdef>A census identification number.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>The state FIPS code.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>18 (Indiana)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+        <attrdef>The county FIPS codes for Indiana.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tract</attrlabl>
+        <attrdef>The census tract identification number.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Block</attrlabl>
+        <attrdef>The census block identification number.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Stfid_1</attrlabl>
+        <attrdef>Combined state, county and tract, and block group FIPS code.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pop2000</attrlabl>
+        <attrdef>The 2000 population</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>6532</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>White</attrlabl>
+        <attrdef>Number of people identified as white.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5810</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Black</attrlabl>
+        <attrdef>Number of people identified as black.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1349</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ameri_es</attrlabl>
+        <attrdef>Number of people identified as American Indian, Eskimo, or Aleut.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>65</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Asian</attrlabl>
+        <attrdef>Number of people identified as Asian</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>448</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hawn_pi</attrlabl>
+        <attrdef>Number of people identified as Hawaiian or Pacific Islander</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>13</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Other</attrlabl>
+        <attrdef>Number of people identified as belonging to a race other than white, black, American Indian, or Asian.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>302</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mult_race</attrlabl>
+        <attrdef>
+Number of people identified as belonging to a more than
+one race
+</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>161</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hispanic</attrlabl>
+        <attrdef>
+Number of people of all races identified as being of
+Hispanic origin.
+</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>615</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Males</attrlabl>
+        <attrdef>number of males</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>3595</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Females</attrlabl>
+        <attrdef>number of females</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2937</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_under5</attrlabl>
+        <attrdef>Number of people 0 to 4 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>226</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_5_17</attrlabl>
+        <attrdef>Number of people 5 to 17 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>381</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_18_21</attrlabl>
+        <attrdef>Number of people 18 to 21 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>5890</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_22_29</attrlabl>
+        <attrdef>Number of people 22 to 29 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>931</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_30_39</attrlabl>
+        <attrdef>Number of people 30 to 39 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>939</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_40_49</attrlabl>
+        <attrdef>Number of people 40 to 49 years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>663</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_50_64</attrlabl>
+        <attrdef>Number of people 50 to 64years of age.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>224</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Age_65_up</attrlabl>
+        <attrdef>Number of people 65 years of age and over.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>807</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Med_age</attrlabl>
+        <attrdef>Median age</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>99.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Med_age_M</attrlabl>
+        <attrdef>Median age of males</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>102.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Med_age_f</attrlabl>
+        <attrdef>Median age of females</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>99.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Households</attrlabl>
+        <attrdef>Total number of households.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>819</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ave_hh_sz</attrlabl>
+        <attrdef>Average household size</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>15</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hsehld_1_m</attrlabl>
+        <attrdef>Number of one-person male households.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>264</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hsehld_1_f</attrlabl>
+        <attrdef>Number of one-person female households.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>363</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Marhh_chd</attrlabl>
+        <attrdef>Number of households with a married couple and related children.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>178</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Marhh_no_c</attrlabl>
+        <attrdef>Number of households with a married couple and no related children.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>202</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mhh_child</attrlabl>
+        <attrdef>Number of households with a man and children but no wife.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>25</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fhh_child</attrlabl>
+        <attrdef>Number of households with a woman and children but no husband.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>208</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Families</attrlabl>
+        <attrdef>Families</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>468</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ave_fam_sz</attrlabl>
+        <attrdef>Average family size</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>20</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Hse_units</attrlabl>
+        <attrdef>Total number of housing units.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>862</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Urban</attrlabl>
+        <attrdef>Number of housing units that are urban.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rural</attrlabl>
+        <attrdef>Number of housing units that are rural.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Vacant</attrlabl>
+        <attrdef>Number of housing units that are vacant.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>258</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner_occ</attrlabl>
+        <attrdef>Number of housing units that are occupied by the owner.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>421</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Renter_occ</attrlabl>
+        <attrdef>Number of housing units that are occupied by renters.</attrdef>
+        <attrdefs>U.S. Census Bureau, TIGER/Line files, Census 2000 Technical Documentation</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>684</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"The TIGER/Line files contain data describing three major
+types of features/entities;
+
+Line Features -
+
+1) Roads
+
+2) Railroads
+
+3) Hydrography
+
+4) Miscellaneous transportation features and selected power lines and pipe lines
+
+5) Political and statistical boundaries
+
+Landmark Features -
+
+1) Point landmarks, e.g., schools and churches.
+
+2) Area landmarks, e.g., Parks and cemeteries.
+
+3) Key geographic locations (KGLs), e.g., shopping centers and factories.
+
+Polygon features -
+
+1) Geographic entity codes for areas used to tabulate the Census 2000 census
+statistical data and 1990 geographic areas
+
+2) Locations of area landmarks
+
+3) Locations of KGLs
+
+The line features and polygon information form the majority of data in the TIGER/Line
+files.  Some of the data/attributes describing the lines include coordinates, feature
+identifiers (names), CFCCs (used to identify the most noticeable characteristic of a
+feature), address ranges, and geographic entity codes.  The TIGER/Line files contain
+point and area labels that describe landmark features and provide locational reference.
+Area landmarks consist of a feature name or label and feature type assigned to a polygon
+or group of polygons.  Landmarks may overlap or refer to the same set of polygons.
+The Census TIGER data base uses collections of spatial objects (points, lines, and
+polygons) to model or describe real-world geography.  The Census Bureau uses these
+spatial objects to represent features such as streets, rivers, and political boundaries
+and assigns attributes to these features to identify and describe specific features
+such as the 500 block of Market Street in Philadelphia, Pennsylvania."
+</eaover>
+      <eadetcit>
+The following is excerpted from a Web document produced by the U.S. Census Bureau
+pertaining to Census 2000 TIGER Line data (http://www.census.gov/geo/www/tiger/rd_2ktiger/tlrdmeta.txt):
+
+"U.S. Bureau of the Census, TIGER/Line files, Redistricting Census 2000 Technical Documentation. The TIGER/Line
+documentation defines the terms and definitions used within the files. (http://www.census.gov/prod/cen2000/doc/sf1.pdf)"
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+COPYRIGHT 2004, THE TRUSTEES OF INDIANA UNIVERSITY,
+INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University,
+Indiana Geological Survey. Any copying, adaptation, distribution, public
+performance, or public display of this information without the express
+written consent of Indiana University, Indiana Geological Survey is
+discouraged.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation should be included: CENSUS_BLOCKS_TIGER00_IN: Indiana Census Blocks 2000 (U.S.
+Census Bureau, 1:500,000, Polygon Shapefile), digital representation by Chris Dintaman, 2004.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it
+will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University,
+Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but
+not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey
+is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you
+for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20040623</metd>
+    <metrd>20040811</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC-CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It is not to be altered or
+summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the
+data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

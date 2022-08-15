@@ -1,0 +1,183 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Watercourses Designated for Protection</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-75.284463</westbc>
+        <eastbc>-74.954144</eastbc>
+        <northbc>40.139169</northbc>
+        <southbc>39.854153</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+    <descript>
+      <abstract>PhillyWatersheds_ZONING_HYDROLOGY_POLY_2012</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2024</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000026907964745248598</absres>
+            <ordres>0.000000026907964745248598</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ZONING_HYDROLOGY_POLY_2012</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CREEK_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MUNI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATERSHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SUBSHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LABEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SEGMENT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>REACH_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INF1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INF2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INF3</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INF4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INF_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MON_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UREACHID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RESTORATIO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ORDER_SHRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ORDER_STRA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FACILITYID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDITOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RIVERMILE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20160525</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

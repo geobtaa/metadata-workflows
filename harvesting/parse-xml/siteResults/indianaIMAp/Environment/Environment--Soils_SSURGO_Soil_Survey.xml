@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Natural Resources Conservation Service, U.S. Department of Agriculture (Data creator)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <pubdate>20150126</pubdate>
+        <title>SOILS_SSURGO_USDA_IN.GDB: Soil Survey Geographic (SSURGO) Database for Indiana, 2015 (U.S. Department of Agriculture, 1:12,000, Esri File Geodatabase)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This dataset was originally compiled in 2006 from data obtained from the "Soil Data Mart" of the Natural Resources Conservation Service, U.S. Department
+of Agriculture.
+
+NOTE -- An updated version of this dataset was provided to Indiana Geological Survey personnel on June 25, 2012 from personnel of the Natural Resources
+Conservation Service,U.S. Department of Agriculture.
+
+NOTE -- An updated version of this dataset was provided to Indiana Geological Survey personnel on January 26, 2015 from personnel of the Natural Resources
+Conservation Service, U.S. Department of Agriculture. It represents the officially released version of this dataset (published on October 24, 2014) These data
+represent the official release for SSURGO data for fiscal year 2015 (published on October 24, 2014) by the NRCS. For more information please visit the following
+Web site of the NRCS - ( http://datagateway.nrcs.usda.gov/ ).
+</othercit>
+        <onlink>http://maps.indiana.edu/LayerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"This data set is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey.
+The information was prepare by digitizing maps, by compiling information onto a planimetrically correct base and digitizing, or by revising digitized maps
+using remotely sensed and other information.
+
+"This data set consists of georeferenced digital map data and computerized attribute data. The map data are in a soil survey area extent format and include
+a detailed, field verified inventory of soils and miscellaneous areas that normally occur in a repeatable pattern on the landscape and that can be
+cartographically shown at the scale mapped. A special soil features layer (point and line features) is optional. This layer displays the location of features
+too small to delineate at the mapping scale, but they are large enough and contrasting enough to significantly influence use and management. The soil map units
+are linked to attributes in the National Soil Information System relational database, which gives the proportionate extent of the component soils and their
+properties."
+</abstract>
+      <purpose>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"SSURGO depicts information about the kinds and distribution of soils on the landscape. The soil map and data used in the SSURGO product were prepared by soil
+scientists as part o the National Cooperative Soil Survey."
+</purpose>
+      <supplinf>
+Digital versions of hydrography, cultural features, and other associated layers that are not part of the SSURGO data set may be available from the primary organization
+listed in the Point of Contact.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20150126</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.160930</westbc>
+        <eastbc>-84.687881</eastbc>
+        <northbc>41.781145</northbc>
+        <southbc>37.755279</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>farming</themekey>
+      </theme>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>United States Department of Agriculture (USDA)</themekey>
+        <themekey>Natural Resources Conservation Service (NRCS)</themekey>
+        <themekey>National Cooperative Soil Survey</themekey>
+        <themekey>National Cartography and Geospatial Center (NCGC)</themekey>
+        <themekey>Soil Data Mart</themekey>
+        <themekey>soil survey</themekey>
+        <themekey>soil</themekey>
+        <themekey>Soil Survey Geographic</themekey>
+        <themekey>SSURGO</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS 10.2, Esri polygon shapefile, Approximately 4.0 Gb</native>
+    <useconst>Environment--Soils_SSURGO_Soil_Survey</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"The attribute accuracy is tested by manual comparison of the source with hard copy plots and/or symbolized display of the map data on an interactive computer graphic system.
+Selected attributes that cannot be visually verified on plots or on screen are interactively queried and verified on screen. In addition, the attributes are tested against a
+master set of valid attributes. All attribute data conform to the attribute codes in the signed classification and correlation document and amendment(s)."
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"Certain node/geometry and topology GT- polygon/chain relationships are collected or generated to satisfy topological requirements (the GT-polygon corresponds to the soil delineation).
+Some of these requirements include: chains must begin and end at nodes, chains must connect to each other at nodes, chains do not extend through nodes, left and right GT-polygons are
+defined for each chain element and are consistent throughout, and the chains representing the limits of the file are free of gaps. The tests of logical consistency are performed using
+vendor software. All internal polygons are tested for closure with vendor software and are checked on hard copy plots. All data are checked for common soil lines (i.e., adjacent polygons
+with the same label). Edge locations generally do not deviate from centerline to centerline by more than 0.01 inch.
+
+"The Soil Survey of Adams County, Indiana is edge matched to the adjacent SSURGO certified Soil Surveys of Allen County, Indiana, Van Wert County, Ohio and Mercer County, Ohio.  The soil
+labels in Adams County do not match the labels in the adjacent surveys.  Most of the feature edges in Adams County do not match the feature edges in the adjacent surveys.  The soil survey
+boundary for Adams County matches the Indiana county boundary coverage that is archived at the Soil Data Mart.  The soil survey area boundaries match."
+</logic>
+    <complete>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"A map unit is a collection of areas defined and named in terms of their soil components or miscellaneous areas or both. Each map unit differs in some respect from all others in
+a survey area and each map unit has a symbol that uniquely identifies the map unit on a soil map. Each individual area, point, or line so identified on the map is a delineation.
+
+"Soil Scientists identify small areas of soils or miscellaneous areas that have properties and behavior significantly different than the named soils in the surrounding map unit. These
+minor components may be indicated as special features. If they have a minimal effect on use and management, or could not be precisely located, they may not be indicated on the map.
+
+"A map unit has specified kinds of soils or miscellaneous areas (map unit components), each with a designated range in proportionate extent. Map units include one or more kinds of soil
+or miscellaneous area. Miscellaneous areas are areas that have little or no recognizable soil.
+
+"Specific National Cooperative Soil Survey standards and procedures were used in the classification of soils, design and name of map units, and location of special soil features.
+These standards are outlined in Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, NRCS; Agricultural Handbook 436, Soil Taxonomy, 1995, USDA, NRCS; and all Amendments; Keys
+to Soil Taxonomy, (current issue) USDA, NRCS; National Soil Survey Handbook, title 430-VI,(current issue) USDA, NRCS.
+
+"The actual composition and interpretive purity of the map unit delineations were based on data collected by scientists during the course of preparing the soil maps. Adherence
+to National Cooperative Soil Survey standards and procedures is based on peer review, quality control, and quality assurance. Quality control is outlined in the memorandum of understanding
+for the soil survey area and in documents that reside with the Natural Resources Conservation Service state soil scientist. Four kinds of map units are used in soil surveys:
+consociations, complexes, associations, and undifferentiated groups.
+
+"Consociations - Consociations are named for the dominant soil. In a consociation, delineated areas use a single name from the dominant component in the map unit. Dissimilar components
+are minor in extent. The soil component in a consociation may be identified at any taxonomic level. Soil series is the lowest taxonomic level. A consociation that is named as
+a miscellaneous area is dominantly that kind of area and minor components do not significantly affect the use of the map unit. The total amount of dissimilar inclusions of other components
+in a map unit generally does not exceed about 15 percent if limiting and 25 percent if nonlimiting. A single component of a dissimilar limiting inclusion generally does not exceed 10 percent
+if very contrasting.
+
+"Complexes and associations - Complexes and associations consist of two or more  dissimilar components that occur in a regularly repeating pattern. The total amount of other
+dissimilar components is minor extent. The following arbitrary rule determines whether complex or association is used in the name. The major components of an association can be separated
+at the scale of mapping. In either case, because the major components are sufficiently different in morphology or behavior, the map unit cannot be called a consociation. In each delineation
+of a complex or an association, each major component is normally present though their proportions may vary appreciably from one delineation to another. The total amount of inclusions in
+a map unit that are dissimilar to any of the major components does not exceed 15 percent if limiting and 25 percent if nonlimiting. A single kind of dissimilar limitin inclusion usually
+does not exceed 10 percent.
+
+"Undifferentiated groups - Undifferentiated groups consist of two or more components that are not consistently associated geographically and, therefore, do not always occur together in
+the same map delineation. These components are included in the same named map unit because their use and management are the same or very similar for common uses. Generally they are grouped
+together because some common feature, such as steepness, stoniness, or flooding, determines their use and management. If two or more additional map units would serve no useful purpose, they
+may be included in the same unit. Each delineation has at least one of the major components, and some may have all of them. The same principles regarding the proportion of minor components
+that apply to consociations also apply to undifferentiated groups. The same principles regarding proportion of inclusion apply to undifferentiated groups as to consociations.
+
+"Minimum documentation consists of three complete soil profile descriptions that are collected for each soil added to the legend, one additional per 3,000 acres mapped; three 10
+observation transects for each map unit, one additional 10 point transect per 3,000 acres.
+
+"A defined standard or level of confidence in the interpretive purity of the map unit delineations is attained by adjusting the kind and intensity of field investigations. Field investigations
+and data collection are carried out in sufficient detail to name map units and to identify accurately and consistently areas of about 2.5 acres."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"The accuracy of these digital data is based upon their compilation to base maps that meet National Map Accuracy Standards at a scale of 1 inch equals 1,000
+feet. The difference in positional accuracy between the soil boundaries and special soil features locations in the field and their digitized map locations
+is unknown. The locational accuracy of soil delineations on the ground varies with the transition between map units.
+
+"For example, on long gently sloping landscapes the transition occurs gradually over many feet. Where landscapes change abruptly from steep to level, the transition
+will be very narrow. Soil delineation boundaries and special soil features generally were digitized within 0.01 inch of their locations on the digitizing source.
+The digital map elements are edge matched between data sets. The data along each quadrangle edge are matched against the data for the adjacent quadrangle.
+Edge locations generally do not deviate from centerline to centerline by more than 0.01 inch."
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20141024 (FY 2015 Official Release)</pubdate>
+            <title>gSSURGO.GDB: Gridded Soil Survey Geographic (gSSURGO) Database for Indiana</title>
+            <edition>FY 2015 Official Release</edition>
+            <geoform>Digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>U.S. Department of Agriculture, Natural Resources Conservation Service</publish>
+            </pubinfo>
+            <othercit>Provided by Chris Morse, NRCS GIS Specialist on January 26, 2015</othercit>
+            <onlink>http://datagateway.nrcs.usda.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>12000</srcscale>
+        <typesrc>DVD-R</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20141024</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>gSSURGO.GDB (Esri File Geodatabase, used "MUPOLYGON" polygon feature class and "MUAGGATT" file attribute table)</srccitea>
+        <srccontr>
+The Gridded SSURGO (gSSURGO) Database and is derived from the Soil Survey Geographic (SSURGO) Database. SSURGO is
+generally the most detailed level of soil geographic data developed by the National Cooperative Soil Survey (NCSS) in accordance with
+NCSS mapping standards. The tabular data represent the soil attributes, and are derived from properties and characteristics stored in
+the National Soil Information System (NASIS).
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A zip file containing spatial and tabular SSURGO information was downloaded for each county in Indiana from the Soil Data Mart
+http://SoilDataMart.nrcs.usda.gov/. The format requested was "ESRI Shapefile" with a coordinate system of UTM Zone 16,
+Northern Hemisphere (NAD 83).
+
+For each county, the respective shapefile entitled "soilmu_a_in[COUNTY NAME].shp" was used as the feature dataset. Selected
+attributes from the associated tabular data file "muaggatt.txt" were joined to the attribute table of the soil map units using
+"Musym" as the join field.
+
+The revised shapefile was saved as "SSURGO_IN[COUNTY NAME].SHP"
+
+An SDE polygon feature class named "Soils_SSURGO_USDA_IN" was created, and ESRI ArcCatalog was used to load the shapefiles
+("SSURGO_IN[COUNTY NAME].SHP") for all 92 counties in Indiana.
+</procdesc>
+        <srcused>muaggatt.txt, soilmu_a_in[COUNTY NAME].shp, SSURGO_IN[COUNTY NAME].SHP</srcused>
+        <procdate>20070406</procdate>
+        <srcprod>Soils_SSURGO_USDA_IN (SDE polygon feature class)</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Sally Letsinger</cntper>
+            </cntorgp>
+            <cntpos>Hydrogeologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 1356</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>sletsing@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The polygon feature class named IN_SSURGO_MUSYM_2012_01_11 was loaded into ESRI ArcMap (10.0) and checked to verify the coordinate
+system was UTM Zone 16, NAD 83. IN_MAGGATT.XLS was then loaded into ArcMap and the "Join" command was used to join the data attributes to the feature
+class. The layer was the renamed to SOILS_SSURGO_USDA_IN to conform with the internal naming conventions of the Indiana Geological Survey.
+</procdesc>
+        <srcused>IN_SSURGO_MUSYM_2012_01_11 (Polygon feature class), IN_MUAGGATT.XLS</srcused>
+        <procdate>20120630</procdate>
+        <srcprod>SOILS_SSURGO_USDA_IN (Polygon feature class)</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an Esri File Geodatabase named "GSSURGO_IN.GDB" from personnel of the Natural Resources Conservation Service on January 26, 2015.
+The polygon feature class named "MUPOLYGON" was examined in ESRI ArcCatalog (10.2) and was re-projected from the "USA_Contiguous_Albers_Equal_Area_Conic_USGS_version"
+coordinate system to the "NAD_1983_UTM_Zone_16N" coordinate system. MUPOLYGON (Polygon feature class) was then loaded into Esri ArcMap (10.2) along with the attribute
+table named "MUAGGATT" (File Geodatabase Table). The ArcMap "Join" command was used to join the data attributes to the feature class. The layer was then renamed to
+an Esri polygon feature class named "SOILS_SSURGO_USDA_IN" to conform with the internal naming conventions of the Indiana Geological Survey. The Esri file geodatabase
+was also renamed to "SOILS_SSURGO_USDA_IN.GDB." It should also be noted that portions of the metadata provided with the source data were used to construct this metadata
+document for SOILS_SSURGO_USDA_IN.GDB.
+</procdesc>
+        <srcused>gSSURGO_IN.GDB, MUPOLYGON (Polygon Feature Class), MUAGGATT (File Geodatabase Table)</srcused>
+        <procdate>20150126</procdate>
+        <srcprod>SOILS_SSURGO_USDA_IN.GDB, Soils_SSURGO_USDA_IN (Polygon Feature Class)</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>
+Monday through Friday, except holidays
+</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S.
+Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150130</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1330334</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000100</absres>
+            <ordres>0.000100</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SOILS_SSURGO_USDA_IN.GDB</enttypl>
+        <enttypd>Polygon Feature Class Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREASYMBOL</attrlabl>
+        <attrdef>Area ID of polygon</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPATIALVER</attrlabl>
+        <attrdef>A sequential integer number used to denote the serial version of the spatial data for a soil survey area</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUSYM_1</attrlabl>
+        <attrdef>Mapunit Symbol - Used to uniquely identify the soil mapunit in the soil survey</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUKEY_1</attrlabl>
+        <attrdef>
+Mapunit Key - The unique identifier of a record in the Mapunit table. It also serves as the non-connotative string
+of characters used to uniquely identify a record in the Mapunit Aggregated Attribute table as there is a one-to-one relationship between
+records in these two tables. Use this column to join the Mapunit Aggregated Attribute table to the Mapunit table.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MUNAME</attrlabl>
+        <attrdef>Mapunit Name - Correlated name of the mapunit (recommended name or field name for surveys in progress)</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLODFREQDCD</attrlabl>
+        <attrdef>
+Flooding Frequency, Dominant Condition - The annual probability of a flood event expressed as a class. This column displays the dominant
+flood frequency class for the map unit, based on composition percentage of map unit components whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Frequent</edomv>
+            <edomvd>
+Flooding is likely to occur often under usual weather conditions; more than a 50 percent chance of flooding in any year
+or more than 50 times in 100 years, but less than a 50 percent chance of flooding in all months in any year.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>None</edomv>
+            <edomvd>No reasonable possibility of flooding; near 0 percent chance of flooding in any year or less than 1 time in 500 years.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rare</edomv>
+            <edomvd>
+Flooding unlikely but possible under unusual weather conditions; 1 to 5 percent chance of flooding in any year or nearly
+1 to 5 times in 100 years.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FLODFREQMAX</attrlabl>
+        <attrdef>
+Flooding Frequency, Maximum - The annual probability of a flood event expressed as a class. This column displays the highest probability class
+assigned to an individual component of the map unit whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Frequent</edomv>
+            <edomvd>
+Flooding is likely to occur often under usual weather conditions; more than a 50 percent chance of flooding in any year or
+more than 50 times in 100 years, but less than a 50 percent chance of flooding in all months in any year.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>None</edomv>
+            <edomvd>No reasonable possibility of flooding; near 0 percent chance of flooding in any year or less than 1 time in 500 years.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rare</edomv>
+            <edomvd>
+Flooding unlikely but possible under unusual weather conditions; 1 to 5 percent chance of flooding in any year or nearly 1
+to 5 times in 100 years.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PONDFREQPRS</attrlabl>
+        <attrdef>
+Ponding Frequency, Presence - The percentage of the map unit that is subject to water being ponded on the soil surface, expressed
+as one of four classes; 0-14%, 15-49%, 50-74% or 75-100%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0-14 percent</edomv>
+            <edomvd>0-14 percent of the map unit is subject to water being ponded on the soil surface.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>75-100 percent</edomv>
+            <edomvd>75-100 percent of the map unit is subject to water being ponded on the soil surface.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRCLASSDCD</attrlabl>
+        <attrdef>
+Drainage Class, Dominant Condition - The natural drainage condition of the soil refers to the frequency and duration of
+wet periods. This column displays the dominant drainage class for the map unit, based on composition percentage of each map unit component. The
+soil drainage classes identify the natural drainage condition of the soil and refer to the frequency and duration of periods when the soil is
+free of saturation; classes include excessively drained, somewhat excessively drained, well drained, moderately well drained, somewhat poorly
+drained, poorly drained, and very poorly drained.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Moderately well drained</edomv>
+            <edomvd>Moderately well drained soils have a seasonal water table between 20 inches to 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Poorly drained</edomv>
+            <edomvd>Poorly drained soils have a seasonal water table of less than 10 inches</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Somewhat poorly drained</edomv>
+            <edomvd>Somewhat poorly drained soils have a seasonal water table from 10 inches to 20 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Very poorly drained</edomv>
+            <edomvd>Poorly drained soils have a seasonal water table that is near the surface.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Well drained</edomv>
+            <edomvd>The well drained soils have a seasonal water table greater than 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Excessively drained</edomv>
+            <edomvd>The Excessively drained soils have a seasonal water table greater than 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRCLASSWETTEST</attrlabl>
+        <attrdef>
+Drainage Class, Wettest - The natural drainage condition of the soil refers to the frequency and duration of
+wet periods. This column displays the wettest drainage class assigned to an individual component of the map unit whose composition
+in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Moderately well drained</edomv>
+            <edomvd>Moderately well drained soils have a seasonal water table between 20 inches to 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Poorly drained</edomv>
+            <edomvd>Poorly drained soils have a seasonal water table of less than 10 inches</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Somewhat poorly drained</edomv>
+            <edomvd>Somewhat poorly drained soils have a seasonal water table from 10 inches to 20 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Very poorly drained</edomv>
+            <edomvd>Poorly drained soils have a seasonal water table that is near the surface.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Well drained</edomv>
+            <edomvd>The well drained soils have a seasonal water table greater than 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Excessively drained</edomv>
+            <edomvd>The well drained soils have a seasonal water table greater than 40 inches.</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HYDGRPDCD</attrlabl>
+        <attrdef>
+Hydrologic Group, Dominant Conditions - Hydrologic Group is a grouping of soils that have similar runoff potential
+under similar storm and cover conditions. This column displays the dominant hydrologic group for the map unit, based on composition
+percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>
+Combination of the following factors: High infiltration rate, low runoff potential when thoroughly wet;
+Very deep, well drained to excessively drained; sands or gravelly sands; high rate of water transmission.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>
+Combination of the following factors: Moderate infiltration rate, moderate runoff potential when thoroughly
+wet; moderately deep or deep, moderately well drained to well drained; moderately fine to moderately coarse; moderate rate of water transmission.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>
+Combination of the following factors: Slow infiltration rate, slow runoff potential when thoroughly wet;
+has layer that impedes downward movement of water; moderately fine to fine; slow rate of water transmission.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>
+ombination of the following factors: Very slow infiltration rate, high runoff potential when thoroughly wet;
+has permanent high water table, claypan or clay layer at or near surface, or shallow over nearly impervious layer; clayey soil that has high
+shrink-swell potential;very slow rate of water transmission.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ICCDCD</attrlabl>
+        <attrdef>
+Irrigaged Capability Class, Dominant Condition. This column displays the dominant capability class, under irrigated conditions,
+for the map unit based on composition percentage of all components in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>3</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ICCDCDPCT</attrlabl>
+        <attrdef>
+Irrigaged Capability Class, Dominant Condition Aggregate Percent - This column displays the percent composition of the map unit
+that has the capability class displayed in the Irrigated Capability Class.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>59</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NICCDCD</attrlabl>
+        <attrdef>
+Non-irrigaged Capability Class, Dominant Condition - This column displays the dominant capability class, under nonirrigated
+conditions, for the map unit based on composition percentage of all components in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NICCDCDPCT</attrlabl>
+        <attrdef>
+Non-irrigaged Capability Class, Dominant Condition Aggregate Percent - This column displays the percent composition of the map unit
+that has the capability class displayed in the Non-irrigated Capability Class.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>40</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGDWOBDCD</attrlabl>
+        <attrdef>
+Dwellings without basements, Dominant Condition - The rating of the map unit as a site for dwellings without basements, expressed
+as the dominant rating class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGDWBDCD</attrlabl>
+        <attrdef>
+Dwellings with basements, Dominant Condition - The rating of the map unit as a site for dwellings with basements, expressed as the
+dominant rating class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGDWBLL</attrlabl>
+        <attrdef>
+Dwellings with basements, Least Limiting - The rating of the map unit as a site for dwellings with basements, expressed as the least
+limiting rating class for the map unit, based on the evaluation of each component in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGDWBML</attrlabl>
+        <attrdef>
+Dwellings with basements, Most Limiting - The rating of the map unit as a site for dwellings with basements, expressed as the most
+limiting rating class for the map unit, based on the evaluation of each component in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGSTAFDCD</attrlabl>
+        <attrdef>
+Septic Tank Absorption Fields, Dominant Condition - The rating of the map unit as a site for septic tank absorption fields, expressed
+as the dominant rating class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGSTAFLL</attrlabl>
+        <attrdef>
+Septic Tank Absorption Fields, Least Limiting - The rating of the map unit as a site for septic tank absorption fields, expressed as
+the least limiting rating class for the map unit, based on the evaluation of each component in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGSTAFML</attrlabl>
+        <attrdef>
+Septic Tank Absorption Fields, Most Limiting - The rating of the map unit as a site for septic tank absorption fields, expressed as
+the most limiting rating class for the map unit, based on the evaluation of each component in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGSLDCD</attrlabl>
+        <attrdef>
+Sewage Lagoons, Dominant Condition - The rating of the map unit as a site for sewage lagoons, expressed as the dominant rating class
+for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGSLDCP</attrlabl>
+        <attrdef>
+Sewage Lagoons, Dominant Component - The rating of the map unit as a site for sewage lagoons, expressed as the rating class for
+the dominant component in the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGLRSDCD</attrlabl>
+        <attrdef>
+(Local) Roads and Streets, Dominant Condition - The rating of the map unit as a site for local roads and streets, expressed as
+the dominant rating class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGCMSSDCD</attrlabl>
+        <attrdef>
+Construction Materials, Sand Source, Dominant Condition - The rating of the map unit as a source of sand, expressed as
+the dominant class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENGCMSSMP</attrlabl>
+        <attrdef>
+Construction Materials, Sand Source, Most Probable - The rating of the map unit as a source of sand, expressed as the
+most probable class for the map unit, based on the evaluation of each component whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>URBRECPTDCD</attrlabl>
+        <attrdef>
+Paths and Trails, Dominant Condition - The rating of the map unit as a site for paths and trails, expressed as the dominant rating
+class for the map unit, based on composition percentage of each map unit component.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>URBRECPTWTA</attrlabl>
+        <attrdef>
+Paths and Trails, Weighted Average - The relative rating of the map unit for use as paths and trails, expressed as a
+weighted average of numerical ratings for individual soil components in the map unit. The ratings are on a scale of 0.0 to 1.0, with the
+higher values indicating more limitations.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FORPEHRTDCP</attrlabl>
+        <attrdef>
+Potential Erosion Hazard (Road/Trail), Dominant Component - The relative potential erosion hazard for the map unit when used
+as a site for forest roads and trails, expressed as the rating class for the dominant component in the map unit, based on composition percentage
+of each map unit component. This is the probability that erosion damage may occur as a result of site preparation and the aftermath of cutting
+operations, fires, and overgrazing.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Moderate</edomv>
+            <edomvd>Moderate probability that erosion damage may occur as a result of site preparation and the aftermath of cutting operations, fires, and overgrazing</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Not rated</edomv>
+            <edomvd>Unrated probability that erosion damage may occur as a result of site preparation and the aftermath of cutting operations, fires, and overgrazing</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Severe</edomv>
+            <edomvd>Severe probability that erosion damage may occur as a result of site preparation and the aftermath of cutting operations, fires, and overgrazing</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Slight</edomv>
+            <edomvd>Slight probability that erosion damage may occur as a result of site preparation and the aftermath of cutting operations, fires, and overgrazing</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Very Severe</edomv>
+            <edomvd>Very severe probability that erosion damage may occur as a result of site preparation and the aftermath of cutting operations, fires, and overgrazing</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HYDCLPRS</attrlabl>
+        <attrdef>
+Hydric Classification, Presence - An indication of the proportion of the map unit, expressed as a class, that is "hydric",
+based on the hydric classification of individual map unit components.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>All hydric</edomv>
+            <edomvd>
+The following NASIS criteria reflect those soils that may meet the definition of hydric soils. Criteria 1, 3, and 4 serve
+as both database criteria and as field indicators for identification of hydric soils. (1) All Histels except Folistels and Histosols except Folists, or (2)
+Soils in Aquic suborders, great groups, or subgroups, Albolls suborder, Historthels great group, Histoturbels great group, Pachic subgroups, or Cumulic
+subgroups that are: [a.] Somewhat poorly drained with a water table* equal to 0.0 foot (ft) from the surface during the growing season, or [b.] poorly drained
+or very poorly drained and have either: (i) water table* equal to 0.0 ft during the growing season if textures are coarse sand, sand, or fine sand in all layers
+within 20 inches (in), or for other soils (ii) water table* at less than or equal to 0.5 ft from the surface during the growing season if permeability is equal
+to or greater than 6.0 in/hour (h) in all layers within 20 in,or (iii) water table* at less than or equal to 1.0 ft from the surface during the growing season
+if permeability is less than 6.0 in/h in any layer within 20 in, or (3) Soils that are frequently ponded for long duration or very long duration during the growing
+season, or (4) Soils that are frequently flooded for long duration or very long duration during the growing season.
+</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Not hydric</edomv>
+            <edomvd>Does not meet hydrics soil criteria</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+          <edom>
+            <edomv>Unknown</edomv>
+            <edomvd>Hydric condition unknown</edomvd>
+            <edomvds>U.S. Department of Agriculture, Natural Resources Conservation Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SLOPEGRADDCP</attrlabl>
+        <attrdef>
+Slope Gradient, Dominant Component (percent) - The difference in elevation between two points, expressed as a percentage of the
+distance between those points. This column displays the slope gradient of the dominant component of the map unit based on composition percentage.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>62</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SLOPEGRADWTA</attrlabl>
+        <attrdef>
+Slope Gradient, Weighted Average (percent) - The difference in elevation between two points, expressed as a percentage of the
+distance between those points. This column displays the weighted average slope gradient of all components in the map unit.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>67.8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BROCKDEPMIN</attrlabl>
+        <attrdef>
+Bedrock Depth, Minimum (feet) - The distance from the soil surface to the top of a bedrock layer, expressed as a shallowest depth
+of components whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>275</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WTDEPANNMIN</attrlabl>
+        <attrdef>
+Water Table Depth, Annual, Minimum (centimeters) - The shallowest depth to a wet soil layer (water table) at any time during
+the year expressed as centimeters from the soil surface, for components whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>153</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WTDEPAPRJUNMIN</attrlabl>
+        <attrdef>
+Water Table Depth, April to June, Minimum (centimeters) - The shallowest depth to a wet soil layer (water table) during the months
+of April through June expressed in centimeters from the soil surface for components whose composition in the map unit is equal to or exceeds 15%.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>153</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWS025WTA</attrlabl>
+        <attrdef>
+Available Water Storage 0-25 cm, Weighted Average (centimeters), The volume of water that the soil, to a depth of 25 centimeters,
+can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of
+water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3
+bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>11.7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWS050WTA</attrlabl>
+        <attrdef>
+Available Water Storage 0-50 cm, Weighted Average (centimeters) - The volume of water that the soil, to a depth of 50 centimeters,
+can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of
+water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3
+bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>24.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWS0100WTA</attrlabl>
+        <attrdef>
+Available Water Storage 0-100 cm, Weighted Average (centimeters) - The volume of water that the soil, to a depth of 100 centimeters,
+can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of
+water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3
+bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>49.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWS0150WTA</attrlabl>
+        <attrdef>
+Available Water Storage 0-150 cm, Weighted Average (centimeters) -  The volume of water that the soil, to a depth of 150 centimeters,
+can store that is available to plants. It is reported as the weighted average of all components in the map unit, and is expressed as centimeters of
+water. AWS is calculated from AWC (available water capacity) which is commonly estimated as the difference between the water contents at 1/10 or 1/3
+bar (field capacity) and 15 bars (permanent wilting point) tension, and adjusted for salinity and fragments.
+</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>74.2</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Area of soil polygon feature (units = Acres)</attrdef>
+        <attrdefs>U.S. Department of Agriculture, Natural Resources Conservation Service</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.157526</rdommin>
+            <rdommax>103170.149695</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.area</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>637.487395</rdommin>
+            <rdommax>417516452.557724</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE.len</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+The following is excerpted from information provided by the U.S.D.A., N.R.C.S.:
+
+"Map Unit Delineations are closed polygons that may be dominated by a single soil or miscellaneous area component plus allowable
+similar or dissimilar soils, or they can be geographic mixtures of groups of soils or soils and miscellaneous areas.
+
+"The map unit symbol uniquely identifies each closed map unit delineation. Each symbol corresponds to a map unit name. The
+map unit key is used to link to information in the National Soil Information System tables.
+
+"Map Unit Delineations are described by the National Soil Information System database. This attribute database gives the
+proportionate extent of the component soils and the properties for each soil. The database contains both estimated and measured data
+on the physical and chemical soil properties and soil interpretations for engineering, water management, recreation,
+agronomic, woodland, range, and wildlife uses of the soil.
+
+"The National Soil Information System database contains static metadata. It documents the data structure and includes such
+information as what tables, columns, indexes, and relationships are defined as well as a variety of attributes of each of these
+database objects. Attributes include table and column descriptions and detailed domain information.
+
+"The National Soil Information System database also contains a distribution metadata. It records the criteria used for selecting
+map units and components for inclusion in the set of distributed data.
+
+"Special features are described in the feature table.  It includes an area symbol, feature label, feature name, and feature description for
+each special and ad hoc feature in the survey area."
+</eaover>
+      <eadetcit>
+Soil Taxonomy: A basic system of soil classification for making and interpreting soil surveys. Agricultural Handbook 436, 1999, USDA, SCS.
+
+Keys to Soil Taxonomy (current issue), USDA, SCS.
+
+National Soil Survey Handbook, Title 430-VI, part 647 (current issue), USDA, NRCS.
+
+Agricultural Handbook 18, Soil Survey Manual, 1993, USDA, SCS.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT:
+
+It is requested that the dataset be cited in any products generated from this data. The following source citation should be included:
+[SOILS_SSURGO_USDA_IN.GDB: Soil Survey Geographic (SSURGO) Database for Indiana, 2015 (U.S. Department of Agriculture, 1:12,000, Esri File
+Geodatabase), 20150126].
+
+WARRANTY:
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY:
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070508</metd>
+    <metrd>20150130</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Sally Letsinger</cntper>
+        </cntorgp>
+        <cntpos>Hydrogeologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1356</cntvoice>
+        <cntfax>812 855 1369</cntfax>
+        <cntemail>sletsing@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or summarized. IGS
+does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

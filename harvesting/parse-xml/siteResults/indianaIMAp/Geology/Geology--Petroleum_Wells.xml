@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <pubdate>20150108</pubdate>
+        <title>PETROLEUM_WELLS_IGS_IN.SHP: Petroleum Well Locations in Indiana (Indiana Geological Survey, 1:24,000, Point Shapefile)</title>
+        <edition>2015qtr1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+PETROLEUM_WELLS_IGS_IN.SHP was created from data in the Indiana Geological Survey Petroleum Well Database, which is a component of the IGS Petroleum Database
+Management System (PDMS). The database includes records obtained from the IGS petroleum well files, which represent the most comprehensive collection of
+petroleum-related well records in the state. Well records were first obtained by W. S. Blatchley, State Geologist, beginning in 1896. A formal system of collecting
+petroleum well records and procedures for its maintenance were started in the early 1950s by Thomas A. Dawson, former Head of the IGS Petroleum Section. The information
+contained in these records came from the following sources: the Indiana Division of Oil and Gas, records and plats from the Ohio Oil Company,and Indiana Geological
+Survey Publication 108 (William N. Logan, 1931, The subsurface strata of Indiana: Indiana Department of Conservation Publication 108, 790 p., 16 figs.).
+
+NOTE: As of January 8, 2015, the Indiana Geological Survey began scheduling regular quarterly updates for this dataset. Therefore, well information is only as current
+as the publication date of this data set. If more current data are needed, please use the subscription-based services of the PDMS Web site: ( http://igs.indiana.edu/PDMS/ ).
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+PETROLEUM_WELLS_IGS_IN.SHP is an ESRI ArcGIS point shapefile of locations of all known petroleum test wells in Indiana as of January 8, 2015, as contained in
+the Indiana Geological Survey's Petroleum Well Database. The IGS has limited the attribute information contained in these data to the following; well identification
+numbers, total well depth, well type symbols (well description), and the oil/gas field names. If users require more detailed information regarding well record tables or
+petroleum field production histories please visit the IGS Petroleum Database Management System (PDMS): ( http://igs.indiana.edu/PDMS/ ).
+
+The PDMS Web site is comprised of an interactive map that offers users the ability to examine and build customized maps, query data, and interactively link to
+a "Table Viewer," where detailed tables provide well header and event information, as well as production histories, etc. The PDMS is a subscription-based Web site,
+where users can choose to view petroluem records and maps at no cost using the "Basic Subscription" option. The PDMS "Premium Subscription" option does charge a fee,
+but adds even more value to well records, reports, logs, and geological interpretations related to a well. It also allows for more efficient access to data from multiple
+wells during a single user session. If users require more detailed information regarding well record tables or petroleum field production histories please visit the
+IGS Petroleum Database Management System (PDMS): ( http://igs.indiana.edu/PDMS/ ).
+</abstract>
+      <purpose>PETROLEUM_WELLS_IGS_IN.SHP was created to provide a statewide GIS layer showing all known petroleum test well locations in Indiana, as of January 8, 2015.</purpose>
+      <supplinf>
+PETROLEUM_WELLS_IGS_IN.SHP was created from data in the Indiana Geological Survey Petroleum Well Database (Microsoft Access). By the year 2001,  well locations in UTM
+(Universal Transverse Mercator) coordinates had been tentatively determined for every well in Indiana. The determination of these coordinates spanned some 7 years and
+involved a variety of methods, including digitizing from 1:24,000 topographic maps, batch processing software (GeoGraphix GES 97.5) for converting descriptive locations
+to coordinate locations, and interactive on-screen measuring using DRGs (digital raster graphics). The end result of these methods varied and some current well spots may be
+slightly mislocated. Well locations in the PDMS are being reviewed at present for accuracy. The method by which a well is located is recorded in the PDMS as either
+(1) MEASURED, (2) GPS, or (3) IMPORTED.
+
+(1) MEASURED refers to locations that have been measured on-screen using Digital Raster Graphic Quads (DRG - digital USGS 1:24,000 topographic maps) in ESRI ArcView
+(before 2001) or ArcGIS. Measured locations generally are considered accurate to the limits of the well description translated to a map resolution of 1:24,000 (roughly 50 ft,
+however, the relative accuracy of a location, as compared with other measured locations nearby, normally would be much greater).
+
+(2) GPS refers to locations with coordinates determined by Global Positioning System (GPS). Locations have not, as yet, been determined using GPS.
+
+(3) IMPORTED refers to wells with a location determined by digitizing from paper 1:24,000 topographic maps or by batch processing software.
+
+All well locations in Indiana have been visually examined and compared with earlier manually spotted well location maps at a scale 1 inch = 1 mile. Obvious discrepancies have
+been corrected by measuring the well locations on-screen on a DRG. However, lesser accuracy is likely for the well locations in many densely drilled areas. These locations will
+eventually become MEASURED as time permits.
+
+NOTE: Several wells in this dataset fall slightly outside the state boundary as depicted on USGS 1:24,000-scale topographic maps. The location of these wells have been verified,
+and the wells are valid components of the database. Therefore, clipping this dataset to the state boundary would result in a spatial dataset that does not fully reflect the
+contents of the IGS Petroleum Well Database which can be accessed via the Petroleum Database Management System (PDMS).
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1886</begdate>
+          <enddate>20150108</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1562</westbc>
+        <eastbc>-84.7104</eastbc>
+        <northbc>41.7708</northbc>
+        <southbc>37.7668</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>economy</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Petroleum Database Management System (PDMS)</themekey>
+        <themekey>Petroleum Well Database</themekey>
+        <themekey>petroleum</themekey>
+        <themekey>oil</themekey>
+        <themekey>gas</themekey>
+        <themekey>gas storage</themekey>
+        <themekey>well</themekey>
+        <themekey>energy resources</themekey>
+        <themekey>economic geology</themekey>
+        <themekey>petroleum field</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS point shapefile (version 10.2), Windows 7, 10.8 MB</native>
+    <useconst>Geology--Petroleum_Wells</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Well location coordinates and other data in the Indiana Geological Survey's Petroleum Well Database and the locations shown on digital maps using
+PETROLEUM_WELLS_IGS_IN.SHP are believed to be reasonably accurate when portrayed on a scale of 1 inch to 1 mile. Although the coordinates for a great
+many locations in the database have been accurately determined, past practices and inherent limitations on the accuracy to which a well may be spotted
+on a scale of 1:24,000 (USGS Topographic Map standard), have resulted in well coordinates that may be spotted some small distance from their actual locations.
+Depending on circumstances, this distance could be as great as 100 feet, or more in rare instances. In general, such discrepancies should be sufficiently accurate
+for most petroleum exploration and field mapping purposes.
+
+Additionally, it is important to note that new and revised data are continually being entered into the Petroleum Well Database, and despite the use of
+careful procedures and proofing of the data after it has been entered, human error always remains a possibility. Every effort is made to correct errors
+and discrepancies when they are identified, but it is the responsibility of the user to verify any information to the extent it is deemed important.
+</attraccr>
+    </attracc>
+    <logic>Point features present</logic>
+    <complete>PETROLEUM_WELLS_IGS_IN.SHP contains locations of all known petroleum test wells in Indiana as of January 8, 2015.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Well location coordinates and other data in the Indiana Geological Survey's Petroleum Well Database and the locations shown on
+digital maps using that data are believed to be reasonably accurate when portrayed on a scale of 1 inch to 1 mile.  Although
+the coordinates for a great many locations in the database have been very accurately determined, past practices and inherent
+limitations on the accuracy to which a well may be spotted on a scale of 1:24,000 (USGS Topographic Map standard), have resulted
+in well coordinates that may be spotted some small distance from their actual locations. Depending on circumstances, this distance
+could be as great as 100 ft or, rarely, somewhat more. In general, such discrepancies are sufficiently accurate for most petroleum
+exploration and field mapping purposes.
+
+Additionally, it is important to note that new and revised data are continually being entered into the Petroleum Well Database, and
+despite the use of careful procedures and proofing of the data after it has been entered, human error always remains a possibility.
+Every effort is made to correct errors and discrepancies when they are identified, but it is the responsibility of the user to verify
+any information to the extent it is deemed important.
+
+NOTE: Several wells in this dataset fall slightly outside the state boundary as depicted on USGS 1:24,000-scale topographic maps.
+The location of these wells have been verified, and the wells are valid components of the PDMS Database. Therefore, clipping this dataset
+to the state boundary would result in a spatial dataset that does not fully reflect the contents of the IGS Petroleum Database Management
+System (PDMS Database).
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Although well locations are normally staked by a registered surveyor, the IGS has determined that the locations and elevations reported
+are occasionally erroneous. Consequently, in the 1950s, the IGS began checking the locations and elevations of new and older wells in the
+field. Most well locations in Indiana have been verified in the field, however, the locations of many older wells (pre-1920s) are not
+accurately known.
+
+Well locations are checked in the field using a surveyor's altimeter and USGS topographic map, and their accuracy is subject to the abilities
+of the geologist, the accuracy of the altimeter (generally in the range of 3 feet), the reliability of the base elevations posted on the topographic
+map, the status of the location when checked (staked locations are sometimes moved a short distance by operators; locations checked after a dry
+hole has been plugged are subject to greater error).
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20150108</pubdate>
+            <title>Indiana Geological Survey Petrolem Well Database</title>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+PETROLEUM_WELLS_IGS_IN.SHP was created using data from the Indiana Geological Survey Petroleum Well Database, a component of the IGS Petroleum
+Database Management System (PDMS). No single citation can be given regarding the source of records in the IGS Petroleum Database.
+The PDMS database contains information from the thousands of operators of numerous petroleum wells in the state of Indiana. Since 1938,
+most petroleum well records have been processed by the Indiana Department of Natural Resources, Division of Oil and Gas. Data for
+earlier wells were compiled from various sources including the Indiana Division of Oil and Gas, records and plats from the Ohio Oil Company,
+and Publication 108 (William N. Logan, 1931, The subsurface strata of Indiana: Indiana Department of Conservation Publication 108, 790 p.,
+16 figs.). Data received from the Division of Oil and Gas are sent to the Indiana Geological Survey and the information is entered into the
+IGS PDMS database. Each petroleum operator must apply for a drilling permit with the Indiana Department of Natural Resources, Division of
+Oil and Gas. Upon completion of drilling, the operator is required to submit drilling records to the Division of Oil and Gas. For more
+information on the drilling permit process, contact:
+
+Indiana Department of Natural Resources, Division of Oil and Gas, 402 W. Washington St., Rm 293, Indianapolis, Indiana 46204 (317 232 4055).
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1886</begdate>
+              <enddate>20150108</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IGS Petroleum Well Database (Microsoft SQL)</srccitea>
+        <srccontr>Locations of all known petroleum test wells in Indiana, as of January 8, 2015.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+This process step outlines the procedures that IGS personnel use to update the IGS Petroleum Well Database, which is used to produce regular updates to
+the shapefile named "PETROLEUM_WELLS_IGS_IN.SHP":
+
+Once the drilling reports are received from the Division of Oil and Gas, well information, such as operator, geological data, and locational
+information, are entered into the IGS Petroleum Well Database. IGS personnel then field check the location information of the well.
+All location information is entered into the database, using the Congressional Township and Range system or, in some cases, other irregular
+land description systems. The locational information is then converted to X-Y coordinates (UTM Zone 16, NAD 1983 coordinate system) by spotting
+the well locations on 1:24,000-scale USGS digital raster graphic (DRGs) quadrangle maps in ESRI ArcView. For this dataset, detailed symbol information
+in the database was generalized from over 70 categories into five categories: gas (GAS), gas storage (GS), abandoned gas storage (AGS), oil (OIL),
+and other petroleum test (OPT) wells.
+</procdesc>
+        <srcused>IGS Petroleum Well Database</srcused>
+        <procdate>20020531 to present</procdate>
+        <srcprod>IGS Petroleum Well Database</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Charles W. Zuppann</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Petroleum Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5412</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>czuppann@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel used ArcToolBox to extract the locations of all known petroleum test wells from the IGS Petroleum Well Database on January 8, 2015, as a temporary
+x-y tabular dataset. ArcToolBox was then used to convert the temporary x-y tabular data into an Esri point shapefile. It was named PETROLEUM_WELLS_IGS_IN.SHP to
+conform to the internal naming conventions of the IGS.
+</procdesc>
+        <srcused>IGS Petroleum Well Database</srcused>
+        <procdate>20150108</procdate>
+        <srcprod>PETROLEUM_WELLS_IGS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United States
+Geological Survey). The errors generated by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20150130</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>_Method: Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>83052</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PETROLEUM_WELLS_IGS_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>IGS_ID</attrlabl>
+        <attrdef>Identification number of the well (IGS, internal)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>100001</rdommin>
+            <rdommax>181752</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POSTED_TD</attrlabl>
+        <attrdef>
+The deepest total depth of any operation conducted on a well. For deviated wells (horizontal and directional wells), the value has
+been corrected to true vertical depth. The value is retrieved from a query of the TD data field in the Well Events Table and from the Pick TVD value in
+the Picks Table in the Records for Event Section. The posted TD is the total depth that is posted by the IGS on a map showing total depths. (Note: A value
+of "zero" indicates no data.)
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10</rdommin>
+            <rdommax>11734</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALT_SYMBOL</attrlabl>
+        <attrdef>Symbol abbreviations of the description of the well type, (see the "Entity and Attribute, Overview Section" above for a detailed description)</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Name of the county for which the well is located</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+The following was extracted from the PDMS Website ( http://igs.indiana.edu/pdms/ ) regarding
+the attribute field titled "SYMBOL":
+
+"SYMBOL SCHEMA
+
+A graphic symbol is used to indicate the location and "designation" of a well on IGS maps.
+The IGS Petroleum Well Symbols are similar to those used in the petroleum industry and by
+other geological surveys, although no recognized standard exists.
+
+A well's Symbol designation is based on its status and history. The symbol scheme employs a
+set of basic symbols to which "modifiers" can be added to impart additional information. This
+scheme is explained in the IGS Petroleum Well Symbol Explanation.
+
+SYMBOL CODES
+
+Each graphic symbol corresponds to a Symbol Code labeled Symbol in a well's Well Header. The
+meanings of the symbols and their associated symbol codes are shown in the table below."
+</eaover>
+      <eadetcit>
+The following table provides a description of the attribute field classifications used for the attribute field named "SYMBOL" for
+PETROLEUM_WELLS_IGS_IN.SHP and on the Petroluem Database Management System (PDMS).
+
+SYMBOL information ("well type") can be generalized from over 80 categories into five "GENERAL" categories: gas (GAS), gas storage (GS),
+abandoned gas storage (AGS), oil (OIL), and other petroleum test (OPT) wells.
+
+This information was extracted from a PDF document titled "PDMS_WELL_SYMBOLS_TABLE.PDF" of the PDMS database,
+( http://igs.indiana.edu/PDMS/Help/PDMS_Well_Symbols_Table.pdf )
+
+"GENERAL	SYMBOL 	       Full Class Name
+_________________________________________________
+
+OPT         AGAS           abandoned gas
+
+OPT         AGAS-C         abandoned gas, completion type uncertain
+
+OPT         AGAS-L         abandoned gas, location uncertain
+
+OPT         AGAS-LC        abandoned gas, location and completion type uncertain
+
+AGS         AGS            abandoned gas storage
+
+AGS         AGS-C          abandoned gas storage, completion type uncertain
+
+AGS         AGSG           abandoned gas and gas storage
+
+AGS         AGS-L          abandoned gas storage, location uncertain
+
+AGS         AGS-LC         abandoned gas storage, location and completion type uncertain
+
+OPT         AOAG           abandoned oil and gas
+
+OPT         AOAG-C         abandoned oil and gas, completion type uncertain
+
+OPT         AOAG-L         abandoned oil and gas, location uncertain
+
+OPT         AOAG-LC        abandoned oil and gas, location and completion type uncertain
+
+OPT         AOBS           abandoned observation
+
+OPT         AOBS-C         abandoned observation, completion type uncertain
+
+OPT         AOBS-L         abandoned observation, location uncertain
+
+OPT         AOBS-LC        abandoned observation, location and completion type uncertain
+
+OPT         AOIL           abandoned oil
+
+OPT         AOIL-C         abandoned oil, completion type uncertain
+
+OPT         AOIL-L         abandoned oil, location uncertain
+
+OPT         AOIL-LC        abandoned oil, location and completion type uncertain
+
+OPT         ASWD           abandoned salt water disposal
+
+OPT         ASWD-C         abandoned salt water disposal, completion type uncertain
+
+OPT         ASWD-L         abandoned salt water disposal, location uncertain
+
+OPT         ASWD-LC        abandoned salt water disposal, location and completion type uncertain
+
+OPT         AWD            abandoned waste disposal
+
+OPT         AWD-C          abandoned waste disposal, completion type uncertain
+
+OPT         AWD-L          abandoned waste disposal, location uncertain
+
+OPT         AWD-LC         abandoned waste disposal, location and completion type uncertain
+
+OPT         AWI            abandoned water injection
+
+OPT         AWI-C          abandoned water injection, completion type uncertain
+
+OPT         AWIG           abandoned gas, water injection
+
+OPT         AWI-L          abandoned water injection, location uncertain
+
+OPT         AWI-LC         abandoned water injection, location and completion type uncertain
+
+OPT         AWIO           abandoned oil, water injection
+
+OPT         AWIOG          abandoned oil and gas, water injection
+
+OPT         BOR            other boring
+
+OPT         BOR-L          other boring, location uncertain
+
+OPT         CCB            confidential coal boring
+
+OPT         CONF           confidential
+
+OPT         CWO            confidential work over
+
+OPT         DRY            dry hole
+
+OPT         DRY-C          dry hole, completion type uncertain
+
+OPT         DRY-L          dry hole, location and completion type uncertain
+
+OPT         DRY-LC         abandoned dry, location and completion type uncertain
+
+EXP         EXP            expired permit
+
+GAS         GAS            gas
+
+GS          GS             gas storage
+
+GS          GSG            gas storage formerly gas
+
+GS          GSO            gas storage formerly oil
+
+OPT         LOC            location
+
+OPT         MAP            nothing known, old Trenton well from map
+
+OPT         NPWS           non-potable water supply
+
+OPT         NPWSG          non-potable water supply, formerly gas
+
+OPT         NPWSO          non-potable water supply, formerly oil
+
+OIL         OAG            oil and gas
+
+OPT         OBG            observation formerly gas
+
+OPT         OBGS           observation formerly gas storage
+
+OPT         OBS            observation
+
+OIL         OIL            oil
+
+OPT         PWS            potable water supply
+
+GAS         SIG            shut-in gas
+
+OPT         STRT           stratigraphic/structure test
+
+GAS			TAGAS          temporarily abandoned gas
+
+AGS			TAGS           temporarily abandoned gas storage
+
+OPT			TANEW          temporarily abandoned new well
+
+OPT			TAOBS          temporarily abandoned observation
+
+OIL			TAOG           temporarily abandoned oil and gas
+
+OIL			TAOIL          temporarily abandoned oil
+
+OPT			TASTRT         temporarily abandoned stratigraphic/structure test
+
+OPT			TASWD          temporarily abandoned salt water disposal
+
+OPT			TAWD           temporarily abandoned waste disposal
+
+OPT			TAWI           temporarily abandoned water injection
+
+OPT			TAWS           temporarily abandoned non-potable water supply"
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be included:
+[PETROLEUM_WELLS_IGS_IN.SHP: Petroleum Well Locations in Indiana (Indiana Geological Survey, 1:24,000, Point Shapefile), 20150108].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and workmanship
+for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological Survey, 611 North
+Walnut Grove Avenue, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not
+limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this product is assumed
+by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey
+is not responsible for claims by a third party. The  maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150108</metd>
+    <metrd>20150130</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Chris Dintaman</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

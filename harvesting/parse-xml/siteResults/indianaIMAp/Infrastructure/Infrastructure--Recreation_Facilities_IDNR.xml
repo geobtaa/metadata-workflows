@@ -1,0 +1,4923 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Natural Resources, Division of Outdoor Recreation</origin>
+        <pubdate>20090421</pubdate>
+        <title>
+RECREATIONAL_FACILITIES_IDNR_IN: Outdoor Recreational Facilities in
+Indiana (Indiana Department of Natural Resources, 1:24,000, Point Shapefile)
+</title>
+        <edition>1.1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Natural Resources, Division of Outdoor Recreation</publish>
+        </pubinfo>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+NOTE: The original data set named RECFACILITIES_DNR_OR.SHP was provided to Indiana Geological
+Survey personnel on August 14, 2003, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation. Also, portions of this metadata were originally
+authored by Michael P. Martin.
+
+NOTE: An updated data set named RECFACILITIES_DNR_OR.SHP was provided to Indiana Geological
+Survey personnel on December 8, 2003, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation.
+
+NOTE: An updated data set named RECFACILITIES_DNR_OR.SHP was provided to Indiana Geological
+Survey personnel on December 16, 2003, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation.
+
+NOTE: An updated data set named RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR.SHP was provided to Indiana Geological
+Survey personnel on March 14, 2006, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation. This metadata is intended to accompany the updated
+data set. Also, portions of this metadata were originally authored by Michael P. Martin.
+
+NOTE: An updated data set named RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR.SHP was provided to Indiana Geological
+Survey personnel on February 26, 2009, by Mr. Michael P. Martin, GIS Coordinator, Indiana Department
+of Natural Resources, Division of Outdoor Recreation. This metadata is intended to accompany the updated
+data set. Also, portions of this metadata were originally authored by Michael P. Martin.
+
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"This dataset contains point locations of sites in Indiana that have outdoor recreation facilities. It includes facilities
+managed by federal, state, and local governments, as well as non-government organizations, private and commercial
+entities, and schools. It does not include sites that are private and not open to the public."
+</abstract>
+      <purpose>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"This dataset was developed for the purpose of aiding outdoor recreation planners and providers. It is a critical component
+in the development of the Indiana Statewide Comprehensive Outdoor Recreation Plan (SCORP)."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20081209</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.114725</westbc>
+        <eastbc>-84.722592</eastbc>
+        <northbc>41.771679</northbc>
+        <southbc>37.769695</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>none (IDNR)</themekt>
+        <themekey>Outdoor recreation</themekey>
+        <themekey>Recreation</themekey>
+        <themekey>Park</themekey>
+        <themekey>Picnic</themekey>
+        <themekey>Playground</themekey>
+        <themekey>Openspace</themekey>
+        <themekey>Ball field</themekey>
+        <themekey>Ball court</themekey>
+        <themekey>Golf</themekey>
+        <themekey>Range</themekey>
+        <themekey>Swimming</themekey>
+        <themekey>Boating</themekey>
+        <themekey>Fishing</themekey>
+        <themekey>Camping</themekey>
+        <themekey>Trail</themekey>
+        <themekey>Indiana Statewide Comprehensive Outdoor Recreation Plan (SCORP)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>Division of Outdoor Recreation (DOR)</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>city park</themekey>
+        <themekey>ecology</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>land management</themekey>
+        <themekey>land use</themekey>
+        <themekey>land-use planning</themekey>
+        <themekey>land-use restriction</themekey>
+        <themekey>managed land</themekey>
+        <themekey>point</themekey>
+        <themekey>resource conservation</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W. Washington St., Rm. W271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4070</cntvoice>
+        <cntfax>317-233-4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>0800 to 1630 Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows Vista Version 6.0 (Build 6001) Service Pack 1; ESRI ArcCatalog 9.3.1.1850, Approximately 17.9 Mb</native>
+    <useconst>Infrastructure--Recreation_Facilities_IDNR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"Attribute information was provided by division staff working with the site's managing entity."
+</attraccr>
+    </attracc>
+    <logic>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"This data set is a point shapefile. There is no topology."
+</logic>
+    <complete>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"This data set only includes identified sites which were found during the inventory process."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from the metadata provided by IDNR, Division of Outdoor Recreation, for the source shapefile named
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP:
+
+"The vast majority of site locations were acquired using GIS mapping-grade GPS data collectors; the majority
+of the data were not processed for differential correction. A few site locations were acquired by digitizing
+from USGS 1:24,000 topographic quadrangle maps."
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</origin>
+            <pubdate>20081209</pubdate>
+            <title>Outdoor Recreational Facilities in Indiana</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources, Division of Outdoor Recreation</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Electronic mail system</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1975</begdate>
+              <enddate>20081209</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>20081209</srccurr>
+        </srctime>
+        <srccitea>RECFACILITIES_DNR_OUTREC_IN_081209.SHP</srccitea>
+        <srccontr>This point shapefile provides locations of outdoor recreational facilities in Indiana.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Utilized previous state outdoor recreation surveys dating back as far as 1975 to identify recreation sites.</procdesc>
+        <procdate>1996</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</cntorg>
+              <cntper>Susanna Arvin</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>sarvin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Conducted mail survey to update acreage and property holdings information for public recreation agencies and schools.</procdesc>
+        <procdate>1996</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</cntorg>
+              <cntper>Susanna Arvin</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Contacted user groups and conducted a mail survey to inventory non-profit, commercial, and private recreation facilities.</procdesc>
+        <procdate>1996</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</cntorg>
+              <cntper>Susanna Arvin</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>sarvin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Visited sites to collect attribute information and geolocate using mapping grade GPS datacollectors.</procdesc>
+        <procdate>1996-2001</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</cntorg>
+              <cntper>Susanna Arvin</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>sarvin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Completed survey forms for each site and entering attribute information into FileMaker Pro database;
+converted FileMaker Pro database to Microsoft Access database.
+</procdesc>
+        <procdate>1997-1999</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation, SCORP Section</cntorg>
+              <cntper>Susanna Arvin</cntper>
+            </cntorgp>
+            <cntpos>Outdoor Recreation Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>sarvin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Created point shapefile of sites by downloading data from GPS collector; using ARC/INFO generate,
+projectdefine, and project commands.
+</procdesc>
+        <procdate>1999-2000</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation</cntorg>
+              <cntper>Michael P. Martin</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Added points as needed by collecting data on GIS mapping grade GPS datacollector, post-processing for
+differential correction, exporting as ArcView shapefile in correct coordinate system, and merging with previous shapefile.
+</procdesc>
+        <procdate>2000-2001</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation</cntorg>
+              <cntper>Michael P. Martin</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Added some points by digitizing from 1:24000 USGS topographic quadrangle maps. Other points collected
+via GPS (Trimble GeoExplorer II or GeoExplorer 3; points were differentially corrected when possilbe).
+</procdesc>
+        <procdate>2000-2003</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation</cntorg>
+              <cntper>Michael P. Martin</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4070</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Points joined to FacInv4 database, qryFacilitiesTrailsWater; exported data as shapefile.</procdesc>
+        <procdate>20030806</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources</cntorg>
+              <cntper>Mike Martin</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4068</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Filtered out sites that are private and not open to the public: Selected sites where
+private = -1 and open to the public = 0, reversed the selection and exported as shapefile.
+</procdesc>
+        <procdate>20030806</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Department of Natural Resources</cntorg>
+              <cntper>Mike Martin</cntper>
+            </cntorgp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>402 West Washington Street, Room 271</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46204</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-232-4068</cntvoice>
+            <cntfax>317-233-4648</cntfax>
+            <cntemail>mmartin@dnr.state.in.us</cntemail>
+            <hours>8:15-4:45</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an updated shapefile titled RECFACILITIES_DNR_OR from Michael P.
+Martin (IDNR, DOR) on December 16, 2003 as an attachment to an electronic mail message.
+
+RECFACILITIES_DNR_OR is a point shapefile, in UTM zone 16, NAD83 coordinates. RECFACILITIES_DNR_OR was then checked in ESRI
+ArcMap 8.3 to ensure that all data points fell within the Indiana state boundary, INCLP83 (which contains the area within
+the 92 county boundaries for the state of Indiana, compiled at a scale of 1:24,000). The file was then renamed
+RECREATIONAL_FACILITIES_IDNR_IN to conform to internal IGS naming standards.
+</procdesc>
+        <srcused>RECFACILITIES_DNR_OR.SHP</srcused>
+        <procdate>20031216</procdate>
+        <srcprod>RECREATIONAL_FACILITIES_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an updated shapefile titled RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR
+from Michael P. Martin (IDNR, DOR) on March 14, 2006 as an attachment to an electronic mail message.
+
+RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR is a point shapefile, in UTM zone 16, NAD83 coordinates.
+RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR was then checked in ESRI ArcGIS 9.1 to ensure that all data points fell within the
+Indiana state boundary, INCLP83 (which contains the area within the 92 county boundaries for the state of Indiana, compiled at
+a scale of 1:24,000). The attribute fields titled "LOCSOURCE" and "COUNTYLU" were deleted from the attribute table.
+The file was then renamed RECREATIONAL_FACILITIES_IDNR_IN to conform to internal IGS naming standards.
+</procdesc>
+        <srcused>RECFACILITIES_OPENPUBLICORNONPRIVATE_DNR_OR.SHP</srcused>
+        <procdate>20060608</procdate>
+        <srcprod>RECREATIONAL_FACILITIES_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an updated shapefile titled RECFACILITIES_DNR_OUTREC_IN_081209.SHP
+from Michael P. Martin (IDNR, DOR) on February 26, 2009 as an attachment to an electronic mail message.
+
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP is a point shapefile, in UTM zone 16, NAD83 coordinates.
+RECFACILITIES_DNR_OUTREC_IN_081209.SHP was then checked in ESRI ArcGIS 9.3 to ensure that all data points fell within the
+Indiana state boundary. The attribute fields titled "LOCSOURCE," "SITECODE_1," and "COUNTYLU" were deleted from the attribute table.
+The file was then renamed RECREATIONAL_FACILITIES_IDNR_IN.SHP to conform to internal IGS naming standards.
+</procdesc>
+        <srcused>RECFACILITIES_DNR_OUTREC_IN_081209.SHP</srcused>
+        <procdate>20090421</procdate>
+        <srcprod>RECREATIONAL_FACILITIES_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software written by
+Peter N. Schweitzer (United States Geological Survey).  The errors generated by MP were all addressed and corrected, except
+that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20090421</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>6670</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Recreational_Facilities_IDNR_IN.SHP</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteCode</attrlabl>
+        <attrdef>Indiana Recreation Facilities Inventory site code number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>IDNR site code number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site</attrlabl>
+        <attrdef>Name of the facility</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Name of the facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Address of the facility</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Address of the facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>City or township in which the site is located</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>City or township</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zip</attrlabl>
+        <attrdef>Mailing zip code</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Mailing zip code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Phone</attrlabl>
+        <attrdef>Facility telephone number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Facility telephone number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Owner</attrlabl>
+        <attrdef>Facility owner</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Facility owner</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OwnZip</attrlabl>
+        <attrdef>Owner's postal zip code</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Onwer's postal zip code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OwnPhone</attrlabl>
+        <attrdef>Owner's telephone number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Owner's telephone number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Manager</attrlabl>
+        <attrdef>Manager of the facility</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Manager of the facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MgrZip</attrlabl>
+        <attrdef>Manager's postal zip code</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Manager's postal zip code</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MgrPhone</attrlabl>
+        <attrdef>Manager's telephone number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Manager's telephone number</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Grants</attrlabl>
+        <attrdef>Has the site received grants administered by IDNR Division of Outdoor Recreation?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FacTypeID</attrlabl>
+        <attrdef>Type of Facility</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Park/Recreation Area</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Forest</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Fish and Wildlife Area</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Dedicated Nature Preserve</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Reservoir</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Historic/Cultural Site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Fishing/Boating Access Site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Camping or Trailer Park</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Trail</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Marina</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Commercial/Private Fishing Lake</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Beach</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Pool</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>School Grounds</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Fairground</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Zoo</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Commercial for profit Recreation Facility</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Non-profit Recreation Facility</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Golf Course</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Conservation Club</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Residential/Apartment commons</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>University/College grounds</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SchGrades</attrlabl>
+        <attrdef>For school corporation sites, what grades does the school include?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Elementary (k-6)</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>Middle School (7-8)</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>H</edomv>
+            <edomvd>High School (9-12)</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AreaType</attrlabl>
+        <attrdef>What is the type of ownership of the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>commercial</edomv>
+            <edomvd>ownership</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>county</edomv>
+            <edomvd>public, county government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>federal</edomv>
+            <edomvd>public, Federal government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>municipal</edomv>
+            <edomvd>public, municipal government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>private</edomv>
+            <edomvd>private</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>public</edomv>
+            <edomvd>public</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>School Corporation</edomv>
+            <edomvd>School Corporation</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>state</edomv>
+            <edomvd>public, state government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>township</edomv>
+            <edomvd>public, township government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>township/municipal</edomv>
+            <edomvd>public, township/municipal government</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OpenPublic</attrlabl>
+        <attrdef>Is the site open to the public?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YearRound</attrlabl>
+        <attrdef>Is the site open all year?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OpenSeason</attrlabl>
+        <attrdef>Season(s) the site is open</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Season(s) the site is open</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADA</attrlabl>
+        <attrdef>Is the site accessible by ADA standards?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fees</attrlabl>
+        <attrdef>Are there fees charged at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pets</attrlabl>
+        <attrdef>Are pets allowed at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoFacilDev</attrlabl>
+        <attrdef>Are there no developed facilities at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are facilities developed at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>Yes, there are no facilities at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AcresTotal</attrlabl>
+        <attrdef>Number of acres at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of acres at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AcresWater</attrlabl>
+        <attrdef>Number of acres of water at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of acres of water at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AcresEst</attrlabl>
+        <attrdef>Are the acreage numbers estimates?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Undevelop</attrlabl>
+        <attrdef>Is the site undeveloped?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoRestroom</attrlabl>
+        <attrdef>Are there no restroom facilities at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are restroom facilities at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>Yes, there are no restroom facilities at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PitToilet</attrlabl>
+        <attrdef>Are there pit toilets at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FlshToilet</attrlabl>
+        <attrdef>Are there flush toilets on the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PortToilet</attrlabl>
+        <attrdef>Are there portable toilets on the site.</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Showers</attrlabl>
+        <attrdef>Are there shower facilities on the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoPicnic</attrlabl>
+        <attrdef>Are there no picnic facilities at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are picnic facilities at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>Yes, there are no picnic facilities at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ShelterNU</attrlabl>
+        <attrdef>Number of picnic shelters on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of picnic shelters on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PicAreaNU</attrlabl>
+        <attrdef>Is there a softball diamond at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PicTables</attrlabl>
+        <attrdef>Are there picnic tables on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PlaygrndNU</attrlabl>
+        <attrdef>Number of playgrounds on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of playgrounds on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Playfields</attrlabl>
+        <attrdef>Are there playfields on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Openspace</attrlabl>
+        <attrdef>Are there openspace areas on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoFields</attrlabl>
+        <attrdef>Are there no ballfields on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are ballfields on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>Yes, there are no ballfields at the site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoftballNu</attrlabl>
+        <attrdef>Number of softball diamonds on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of softball diamond on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoftballLt</attrlabl>
+        <attrdef>Number of lighted softball diamonds on the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted softball diamonds on the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BaseballNu</attrlabl>
+        <attrdef>Number of baseball diamonds on the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of baseball diamonds on the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BaseballLt</attrlabl>
+        <attrdef>Number of lighted baseball diamonds on the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted baseball diamonds on the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoccerNu</attrlabl>
+        <attrdef>Number of soccer fields at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of soccer fields at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoccerLit</attrlabl>
+        <attrdef>Number of lighted soccer fields at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted soccer fields at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FootballNu</attrlabl>
+        <attrdef>Number of football fields at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of football fields at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FootballLt</attrlabl>
+        <attrdef>Number of lighted football fields at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted football fields at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TrackNu</attrlabl>
+        <attrdef>Number of running tracks on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of running tracks on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TrackLit</attrlabl>
+        <attrdef>Number of lighted running tracks at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted running tracks at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoCourts</attrlabl>
+        <attrdef>Are there no ball courts at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there ARE ballcourts on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there ARE ballcourts on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes, there are no ballcourts on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BballNu</attrlabl>
+        <attrdef>Number of basketball courts at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of basketball courts at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BballLit</attrlabl>
+        <attrdef>Number of lighted basketball courts at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted basketball courts at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TennisNu</attrlabl>
+        <attrdef>Number of tennis courts at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of tennis courts at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TennisLit</attrlabl>
+        <attrdef>Number of lighted tennis courts at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted tennis courts at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VolleyNu</attrlabl>
+        <attrdef>Number of volleyball courts at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of volleyball courts at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VolleyLit</attrlabl>
+        <attrdef>Number of lighted volleyball courts on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted volleyball courts on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HrsShoeNu</attrlabl>
+        <attrdef>Number of horseshoe pits at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of horseshoe pits at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HrsShoeLt</attrlabl>
+        <attrdef>Number of lighted horseshoe pits at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted horseshoe pits at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WallCrtsNu</attrlabl>
+        <attrdef>Number of wall courts on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of wall courts on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WallCrtsLt</attrlabl>
+        <attrdef>Number of lighted wall courts on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of lighted wall courts on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoGolf</attrlabl>
+        <attrdef>Are there no golf facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are golf facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are golf facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no golf facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GolfCrsNu</attrlabl>
+        <attrdef>Number of golf courses on the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of golf courses on the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GolfHoles</attrlabl>
+        <attrdef>Number of golf course holes at the site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of golf course holes at the site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RangeNu</attrlabl>
+        <attrdef>Number of driving ranges on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of driving ranges on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MiniGolf</attrlabl>
+        <attrdef>Is there a miniature golf course at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RifleIn</attrlabl>
+        <attrdef>Is there an indoor rifle/pistol range at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RifleOut</attrlabl>
+        <attrdef>Is there an outdoor rifle/pistol range at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkeetIn</attrlabl>
+        <attrdef>Is there an indoor skeet trap at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkeetOut</attrlabl>
+        <attrdef>Is there an outdoor skeet trap at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ArcheryIn</attrlabl>
+        <attrdef>Is there an indoor archery range at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ArcheryOut</attrlabl>
+        <attrdef>Is there an indoor archery range at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BMX</attrlabl>
+        <attrdef>Is there a BMX course at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BatCage</attrlabl>
+        <attrdef>Is there a batting cage at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Skateboard</attrlabl>
+        <attrdef>Is there a facility for skateboards on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FoodConc</attrlabl>
+        <attrdef>Are there food concessions on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoOvernght</attrlabl>
+        <attrdef>Are there no overnight facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are overnight facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are overnight facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no overnight facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Camping</attrlabl>
+        <attrdef>Is there camping on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ClassAA</attrlabl>
+        <attrdef>Are there Class AA campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AANu</attrlabl>
+        <attrdef>Number of Class AA campsites on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of Claa AA campsites on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ClassA</attrlabl>
+        <attrdef>Are there Class A (modern restrooms, electricity) campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ANu</attrlabl>
+        <attrdef>Number of Class A (modern restrooms, electricity) campsites on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of Class A campsites on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ClassB</attrlabl>
+        <attrdef>Are there Class B (modern restrooms or electricity) campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BNu</attrlabl>
+        <attrdef>Number of Class B (modern restrooms or electricity) campsites on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Numbe of Class B campsites on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ClassC</attrlabl>
+        <attrdef>Are there Class C (primitive) campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CNu</attrlabl>
+        <attrdef>Number of Class C (primitive) campsites on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of Class C campsites on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BackCamp</attrlabl>
+        <attrdef>Is there backpack camping on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CampSiteHA</attrlabl>
+        <attrdef>Are there accessible campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GroupCamps</attrlabl>
+        <attrdef>Are there group campsites on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GrpCampCap</attrlabl>
+        <attrdef>Capacity of the group campsites</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Capacity of the group campsites</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HorseCamp</attrlabl>
+        <attrdef>Is there a horse campground on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HrsCampCap</attrlabl>
+        <attrdef>Capacity of the horse campgrounds</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Capacity of the horse campgrounds</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DmpStation</attrlabl>
+        <attrdef>Is there a dumpstation on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lodging</attrlabl>
+        <attrdef>Are there lodging facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Inn</attrlabl>
+        <attrdef>Is there an Inn on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cabin</attrlabl>
+        <attrdef>Are there overnight cabins on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CabinNu</attrlabl>
+        <attrdef>Number of cabins on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of cabins on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoGroup</attrlabl>
+        <attrdef>Are there no large-group facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are large-group facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are large-group facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no large-group facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bandshell</attrlabl>
+        <attrdef>Is there a bandshell on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CommCtr</attrlabl>
+        <attrdef>Is there a community center on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VisitorCtr</attrlabl>
+        <attrdef>Is there a visitor center site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ConfCtr</attrlabl>
+        <attrdef>Is there a conference center on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no or n/a</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NatureCtr</attrlabl>
+        <attrdef>Is there a nature center on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Museum</attrlabl>
+        <attrdef>Is there a museum on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SeniorCtr</attrlabl>
+        <attrdef>Is there a senior center on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OtherLarge</attrlabl>
+        <attrdef>Are there other large-group facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoWinter</attrlabl>
+        <attrdef>Are there no winter facilities at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are winter facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are winter facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no winter facilities on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IceSkate</attrlabl>
+        <attrdef>Is there ice skating on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Toboggan</attrlabl>
+        <attrdef>Is there a toboggan facility on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SledTube</attrlabl>
+        <attrdef>Is there sled tubing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SnowBoard</attrlabl>
+        <attrdef>Is there snowboarding on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Snowmobile</attrlabl>
+        <attrdef>Is there snowmobiling on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NordicSki</attrlabl>
+        <attrdef>Is there nordic skiing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AlpineSki</attrlabl>
+        <attrdef>Is there alpine skiing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PublicHunt</attrlabl>
+        <attrdef>Is there public hunting on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Concession</attrlabl>
+        <attrdef>Are there concessions on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Location</attrlabl>
+        <attrdef>Location description</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Location description</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ADAEval</attrlabl>
+        <attrdef>Has the site been evaluated for ADA compliance?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ShowersHA</attrlabl>
+        <attrdef>Are there accessible showers on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OperateHrs</attrlabl>
+        <attrdef>Site operating hours</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Site operating hours</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AcresLand</attrlabl>
+        <attrdef>Acres of land on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Acres of land on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RestroomHA</attrlabl>
+        <attrdef>Are there accessible restrooms on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PicArea</attrlabl>
+        <attrdef>Are there picnic facilities at the site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PicTblsHA</attrlabl>
+        <attrdef>Number of accessible picnic tables on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of accessible picnic tables on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SheltersHA</attrlabl>
+        <attrdef>Are there accessible picnic shelters on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PlaygrdHaN</attrlabl>
+        <attrdef>Number of accessible playgrounds on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of accessible playgrounds on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FeeHunting</attrlabl>
+        <attrdef>Is there fee-hunting on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StockGame</attrlabl>
+        <attrdef>Is the site stocked with game?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WtrBlind</attrlabl>
+        <attrdef>Are there water blinds on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Restaurant</attrlabl>
+        <attrdef>Is there a restaurant on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shuffle</attrlabl>
+        <attrdef>Are there shuffleboard courts on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shufflit</attrlabl>
+        <attrdef>Are there lighted shuffleboard courts on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DriveRange</attrlabl>
+        <attrdef>Is there a driving range on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ArchNu</attrlabl>
+        <attrdef>Number of archery targets on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of archery targets on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RifleNu</attrlabl>
+        <attrdef>Number of rifle targets on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of rifle targets on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkeetNu</attrlabl>
+        <attrdef>Number of skeet traps on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of skeet traps on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>InterpPro</attrlabl>
+        <attrdef>Is there interpretive programming on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>InterpType</attrlabl>
+        <attrdef>Type of interpretive programming on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Type of interpretive programming on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HaplyGrd</attrlabl>
+        <attrdef>Is there an accessible playground on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoWater</attrlabl>
+        <attrdef>Is there no water-based recreation on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there is water-based recreation on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there is water-based recreation on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there is no water-based recreation on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoPool</attrlabl>
+        <attrdef>Is there no swimming pool on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there is a swimming pool on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there is a swimming pool on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there is no swimming pool on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PoolNu</attrlabl>
+        <attrdef>Number of swimming pools on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of swimming pools on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PoolOut</attrlabl>
+        <attrdef>Is there an outdoor swimming pool on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BathHouse</attrlabl>
+        <attrdef>Is there a bathhouse on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PoolIn</attrlabl>
+        <attrdef>Is there an indoor swimming pool on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WavePool</attrlabl>
+        <attrdef>Is there a wave pool on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Diving</attrlabl>
+        <attrdef>Is there a diving board on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WaterSlide</attrlabl>
+        <attrdef>Is there a water slide on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WtrFunPrk</attrlabl>
+        <attrdef>Is there a water fun park on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Beach</attrlabl>
+        <attrdef>Is there a swimming beach on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BeachFront</attrlabl>
+        <attrdef>Length (linear feet) of beachfront on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Length of beachfront on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BeachHouse</attrlabl>
+        <attrdef>Is there a beachhouse on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BchShower</attrlabl>
+        <attrdef>Is there a beach shower on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LakePond</attrlabl>
+        <attrdef>Is there a lake or pond on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SmallLake</attrlabl>
+        <attrdef>Is there a small lake on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LakeAccess</attrlabl>
+        <attrdef>Does the site have access to a lake not enclosed by the site's boundaries?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LakeTblID</attrlabl>
+        <attrdef>Lake ID #</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Unrecognizable character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LkAccName</attrlabl>
+        <attrdef>Common Lake name</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Unrecognizable character</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatMoGas</attrlabl>
+        <attrdef>Are gasoline-powered boat motors allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>x</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatMoElec</attrlabl>
+        <attrdef>Are electric-powered boat motors allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatMoNone</attrlabl>
+        <attrdef>Are no boat motors allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, boat motors are allowed on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, boat motors are allowed on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes, no boat motors are allowed on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>JetSkis</attrlabl>
+        <attrdef>Are jet skis allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WaterSki</attrlabl>
+        <attrdef>Are water skis allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SailBoat</attrlabl>
+        <attrdef>Are sail boats allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WindSurf</attrlabl>
+        <attrdef>Is windsurfing allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LakeFish</attrlabl>
+        <attrdef>Is lake fishing allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LakeSwim</attrlabl>
+        <attrdef>Is there lake swimming on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>River</attrlabl>
+        <attrdef>Is there a river/stream on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RivNameOr</attrlabl>
+        <attrdef>Name of river/stream</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Name of river/stream</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BothBanks</attrlabl>
+        <attrdef>Does the site offer encompass both banks of the river/stream?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RiverBank</attrlabl>
+        <attrdef>Does the site include a river/stream bank?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RivAccPave</attrlabl>
+        <attrdef>Is there paved access to the river/stream on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RivAccUnp</attrlabl>
+        <attrdef>Is there unpaved access to the river/stream on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RivAccHand</attrlabl>
+        <attrdef>Is there hand-carry access to the river/stream on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RivBankFsh</attrlabl>
+        <attrdef>Is there river/stream bank fishing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatFac</attrlabl>
+        <attrdef>Are there boat facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatServ</attrlabl>
+        <attrdef>Are there boat services on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BoatRental</attrlabl>
+        <attrdef>Are boat rentals available on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CanoeRent</attrlabl>
+        <attrdef>Are canoe rentals available on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HandCarry</attrlabl>
+        <attrdef>Are hand-carried boats allowed on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RampNu</attrlabl>
+        <attrdef>Number of boat ramps on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of boat ramps on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MoorNu</attrlabl>
+        <attrdef>Number of boat moors on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of boat moors on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SlipNu</attrlabl>
+        <attrdef>Number of boat slips on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of boat slips on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FishFac</attrlabl>
+        <attrdef>Are there fishing facilities on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PierNu</attrlabl>
+        <attrdef>Number of fishing piers on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of fishing piers on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BankFish</attrlabl>
+        <attrdef>Is there bank fishing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FshCleanNu</attrlabl>
+        <attrdef>Number of fish cleaning stations on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of fish cleaning stations on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IceFish</attrlabl>
+        <attrdef>Is there ice fishing on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Wetland</attrlabl>
+        <attrdef>Is there a wetland on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LifeGuard</attrlabl>
+        <attrdef>Are there lifeguards on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Slips</attrlabl>
+        <attrdef>Are ther boat slips on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mooring</attrlabl>
+        <attrdef>Are there boat moors on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LaunchLane</attrlabl>
+        <attrdef>Are there boat launching lanes on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoRamp</attrlabl>
+        <attrdef>Are there no boat ramps on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are boat ramps on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are boat ramps on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no boat ramps on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WadePool</attrlabl>
+        <attrdef>Is there a wading pool on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoTrails</attrlabl>
+        <attrdef>Are there no trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no, there are trails on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no, there are trails on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>Yes, there are no trails on site</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TrailsNu</attrlabl>
+        <attrdef>Number of trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MileTrails</attrlabl>
+        <attrdef>Miles of trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HardSurf</attrlabl>
+        <attrdef>Are there hard-surfaced trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HardSurfMi</attrlabl>
+        <attrdef>Miles of hard-surfaced trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of hard-surfaced trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultUseNu</attrlabl>
+        <attrdef>Number of multi-use trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of multi-use trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultUseMi</attrlabl>
+        <attrdef>Miles of multi-use trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of multi-use trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FitnessNu</attrlabl>
+        <attrdef>Number of fitness trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of fitness trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FitMi</attrlabl>
+        <attrdef>Miles of fitness trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of fitness trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HikeNu</attrlabl>
+        <attrdef>Number of hiking trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of hiking trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HikeMile</attrlabl>
+        <attrdef>Miles of hiking trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of hiking trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BikeOnlyNu</attrlabl>
+        <attrdef>Number of bicycle-only trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of bicycle-only trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BikeOnlyMi</attrlabl>
+        <attrdef>Miles of bicycle-only trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of bicycle-only trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MtnBikeTrl</attrlabl>
+        <attrdef>Are there mountain bicycle trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TouBikeTrl</attrlabl>
+        <attrdef>Are there tour bicycle trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TrlBikeTrl</attrlabl>
+        <attrdef>Are there trail bicycle trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultSkate</attrlabl>
+        <attrdef>Are there multi-use trails on site that are open for in-line skates?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HorseNu</attrlabl>
+        <attrdef>Number of horse trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of horse trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HorseMile</attrlabl>
+        <attrdef>Miles of horse trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of horse trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SnowmoNu</attrlabl>
+        <attrdef>Number of snowmobile trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of snowmobile trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SnowmoMile</attrlabl>
+        <attrdef>Miles of snowmobile trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of snowmobile trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORVNu</attrlabl>
+        <attrdef>Number of ORV trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of ORV trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORVMile</attrlabl>
+        <attrdef>Miles of ORV trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of ORV trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LDTrlAcces</attrlabl>
+        <attrdef>Does that site have access to a long distance trail?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LDTrlName</attrlabl>
+        <attrdef>Name of long distance trail</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Name of long distance trail</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultFoot</attrlabl>
+        <attrdef>Are there multi-use trails open for foot traffic?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultInterp</attrlabl>
+        <attrdef>Are there multi-use trails that include interpretive?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultBicycl</attrlabl>
+        <attrdef>Are there multi-use trails open for bicycling?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultHorse</attrlabl>
+        <attrdef>Are there multi-use trails open for horseback riding?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultMotor</attrlabl>
+        <attrdef>Are there multi-use trails open for motorized use?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultNordic</attrlabl>
+        <attrdef>Are there multi-use trails open for nordic skiing?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultSnoMo</attrlabl>
+        <attrdef>Are there multi-use trails open for snowmobiles?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HardSurfNu</attrlabl>
+        <attrdef>Miles of hard-surfaced trails</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of hard-surfaced trails</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MultiUse</attrlabl>
+        <attrdef>Are there multi-use trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fitness</attrlabl>
+        <attrdef>Are there fitness trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Nature</attrlabl>
+        <attrdef>Are there nature trails on site?</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>no</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+          <edom>
+            <edomv>-1</edomv>
+            <edomvd>yes</edomvd>
+            <edomvds>IDNR</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NatureNu</attrlabl>
+        <attrdef>Number of nature trails</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Number of nature trails</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NatureMi</attrlabl>
+        <attrdef>Miles of nature trails on site</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Miles of nature trails on site</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteURLTex</attrlabl>
+        <attrdef>Internet address of primary recreation facility</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Inspdate</attrlabl>
+        <attrdef>Date of last inspection</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GlobalID</attrlabl>
+        <attrdef>Global identification number</attrdef>
+        <attrdefs>IDNR</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources, Division of Outdoor Recreation</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 West Washington Street, Room 271</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4070</cntvoice>
+        <cntfax>317-233-4648</cntfax>
+        <cntemail>mmartin@dnr.state.in.us</cntemail>
+        <hours>8 to 4:30</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Offline data</resdesc>
+    <distliab>User assumes all liability</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday throught Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any products
+generated from this data. The following source citation should be included:
+RECREATIONAL_FACILITIES_IDNR_IN: Outdoor Recreational Facilities in
+Indiana (Indiana Department of Natural Resources, 1:24,000, Point Shapefile).
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20030820</metd>
+    <metrd>20090421</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS.  It should not to be altered
+or summarized.  IGS does not support secondary distribution.  If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

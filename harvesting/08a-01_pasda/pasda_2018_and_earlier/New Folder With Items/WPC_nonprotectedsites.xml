@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Natural Heritage Program</origin>
+        <pubdate>20040330</pubdate>
+        <title>WPC non-protected sites</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <onlink>http://www.paconserve.org/rc/acp.html</onlink>
+        <ftname Sync="TRUE">nonprotectedsites</ftname>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20040330</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-83.555660</westbc>
+        <eastbc Sync="TRUE">-74.258900</eastbc>
+        <northbc Sync="TRUE">42.851030</northbc>
+        <southbc Sync="TRUE">35.580290</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-83.555660</leftbc>
+        <rightbc Sync="TRUE">-74.258900</rightbc>
+        <topbc Sync="TRUE">42.851030</topbc>
+        <bottombc Sync="TRUE">35.580290</bottombc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Pennsylvania Aquatic Community Classification</themekey>
+        <themekey>Pennsylvania Aquatic Database</themekey>
+        <themekey>Benthic Macroinvertebrates</themekey>
+        <themekey>Fish</themekey>
+        <themekey>Freshwater Mussels</themekey>
+        <themekey>Water Chemistry</themekey>
+        <themekey>Stream Habitat</themekey>
+        <themekey>Streams</themekey>
+        <themekey>Rivers</themekey>
+      </theme>
+      <place>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Ohio River Basin</placekey>
+        <placekey>Susquehanna River Basin</placekey>
+        <placekey>Deleware River Basin</placekey>
+        <placekey>Potomac River Basin</placekey>
+        <placekt>none</placekt>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>
+NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+        <cntorgp>
+          <cntorg>Pennsylvania Natural Heritage Program (Western Pennsylvania Conservancy)</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </ptcontac>
+    <native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</native>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>WPC_nonprotectedsites</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Pennsylvania Natural Heritage Program</origin>
+            <pubdate>20040331</pubdate>
+            <title>Pennsylvania Aquatic Database</title>
+            <othercit>All sites were compiled from a number of datasources which can be found in the "source" table of the PAD.</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital database</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040330</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>PAD</srccitea>
+      </srcinfo>
+      <procstep>
+        <procdesc>All sites with Latitude and Longitude values in the PAD were exported as a dbf and opened as an event theme, and then saved as this shape file.</procdesc>
+        <procdate>20040331</procdate>
+        <procsv>ArcView 3.2</procsv>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\DOCUME~1\DHomans.WPC\LOCALS~1\Temp\xml1D.tmp</srcused>
+        <date Sync="TRUE">20040712</date>
+        <time Sync="TRUE">09554700</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">C:\LocalGISfiles\DDnad27\Final\finalphase1stations</srcused>
+        <date Sync="TRUE">20040712</date>
+        <time Sync="TRUE">10241400</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">C:\DOCUME~1\DHomans.WPC\LOCALS~1\Temp\xml151.tmp</srcused>
+        <date Sync="TRUE">20040713</date>
+        <time Sync="TRUE">09383000</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Dataset moved.</procdesc>
+        <srcused Sync="TRUE">C:\LocalGISfiles\DDnad27\Final\nonprotectedsites</srcused>
+        <date Sync="TRUE">20040713</date>
+        <time Sync="TRUE">09444100</time>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+    <logic>ESRI point geometry exists.</logic>
+    <complete>Complete.</complete>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="nonprotectedsites">
+        <sdtstype Sync="TRUE">Entity point</sdtstype>
+        <ptvctcnt Sync="TRUE">2636</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="nonprotectedsites">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <efeageom Sync="TRUE">Point</efeageom>
+        <efeacnt Sync="TRUE">2636</efeacnt>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres Sync="TRUE">0.000000</latres>
+        <longres Sync="TRUE">0.000000</longres>
+        <geogunit Sync="TRUE">Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+        <ellips Sync="TRUE">Clarke 1866</ellips>
+        <semiaxis Sync="TRUE">6378206.400000</semiaxis>
+        <denflat Sync="TRUE">294.978698</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn>
+      </cordsysn>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed Name="nonprotectedsites">
+      <enttyp>
+        <enttypl Sync="TRUE">nonprotectedsites</enttypl>
+        <enttypc Sync="TRUE">2636</enttypc>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypd>all aquatic sampling sites from the Pennsylvania Aquatic Database (PAD) at the completion of Phase I of the Pennsylvania Aquatic Community Classification project that had no datarelease restrictions</enttypd>
+        <enttypds>PAD</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attscale Sync="TRUE">0</attscale>
+        <attwidth Sync="TRUE">4</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attscale Sync="TRUE">0</attscale>
+        <attwidth Sync="TRUE">0</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LAT_DEC_OR</attrlabl>
+        <attrdef>Site Latitude in Decimal Degrees</attrdef>
+        <attrdefs>Original Report</attrdefs>
+        <attalias Sync="TRUE">LAT_DEC_OR</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">100</attwidth>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">LONG_DEC_O</attrlabl>
+        <attrdef>Site Longitude in Decimal Degrees </attrdef>
+        <atnumdec Sync="TRUE">5</atnumdec>
+        <attalias Sync="TRUE">LONG_DEC_O</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STATIONID</attrlabl>
+        <attrdef>Unique station ID for each sampling site in the PAD.</attrdef>
+        <atnumdec Sync="TRUE">5</atnumdec>
+        <attalias Sync="TRUE">STATIONID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <udom>Station ID</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">FISH_</attrlabl>
+        <attrdef>Were fish sampled at this site?</attrdef>
+        <attalias Sync="TRUE">FISH_</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Fish were sampled at this site.</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Fish were not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">BENTHICMAC</attrlabl>
+        <attrdef>Were benthic macroinvertebrates sampled at this site?</attrdef>
+        <attalias Sync="TRUE">BENTHICMAC</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>benthic macroinvertebrates were sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>benthic macroinvertebrates were not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">MUSSELS_</attrlabl>
+        <attrdef>were freshwater mussels (Unionidae) sampled at this site?</attrdef>
+        <attalias Sync="TRUE">MUSSELS_</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>freshwater mussels (Unionidae) were sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>freshwater mussels (Unionidae) were not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">HABITAT_</attrlabl>
+        <attrdef>Were stream habitat metrics sampled at this site?</attrdef>
+        <attalias Sync="TRUE">HABITAT_</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>stream habitat metrics were sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>stream habitat metrics were not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">CHEM_</attrlabl>
+        <attrdef>Was water chemistry sampled at this site?</attrdef>
+        <attalias Sync="TRUE">CHEM_</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>water chemistry was sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>water chemistry was not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">STRMCHAR_</attrlabl>
+        <attrdef>Were descriptive stream characteristics sampled at this site?</attrdef>
+        <attalias Sync="TRUE">STRMCHAR_</attalias>
+        <attrtype Sync="TRUE">Boolean</attrtype>
+        <attwidth Sync="TRUE">1</attwidth>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>descriptive stream characteristics were sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>descriptive stream characteristics were not sampled at this site</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdefs>PAD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">DATAPROTEC</attrlabl>
+        <attrdef>The level of dataprotection to be applied to this sites and all records referencing this site.</attrdef>
+        <attrdefs>PAD</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Unrestricted datasource, no blocking of data.</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Restricted datasource; all records and spatial information should be blocked in any publicly accessible version of the PAD.</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Site contains species of special concern and thus locational information should be blocked in any publicly accessible versions of the PAD.</edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Unknown data restriction level, thus all records should be blocked until a new restriction level is confirmed  by the data source. </edomvd>
+            <edomvds>PAD</edomvds>
+          </edom>
+        </attrdomv>
+        <atnumdec Sync="TRUE">5</atnumdec>
+        <attalias Sync="TRUE">DATAPROTEC</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">20</attwidth>
+      </attr>
+    </detailed>
+    <overview>
+      <dsoverv>This dataset is a full listing of all of the sites with spatial information that were entered into the Pennsylvania Aquatic Database at the time of completion of Phase I of the Pennsylvania Aquatic Community Classification project.  All of these sites originated from a diverse and extensive list of data providers throughout Pennsylvania and neighboring states.</dsoverv>
+      <eaover>Attributes include what characteristics were sampled for at each site.</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <resdesc Sync="TRUE">Downloadable Data</resdesc>
+    <distliab>
+NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Pennsylvania Natural Heritage Program policies.  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Pennsylvania Natural Heritage Program for its own internal business purposes.  The Pennsylvania Natural Heritage Program does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.
+
+The Pennsylvania Natural Heritage Program shall have no liability for any claim of infringement or rights by third parties based on any use of the Licensed Dataset in compination with programs, software, hardware, or equipment not designated by the WPC, without prior written approval by Pennsylvania Natural Heritage Program, if such infringement could have been avoided had the Licensed Dataset not been so used.
+
+While Pennsylvania Natural Heritage Program warrants that the data in the Licensed Dataset has been reviewed to ensure compliance with quality control standards, WPC shall have no liability or responsibility to the data users, or any other person or entity with respect to any liability, loss, or damage caused or alleged to be caused directly or indirectly by the Licensed Dataset, including but not limited to any interruption of service, loss of business, anticipatory profits or indirect, special, or consequential damages resulting from the use or operation of the Licensed Dataset.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">0.070</transize>
+          <dssize Sync="TRUE">0.070</dssize>
+          <formname>ArcView SHP</formname>
+          <formvern>ESRI ArcView 3.2a</formvern>
+          <formspec>ArcView Shapefile</formspec>
+          <filedec>no compression applied</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>not available</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.</fees>
+      <ordering>Contact the distributor.</ordering>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Conservancy</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 4th Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>866-250-2777</cntvoice>
+        <cntemail>jdeeds@paconserve.org</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100323</metd>
+    <metc>
+      <cntinfo>
+        <cntpos>Aquatic Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>209 Fourth Avenue</address>
+          <city>Pittsburgh</city>
+          <state>PA</state>
+          <postal>15222</postal>
+        </cntaddr>
+        <cntvoice>412-288-2777</cntvoice>
+        <cntorgp>
+          <cntorg>Western Pennsylvania Coservancy; Natural Heritage Program</cntorg>
+          <cntper>Aquatic Ecologist</cntper>
+        </cntorgp>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.0.0.535</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-83.55566</westBL>
+      <northBL Sync="TRUE">42.85103</northBL>
+      <southBL Sync="TRUE">35.58029</southBL>
+      <eastBL Sync="TRUE">-74.2589</eastBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+    <idCitation>
+      <resTitle Sync="TRUE">nonprotectedsites</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-83.55566</westBL>
+          <northBL Sync="TRUE">42.85103</northBL>
+          <southBL Sync="TRUE">35.58029</southBL>
+          <eastBL Sync="TRUE">-74.2589</eastBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+          <linkage Sync="TRUE">file://\\pgh-rc\gisdata\heritage_projects\aqua_class\cleanfiles\ddnad27\nonprotectedsites.shp</linkage>
+        </onLineSrc>
+        <transSize Sync="TRUE">0.070</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <Esri>
+    <CreaDate>20040713</CreaDate>
+    <ModDate>20100323</ModDate>
+    <ModTime>11020000</ModTime>
+    <SyncDate>20050316</SyncDate>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncTime>14252800</SyncTime>
+    <CreaTime>09383000</CreaTime>
+    <MetaID>{C7BCA39D-4689-4C83-B892-CA482AB8C7B1}</MetaID>
+  </Esri>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdDateSt Sync="TRUE">20100323</mdDateSt>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">GCS_North_American_1927</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="nonprotectedsites">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="004">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">2636</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <distinfo>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+</distliab>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+  </distinfo>
+</metadata>

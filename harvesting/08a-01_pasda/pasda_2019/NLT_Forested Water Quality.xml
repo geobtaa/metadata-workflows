@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.pasda.psu.edu/pasda/uci_metadata/dtd/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Natural Lands Trust with input data from PA DEP.</origin>
+        <pubdate>May 2006</pubdate>
+        <title>Forested Water Quality</title>
+        <edition>first</edition>
+        <geoform>raster digital data</geoform>
+        <onlink>ftp://www.pasda.psu.edu/pub/pasda/nlt</onlink>
+        <onlink>http://www.natlands.org</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1992-2000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-78.356474</westbc>
+        <eastbc>
+-74.540675</eastbc>
+        <northbc>
+41.491614</northbc>
+        <southbc>
+39.197635</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Forested Water Quality</themekey>
+        <themekey>SmartConservation</themekey>
+        <themekey>Expanded Piedmont</themekey>
+        <themekey>Aquatic Resources</themekey>
+        <themekey>biota</themekey>
+      </theme>
+      <place>
+        <placekey>Piedmont</placekey>
+        <placekey>Expanded Piedmont</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Diane Rosencrance</cntper>
+          <cntorg>Natural Lands Trust</cntorg>
+        </cntperp>
+        <cntpos>GIS Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1031 Palmers Mill Road</address>
+          <city>Media</city>
+          <state>Pennsylvania</state>
+          <postal>19063</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>610-353-5587</cntvoice>
+        <cntemail>drosencrance@natlands.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.1.0.722</native>
+    <descript>
+      <abstract>NLT_Forested Water Quality</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Process:
+Calculate percent of 1st &amp; 2nd order stream length as percent of overall streams in watershed
+Intersect 
+input: "StreamOrder_'study area'"
+overlay "Ordered_wshed_'study area'" (must be the entire watershed, even if they are outside the
+ 	study area boundary)
+save as: "'study area'_streamorder_by_wshed"
+in ...\'study area'\VectorData\StreamOrderbysmallwshed\
+
+Add fields to "'study area'_streamorder_by_wshed"
+"meter_leng" = length in meters of stream segments
+"feet_lengt" = "meter_leng" * 3.281 - length in feet of stream segments
+"sum_ft_wsh" as double - total stream length in feet based on watershed (calculated later)
+
+Dissolve to calculate total length of streams in each watershed
+input "'study area'_StreamOrder_by_wshed"
+field: "Unique_id"
+Additional fields: "Feet_lengt" as sum
+save as: "'study area'_StreamOrder_by_wshed_dissolve"
+in: \'study area'\VectorData\StreamOrder-by_Smallwshed\
+
+Join attributes   right click on "'study area'_StreamOrder_by_wshed"
+join based on "unique_id"
+to: "'study area'_StreamOrder_by_wshed_dissolve\
+based on "Unique_ID"
+
+Calculate Field: 
+"Sum_ft_wsh" = "Sum_feet_L" from "'study area'_StreamOrder_by_wshed_dissolve"
+
+Remove Joins
+
+Dissolve to calculate length for 1st order &amp; 2nd order streams by wshed
+Select all 1st order streams (strahler = 1) in "'study area'_StreamOrder_byWshed"
+input: "'study area'_StreamOrder_by_wshed"
+field: "unique_id"
+Additional Fields: "Feet_lengt" as sum
+save as: "Firstorder_by_wshed_dissolve"
+
+Select all 2nd order streams (Strahler = 2) from "'study area'_StreamOrder_by_wshed"
+ input "'study area'_StreamOrder_by_wshed"
+field: "Unique_ID"
+save as: "SecondOrder_by_wshed_Dissolve"
+in \VectorData\StreamOrder_by_SmallWshed\expanded_Ridge_and_Valley\
+
+Add fields to "'study area'_StreamOrder_by_wshed"
+"1st Ord_len"  - length of 1st order streams by wshed
+"2ndOrd_len" - length of 2nd order streams by wshed
+
+Join attributes - right click on "'study area'_StreamOrder_by_wshed"
+based on "Unique_ID"
+a.) to "firstorder_by_wshed dissolve
+	calculate value for "1stOrdLen" = "firstorderbywshed_dissolve_sum_feet_L"
+
+b.) to "secondorder_by_wshed_dissolve"
+	calculate value for "2ndOrdLen" = "SecondOrder_by_wshed_dissolve_sum_feet_L"
+
+Add and calculate fields to "'study area'_StreamOrder_by_wshed"
+"1_2_ord_le" = (1stOrd_len) + (2ndOrd_len) - length of 1st &amp; 2nd order streams in feet
+"1_2_Perdec" = (1_2_ord_le) / (Sum_ft_wsh)  - % of 1st &amp; 2nd Order stream length as % of overall
+ 	stream length within watershed in decimals
+"Percent1_2" = (1_2_perdec) * 100  -  % of 1st &amp; 2nd Order stream length as % of overall stream
+ 	length within watershed in %
+
+Convert to Raster
+Use 'study area' as mask
+Input: "Orderedwshed_'study area'"
+Field: "Percent 1_2"
+Save as: "wshed_1_2OrSt"
+in ...\'study area'\individual_grid\first_and_second_order_streams_as_wshed\original\
+
+Convert to Integer Raster: &amp; add .5 to the value because conversion to integer rounds down &amp; this will correct the rounding effect.
+Use 'study area' as mask
+Raster calc: 
+INT ([wshed_1_2or St] + 0.5)
+Save as: "Int_1_2orStws"
+in \'study area'\Individual_grid\first_and_second_Order_Streams_as_wshed\integer\
+
+Reclassify based on 10 Quantiles
+Expanded Piedmont and Expanded Ridge &amp; Valley			
+Old Values		New Values
+    0-42			         1
+   42-59		         2
+   59-66		         3
+   66-70		         4
+   70-75		         5
+   75-78		         6
+   78-83		         7
+   83-89		         8
+   89-99		         9
+  99-100		        10
+save as: "'study area'_WS_1_2 or _R"
+in 'study area'\Interim_Ranked_Grids\ FirstandSecond_order_Streams\
+Calculate percent of Forested Land Cover as percent of overall land cover in watershed
+Create Forest land cover grid
+Reclassify
+input: "'study area' LC_2000" (use most recent land cover) (clipped to study area)
+field: value
+
+	Old Value			New Value
+	1 (water		  	No Data
+`	2 (Low Dens Urban)	 	No Data
+	3 (High Dens Urban)	   	No Data
+	4 (Hay Pasture)	   		No Data
+	5 (Row Crops)		   	No Data
+	6 not in area		     	 -----
+	7 (Coniferous Forest)	         	1
+	8 (Mixed Forest)	         	1
+	9 (Deciduous Forest)	         	1
+	10 (Woody Wetland)	         	1
+	11 (Emergent Wetland)       	No Data
+	12 (Quarries)			No Data
+	13 (Coal Mine)			No Data
+	14 not in area		     	----
+	15 transitional			No Data
+
+Save as: " 'study area'_Forested"
+in \'study area'\individual_grid \Forested_LandCover\
+
+** Use the appropriate gridcode that represents water, forest, and wetlands land cover, the gridcode will probably be different in updated land cover
+
+Convert to Features
+Input: "'study area'_Forested_2000"
+in: 'study area'\VectorData\LandCover\
+
+Intersect
+Input: "'study area'_Forested_2000" 
+Overlay: "Orderedwshed_'study area'"
+save as: 'study area'_Forest_2000_by_wshed"
+in: 'study area'\VectorData\landcover_bySmallwshed\
+
+Dissolve 
+Input: "'study area'_forest_2000_bywshed"
+field: "unique ID"
+additional fields: "Name" as first
+save as: "'study area'_forest_2000_bywshed_dissolve
+in: \VectorData\LandCover_bySmallwshed\
+	
+Add fields
+"forest_SQM" - sq. meters of forest within watershed
+"forest_acr" - acreage of forest within watershed
+
+
+Join attributes - right click "Ordered wshed_'study area'"
+	based on "unique_id"
+	to "'study area'_Forest_2000_bywshed_dissolve"
+	based on "unique_id"
+
+Calculate fields
+	"forest_SQM" = "'study area'_Forest_2000_bywshed_dissolve_forest_SQM"
+	"forest_Acr" = "'study area'_Forest_2000_bywshed_dissolve_forest_ACR"
+
+Remove joins
+
+Add and Calculate fields
+	"Forest_dec" = (Forest_Acr)/ (Acre_wshed)   - % of forest within wshed as decimal
+	"Forest_per" = (Forest_dec) * 100   - % of forest within wshed as percent
+
+Convert to Raster
+Use 'study area'
+Input: "Orderedwshed_'study area'"
+Field: "Forest_per"
+save as: "Forest_wshed"
+in ...'study area'\indivgrid\Forested_wshed\original
+
+Convert to integer Raster &amp; add 0.5 to the value because the conversion rounds down &amp; this will correct the problem.
+Raster calc: INT ([forest_wshed] + 0.5)
+save as: "int_forest_ws"
+in ...'study area'\indivgrid\ Forested_wshed\integer\
+
+Reclassify tovalue based on 10 quantiles
+input: "int_Forest_WS"
+field "value"
+	Old Value		New Value
+	0-10			        1
+	10-18			        2
+	18-23			        3
+	23-28			        4
+	28-33			        5
+	33-40			        6
+	40-45			        7
+	45-53			        8
+	53-66			        9
+	66-100			        10
+
+save as: "Forest_WS_Ra"
+in ...'study area'\Interim_Ranked_Grids\ Forested_wshed\
+
+
+Add percent of 1st &amp; 2nd order stream length as percent of overall streams in watershed and
+percent of Forested Land Cover as percent of overall land cover in watershed
+
+Add two layers together &amp; divide by 2 to bring back to 0-10 range
+RasterCalc: ([RV_WS1_2or R] + [ForestWS_Ra])   2</procdesc>
+        <procdate>2003-2005</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Aquatic\riparian buffer quality expanded piedmont.xml</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>Y:\ArcGIS_Projects\Smart Conservation Documentation\Metadata\Expanded Piedmont Ecoregion\Aquatic\water quality 303d 305b.xml</srcused>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>8320</rowcount>
+      <colcount>10625</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>18</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-75.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+calc2</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <resdesc>downloadabledata</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize>2.103</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.
+
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20060517</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Natural Lands Trust</cntorg>
+          <cntper>Diane Rosencrance</cntper>
+        </cntorgp>
+        <cntpos>GIS Program Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1031 Palmers Mill Road</address>
+          <city>Media</city>
+          <state>PA</state>
+          <postal>19063</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>610-353-5587</cntvoice>
+        <cntemail>drosencrance@natlands.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <ModDate>20080612</ModDate>
+    <ModTime>10332700</ModTime>
+  </Esri>
+  <mdDateSt Sync="TRUE">20080612</mdDateSt>
+</metadata>

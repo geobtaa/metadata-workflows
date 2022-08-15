@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Pennsylvania Sea Grant</origin>
+        <pubdate>2012</pubdate>
+        <title>Lake Erie Watershed - Erie PA, Impervious Surfaces Mapping</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.paseagrant.org/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2012</caldate>
+        </sngdate>
+      </timeinfo>
+      <sngdate>
+        <caldate>2012</caldate>
+      </sngdate>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">
+		-80.530849</westbc>
+        <eastbc Sync="TRUE">
+		-79.754820</eastbc>
+        <northbc Sync="TRUE">
+		42.276330</northbc>
+        <southbc Sync="TRUE">
+		41.652700</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">1210000.000000</leftbc>
+        <rightbc Sync="TRUE">1425000.000000</rightbc>
+        <bottombc Sync="TRUE">552500.000000</bottombc>
+        <topbc Sync="TRUE">775000.000000</topbc>
+      </lboundng>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekey>Imagery</themekey>
+        <themekey>LIDAR</themekey>
+        <themekey>Impervious Surfaces Mapping</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>Building Components</themekey>
+        <themekey>Individual elements of impervious surfaces captured as separate features</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Erie</placekey>
+      </place>
+      <temporal>
+        <tempkey>November</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>No restrictions apply to this data.</accconst>
+    <useconst>None.  However, users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Sea Grant - Penn State University</cntorg>
+          <cntper>Sean D. Rafferty</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>Tom Ridge Environmental Center</address>
+          <city>Erie</city>
+          <state>Pennsylvania</state>
+          <postal>16505</postal>
+          <country>USA</country>
+          <address>301 Peninsula Dr., Suite 3</address>
+        </cntaddr>
+        <cntvoice>814-217-9011 ext 102</cntvoice>
+        <hours>unknown </hours>
+        <cntpos>Senior Research and Outreach Specialist</cntpos>
+        <cntemail>sdr138@psu.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>n/a</datacred>
+    <secinfo>
+      <secsys>Unclassified</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>Unclassified</sechandl>
+    </secinfo>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+    <descript>
+      <abstract>Lake_Erie_Watershed_PALE_IC_2012</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <logic>The data is visually inspected by Woolpert, Inc.</logic>
+    <complete>Lake Erie Watershed Impervious Surfaces Mapping.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Horizontal accuracy is +/- 2.5 -foot at the 90% confidence level.</horizpar>
+        <qhorizpa>
+          <horizpav>n/a</horizpav>
+          <horizpae>n/a</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>n/a</vertaccr>
+        <qvertpa>
+          <vertaccv>n/a</vertaccv>
+          <vertacce>n/a</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>PSU</origin>
+            <pubdate>20140124</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>PSU</title>
+            <geoform>vector digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>n/a</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>November 2012</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>impervious surfaces polygons</srccitea>
+        <srccontr>Lidar amd orthophotography</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Using a Leica ALS 70 LiDAR Sensor, 40 flight lines of high density data, at a nominal pulse spacing (NPS) of 1 meter, were collected over the Lake Erie Drainage Basin AOI (approximately  512.4 square miles). Data Acquisition Height = 7,800 feet AGL - Aircraft Speed = 150 Knots. Multiple returns were recorded for each laser pulse along with an intensity value for each return. A total of two (2) missions were flown on November 11, 2012 and November 18, 2012. An airborne global positioning system (GPS) base station was used in support of the LiDAR data acquisition. Twenty-Nine (29) ground control points were surveyed through static methods. The geoid used to reduce satellite derived elevations to orthometric heights was Geoid09. Data for the task order is referenced to the Pennsylvania North Zone State Plane Coordinate System, North American Datum of 1983 (NAD83)(NSRS2007), and NAVD88, in U.S. Feet. Airborne GPS data was differentially processed and integrated with the post processed IMU data to derive a smoothed best estimate of trajectory (SBET). The SBET was used to reduce the LiDAR slant range measurements to a raw reflective surface for each flight line. The coverage was classified to extract a bare earth digital elevation model (DEM) and separate last returns. </procdesc>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The LiDAR system calibration and system performance is verified on a periodic basis using Woolpert's calibration range. The calibration range consists of a large building and runway. The edges of the building and control points along the runway have been located using conventional survey methods. Inertial measurement unit (IMU) misalignment angles and horizontal accuracy are
+calculated by comparing the position of the building edges between opposing flight lines. The scanner scale factor and vertical accuracy is calculated through comparison of LiDAR data against control points along the runway. Field calibration is performed on all flight lines to refine the IMU misalignment angles. IMU misalignment angles are calculated from the relative displacement of features within the overlap region of adjacent (and opposing) flight lines. The raw LiDAR data is reduced using the refined misalignment angles.
+</procdesc>
+        <procdate>2012</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Once the data acquisition and GPS processing phases are complete, the LiDAR data was processed immediately to verify the coverage had no voids. The GPS and IMU data was post processed using differential and Kalman filter algorithms to derive a best estimate of trajectory. The quality of the solution was verified to be consistent with the accuracy requirements of the project.</procdesc>
+        <procdate>20121112</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The individual flight lines were inspected to ensure the systematic and residual errors have been identified and removed. Then, the flight lines were compared to adjacent flight lines for any mismatches to obtain a homogeneous coverage throughout the project area. The point cloud underwent a classification process to determine bare-earth points and non-ground points utilizing "first and only" as well as "last of many" LiDAR returns. This process determined Default (Class 1), Ground (Class 2),Noise (Class 7), Overlap Default(Class 17), and Overlap Ground (Class 18) classifications. The bare-earth (Class 2 - Ground) LiDAR points underwent a manual QA/QC step to verify that artifacts have been removed from the bare-earth surface. The surveyed ground control points are used to perform the accuracy checks and statistical analysis of the LiDAR dataset.</procdesc>
+        <procdate>20121119</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>To produce the color digital orthophotos with a 0.5 foot pixel GSD, Woolpert obtained aerial photography according to the following specifications:
+Camera: Leica ADS80-SH81/82 Airborne Digital Sensor
+Flying Height: 4,800' AGL for a nominal 0.5 foot pixel GSD
+Imagery Type: RGB+NIR
+Side Lap: 30%
+The imagery was acquired using the Leica ADS80-SH81/82 multispectral scanner. The fundamental resolution of the imagery was 0.5 foot. The ADS80-SH81/82 utilizes the Applanix POSAV direct positioning and orientation system that is based on airborne GPS and inertial measurement unit (IMU) technology. POSAV data were reduced using the Applanix POSPAC software package (V4.3). All of the source imagery was processed using the Leica GPRO (V3.2) software package. This package provides the capability to perform digital mage processing, aerial triangulation, and image rectification. The strips of imagery were ortho rectified to existing digtial elevation model (DEM) data. The individual rectified strips of ortho rectified imagery were then mosaicked together to form a seamless imagery database over the entire task order area using the OrthoVista software (V4.3) by Inpho GmbH. The final digital orthophoto imagery tiles were extracted using OrthoVista.</procdesc>
+        <procdate>Unknown</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+              <cntper>Geospatial Services</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>To produce a map that details the location and extent of impervious surfaces throughout the Erie Watershed project area.  The process of impervious surfaces delineation began with object-based image analysis and automated feature extraction.  Object-based image analysis was performed on the 4 band orthophotography (red, green, blue and near infra-red).  This image analysis produced rough and generalized polygons that showed the extent of impervious surfaces.  These polygons were then augmented by Lidar through the process of automated feature extraction. The generalized polygons were then smoothed and analyzed in order to ensure they meet and/or exceed the set positional accuracy of +/- 2.5 feet as well as an overall classification accuracy of 90% consistent with NSSDA/NMAS specifications. 95% of impervious features larger than 100 square feet were and 98% of impervious object larger than 200 square feet were captured.  The final polygons were delivered as a ESRI file geodatabase (version 10.1).</procdesc>
+        <procdate>Unknown</procdate>
+        <proctime>1200</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+              <cntper>Geospatial Services</cntper>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>0.50000</absres>
+            <ordres>0.50000</ordres>
+          </coordrep>
+          <plandu>feet</plandu>
+        </planci>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>3701</spcszone>
+            <lambertc>
+              <stdparll>40.88333333</stdparll>
+              <stdparll>41.95000000</stdparll>
+              <longcm>-77.75000000</longcm>
+              <latprjo>40.16666667</latprjo>
+              <feast>1968500.00000000</feast>
+              <fnorth>0.00000000</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn>GCS_North_American_1983_HARN</geogcsn>
+        <projcsn>NAD_1983_HARN_StatePlane_Pennsylvania_North_FIPS_3701_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 HARN</altdatum>
+        <altres>.5</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Woolpert, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>Geospatial Services</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>4454 Idea Center Blvd.</address>
+          <city>Dayton</city>
+          <state>OH</state>
+          <postal>45430</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(937) 461-5660</cntvoice>
+        <cntfax>(937) 461-0743</cntfax>
+        <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Hard Drive</resdesc>
+    <distliab>No warranty expressed or implied is made regarding the utility or the data on any other system, nor shall the act of distribution constitute any such warranty</distliab>
+    <stdorder>
+      <nondig>ESRI Geodatabase on HD</nondig>
+      <fees>None</fees>
+      <ordering>Upon request from distributor.  Data release caveats may apply</ordering>
+      <turnarnd>Variable</turnarnd>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>2014</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metsi>
+      <metscs>Unclassified</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>Unclassified</metshd>
+    </metsi>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

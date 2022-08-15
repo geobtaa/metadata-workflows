@@ -1,0 +1,981 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Bureau of Recreation and Conservation, Pennsylvania Department of Conservation and Natural Resources, GIS Specialist</origin>
+        <pubdate>201703</pubdate>
+        <title>Explore PA Trails - Trails</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://www.pasda.psu.edu/</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>201703</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Downloadable Data</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-80.597789</westbc>
+        <eastbc>-74.689450</eastbc>
+        <northbc>42.267874</northbc>
+        <southbc>39.554068</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>rail-trails, bike trails, multi-use paths, hiking trails, state park trails, state forest trails, water trails, Rails-to-Trails Conservancy</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>ISO 19115</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>GIS Specialist</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+    <descript>
+      <abstract>ExplorePAtrails_Trails201703</abstract>
+    </descript>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>659</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ExplorePAtrails_Trails201703</enttypl>
+        <enttypd>Internal feature number.</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME01</attrlabl>
+        <attrdef>Local Trail Name</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NAME02</attrlabl>
+        <attrdef>Name of  larger trail network that contains trail.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NAME03</attrlabl>
+        <attrdef>Name of second larger trail network that contains trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FROM_</attrlabl>
+        <attrdef>Place name  for beginning point of trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TO_</attrlabl>
+        <attrdef>Place name for the ending point of trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Name of county(s) that contain trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTIO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HIKING</attrlabl>
+        <attrdef>Is trail suitable for hiking?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BIKING</attrlabl>
+        <attrdef>Is trail suitable for biking?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EQUESTRIAN</attrlabl>
+        <attrdef>Is trail suitable for horseback riding?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CROSS_COUN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>INTERPRETI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ATV</attrlabl>
+        <attrdef>Is trail suitable for all-terrain vehicle riding?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SNOWMOBILE</attrlabl>
+        <attrdef>Is trail suitable for snowmobiling?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OFF_ROAD_M</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FOUR_WHEEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RORT</attrlabl>
+        <attrdef>Is trail segment on a road or trail?
+1 = OFF ROAD/TRAIL; 2 = ON ROAD; 3 = BOTH</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>OFF ROAD/TRAIL</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>ON ROAD</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>BOTH</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RAILINE</attrlabl>
+        <attrdef>Is trail located on a former rail corridor?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURFACE</attrlabl>
+        <attrdef>Primary surface material of trail
+Surface Type(s), 1 = ASPHALT; 2 = LIMESTONE; 3 = NATURAL SURFACE (UNIMPROVED); 4 = OTHER</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADA_ACCESS</attrlabl>
+        <attrdef>Is the trail segment ADA accessible?
+1 = YES; 2 = NO</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>YES</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>NO</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MGMT</attrlabl>
+        <attrdef>Managing entity, primary organization/agency responsible for maintaining trail</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_ADDR</attrlabl>
+        <attrdef>Street address of managing entity</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_CITY</attrlabl>
+        <attrdef>City of managing entity</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_STATE</attrlabl>
+        <attrdef>State of managing entity</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_ZIP</attrlabl>
+        <attrdef>Zip code of managing entity</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_WEBSI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_CONTA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_CON_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGMT_CON_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UPDATE_</attrlabl>
+        <attrdef>Date trail was last updated in database</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Other Comments</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACCT_ID</attrlabl>
+        <attrdef>Unique numeric ID for trail point feature</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACCOLADE</attrlabl>
+        <attrdef>Has this trail received any special merit?</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TRAILID</attrlabl>
+        <attrdef>Unique numeric ID for trail line feature</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WATER_TRAI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MILES</attrlabl>
+        <attrdef>Length of the trail in Miles (mi)</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DIFFICULTY</attrlabl>
+        <attrdef>Difficulty rating of the trail
+1 = EASY; 2 = MODERATE; 3 = DIFFICULT</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>EASY</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>MODERATE</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>DIFFICULT</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LEN</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>Access by authorization of PA DCNR</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>7.210</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>201703</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Department of Conservation and Natural Resources</cntorg>
+          <cntper>Bureau of Recreation and Conservation</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>400 Market Street, 5th Floor, P.O. Box 8475</address>
+          <city>Harrisburg</city>
+          <state>Pennsylvania</state>
+          <postal>17105-8475</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>717-787-7672</cntvoice>
+        <cntfax>717-717-9577</cntfax>
+        <cntemail>RA-explorepatrails@pa.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Bureau of Recreation and Conservation</rpIndName>
+    <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+    <rpPosName>GIS Specialist</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>717-787-7672</voiceNum>
+        <faxNum>717-717-9577</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+        <city>Harrisburg</city>
+        <adminArea>Pennsylvania</adminArea>
+        <postCode>17105-8475</postCode>
+        <country>US</country>
+        <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170306</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <distInfo>
+    <distributor>
+      <distorOrdPrc />
+      <distorFormat>
+        <formatName>SDE Feature Class</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Explore PA Trails - Trails</resTitle>
+      <date>
+        <pubDate>2017-02-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Bureau of Recreation and Conservation, Pennsylvania Department of Conservation and Natural Resources, GIS Specialist</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>vector digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This feature class contains centerline data for trails in the state of Pennsylvania, as prepared by the Pennsylvania Department of Conservation and Natural Resources, Rails-to-Trails Conservancy, PA Fish and Boat Commission, and the Keystone Trails Association. The majority of the data was collected using GPS units and checked for quality and accuracy against high-resolution aerial imagery. See Method. GPS data was collected between November 2007 and October 2009. Trail updates are submitted by users through explorepatrails.com and are evaluated and updated on a regular basis.</idAbs>
+    <idPurp>Developed for Pennsylvania Dept. of Conservation and Natural Resources and www.ExplorePAtrails.com.</idPurp>
+    <idStatus>
+      <ProgCd value="007" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>GIS Specialist</rpIndName>
+      <rpOrgName>Pennsylvania Department of Conservation and Natural Resources</rpOrgName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>717-787-7672</voiceNum>
+          <faxNum>717-717-9577</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>400 Market Street, 5th Floor, P.O. Box 8475</delPoint>
+          <city>Harrisburg</city>
+          <adminArea>Pennsylvania</adminArea>
+          <postCode>17105-8475</postCode>
+          <country>US</country>
+          <eMailAdd>RA-explorepatrails@pa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="006" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>ISO 19115</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>transportation</keyword>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+    </themeKeys>
+    <themeKeys>
+      <keyword>rail-trails</keyword>
+      <keyword>bike trails</keyword>
+      <keyword>multi-use paths</keyword>
+      <keyword>hiking trails</keyword>
+      <keyword>state park trails</keyword>
+      <keyword>state forest trails</keyword>
+      <keyword>water trails</keyword>
+      <keyword>Rails-to-Trails Conservancy</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>ISO 19115</keyword>
+      <keyword>transportation</keyword>
+      <keyword>rail-trails</keyword>
+      <keyword>bike trails</keyword>
+      <keyword>multi-use paths</keyword>
+      <keyword>hiking trails</keyword>
+      <keyword>state park trails</keyword>
+      <keyword>state forest trails</keyword>
+      <keyword>water trails</keyword>
+      <keyword>Rails-to-Trails Conservancy</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Access by authorization of PA DCNR</useLimit>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>For use by Pennsylvania Dept. of Conservation and Natural Resource.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="018" />
+    </tpCat>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-80.597789</westBL>
+          <eastBL>-74.68945</eastBL>
+          <southBL>39.554068</southBL>
+          <northBL>42.267874</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>Downloadable Data</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2017-02-01</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <geometObjs>
+        <geoObjTyp>
+          <GeoObjTypCd value="002" />
+        </geoObjTyp>
+        <geoObjCnt>659</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170307</CreaDate>
+    <CreaTime>08515200</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="fb6f7db81faec677dd13fd658ea8acd" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+QnVyZWF1IG9mIFJlY3JlYXRpb24gYW5kIENvbnNlcnZhdGlvbiwgUGVubnN5bHZhbmlhIERlcGFy
+dG1lbnQgb2YgQ29uc2VydmF0aW9uIGFuZCBOYXR1cmFsIFJlc291cmNlcywgR0lTIFNwZWNpYWxp
+c3Q8L29yaWdpbj4NCiAgICAgICAgPHB1YmRhdGU+MjAxNzAyMDE8L3B1YmRhdGU+DQogICAgICAg
+IDx0aXRsZT5FeHBsb3JlIFBBIFRyYWlscyAtIFRyYWlsczwvdGl0bGU+DQogICAgICAgIDxnZW9m
+b3JtPnZlY3RvciBkaWdpdGFsIGRhdGE8L2dlb2Zvcm0+DQogICAgICA8L2NpdGVpbmZvPg0KICAg
+IDwvY2l0YXRpb24+DQogICAgPGRlc2NyaXB0Pg0KICAgICAgPGFic3RyYWN0PlRoaXMgZmVhdHVy
+ZSBjbGFzcyBjb250YWlucyBjZW50ZXJsaW5lIGRhdGEgZm9yIHRyYWlscyBpbiB0aGUgc3RhdGUg
+b2YgUGVubnN5bHZhbmlhLCBhcyBwcmVwYXJlZCBieSB0aGUgUGVubnN5bHZhbmlhIERlcGFydG1l
+bnQgb2YgQ29uc2VydmF0aW9uIGFuZCBOYXR1cmFsIFJlc291cmNlcywgUmFpbHMtdG8tVHJhaWxz
+IENvbnNlcnZhbmN5LCBQQSBGaXNoIGFuZCBCb2F0IENvbW1pc3Npb24sIGFuZCB0aGUgS2V5c3Rv
+bmUgVHJhaWxzIEFzc29jaWF0aW9uLiBUaGUgbWFqb3JpdHkgb2YgdGhlIGRhdGEgd2FzIGNvbGxl
+Y3RlZCB1c2luZyBHUFMgdW5pdHMgYW5kIGNoZWNrZWQgZm9yIHF1YWxpdHkgYW5kIGFjY3VyYWN5
+IGFnYWluc3QgaGlnaC1yZXNvbHV0aW9uIGFlcmlhbCBpbWFnZXJ5LiBTZWUgTWV0aG9kLiBHUFMg
+ZGF0YSB3YXMgY29sbGVjdGVkIGJldHdlZW4gTm92ZW1iZXIgMjAwNyBhbmQgT2N0b2JlciAyMDA5
+LiBUcmFpbCB1cGRhdGVzIGFyZSBzdWJtaXR0ZWQgYnkgdXNlcnMgdGhyb3VnaCBleHBsb3JlcGF0
+cmFpbHMuY29tIGFuZCBhcmUgZXZhbHVhdGVkIGFuZCB1cGRhdGVkIG9uIGEgcmVndWxhciBiYXNp
+cy48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+RGV2ZWxvcGVkIGZvciBQZW5uc3lsdmFuaWEg
+RGVwdC4gb2YgQ29uc2VydmF0aW9uIGFuZCBOYXR1cmFsIFJlc291cmNlcyBhbmQgd3d3LkV4cGxv
+cmVQQXRyYWlscy5jb20uPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJk
+Pg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0
+ZT4yMDE3MDIwMTwvY2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5m
+bz4NCiAgICAgIDxjdXJyZW50PkRvd25sb2FkYWJsZSBEYXRhPC9jdXJyZW50Pg0KICAgIDwvdGlt
+ZXBlcmQ+DQogICAgPHN0YXR1cz4NCiAgICAgIDxwcm9ncmVzcz5JbiB3b3JrPC9wcm9ncmVzcz4N
+CiAgICAgIDx1cGRhdGU+UXVhcnRlcmx5PC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPHNw
+ZG9tPg0KICAgICAgPGJvdW5kaW5nPg0KICAgICAgICA8d2VzdGJjPi04MC41OTc3ODk8L3dlc3Ri
+Yz4NCiAgICAgICAgPGVhc3RiYz4tNzQuNjg5NDUwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJj
+PjQyLjI2Nzg3NDwvbm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+MzkuNTU0MDY4PC9zb3V0aGJj
+Pg0KICAgICAgPC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAg
+IDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+Tm9uZTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1l
+a2V5PnJhaWwtdHJhaWxzLCBiaWtlIHRyYWlscywgbXVsdGktdXNlIHBhdGhzLCBoaWtpbmcgdHJh
+aWxzLCBzdGF0ZSBwYXJrIHRyYWlscywgc3RhdGUgZm9yZXN0IHRyYWlscywgd2F0ZXIgdHJhaWxz
+LCBSYWlscy10by1UcmFpbHMgQ29uc2VydmFuY3k8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4N
+CiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+SVNPIDE5MTE1IFRvcGljIENhdGVnb3Jp
+ZXM8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT50cmFuc3BvcnRhdGlvbjwvdGhlbWVrZXk+
+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHBsYWNlPg0KICAgICAgICA8cGxhY2VrdD5Ob25lPC9w
+bGFjZWt0Pg0KICAgICAgICA8cGxhY2VrZXk+SVNPIDE5MTE1PC9wbGFjZWtleT4NCiAgICAgIDwv
+cGxhY2U+DQogICAgPC9rZXl3b3Jkcz4NCiAgICA8YWNjY29uc3Q+Tm9uZTwvYWNjY29uc3Q+DQog
+ICAgPHVzZWNvbnN0PkZvciB1c2UgYnkgUGVubnN5bHZhbmlhIERlcHQuIG9mIENvbnNlcnZhdGlv
+biBhbmQgTmF0dXJhbCBSZXNvdXJjZS48L3VzZWNvbnN0Pg0KICAgIDxwdGNvbnRhYz4NCiAgICAg
+IDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBlbm5zeWx2
+YW5pYSBEZXBhcnRtZW50IG9mIENvbnNlcnZhdGlvbiBhbmQgTmF0dXJhbCBSZXNvdXJjZXM8L2Nu
+dG9yZz4NCiAgICAgICAgICA8Y250cGVyPkdJUyBTcGVjaWFsaXN0PC9jbnRwZXI+DQogICAgICAg
+IDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxp
+bmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz40MDAgTWFya2V0
+IFN0cmVldCwgNXRoIEZsb29yLCBQLk8uIEJveCA4NDc1PC9hZGRyZXNzPg0KICAgICAgICAgIDxj
+aXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5pYTwvc3Rh
+dGU+DQogICAgICAgICAgPHBvc3RhbD4xNzEwNS04NDc1PC9wb3N0YWw+DQogICAgICAgICAgPGNv
+dW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNudHZvaWNl
+PjcxNy03ODctNzY3MjwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcxNy05NTc3PC9j
+bnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5SQS1leHBsb3JlcGF0cmFpbHNAcGEuZ292PC9jbnRl
+bWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxwdGNvbnRhYz4N
+CiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250b3JnPlBl
+bm5zeWx2YW5pYSBEZXBhcnRtZW50IG9mIENvbnNlcnZhdGlvbiBhbmQgTmF0dXJhbCBSZXNvdXJj
+ZXM8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPkdJUyBTcGVjaWFsaXN0PC9jbnRwZXI+DQog
+ICAgICAgIDwvY250b3JncD4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBl
+Pm1haWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz40MDAg
+TWFya2V0IFN0cmVldCwgNXRoIEZsb29yLCBQLk8uIEJveCA4NDc1PC9hZGRyZXNzPg0KICAgICAg
+ICAgIDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5p
+YTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNzEwNS04NDc1PC9wb3N0YWw+DQogICAgICAg
+ICAgPGNvdW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNu
+dHZvaWNlPjcxNy03ODctNzY3MjwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcxNy05
+NTc3PC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5SQS1leHBsb3JlcGF0cmFpbHNAcGEuZ292
+PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxuYXRp
+dmU+TWljcm9zb2Z0IFdpbmRvd3MgNyBWZXJzaW9uIDYuMSAoQnVpbGQgNzYwMSkgU2VydmljZSBQ
+YWNrIDE7IEVzcmkgQXJjR0lTIDEwLjIuMi4zNTUyPC9uYXRpdmU+DQogIDwvaWRpbmZvPg0KICA8
+c3Bkb2luZm8+DQogICAgPGRpcmVjdD5WZWN0b3I8L2RpcmVjdD4NCiAgICA8cHR2Y3RpbmY+DQog
+ICAgICA8c2R0c3Rlcm0+DQogICAgICAgIDxzZHRzdHlwZT5TdHJpbmc8L3NkdHN0eXBlPg0KICAg
+ICAgICA8cHR2Y3RjbnQ+NjU5PC9wdHZjdGNudD4NCiAgICAgIDwvc2R0c3Rlcm0+DQogICAgPC9w
+dHZjdGluZj4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAg
+IDxnZW9ncmFwaD4NCiAgICAgICAgPGxhdHJlcz44Ljk4MzE1Mjg0MTE5NTIxMzNlLTAwOTwvbGF0
+cmVzPg0KICAgICAgICA8bG9uZ3Jlcz44Ljk4MzE1Mjg0MTE5NTIxMzNlLTAwOTwvbG9uZ3Jlcz4N
+CiAgICAgICAgPGdlb2d1bml0PkRlY2ltYWwgRGVncmVlczwvZ2VvZ3VuaXQ+DQogICAgICA8L2dl
+b2dyYXBoPg0KICAgICAgPGdlb2RldGljPg0KICAgICAgICA8aG9yaXpkbj5EIE5vcnRoIEFtZXJp
+Y2FuIDE5ODM8L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+R1JTIDE5ODA8L2VsbGlwcz4NCiAg
+ICAgICAgPHNlbWlheGlzPjYzNzgxMzcuMDwvc2VtaWF4aXM+DQogICAgICAgIDxkZW5mbGF0PjI5
+OC4yNTcyMjIxMDE8L2RlbmZsYXQ+DQogICAgICA8L2dlb2RldGljPg0KICAgIDwvaG9yaXpzeXM+
+DQogIDwvc3ByZWY+DQogIDxlYWluZm8+DQogICAgPGRldGFpbGVkPg0KICAgICAgPGVudHR5cD4N
+CiAgICAgICAgPGVudHR5cGw+RXhwbG9yZVBBdHJhaWxzX1RyYWlsczIwMTcwMzwvZW50dHlwbD4N
+CiAgICAgICAgPGVudHR5cGQ+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9lbnR0eXBkPg0KICAg
+ICAgICA8ZW50dHlwZHM+RVNSSTwvZW50dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxh
+dHRyPg0KICAgICAgICA8YXR0cmxhYmw+RklEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+
+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RXNy
+aTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5TZXF1ZW50
+aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVk
+LjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRy
+Pg0KICAgICAgICA8YXR0cmxhYmw+T0JKRUNUSUQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRl
+Zj5JbnRlcm5hbCBmZWF0dXJlIG51bWJlci48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5F
+U1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPlNlcXVl
+bnRpYWwgdW5pcXVlIHdob2xlIG51bWJlcnMgdGhhdCBhcmUgYXV0b21hdGljYWxseSBnZW5lcmF0
+ZWQuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5TSEFQRTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVm
+PkZlYXR1cmUgZ2VvbWV0cnkuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0
+cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5Db29yZGluYXRlcyBk
+ZWZpbmluZyB0aGUgZmVhdHVyZXMuPC91ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5OQU1FMDE8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5Mb2NhbCBUcmFpbCBOYW1lPC9hdHRyZGVmPg0KICAgICAgICA8
+YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsPk5BTUUwMjwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPk5hbWUg
+b2YgIGxhcmdlciB0cmFpbCBuZXR3b3JrIHRoYXQgY29udGFpbnMgdHJhaWwuPC9hdHRyZGVmPg0K
+ICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAgICA8
+YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk5BTUUwMzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRy
+ZGVmPk5hbWUgb2Ygc2Vjb25kIGxhcmdlciB0cmFpbCBuZXR3b3JrIHRoYXQgY29udGFpbnMgdHJh
+aWw8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgIDwv
+YXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+RlJPTV88L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5QbGFjZSBuYW1lICBmb3IgYmVnaW5uaW5nIHBvaW50IG9mIHRyYWls
+PC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICA8L2F0
+dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlRPXzwvYXR0cmxhYmw+DQogICAg
+ICAgIDxhdHRyZGVmPlBsYWNlIG5hbWUgZm9yIHRoZSBlbmRpbmcgcG9pbnQgb2YgdHJhaWw8L2F0
+dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+Q09VTlRZPC9hdHRybGFibD4NCiAgICAg
+ICAgPGF0dHJkZWY+TmFtZSBvZiBjb3VudHkocykgdGhhdCBjb250YWluIHRyYWlsPC9hdHRyZGVm
+Pg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICA8L2F0dHI+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkRFU0NSSVBUSU88L2F0dHJsYWJsPg0KICAgICAg
+PC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5ISUtJTkc8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0cmRlZj5JcyB0cmFpbCBzdWl0YWJsZSBmb3IgaGlraW5nPw0KMSA9IFlF
+UzsgMiA9IE5PPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQog
+ICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4x
+PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+WUVTPC9lZG9tdmQ+DQogICAgICAgICAgICA8
+ZWRvbXZkcz5FU1JJPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRv
+bT4NCiAgICAgICAgICAgIDxlZG9tdj4yPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tk88
+L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAgICAgICAg
+PC9lZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibD5CSUtJTkc8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5J
+cyB0cmFpbCBzdWl0YWJsZSBmb3IgYmlraW5nPw0KMSA9IFlFUzsgMiA9IE5PPC9hdHRyZGVmPg0K
+ICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAg
+ICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4xPC9lZG9tdj4NCiAgICAgICAgICAg
+IDxlZG9tdmQ+WUVTPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5FU1JJPC9lZG9tdmRz
+Pg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9t
+dj4yPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tk88L2Vkb212ZD4NCiAgICAgICAgICAg
+IDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICA8L2F0
+dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5F
+UVVFU1RSSUFOPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+SXMgdHJhaWwgc3VpdGFibGUg
+Zm9yIGhvcnNlYmFjayByaWRpbmc/DQoxID0gWUVTOyAyID0gTk88L2F0dHJkZWY+DQogICAgICAg
+IDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAg
+IDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjE8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212
+ZD5ZRVM8L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAg
+ICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjI8L2Vk
+b212Pg0KICAgICAgICAgICAgPGVkb212ZD5OTzwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212
+ZHM+RVNSSTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkNST1NTX0NP
+VU48L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibD5JTlRFUlBSRVRJPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+QVRWPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+SXMgdHJh
+aWwgc3VpdGFibGUgZm9yIGFsbC10ZXJyYWluIHZlaGljbGUgcmlkaW5nPw0KMSA9IFlFUzsgMiA9
+IE5PPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICAg
+IDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4xPC9lZG9t
+dj4NCiAgICAgICAgICAgIDxlZG9tdmQ+WUVTPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZk
+cz5FU1JJPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAg
+ICAgICAgICAgIDxlZG9tdj4yPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tk88L2Vkb212
+ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9t
+Pg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAg
+ICAgIDxhdHRybGFibD5TTk9XTU9CSUxFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+SXMg
+dHJhaWwgc3VpdGFibGUgZm9yIHNub3dtb2JpbGluZz8NCjEgPSBZRVM7IDIgPSBOTzwvYXR0cmRl
+Zj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+
+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MTwvZWRvbXY+DQogICAgICAg
+ICAgICA8ZWRvbXZkPllFUzwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RVNSSTwvZWRv
+bXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8
+ZWRvbXY+MjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPk5PPC9lZG9tdmQ+DQogICAgICAg
+ICAgICA8ZWRvbXZkcz5FU1JJPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAg
+PC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+T0ZGX1JPQURfTTwvYXR0cmxhYmw+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAg
+ICAgICAgPGF0dHJsYWJsPkZPVVJfV0hFRUw8L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAg
+ICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5ST1JUPC9hdHRybGFibD4NCiAgICAgICAgPGF0
+dHJkZWY+SXMgdHJhaWwgc2VnbWVudCBvbiBhIHJvYWQgb3IgdHJhaWw/DQoxID0gT0ZGIFJPQUQv
+VFJBSUw7IDIgPSBPTiBST0FEOyAzID0gQk9USDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZz
+PkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVkb20+DQog
+ICAgICAgICAgICA8ZWRvbXY+MTwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPk9GRiBST0FE
+L1RSQUlMPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5FU1JJPC9lZG9tdmRzPg0KICAg
+ICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4yPC9l
+ZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+T04gUk9BRDwvZWRvbXZkPg0KICAgICAgICAgICAg
+PGVkb212ZHM+RVNSSTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVk
+b20+DQogICAgICAgICAgICA8ZWRvbXY+MzwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkJP
+VEg8L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAgICAg
+ICAgPC9lZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5SQUlMSU5FPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJk
+ZWY+SXMgdHJhaWwgbG9jYXRlZCBvbiBhIGZvcm1lciByYWlsIGNvcnJpZG9yPw0KMSA9IFlFUzsg
+MiA9IE5PPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAg
+ICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4xPC9l
+ZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+WUVTPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRv
+bXZkcz5FU1JJPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4N
+CiAgICAgICAgICAgIDxlZG9tdj4yPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+Tk88L2Vk
+b212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8L2Vkb212ZHM+DQogICAgICAgICAgPC9l
+ZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibD5TVVJGQUNFPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+UHJp
+bWFyeSBzdXJmYWNlIG1hdGVyaWFsIG9mIHRyYWlsDQpTdXJmYWNlIFR5cGUocyksIDEgPSBBU1BI
+QUxUOyAyID0gTElNRVNUT05FOyAzID0gTkFUVVJBTCBTVVJGQUNFIChVTklNUFJPVkVEKTsgNCA9
+IE9USEVSPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkFEQV9BQ0NFU1M8L2F0
+dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5JcyB0aGUgdHJhaWwgc2VnbWVudCBBREEgYWNjZXNz
+aWJsZT8NCjEgPSBZRVM7IDIgPSBOTzwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8
+L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRvbXY+DQogICAgICAgICAgPGVkb20+DQogICAgICAg
+ICAgICA8ZWRvbXY+MTwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPllFUzwvZWRvbXZkPg0K
+ICAgICAgICAgICAgPGVkb212ZHM+RVNSSTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQog
+ICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MjwvZWRvbXY+DQogICAgICAgICAg
+ICA8ZWRvbXZkPk5PPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5FU1JJPC9lZG9tdmRz
+Pg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4N
+CiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TUdNVDwvYXR0cmxhYmw+DQogICAgICAg
+IDxhdHRyZGVmPk1hbmFnaW5nIGVudGl0eSwgcHJpbWFyeSBvcmdhbml6YXRpb24vYWdlbmN5IHJl
+c3BvbnNpYmxlIGZvciBtYWludGFpbmluZyB0cmFpbDwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJk
+ZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAg
+IDxhdHRybGFibD5NR01UX0FERFI8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5TdHJlZXQg
+YWRkcmVzcyBvZiBtYW5hZ2luZyBlbnRpdHk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5F
+U1JJPC9hdHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmw+TUdNVF9DSVRZPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+Q2l0eSBvZiBtYW5h
+Z2luZyBlbnRpdHk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9hdHRyZGVmcz4N
+CiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TUdNVF9TVEFU
+RTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPlN0YXRlIG9mIG1hbmFnaW5nIGVudGl0eTwv
+YXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5NR01UX1pJUDwvYXR0cmxhYmw+DQog
+ICAgICAgIDxhdHRyZGVmPlppcCBjb2RlIG9mIG1hbmFnaW5nIGVudGl0eTwvYXR0cmRlZj4NCiAg
+ICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0
+dHI+DQogICAgICAgIDxhdHRybGFibD5NR01UX1dFQlNJPC9hdHRybGFibD4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+TUdNVF9DT05UQTwvYXR0cmxhYmw+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk1HTVRfQ09O
+XzE8L2F0dHJsYWJsPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRy
+bGFibD5NR01UX0NPTl8yPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0K
+ICAgICAgICA8YXR0cmxhYmw+VVBEQVRFXzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkRh
+dGUgdHJhaWwgd2FzIGxhc3QgdXBkYXRlZCBpbiBkYXRhYmFzZTwvYXR0cmRlZj4NCiAgICAgICAg
+PGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQog
+ICAgICAgIDxhdHRybGFibD5DT01NRU5UUzwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPk90
+aGVyIENvbW1lbnRzPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPkFDQ1RfSUQ8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5VbmlxdWUgbnVtZXJpYyBJRCBmb3IgdHJhaWwg
+cG9pbnQgZmVhdHVyZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZz
+Pg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5BQ0NPTEFE
+RTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkhhcyB0aGlzIHRyYWlsIHJlY2VpdmVkIGFu
+eSBzcGVjaWFsIG1lcml0PzwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJk
+ZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5UUkFJ
+TElEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+VW5pcXVlIG51bWVyaWMgSUQgZm9yIHRy
+YWlsIGxpbmUgZmVhdHVyZTwvYXR0cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJk
+ZWZzPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5XQVRF
+Ul9UUkFJPC9hdHRybGFibD4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+TUlMRVM8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5MZW5ndGggb2YgdGhl
+IHRyYWlsIGluIE1pbGVzIChtaSk8L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5FU1JJPC9h
+dHRyZGVmcz4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmw+
+RElGRklDVUxUWTwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRyZGVmPkRpZmZpY3VsdHkgcmF0aW5n
+IG9mIHRoZSB0cmFpbA0KMSA9IEVBU1k7IDIgPSBNT0RFUkFURTsgMyA9IERJRkZJQ1VMVDwvYXR0
+cmRlZj4NCiAgICAgICAgPGF0dHJkZWZzPkVTUkk8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cmRv
+bXY+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MTwvZWRvbXY+DQogICAg
+ICAgICAgICA8ZWRvbXZkPkVBU1k8L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPkVTUkk8
+L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAg
+ICAgPGVkb212PjI8L2Vkb212Pg0KICAgICAgICAgICAgPGVkb212ZD5NT0RFUkFURTwvZWRvbXZk
+Pg0KICAgICAgICAgICAgPGVkb212ZHM+RVNSSTwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+
+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MzwvZWRvbXY+DQogICAgICAg
+ICAgICA8ZWRvbXZkPkRJRkZJQ1VMVDwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+RVNS
+STwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNIQVBFX0xFTjwvYXR0
+cmxhYmw+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxlZD4NCiAgPC9lYWluZm8+DQogIDxk
+aXN0aW5mbz4NCiAgICA8ZGlzdGxpYWI+QWNjZXNzIGJ5IGF1dGhvcml6YXRpb24gb2YgUEEgRENO
+UjwvZGlzdGxpYWI+DQogICAgPHN0ZG9yZGVyPg0KICAgICAgPGRpZ2Zvcm0+DQogICAgICAgIDxk
+aWd0aW5mbz4NCiAgICAgICAgICA8Zm9ybW5hbWU+U0RFIEZlYXR1cmUgQ2xhc3M8L2Zvcm1uYW1l
+Pg0KICAgICAgICAgIDx0cmFuc2l6ZT43LjIxMDwvdHJhbnNpemU+DQogICAgICAgIDwvZGlndGlu
+Zm8+DQogICAgICA8L2RpZ2Zvcm0+DQogICAgPC9zdGRvcmRlcj4NCiAgPC9kaXN0aW5mbz4NCiAg
+PG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTcwMzA2PC9tZXRkPg0KICAgIDxtZXRjPg0KICAgICAg
+PGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+UGVubnN5bHZh
+bmlhIERlcGFydG1lbnQgb2YgQ29uc2VydmF0aW9uIGFuZCBOYXR1cmFsIFJlc291cmNlczwvY250
+b3JnPg0KICAgICAgICAgIDxjbnRwZXI+QnVyZWF1IG9mIFJlY3JlYXRpb24gYW5kIENvbnNlcnZh
+dGlvbjwvY250cGVyPg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+R0lTIFNw
+ZWNpYWxpc3Q8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBl
+Pm1haWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVzcz40MDAg
+TWFya2V0IFN0cmVldCwgNXRoIEZsb29yLCBQLk8uIEJveCA4NDc1PC9hZGRyZXNzPg0KICAgICAg
+ICAgIDxjaXR5PkhhcnJpc2J1cmc8L2NpdHk+DQogICAgICAgICAgPHN0YXRlPlBlbm5zeWx2YW5p
+YTwvc3RhdGU+DQogICAgICAgICAgPHBvc3RhbD4xNzEwNS04NDc1PC9wb3N0YWw+DQogICAgICAg
+ICAgPGNvdW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNu
+dHZvaWNlPjcxNy03ODctNzY3MjwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+NzE3LTcxNy05
+NTc3PC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5SQS1leHBsb3JlcGF0cmFpbHNAcGEuZ292
+PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQogICAgPG1ldHN0ZG4+
+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRpYWwgTWV0YWRhdGE8L21l
+dHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0ZHY+DQogICAgPG1l
+dHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICA8L21ldGFpbmZvPg0KPC9tZXRhZGF0YT4=</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Forest Service, Region 9, Hoosier National Forest (Data Compiler)</origin>
+        <origin>Bernardin, Lochmueller &amp; Associates (Data Processor)</origin>
+        <pubdate>20070531</pubdate>
+        <title>
+HOOSIER_NATL_FOREST_MGMT_IN: Hoosier National Forest
+Management Areas (Hoosier National Forest, U. S. Forest Service, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bedford, Indiana</pubplace>
+          <publish>U.S. Forest Service, Region 9, Hoosier National Forest</publish>
+        </pubinfo>
+        <othercit>This data set was provided to personnel of Bernardin, Lochmueller &amp; Associates (BLA) by personnel of the Hoosier National Forest.</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The following is excerpted from Hoosier National Forest metadata -
+
+"This data set shows the management areas as defined in the Hoosier National Forest Land
+and Resource Management Plan for alternative 5."
+</abstract>
+      <purpose>To provide the locations of the Hoosier National Forest management areas.</purpose>
+      <supplinf>
+Hoosier National Forest management plans and areas are fully discussed in the Land and
+Resource Management Plan (January 2006).  This document is available  from the Hoosier National Forest at 812-275-5987
+or downloadable in .pdf format from
+
+http://www.fs.fed.us/r9/hoosier/planningdocs/final_docs/2006_documents.htm
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20070531</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-86.852663</westbc>
+        <eastbc>-86.078858</eastbc>
+        <northbc>39.124515</northbc>
+        <southbc>37.870211</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>Biota</themekey>
+        <themekey>Boundaries</themekey>
+        <themekey>Society</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Forest</themekey>
+        <themekey>Timber</themekey>
+        <themekey>National forest</themekey>
+        <themekey>Hoosier National Forest</themekey>
+        <themekey>Recreation</themekey>
+        <themekey>U. S. Forest Service (USFS)</themekey>
+        <themekey>Management areas (MAs)</themekey>
+        <themekey>Research natural areas (RNAs)</themekey>
+        <themekey>Forest Plan</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Brown</placekey>
+        <placekey>Crawford</placekey>
+        <placekey>Dubois</placekey>
+        <placekey>Jackson</placekey>
+        <placekey>Lawrence</placekey>
+        <placekey>Martin</placekey>
+        <placekey>Monroe</placekey>
+        <placekey>Orange</placekey>
+        <placekey>Perry</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-479-6200</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 9.1.0.780</native>
+    <useconst>Environment--Managed_Lands_Hoosier_National_Forest_Mgt_Areas</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Unknown</attraccr>
+    </attracc>
+    <logic>Unknown</logic>
+    <complete>Unknown</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unknown</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Agriculture, U.S. Forest Service, Hoosier National Forest</origin>
+            <pubdate>20070501</pubdate>
+            <title>Hnf_ma</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Bedford, Indiana</pubplace>
+              <publish>Hoosier National Forest</publish>
+            </pubinfo>
+            <othercit>Contact Hoosier National Forest for source details</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>ESRI ArcInfo Coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20070501</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Hnf_ma</srccitea>
+        <srccontr>Previous repository for the data presented here</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Unknown process to create the ArcInfo coverage.  See Process Contact.</procdesc>
+        <srcused>Hnf_ma</srcused>
+        <procdate>20070501</procdate>
+        <srcprod>Hnf_ma</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Kevin Amick</cntper>
+              <cntorg>Hoosier National Forest</cntorg>
+            </cntperp>
+            <cntpos>GIS Coordinator</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>811 Constitution Avenue</address>
+              <city>Bedford</city>
+              <state>Indiana</state>
+              <postal>47421</postal>
+            </cntaddr>
+            <cntvoice>812-277-3570</cntvoice>
+            <cntemail>kamick@fs.fed.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+Bernardin, Lochmueller &amp; Associates received an ESRI ArcGIS 9.2 coverage named "hnf_ma" from the Hoosier National Forest
+in May 2007. ArcGIS 9.2 was used to export the coverage into a shapefile format.  The fields "hnf_ma_" and "hnf_ma_id"
+were deleted.  The field acres was recalculated using software generation.
+</procdesc>
+        <srcused>hnf_ma</srcused>
+        <procdate>20070629</procdate>
+        <srcprod>HOOSIER_NATL_FOREST_MGMT_IN.shp</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software
+written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20070713</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+            </cntperp>
+            <cntpos>Wildlife Biologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>163</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.000072</absres>
+            <ordres>0.000072</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HOOSIER_NATL_FOREST_MGMT_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of polygon (square meters)</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of polygon (meters)</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATA</attrlabl>
+        <attrdef>Other names for the management area</attrdef>
+        <attrdefs>Hoosier National Forest</attrdefs>
+        <attrdomv>
+          <udom>Area names</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Area of polygon (acres)</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed ([Shape].returnarea/4046.873)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA_NUM</attrlabl>
+        <attrdef>Management Scheme Number</attrdef>
+        <attrdefs>Hoosier National Forest</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2.4</edomv>
+            <edomvd>
+This management area protects and enhances water-based recreation
+opportunities, visual quality, and riparian values.  This management
+area is associated with canoeable and fishable streams, rivers, lakes,
+and reservoirs.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>2.8</edomv>
+            <edomvd>
+This area is a general forest with large areas of old forests and
+scattered openings associated with a variety of forest plant communities.
+A variety of tree species is present, but shade-tolerant species may
+dominate some communities over time. There is a higher percentage
+of edge habitat in this management area than in most of the forest.
+Habitat in these areas is best suited to wildlife that uses large
+hardwood trees and a mosaic of different-aged hardwood forests.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>3.3</edomv>
+            <edomvd>
+This management area emphasizes
+diversity for wildlife species requiring a mix of early and late
+successional vegetative types and age classes.  It is associated with
+a mosaic of forest conditions dominated by hardwood trees and their
+associated understory habitat. Horizontal and vertical diversity are
+present in the forest. Management is more intensive than in other
+management areas. This area will provide habitat for previously
+declining populations of wildlife, particularly Neotropical migrants.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>5.1</edomv>
+            <edomvd>
+Congressionally designated Charles C Deam Wilderness
+Natural succession is the dominant process.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>6.2</edomv>
+            <edomvd>
+This management area creates a physical
+setting that provides an opportunity for solitude and a felling of
+closeness to nature.  The area is general forest with the appearance of
+extensive stands of forest dominating the landscape. Over time, extensive
+stands of natural-appearing forests of shade-tolerant species will
+characterize the area.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>6.4</edomv>
+            <edomvd>
+This management area creates a physical
+setting that provides an opportunity for solitude and a feeling of closeness
+to nature.  The area is general forest land with the appearance of extensive
+stands of forest dominating the landscape with some openings. Over time,
+stands will be dominated by large mature and over-mature trees that will
+provide habitat for late-successional species.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>7.1</edomv>
+            <edomvd>
+These areas provide for recreational facilities
+and developed sites.  They include campgrounds, picnic areas, boat ramps,
+swimming beaches, and other areas intended to serve large numbers of people.
+User fees are collected at most areas.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>8.1</edomv>
+            <edomvd>
+Research Natural Areas (RNAs) - This designation
+allows unique ecosystems to follow natural processes for scientific purposes.
+Research may be conducted in these areas to improve understanding of natural
+processes and to increase the benefits from our forests.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>8.2</edomv>
+            <edomvd>
+Special Areas -- Special areas include
+unique or unusual botanical, ecological, geological, scenic, historic, prehistoric,
+or zoological values and other areas which merit special recognition and
+management.  Management of the areas will emphasize the protection, perpetuation,
+or restoration of their special features and values.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>8.3</edomv>
+            <edomvd>
+Experimental Forests -- This management area
+provides for research and scientific study of forest ecosystems.
+</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>IDNR</edomv>
+            <edomvd>Managed by Indiana Department of Natural Resources</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>Monroe</edomv>
+            <edomvd>Managed by Monroe County</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+          <edom>
+            <edomv>Private</edomv>
+            <edomvd>Managed Privately</edomvd>
+            <edomvds>Hoosier National Forest</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+Hoosier National Forest management plans and areas are fully discussed in the Land and Resource Management Plan (January 2006).
+This document is available  from the Hoosier National Forest at 812-275-5987 or downloadable in .pdf format from
+
+http://www.fs.fed.us/r9/hoosier/planningdocs/final_docs/2006_documents.htm
+</eaover>
+      <eadetcit>
+2006. USDA Forest Service, Eastern Region. Land and Resource Management Plan,
+Hoosier National Forest: Brown, Crawford, Dubois, Jackson, Lawrence, Martin, Monroe, Orange, and Perry Counties,
+Indiana. Milwaukee, Wisconsin, 177pp.
+</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+No claims to accuracy are made on these data. It is intended to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+
+LIMITATION OF LIABILITY
+
+The product is provided "AS IS", without any other warranties or conditions, expressed or implied, including, but not limited to,
+warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting from the use of this
+product is assumed by the user. Bernardin, Lochmueller &amp; Associates shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or
+other commercial or economic loss. Bernardin, Lochmueller &amp; Associates is not responsible for claims by a third party. The maximum
+aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>200707013</metd>
+    <metrd>20070713</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Cinda Bonds</cntper>
+          <cntorg>Bernardin, Lochmueller &amp; Associates</cntorg>
+        </cntperp>
+        <cntpos>Wildlife Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>
+bla@blainc.com
+Contact_Website: www.blainc.com
+</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the BLA. It should not to be
+altered or summarized. BLA does not support secondary distribution. If this data set was received from anyone besides
+the BLA, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

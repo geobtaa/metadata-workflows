@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Purdue University, Department of Biological Sciences (Author)</origin>
+        <origin>Indiana Department of Natural Resources (Digital compiler)</origin>
+        <pubdate>20160616</pubdate>
+        <title>LAND_COVER_PRESETTLEMENT_IDNR_IN: Generalized Presettlement Vegetation Types of Indiana, Circa 1820 (Indiana Department of Natural Resources, Polygon Shapefile)</title>
+        <edition>1.0</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was derived from a pre-existing published paper map that was included in the following journal article
+( https://www.jstor.org/stable/2473227 ): Lindsey, A.A., Crankshaw, W.B., and Qadir, S.A., 1965, Soil relations and
+distribution map of the vegetation of presettlement Indiana, Botanical Gazette, v. 126, no. 3, p. 155-163.
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+LAND_COVER_PRESETTLEMENT_IDNR_IN.SHP is a polygon shapefile showing generalized presettlement vegetation types of Indiana, circa 1820. The work
+was based on original land survey records and modern soil maps of counties in Indiana. The original published paper map from 1965 (Lindsey) provides
+five generalized classifications of vegetation types, and the article that contains the map offers descriptions for each classification:
+
+Classification										  	Description
+
+-------------------------------------					-------------------------------------------------
+
+Quercus - Carya											"Oak-Hickory" forest type
+
+Fagus - Acer											"Beech-Maple" forest type
+
+Fagus - Quercus - Acer - Carya							"Mixed" forest type
+
+Wetlands												Wetlands, marshes, swamps, &amp; bogs vegetation (including Wet Prairie)
+
+Dry Prairie												Dry Prairie vegetation (tallgrass lands)
+</abstract>
+      <purpose>
+LAND_COVER_PRESETTLEMENT_IDNR_IN.SHP was created to provide a digital coverage of generalized presettlement vegetation types of Indiana, circa 1820. The
+original published paper map from 1965 (Lindsey) was digitized by personnel of the Indiana Department of Natural Resources (IDNR) in June of 2016.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1820</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Keyword Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Department of Natural Resources (IDNR)</themekey>
+        <themekey>geographic information system (GIS)</themekey>
+        <themekey>land cover</themekey>
+        <themekey>vegetation</themekey>
+        <themekey>presettlement vegetation</themekey>
+        <themekey>forest type</themekey>
+        <themekey>trees</themekey>
+        <themekey>grasslands</themekey>
+        <themekey>soils</themekey>
+        <themekey>Oak-Hickory</themekey>
+        <themekey>Beech-Maple</themekey>
+        <themekey>Mixed</themekey>
+        <themekey>Wetlands</themekey>
+        <themekey>Dry Prairie</themekey>
+      </theme>
+      <place>
+        <placekt>Place Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Department of Natural Resources</cntorg>
+          <cntper>Michael P. Martin</cntper>
+        </cntorgp>
+        <cntpos>Agency GIS Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W Washington Street, Room 280</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-232-4068</cntvoice>
+        <cntfax>317-233-4648</cntfax>
+        <cntemail>mmartin@dnr.in.us</cntemail>
+        <hours>0800 to 1630 Eastern Standard Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Enterprise; ESRI ArcGIS 10.3 (Version 10.3.0.4322), approximately 1.27 MB, Polygon Shapefile format</native>
+    <useconst>Environment--Land_Cover_Presettlement_IDNR</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This data set was provided by IDNR personnel and is assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>This data set was provided by IDNR personnel and is assumed to be accurate.</logic>
+    <complete>This data set was provided by IDNR personnel and is assumed to be accurate.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This data set was provided by IDNR personnel and is assumed to be accurate.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>This data set was provided by IDNR personnel and is assumed to be accurate.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Natural Resources</origin>
+            <pubdate>20160616</pubdate>
+            <title>
+DNR_HISTORIC_160616.GDB - (Esri polygon feature class named "Landcover_Presettlement_DNR_IN") - Generalized presettlement
+vegetation types of Indiana, circa 1820
+</title>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Natural Resources</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160616</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Landcover_Presettlement_DNR_IN (Esri polygon feature class)</srccitea>
+        <srccontr>Generalized presettlement vegetation types of Indiana, circa 1820</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Personnel of the Indiana Geological Survey (IGS) received an file geodatabase titled "DNR_HISTORIC_160616.GDB" from Michael P.
+Martin (IDNR, DOR) on June 16, 2016. DNR_HISTORIC_160616.GDB contains an Esri polygon feature class named "Landcover_Presettlement_DNR_IN,"
+in UTM zone 16, NAD83 coordinates. The feature class was exported to an Esri shapefile format and then renamed
+"LAND_COVER_PRESETTLEMENT_IDNR_IN.SHP" to follow IGS naming conventions.
+</procdesc>
+        <srcused>DNR_HISTORIC_160616.GDB and Landcover_Presettlement_DNR_IN (polygon feature class)</srcused>
+        <procdate>20160616</procdate>
+        <srcprod>LAND_COVER_PRESETTLEMENT_IDNR_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit v 2.6.1) and MP (Metadata Parser v 2.7.1) software written
+by Peter N. Schweitzer (United States Geological Survey).  The errors generated by MP were all addressed and corrected, except
+that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20160707</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist/Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>79</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LAND_COVER_PRESETTLEMENT_IDNR_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are software generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Feature type defining the point features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Record IDNR ID</attrdef>
+        <attrdefs>Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VEG_TYPE</attrlabl>
+        <attrdef>The generalized vegetation classifications provided</attrdef>
+        <attrdefs>Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Quercus - Carya</edomv>
+            <edomvd>Represents areas with the vegetation classification dominant in "Oak-Hickory" forest type</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fagus - Acer</edomv>
+            <edomvd>Represents areas with the vegetation classification dominant in "Beech-Maple" forest type</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>Fagus - Quercus - Acer - Carya</edomv>
+            <edomvd>Represents areas with the vegetation classification of a "Mixed" forest type</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>Wetlands</edomv>
+            <edomvd>Represents areas of vegetation found predominantly in Wetlands, marshes, swamps, &amp; bogs (including Wet Prairie)</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>Prairie</edomv>
+            <edomvd>Represents areas of Dry Prairie vegetation (tallgrass lands)</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE_NO</attrlabl>
+        <attrdef>Number associated with the vegetation classifications (1 through 5)</attrdef>
+        <attrdefs>Indiana Department of Natural Resources</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>1 represents the vegetation classification of "Quercus - Carya"</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>2 represents the vegetation classification of "Fagus - Acer"</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>3 represents the vegetation classification of "Fagus - Quercus - Acer - Carya"</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>4 represents the vegetation classification of "Wetlands"</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>5 represents the vegetation classification of "Prairie"</edomvd>
+            <edomvds>Indiana Department of Natural Resources</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Perimeter length of the polygon</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6522.462184</rdommin>
+            <rdommax>2855683.759046</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Calculated area of the polygon</attrdef>
+        <attrdefs>Software computed</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2518134.365646</rdommin>
+            <rdommax>46728489580.837502</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[PRIMARY DISTRIBUTOR] Indiana Department of Natural Resources</cntorg>
+          <cntper>Jeannie Regan-Dinius</cntper>
+        </cntorgp>
+        <cntpos>Special Project Coordinator</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>402 W Washington Street, Room 274</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317 234 1268</cntvoice>
+        <cntfax>317 233 4648</cntfax>
+        <cntemail>jrdinius@dnr.in.us</cntemail>
+        <hours>8 to 4:30</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>User assumes all liability</distliab>
+  </distinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>[SECONDARY DISTRIBUTOR] Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday-Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2016, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying, adaptation, distribution, public
+performance, or public display of this information without the express written consent of Indiana University, Indiana Geological Survey is
+discouraged.
+
+CREDIT
+
+It is requested that the Indiana Geological Survey and IndianaMAP also be cited in any products generated from this data. The following source citation
+should be included: [LAND_COVER_PRESETTLEMENT_IDNR_IN: Generalized Presettlement Vegetation Types of Indiana, Circa 1820 (Indiana Department of Natural
+Resources, Polygon Shapefile), 20160616].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana Geological
+Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product users indirect,
+incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged data or other
+commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The maximum aggregate
+liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150921</metd>
+    <metrd>20160707</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist/Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the  data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

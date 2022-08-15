@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Center for Interdisciplinary Geospatial Information Technologies, Delta State University (Data provider)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <pubdate>20121112</pubdate>
+        <title>NATIONAL_GRID_1000M_IN: The 1000-meter U.S. National Grid (1000 m x 1000 m) for Indiana (Delta State University, Polygon Shapefile)</title>
+        <edition>1.0</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Cleveland, Mississippi</pubplace>
+          <publish>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</publish>
+        </pubinfo>
+        <othercit>
+A source shapefile named "IN_USNG_UTM16.SHP" was downloaded by personnel of the Indiana Geological Survey (IGS) from the
+following web page hosted by the Center for Interdisciplinary Geospatial Information Technologies, Delta State University, on
+November 8, 2012: http://mississippi.deltastate.edu/
+
+Users of these data may wish to read the Adobe PDF document named "USNGInfoSheetsCv5_4pages.pdf" found at the following Web
+address for further information about using the grid and locating and obtaining precise values:
+http://www.fgdc.gov/usng/USNGInfoSheetsCv5_4pages.pdf
+</othercit>
+        <onlink>http://maps.indiana.edu/layerGallery.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This data set shows the Indiana-portion of the 1000-meter United States National Grid (USNG).
+
+The following is excerpted from metadata provided with the original source data set named "IN_USNG_UTM16.SHP":
+
+"This is a polygon feature data layer of United States National Grid (1000 m x 1000 m polygons) constructed by the Center for
+Interdisciplinary Geospatial Information Technologies at Delta State University with support from the US Geological Survey under
+the Cooperative Agreement 07ERAG0083.  For correct display, please set the base coordinate system and projection such that it
+matches the UTM zone for which these data were constructed using the NAD 83 datum.  Further information about the US National
+Grid is available from http://www.fgdc.gov/usng and a viewing of these layers as applied to local geography may be seen at
+the National Map, http://www.nationalmap.gov ."
+</abstract>
+      <purpose>
+The United States National Grid (USNG) establishes a nationally consistent grid reference system (or "language of location"), and is
+intended to support emergency response, the general public, and commercial activities. It provides a grid reference system that is
+seemless across jurisdictional boundaries and is the foundation for a universal base map index. Using the USNG provides an unambiguous
+way to describe locations where users are operating in areas away from established road networks, or in areas affected by natural disasters
+where roads and/or road signs have been destroyed.
+
+The following is excerpted from metadata provided with the original source data set named "IN_USNG_UTM16.SHP":
+
+"The purpose of this data layer is to enable and promote the use of US National Grid as an 'attributed polygon overlay' over other
+feature data layers in paper and digital maps."
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2007</begdate>
+          <enddate>2008</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.156004</westbc>
+        <eastbc>-84.652587</eastbc>
+        <northbc>41.830886</northbc>
+        <southbc>37.710514</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</themekey>
+        <themekey>U.S. National Grid (USNG)</themekey>
+        <themekey>National Grid</themekey>
+        <themekey>grid reference system</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Keyword Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Ave</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Enterprise, Service Pack 1; ESRI ArcCatalog 10.0 (Build 3200, Service Pack 2), Approximately 27.1 Mb</native>
+    <useconst>Extras--National_Grid_1000M_IN</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+There was no information provided in the metadata that accompanied the source shapefile named "IN_USNG_UTM16.SHP" pertaining to attribute accuracy.
+All attributes are assumed to be correct.
+</attraccr>
+    </attracc>
+    <logic>
+There was no information provided in the metadata that accompanied the source shapefile named "IN_USNG_UTM16.SHP" pertaining
+to logical consistancy, but is assumed to be topologically correct.
+</logic>
+    <complete>
+There was no information provided in the metadata that accompanied the source shapefile named "IN_USNG_UTM16.SHP" pertaining
+to completeness, but is assumed to be complete.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy is no better than that of the source shapefile named "IN_USNG_UTM16.SHP".</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy was not a factor in the digital production of the data set.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</origin>
+            <pubdate>20071210</pubdate>
+            <title>IN_USNG_UTM16.SHP</title>
+            <edition>1.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Cleveland, Mississippi</pubplace>
+              <publish>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</publish>
+            </pubinfo>
+            <othercit>None</othercit>
+            <onlink>http://mississippi.deltastate.edu/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Vector digital data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2008</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>IN_USNG_UTM16.SHP</srccitea>
+        <srccontr>The Indiana portion of the U.S. National Grid (USNG), a 1000-meter locational reference grid</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+An ESRI shapefile named "IN_USNG_UTM16.SHP" was downloaded by personnel of the Indiana Geological Survey (IGS) on
+November 8, 2012, from the following Web site: http://mississippi.deltastate.edu/ . The shapefile was opened in
+ESRI ArcGIS 10.0 for visual inspection and to validate the projected coordinate system of UTM Zone 16, NAD 1983.
+It was then renamed as "NATIONAL_GRID_1000M_IN.SHP" to conform to internal naming conventions of the IGS.
+</procdesc>
+        <srcused>IN_USNG_UTM16.SHP</srcused>
+        <procdate>20121112</procdate>
+        <srcprod>NATIONAL_GRID_1000M_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Ave</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v 2.6.1) and MP (Metadata Parser, v 2.7.1) software written by
+Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected, except that
+no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20121203</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Indiana Geological Survey</cntorg>
+              <cntper>Chris Dintaman</cntper>
+            </cntorgp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Ave</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>106145</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>NATIONAL_GRID_1000M_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Polygon</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRID1MIL</attrlabl>
+        <attrdef>USNG Grid Zone Designator (GZD) values for Indiana</attrdef>
+        <attrdefs>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>16S</edomv>
+            <edomvd>
+Indiana falls within the 16th Longitudinal Zone. The southern portion of Indiana (south of the 40th degree latitude line)
+falls within the UTM zone designated as "S" (defined as the zone between the 32nd and 40th degrees of latitude).
+</edomvd>
+            <edomvds>Federal Geographic Data Committee, (http://www.fgdc.gov/usng/USNGInfoSheetsCv5_4pages.pdf)</edomvds>
+          </edom>
+          <edom>
+            <edomv>16T</edomv>
+            <edomvd>
+Indiana falls within the 16th Longitudinal Zone. The northern portion of Indiana (north of the 40th degree latitude line)
+falls within the UTM zone designated as "T" (defined as the zone between the 40th and 48th degrees of latitude).
+</edomvd>
+            <edomvds>Federal Geographic Data Committee, (http://www.fgdc.gov/usng/USNGInfoSheetsCv5_4pages.pdf)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRID100K</attrlabl>
+        <attrdef>Unique two digit character ID values for each 100,000-meter USNG Square</attrdef>
+        <attrdefs>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Eastings</attrlabl>
+        <attrdef>Lower left Eastings values of each 1000-meter USNG Grid Box (thought of as the X-axis value)</attrdef>
+        <attrdefs>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Northings</attrlabl>
+        <attrdef>Lower left Northings values of each 1000-meter USNG Grid Box (thought of as the Y-axis value)</attrdef>
+        <attrdefs>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USNG</attrlabl>
+        <attrdef>
+The fully qualified USNG coordinate describing the lower left corner of a 1000-m x 1000-m polygon (area), (for example: a value
+of "16S EJ 5053" consists of the GRID1MIL value, then the Grid100K value, then the two digit Eastings Value is combined with the
+two digit Northings value).
+</attrdef>
+        <attrdefs>Center for Interdisciplinary Geospatial Information Technologies, Delta State University</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Ave</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT:
+
+It is requested that the Indiana Geological Survey be cited in any products generated from this data. The following source citation should be
+included: [NATIONAL_GRID_1000M_IN: The 1000-meter U.S. National Grid (1000 m x 1000 m) for Indiana (Delta State University, Polygon Shapefile)].
+
+The following is excerpted from metadata provided with the original source data set named "IN_USNG_UTM16.SHP":
+
+"Center for Interdisciplinary Geospatial Information Technologies, Delta State University, Cleveland Mississippi 38733"
+
+WARRANTY:
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405 2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY:
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20121112</metd>
+    <metrd>20121203</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Ave</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It is not to be altered or summarized. IGS does
+not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

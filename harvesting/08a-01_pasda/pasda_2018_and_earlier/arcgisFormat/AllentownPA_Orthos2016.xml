@@ -1,0 +1,1211 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Quantum Spatial</origin>
+        <pubdate>2016</pubdate>
+        <title>USGS QL1 LiDAR for Allentown, PA 2016 - Orthophotos</title>
+        <geoform>remote-sensing image</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20160330</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-75.557001119897</westbc>
+        <eastbc>-75.4113585764082</eastbc>
+        <northbc>40.6416381950144</northbc>
+        <southbc>40.5461340160323</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <place>
+        <placekt>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>US</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>PA</placekey>
+        <placekey>Lehigh County</placekey>
+        <placekey>Allentown</placekey>
+      </place>
+      <theme>
+        <themekey>rectified image</themekey>
+        <themekey>image map</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>7.5 centimeter orthoimage</themekey>
+        <themekey>orthophoto</themekey>
+        <themekt>ISO 19115 Category</themekt>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>
+			None.  However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of its limitations.
+Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.
+		</useconst>
+    <datacred>Quantum Spatial, Inc.</datacred>
+    <native>
+			Windows 7 OS; Microsoft Office products (Word, Excel, Internet Explorer, and Access);  MicroStation version 8;  Intergraph suite of products;  Esri ArcGIS 10;  UltraEdit;  Global Mapper;  GeoExpress 9
+		</native>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Data Acquisition Department</cntorg>
+          <cntper>Chris Holder</cntper>
+        </cntorgp>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntemail>cholder@quantumspatial.com</cntemail>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>UNITED STATES</country>
+        </cntaddr>
+        <cntfax>859-277-8901</cntfax>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <descript>
+      <abstract>AllentownPA_Orthos2016</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+				Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.
+			</attraccr>
+    </attracc>
+    <logic>
+			All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived.   This validation procedure ensures correct physical format and field values for tagged elements.  Seamlines and tile edges are visually inspected.  Seamline mismatches are corrected unless the overall displacement is less than one pixel.
+		</logic>
+    <complete>
+			Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+					Please see the Accuracy Analyst report for a detailed report showing the 14 control points measured to produce the NSSDA value of 0.199 meters (0.652 feet). This meets the required value of 0.38 meters (1.247 feet).
+				</horizpar>
+        <qhorizpa>
+          <horizpav>0.199</horizpav>
+          <horizpae>NSSDA in meters.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>There is no vertical component for orthophotos.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Herbert, Rowland, and Grubic, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>GPS Photo Control Survey: Allentown, PA</title>
+            <geoform>vector digital data and tabular data</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2016</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CONTROL</srccitea>
+        <srccontr>
+					Quantum Spatial partnered with Herbert, Rowland, and Grubic, Inc. to perform a geodetic control survey in support of the digital orthophoto production project. A total of 14 photo identifiable objects and pre-flight targeting was used to provide ground based photo control. Please see the survey report for more information.
+				</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Richard Crouse and Associates</origin>
+            <pubdate>2016</pubdate>
+            <title>Georeferenced Single Frames</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Frederick, MD</pubplace>
+              <publish>Richard Crouse and Associates</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>external hard drive</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160330</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>PHOTO</srccitea>
+        <srccontr>
+					Aerial imagery was acquired using DMC IIe large format cameras with a flight design that included a total of 18 exposures in 361 flight lines. Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph. Aerial imagery was exposed at an altitude of 4,200 above mean terrain.
+				</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial</origin>
+            <pubdate>2016</pubdate>
+            <title>Aerotriangulation</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160330</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>AT</srccitea>
+        <srccontr>
+					Softcopy aerotriangulation was performed utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image of the project.
+					Maximum, minimum, and mean baseline lengths are as follows:
+					For Mar 30, 2016-A (N59848, DMC2-017), the max length was 16.89 km, min length was 4.56 km, and mean length was 10.725 km.
+				</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Quantum Spatial, Inc.</origin>
+            <pubdate>2016</pubdate>
+            <title>DEM/DTM</title>
+            <geoform>model</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160326</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>
+					A compilation of topographic land form elevation datasets developed through photogrammetric data capture and/or LiDAR provided from various sources for use in developing digital ortho imagery. Although the pilot was processed with DEMs, the final project will use higher quality surfaces.
+				</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+					Digital aerial imagery was obtained using a large format DMC II e equipped with Airborne GPS/IMU.  A total of 18 flight lines with 361 frames were collected in the spring of 2016 in multi-spectral (RGB-IR) 16-bit format.  The 7.5-centimeter imagery was acquired at an altitude above mean terrain of 4,200 to yield a pixel resolution suitable for photogrammetric mapping and orthophoto production.  The imagery was collected under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, flooding, excessive soil moisture, and foliage. In order to minimize shadow conditions, imagery was obtained during the period of the day when the sun angle was greater than 30 degrees.  The imagery consisted of blue, green, red, and infrared bands.  Imagery for the photogrammetric mapping and digital orthophotos was captured according to the USGS Contract No. G16PC00016, Task Order No.: G16PD00442 regarding, snow, haze and cloud cover, and modified as appropriate to accommodate the requirements specific to DMC IIe technologies and as specified in this scope of work.
+				</procdesc>
+        <srcused>RAWs</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Georefs</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+					A total of 32 ground based photo control points were established throughout the project area using a combination of conventional and GPS survey methods in order to support softcopy aerotriangulation and photogrammetric mapping meeting the accuracies specified in this Scope of Work. Ground control collection followed requirements set forth in USGS Contract No. G16PC00016, Task Order No.: G16PD00442, and were modified as appropriate to accommodate the specifications related to ABGPS collection specific to these end photogrammetric mapping requirements. Please see the survey report for more information.
+				</procdesc>
+        <srcused>Geodetic control</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Control</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+					Softcopy aerotriangulation was performed on 1 large block of imagery. The airborne GPS/IMU data, GPS ground control, and image coordinate measurements were utilized to allow the direct computation of the exterior orientation parameters for each image frame to support the photogrammetric process and orthophoto production.  The adjusted Root Mean Square Error (RMSE) of all horizontal and vertical control points used for adjustment was 1.0 foot or better.  At the same time, residuals on any horizontal or vertical control point did not exceed plus or minus 0.75 feet.  The ground survey coordinates were within two times the RMSE (two feet) of the corresponding AT derived coordinates.
+				</procdesc>
+        <srcused>ABGPS</srcused>
+        <srcused>Control</srcused>
+        <srcused>RAWs</srcused>
+        <procdate>2016</procdate>
+        <srcprod>AT</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+					This process involved the development of seamless topographic landform elevation dataset utilizing the LiDAR data collected as part of this task order to support the production of digital orthophotography that meet or exceed required orthophoto horizontal accuracy. The topographic features included a grid of elevation points and may include break lines that define ridges, valleys, edge of water, transportation features and abrupt changes in elevation.  The final DTM is suitable for orthophoto production only (not suitable for contour generation).  The DTM is used to then generate a Triangulated Irregular Network (TIN) to support orthophoto production.
+				</procdesc>
+        <srcused>DTM</srcused>
+        <srcused>DEM</srcused>
+        <srcused>LiDAR</srcused>
+        <procdate>2016</procdate>
+        <srcprod>DTM/DEM</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+					Utilizing all four bands [blue (B), green (G), red(R), and infrared (IR)] digital orthorectification was performed using bilinear interpolation algorithms resulting in a spatial and radiometric transformation of the digital image from line/sample space into the NAD83 (2011) State Plane Pennsylvania South Zone, US Survey Feet. The interior and exterior orientation parameters from the aerotriangulation process were used to project each pixel into the ground coordinate system, while the ortho grade DEM/DTM was used to correct for relief displacement. Radiometric correction software and techniques were used to create orthophoto files that minimize the appearance of image seams and without loss of feature signature. Orthophotos are checked for geometric accuracy, image quality, and are tonally balanced to produce a uniform contrast and tone across the entire project. The individual overlapping orthophoto frames were mosaicked together.  The ortho photos meet a horizontal accuracy of 0.38 meters (1.247 feet) or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards.
+				</procdesc>
+        <srcused>Georefs</srcused>
+        <srcused>AT</srcused>
+        <srcused>Control</srcused>
+        <srcused>DTM/DEM</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Orthos</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>
+	    			A single mosaic of the orthoimagery was produced for the entire AOI. LizardTech GeoExpress software version 9.1 was used to generate 4-band mosaics in MrSID Generation 4 format at a compression ratio of 80:1.
+	    		</procdesc>
+        <srcused>Orthos</srcused>
+        <procdate>2016</procdate>
+        <srcprod>Mosaic</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>pixel</rasttype>
+      <rowcount>10000</rowcount>
+      <colcount>10000</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System</gridsysn>
+          <spcs>
+            <spcszone>2800</spcszone>
+            <lambertc>
+              <stdparll>39.93333333333333</stdparll>
+              <longcm>-77.75</longcm>
+              <latprjo>39.33333333333334</latprjo>
+              <feast>1968500.0</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>0.25</absres>
+            <ordres>0.25</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983 (2011)</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+				Four band orthoimagery is organized in four color bands or channels which represent the red, green, blue (RGB), and near infrared (IR) portions of the spectrum.  Each image pixel is assigned a quadruplet of numeric values, one for each color band.  Numeric values range from 0 to 255.
+			</eaover>
+      <eadetcit>U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20160906</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial</cntorg>
+          <cntper>Sarah Zibart</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>523 Wellington Way</address>
+          <city>Lexington</city>
+          <state>KY</state>
+          <postal>40503</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>859-277-8700</cntvoice>
+        <cntfax>859-277-8901</cntfax>
+        <cntemail>szibart@quantumspatial.com</cntemail>
+        <hours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</hours>
+        <cntinst>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None.</metac>
+    <metuc>None.</metuc>
+    <metsi>
+      <metscs>None.</metscs>
+      <metsc>Unclassified</metsc>
+      <metshd>NONE</metshd>
+    </metsi>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Sarah Zibart</rpIndName>
+    <rpOrgName>Quantum Spatial</rpOrgName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>859-277-8700</voiceNum>
+        <faxNum>859-277-8901</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>523 Wellington Way</delPoint>
+        <city>Lexington</city>
+        <adminArea>KY</adminArea>
+        <postCode>40503</postCode>
+        <country>US</country>
+        <eMailAdd>szibart@quantumspatial.com</eMailAdd>
+      </cntAddress>
+      <cntHours>Monday through Friday 8:00 AM to 5:00 PM (Eastern Time)</cntHours>
+      <cntInstr>If unable to reach the contact by telephone, please send an email. You should get a response within 24 hours.</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20160906</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>USGS QL1 LiDAR for Allentown, PA 2016 - Orthophotos</resTitle>
+      <date>
+        <pubDate>2016-01-01</pubDate>
+      </date>
+      <citRespParty>
+        <rpOrgName>Quantum Spatial</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>remote-sensing image</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This data set consists of 7.5-centimeter, 4-band natural color orthoimages covering approximately 20 square miles over Allentown in eastern Pennsylvania. An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and variations in aircraft altitude and orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map. For a 7.5-centimeter GSD Ortho image, the horizontal positional accuracy was designed not to exceed 0.38 meters NSSDA 95% confidence. This dataset consists of uncompressed ortho photo tiles formatted as 16-bit, 4-band (RGB-IR), uncompressed, GeoTIFF images with TIF world files. A total of 129 total tiles were produced in State Plane Pennsylvania South Zone, US Survey Feet. Tile size is 2,500 feet x 2,500 ft and uses the client-provided tile index's naming schema. There is no image overlap between adjacent files. Aerial photography was captured during the Spring of 2016 on the following flight dates: March 30, 2016. The Nominal Acquisition Altitude of 4,200 (AGL) was used to capture the 7.5-cm imagery. The DMC IIe large format digital camera was used to capture four band (RGB-IR) imagery at 14 bits. Minimum, maximum, and mean differential baseline lengths were generated for the project.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>This data depicts geographic features on the surface of the earth. It was created to provide easily accessible geospatial data to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts. This data also supports The National Map.</idPurp>
+    <idCredit>Quantum Spatial, Inc.</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <thesaName>
+        <resTitle>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</resTitle>
+      </thesaName>
+      <keyword>US</keyword>
+    </placeKeys>
+    <placeKeys>
+      <keyword>United States</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>US</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>PA</keyword>
+    </placeKeys>
+    <placeKeys>
+      <thesaName>
+        <resTitle>U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</resTitle>
+      </thesaName>
+      <keyword>US</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>rectified image</keyword>
+      <keyword>image map</keyword>
+      <keyword>orthoimage</keyword>
+      <keyword>natural color orthophoto</keyword>
+      <keyword>rectified photograph</keyword>
+      <keyword>7.5 centimeter orthoimage</keyword>
+      <keyword>orthophoto</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>rectified image</keyword>
+      <keyword>United States</keyword>
+      <keyword>image map</keyword>
+      <keyword>Lehigh County</keyword>
+      <keyword>US</keyword>
+      <keyword>orthoimage</keyword>
+      <keyword>natural color orthophoto</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>rectified photograph</keyword>
+      <keyword>7.5 centimeter orthoimage</keyword>
+      <keyword>US</keyword>
+      <keyword>US</keyword>
+      <keyword>Allentown</keyword>
+      <keyword>PA</keyword>
+      <keyword>orthophoto</keyword>
+    </searchKeys>
+    <resConst>
+      <Consts>
+        <useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;None. However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Windows 7 OS; Microsoft Office products (Word, Excel, Internet Explorer, and Access); MicroStation version 8; Intergraph suite of products; Esri ArcGIS 10; UltraEdit; Global Mapper; GeoExpress 9</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-75.557001119897</westBL>
+          <eastBL>-75.4113585764082</eastBL>
+          <southBL>40.5461340160323</southBL>
+          <northBL>40.6416381950144</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2016-03-30</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+  </dataIdInfo>
+  <mdConst>
+    <SecConsts>
+      <class>
+        <ClasscationCd value="001" />
+      </class>
+      <classSys>None.</classSys>
+      <handDesc>NONE</handDesc>
+    </SecConsts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>All GeoTIFF tagged data and image file sizes are validated using commercial GIS software to ensure proper loading before being archived. This validation procedure ensures correct physical format and field values for tagged elements. Seamlines and tile edges are visually inspected. Seamline mismatches are corrected unless the overall displacement is less than one pixel.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>Radiometry is verified by visual inspection of the digital orthophoto. Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Please see the Accuracy Analyst report for a detailed report showing the 14 control points measured to produce the NSSDA value of 0.199 meters (0.652 feet). This meets the required value of 0.38 meters (1.247 feet).</measDesc>
+      <evalMethDesc>NSSDA in meters.</evalMethDesc>
+      <measResult>
+        <QuanResult>
+          <quanVal>0.199</quanVal>
+        </QuanResult>
+      </measResult>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="vertical">
+      <measDesc>There is no vertical component for orthophotos.</measDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>Softcopy aerotriangulation was performed utilizing the airborne GPS/IMU data, GPS ground control and image coordinate measurements allowing the direct computation of the exterior orientation parameters for each image of the project. Maximum, minimum, and mean baseline lengths are as follows: For Mar 30, 2016-A (N59848, DMC2-017), the max length was 16.89 km, min length was 4.56 km, and mean length was 10.725 km.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Aerotriangulation</resTitle>
+          <resAltTitle>AT</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="008" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>model</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-03-30</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>Aerial imagery was acquired using DMC IIe large format cameras with a flight design that included a total of 18 exposures in 361 flight lines. Aerial imagery was supplemented with the simultaneous acquisition of airborne GPS/IMU data, which captured the ground coordinate for the nadir point of each photograph. Aerial imagery was exposed at an altitude of 4,200 above mean terrain.</srcDesc>
+        <srcCitatn>
+          <resTitle>Georeferenced Single Frames</resTitle>
+          <resAltTitle>PHOTO</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citRespParty>
+            <rpOrgName>Richard Crouse and Associates</rpOrgName>
+            <rpCntInfo>
+              <cntAddress>
+                <delPoint>Frederick, MD</delPoint>
+              </cntAddress>
+            </rpCntInfo>
+            <role>
+              <RoleCd value="010" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="005" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>remote-sensing image</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-03-30</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>A compilation of topographic land form elevation datasets developed through photogrammetric data capture and/or LiDAR provided from various sources for use in developing digital ortho imagery. Although the pilot was processed with DEMs, the final project will use higher quality surfaces.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>DEM/DTM</resTitle>
+          <resAltTitle>DEM</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Quantum Spatial, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <PresFormCd value="008" />
+          </presForm>
+          <presForm>
+            <fgdcGeoform>model</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-03-26</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <dataSource>
+        <srcDesc>Quantum Spatial partnered with Herbert, Rowland, and Grubic, Inc. to perform a geodetic control survey in support of the digital orthophoto production project. A total of 14 photo identifiable objects and pre-flight targeting was used to provide ground based photo control. Please see the survey report for more information.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>GPS Photo Control Survey: Allentown, PA</resTitle>
+          <resAltTitle>CONTROL</resAltTitle>
+          <date>
+            <pubDate>2016-01-01</pubDate>
+          </date>
+          <citRespParty>
+            <rpOrgName>Herbert, Rowland, and Grubic, Inc.</rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <presForm>
+            <fgdcGeoform>vector digital data and tabular data</fgdcGeoform>
+          </presForm>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2016-01-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+      <prcStep>
+        <stepDesc>A single mosaic of the orthoimagery was produced for the entire AOI. LizardTech GeoExpress software version 9.1 was used to generate 4-band mosaics in MrSID Generation 4 format at a compression ratio of 80:1.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Orthos</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Mosaic</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>A total of 32 ground based photo control points were established throughout the project area using a combination of conventional and GPS survey methods in order to support softcopy aerotriangulation and photogrammetric mapping meeting the accuracies specified in this Scope of Work. Ground control collection followed requirements set forth in USGS Contract No. G16PC00016, Task Order No.: G16PD00442, and were modified as appropriate to accommodate the specifications related to ABGPS collection specific to these end photogrammetric mapping requirements. Please see the survey report for more information.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Geodetic control</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Control</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Softcopy aerotriangulation was performed on 1 large block of imagery. The airborne GPS/IMU data, GPS ground control, and image coordinate measurements were utilized to allow the direct computation of the exterior orientation parameters for each image frame to support the photogrammetric process and orthophoto production. The adjusted Root Mean Square Error (RMSE) of all horizontal and vertical control points used for adjustment was 1.0 foot or better. At the same time, residuals on any horizontal or vertical control point did not exceed plus or minus 0.75 feet. The ground survey coordinates were within two times the RMSE (two feet) of the corresponding AT derived coordinates.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Control</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>RAWs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>ABGPS</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>AT</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Utilizing all four bands [blue (B), green (G), red(R), and infrared (IR)] digital orthorectification was performed using bilinear interpolation algorithms resulting in a spatial and radiometric transformation of the digital image from line/sample space into the NAD83 (2011) State Plane Pennsylvania South Zone, US Survey Feet. The interior and exterior orientation parameters from the aerotriangulation process were used to project each pixel into the ground coordinate system, while the ortho grade DEM/DTM was used to correct for relief displacement. Radiometric correction software and techniques were used to create orthophoto files that minimize the appearance of image seams and without loss of feature signature. Orthophotos are checked for geometric accuracy, image quality, and are tonally balanced to produce a uniform contrast and tone across the entire project. The individual overlapping orthophoto frames were mosaicked together. The ortho photos meet a horizontal accuracy of 0.38 meters (1.247 feet) or less at 95% confidence level when compared to higher accuracy check points based on NSSDA testing standards.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>AT</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Control</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>DTM/DEM</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>Georefs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Orthos</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>This process involved the development of seamless topographic landform elevation dataset utilizing the LiDAR data collected as part of this task order to support the production of digital orthophotography that meet or exceed required orthophoto horizontal accuracy. The topographic features included a grid of elevation points and may include break lines that define ridges, valleys, edge of water, transportation features and abrupt changes in elevation. The final DTM is suitable for orthophoto production only (not suitable for contour generation). The DTM is used to then generate a Triangulated Irregular Network (TIN) to support orthophoto production.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>DTM</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>DEM</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>LiDAR</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>DTM/DEM</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Digital aerial imagery was obtained using a large format DMC II e equipped with Airborne GPS/IMU. A total of 18 flight lines with 361 frames were collected in the spring of 2016 in multi-spectral (RGB-IR) 16-bit format. The 7.5-centimeter imagery was acquired at an altitude above mean terrain of 4,200 to yield a pixel resolution suitable for photogrammetric mapping and orthophoto production. The imagery was collected under conditions free from clouds and cloud shadows, smoke, fog, haze, light streaks, snow, ice on water bodies, flooding, excessive soil moisture, and foliage. In order to minimize shadow conditions, imagery was obtained during the period of the day when the sun angle was greater than 30 degrees. The imagery consisted of blue, green, red, and infrared bands. Imagery for the photogrammetric mapping and digital orthophotos was captured according to the USGS Contract No. G16PC00016, Task Order No.: G16PD00442 regarding, snow, haze and cloud cover, and modified as appropriate to accommodate the requirements specific to DMC IIe technologies and as specified in this scope of work.</stepDesc>
+        <stepDateTm>2016-01-01</stepDateTm>
+        <stepSrc type="used">
+          <srcCitatn>
+            <resAltTitle>RAWs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+        <stepSrc type="produced">
+          <srcCitatn>
+            <resAltTitle>Georefs</resAltTitle>
+          </srcCitatn>
+        </stepSrc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <Georect>
+      <axisDimension type="001">
+        <dimSize>10000</dimSize>
+      </axisDimension>
+      <axisDimension type="002">
+        <dimSize>10000</dimSize>
+      </axisDimension>
+      <cellGeo>
+        <CellGeoCd value="002" />
+      </cellGeo>
+    </Georect>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170221</CreaDate>
+    <CreaTime>09384500</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ModDate>20170221</ModDate>
+    <ModTime>9582300</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="e9ac9ace987252bbb26f0e66d1cf58fa" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPjIwMTY8L3B1YmRhdGU+
+DQogICAgICAgIDx0aXRsZT4NCgkJCQkJSGlnaCBSZXNvbHV0aW9uIE9ydGhvaW1hZ2VzIGZvciBB
+bGxlbnRvd24sIFBBIDIwMTYNCgkJCQkJVVNHUyBDb250cmFjdDogRzE2UEMwMDAxNiAgVGFzayBP
+cmRlciBOdW1iZXI6IEcxNlBEMDA0NDINCgkJCQk8L3RpdGxlPg0KICAgICAgICA8Z2VvZm9ybT5y
+ZW1vdGUtc2Vuc2luZyBpbWFnZTwvZ2VvZm9ybT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9j
+aXRhdGlvbj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+DQoJCQkJVGhpcyBkYXRh
+IHNldCBjb25zaXN0cyBvZiA3LjUtY2VudGltZXRlciwgNC1iYW5kIG5hdHVyYWwgY29sb3Igb3J0
+aG9pbWFnZXMgY292ZXJpbmcgYXBwcm94aW1hdGVseSAyMCBzcXVhcmUgbWlsZXMgb3ZlciBBbGxl
+bnRvd24gaW4gZWFzdGVybiBQZW5uc3lsdmFuaWEuIEFuIG9ydGhvaW1hZ2UgaXMgcmVtb3RlbHkg
+c2Vuc2VkIGltYWdlIGRhdGEgaW4gd2hpY2ggZGlzcGxhY2VtZW50IG9mIGZlYXR1cmVzIGluIHRo
+ZSBpbWFnZSBjYXVzZWQgYnkgdGVycmFpbiByZWxpZWYgYW5kIHZhcmlhdGlvbnMgaW4gYWlyY3Jh
+ZnQgYWx0aXR1ZGUgYW5kIG9yaWVudGF0aW9uIGhhdmUgYmVlbiBtYXRoZW1hdGljYWxseSByZW1v
+dmVkLiBPcnRob2ltYWdlcnkgY29tYmluZXMgdGhlIGltYWdlIGNoYXJhY3RlcmlzdGljcyBvZiBh
+IHBob3RvZ3JhcGggd2l0aCB0aGUgZ2VvbWV0cmljIHF1YWxpdGllcyBvZiBhIG1hcC4NCgkJCQlG
+b3IgYSA3LjUtY2VudGltZXRlciBHU0QgT3J0aG8gaW1hZ2UsIHRoZSBob3Jpem9udGFsIHBvc2l0
+aW9uYWwgYWNjdXJhY3kgd2FzIGRlc2lnbmVkIG5vdCB0byBleGNlZWQgMC4zOCBtZXRlcnMgTlNT
+REEgOTUlIGNvbmZpZGVuY2UuDQoJCQkJVGhpcyBkYXRhc2V0IGNvbnNpc3RzIG9mIHVuY29tcHJl
+c3NlZCBvcnRobyBwaG90byB0aWxlcyBmb3JtYXR0ZWQgYXMgMTYtYml0LCA0LWJhbmQgKFJHQi1J
+UiksIHVuY29tcHJlc3NlZCwgR2VvVElGRiBpbWFnZXMgd2l0aCBUSUYgd29ybGQgZmlsZXMuICBB
+IHRvdGFsIG9mIDEyOSB0b3RhbCB0aWxlcyB3ZXJlIHByb2R1Y2VkIGluIFN0YXRlIFBsYW5lIFBl
+bm5zeWx2YW5pYSBTb3V0aCBab25lLCBVUyBTdXJ2ZXkgRmVldC4gVGlsZSBzaXplIGlzIDIsNTAw
+IGZlZXQgeCAyLDUwMCBmdCBhbmQgdXNlcyB0aGUgY2xpZW50LXByb3ZpZGVkIHRpbGUgaW5kZXgn
+cyBuYW1pbmcgc2NoZW1hLiBUaGVyZSBpcyBubyBpbWFnZSBvdmVybGFwIGJldHdlZW4gYWRqYWNl
+bnQgZmlsZXMuDQoJCQkJQWVyaWFsIHBob3RvZ3JhcGh5IHdhcyBjYXB0dXJlZCBkdXJpbmcgdGhl
+IFNwcmluZyBvZiAyMDE2IG9uIHRoZSBmb2xsb3dpbmcgZmxpZ2h0IGRhdGVzOiBNYXJjaCAzMCwg
+MjAxNi4gVGhlIE5vbWluYWwgQWNxdWlzaXRpb24gQWx0aXR1ZGUgb2YgNCwyMDAgKEFHTCkgd2Fz
+IHVzZWQgdG8gY2FwdHVyZSB0aGUgNy41LWNtIGltYWdlcnkuDQoJCQkJVGhlIERNQyBJSWUgbGFy
+Z2UgZm9ybWF0IGRpZ2l0YWwgY2FtZXJhIHdhcyB1c2VkIHRvIGNhcHR1cmUgZm91ciBiYW5kIChS
+R0ItSVIpIGltYWdlcnkgYXQgMTQgYml0cy4NCgkJCQlNaW5pbXVtLCBtYXhpbXVtLCBhbmQgbWVh
+biBkaWZmZXJlbnRpYWwgYmFzZWxpbmUgbGVuZ3RocyB3ZXJlIGdlbmVyYXRlZCBmb3IgdGhlIHBy
+b2plY3QuDQoJCQk8L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+DQoJCQkJVGhpcyBkYXRhIGRl
+cGljdHMgZ2VvZ3JhcGhpYyBmZWF0dXJlcyBvbiB0aGUgc3VyZmFjZSBvZiB0aGUgZWFydGguICBJ
+dCB3YXMgY3JlYXRlZCB0byBwcm92aWRlIGVhc2lseSBhY2Nlc3NpYmxlIGdlb3NwYXRpYWwgZGF0
+YSB0byBlbmhhbmNlIHRoZSBjYXBhYmlsaXR5IG9mIEZlZGVyYWwsIFN0YXRlLCBhbmQgbG9jYWwg
+ZW1lcmdlbmN5IHJlc3BvbmRlcnMsIGFzIHdlbGwgYXMgcGxhbiBmb3IgaG9tZWxhbmQgc2VjdXJp
+dHkgZWZmb3J0cy4gIFRoaXMgZGF0YSBhbHNvIHN1cHBvcnRzIFRoZSBOYXRpb25hbCBNYXAuDQoJ
+CQk8L3B1cnBvc2U+DQogICAgPC9kZXNjcmlwdD4NCiAgICA8dGltZXBlcmQ+DQogICAgICA8dGlt
+ZWluZm8+DQogICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgIDxjYWxkYXRlPjIwMTYwMzMwPC9j
+YWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQogICAgICA8L3RpbWVpbmZvPg0KICAgICAgPGN1
+cnJlbnQ+Z3JvdW5kIGNvbmRpdGlvbjwvY3VycmVudD4NCiAgICA8L3RpbWVwZXJkPg0KICAgIDxz
+dGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNzPg0KICAgICAgPHVwZGF0
+ZT5Ob25lIHBsYW5uZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1cz4NCiAgICA8c3Bkb20+DQogICAg
+ICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTc1LjU1NzAwMTExOTg5Nzwvd2VzdGJjPg0K
+ICAgICAgICA8ZWFzdGJjPi03NS40MTEzNTg1NzY0MDgyPC9lYXN0YmM+DQogICAgICAgIDxub3J0
+aGJjPjQwLjY0MTYzODE5NTAxNDQ8L25vcnRoYmM+DQogICAgICAgIDxzb3V0aGJjPjQwLjU0NjEz
+NDAxNjAzMjM8L3NvdXRoYmM+DQogICAgICA8L2JvdW5kaW5nPg0KICAgIDwvc3Bkb20+DQogICAg
+PGtleXdvcmRzPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5Ob25lPC90aGVtZWt0
+Pg0KICAgICAgICA8dGhlbWVrZXk+Ny41IGNlbnRpbWV0ZXIgb3J0aG9pbWFnZTwvdGhlbWVrZXk+
+DQogICAgICAgIDx0aGVtZWtleT5yZWN0aWZpZWQgcGhvdG9ncmFwaDwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5yZWN0aWZpZWQgaW1hZ2U8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVr
+ZXk+b3J0aG9waG90bzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5uYXR1cmFsIGNvbG9y
+IG9ydGhvcGhvdG88L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+b3J0aG9pbWFnZTwvdGhl
+bWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5pbWFnZSBtYXA8L3RoZW1la2V5Pg0KICAgICAgPC90
+aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAgICAgICAgPHBsYWNla3Q+VS5TLiBEZXBhcnRtZW50IG9m
+IENvbW1lcmNlLCAxOTk1LCBDb3VudHJpZXMsIGRlcGVuZGVuY2llcywgYXJlYXMgb2Ygc3BlY2lh
+bCBzb3ZlcmVpZ250eSwgYW5kIHRoZWlyIHByaW5jaXBhbCBhZG1pbmlzdHJhdGl2ZSBkaXZpc2lv
+bnMsIEZlZGVyYWwgSW5mb3JtYXRpb24gUHJvY2Vzc2luZyBTdGFuZGFyZCAoRklQUykgMTAtNCk6
+IFdhc2hpbmd0b24sIEQuQy4sIE5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFuZGFyZHMgYW5kIFRl
+Y2hub2xvZ3kuPC9wbGFjZWt0Pg0KICAgICAgICA8cGxhY2VrZXk+VVM8L3BsYWNla2V5Pg0KICAg
+ICAgPC9wbGFjZT4NCiAgICAgIDxwbGFjZT4NCiAgICAgICAgPHBsYWNla3Q+VS5TLiBEZXBhcnRt
+ZW50IG9mIENvbW1lcmNlLCAxOTg3LCBDb2RlcyBmb3IgdGhlIElkZW50aWZpY2F0aW9uIG9mIHRo
+ZSBTdGF0ZXMsIHRoZSBEaXN0cmljdCBvZiBDb2x1bWJpYSBhbmQgdGhlIG91dGx5aW5nIGFyZWFz
+IG9mIHRoZSBVbml0ZWQgU3RhdGVzLCBhbmQgYXNzb2NpYXRlZCBhcmVhcyAoRmVkZXJhbCBJbmZv
+cm1hdGlvbiBQcm9jZXNzaW5nIFN0YW5kYXJkIChGSVBTKSA1LTIpOiBXYXNoaW5ndG9uLCBELkMu
+LCBOYXRpb25hbCBJbnN0aXR1dGUgb2YgU3RhbmRhcmRzIGFuZCBUZWNobm9sb2d5LjwvcGxhY2Vr
+dD4NCiAgICAgICAgPHBsYWNla2V5PlVTPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAg
+ICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWt0Pk5vbmU8L3BsYWNla3Q+DQogICAgICAgIDxwbGFj
+ZWtleT5Vbml0ZWQgU3RhdGVzPC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlVTPC9wbGFj
+ZWtleT4NCiAgICAgICAgPHBsYWNla2V5PlBlbm5zeWx2YW5pYTwvcGxhY2VrZXk+DQogICAgICAg
+IDxwbGFjZWtleT5QQTwvcGxhY2VrZXk+DQogICAgICAgIDxwbGFjZWtleT5MZWhpZ2ggQ291bnR5
+PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkFsbGVudG93bjwvcGxhY2VrZXk+DQogICAg
+ICA8L3BsYWNlPg0KICAgIDwva2V5d29yZHM+DQogICAgPGFjY2NvbnN0Pk5vbmU8L2FjY2NvbnN0
+Pg0KICAgIDx1c2Vjb25zdD4NCgkJCU5vbmUuICBIb3dldmVyLCB1c2VycyBzaG91bGQgYmUgYXdh
+cmUgdGhhdCB0ZW1wb3JhbCBjaGFuZ2VzIG1heSBoYXZlIG9jY3VycmVkIHNpbmNlIHRoaXMgZGF0
+YSBzZXQgd2FzIGNvbGxlY3RlZCBhbmQgdGhhdCBzb21lIHBhcnRzIG9mIHRoaXMgZGF0YSBtYXkg
+bm8gbG9uZ2VyIHJlcHJlc2VudCBhY3R1YWwgc3VyZmFjZSBjb25kaXRpb25zLiAgVXNlcnMgc2hv
+dWxkIG5vdCB1c2UgdGhpcyBkYXRhIGZvciBjcml0aWNhbCBhcHBsaWNhdGlvbnMgd2l0aG91dCBh
+IGZ1bGwgYXdhcmVuZXNzIG9mIGl0cyBsaW1pdGF0aW9ucy4NCkFja25vd2xlZGdtZW50IG9mIHRo
+ZSBVLlMuIEdlb2xvZ2ljYWwgU3VydmV5IHdvdWxkIGJlIGFwcHJlY2lhdGVkIGZvciBwcm9kdWN0
+cyBkZXJpdmVkIGZyb20gdGhlc2UgZGF0YS4NCgkJPC91c2Vjb25zdD4NCiAgICA8ZGF0YWNyZWQ+
+UXVhbnR1bSBTcGF0aWFsLCBJbmMuPC9kYXRhY3JlZD4NCiAgICA8bmF0aXZlPg0KCQkJV2luZG93
+cyA3IE9TOyBNaWNyb3NvZnQgT2ZmaWNlIHByb2R1Y3RzIChXb3JkLCBFeGNlbCwgSW50ZXJuZXQg
+RXhwbG9yZXIsIGFuZCBBY2Nlc3MpOyAgTWljcm9TdGF0aW9uIHZlcnNpb24gODsgIEludGVyZ3Jh
+cGggc3VpdGUgb2YgcHJvZHVjdHM7ICBFc3JpIEFyY0dJUyAxMDsgIFVsdHJhRWRpdDsgIEdsb2Jh
+bCBNYXBwZXI7ICBHZW9FeHByZXNzIDkNCgkJPC9uYXRpdmU+DQogIDwvaWRpbmZvPg0KICA8ZGF0
+YXF1YWw+DQogICAgPGF0dHJhY2M+DQogICAgICA8YXR0cmFjY3I+DQoJCQkJUmFkaW9tZXRyeSBp
+cyB2ZXJpZmllZCBieSB2aXN1YWwgaW5zcGVjdGlvbiBvZiB0aGUgZGlnaXRhbCBvcnRob3Bob3Rv
+LiAgU2xpZ2h0IHN5c3RlbWF0aWMgcmFkaW9tZXRyaWMgZGlmZmVyZW5jZXMgbWF5IGV4aXN0IGJl
+dHdlZW4gYWRqYWNlbnQgb3J0aG9pbWFnZSBmaWxlczsgdGhlc2UgYXJlIGR1ZSBwcmltYXJpbHkg
+dG8gZGlmZmVyZW5jZXMgaW4gc291cmNlIGltYWdlIGNhcHR1cmUgZGF0ZXMgYW5kIHN1biBhbmds
+ZXMgYWxvbmcgZmxpZ2h0IGxpbmVzLiBUaGVzZSBkaWZmZXJlbmNlcyBjYW4gYmUgb2JzZXJ2ZWQg
+aW4gYW4gaW1hZ2UncyBnZW5lcmFsIGxpZ2h0bmVzcyBvciBkYXJrbmVzcyB3aGVuIGl0IGlzIGNv
+bXBhcmVkIHRvIGFkamFjZW50IG9ydGhvaW1hZ2UgZmlsZSBjb3ZlcmFnZXMuIFRvbmFsIGJhbGFu
+Y2luZyBtYXkgYmUgcGVyZm9ybWVkIG92ZXIgYSBncm91cCBvZiBpbWFnZXMgZHVyaW5nIHRoZSBt
+b3NhaWNraW5nIHByb2Nlc3Mgd2hpY2ggbWF5IHNlcnZlIHRvIGxpZ2h0ZW4gb3IgZGFya2VuIGFk
+amFjZW50IGltYWdlcyBmb3IgYmV0dGVyIGNvbG9yIHRvbmUgbWF0Y2hpbmcuDQoJCQk8L2F0dHJh
+Y2NyPg0KICAgIDwvYXR0cmFjYz4NCiAgICA8bG9naWM+DQoJCQlBbGwgR2VvVElGRiB0YWdnZWQg
+ZGF0YSBhbmQgaW1hZ2UgZmlsZSBzaXplcyBhcmUgdmFsaWRhdGVkIHVzaW5nIGNvbW1lcmNpYWwg
+R0lTIHNvZnR3YXJlIHRvIGVuc3VyZSBwcm9wZXIgbG9hZGluZyBiZWZvcmUgYmVpbmcgYXJjaGl2
+ZWQuICAgVGhpcyB2YWxpZGF0aW9uIHByb2NlZHVyZSBlbnN1cmVzIGNvcnJlY3QgcGh5c2ljYWwg
+Zm9ybWF0IGFuZCBmaWVsZCB2YWx1ZXMgZm9yIHRhZ2dlZCBlbGVtZW50cy4gIFNlYW1saW5lcyBh
+bmQgdGlsZSBlZGdlcyBhcmUgdmlzdWFsbHkgaW5zcGVjdGVkLiAgU2VhbWxpbmUgbWlzbWF0Y2hl
+cyBhcmUgY29ycmVjdGVkIHVubGVzcyB0aGUgb3ZlcmFsbCBkaXNwbGFjZW1lbnQgaXMgbGVzcyB0
+aGFuIG9uZSBwaXhlbC4NCgkJPC9sb2dpYz4NCiAgICA8Y29tcGxldGU+DQoJCQlPcnRob2ltYWdl
+cyBhcmUgdmlzdWFsbHkgaW5zcGVjdGVkIGZvciBjb21wbGV0ZW5lc3MgdG8gZW5zdXJlIHRoYXQg
+bm8gZ2FwcyBvciBpbWFnZSBtaXNwbGFjZW1lbnRzIGV4aXN0IHdpdGhpbiBhbmQgYmV0d2VlbiBh
+ZGphY2VudCBpbWFnZXMuIFRoZXNlIGltYWdlcyBhcmUgZGVyaXZlZCBieSBtb3NhaWNraW5nIG11
+bHRpcGxlIGltYWdlcyB0byBlbnN1cmUgY29tcGxldGUgY292ZXJhZ2UuIFNvdXJjZSBpbWFnZXJ5
+IGlzIGNsb3VkIGZyZWUuDQoJCTwvY29tcGxldGU+DQogICAgPHBvc2FjYz4NCiAgICAgIDxob3Jp
+enBhPg0KICAgICAgICA8aG9yaXpwYXI+DQoJCQkJCVBsZWFzZSBzZWUgdGhlIEFjY3VyYWN5IEFu
+YWx5c3QgcmVwb3J0IGZvciBhIGRldGFpbGVkIHJlcG9ydCBzaG93aW5nIHRoZSAxNCBjb250cm9s
+IHBvaW50cyBtZWFzdXJlZCB0byBwcm9kdWNlIHRoZSBOU1NEQSB2YWx1ZSBvZiAwLjE5OSBtZXRl
+cnMgKDAuNjUyIGZlZXQpLiBUaGlzIG1lZXRzIHRoZSByZXF1aXJlZCB2YWx1ZSBvZiAwLjM4IG1l
+dGVycyAoMS4yNDcgZmVldCkuDQoJCQkJPC9ob3JpenBhcj4NCiAgICAgICAgPHFob3JpenBhPg0K
+ICAgICAgICAgIDxob3JpenBhdj4wLjE5OTwvaG9yaXpwYXY+DQogICAgICAgICAgPGhvcml6cGFl
+Pk5TU0RBIGluIG1ldGVycy48L2hvcml6cGFlPg0KICAgICAgICA8L3Fob3JpenBhPg0KICAgICAg
+PC9ob3JpenBhPg0KICAgICAgPHZlcnRhY2M+DQogICAgICAgIDx2ZXJ0YWNjcj5UaGVyZSBpcyBu
+byB2ZXJ0aWNhbCBjb21wb25lbnQgZm9yIG9ydGhvcGhvdG9zLjwvdmVydGFjY3I+DQogICAgICA8
+L3ZlcnRhY2M+DQogICAgPC9wb3NhY2M+DQogICAgPGxpbmVhZ2U+DQogICAgICA8c3JjaW5mbz4N
+CiAgICAgICAgPHNyY2NpdGU+DQogICAgICAgICAgPGNpdGVpbmZvPg0KICAgICAgICAgICAgPG9y
+aWdpbj5IZXJiZXJ0LCBSb3dsYW5kLCBhbmQgR3J1YmljLCBJbmMuPC9vcmlnaW4+DQogICAgICAg
+ICAgICA8cHViZGF0ZT4yMDE2PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPkdQUyBQaG90
+byBDb250cm9sIFN1cnZleTogQWxsZW50b3duLCBQQTwvdGl0bGU+DQogICAgICAgICAgICA8Z2Vv
+Zm9ybT52ZWN0b3IgZGlnaXRhbCBkYXRhIGFuZCB0YWJ1bGFyIGRhdGE8L2dlb2Zvcm0+DQogICAg
+ICAgICAgPC9jaXRlaW5mbz4NCiAgICAgICAgPC9zcmNjaXRlPg0KICAgICAgICA8dHlwZXNyYz5v
+bmxpbmU8L3R5cGVzcmM+DQogICAgICAgIDxzcmN0aW1lPg0KICAgICAgICAgIDx0aW1laW5mbz4N
+CiAgICAgICAgICAgIDxzbmdkYXRlPg0KICAgICAgICAgICAgICA8Y2FsZGF0ZT4yMDE2PC9jYWxk
+YXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgICAgIDwvdGltZWluZm8+DQogICAg
+ICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3JjY3Vycj4NCiAgICAgICAgPC9zcmN0
+aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+Q09OVFJPTDwvc3JjY2l0ZWE+DQogICAgICAgIDxzcmNj
+b250cj4NCgkJCQkJUXVhbnR1bSBTcGF0aWFsIHBhcnRuZXJlZCB3aXRoIEhlcmJlcnQsIFJvd2xh
+bmQsIGFuZCBHcnViaWMsIEluYy4gdG8gcGVyZm9ybSBhIGdlb2RldGljIGNvbnRyb2wgc3VydmV5
+IGluIHN1cHBvcnQgb2YgdGhlIGRpZ2l0YWwgb3J0aG9waG90byBwcm9kdWN0aW9uIHByb2plY3Qu
+IEEgdG90YWwgb2YgMTQgcGhvdG8gaWRlbnRpZmlhYmxlIG9iamVjdHMgYW5kIHByZS1mbGlnaHQg
+dGFyZ2V0aW5nIHdhcyB1c2VkIHRvIHByb3ZpZGUgZ3JvdW5kIGJhc2VkIHBob3RvIGNvbnRyb2wu
+IFBsZWFzZSBzZWUgdGhlIHN1cnZleSByZXBvcnQgZm9yIG1vcmUgaW5mb3JtYXRpb24uDQoJCQkJ
+PC9zcmNjb250cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8
+c3JjY2l0ZT4NCiAgICAgICAgICA8Y2l0ZWluZm8+DQogICAgICAgICAgICA8b3JpZ2luPlJpY2hh
+cmQgQ3JvdXNlIGFuZCBBc3NvY2lhdGVzPC9vcmlnaW4+DQogICAgICAgICAgICA8cHViZGF0ZT4y
+MDE2PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPkdlb3JlZmVyZW5jZWQgU2luZ2xlIEZy
+YW1lczwvdGl0bGU+DQogICAgICAgICAgICA8Z2VvZm9ybT5yZW1vdGUtc2Vuc2luZyBpbWFnZTwv
+Z2VvZm9ybT4NCiAgICAgICAgICAgIDxwdWJpbmZvPg0KICAgICAgICAgICAgICA8cHVicGxhY2U+
+RnJlZGVyaWNrLCBNRDwvcHVicGxhY2U+DQogICAgICAgICAgICAgIDxwdWJsaXNoPlJpY2hhcmQg
+Q3JvdXNlIGFuZCBBc3NvY2lhdGVzPC9wdWJsaXNoPg0KICAgICAgICAgICAgPC9wdWJpbmZvPg0K
+ICAgICAgICAgIDwvY2l0ZWluZm8+DQogICAgICAgIDwvc3JjY2l0ZT4NCiAgICAgICAgPHR5cGVz
+cmM+ZXh0ZXJuYWwgaGFyZCBkcml2ZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+DQogICAg
+ICAgICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAgIDxj
+YWxkYXRlPjIwMTYwMzMwPC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAg
+ICAgIDwvdGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3Jj
+Y3Vycj4NCiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+UEhPVE88L3NyY2Np
+dGVhPg0KICAgICAgICA8c3JjY29udHI+DQoJCQkJCUFlcmlhbCBpbWFnZXJ5IHdhcyBhY3F1aXJl
+ZCB1c2luZyBETUMgSUllIGxhcmdlIGZvcm1hdCBjYW1lcmFzIHdpdGggYSBmbGlnaHQgZGVzaWdu
+IHRoYXQgaW5jbHVkZWQgYSB0b3RhbCBvZiAxOCBleHBvc3VyZXMgaW4gMzYxIGZsaWdodCBsaW5l
+cy4gQWVyaWFsIGltYWdlcnkgd2FzIHN1cHBsZW1lbnRlZCB3aXRoIHRoZSBzaW11bHRhbmVvdXMg
+YWNxdWlzaXRpb24gb2YgYWlyYm9ybmUgR1BTL0lNVSBkYXRhLCB3aGljaCBjYXB0dXJlZCB0aGUg
+Z3JvdW5kIGNvb3JkaW5hdGUgZm9yIHRoZSBuYWRpciBwb2ludCBvZiBlYWNoIHBob3RvZ3JhcGgu
+IEFlcmlhbCBpbWFnZXJ5IHdhcyBleHBvc2VkIGF0IGFuIGFsdGl0dWRlIG9mIDQsMjAwIGFib3Zl
+IG1lYW4gdGVycmFpbi4NCgkJCQk8L3NyY2NvbnRyPg0KICAgICAgPC9zcmNpbmZvPg0KICAgICAg
+PHNyY2luZm8+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxjaXRlaW5mbz4NCiAgICAg
+ICAgICAgIDxvcmlnaW4+UXVhbnR1bSBTcGF0aWFsPC9vcmlnaW4+DQogICAgICAgICAgICA8cHVi
+ZGF0ZT4yMDE2PC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRpdGxlPkFlcm90cmlhbmd1bGF0aW9u
+PC90aXRsZT4NCiAgICAgICAgICAgIDxnZW9mb3JtPm1vZGVsPC9nZW9mb3JtPg0KICAgICAgICAg
+IDwvY2l0ZWluZm8+DQogICAgICAgIDwvc3JjY2l0ZT4NCiAgICAgICAgPHR5cGVzcmM+b25saW5l
+PC90eXBlc3JjPg0KICAgICAgICA8c3JjdGltZT4NCiAgICAgICAgICA8dGltZWluZm8+DQogICAg
+ICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICAgICAgPGNhbGRhdGU+MjAxNjAzMzA8L2NhbGRh
+dGU+DQogICAgICAgICAgICA8L3NuZ2RhdGU+DQogICAgICAgICAgPC90aW1laW5mbz4NCiAgICAg
+ICAgICA8c3JjY3Vycj5ncm91bmQgY29uZGl0aW9uPC9zcmNjdXJyPg0KICAgICAgICA8L3NyY3Rp
+bWU+DQogICAgICAgIDxzcmNjaXRlYT5BVDwvc3JjY2l0ZWE+DQogICAgICAgIDxzcmNjb250cj4N
+CgkJCQkJU29mdGNvcHkgYWVyb3RyaWFuZ3VsYXRpb24gd2FzIHBlcmZvcm1lZCB1dGlsaXppbmcg
+dGhlIGFpcmJvcm5lIEdQUy9JTVUgZGF0YSwgR1BTIGdyb3VuZCBjb250cm9sIGFuZCBpbWFnZSBj
+b29yZGluYXRlIG1lYXN1cmVtZW50cyBhbGxvd2luZyB0aGUgZGlyZWN0IGNvbXB1dGF0aW9uIG9m
+IHRoZSBleHRlcmlvciBvcmllbnRhdGlvbiBwYXJhbWV0ZXJzIGZvciBlYWNoIGltYWdlIG9mIHRo
+ZSBwcm9qZWN0Lg0KCQkJCQlNYXhpbXVtLCBtaW5pbXVtLCBhbmQgbWVhbiBiYXNlbGluZSBsZW5n
+dGhzIGFyZSBhcyBmb2xsb3dzOg0KCQkJCQlGb3IgTWFyIDMwLCAyMDE2LUEgKE41OTg0OCwgRE1D
+Mi0wMTcpLCB0aGUgbWF4IGxlbmd0aCB3YXMgMTYuODkga20sIG1pbiBsZW5ndGggd2FzIDQuNTYg
+a20sIGFuZCBtZWFuIGxlbmd0aCB3YXMgMTAuNzI1IGttLg0KCQkJCTwvc3JjY29udHI+DQogICAg
+ICA8L3NyY2luZm8+DQogICAgICA8c3JjaW5mbz4NCiAgICAgICAgPHNyY2NpdGU+DQogICAgICAg
+ICAgPGNpdGVpbmZvPg0KICAgICAgICAgICAgPG9yaWdpbj5RdWFudHVtIFNwYXRpYWwsIEluYy48
+L29yaWdpbj4NCiAgICAgICAgICAgIDxwdWJkYXRlPjIwMTY8L3B1YmRhdGU+DQogICAgICAgICAg
+ICA8dGl0bGU+REVNL0RUTTwvdGl0bGU+DQogICAgICAgICAgICA8Z2VvZm9ybT5tb2RlbDwvZ2Vv
+Zm9ybT4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+DQogICAgICAg
+IDx0eXBlc3JjPm9ubGluZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+DQogICAgICAgICAg
+PHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAgIDxjYWxkYXRl
+PjIwMTYwMzI2PC9jYWxkYXRlPg0KICAgICAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgICAgIDwv
+dGltZWluZm8+DQogICAgICAgICAgPHNyY2N1cnI+Z3JvdW5kIGNvbmRpdGlvbjwvc3JjY3Vycj4N
+CiAgICAgICAgPC9zcmN0aW1lPg0KICAgICAgICA8c3JjY2l0ZWE+REVNPC9zcmNjaXRlYT4NCiAg
+ICAgICAgPHNyY2NvbnRyPg0KCQkJCQlBIGNvbXBpbGF0aW9uIG9mIHRvcG9ncmFwaGljIGxhbmQg
+Zm9ybSBlbGV2YXRpb24gZGF0YXNldHMgZGV2ZWxvcGVkIHRocm91Z2ggcGhvdG9ncmFtbWV0cmlj
+IGRhdGEgY2FwdHVyZSBhbmQvb3IgTGlEQVIgcHJvdmlkZWQgZnJvbSB2YXJpb3VzIHNvdXJjZXMg
+Zm9yIHVzZSBpbiBkZXZlbG9waW5nIGRpZ2l0YWwgb3J0aG8gaW1hZ2VyeS4gQWx0aG91Z2ggdGhl
+IHBpbG90IHdhcyBwcm9jZXNzZWQgd2l0aCBERU1zLCB0aGUgZmluYWwgcHJvamVjdCB3aWxsIHVz
+ZSBoaWdoZXIgcXVhbGl0eSBzdXJmYWNlcy4NCgkJCQk8L3NyY2NvbnRyPg0KICAgICAgPC9zcmNp
+bmZvPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+DQoJCQkJCURpZ2l0YWwg
+YWVyaWFsIGltYWdlcnkgd2FzIG9idGFpbmVkIHVzaW5nIGEgbGFyZ2UgZm9ybWF0IERNQyBJSSBl
+IGVxdWlwcGVkIHdpdGggQWlyYm9ybmUgR1BTL0lNVS4gIEEgdG90YWwgb2YgMTggZmxpZ2h0IGxp
+bmVzIHdpdGggMzYxIGZyYW1lcyB3ZXJlIGNvbGxlY3RlZCBpbiB0aGUgc3ByaW5nIG9mIDIwMTYg
+aW4gbXVsdGktc3BlY3RyYWwgKFJHQi1JUikgMTYtYml0IGZvcm1hdC4gIFRoZSA3LjUtY2VudGlt
+ZXRlciBpbWFnZXJ5IHdhcyBhY3F1aXJlZCBhdCBhbiBhbHRpdHVkZSBhYm92ZSBtZWFuIHRlcnJh
+aW4gb2YgNCwyMDAgdG8geWllbGQgYSBwaXhlbCByZXNvbHV0aW9uIHN1aXRhYmxlIGZvciBwaG90
+b2dyYW1tZXRyaWMgbWFwcGluZyBhbmQgb3J0aG9waG90byBwcm9kdWN0aW9uLiAgVGhlIGltYWdl
+cnkgd2FzIGNvbGxlY3RlZCB1bmRlciBjb25kaXRpb25zIGZyZWUgZnJvbSBjbG91ZHMgYW5kIGNs
+b3VkIHNoYWRvd3MsIHNtb2tlLCBmb2csIGhhemUsIGxpZ2h0IHN0cmVha3MsIHNub3csIGljZSBv
+biB3YXRlciBib2RpZXMsIGZsb29kaW5nLCBleGNlc3NpdmUgc29pbCBtb2lzdHVyZSwgYW5kIGZv
+bGlhZ2UuIEluIG9yZGVyIHRvIG1pbmltaXplIHNoYWRvdyBjb25kaXRpb25zLCBpbWFnZXJ5IHdh
+cyBvYnRhaW5lZCBkdXJpbmcgdGhlIHBlcmlvZCBvZiB0aGUgZGF5IHdoZW4gdGhlIHN1biBhbmds
+ZSB3YXMgZ3JlYXRlciB0aGFuIDMwIGRlZ3JlZXMuICBUaGUgaW1hZ2VyeSBjb25zaXN0ZWQgb2Yg
+Ymx1ZSwgZ3JlZW4sIHJlZCwgYW5kIGluZnJhcmVkIGJhbmRzLiAgSW1hZ2VyeSBmb3IgdGhlIHBo
+b3RvZ3JhbW1ldHJpYyBtYXBwaW5nIGFuZCBkaWdpdGFsIG9ydGhvcGhvdG9zIHdhcyBjYXB0dXJl
+ZCBhY2NvcmRpbmcgdG8gdGhlIFVTR1MgQ29udHJhY3QgTm8uIEcxNlBDMDAwMTYsIFRhc2sgT3Jk
+ZXIgTm8uOiBHMTZQRDAwNDQyIHJlZ2FyZGluZywgc25vdywgaGF6ZSBhbmQgY2xvdWQgY292ZXIs
+IGFuZCBtb2RpZmllZCBhcyBhcHByb3ByaWF0ZSB0byBhY2NvbW1vZGF0ZSB0aGUgcmVxdWlyZW1l
+bnRzIHNwZWNpZmljIHRvIERNQyBJSWUgdGVjaG5vbG9naWVzIGFuZCBhcyBzcGVjaWZpZWQgaW4g
+dGhpcyBzY29wZSBvZiB3b3JrLg0KCQkJCTwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPlJB
+V3M8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE2PC9wcm9jZGF0ZT4NCiAgICAgICAg
+PHNyY3Byb2Q+R2VvcmVmczwvc3JjcHJvZD4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJv
+Y3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz4NCgkJCQkJQSB0b3RhbCBvZiAzMiBncm91bmQgYmFz
+ZWQgcGhvdG8gY29udHJvbCBwb2ludHMgd2VyZSBlc3RhYmxpc2hlZCB0aHJvdWdob3V0IHRoZSBw
+cm9qZWN0IGFyZWEgdXNpbmcgYSBjb21iaW5hdGlvbiBvZiBjb252ZW50aW9uYWwgYW5kIEdQUyBz
+dXJ2ZXkgbWV0aG9kcyBpbiBvcmRlciB0byBzdXBwb3J0IHNvZnRjb3B5IGFlcm90cmlhbmd1bGF0
+aW9uIGFuZCBwaG90b2dyYW1tZXRyaWMgbWFwcGluZyBtZWV0aW5nIHRoZSBhY2N1cmFjaWVzIHNw
+ZWNpZmllZCBpbiB0aGlzIFNjb3BlIG9mIFdvcmsuIEdyb3VuZCBjb250cm9sIGNvbGxlY3Rpb24g
+Zm9sbG93ZWQgcmVxdWlyZW1lbnRzIHNldCBmb3J0aCBpbiBVU0dTIENvbnRyYWN0IE5vLiBHMTZQ
+QzAwMDE2LCBUYXNrIE9yZGVyIE5vLjogRzE2UEQwMDQ0MiwgYW5kIHdlcmUgbW9kaWZpZWQgYXMg
+YXBwcm9wcmlhdGUgdG8gYWNjb21tb2RhdGUgdGhlIHNwZWNpZmljYXRpb25zIHJlbGF0ZWQgdG8g
+QUJHUFMgY29sbGVjdGlvbiBzcGVjaWZpYyB0byB0aGVzZSBlbmQgcGhvdG9ncmFtbWV0cmljIG1h
+cHBpbmcgcmVxdWlyZW1lbnRzLiBQbGVhc2Ugc2VlIHRoZSBzdXJ2ZXkgcmVwb3J0IGZvciBtb3Jl
+IGluZm9ybWF0aW9uLg0KCQkJCTwvcHJvY2Rlc2M+DQogICAgICAgIDxzcmN1c2VkPkdlb2RldGlj
+IGNvbnRyb2w8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE2PC9wcm9jZGF0ZT4NCiAg
+ICAgICAgPHNyY3Byb2Q+Q29udHJvbDwvc3JjcHJvZD4NCiAgICAgIDwvcHJvY3N0ZXA+DQogICAg
+ICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz4NCgkJCQkJU29mdGNvcHkgYWVyb3RyaWFu
+Z3VsYXRpb24gd2FzIHBlcmZvcm1lZCBvbiAxIGxhcmdlIGJsb2NrIG9mIGltYWdlcnkuIFRoZSBh
+aXJib3JuZSBHUFMvSU1VIGRhdGEsIEdQUyBncm91bmQgY29udHJvbCwgYW5kIGltYWdlIGNvb3Jk
+aW5hdGUgbWVhc3VyZW1lbnRzIHdlcmUgdXRpbGl6ZWQgdG8gYWxsb3cgdGhlIGRpcmVjdCBjb21w
+dXRhdGlvbiBvZiB0aGUgZXh0ZXJpb3Igb3JpZW50YXRpb24gcGFyYW1ldGVycyBmb3IgZWFjaCBp
+bWFnZSBmcmFtZSB0byBzdXBwb3J0IHRoZSBwaG90b2dyYW1tZXRyaWMgcHJvY2VzcyBhbmQgb3J0
+aG9waG90byBwcm9kdWN0aW9uLiAgVGhlIGFkanVzdGVkIFJvb3QgTWVhbiBTcXVhcmUgRXJyb3Ig
+KFJNU0UpIG9mIGFsbCBob3Jpem9udGFsIGFuZCB2ZXJ0aWNhbCBjb250cm9sIHBvaW50cyB1c2Vk
+IGZvciBhZGp1c3RtZW50IHdhcyAxLjAgZm9vdCBvciBiZXR0ZXIuICBBdCB0aGUgc2FtZSB0aW1l
+LCByZXNpZHVhbHMgb24gYW55IGhvcml6b250YWwgb3IgdmVydGljYWwgY29udHJvbCBwb2ludCBk
+aWQgbm90IGV4Y2VlZCBwbHVzIG9yIG1pbnVzIDAuNzUgZmVldC4gIFRoZSBncm91bmQgc3VydmV5
+IGNvb3JkaW5hdGVzIHdlcmUgd2l0aGluIHR3byB0aW1lcyB0aGUgUk1TRSAodHdvIGZlZXQpIG9m
+IHRoZSBjb3JyZXNwb25kaW5nIEFUIGRlcml2ZWQgY29vcmRpbmF0ZXMuDQoJCQkJPC9wcm9jZGVz
+Yz4NCiAgICAgICAgPHNyY3VzZWQ+QUJHUFM8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPkNv
+bnRyb2w8L3NyY3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPlJBV3M8L3NyY3VzZWQ+DQogICAgICAg
+IDxwcm9jZGF0ZT4yMDE2PC9wcm9jZGF0ZT4NCiAgICAgICAgPHNyY3Byb2Q+QVQ8L3NyY3Byb2Q+
+DQogICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+
+DQoJCQkJCVRoaXMgcHJvY2VzcyBpbnZvbHZlZCB0aGUgZGV2ZWxvcG1lbnQgb2Ygc2VhbWxlc3Mg
+dG9wb2dyYXBoaWMgbGFuZGZvcm0gZWxldmF0aW9uIGRhdGFzZXQgdXRpbGl6aW5nIHRoZSBMaURB
+UiBkYXRhIGNvbGxlY3RlZCBhcyBwYXJ0IG9mIHRoaXMgdGFzayBvcmRlciB0byBzdXBwb3J0IHRo
+ZSBwcm9kdWN0aW9uIG9mIGRpZ2l0YWwgb3J0aG9waG90b2dyYXBoeSB0aGF0IG1lZXQgb3IgZXhj
+ZWVkIHJlcXVpcmVkIG9ydGhvcGhvdG8gaG9yaXpvbnRhbCBhY2N1cmFjeS4gVGhlIHRvcG9ncmFw
+aGljIGZlYXR1cmVzIGluY2x1ZGVkIGEgZ3JpZCBvZiBlbGV2YXRpb24gcG9pbnRzIGFuZCBtYXkg
+aW5jbHVkZSBicmVhayBsaW5lcyB0aGF0IGRlZmluZSByaWRnZXMsIHZhbGxleXMsIGVkZ2Ugb2Yg
+d2F0ZXIsIHRyYW5zcG9ydGF0aW9uIGZlYXR1cmVzIGFuZCBhYnJ1cHQgY2hhbmdlcyBpbiBlbGV2
+YXRpb24uICBUaGUgZmluYWwgRFRNIGlzIHN1aXRhYmxlIGZvciBvcnRob3Bob3RvIHByb2R1Y3Rp
+b24gb25seSAobm90IHN1aXRhYmxlIGZvciBjb250b3VyIGdlbmVyYXRpb24pLiAgVGhlIERUTSBp
+cyB1c2VkIHRvIHRoZW4gZ2VuZXJhdGUgYSBUcmlhbmd1bGF0ZWQgSXJyZWd1bGFyIE5ldHdvcmsg
+KFRJTikgdG8gc3VwcG9ydCBvcnRob3Bob3RvIHByb2R1Y3Rpb24uDQoJCQkJPC9wcm9jZGVzYz4N
+CiAgICAgICAgPHNyY3VzZWQ+RFRNPC9zcmN1c2VkPg0KICAgICAgICA8c3JjdXNlZD5ERU08L3Ny
+Y3VzZWQ+DQogICAgICAgIDxzcmN1c2VkPkxpREFSPC9zcmN1c2VkPg0KICAgICAgICA8cHJvY2Rh
+dGU+MjAxNjwvcHJvY2RhdGU+DQogICAgICAgIDxzcmNwcm9kPkRUTS9ERU08L3NyY3Byb2Q+DQog
+ICAgICA8L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+DQoJ
+CQkJCVV0aWxpemluZyBhbGwgZm91ciBiYW5kcyBbYmx1ZSAoQiksIGdyZWVuIChHKSwgcmVkKFIp
+LCBhbmQgaW5mcmFyZWQgKElSKV0gZGlnaXRhbCBvcnRob3JlY3RpZmljYXRpb24gd2FzIHBlcmZv
+cm1lZCB1c2luZyBiaWxpbmVhciBpbnRlcnBvbGF0aW9uIGFsZ29yaXRobXMgcmVzdWx0aW5nIGlu
+IGEgc3BhdGlhbCBhbmQgcmFkaW9tZXRyaWMgdHJhbnNmb3JtYXRpb24gb2YgdGhlIGRpZ2l0YWwg
+aW1hZ2UgZnJvbSBsaW5lL3NhbXBsZSBzcGFjZSBpbnRvIHRoZSBOQUQ4MyAoMjAxMSkgU3RhdGUg
+UGxhbmUgUGVubnN5bHZhbmlhIFNvdXRoIFpvbmUsIFVTIFN1cnZleSBGZWV0LiBUaGUgaW50ZXJp
+b3IgYW5kIGV4dGVyaW9yIG9yaWVudGF0aW9uIHBhcmFtZXRlcnMgZnJvbSB0aGUgYWVyb3RyaWFu
+Z3VsYXRpb24gcHJvY2VzcyB3ZXJlIHVzZWQgdG8gcHJvamVjdCBlYWNoIHBpeGVsIGludG8gdGhl
+IGdyb3VuZCBjb29yZGluYXRlIHN5c3RlbSwgd2hpbGUgdGhlIG9ydGhvIGdyYWRlIERFTS9EVE0g
+d2FzIHVzZWQgdG8gY29ycmVjdCBmb3IgcmVsaWVmIGRpc3BsYWNlbWVudC4gUmFkaW9tZXRyaWMg
+Y29ycmVjdGlvbiBzb2Z0d2FyZSBhbmQgdGVjaG5pcXVlcyB3ZXJlIHVzZWQgdG8gY3JlYXRlIG9y
+dGhvcGhvdG8gZmlsZXMgdGhhdCBtaW5pbWl6ZSB0aGUgYXBwZWFyYW5jZSBvZiBpbWFnZSBzZWFt
+cyBhbmQgd2l0aG91dCBsb3NzIG9mIGZlYXR1cmUgc2lnbmF0dXJlLiBPcnRob3Bob3RvcyBhcmUg
+Y2hlY2tlZCBmb3IgZ2VvbWV0cmljIGFjY3VyYWN5LCBpbWFnZSBxdWFsaXR5LCBhbmQgYXJlIHRv
+bmFsbHkgYmFsYW5jZWQgdG8gcHJvZHVjZSBhIHVuaWZvcm0gY29udHJhc3QgYW5kIHRvbmUgYWNy
+b3NzIHRoZSBlbnRpcmUgcHJvamVjdC4gVGhlIGluZGl2aWR1YWwgb3ZlcmxhcHBpbmcgb3J0aG9w
+aG90byBmcmFtZXMgd2VyZSBtb3NhaWNrZWQgdG9nZXRoZXIuICBUaGUgb3J0aG8gcGhvdG9zIG1l
+ZXQgYSBob3Jpem9udGFsIGFjY3VyYWN5IG9mIDAuMzggbWV0ZXJzICgxLjI0NyBmZWV0KSBvciBs
+ZXNzIGF0IDk1JSBjb25maWRlbmNlIGxldmVsIHdoZW4gY29tcGFyZWQgdG8gaGlnaGVyIGFjY3Vy
+YWN5IGNoZWNrIHBvaW50cyBiYXNlZCBvbiBOU1NEQSB0ZXN0aW5nIHN0YW5kYXJkcy4NCgkJCQk8
+L3Byb2NkZXNjPg0KICAgICAgICA8c3JjdXNlZD5HZW9yZWZzPC9zcmN1c2VkPg0KICAgICAgICA8
+c3JjdXNlZD5BVDwvc3JjdXNlZD4NCiAgICAgICAgPHNyY3VzZWQ+Q29udHJvbDwvc3JjdXNlZD4N
+CiAgICAgICAgPHNyY3VzZWQ+RFRNL0RFTTwvc3JjdXNlZD4NCiAgICAgICAgPHByb2NkYXRlPjIw
+MTY8L3Byb2NkYXRlPg0KICAgICAgICA8c3JjcHJvZD5PcnRob3M8L3NyY3Byb2Q+DQogICAgICA8
+L3Byb2NzdGVwPg0KICAgICAgPHByb2NzdGVwPg0KICAgICAgICA8cHJvY2Rlc2M+DQoJICAgIAkJ
+CUEgc2luZ2xlIG1vc2FpYyBvZiB0aGUgb3J0aG9pbWFnZXJ5IHdhcyBwcm9kdWNlZCBmb3IgdGhl
+IGVudGlyZSBBT0kuIExpemFyZFRlY2ggR2VvRXhwcmVzcyBzb2Z0d2FyZSB2ZXJzaW9uIDkuMSB3
+YXMgdXNlZCB0byBnZW5lcmF0ZSA0LWJhbmQgbW9zYWljcyBpbiBNclNJRCBHZW5lcmF0aW9uIDQg
+Zm9ybWF0IGF0IGEgY29tcHJlc3Npb24gcmF0aW8gb2YgODA6MS4NCgkgICAgCQk8L3Byb2NkZXNj
+Pg0KICAgICAgICA8c3JjdXNlZD5PcnRob3M8L3NyY3VzZWQ+DQogICAgICAgIDxwcm9jZGF0ZT4y
+MDE2PC9wcm9jZGF0ZT4NCiAgICAgICAgPHNyY3Byb2Q+TW9zYWljPC9zcmNwcm9kPg0KICAgICAg
+PC9wcm9jc3RlcD4NCiAgICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+DQogIDxzcGRvaW5mbz4N
+CiAgICA8ZGlyZWN0PlJhc3RlcjwvZGlyZWN0Pg0KICAgIDxyYXN0aW5mbz4NCiAgICAgIDxyYXN0
+dHlwZT5waXhlbDwvcmFzdHR5cGU+DQogICAgICA8cm93Y291bnQ+MTAwMDA8L3Jvd2NvdW50Pg0K
+ICAgICAgPGNvbGNvdW50PjEwMDAwPC9jb2xjb3VudD4NCiAgICA8L3Jhc3RpbmZvPg0KICA8L3Nw
+ZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPHBsYW5hcj4NCiAgICAg
+ICAgPGdyaWRzeXM+DQogICAgICAgICAgPGdyaWRzeXNuPlN0YXRlIFBsYW5lIENvb3JkaW5hdGUg
+U3lzdGVtIDE5ODM8L2dyaWRzeXNuPg0KICAgICAgICAgIDxzcGNzPg0KICAgICAgICAgICAgPHNw
+Y3N6b25lPjI4MDA8L3NwY3N6b25lPg0KICAgICAgICAgICAgPGxhbWJlcnRjPg0KICAgICAgICAg
+ICAgICA8c3RkcGFybGw+MzkuOTMzMzMzMzMzMzMzMzM8L3N0ZHBhcmxsPg0KICAgICAgICAgICAg
+ICA8bG9uZ2NtPi03Ny43NTwvbG9uZ2NtPg0KICAgICAgICAgICAgICA8bGF0cHJqbz4zOS4zMzMz
+MzMzMzMzMzMzNDwvbGF0cHJqbz4NCiAgICAgICAgICAgICAgPGZlYXN0PjE5Njg1MDAuMDwvZmVh
+c3Q+DQogICAgICAgICAgICAgIDxmbm9ydGg+MC4wPC9mbm9ydGg+DQogICAgICAgICAgICA8L2xh
+bWJlcnRjPg0KICAgICAgICAgIDwvc3Bjcz4NCiAgICAgICAgPC9ncmlkc3lzPg0KICAgICAgICA8
+cGxhbmNpPg0KICAgICAgICAgIDxwbGFuY2U+cm93IGFuZCBjb2x1bW48L3BsYW5jZT4NCiAgICAg
+ICAgICA8Y29vcmRyZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMjU8L2Fic3Jlcz4NCiAgICAg
+ICAgICAgIDxvcmRyZXM+MC4yNTwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQogICAg
+ICAgICAgPHBsYW5kdT5zdXJ2ZXkgZmVldDwvcGxhbmR1Pg0KICAgICAgICA8L3BsYW5jaT4NCiAg
+ICAgIDwvcGxhbmFyPg0KICAgICAgPGdlb2RldGljPg0KICAgICAgICA8aG9yaXpkbj5Ob3J0aCBB
+bWVyaWNhbiBEYXR1bSBvZiAxOTgzICgyMDExKTwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5H
+ZW9kZXRpYyBSZWZlcmVuY2UgU3lzdGVtIDgwPC9lbGxpcHM+DQogICAgICAgIDxzZW1pYXhpcz42
+Mzc4MTM3LjA8L3NlbWlheGlzPg0KICAgICAgICA8ZGVuZmxhdD4yOTguMjU3MjIyMTAxPC9kZW5m
+bGF0Pg0KICAgICAgPC9nZW9kZXRpYz4NCiAgICA8L2hvcml6c3lzPg0KICA8L3NwcmVmPg0KICA8
+ZWFpbmZvPg0KICAgIDxvdmVydmlldz4NCiAgICAgIDxlYW92ZXI+DQoJCQkJRm91ciBiYW5kIG9y
+dGhvaW1hZ2VyeSBpcyBvcmdhbml6ZWQgaW4gZm91ciBjb2xvciBiYW5kcyBvciBjaGFubmVscyB3
+aGljaCByZXByZXNlbnQgdGhlIHJlZCwgZ3JlZW4sIGJsdWUgKFJHQiksIGFuZCBuZWFyIGluZnJh
+cmVkIChJUikgcG9ydGlvbnMgb2YgdGhlIHNwZWN0cnVtLiAgRWFjaCBpbWFnZSBwaXhlbCBpcyBh
+c3NpZ25lZCBhIHF1YWRydXBsZXQgb2YgbnVtZXJpYyB2YWx1ZXMsIG9uZSBmb3IgZWFjaCBjb2xv
+ciBiYW5kLiAgTnVtZXJpYyB2YWx1ZXMgcmFuZ2UgZnJvbSAwIHRvIDI1NS4NCgkJCTwvZWFvdmVy
+Pg0KICAgICAgPGVhZGV0Y2l0PlUuUy4gRGVwYXJ0bWVudCBvZiB0aGUgSW50ZXJpb3IsIFUuUy4g
+R2VvbG9naWNhbCBTdXJ2ZXksIDE5OTYsIFN0YW5kYXJkcyBmb3IgRGlnaXRhbCBPcnRob3Bob3Rv
+czogUmVzdG9uLCBWQS48L2VhZGV0Y2l0Pg0KICAgIDwvb3ZlcnZpZXc+DQogIDwvZWFpbmZvPg0K
+ICA8bWV0YWluZm8+DQogICAgPG1ldGQ+MjAxNjA5MDY8L21ldGQ+DQogICAgPG1ldGM+DQogICAg
+ICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQogICAgICAgICAgPGNudG9yZz5RdWFudHVt
+IFNwYXRpYWw8L2NudG9yZz4NCiAgICAgICAgICA8Y250cGVyPlNhcmFoIFppYmFydDwvY250cGVy
+Pg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRy
+dHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+
+NTIzIFdlbGxpbmd0b24gV2F5PC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PkxleGluZ3Rvbjwv
+Y2l0eT4NCiAgICAgICAgICA8c3RhdGU+S1k8L3N0YXRlPg0KICAgICAgICAgIDxwb3N0YWw+NDA1
+MDM8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VU0E8L2NvdW50cnk+DQogICAgICAgIDwv
+Y250YWRkcj4NCiAgICAgICAgPGNudHZvaWNlPjg1OS0yNzctODcwMDwvY250dm9pY2U+DQogICAg
+ICAgIDxjbnRmYXg+ODU5LTI3Ny04OTAxPC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5zemli
+YXJ0QHF1YW50dW1zcGF0aWFsLmNvbTwvY250ZW1haWw+DQogICAgICAgIDxob3Vycz5Nb25kYXkg
+dGhyb3VnaCBGcmlkYXkgODowMCBBTSB0byA1OjAwIFBNIChFYXN0ZXJuIFRpbWUpPC9ob3Vycz4N
+CiAgICAgICAgPGNudGluc3Q+SWYgdW5hYmxlIHRvIHJlYWNoIHRoZSBjb250YWN0IGJ5IHRlbGVw
+aG9uZSwgcGxlYXNlIHNlbmQgYW4gZW1haWwuIFlvdSBzaG91bGQgZ2V0IGEgcmVzcG9uc2Ugd2l0
+aGluIDI0IGhvdXJzLjwvY250aW5zdD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQog
+ICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRpYWwg
+TWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0
+ZHY+DQogICAgPG1ldGFjPk5vbmUuPC9tZXRhYz4NCiAgICA8bWV0dWM+Tm9uZS48L21ldHVjPg0K
+ICAgIDxtZXRzaT4NCiAgICAgIDxtZXRzY3M+Tm9uZS48L21ldHNjcz4NCiAgICAgIDxtZXRzYz5V
+bmNsYXNzaWZpZWQ8L21ldHNjPg0KICAgICAgPG1ldHNoZD5OT05FPC9tZXRzaGQ+DQogICAgPC9t
+ZXRzaT4NCiAgPC9tZXRhaW5mbz4NCjwvbWV0YWRhdGE+</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab> The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

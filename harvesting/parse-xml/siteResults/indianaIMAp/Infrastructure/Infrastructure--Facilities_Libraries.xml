@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana State Library (ISL) (Data source)</origin>
+        <origin>Indiana Geological Survey (Data processor)</origin>
+        <origin>Denver Harper (Data processor)</origin>
+        <origin>Chris Dintaman (Data processor)</origin>
+        <pubdate>20070516</pubdate>
+        <title>LIBRARIES_ISL_IN: Libraries in Indiana (Indiana State Library, Point Shapefile)</title>
+        <edition>1</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+Street addresses and information regarding type of facility were obtained from a Web page
+of the Indiana State Library (http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html).
+Personnel of the Indiana Geological Survey used ESRI ArcMap 9.2 to build an "Address Locator" and used
+the "Geocoding" tool to perform address-matching, using street information licensed from Tele Atlas, Dynamap/2000, v. 17.0.
+Where street addresses did not provide acceptable match scores, personnel of the IGS used Google searches, Mapquest,
+and inspection of imagery from the 2005 Indiana Orthophotography Project to plot locations. Where no street addresses
+were avaialable, locations were plotted near town centers.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+LIBRARIES_ISL_IN is a point shapefile showing the locations of 528 libraries included in Microsoft Excel spreadsheets that
+are downloadable from the Web page named "Public Library Directory Information" of the Indiana State Library (ISL)
+(http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html). The spreadsheets used included "06acadlib.xls" (academic
+libraries), "plmail2006.xls" (public libraries), and "plbranch2006.xls" (public branch libraries).
+Using street addresses from the downloaded spreadsheets, shapefiles were created using the "Geocoding" tool in ESRI ArcMap 9.2 and
+street information licensed from Tele Atlas, Dynamap/2000, v. 17.0. The shapefiles were then merged using the "Merge" tool in
+ESRI ArcToolbox.
+</abstract>
+      <purpose>This data set was compiled to create a GIS layer showing locations of libraries in Indiana.</purpose>
+      <supplinf>Indiana State Library Web site (http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html)</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2007</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>2007 Indiana State Library Web site</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1607</westbc>
+        <eastbc>-84.6882</eastbc>
+        <northbc>41.7753</northbc>
+        <southbc>37.7554</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Metadata Service Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Indiana State Library (ISL)</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>library</themekey>
+        <themekey>academic</themekey>
+        <themekey>university</themekey>
+        <themekey>public</themekey>
+        <themekey>public library</themekey>
+        <themekey>academic library</themekey>
+        <themekey>branch</themekey>
+        <themekey>branch library</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>DeKalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 9.2 shapefile format, approximately 475 Kb</native>
+    <useconst>Infrastructure--Facilities_Libraries</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+Street addresses for libraries were obtained from the Web site of the Indiana State Library
+and are assumed to be accurate. Geocoding produced match scores of more than 80 percent for about 90 percent of libraries obtained from the "Public
+Library Directory Information" of the Indiana State Library. Locations of other libraries were plotted by
+personnel of the Indiana Geological Survey using the "Editor" tool in ESRI ArcMap version 9.2, together with information obtained
+through Google searches, MapQuest (http://www.mapquest.com/maps/), and inspection of aerial photographs of the 2005 Indiana Orthophotography Project.
+Where no addresses were available, points were plotted near town centers.
+</attraccr>
+    </attracc>
+    <logic>No checks for logical consistency were made.</logic>
+    <complete>All academic, public, and public branch libraries listed by the Indiana State Library have been included.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>For match scores greater than 80 percent, plotted locations are generally within several hundred feet of actual locations.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The vertical positional accuracy was not a factor in the production of this shapefile.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana State Library</origin>
+            <pubdate>2007</pubdate>
+            <title>Public Library Directory Information (http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html)</title>
+            <geoform>Web site</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>On line</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2007</begdate>
+              <enddate>2007</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Public Library Directory Information (http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html)</srccitea>
+        <srccontr>Addresses of libraries.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Tele Atlas</origin>
+            <pubdate>2007</pubdate>
+            <title>Dynamap 2000</title>
+            <edition>17.0</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Lebanon, New Hampshire</pubplace>
+              <publish>Tele Atlas</publish>
+            </pubinfo>
+            <othercit>Indiana Roads from Tele Atlas, Dynamap/2000, v. 17.0, licensed to the Indiana Geological Survey</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>DVD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>Indiana Roads from Tele Atlas, Dynamap 2000, v. 17.0</srccitea>
+        <srccontr>Indiana streets and roads suitable for geocoding</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Street addresses for each academic, public, and public branch library were obtained by personnel of the Indiana Geological Survey (IGS)
+from the Indiana State Library, Public Library Directory Information (http://www.statelib.lib.in.us/www/isl/ldo/pldir/pldir06.html).
+The library address lists were saved as comma-delimited text files named "06acadlib_csv.txt," "plmail2006_csv.txt," and
+"plbranch2006_csv.txt."
+</procdesc>
+        <srcused>ISL, Public Library Directory Information</srcused>
+        <procdate>20070322</procdate>
+        <srcprod>06acadlib_csv.txt, plmail2006_csv.txt, plbranch2006_csv.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Denver Harper</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-855-1369</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel used street information licensed from Tele Atlas in ESRI ArcMap 9.2 to build an "Address Locator." Using
+the "Geocoding" tool to perform address-matching, the comma-delimited text files named "06acadlib_csv.txt," "plmail2006_csv.txt,"
+and "plbranch2006_csv.txt" were address matched. Forty-one (41) locations were manually plotted using the "Editor" tool
+in ESRI ArcMap, as well as locations plotted by MapQuest and inspection of aerial photographs of the 2005 Indiana
+Orthophotography Project. The output was saved as LIBRARIES_ACADEMIC_IN.SHP, LIBRARIES_PUBLIC_IN.SHP, and LIBRARIES_PUBBRANCH.SHP.
+In the attribute tables of these shapefiles, the field named "ARC_Street" was renamed as "GeoAddress," and the field named "Arc_Zone" was
+renamed as "GeoZip." The fields named "Side" and "Zip" were deleted. The three shapefiles were then merged into a single shapefile
+named "LIBRARIES_ISL_IN.SHP" using the "Merge" tool in ESRI ArcToolbox.
+</procdesc>
+        <srcused>06acadlib_csv.txt, plmail2006_csv.txt, plbranch2006_csv.txt, Dynamap 2000 v. 17.0</srcused>
+        <procdate>20070523</procdate>
+        <srcprod>LIBRARIES_ISL_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1)
+software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and
+corrected, except that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20070628</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist/GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>
+cdintama@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>point</sdtstype>
+        <ptvctcnt>528</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>0</absres>
+            <ordres>0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LIBRARIES_ISL_IN.DBF</enttypl>
+        <enttypd>Shapefile attributes table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Status</attrlabl>
+        <attrdef>Match status from geocoding</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>
+Originally either an "unmatched" address in batch geocoding or a matched address with a low (less than 80)
+match score. Location was subsequently plotted or revised by personnel of the IGS.
+</edomvd>
+            <edomvds>Indiana Geological Survey</edomvds>
+          </edom>
+          <edom>
+            <edomv>M</edomv>
+            <edomvd>"Matched" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>"Tied" address in batch geocoding</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+        <attrdef>
+In geocoding, a value is assigned to all potential candidates for an address
+match. The match score is based on how well the location found in the reference data matches
+with the address data being searched.
+</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LibName</attrlabl>
+        <attrdef>Name of library</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BranchNam</attrlabl>
+        <attrdef>Name of branch of a public library</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Address of library obtained from directories of the Indiana State Library, as street address and (or) post-office box</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GeoAddress</attrlabl>
+        <attrdef>
+The address of library used for geocoding, obtained from either directories of the Indiana State Library or
+through Internet searches conducted by personnel of the Indiana Geological Survey.
+</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City_IN</attrlabl>
+        <attrdef>City in which library is located</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GeoZip</attrlabl>
+        <attrdef>Zip-code area of library</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Libr_Type</attrlabl>
+        <attrdef>Type of library. Types include Academic, Public, and Public Branch.</attrdef>
+        <attrdefs>Indiana State Library</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+COPYRIGHT 2007, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL SURVEY, ALL RIGHTS RESERVED
+
+The information on these media is proprietary to Indiana University, Indiana Geological Survey. Any copying,
+adaptation, distribution, public performance, or public display of this information without the express written
+consent of Indiana University, Indiana Geological Survey is discouraged.
+
+CREDIT
+
+It is required that the Indiana Geological Survey be cited in any products generated from this data. The
+following source citation must be included: LIBRARIES_ISL_IN: Libraries in Indiana (Indiana State Library,
+Point Shapefile), digital representation by Denver Harper and Chris Dintaman, 2007.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+This product is provided "AS IS", without any other warranties or
+conditions, expressed or implied, including, but not limited to, warranties for product quality, or suitability
+to a particular purpose or use. The risk or liability resulting from the use of this product is assumed by the
+user. Indiana University, Indiana Geological Survey shares no liability with product users indirect, incidental,
+special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible
+for claims by a third party. The maximum aggregate liability to the original purchaser shall not exceed the amount
+paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20070523</metd>
+    <metrd>20070628</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Denver Harper</cntper>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist/GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 1369</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>
+dharper@indiana.edu
+Contact_Website: http://igs.indiana.edu/
+</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received
+from the IGS. It is not to be altered or summarized. IGS does not support secondary distribution. If this data
+set was received from anyone other than the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

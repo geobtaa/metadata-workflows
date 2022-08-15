@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Education (Data Originator)</origin>
+        <origin>The Polis Center (Data Processor)</origin>
+        <origin>Miranda Ritchie (Data processor)</origin>
+        <pubdate>20101203</pubdate>
+        <title>SCHOOLS_POLIS_IDOE_IN: Schools in Indiana (The Polis Center, Indiana Department of Education, Point Shapefile)</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Education and The Polis Center</publish>
+        </pubinfo>
+        <othercit>
+This data set was produced by personnel of The Polis Center using a Microsoft Excel spreadsheets named
+"Indiana_Public_School_Directory_2010.XLS" and "Indiana_Non_Public_School_Directory_2010.XLS"
+that were downloaded from the following Web site of the Indiana Department of Eduction:
+
+http://www.doe.in.gov/publications/schooldirectory.html
+
+This data set was provided to personnel of the Indiana Geological Survey (IGS) by personnel
+of The Polis Center (Miranda Ritchie, The Polis Center, 1200 Waterway Blvd, IGCN, Room N801, Indianapolis 46202,
+317-274-2455) on December 2, 2010. It was in the form of an ESRI shapefile named "STATEWIDE_SCHOOLS.SHP."
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SCHOOLS_POLIS_IDOE_IN is point shapefile providing locations for public and non-public schools in Indiana. Schools that
+are included are high schools, middle schools, elementary schools, primary schools, junior high schools, youth centers,
+and correctional facilities. Attributes include school ID, name, address, contact information, number of students, district,
+and other information.
+</abstract>
+      <purpose>
+The following is excerpted from the metadata provided by The Polis Center for the source shapefile STATEWIDE_SCHOOLS.SHP:
+
+"To provide a digital coverage, with rooftop acuracy, of all schools in the state of Indiana, suitable for use in GIS.
+The data was derived from preexisting IDOE databases.  This data is to be used only as a reference."
+</purpose>
+      <supplinf>
+The following is excerpted from the metadata provided by The Polis Center for the source shapefile STATEWIDE_SCHOOLS.SHP:
+
+"For more information on Indiana school data visit www.doe.in.gov."
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20101125</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.930943</westbc>
+        <eastbc>-84.814973</eastbc>
+        <northbc>41.756230</northbc>
+        <southbc>37.881340</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>society</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Schools</themekey>
+        <themekey>Public</themekey>
+        <themekey>Non-Public</themekey>
+        <themekey>Indiana Department of Education (IDOE)</themekey>
+        <themekey>High School</themekey>
+        <themekey>Middle School</themekey>
+        <themekey>Elementary</themekey>
+        <themekey>Primary School</themekey>
+        <themekey>Junior High</themekey>
+        <themekey>Youth Center</themekey>
+        <themekey>Correctional Facility</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Bartholomew County</placekey>
+        <placekey>Benton County</placekey>
+        <placekey>Blackford County</placekey>
+        <placekey>Boone County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Carroll County</placekey>
+        <placekey>Cass County</placekey>
+        <placekey>Clark County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Crawford County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Decatur County</placekey>
+        <placekey>Dekalb County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Fayette County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Grant County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Huntington County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jay County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Johnson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lagrange County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Martin County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Monroe County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Noble County</placekey>
+        <placekey>Ohio County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Rush County</placekey>
+        <placekey>Scott County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>Spencer County</placekey>
+        <placekey>Starke County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Switzerland County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Tipton County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Wayne County</placekey>
+        <placekey>Wells County</placekey>
+        <placekey>White County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Miranda Ritchie</cntper>
+          <cntorg>The Polis Center</cntorg>
+        </cntperp>
+        <cntpos>GIS</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1200 Waterway Blvd</address>
+          <address>IGCN, Room N801</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46202</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-274-2455</cntvoice>
+        <cntfax>317-278-1830</cntfax>
+        <cntemail>ritchiem@umail.iu.edu</cntemail>
+        <hours>8:00 AM to 5:00 PM</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000; Approximately 893 Kb</native>
+    <useconst>Infrastructure--Schools_IDOE</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This data set was provided by personnel of The Polis Center and is assumed to be accurate.</attraccr>
+    </attracc>
+    <logic>This data set was provided by personnel of The Polis Center and is assumed to be logically consistent.</logic>
+    <complete>This data set was provided by personnel of The Polis Center and is assumed to be complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This data set was provided by personnel of The Polis Center and horizontal accuracy is unknown.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>This data set was provided by personnel of The Polis Center and vertical positional accuracy is not relevant.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>The Polis Center</origin>
+            <pubdate>20101125</pubdate>
+            <title>Statewide_Schools.shp</title>
+            <edition>2010</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>The Polis Center</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>ESRI shapefile</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20101125</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by The Polis Center for the shapefile named STATEWIDE_SCHOOLS.</srccurr>
+        </srctime>
+        <srccitea>Statewide_Schools.shp</srccitea>
+        <srccontr>School locations and selected attributes for schools in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Personnel of The Polis Center downloaded Microsoft Excel spreadsheets named "Indiana_Public_School_Directory_2010.XLS"
+and "Indiana_Non_Public_School_Directory_2010.XLS" containing an inventory of schools in Indiana, from a Web site of
+the Indiana Department of Education (IDOE) at &lt; http://www.doe.in.gov/publications/schooldirectory.html &gt;.
+A geolocator in ESRI ArcMap was used to geocode the street addresses for each school (using an INDOT roads layer named
+"INDOT_Roads_2006.SHP" as a base layer) and produced a shapefile named "STATEWIDE_SCHOOLS.SHP."
+For addresses that could not be matched, Google Earth was used to manually plot locations.
+</procdesc>
+        <srcused>Indiana_Public_School_Directory_2010.XLS, Indiana_Non_Public_School_Directory_2010.XLS</srcused>
+        <procdate>20101125</procdate>
+        <srcprod>STATEWIDE_SCHOOLS.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Miranda Ritchie</cntper>
+              <cntorg>The Polis Center</cntorg>
+            </cntperp>
+            <cntpos>GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>1200 Waterway Boulevard, IGCN, Room N801</address>
+              <city>Indianapolis</city>
+              <state>Indiana</state>
+              <postal>46202</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>317-274-2455</cntvoice>
+            <cntfax>317-278-1830</cntfax>
+            <cntemail>ritchiem@umail.iu.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI shapefile named STATEWIDE_SCHOOLS.SHP from personnel of the Indiana Geographic Information
+Council (Phil Worrall) on December 2, 2010. The projection of the source shapefile was changed from decimal degrees to
+UTM Zone 16, NAD83, using ESRI ArcToolbox and renamed as SCHOOLS_POLIS_IDOE_IN.SHP.
+</procdesc>
+        <srcused>STATEWIDE_SCHOOLS.SHP</srcused>
+        <procdate>20101202</procdate>
+        <srcprod>SCHOOLS_POLIS_IDOE_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20101215</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-856-5654</cntvoice>
+            <cntfax>812-855-2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>2327</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SCHOOLS_POLIS_IDOE_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name of the school</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+        <attrdef>Street address of the school</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>City in which the school is located</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Zipcode</attrlabl>
+        <attrdef>Zip code area in which the school is located</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>State in which the school is located</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IDOE_ID</attrlabl>
+        <attrdef>Indiana Department of Education School ID number</attrdef>
+        <attrdefs>IDOE</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-855-7636</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the following source citation should be included: [SCHOOLS_POLIS_IDOE_IN:
+Schools in Indiana (The Polis Center, Indiana Department of Education, Point Shapefile)].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20101206</metd>
+    <metrd>20101215</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812-856-5654</cntvoice>
+        <cntfax>812-855-2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It should not to be altered
+or summarized. IGS does not support secondary distribution. If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

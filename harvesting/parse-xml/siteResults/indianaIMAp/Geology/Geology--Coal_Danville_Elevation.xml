@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Geological Survey</origin>
+        <origin>Agnieszka Drobniak</origin>
+        <pubdate>20110815</pubdate>
+        <title>
+COAL_DANVILLE_ELEVATION_NCRDS_IN_2011: Elevation Ranges of the Danville Coal Member (Dugger Formation,
+Pennsylvanian) in Southwestern Indiana (Indiana Geological Survey, 1:125,000, Polygon Shapefile)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>Indiana Geological Survey</publish>
+        </pubinfo>
+        <othercit>
+This shapefile was compiled based on data from the National Coal Resource Data System Database (NCRDS_Indiana2011.mdb)
+(Indiana Geological Survey, Access Database).
+Mastalerz, M., and Drobniak, A., 2011, The Indiana Geological Survey Coal Stratigraphic Database:
+Indiana Geological Survey Report of Progress 39.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+In the past a series of reports on coal resources of selected counties in Indiana was published
+as part of the Special Report series of the Indiana Geological Survey (IGS). These reports included maps
+showing elevation of the Danville Coal Member (Dugger Formation, Pennsylvanian). The elevation
+maps were based on coal-test records, mine-map notations, and interpretations of geophysical logs that
+are included in the files of the Indiana Geological Survey. Different elevation ranges were
+utilized in the various counties and for different purposes.
+Since 1980, staff members of the Indiana Geological Survey have also collected and entered coal
+resource information into the NCRDS Database as a cooperative project with the U.S. Geological Survey (USGS).
+The purpose of NCRDS Database is to provide a means of rapid retrieval of point-source coal resource information,
+including coal location, elevation, depth, and other parameters. Based on all available data as of October 2010, a
+new map of Danville Coal Member elevation was created. It is the most current elevation map of the Danville
+Coal Member. Because additional data on coal elevations are obtained by the Indiana Geological Survey on an annual
+basis, interested users may wish to contact the IGS for information on these more up-to-date sources.
+</abstract>
+      <purpose>
+COAL_DANVILLE_ELEVATION_NCRDS_IN_2011 was created to provide a multi-county digital shapefile, suitable for use in a GIS,
+from the Indiana Geological Survey National Coal Resource Data System Database (NCRDS) a Microsoft Access database
+of public, point-source coal-resource data in Indiana.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19850101</begdate>
+          <enddate>20110815</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.1286</westbc>
+        <eastbc>-87.0871</eastbc>
+        <northbc>39.9239</northbc>
+        <southbc>38.7705</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>energy</themekey>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>National Coal Resources Data System (NCRDS)</themekey>
+        <themekey>coal</themekey>
+        <themekey>elevation</themekey>
+        <themekey>coal elevation</themekey>
+        <themekey>geology</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Danville Coal Member</themekey>
+        <themekey>Dugger Formation</themekey>
+        <themekey>Carbondale Group</themekey>
+        <themekey>Pennsylvanian</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Greene County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Parke County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Vanderburgh County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Warren County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.0 polygon shapefile, Microsoft Windows 7.0, file size 1.87 Mb</native>
+    <useconst>Geology--Coal_Danville_Elevation</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+COAL_DANVILLE_ELEVATION_NCRDS_IN_2011 contains internal attributes with designations that refer to minimum and maximum values (in feet)
+of various elevation ranges. This shapefile was created using the NCRDS Database, which contains information coming from several
+different sources, including logs from coal-test drilling, interpretations of geophysical logs, and mine notations.
+The accuracy, precision, and distribution of these three types of data vary greatly. Mine-map notations
+are probably the most accurate, followed by drilling logs of good quality. Interpretations of geophysical
+logs are the least accurate source of information. The low resolution and the small scale of these logs make estimating coal
+elevation difficult. Because different types of data were used in the compilation of this shapefile,
+the user should assume that attribute values are no better than that achievable from the least accurate and precise source (namely,
+interpretations of geophysical logs).
+</attraccr>
+    </attracc>
+    <logic>Visual inspection only; no quantitative tests were performed.</logic>
+    <complete>The digital shapefile was derived from the NCRDS Database and is limited to extent of the Danville Coal Member in Indiana.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The accuracy of this ESRI ArcGIS shapefile is dependent upon the accuracy of the source data of each data point, and the
+accuracy with which these data were manually entered into the database.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+Vertical positional accuracy of the published paper source map is unknown.
+No quantitative tests were performed.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Geological Survey</origin>
+            <pubdate>20110815</pubdate>
+            <title>
+NCRDS_Indiana2011.mdb: The Indiana Geological Survey National Coal Resources Data System
+database, a Microsoft Access database of public, point-source coal resource data in
+Indiana, published as Indiana Geological Survey Report of Progress 39.
+</title>
+            <geoform>Digital tabular data</geoform>
+            <pubinfo>
+              <pubplace>Bloomington, Indiana</pubplace>
+              <publish>Indiana Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Microsoft Access database</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19800101</begdate>
+              <enddate>20110815</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Date of most recent update to the database</srccurr>
+        </srctime>
+        <srccitea>NCRDS_Indiana2011.mdb</srccitea>
+        <srccontr>
+The source contributed location and attribute information for 3,588 public point-source
+coal resource data points in Indiana.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+A Microsoft Access database named "NCRDS_Indiana2011.mdb" compiled as Indiana Geological Survey
+Report of Progress 39 was used to create this ESRI ArcGIS shapefile. 3,588 datapoints showing the elevation
+information of the Danville Coal Member were exported from the NCRDS database and using "Add X Y"
+command displayed in ArcMap. The "Export" command was then used to export the datapoints as a shapefile
+named "DAN_NCRDS_PT_2011.shp." Using Topo to Raster interpolation low-resolution elevation digital raster
+was created.  The raster was reclasiffied into 50-feet ranges and exported as a COAL_DANVILLE_ELEVATION_NCRDS_IN_2011
+shapefile. Mapped elevation ranges from -450 to 650 feet. The shapefile was then converted to a polyline, with
+attributes being preserved, and smoothed using "Smooth Line" option in ArcToolbox (ArcToolbox &gt; Cartography Tools &gt;
+Generalization &gt; Smooth line). Finally, the polygon was reconstructed using Feature to Polygon option.
+</procdesc>
+        <srcused>NCRDS_Indiana2011.mdb</srcused>
+        <procdate>2011016</procdate>
+        <srcprod>COAL_DANVILLE_ELEVATION_NCRDS_IN_2011.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Agnieszka Drobniak</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N. Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 855 5805</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>agdrobni@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software written
+by Peter N. Schweitzer (United States Geological Survey). The errors generated by MP were all addressed and corrected, except that
+no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20110929</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 N. Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405 2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>dintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>255</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>COAL_DANVILLE_ELEVATION_NCRDS_IN_2011.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Elevation</attrlabl>
+        <attrdef>Elevation interval values (in feet) for the Danville Coal Member</attrdef>
+        <attrdefs>Indiana Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSinfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Geological Survey be cited in any
+products generated from this data.  The following source citation should be
+included: COAL_DANVILLE_ELEVATION_NCRDS_IN_2011: Elevation Ranges of the Danville Coal Member
+(Dugger Formation, Pennsylvanian) in Southwestern Indiana (Indiana Geological Survey, 1:125,000, Polygon
+Shapefile) by Agnieszka Drobniak, 2011.
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on
+which this product is stored will be free from defect in materials and
+workmanship for ninety (90) days from the date of acquisition. If such a
+defect is found, return the media to Publication Sales, Indiana
+Geological Survey, 611 North Walnut Grove Avenue, Bloomington, Indiana 47405 2208,
+and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana
+University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Indiana University, Indiana
+Geological Survey is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110815</metd>
+    <metrd>20111121</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Agnieszka Drobniak</cntper>
+        </cntorgp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 N. Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405 2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 5805</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>agdrobni@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS. It should not to be altered
+or summarized. IGS does not support secondary distribution. If this
+data set was received from anyone besides the IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

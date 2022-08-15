@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Conservation Biology Institute</origin>
+        <pubdate>May 1, 2010</pubdate>
+        <title>United States Protected Areas (PAD-US 1.1 (CBI Edition))</title>
+        <geoform Sync="TRUE">vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Corvallis, Oregon</pubplace>
+          <publish>Conservation Biology Institue</publish>
+        </pubinfo>
+        <onlink>http://databasin.org/protected-center/features/PAD-US-CBI/download</onlink>
+        <ftname Sync="TRUE">UnitedStatesProtectedAreas</ftname>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <keywords>
+      <theme>
+        <themekt>Data Basin free form keywords</themekt>
+        <themekey>Protected Areas</themekey>
+        <themekey>Conservation Easement</themekey>
+        <themekey>GAP Codes</themekey>
+        <themekey>IUCN Codes</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This information is in the public domain.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christina Supples</cntper>
+          <cntorg>Conservation Biology Institute</cntorg>
+        </cntperp>
+        <cntpos>Applied Conservation Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>136 SW Washington Ave, Suite 202</address>
+          <city>Corvallis</city>
+          <state>Oregon</state>
+          <postal>97333</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>303-513-4543</cntvoice>
+        <cntemail>csupples@consbio.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>See Data Source table at http://databasin.org/protected-center/features/PAD-US-CBI/download</datacred>
+    <native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <progress>
+    </progress>
+    <update>
+    </update>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-180.000000</westbc>
+        <eastbc Sync="TRUE">180.000000</eastbc>
+        <northbc Sync="TRUE">90.000000</northbc>
+        <southbc Sync="TRUE">7.239148</southbc>
+      </bounding>
+      <lboundng>
+        <leftbc Sync="TRUE">-6328648.575700</leftbc>
+        <rightbc Sync="TRUE">2258224.641600</rightbc>
+        <bottombc Sync="TRUE">230940.419000</bottombc>
+        <topbc Sync="TRUE">6198583.667800</topbc>
+      </lboundng>
+    </spdom>
+    <natvform Sync="TRUE">Shapefile</natvform>
+    <descript>
+      <abstract>UnitedStatesProtectedAreas2010</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+    </attracc>
+    <lineage>
+      <procstep>
+        <srcused>lute  	http://consbio.server.peak.org/filestore/public/PAD/</srcused>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">c:\temp\xml117.tmp</srcused>
+        <procdate Sync="TRUE">20100503</procdate>
+        <proctime Sync="TRUE">15530000</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Vector</direct>
+    <ptvctinf>
+      <sdtsterm Name="UnitedStatesProtectedAreas">
+        <sdtstype Sync="TRUE">G-polygon</sdtstype>
+        <ptvctcnt Sync="TRUE">145959</ptvctcnt>
+      </sdtsterm>
+      <esriterm Name="UnitedStatesProtectedAreas">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom Sync="TRUE">Polygon</efeageom>
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">145959</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">coordinate pair</plance>
+          <coordrep>
+            <absres Sync="TRUE">0.000000</absres>
+            <ordres Sync="TRUE">0.000000</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">meters</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll Sync="TRUE">29.500000</stdparll>
+            <stdparll Sync="TRUE">45.500000</stdparll>
+            <longcm Sync="TRUE">-96.000000</longcm>
+            <latprjo Sync="TRUE">23.000000</latprjo>
+            <feast Sync="TRUE">0.000000</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </albers>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+        <projcsn Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic_USGS_version</projcsn>
+      </cordsysn>
+    </horizsys>
+/n
+</spref>
+  <eainfo>
+    <detailed Name="UnitedStatesProtectedAreas">
+      <enttyp>
+        <enttypl Sync="TRUE">UnitedStatesProtectedAreas</enttypl>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">145959</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl Sync="TRUE">FID</attrlabl>
+        <attrdef Sync="TRUE">Internal feature number.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">FID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">Shape</attrlabl>
+        <attrdef Sync="TRUE">Feature geometry.</attrdef>
+        <attrdefs Sync="TRUE">ESRI</attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">0</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">OBJECTID</attrlabl>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">Number</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>US_ID</attrlabl>
+        <attrdef>
+        </attrdef>
+        <attrdefs>
+        </attrdefs>
+        <attalias Sync="TRUE">us_id</attalias>
+        <attrtype Sync="TRUE">Integer</attrtype>
+        <attwidth Sync="TRUE">9</attwidth>
+        <atprecis Sync="TRUE">9</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>CATEGORY</attrlabl>
+        <attrdef>General category for the protection mechanism (e.g. Fee, Easement, Other, Unknown).</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">category</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>OWN_TYPE</attrlabl>
+        <attrdef>General land owner description (e.g. Federal, Tribal, State, Private Conservation, Private) standarized for the nation.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">own_type</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>OWN_NAME</attrlabl>
+        <attrdef>Primary agency or entity who owns the parcel, genalized ownership name.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">own_name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>OWN_NAME_D</attrlabl>
+        <attrdef>Primary agency or entity who owns the parcel, detailed ownership name.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">own_name_d</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>MGR_NAME_D</attrlabl>
+        <attrdef>Primary agency or entity repsonsible for the management of the parcel, detailed manager name.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">mgr_name_d</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>P_DES_TP</attrlabl>
+        <attrdef>Primary land management description or designation expected to overlap another desigantion, standarized for the nation (e.g. Area of Critical Environmental Concern (BLM) resides in this field while Name BLM District resides in Secondary Designation Type).</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">p_des_tp</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>P_LOC_DS</attrlabl>
+        <attrdef>Land management description or designation as provided by data source. Not standardized for the nation.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">p_loc_ds</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>P_DES_NM</attrlabl>
+        <attrdef>Name of parcel standarized to enable searches for PAs by name.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">p_des_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>P_LOC_NM</attrlabl>
+        <attrdef>Name or pracel as provided by source. Not standardized.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">p_loc_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>S_DES_TP</attrlabl>
+        <attrdef>Overarching management of a polygon under which another may overlap (e.g. a National Forest is listed here, when a Wilderness Area "overlaps" and is therfore the primary designation type).</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">s_des_tp</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>S_LOC_DS</attrlabl>
+        <attrdef>Land management description or desgiantion as provided by data source. Not standarized for the nation.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">s_loc_ds</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>S_DES_NM</attrlabl>
+        <attrdef>Name of parcel standarized to enable searches for PAs by name.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">s_des_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>S_LOC_NM</attrlabl>
+        <attrdef>Name of parcel as provided by source. Not standardized.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">s_loc_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">t_des_tp</attrlabl>
+        <attalias Sync="TRUE">t_des_tp</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">t_loc_ds</attrlabl>
+        <attalias Sync="TRUE">t_loc_ds</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">t_des_nm</attrlabl>
+        <attalias Sync="TRUE">t_des_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+      </attr>
+      <attr>
+        <attrlabl Sync="TRUE">t_loc_nm</attrlabl>
+        <attalias Sync="TRUE">t_loc_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Proposed - Site has approval on a local gov't level but is awaiting legal declaration/decree; Designated - Site has been legally decreed; Recommended - Site has been put forward by local/international, non governmental organization or national agency.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">status</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>STATE_NM</attrlabl>
+        <attrdef>Name of state spelled out.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">state_nm</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GAP_STS</attrlabl>
+        <attrdef>Measure of long-term biodiversity protection according to GAP 1-4 scale. GAP 0 id parcels where GAP codes are currently unavailable.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">gap_sts</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>IUCN_CAT</attrlabl>
+        <attrdef>IUCN management categories, codes assigned using USGS GAP Master Stewardship List.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">iucn_cat</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GAPCDSRC</attrlabl>
+        <attrdef>An acronym to describe the organization that applied the GAP Status Code to the polygon (e.g. GAP or TNC)</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">gapcdsrc</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">150</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GAPCDDT</attrlabl>
+        <attrdef>The year the GAP Status Code was assigned to the polygon based on puclibation date of the data source unless other information is available.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">gapcddt</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">15</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>AGG_SRC</attrlabl>
+        <attrdef>Organization that aggregated source datasets for PAD US (CBI edition)</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">agg_src</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">150</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GIS_SRC</attrlabl>
+        <attrdef>Source of GIS spatial and attribute information.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">gis_src</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">50</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SRC_DATE</attrlabl>
+        <attrdef>Date GIS information was published according to source filed metadata.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">src_date</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">15</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GIS_ACRES</attrlabl>
+        <attrdef>Acres caluculated for polygons-calculate geometry command.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">gis_acres</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+        <attrdef>Any comments from either the source of aggregator.</attrdef>
+        <attrdefs>PAD US</attrdefs>
+        <attalias Sync="TRUE">comments</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">200</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_LENG</attrlabl>
+        <attrdef>
+        </attrdef>
+        <attrdefs>
+        </attrdefs>
+        <attalias Sync="TRUE">SHAPE_Leng</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_AREA</attrlabl>
+        <attrdef>
+        </attrdef>
+        <attrdefs>
+        </attrdefs>
+        <attrdomv>
+          <udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">SHAPE_Area</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">19</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christina Supples</cntper>
+          <cntorg>Conservation Biology Institute</cntorg>
+        </cntperp>
+        <cntpos>Applied Conservation Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>136 SW Washington Ave, Suite 202</address>
+          <city>Corvallis</city>
+          <state>Oregon</state>
+          <postal>97333</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-303-513-4543</cntvoice>
+        <cntinst>csupples@consbio.org</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>http://databasin.org/protected-center/features/PAD-US-CBI/download</resdesc>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <transize Sync="TRUE">847.387</transize>
+          <dssize Sync="TRUE">847.387</dssize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20100512</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Christina Supples</cntper>
+          <cntorg>Conservation Biology Institute</cntorg>
+        </cntperp>
+        <cntpos>Applied Conservation Sicentist</cntpos>
+        <cntaddr />
+        <cntvoice>1 (303) 513-4543</cntvoice>
+        <cntinst>csupples@consbio.org</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <langmeta Sync="TRUE">en</langmeta>
+    <metextns>
+      <onlink>http://consbio.server.peak.org/filestore/public/PAD/</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <Esri>
+    <MetaID>{3CB1B4E1-215A-4384-8BBF-D96543D7028F}</MetaID>
+    <CreaDate>20100503</CreaDate>
+    <CreaTime>15530000</CreaTime>
+    <SyncOnce>FALSE</SyncOnce>
+    <SyncDate>20100512</SyncDate>
+    <SyncTime>14010700</SyncTime>
+    <ModDate>20100512</ModDate>
+    <ModTime>14010700</ModTime>
+  </Esri>
+  <dataIdInfo>
+    <envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+    <dataLang>
+      <languageCode Sync="TRUE" value="en">
+      </languageCode>
+    </dataLang>
+    <idCitation>
+      <resTitle Sync="TRUE">UnitedStatesProtectedAreas</resTitle>
+      <presForm>
+        <PresFormCd Sync="TRUE" value="005">
+        </PresFormCd>
+      </presForm>
+    </idCitation>
+    <spatRpType>
+      <SpatRepTypCd Sync="TRUE" value="001">
+      </SpatRepTypCd>
+    </spatRpType>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox esriExtentType="native">
+          <westBL Sync="TRUE">-6328648.5757</westBL>
+          <eastBL Sync="TRUE">2258224.6416</eastBL>
+          <northBL Sync="TRUE">6198583.6678</northBL>
+          <southBL Sync="TRUE">230940.419</southBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <geoBox esriExtentType="decdegrees">
+      <westBL Sync="TRUE">-180</westBL>
+      <eastBL Sync="TRUE">180</eastBL>
+      <northBL Sync="TRUE">90</northBL>
+      <southBL Sync="TRUE">7.239148</southBL>
+      <exTypeCode Sync="TRUE">1</exTypeCode>
+    </geoBox>
+  </dataIdInfo>
+  <mdLang>
+    <languageCode Sync="TRUE" value="en">
+    </languageCode>
+  </mdLang>
+  <mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+  <mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+  <mdChar>
+    <CharSetCd Sync="TRUE" value="004">
+    </CharSetCd>
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd Sync="TRUE" value="005">
+    </ScopeCd>
+  </mdHrLv>
+  <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+  <distInfo>
+    <distributor>
+      <distorTran>
+        <onLineSrc>
+          <orDesc Sync="TRUE">002</orDesc>
+          <linkage Sync="TRUE">file://\\PC-36\D\PAD_US1.1\UnitedStatesProtectedAreas.shp</linkage>
+          <protocol Sync="TRUE">Local Area Network</protocol>
+        </onLineSrc>
+        <transSize Sync="TRUE">847.387</transSize>
+      </distorTran>
+      <distorFormat>
+        <formatName Sync="TRUE">Shapefile</formatName>
+      </distorFormat>
+    </distributor>
+  </distInfo>
+  <refSysInfo>
+    <RefSystem>
+      <refSysID>
+        <identCode Sync="TRUE">USA_Contiguous_Albers_Equal_Area_Conic_USGS_version</identCode>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <spatRepInfo>
+    <VectSpatRep>
+      <topLvl>
+        <TopoLevCd Sync="TRUE" value="001">
+        </TopoLevCd>
+      </topLvl>
+      <geometObjs Name="UnitedStatesProtectedAreas">
+        <geoObjTyp>
+          <GeoObjTypCd Sync="TRUE" value="001">
+          </GeoObjTypCd>
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">145959</geoObjCnt>
+      </geometObjs>
+    </VectSpatRep>
+  </spatRepInfo>
+  <mdDateSt Sync="TRUE">20100512</mdDateSt>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>115 Land and Water building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>(editor): Bernardin, Lochmueller and Associates</origin>
+        <origin>(creator): U. S. Environmental Protection Agency</origin>
+        <pubdate>20040100</pubdate>
+        <title>
+SEDIMENT_INVENTORY_EPA_IN: National Sediment Inventory (NSI) and Data Summaries in Indiana,
+Derived from EPA BASINS 3 (United States Environmental Protection Agency, Point Shapefile)
+</title>
+        <edition>USEPA BASINS 3, NSI Version 1.2</edition>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Evansville, INDIANA</pubplace>
+          <publish>Bernardin, Lochmueller and Associates</publish>
+        </pubinfo>
+        <othercit>
+Data was obtained from the USEPA BASINS 3.0 Region 5 CD, website
+&lt;http://www.epa.gov/OST/BASINS/&gt;, and was developed by the USEPA,
+Office of Water, OST.
+</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+SEDIMENT_INVENTORY_EPA_IN is a point shapefile from the National Sediment Inventory developed by
+the USEPA BASINS 3.0 program and edited by Bernardin, Lochmueller and Associates. Points
+represent monitoring stations attributed as occuring within the state of Indiana or along
+the Ohio River in Kentucky, or in Illinois along Lake Michigan. Joinable tables must be utilized to
+access data at specific stations for specific parameters. Five tables are available - tissue residue
+data (tischem.dbf), sediment chemistry data (sedichem.dbf), screening value, cancer slope factors,
+and noncancer reference doses for chemicals (reftabl.dbf), watershed summary data (watersh.dbf),
+biotoxicity data (biotox.dbf).
+
+US Environmental Protection Agency BASINS metadata reports -
+
+"This dataset describes the accumulation of chemical contaminants in river,
+lake, ocean, and estuary bottoms and includes a screening assessment of
+the potential for associated adverse effects on human and environmental
+health. EPA evaluated more than 21,000 sampling stations nationwide using
+sediment chemistry data, chemical residue levels in edible tissue of aquatic
+organisms, and sediment toxicity data. Of the sampling stations evaluated,
+5,521 stations were classified as Tier 1 (associated adverse effects are
+probable), 10,401 stations were classified as Tier 2 (associated adverse
+effects are possible, but expected infrequently), and 5,174 stations were
+classified as Tier 3 (no indication of associated adverse effects). Ninety-six
+watersheds were identified as areas of probable concern for sediment contamination.
+EPA believes that these watersheds represent the highest priority for further
+ecotoxicological assessments, risk analysis, temporal and spatial trend
+assessments, contaminant source evaluation, and management action because
+of the preponderance of evidence in these areas (although further evaluation
+is necessary). Also see the related report entitled The Incidence And Severity
+Of Sediment Contamination In Surface Waters of the United States, Volume
+1, National Sediment Quality Survey (EPA 823-R-97-006, &lt;http://www.epa.gov/OST&gt;)
+that was published in September 1997. For distribution with BASINS v.2.0,
+the spatial attributes of the database were prepared in Arcview shape file
+format while selected relational attributes were prepared in Arcview DBF
+file format."
+"This data set provides individuals with observation level data that were
+used in the most geographically extensive investigation of sediment contamination
+ever performed in the United States. Based on this evaluation, sediment
+contamination exists at levels where associated adverse effects are probable
+in some locations within each State of the country."
+</abstract>
+      <purpose>
+To provide general information on sediment contamination at monitoring stations in Indiana.
+US Environmental Protection Agency BASINS metadata reports -
+
+"The U.S. Environmental Protection Agency prepared these data and the related
+assessment to meet the requirements set forth in the Water Resources Development
+Act (WRDA) of 1992, which directed EPA, in consultation with the National
+Oceanic and Atmospheric Administration (NOAA), and the U.S. Army Corps
+of Engineers (USACE), to conduct a comprehensive national survey of data
+regarding the quality of aquatic sediments in the United States. The Act
+required EPA to compile all existing information on the quantity, chemical
+and physical composition, and geographic location of pollutants in aquatic
+sediment."
+</purpose>
+      <supplinf>
+This dataset, as well as many others, was compiled
+for mapping and download as part of the Indiana Statewide GIS Database
+funded by the Indiana Department of Transportation.  Many publicly
+available datasets were created, edited, and compiled inclusion in the
+Statewide Database Website where users can download data or map online
+using ArcIMS. Many public data sources, not created in conjunction with
+the statewide project,  were obtained by website download, contacting
+originators, and creating spatial files from tabular data.  A range of
+layer editing was used, specific to each layer, from full creation, to
+data cleaning, to only reformatting metadata.  The level of editing done
+by BLA or IGS is fully disclosed in the process steps of this metadata;
+credit for the information is retained by the originator.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19800101</begdate>
+          <enddate>19930101</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>vary from date range</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Unknown</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.0157</westbc>
+        <eastbc>-86.8562</eastbc>
+        <northbc>38.5276</northbc>
+        <southbc>37.3724</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesarus</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Sediment Contamination</themekey>
+        <themekey>National Sediment Quality Survey</themekey>
+        <themekey>National Sediment Inventory</themekey>
+        <themekey>Water Resources Development Act</themekey>
+        <themekey>U. S. Environmental Protection Agency</themekey>
+        <themekey>USEPA</themekey>
+        <themekey>BASINS</themekey>
+        <themekey>tissue residue</themekey>
+        <themekey>chemicals</themekey>
+        <themekey>chemistry</themekey>
+        <themekey>cancer slope factor</themekey>
+        <themekey>watershed</themekey>
+        <themekey>biotoxicity</themekey>
+        <themekey>pollution</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Calumet County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Gibson County</placekey>
+        <placekey>Hancock County</placekey>
+        <placekey>Hardin County</placekey>
+        <placekey>Harrison County</placekey>
+        <placekey>Jefferson County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>LaPorte County</placekey>
+        <placekey>Lawrence County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Newton County</placekey>
+        <placekey>Pike County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Posey County</placekey>
+        <placekey>Randolph County</placekey>
+        <placekey>Steuben County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wells County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+          <cntper>Neal Schroeder</cntper>
+        </cntorgp>
+        <cntpos>Geographer, Environmental Planner</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>nschroeder@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ArcView version 3.x shapefile format</native>
+    <useconst>Hydrology--Water_Quality_Sediment_Inventory</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No information was included in original BASINS 3.0 metadata.</attraccr>
+    </attracc>
+    <logic>
+No information was included in the original BASINS 3.0 metadata. It is
+possible that multiple points occur concurrently at the same location.
+</logic>
+    <complete>
+The monitoring stations included in this file are subset of the
+national dataset consisting of stations listed as occurring in Indiana
+and along the Ohio River in Kentucky, and Lake Michigan in Illinois.
+US Environmental Protection Agency BASINS metadata reports -
+
+"Version 1.2 of the data contains only the data evaluated as part of the
+National Sediment Quality Survey and the results of the screening level
+assessment. Earlier versions (e.g., 1.0 and 1.1) contain additional data
+quality information as available in original data sources. Other information
+such as grain size, lipid content, etc. and chemicals not evaluated as
+part of the NSI are also available in earlier versions of the data, but
+are not part of the data extracted for BASINS."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Observing positional accuracy suggests that this layer
+is best used at small scales.
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>
+No information was included in the original BASINS 3.0 metadata.
+Vertical accuracy does not appear to be a factor in the digital
+production of the data set.
+</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USEPA, Office of Water, OST</origin>
+            <pubdate>19970901</pubdate>
+            <title>
+The Incidence and Severity of Sediment Contamination in
+Surface Waters of the United States, Volume 1, National
+Sediment Quality Survey
+</title>
+            <geoform>digital vector data</geoform>
+            <pubinfo>
+              <pubplace>WAshington, DC</pubplace>
+              <publish>USEPA, Office of Water, OST</publish>
+            </pubinfo>
+            <onlink>&lt;http://www.epa.gov/waterscience/cs/report.html&gt;</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>EPA IBM mainframe</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19800101</begdate>
+              <enddate>19930101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Stated in report</srccurr>
+        </srctime>
+        <srccitea>NSQS Report</srccitea>
+        <srccontr>All information was obtained from the source data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USEPA, Office of Water, OST</origin>
+            <pubdate>20010601</pubdate>
+            <title>USEPA BASINS 3.0</title>
+            <geoform>digital vector data</geoform>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>USEPA, Office of Water, OST</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>BASINS</srccitea>
+        <srccontr>shapefile data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+US Environmental Protection Agency BASINS metadata reports -
+
+"The data were directly extracted from the source data files located on
+the EPA IBM mainframe, located in Raleigh, North Carolina. Using basic
+SAS commands, the files were converted directly to DBASE formatted files
+for transporting into this application. The geographic coordinates for
+sampling stations were obtained from the source data. Since most of these
+stations have existed for some time, it is likely they were determined
+by using USGS 1:24,000 - 1:100,000-scale topographic map (depending on
+map availability), which is consistent with the approach used for many
+EPA data systems originally developed in the early 1980's."
+</procdesc>
+        <srcused>NSQS Report</srcused>
+        <procdate>19980218</procdate>
+        <srcprod>BASINS, nsi</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Unknown</cntper>
+              <cntorg>Tetra Tech, Inc.</cntorg>
+            </cntperp>
+            <cntpos>Unknown</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>10306 Eaton Place, Suite 340</address>
+              <city>Fairfax</city>
+              <state>Virginia</state>
+              <postal>22030</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>703-385-6000</cntvoice>
+            <cntfax>Unknown</cntfax>
+            <cntemail>Unknown</cntemail>
+            <hours>Unknown</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+A file named nsi was obtained by Bernardin, Lochmueller &amp; Associates from the
+USEPA BASINS 3.0 Region 5 CD, &lt;http://www.epa.gov/OST/BASINS/&gt;. The file was selected
+to points attributed as being in Indiana and transformed from Geographic to UTM,
+Zone 16, meters. Some empty fields were deleted.
+</procdesc>
+        <srcused>BASINS, NSI</srcused>
+        <procdate>20031222</procdate>
+        <srcprod>SEDIMENT_INVENTORY_EPA_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+The Metadata provided by the orignator to accompany the unedited data
+obtained by BLA, was used to create the FGDC compliant metadata which
+accompanies this file.  Information from orignial metadata was used to
+fill the fields in the FGDC form and other information regarding any edits
+made by BLA to the original file are documented.  Because information in
+this metadata is provided by the originator, occasionally, field information may
+not comply with FGDC field definitions, although the overall form is FGDC compliant.
+Errors are corrected when possible, but if doubt exists the field was populated
+by whatever information was provided by the orignator.  Fields where errors have been
+more frequent include Data Quality Information and Entity and Attribute Information.
+</procdesc>
+        <srcused>BASINS NSI</srcused>
+        <procdate>20040301</procdate>
+        <srcprod>SEDIMENT_INVENTORY_EPA_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Cinda Bonds</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Environmental Biologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-479-6200</cntvoice>
+            <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+            <hours>0800-1700 CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata was pre-parsed and parsed using CNS (Chew and Spit. v 2.6.1) and
+MP (Metadata Parser, v 2.7.1) software written by Peter N. Schweitzer (United
+States Geological Survey).  The errors generated by MP were all
+addressed and corrected, except that no values were assigned to
+"Abscissa_Resolution" and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20041117</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>118</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate Pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SEDIMENT_INVENTORY_EPA_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NSI_STAT</attrlabl>
+        <attrdef>Unique station identification assigned during NSI processing</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1907</rdommin>
+            <rdommax>21051</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>Identification of data origin</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>STORET</edomv>
+            <edomvd>EPA's Storage and Retrieval System</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>ODES</edomv>
+            <edomvd>Ocean Data Evaluating System</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>GR.LAKE</edomv>
+            <edomvd>Great Lakes Data Base</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>County number assigned during NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>5-digit state and county FIPS code</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State Postal Code (2 character)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>US two letter State abbreviations</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EPA_REG</attrlabl>
+        <attrdef>U.S. EPA Region assigned during NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4</rdommin>
+            <rdommax>5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+        <attrdef>Latitude in Decimal Degrees</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>Decimal Degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONG</attrlabl>
+        <attrdef>Longitude in Decimal Degrees</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>Decimal Degrees</attrunit>
+          </rdom>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIER</attrlabl>
+        <attrdef>NSI Station Classification</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>higher probability of adverse effects</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>intermediate probability of adverse effects</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>no indication of adverse effects</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AL_SED</attrlabl>
+        <attrdef>NSI Aquatic Life Classification using sediment chemistry data</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>meets requirements for Tier 1</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>meets requirements for Tier 2</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>does not meet the requirements for Tier 1 or 2</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>no data for analysis</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AL_TOX</attrlabl>
+        <attrdef>NSI Aquatic Life Classification using biotoxitity data</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>meets requirements for Tier 1</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>no data for analysis</edomvd>
+            <edomvds>See NSQS report.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HH_TIS</attrlabl>
+        <attrdef>NSI Human Health Classification using tissue residue data</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>meets requirements for Tier 1</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>no data for analysis</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HH_SED</attrlabl>
+        <attrdef>NSI Human Health Classification using sediment chemistry data</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>meets requirements for Tier 2</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>does not meet the requirements for Tier 1 or 2</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>no data for analysis</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RF1_NAME</attrlabl>
+        <attrdef>U.S. EPA Reach File, version 1 Reach Name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>U.S. EPA Reach File, version 1 Reach Name</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RF1_ID</attrlabl>
+        <attrdef>U.S. EPA Reach File, version 1 (11-digit) Reach Number</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>U.S. EPA Reach File, version 1 (11-digit) Reach Number</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY</attrlabl>
+        <attrdef>Identification of group responsible for storing data</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION</attrlabl>
+        <attrdef>Unique monitoring station identification code for a given source and agency</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>County name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION</attrlabl>
+        <attrdef>Location description</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MONPROG</attrlabl>
+        <attrdef>Name of Monitoring Program or Group</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CU</attrlabl>
+        <attrdef>Hydrologic Unit Code assigned during NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USGS 8-digit Hydrologic Unit Code</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SEDICHEM.DBF</enttypl>
+        <enttypd>Sediment Chemistry Data Evaluated During National Sediment Inventory</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NSI_STAT</attrlabl>
+        <attrdef>Unique station identification assigned during NSI processing</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1897</rdommin>
+            <rdommax>20447</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Sample date (YY-MM-DD format)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAS</attrlabl>
+        <attrdef>Chemical Abstract System number</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Chemical Abstract System number</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P</attrlabl>
+        <attrdef>
+Analytical result evaluated during NSI, value might be the result of averaging replicates,
+adjusting raw data to dry weight basis, etc.
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00200</rdommin>
+            <rdommax>15000000.00000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R</attrlabl>
+        <attrdef>Remark code associated with analytical result</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;</edomv>
+            <edomvd>
+analytical result is less than or not detected, value reported is detection limit or
+quantification limit
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>analytical result can be used without qualification</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FOC</attrlabl>
+        <attrdef>Fraction organic carbon</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1</rdommax>
+            <attrunit>unitless</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHEMICAL</attrlabl>
+        <attrdef>Chemical name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQC</attrlabl>
+        <attrdef>Draft Sediment Quality Criteria flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value adjusted for total organic carbon exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEM</attrlabl>
+        <attrdef>Simultaneously extracted metals flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>
+simultaneously extracted metals concentration exceeds
+acid-volatile sulfide concentration
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>
+simultaneously extracted metal concentration does not exceed acid-volatile sulfide
+concentration
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AETH</attrlabl>
+        <attrdef>Apparent Effects Threshold-High flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AETL</attrlabl>
+        <attrdef>Apparent Effects Threshold-Low flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ERM</attrlabl>
+        <attrdef>Effects Ranage-Median flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ERL</attrlabl>
+        <attrdef>Effects Range-Low flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQAL</attrlabl>
+        <attrdef>Sediment Quality Advisory Level flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value adjusted for total organic carbon when available exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PEL</attrlabl>
+        <attrdef>Probable Effects Levels flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RSK</attrlabl>
+        <attrdef>EPA Cancer/Non-cancer Risk flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>cancer or non-cancer screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FDA</attrlabl>
+        <attrdef>Food and Drug Administration Tolerance/Action/Guidance flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TEL</attrlabl>
+        <attrdef>Threshold Effects Levels flag</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bcu</attrlabl>
+        <attrdef>Catalog Units</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>TISCHEM.DBF</enttypl>
+        <enttypd>Tissue Residue Data Evaluated During National Sediment Inventory</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NSI_STAT</attrlabl>
+        <attrdef>Unique station identification assigned during NSI processing</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>21096</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Sample date (YY-MM-DD format)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAS</attrlabl>
+        <attrdef>Chemical Abstract System number</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Chemical Abstract System number</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P</attrlabl>
+        <attrdef>
+Analytical result evaluated during NSI, value might be the result of
+averaging replicates, etc.
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00000000.0000000</rdommin>
+            <rdommax>99999999.9999999</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R</attrlabl>
+        <attrdef>Remark code associated with analytical result</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>&lt;</edomv>
+            <edomvd>
+analytical result is less than or not detected, value reported is detection limit or
+quantification limit
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>analytical result can be used without qualification</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CHEMICAL</attrlabl>
+        <attrdef>Chemical name (See Reference Values Table for screening values)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HH</attrlabl>
+        <attrdef>Tissue level of dioxin or PCBs in resident species exceed EPA risk levels</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RSK</attrlabl>
+        <attrdef>Tissue level in resident species exceed EPA risk levels</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FDA</attrlabl>
+        <attrdef>Tissue level in resident species exceed FDA action levels</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>screening value exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>screening value not exceeded</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COM_NAME</attrlabl>
+        <attrdef>Common species name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ANATOMY</attrlabl>
+        <attrdef>Anatomy analyzed</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bcu</attrlabl>
+        <attrdef>Catalog Units</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>BIOTOX.DBF</enttypl>
+        <enttypd>Biotoxicity Data Evaluated During National Sediment Inventory</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NSI_STAT</attrlabl>
+        <attrdef>Unique station identification assigned during NSI processing</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>21096</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPECIES</attrlabl>
+        <attrdef>Species name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Sample date (YY-MM-DD format)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TEST</attrlabl>
+        <attrdef>Percent mortality in test</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>100.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHASE</attrlabl>
+        <attrdef>Phase code indicating the phase (i.e., medium) in which the bioassay organisms are housed</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>solid</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Elutriate</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTROL</attrlabl>
+        <attrdef>Percent mortality in control</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>100.0</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SIG</attrlabl>
+        <attrdef>Significance of result</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>significant mortality is detected</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>&lt;blank&gt;</edomv>
+            <edomvd>significant mortality is not detected</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bcu</attrlabl>
+        <attrdef>Hydrologic Units</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>REFTABL.DBF</enttypl>
+        <enttypd>
+Screening Values, Cancer Slope Factors, and Noncancer References Doses for Chemicals Evaluated
+During National Sediment Quality Survey
+</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>CHEMICAL</attrlabl>
+        <attrdef>Chemical name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CAS</attrlabl>
+        <attrdef>Chemical Abstract System number</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Chemical Abstract System number</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQC</attrlabl>
+        <attrdef>Draft Sediment Quality Criteria used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>620000</rdommax>
+            <attrunit>nanograms/gram organic carbon</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ERL</attrlabl>
+        <attrdef>Effects Range-Low used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>150000.00</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ERM</attrlabl>
+        <attrdef>Effects Range-Median used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>410000.00</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AETL</attrlabl>
+        <attrdef>Apparent Effects Threshold-Low used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>450000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AETH</attrlabl>
+        <attrdef>Apparent Effects Threshold-High used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1600000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQAL</attrlabl>
+        <attrdef>Sediment Quality Advisory Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1100000</rdommax>
+            <attrunit>nanograms/gram organic carbon</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TEL</attrlabl>
+        <attrdef>Threshold Effects Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>124000.00</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PEL</attrlabl>
+        <attrdef>Probable Effects Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>271000.00</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RSK</attrlabl>
+        <attrdef>Cancer/Non-cancer Risk Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00000</rdommin>
+            <rdommax>110000000.00000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CANRSK</attrlabl>
+        <attrdef>EPA Cancer Risk Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00000</rdommin>
+            <rdommax>110000.00000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NONCAN</attrlabl>
+        <attrdef>EPA Noncancer Risk Level used for NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>110000000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FDA</attrlabl>
+        <attrdef>Food and Drug Administration Tolerance/Action/Guidance Level</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>70000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WLD</attrlabl>
+        <attrdef>Wildlife Criteria</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00000</rdommin>
+            <rdommax>160.00000</rdommax>
+            <attrunit>parts per billion</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BSAF</attrlabl>
+        <attrdef>Biota-sediment accumulation factor</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7.700</rdommin>
+            <rdommax>0.000</rdommax>
+            <attrunit>kg sediment organic carbon/kg lipid</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SF</attrlabl>
+        <attrdef>Cancer slope factor</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0000000</rdommin>
+            <rdommax>156000.0000000</rdommax>
+            <attrunit>(mg/kg/d)**(-1)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RFD</attrlabl>
+        <attrdef>Noncancer Reference Dose</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0000000</rdommin>
+            <rdommax>10.0000000</rdommax>
+            <attrunit>(mg/kg/d)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>WATERSH.DBF</enttypl>
+        <enttypd>Watershed Summary Data for National Sediment Inventory</enttypd>
+        <enttypds>See NSQS Report</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>CU</attrlabl>
+        <attrdef>Hydrologic Unit Code (8-digit)</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USGS 8-digit Hydrologic Unit Code</codesetn>
+            <codesets>See NSQS Report</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Hydrologic Unit Code name</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>cannot be represented</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+        <attrdef>NSI Watershed Classification</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>APC</edomv>
+            <edomvd>
+watershed is classified as an area of probable
+concern for sediment contamination
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>
+watershed has at least one Tier 1 station and is not an area of probable concern for sediment
+contamination
+</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>watershed has at least one Tier 2 station and no Tier 1 stations</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>watershed only has Tier 3 stations</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>watershed was not classified</edomvd>
+            <edomvds>See NSQS Report</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIER1</attrlabl>
+        <attrdef>Number of Tier1 stations in watershed based on NSI Station Classification</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIER2</attrlabl>
+        <attrdef>Number of Tier2 stations in watershed based on NSI Station Classification</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIER3</attrlabl>
+        <attrdef>Number of Tier3 stations in watershed based on NSI Station Classification</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NUM_STA</attrlabl>
+        <attrdef>Number of stations evaluated in watershed during NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1500</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIER1_2</attrlabl>
+        <attrdef>Number of stations in watershed that were classified as Tier 1 or Tier 2 during NSI evaluation</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1500</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERC1_2</attrlabl>
+        <attrdef>
+Percent of stations in watershed that were classified as
+Tier 1 or Tier 2 during NSI evaluation
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>100.0</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AL_TIER1</attrlabl>
+        <attrdef>
+Number of stations in watershed that would be classified as Tier 1 using NSI Aquatic Life
+Classification criteria
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AL_TIER2</attrlabl>
+        <attrdef>
+Number of stations in watershed that would be classified as Tier 2 using NSI Aquatic Life
+Classification criteria
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HH_TIER1</attrlabl>
+        <attrdef>
+Number of stations in watershed that would be classified as Tier 1 using NSI Human Health
+Classification criteria
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HH_TIER2</attrlabl>
+        <attrdef>
+Number of stations in watershed that would be classified as Tier 2 using NSI Human Health
+Classification criteria
+</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bcu</attrlabl>
+        <attrdef>Hydrologic Units</attrdef>
+        <attrdefs>See NSQS Report</attrdefs>
+        <attrdomv>
+          <udom>numeric field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+        </cntorgp>
+        <cntpos>Environmental Division</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>
+812-479-6262
+Contact_Website:  www.blainc.com
+</cntfax>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>
+SEDIMENT_INVENTORY_EPA_IN: National Sediment Inventory (NSI) and Data
+Summaries in Indiana, Derived from EPA BASINS 3 (United States Environmental Protection
+Agency, Point Shapefile)
+</resdesc>
+    <distliab>
+No claims to accuracy are made on this data. It is intended
+to be used only for general planning purposes. Detailed
+planning or analysis will require more accurate data.
+LIMITATION OF LIABILITY
+The product is provided "AS IS",
+without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or
+suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user.
+Bernardin, Lochmueller and Associates shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever,
+including, but not limited to, loss of revenue or profit, lost or damaged
+data or other commercial or economic loss. Bernardin, Lochmueller and Associates
+is not responsible for claims by a third party. The
+maximum aggregate liability to the original purchaser shall not exceed
+the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20041027</metd>
+    <metrd>20041117</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+          <cntper>Cinda Bonds</cntper>
+        </cntorgp>
+        <cntpos>Environmental Biologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>cbonds@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the BLA/IGS.  It should not to be altered
+or summarized.  BLA/IGS does not support secondary distribution.  If this
+data set was received from anyone besides the BLA/IGS, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

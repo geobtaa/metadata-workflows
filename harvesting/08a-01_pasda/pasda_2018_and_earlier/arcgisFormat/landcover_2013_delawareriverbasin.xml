@@ -1,0 +1,890 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>University of Vermont Spatial Analysis Laboratory</origin>
+        <pubdate>2016</pubdate>
+        <title>High-Resolution Land Cover, Delaware River Basin, 2013</title>
+        <edition>First</edition>
+        <geoform>raster digital data</geoform>
+        <onlink>http://www.pasda.psu.edu</onlink>
+      </citeinfo>
+    </citation>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20140114</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-76.250932</westbc>
+        <eastbc>-73.273190</eastbc>
+        <northbc>41.612677</northbc>
+        <southbc>38.657193</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Land Cover</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>structure</themekey>
+        <themekey>transportation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>New Jersey</placekey>
+        <placekey>Delaware River Basin</placekey>
+        <placekey>Pennsylvania</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2013</tempkey>
+        <tempkey>2006-20015</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Aiken Room 205</address>
+          <address>81 Carrigan Drive</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 205</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This land-cover dataset was developed by the University of Vermont Spatial Analysis Laboratory. The original development of the algorithms used for this project was done in collaboration with the United States Forest Service. Funding was provided by the William Penn Foundation under a collaborative grant with Shippensburg University.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.0.5524</native>
+    <descript>
+      <abstract>landcover_2013_delawareriverbasin</abstract>
+    </descript>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No accuracy assessment was performed for this layer, but previous projects using the same workflow (automated feature extraction followed by extensive manual QA\QC) routinely achieved overall accuracies exceeding 90%.</attraccr>
+      <qattracc>
+        <attracce>Point-based accuracy assessments were used with previous projects using the same workflow (automated feature extraction followed by extensive manual QA\QC).</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Each cell has been assigned a valid land cover code.</logic>
+    <complete>Complete coverage for the study area using the most recent boundary data.</complete>
+    <lineage>
+      <srcinfo>
+        <typesrc>onLine</typesrc>
+        <srccontr>Leaf-off, 4-band, 1-foot (0.3-meter) resolution orthoimagery acquired for New Jersey in 2015.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>Leaf-on, 4-band, 3.281-foot (1-meter) resolution orthoimagery from the National Agricultural Imagery Program (NAIP), acquired in 2013.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>Ancillary vector datasets, including road centerlines and hydrology.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <typesrc>None</typesrc>
+        <srccontr>Leaf-off LiDAR acquired during the period 2006-2015.  This included 9 separate LiDAR collections covering different sections of the state, including:   Cape May (0.5-m resolution, 2008); Coastal (0-5 m resolution, 2010); Cumberland (0.5-m resolution, 2008); DVRPC (0.5-m resolution, 2015); Highlands (1-meter resolution, 2006); Hunterdon (0.5-m resolution, 2006); Salem (0.5-m resoution, 2009); Salem Bayside (0.5-m resolution, 2008); and Warren\Sussex (0.5-meter resolution, 2008).</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Object based image analysis (OBIA) using a rule-based expert system</procdesc>
+        <procdate>20160701</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Manual corrections to land-cover classification</procdesc>
+        <procdate>20160715</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>296251</rowcount>
+      <colcount>190610</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000037527980722984474</absres>
+            <ordres>0.0000000037527980722984474</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>landcover_2013_newjersey_delawareriverbasin_draft011317_albers.img.vat</enttypl>
+        <enttypd>Land Cover Class</enttypd>
+        <enttypds>Project specific</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Land cover code</attrdef>
+        <attrdefs>UTC</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Background</edomvd>
+            <edomvds>Project specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Emergent Wetlands</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Tree Canopy</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Scrub/Shrub</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Low Vegetation</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Barren</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Structures</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Other Impervious Surfaces</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Roads</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Tree Canopy over Structures</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Tree Canopy over Other Impervious Surfaces</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Tree Canopy over Roads</edomvd>
+            <edomvds>Project Specific</edomvds>
+          </edom>
+        </attrdomv>
+        <attrvai>
+          <attrvae>90</attrvae>
+        </attrvai>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef># pixels per land cover class</attrdef>
+        <attrdefs>Internal</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LandCover</attrlabl>
+        <attrdef>Land cover class
+0 - Background
+1 - Water
+2 - Emergent Wetlands
+3 - Tree Canopy
+4 - Scrub/Shrub
+5 - Low Vegetation
+6 - Barren
+7 - Structures
+8 - Other Impervious Surfaces
+9 - Roads
+10 - Tree Canopy over Structures
+11 - Tree Canopy over Other Impervious Surfaces
+12 - Tree Canopy over Roads</attrdef>
+        <attrdefs>Project specific</attrdefs>
+        <attrvai>
+          <attrvae>90</attrvae>
+        </attrvai>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Twelve land cover classes were mapped:
+0 - Background
+1 - Water
+2 - Emergent Wetlands
+3 - Tree Canopy
+4 - Scrub/Shrub
+5 - Low Vegetation
+6 - Barren
+7 - Structures
+8 - Other Impervious Surfaces
+9 - Roads
+10 - Tree Canopy over Structures
+11 - Tree Canopy over Other Impervious Surfaces
+12 - Tree Canopy over Roads</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20170402</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>University of Vermont Spatial Analysis Laboratory</cntorg>
+          <cntper>Jarlath O'Neil-Dunne</cntper>
+        </cntorgp>
+        <cntpos>Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>81 Carrigan Drive</address>
+          <address>Aiken Center Room 205</address>
+          <city>Burlington</city>
+          <state>VT</state>
+          <postal>05405</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>802-656-3324</cntvoice>
+        <cntfax>802-656-8683</cntfax>
+        <cntemail>joneildu@uvm.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metuc>The organizations responsible for generating and funding this dataset make no representations of any kind including, but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.Although every effort has been made to ensure the accuracy of information, errors may be reflected in data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other condition. Secondary distribution must be accompanied by this documentation. Credit should always be given to the data source when this data is transferred, altered, or used for analysis.</metuc>
+  </metainfo>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Jarlath O'Neil-Dunne</rpIndName>
+    <rpOrgName>University of Vermont Spatial Analysis Laboratory</rpOrgName>
+    <rpPosName>Director</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>802-656-3324</voiceNum>
+        <faxNum>802-656-8683</faxNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>81 Carrigan Drive</delPoint>
+        <delPoint>Aiken Center Room 205</delPoint>
+        <city>Burlington</city>
+        <adminArea>VT</adminArea>
+        <postCode>05405</postCode>
+        <country>US</country>
+        <eMailAdd>joneildu@uvm.edu</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20170402</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>High-Resolution Land Cover, Delaware River Basin, 2013</resTitle>
+      <date>
+        <pubDate>2017-01-13</pubDate>
+      </date>
+      <resEd>First</resEd>
+      <citRespParty>
+        <rpOrgName>University of Vermont Spatial Analysis Laboratory</rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>raster digital data</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;High-resolution land cover dataset for the  Delaware River Basin. Twelve land cover classes were mapped:0 - Background1 - Water2 - Emergent Wetlands3 - Tree Canopy4 - Scrub/Shrub5 - Low Vegetation6 - Barren7 - Structures8 - Other Impervious Surfaces9 - Roads10 - Tree Canopy over Structures11 - Tree Canopy over Other Impervious Surfaces12 - Tree Canopy over RoadsThe complete class definitions and standards can be viewed at the link below.http://goo.gl/THacggThe primary sources used to derive this land-cover layer were 2013 leaf-on orthoimagery, 2015 leaf-off orthoimagery, and leaf-off LiDAR acquired across a series of dates during the period 2006-2015. Ancillary data sources such as road centerlines and hydrology were used to augment the land-cover mapping. This land-cover dataset is considered current based on data of acquisition for the leaf-on orthoimagery. Land-cover class assignment was accomplished using a rule-based expert system embedded within an object-based framework. Object-based image analysis techniques (OBIA) work by grouping pixels into meaningful objects based on their spectral and spatial properties, while taking into account boundaries imposed by existing vector datasets. Within the OBIA environment a rule-based expert system was designed to effectively mimic the process of manual image analysis by incorporating the elements of image interpretation (color/tone, texture, pattern, location, size, and shape) into the classification process. A series of morphological procedures were employed to insure that the end product is both accurate and cartographically pleasing. Following the automated OBIA mapping a detailed manual review of the dataset was carried out at a scale of 1:3000 and all observable errors were corrected.This dataset was developed to support land-cover mapping and modeling initiatives in the Delaware River Basin. At the time of its publication, it represented the most accurate and detailed land cover map for the New Jersey portion of the Delaware River Basin.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs>
+    <idPurp>This dataset was developed to support land-cover mapping and modeling initiatives in the Delaware River Basin. At the time of its publication, it represented the most accurate and detailed land cover map for the Delaware River Basin.</idPurp>
+    <idCredit>This land-cover dataset was developed by the University of Vermont Spatial Analysis Laboratory. The original development of the algorithms used for this project was done in collaboration with the United States Forest Service. Funding was provided by the William Penn Foundation under a collaborative grant with Shippensburg University.</idCredit>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Jarlath O'Neil-Dunne</rpIndName>
+      <rpOrgName>University of Vermont Spatial Analysis Laboratory</rpOrgName>
+      <rpPosName>Director</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>802-656-3324</voiceNum>
+          <faxNum>802-656-8683</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>81 Carrigan Drive</delPoint>
+          <delPoint>Aiken Room 205</delPoint>
+          <city>Burlington</city>
+          <adminArea>VT</adminArea>
+          <postCode>05405</postCode>
+          <country>US</country>
+          <eMailAdd>joneildu@uvm.edu</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <idPoC>
+      <rpIndName>Jarlath O'Neil-Dunne</rpIndName>
+      <rpOrgName>University of Vermont Spatial Analysis Laboratory</rpOrgName>
+      <rpPosName>Director</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>802-656-3324</voiceNum>
+          <faxNum>802-656-8683</faxNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>Aiken Center Room 205</delPoint>
+          <delPoint>81 Carrigan Drive</delPoint>
+          <city>Burlington</city>
+          <adminArea>VT</adminArea>
+          <postCode>05405</postCode>
+          <country>US</country>
+          <eMailAdd>joneildu@uvm.edu</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>Delaware River Basin</keyword>
+      <keyword>New Jersey</keyword>
+    </placeKeys>
+    <tempKeys>
+      <keyword>2006-20015</keyword>
+      <keyword>2013</keyword>
+    </tempKeys>
+    <themeKeys>
+      <keyword>Land Cover</keyword>
+    </themeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>ISO 19115 Topic Categories</resTitle>
+      </thesaName>
+      <keyword>transportation</keyword>
+      <keyword>structure</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>environment</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>transportation</keyword>
+      <keyword>2006-20015</keyword>
+      <keyword>2013</keyword>
+      <keyword>structure</keyword>
+      <keyword>inlandWaters</keyword>
+      <keyword>Delaware River Basin</keyword>
+      <keyword>environment</keyword>
+      <keyword>Land Cover</keyword>
+      <keyword>New Jersey</keyword>
+      <keyword>Pennsylvania</keyword>
+    </searchKeys>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.0.5524</envirDesc>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-76.250932</westBL>
+          <eastBL>-73.27319</eastBL>
+          <southBL>38.657193</southBL>
+          <northBL>41.612677</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition>2014-01-14</tmPosition>
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <tpCat>
+      <TopicCatCd value="012" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="018" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="017" />
+    </tpCat>
+  </dataIdInfo>
+  <mdConst>
+    <Consts>
+      <useLimit>The organizations responsible for generating and funding this dataset make no representations of any kind including, but not limited to the warranties of merchantability or fitness for a particular use, nor are any such warranties to be implied with respect to the data.Although every effort has been made to ensure the accuracy of information, errors may be reflected in data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other condition. Secondary distribution must be accompanied by this documentation. Credit should always be given to the data source when this data is transferred, altered, or used for analysis.</useLimit>
+    </Consts>
+  </mdConst>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQConcConsis">
+      <measDesc>Each cell has been assigned a valid land cover code.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Complete coverage for the study area using the most recent boundary data.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>No accuracy assessment was performed for this layer, but previous projects using the same workflow (automated feature extraction followed by extensive manual QA\QC) routinely achieved overall accuracies exceeding 90%.</measDesc>
+      <evalMethDesc>Point-based accuracy assessments were used with previous projects using the same workflow (automated feature extraction followed by extensive manual QA\QC).</evalMethDesc>
+    </report>
+    <dataLineage>
+      <dataSource>
+        <srcDesc>Leaf-on, 4-band, 3.281-foot (1-meter) resolution orthoimagery from the National Agricultural Imagery Program (NAIP), acquired in 2013.</srcDesc>
+      </dataSource>
+      <dataSource>
+        <srcDesc>Leaf-off, 4-band, 1-foot (0.3-meter) resolution orthoimagery acquired for New Jersey in 2015.</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+      </dataSource>
+      <dataSource>
+        <srcDesc>Ancillary vector datasets, including road centerlines and hydrology.</srcDesc>
+      </dataSource>
+      <dataSource>
+        <srcDesc>Leaf-off LiDAR acquired during the period 2006-2015. This included 9 separate LiDAR collections covering different sections of the state, including: Cape May (0.5-m resolution, 2008); Coastal (0-5 m resolution, 2010); Cumberland (0.5-m resolution, 2008); DVRPC (0.5-m resolution, 2015); Highlands (1-meter resolution, 2006); Hunterdon (0.5-m resolution, 2006); Salem (0.5-m resoution, 2009); Salem Bayside (0.5-m resolution, 2008); and Warren\Sussex (0.5-meter resolution, 2008).</srcDesc>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Object based image analysis (OBIA) using a rule-based expert system</stepDesc>
+        <stepDateTm>2016-07-01</stepDateTm>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Manual corrections to land-cover classification</stepDesc>
+        <stepDateTm>2016-07-15</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <Georect>
+      <numDims>2</numDims>
+      <axisDimension type="001">
+        <dimSize>296251</dimSize>
+      </axisDimension>
+      <axisDimension type="002">
+        <dimSize>190610</dimSize>
+      </axisDimension>
+      <cellGeo>
+        <CellGeoCd value="002" />
+      </cellGeo>
+    </Georect>
+  </spatRepInfo>
+  <Esri>
+    <CreaDate>20170405</CreaDate>
+    <CreaTime>09481600</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ModDate>20180124</ModDate>
+    <ModTime>9394800</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+  </Esri>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="b8b1f673665ccf2cde79b010c32153c7" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+VW5pdmVyc2l0eSBvZiBWZXJtb250IFNwYXRpYWwgQW5hbHlzaXMgTGFib3JhdG9yeTwvb3JpZ2lu
+Pg0KICAgICAgICA8cHViZGF0ZT4yMDE3MDExMzwvcHViZGF0ZT4NCiAgICAgICAgPHRpdGxlPkhp
+Z2gtUmVzb2x1dGlvbiBMYW5kIENvdmVyLCBTdGF0ZSBvZiBOZXcgSmVyc2V5LCBEZWxhd2FyZSBS
+aXZlciBCYXNpbiwgMjAxMywgRFJBRlQgKDEvMTMvMTcpPC90aXRsZT4NCiAgICAgICAgPGVkaXRp
+b24+Rmlyc3Q8L2VkaXRpb24+DQogICAgICAgIDxnZW9mb3JtPnJhc3RlciBkaWdpdGFsIGRhdGE8
+L2dlb2Zvcm0+DQogICAgICA8L2NpdGVpbmZvPg0KICAgIDwvY2l0YXRpb24+DQogICAgPGRlc2Ny
+aXB0Pg0KICAgICAgPGFic3RyYWN0PkhpZ2gtcmVzb2x1dGlvbiBsYW5kIGNvdmVyIGRhdGFzZXQg
+Zm9yIHRoZSBDb21tb253ZWFsdGggb2YgUGVubnN5bHZhbmlhLiBUd2VsdmUgbGFuZCBjb3ZlciBj
+bGFzc2VzIHdlcmUgbWFwcGVkOjAgLSBCYWNrZ3JvdW5kMSAtIFdhdGVyMiAtIEVtZXJnZW50IFdl
+dGxhbmRzMyAtIFRyZWUgQ2Fub3B5NCAtIFNjcnViL1NocnViNSAtIExvdyBWZWdldGF0aW9uNiAt
+IEJhcnJlbjcgLSBTdHJ1Y3R1cmVzOCAtIE90aGVyIEltcGVydmlvdXMgU3VyZmFjZXM5IC0gUm9h
+ZHMxMCAtIFRyZWUgQ2Fub3B5IG92ZXIgU3RydWN0dXJlczExIC0gVHJlZSBDYW5vcHkgb3ZlciBP
+dGhlciBJbXBlcnZpb3VzIFN1cmZhY2VzMTIgLSBUcmVlIENhbm9weSBvdmVyIFJvYWRzVGhlIGNv
+bXBsZXRlIGNsYXNzIGRlZmluaXRpb25zIGFuZCBzdGFuZGFyZHMgY2FuIGJlIHZpZXdlZCBhdCB0
+aGUgbGluayBiZWxvdy5odHRwOi8vZ29vLmdsL1RIYWNnZ1RoZSBwcmltYXJ5IHNvdXJjZXMgdXNl
+ZCB0byBkZXJpdmUgdGhpcyBsYW5kLWNvdmVyIGxheWVyIHdlcmUgMjAxMyBsZWFmLW9uIG9ydGhv
+aW1hZ2VyeSwgMjAxNSBsZWFmLW9mZiBvcnRob2ltYWdlcnksIGFuZCBsZWFmLW9mZiBMaURBUiBh
+Y3F1aXJlZCBhY3Jvc3MgYSBzZXJpZXMgb2YgZGF0ZXMgZHVyaW5nIHRoZSBwZXJpb2QgMjAwNi0y
+MDE1LiBBbmNpbGxhcnkgZGF0YSBzb3VyY2VzIHN1Y2ggYXMgcm9hZCBjZW50ZXJsaW5lcyBhbmQg
+aHlkcm9sb2d5IHdlcmUgdXNlZCB0byBhdWdtZW50IHRoZSBsYW5kLWNvdmVyIG1hcHBpbmcuIFRo
+aXMgbGFuZC1jb3ZlciBkYXRhc2V0IGlzIGNvbnNpZGVyZWQgY3VycmVudCBiYXNlZCBvbiBkYXRh
+IG9mIGFjcXVpc2l0aW9uIGZvciB0aGUgbGVhZi1vbiBvcnRob2ltYWdlcnkuIExhbmQtY292ZXIg
+Y2xhc3MgYXNzaWdubWVudCB3YXMgYWNjb21wbGlzaGVkIHVzaW5nIGEgcnVsZS1iYXNlZCBleHBl
+cnQgc3lzdGVtIGVtYmVkZGVkIHdpdGhpbiBhbiBvYmplY3QtYmFzZWQgZnJhbWV3b3JrLiBPYmpl
+Y3QtYmFzZWQgaW1hZ2UgYW5hbHlzaXMgdGVjaG5pcXVlcyAoT0JJQSkgd29yayBieSBncm91cGlu
+ZyBwaXhlbHMgaW50byBtZWFuaW5nZnVsIG9iamVjdHMgYmFzZWQgb24gdGhlaXIgc3BlY3RyYWwg
+YW5kIHNwYXRpYWwgcHJvcGVydGllcywgd2hpbGUgdGFraW5nIGludG8gYWNjb3VudCBib3VuZGFy
+aWVzIGltcG9zZWQgYnkgZXhpc3RpbmcgdmVjdG9yIGRhdGFzZXRzLiBXaXRoaW4gdGhlIE9CSUEg
+ZW52aXJvbm1lbnQgYSBydWxlLWJhc2VkIGV4cGVydCBzeXN0ZW0gd2FzIGRlc2lnbmVkIHRvIGVm
+ZmVjdGl2ZWx5IG1pbWljIHRoZSBwcm9jZXNzIG9mIG1hbnVhbCBpbWFnZSBhbmFseXNpcyBieSBp
+bmNvcnBvcmF0aW5nIHRoZSBlbGVtZW50cyBvZiBpbWFnZSBpbnRlcnByZXRhdGlvbiAoY29sb3Iv
+dG9uZSwgdGV4dHVyZSwgcGF0dGVybiwgbG9jYXRpb24sIHNpemUsIGFuZCBzaGFwZSkgaW50byB0
+aGUgY2xhc3NpZmljYXRpb24gcHJvY2Vzcy4gQSBzZXJpZXMgb2YgbW9ycGhvbG9naWNhbCBwcm9j
+ZWR1cmVzIHdlcmUgZW1wbG95ZWQgdG8gaW5zdXJlIHRoYXQgdGhlIGVuZCBwcm9kdWN0IGlzIGJv
+dGggYWNjdXJhdGUgYW5kIGNhcnRvZ3JhcGhpY2FsbHkgcGxlYXNpbmcuIEZvbGxvd2luZyB0aGUg
+YXV0b21hdGVkIE9CSUEgbWFwcGluZyBhIGRldGFpbGVkIG1hbnVhbCByZXZpZXcgb2YgdGhlIGRh
+dGFzZXQgd2FzIGNhcnJpZWQgb3V0IGF0IGEgc2NhbGUgb2YgMTozMDAwIGFuZCBhbGwgb2JzZXJ2
+YWJsZSBlcnJvcnMgd2VyZSBjb3JyZWN0ZWQuVGhpcyBkYXRhc2V0IHdhcyBkZXZlbG9wZWQgdG8g
+c3VwcG9ydCBsYW5kLWNvdmVyIG1hcHBpbmcgYW5kIG1vZGVsaW5nIGluaXRpYXRpdmVzIGluIHRo
+ZSBEZWxhd2FyZSBSaXZlciBCYXNpbi4gQXQgdGhlIHRpbWUgb2YgaXRzIHB1YmxpY2F0aW9uLCBp
+dCByZXByZXNlbnRlZCB0aGUgbW9zdCBhY2N1cmF0ZSBhbmQgZGV0YWlsZWQgbGFuZCBjb3ZlciBt
+YXAgZm9yIHRoZSBOZXcgSmVyc2V5IHBvcnRpb24gb2YgdGhlIERlbGF3YXJlIFJpdmVyIEJhc2lu
+LjwvYWJzdHJhY3Q+DQogICAgICA8cHVycG9zZT5UaGlzIGRhdGFzZXQgd2FzIGRldmVsb3BlZCB0
+byBzdXBwb3J0IGxhbmQtY292ZXIgbWFwcGluZyBhbmQgbW9kZWxpbmcgaW5pdGlhdGl2ZXMgaW4g
+dGhlIERlbGF3YXJlIFJpdmVyIEJhc2luLiBBdCB0aGUgdGltZSBvZiBpdHMgcHVibGljYXRpb24s
+IGl0IHJlcHJlc2VudGVkIHRoZSBtb3N0IGFjY3VyYXRlIGFuZCBkZXRhaWxlZCBsYW5kIGNvdmVy
+IG1hcCBmb3IgdGhlIE5ldyBKZXJzZXkgcG9ydGlvbiBvZiB0aGUgRGVsYXdhcmUgUml2ZXIgQmFz
+aW4uPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJkPg0KICAgICAgPHRp
+bWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0ZT4yMDE0MDExNDwv
+Y2FsZGF0ZT4NCiAgICAgICAgPC9zbmdkYXRlPg0KICAgICAgPC90aW1laW5mbz4NCiAgICAgIDxj
+dXJyZW50Pmdyb3VuZCBjb25kaXRpb248L2N1cnJlbnQ+DQogICAgPC90aW1lcGVyZD4NCiAgICA8
+c3RhdHVzPg0KICAgICAgPHByb2dyZXNzPkNvbXBsZXRlPC9wcm9ncmVzcz4NCiAgICAgIDx1cGRh
+dGU+Tm9uZSBwbGFubmVkPC91cGRhdGU+DQogICAgPC9zdGF0dXM+DQogICAgPHNwZG9tPg0KICAg
+ICAgPGJvdW5kaW5nPg0KICAgICAgICA8d2VzdGJjPi03Ni4yNTA5MzI8L3dlc3RiYz4NCiAgICAg
+ICAgPGVhc3RiYz4tNzMuMjczMTkwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQxLjYxMjY3
+Nzwvbm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+MzguNjU3MTkzPC9zb3V0aGJjPg0KICAgICAg
+PC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4N
+CiAgICAgICAgPHRoZW1la3Q+Tm9uZTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1la2V5PkxhbmQg
+Q292ZXI8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAg
+PHRoZW1la3Q+SVNPIDE5MTE1IFRvcGljIENhdGVnb3JpZXM8L3RoZW1la3Q+DQogICAgICAgIDx0
+aGVtZWtleT5lbnZpcm9ubWVudDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5pbmxhbmRX
+YXRlcnM8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+c3RydWN0dXJlPC90aGVtZWtleT4N
+CiAgICAgICAgPHRoZW1la2V5PnRyYW5zcG9ydGF0aW9uPC90aGVtZWtleT4NCiAgICAgIDwvdGhl
+bWU+DQogICAgICA8cGxhY2U+DQogICAgICAgIDxwbGFjZWt0Pk5vbmU8L3BsYWNla3Q+DQogICAg
+ICAgIDxwbGFjZWtleT5OZXcgSmVyc2V5PC9wbGFjZWtleT4NCiAgICAgICAgPHBsYWNla2V5PkRl
+bGF3YXJlIFJpdmVyIEJhc2luPC9wbGFjZWtleT4NCiAgICAgIDwvcGxhY2U+DQogICAgICA8dGVt
+cG9yYWw+DQogICAgICAgIDx0ZW1wa3Q+Tm9uZTwvdGVtcGt0Pg0KICAgICAgICA8dGVtcGtleT4y
+MDEzPC90ZW1wa2V5Pg0KICAgICAgICA8dGVtcGtleT4yMDA2LTIwMDE1PC90ZW1wa2V5Pg0KICAg
+ICAgPC90ZW1wb3JhbD4NCiAgICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5Ob25lPC9hY2Nj
+b25zdD4NCiAgICA8dXNlY29uc3Q+Tm9uZTwvdXNlY29uc3Q+DQogICAgPHB0Y29udGFjPg0KICAg
+ICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAgICAgICAgIDxjbnRvcmc+VW5pdmVy
+c2l0eSBvZiBWZXJtb250IFNwYXRpYWwgQW5hbHlzaXMgTGFib3JhdG9yeTwvY250b3JnPg0KICAg
+ICAgICAgIDxjbnRwZXI+SmFybGF0aCBPJ05laWwtRHVubmU8L2NudHBlcj4NCiAgICAgICAgPC9j
+bnRvcmdwPg0KICAgICAgICA8Y250cG9zPkRpcmVjdG9yPC9jbnRwb3M+DQogICAgICAgIDxjbnRh
+ZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+
+DQogICAgICAgICAgPGFkZHJlc3M+QWlrZW4gUm9vbSAyMDU8L2FkZHJlc3M+DQogICAgICAgICAg
+PGFkZHJlc3M+ODEgQ2FycmlnYW4gRHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+QnVy
+bGluZ3RvbjwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+VlQ8L3N0YXRlPg0KICAgICAgICAgIDxw
+b3N0YWw+MDU0MDU8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VUzwvY291bnRyeT4NCiAg
+ICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+ODAyLTY1Ni0zMzI0PC9jbnR2b2lj
+ZT4NCiAgICAgICAgPGNudGZheD44MDItNjU2LTg2ODM8L2NudGZheD4NCiAgICAgICAgPGNudGVt
+YWlsPmpvbmVpbGR1QHV2bS5lZHU8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwv
+cHRjb250YWM+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRv
+cmdwPg0KICAgICAgICAgIDxjbnRvcmc+VW5pdmVyc2l0eSBvZiBWZXJtb250IFNwYXRpYWwgQW5h
+bHlzaXMgTGFib3JhdG9yeTwvY250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+SmFybGF0aCBPJ05l
+aWwtRHVubmU8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkRp
+cmVjdG9yPC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5t
+YWlsaW5nIGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+ODEgQ2Fy
+cmlnYW4gRHJpdmU8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+QWlrZW4gQ2VudGVyIFJv
+b20gMjA1PC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PkJ1cmxpbmd0b248L2NpdHk+DQogICAg
+ICAgICAgPHN0YXRlPlZUPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjA1NDA1PC9wb3N0YWw+
+DQogICAgICAgICAgPGNvdW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAg
+ICAgICAgPGNudHZvaWNlPjgwMi02NTYtMzMyNDwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+
+ODAyLTY1Ni04NjgzPC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5qb25laWxkdUB1dm0uZWR1
+PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L3B0Y29udGFjPg0KICAgIDxkYXRh
+Y3JlZD5UaGlzIGxhbmQtY292ZXIgZGF0YXNldCB3YXMgZGV2ZWxvcGVkIGJ5IHRoZSBVbml2ZXJz
+aXR5IG9mIFZlcm1vbnQgU3BhdGlhbCBBbmFseXNpcyBMYWJvcmF0b3J5LiBUaGUgb3JpZ2luYWwg
+ZGV2ZWxvcG1lbnQgb2YgdGhlIGFsZ29yaXRobXMgdXNlZCBmb3IgdGhpcyBwcm9qZWN0IHdhcyBk
+b25lIGluIGNvbGxhYm9yYXRpb24gd2l0aCB0aGUgVW5pdGVkIFN0YXRlcyBGb3Jlc3QgU2Vydmlj
+ZS4gRnVuZGluZyB3YXMgcHJvdmlkZWQgYnkgdGhlIFdpbGxpYW0gUGVubiBGb3VuZGF0aW9uIHVu
+ZGVyIGEgY29sbGFib3JhdGl2ZSBncmFudCB3aXRoIFNoaXBwZW5zYnVyZyBVbml2ZXJzaXR5Ljwv
+ZGF0YWNyZWQ+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2luZG93cyA3IFZlcnNpb24gNi4xIChC
+dWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sgMTsgRXNyaSBBcmNHSVMgMTAuNC4wLjU1MjQ8L25hdGl2
+ZT4NCiAgPC9pZGluZm8+DQogIDxkYXRhcXVhbD4NCiAgICA8YXR0cmFjYz4NCiAgICAgIDxhdHRy
+YWNjcj5ObyBhY2N1cmFjeSBhc3Nlc3NtZW50IHdhcyBwZXJmb3JtZWQgZm9yIHRoaXMgbGF5ZXIs
+IGJ1dCBwcmV2aW91cyBwcm9qZWN0cyB1c2luZyB0aGUgc2FtZSB3b3JrZmxvdyAoYXV0b21hdGVk
+IGZlYXR1cmUgZXh0cmFjdGlvbiBmb2xsb3dlZCBieSBleHRlbnNpdmUgbWFudWFsIFFBXFFDKSBy
+b3V0aW5lbHkgYWNoaWV2ZWQgb3ZlcmFsbCBhY2N1cmFjaWVzIGV4Y2VlZGluZyA5MCUuPC9hdHRy
+YWNjcj4NCiAgICAgIDxxYXR0cmFjYz4NCiAgICAgICAgPGF0dHJhY2NlPlBvaW50LWJhc2VkIGFj
+Y3VyYWN5IGFzc2Vzc21lbnRzIHdlcmUgdXNlZCB3aXRoIHByZXZpb3VzIHByb2plY3RzIHVzaW5n
+IHRoZSBzYW1lIHdvcmtmbG93IChhdXRvbWF0ZWQgZmVhdHVyZSBleHRyYWN0aW9uIGZvbGxvd2Vk
+IGJ5IGV4dGVuc2l2ZSBtYW51YWwgUUFcUUMpLjwvYXR0cmFjY2U+DQogICAgICA8L3FhdHRyYWNj
+Pg0KICAgIDwvYXR0cmFjYz4NCiAgICA8bG9naWM+RWFjaCBjZWxsIGhhcyBiZWVuIGFzc2lnbmVk
+IGEgdmFsaWQgbGFuZCBjb3ZlciBjb2RlLjwvbG9naWM+DQogICAgPGNvbXBsZXRlPkNvbXBsZXRl
+IGNvdmVyYWdlIGZvciB0aGUgc3R1ZHkgYXJlYSB1c2luZyB0aGUgbW9zdCByZWNlbnQgYm91bmRh
+cnkgZGF0YS48L2NvbXBsZXRlPg0KICAgIDxsaW5lYWdlPg0KICAgICAgPHNyY2luZm8+DQogICAg
+ICAgIDx0eXBlc3JjPm9uTGluZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY2NvbnRyPkxlYWYtb2Zm
+LCA0LWJhbmQsIDEtZm9vdCAoMC4zLW1ldGVyKSByZXNvbHV0aW9uIG9ydGhvaW1hZ2VyeSBhY3F1
+aXJlZCBmb3IgTmV3IEplcnNleSBpbiAyMDE1Ljwvc3JjY29udHI+DQogICAgICA8L3NyY2luZm8+
+DQogICAgICA8c3JjaW5mbz4NCiAgICAgICAgPHR5cGVzcmM+Tm9uZTwvdHlwZXNyYz4NCiAgICAg
+ICAgPHNyY2NvbnRyPkxlYWYtb24sIDQtYmFuZCwgMy4yODEtZm9vdCAoMS1tZXRlcikgcmVzb2x1
+dGlvbiBvcnRob2ltYWdlcnkgZnJvbSB0aGUgTmF0aW9uYWwgQWdyaWN1bHR1cmFsIEltYWdlcnkg
+UHJvZ3JhbSAoTkFJUCksIGFjcXVpcmVkIGluIDIwMTMuPC9zcmNjb250cj4NCiAgICAgIDwvc3Jj
+aW5mbz4NCiAgICAgIDxzcmNpbmZvPg0KICAgICAgICA8dHlwZXNyYz5Ob25lPC90eXBlc3JjPg0K
+ICAgICAgICA8c3JjY29udHI+QW5jaWxsYXJ5IHZlY3RvciBkYXRhc2V0cywgaW5jbHVkaW5nIHJv
+YWQgY2VudGVybGluZXMgYW5kIGh5ZHJvbG9neS48L3NyY2NvbnRyPg0KICAgICAgPC9zcmNpbmZv
+Pg0KICAgICAgPHNyY2luZm8+DQogICAgICAgIDx0eXBlc3JjPk5vbmU8L3R5cGVzcmM+DQogICAg
+ICAgIDxzcmNjb250cj5MZWFmLW9mZiBMaURBUiBhY3F1aXJlZCBkdXJpbmcgdGhlIHBlcmlvZCAy
+MDA2LTIwMTUuICBUaGlzIGluY2x1ZGVkIDkgc2VwYXJhdGUgTGlEQVIgY29sbGVjdGlvbnMgY292
+ZXJpbmcgZGlmZmVyZW50IHNlY3Rpb25zIG9mIHRoZSBzdGF0ZSwgaW5jbHVkaW5nOiAgIENhcGUg
+TWF5ICgwLjUtbSByZXNvbHV0aW9uLCAyMDA4KTsgQ29hc3RhbCAoMC01IG0gcmVzb2x1dGlvbiwg
+MjAxMCk7IEN1bWJlcmxhbmQgKDAuNS1tIHJlc29sdXRpb24sIDIwMDgpOyBEVlJQQyAoMC41LW0g
+cmVzb2x1dGlvbiwgMjAxNSk7IEhpZ2hsYW5kcyAoMS1tZXRlciByZXNvbHV0aW9uLCAyMDA2KTsg
+SHVudGVyZG9uICgwLjUtbSByZXNvbHV0aW9uLCAyMDA2KTsgU2FsZW0gKDAuNS1tIHJlc291dGlv
+biwgMjAwOSk7IFNhbGVtIEJheXNpZGUgKDAuNS1tIHJlc29sdXRpb24sIDIwMDgpOyBhbmQgV2Fy
+cmVuXFN1c3NleCAoMC41LW1ldGVyIHJlc29sdXRpb24sIDIwMDgpLjwvc3JjY29udHI+DQogICAg
+ICA8L3NyY2luZm8+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5PYmplY3Qg
+YmFzZWQgaW1hZ2UgYW5hbHlzaXMgKE9CSUEpIHVzaW5nIGEgcnVsZS1iYXNlZCBleHBlcnQgc3lz
+dGVtPC9wcm9jZGVzYz4NCiAgICAgICAgPHByb2NkYXRlPjIwMTYwNzAxPC9wcm9jZGF0ZT4NCiAg
+ICAgIDwvcHJvY3N0ZXA+DQogICAgICA8cHJvY3N0ZXA+DQogICAgICAgIDxwcm9jZGVzYz5NYW51
+YWwgY29ycmVjdGlvbnMgdG8gbGFuZC1jb3ZlciBjbGFzc2lmaWNhdGlvbjwvcHJvY2Rlc2M+DQog
+ICAgICAgIDxwcm9jZGF0ZT4yMDE2MDcxNTwvcHJvY2RhdGU+DQogICAgICA8L3Byb2NzdGVwPg0K
+ICAgIDwvbGluZWFnZT4NCiAgPC9kYXRhcXVhbD4NCiAgPHNwZG9pbmZvPg0KICAgIDxkaXJlY3Q+
+UmFzdGVyPC9kaXJlY3Q+DQogICAgPHJhc3RpbmZvPg0KICAgICAgPHJhc3R0eXBlPlBpeGVsPC9y
+YXN0dHlwZT4NCiAgICAgIDxyb3djb3VudD4yOTYyNTE8L3Jvd2NvdW50Pg0KICAgICAgPGNvbGNv
+dW50PjE5MDYxMDwvY29sY291bnQ+DQogICAgPC9yYXN0aW5mbz4NCiAgPC9zcGRvaW5mbz4NCiAg
+PHNwcmVmPg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxtYXBwcm9q
+Pg0KICAgICAgICAgIDxtYXBwcm9qbj5BbGJlcnMgQ29uaWNhbCBFcXVhbCBBcmVhPC9tYXBwcm9q
+bj4NCiAgICAgICAgICA8YWxiZXJzPg0KICAgICAgICAgICAgPHN0ZHBhcmxsPjI5LjU8L3N0ZHBh
+cmxsPg0KICAgICAgICAgICAgPHN0ZHBhcmxsPjQ1LjU8L3N0ZHBhcmxsPg0KICAgICAgICAgICAg
+PGxvbmdjbT4tOTYuMDwvbG9uZ2NtPg0KICAgICAgICAgICAgPGxhdHByam8+MjMuMDwvbGF0cHJq
+bz4NCiAgICAgICAgICAgIDxmZWFzdD4wLjA8L2ZlYXN0Pg0KICAgICAgICAgICAgPGZub3J0aD4w
+LjA8L2Zub3J0aD4NCiAgICAgICAgICA8L2FsYmVycz4NCiAgICAgICAgPC9tYXBwcm9qPg0KICAg
+ICAgICA8cGxhbmNpPg0KICAgICAgICAgIDxwbGFuY2U+Y29vcmRpbmF0ZSBwYWlyPC9wbGFuY2U+
+DQogICAgICAgICAgPGNvb3JkcmVwPg0KICAgICAgICAgICAgPGFic3Jlcz4wLjAwMDAwMDAwMzc1
+Mjc5ODA3MjI5ODQ0NzQ8L2Fic3Jlcz4NCiAgICAgICAgICAgIDxvcmRyZXM+MC4wMDAwMDAwMDM3
+NTI3OTgwNzIyOTg0NDc0PC9vcmRyZXM+DQogICAgICAgICAgPC9jb29yZHJlcD4NCiAgICAgICAg
+ICA8cGxhbmR1Pm1ldGVyPC9wbGFuZHU+DQogICAgICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFu
+YXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPkQgTm9ydGggQW1lcmljYW4g
+MTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5HUlMgMTk4MDwvZWxsaXBzPg0KICAgICAg
+ICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZsYXQ+Mjk4LjI1
+NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3JpenN5cz4NCiAg
+PC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQ+DQogICAgICA8ZW50dHlwPg0KICAg
+ICAgICA8ZW50dHlwbD5sYW5kY292ZXJfMjAxM19uZXdqZXJzZXlfZGVsYXdhcmVyaXZlcmJhc2lu
+X2RyYWZ0MDExMzE3X2FsYmVycy5pbWcudmF0PC9lbnR0eXBsPg0KICAgICAgICA8ZW50dHlwZD5M
+YW5kIENvdmVyIENsYXNzPC9lbnR0eXBkPg0KICAgICAgICA8ZW50dHlwZHM+UHJvamVjdCBzcGVj
+aWZpYzwvZW50dHlwZHM+DQogICAgICA8L2VudHR5cD4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8
+YXR0cmxhYmw+T0lEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dHJkZWY+SW50ZXJuYWwgZmVhdHVy
+ZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQog
+ICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbT5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9s
+ZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLjwvdWRvbT4NCiAgICAg
+ICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0
+cmxhYmw+VmFsdWU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0cmRlZj5MYW5kIGNvdmVyIGNvZGU8
+L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5VVEM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0
+cmRvbXY+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MDwvZWRvbXY+DQog
+ICAgICAgICAgICA8ZWRvbXZkPkJhY2tncm91bmQ8L2Vkb212ZD4NCiAgICAgICAgICAgIDxlZG9t
+dmRzPlByb2plY3Qgc3BlY2lmaWM8L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9tPg0KICAgICAg
+ICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjE8L2Vkb212Pg0KICAgICAgICAgICAgPGVk
+b212ZD5XYXRlcjwvZWRvbXZkPg0KICAgICAgICAgICAgPGVkb212ZHM+UHJvamVjdCBTcGVjaWZp
+YzwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAg
+ICAgICA8ZWRvbXY+MjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPkVtZXJnZW50IFdldGxh
+bmRzPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5Qcm9qZWN0IFNwZWNpZmljPC9lZG9t
+dmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxl
+ZG9tdj4zPC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+VHJlZSBDYW5vcHk8L2Vkb212ZD4N
+CiAgICAgICAgICAgIDxlZG9tdmRzPlByb2plY3QgU3BlY2lmaWM8L2Vkb212ZHM+DQogICAgICAg
+ICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjQ8L2Vkb212
+Pg0KICAgICAgICAgICAgPGVkb212ZD5TY3J1Yi9TaHJ1YjwvZWRvbXZkPg0KICAgICAgICAgICAg
+PGVkb212ZHM+UHJvamVjdCBTcGVjaWZpYzwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQog
+ICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+NTwvZWRvbXY+DQogICAgICAgICAg
+ICA8ZWRvbXZkPkxvdyBWZWdldGF0aW9uPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5Q
+cm9qZWN0IFNwZWNpZmljPC9lZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8
+ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj42PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+
+QmFycmVuPC9lZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5Qcm9qZWN0IFNwZWNpZmljPC9l
+ZG9tdmRzPg0KICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAg
+IDxlZG9tdj43PC9lZG9tdj4NCiAgICAgICAgICAgIDxlZG9tdmQ+U3RydWN0dXJlczwvZWRvbXZk
+Pg0KICAgICAgICAgICAgPGVkb212ZHM+UHJvamVjdCBTcGVjaWZpYzwvZWRvbXZkcz4NCiAgICAg
+ICAgICA8L2Vkb20+DQogICAgICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+ODwvZWRv
+bXY+DQogICAgICAgICAgICA8ZWRvbXZkPk90aGVyIEltcGVydmlvdXMgU3VyZmFjZXM8L2Vkb212
+ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPlByb2plY3QgU3BlY2lmaWM8L2Vkb212ZHM+DQogICAg
+ICAgICAgPC9lZG9tPg0KICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212Pjk8L2Vk
+b212Pg0KICAgICAgICAgICAgPGVkb212ZD5Sb2FkczwvZWRvbXZkPg0KICAgICAgICAgICAgPGVk
+b212ZHM+UHJvamVjdCBTcGVjaWZpYzwvZWRvbXZkcz4NCiAgICAgICAgICA8L2Vkb20+DQogICAg
+ICAgICAgPGVkb20+DQogICAgICAgICAgICA8ZWRvbXY+MTA8L2Vkb212Pg0KICAgICAgICAgICAg
+PGVkb212ZD5UcmVlIENhbm9weSBvdmVyIFN0cnVjdHVyZXM8L2Vkb212ZD4NCiAgICAgICAgICAg
+IDxlZG9tdmRzPlByb2plY3QgU3BlY2lmaWM8L2Vkb212ZHM+DQogICAgICAgICAgPC9lZG9tPg0K
+ICAgICAgICAgIDxlZG9tPg0KICAgICAgICAgICAgPGVkb212PjExPC9lZG9tdj4NCiAgICAgICAg
+ICAgIDxlZG9tdmQ+VHJlZSBDYW5vcHkgb3ZlciBPdGhlciBJbXBlcnZpb3VzIFN1cmZhY2VzPC9l
+ZG9tdmQ+DQogICAgICAgICAgICA8ZWRvbXZkcz5Qcm9qZWN0IFNwZWNpZmljPC9lZG9tdmRzPg0K
+ICAgICAgICAgIDwvZWRvbT4NCiAgICAgICAgICA8ZWRvbT4NCiAgICAgICAgICAgIDxlZG9tdj4x
+MjwvZWRvbXY+DQogICAgICAgICAgICA8ZWRvbXZkPlRyZWUgQ2Fub3B5IG92ZXIgUm9hZHM8L2Vk
+b212ZD4NCiAgICAgICAgICAgIDxlZG9tdmRzPlByb2plY3QgU3BlY2lmaWM8L2Vkb212ZHM+DQog
+ICAgICAgICAgPC9lZG9tPg0KICAgICAgICA8L2F0dHJkb212Pg0KICAgICAgICA8YXR0cnZhaT4N
+CiAgICAgICAgICA8YXR0cnZhZT45MDwvYXR0cnZhZT4NCiAgICAgICAgPC9hdHRydmFpPg0KICAg
+ICAgPC9hdHRyPg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5Db3VudDwvYXR0cmxh
+Ymw+DQogICAgICAgIDxhdHRyZGVmPiMgcGl4ZWxzIHBlciBsYW5kIGNvdmVyIGNsYXNzPC9hdHRy
+ZGVmPg0KICAgICAgICA8YXR0cmRlZnM+SW50ZXJuYWw8L2F0dHJkZWZzPg0KICAgICAgPC9hdHRy
+Pg0KICAgICAgPGF0dHI+DQogICAgICAgIDxhdHRybGFibD5MYW5kQ292ZXI8L2F0dHJsYWJsPg0K
+ICAgICAgICA8YXR0cmRlZj5MYW5kIGNvdmVyIGNsYXNzDQowIC0gQmFja2dyb3VuZA0KMSAtIFdh
+dGVyDQoyIC0gRW1lcmdlbnQgV2V0bGFuZHMNCjMgLSBUcmVlIENhbm9weQ0KNCAtIFNjcnViL1No
+cnViDQo1IC0gTG93IFZlZ2V0YXRpb24NCjYgLSBCYXJyZW4NCjcgLSBTdHJ1Y3R1cmVzDQo4IC0g
+T3RoZXIgSW1wZXJ2aW91cyBTdXJmYWNlcw0KOSAtIFJvYWRzDQoxMCAtIFRyZWUgQ2Fub3B5IG92
+ZXIgU3RydWN0dXJlcw0KMTEgLSBUcmVlIENhbm9weSBvdmVyIE90aGVyIEltcGVydmlvdXMgU3Vy
+ZmFjZXMNCjEyIC0gVHJlZSBDYW5vcHkgb3ZlciBSb2FkczwvYXR0cmRlZj4NCiAgICAgICAgPGF0
+dHJkZWZzPlByb2plY3Qgc3BlY2lmaWM8L2F0dHJkZWZzPg0KICAgICAgICA8YXR0cnZhaT4NCiAg
+ICAgICAgICA8YXR0cnZhZT45MDwvYXR0cnZhZT4NCiAgICAgICAgPC9hdHRydmFpPg0KICAgICAg
+PC9hdHRyPg0KICAgIDwvZGV0YWlsZWQ+DQogICAgPG92ZXJ2aWV3Pg0KICAgICAgPGVhb3Zlcj5U
+d2VsdmUgbGFuZCBjb3ZlciBjbGFzc2VzIHdlcmUgbWFwcGVkOg0KMCAtIEJhY2tncm91bmQNCjEg
+LSBXYXRlcg0KMiAtIEVtZXJnZW50IFdldGxhbmRzDQozIC0gVHJlZSBDYW5vcHkNCjQgLSBTY3J1
+Yi9TaHJ1Yg0KNSAtIExvdyBWZWdldGF0aW9uDQo2IC0gQmFycmVuDQo3IC0gU3RydWN0dXJlcw0K
+OCAtIE90aGVyIEltcGVydmlvdXMgU3VyZmFjZXMNCjkgLSBSb2Fkcw0KMTAgLSBUcmVlIENhbm9w
+eSBvdmVyIFN0cnVjdHVyZXMNCjExIC0gVHJlZSBDYW5vcHkgb3ZlciBPdGhlciBJbXBlcnZpb3Vz
+IFN1cmZhY2VzDQoxMiAtIFRyZWUgQ2Fub3B5IG92ZXIgUm9hZHM8L2Vhb3Zlcj4NCiAgICA8L292
+ZXJ2aWV3Pg0KICA8L2VhaW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTcwNDAyPC9t
+ZXRkPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0KICAg
+ICAgICAgIDxjbnRvcmc+VW5pdmVyc2l0eSBvZiBWZXJtb250IFNwYXRpYWwgQW5hbHlzaXMgTGFi
+b3JhdG9yeTwvY250b3JnPg0KICAgICAgICAgIDxjbnRwZXI+SmFybGF0aCBPJ05laWwtRHVubmU8
+L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPkRpcmVjdG9yPC9j
+bnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5nIGFu
+ZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+ODEgQ2FycmlnYW4gRHJp
+dmU8L2FkZHJlc3M+DQogICAgICAgICAgPGFkZHJlc3M+QWlrZW4gQ2VudGVyIFJvb20gMjA1PC9h
+ZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PkJ1cmxpbmd0b248L2NpdHk+DQogICAgICAgICAgPHN0
+YXRlPlZUPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjA1NDA1PC9wb3N0YWw+DQogICAgICAg
+ICAgPGNvdW50cnk+VVM8L2NvdW50cnk+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNu
+dHZvaWNlPjgwMi02NTYtMzMyNDwvY250dm9pY2U+DQogICAgICAgIDxjbnRmYXg+ODAyLTY1Ni04
+NjgzPC9jbnRmYXg+DQogICAgICAgIDxjbnRlbWFpbD5qb25laWxkdUB1dm0uZWR1PC9jbnRlbWFp
+bD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250
+ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRpYWwgTWV0YWRhdGE8L21ldHN0ZG4+DQog
+ICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21ldHN0ZHY+DQogICAgPG1ldHRjPmxvY2Fs
+IHRpbWU8L21ldHRjPg0KICAgIDxtZXR1Yz5UaGUgb3JnYW5pemF0aW9ucyByZXNwb25zaWJsZSBm
+b3IgZ2VuZXJhdGluZyBhbmQgZnVuZGluZyB0aGlzIGRhdGFzZXQgbWFrZSBubyByZXByZXNlbnRh
+dGlvbnMgb2YgYW55IGtpbmQgaW5jbHVkaW5nLCBidXQgbm90IGxpbWl0ZWQgdG8gdGhlIHdhcnJh
+bnRpZXMgb2YgbWVyY2hhbnRhYmlsaXR5IG9yIGZpdG5lc3MgZm9yIGEgcGFydGljdWxhciB1c2Us
+IG5vciBhcmUgYW55IHN1Y2ggd2FycmFudGllcyB0byBiZSBpbXBsaWVkIHdpdGggcmVzcGVjdCB0
+byB0aGUgZGF0YS5BbHRob3VnaCBldmVyeSBlZmZvcnQgaGFzIGJlZW4gbWFkZSB0byBlbnN1cmUg
+dGhlIGFjY3VyYWN5IG9mIGluZm9ybWF0aW9uLCBlcnJvcnMgbWF5IGJlIHJlZmxlY3RlZCBpbiBk
+YXRhIHN1cHBsaWVkLiBUaGUgdXNlciBtdXN0IGJlIGF3YXJlIG9mIGRhdGEgY29uZGl0aW9ucyBh
+bmQgYmVhciByZXNwb25zaWJpbGl0eSBmb3IgdGhlIGFwcHJvcHJpYXRlIHVzZSBvZiB0aGUgaW5m
+b3JtYXRpb24gd2l0aCByZXNwZWN0IHRvIHBvc3NpYmxlIGVycm9ycywgb3JpZ2luYWwgbWFwIHNj
+YWxlLCBjb2xsZWN0aW9uIG1ldGhvZG9sb2d5LCBjdXJyZW5jeSBvZiBkYXRhLCBhbmQgb3RoZXIg
+Y29uZGl0aW9uLiBTZWNvbmRhcnkgZGlzdHJpYnV0aW9uIG11c3QgYmUgYWNjb21wYW5pZWQgYnkg
+dGhpcyBkb2N1bWVudGF0aW9uLiBDcmVkaXQgc2hvdWxkIGFsd2F5cyBiZSBnaXZlbiB0byB0aGUg
+ZGF0YSBzb3VyY2Ugd2hlbiB0aGlzIGRhdGEgaXMgdHJhbnNmZXJyZWQsIGFsdGVyZWQsIG9yIHVz
+ZWQgZm9yIGFuYWx5c2lzLjwvbWV0dWM+DQogIDwvbWV0YWluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Pennsylvania Spatial Data Access (PASDA)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>115 Land &amp; Water Research Building</address>
+          <city>University Park</city>
+          <state>Pennsylvania</state>
+          <postal>16802</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>(814) 865 - 8792</cntvoice>
+        <cntemail>pasda@psu.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab>
+  </distinfo>
+</metadata>

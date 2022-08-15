@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Indiana Department of Transportation</origin>
+        <pubdate>20040731</pubdate>
+        <title>
+TRAFFIC_COUNTS_INDOTMODEL_IN: Traffic Counts on
+Roadways (from INDOT Statewide Travel Demand MODEL version 4, ISTDM4)
+in Indiana (Indiana Department of Transportation, Line Shapefile)
+</title>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Indianapolis, Indiana</pubplace>
+          <publish>Indiana Department of Transportation</publish>
+        </pubinfo>
+        <othercit>
+Bernardin-Lochmueller and Associates used the Indiana Statewide
+Travel Demand Model, version 4 (ISTDM4) files in TransCAD to convert
+a subset to an ESRI ArcView shapefile. Tables were edited to contain
+only the fields appropriate for the traffic counts subset.
+</othercit>
+        <onlink>http://igs.indiana.edu/arcims/statewide/download.html</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Indiana Department of Transportation</origin>
+            <pubdate>20040731</pubdate>
+            <title>Indiana Statewide Travel Demand Model, version 4 (ISTDM4)</title>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Transportation</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+TRAFFIC_COUNTS_INDOTMODEL_IN is a line shapefile that shows traffic counts
+(factored to year 2000) for the roadways in the Indiana Statewide Travel
+Demand Model, version4, (ISTDM4). Annual average daily traffic (AADT)
+counts are in the units of average vehicles/day. This file is a subset
+of the Indiana Statewide Travel Demand Model, version4, (ISTDM4).
+</abstract>
+      <purpose>
+Planning and Development of Interstate 69 from Evansville
+to Indianapolis. The model from which this shapefile was
+created was intended to duplicate general traffic patterns,
+therefore detailed network at interchanges and ramps are not represented.
+</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19960101</begdate>
+          <enddate>20040731</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.088602</westbc>
+        <eastbc>-84.695560</eastbc>
+        <northbc>41.779318</northbc>
+        <southbc>37.762697</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Geography Network Keyword Thesaurus</themekt>
+        <themekey>transportation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>transportation</themekey>
+        <themekey>highways</themekey>
+        <themekey>interstate</themekey>
+        <themekey>state highways</themekey>
+        <themekey>traffic</themekey>
+        <themekey>urban planning</themekey>
+        <themekey>roads</themekey>
+        <themekey>US Highways</themekey>
+        <themekey>travel model</themekey>
+        <themekey>traffic Counts</themekey>
+        <themekey>traffic volume</themekey>
+        <themekey>AADT</themekey>
+        <themekey>ISTDM4</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Adams</placekey>
+        <placekey>Allen</placekey>
+        <placekey>Bartholomew</placekey>
+        <placekey>Benton</placekey>
+        <placekey>Blackford</placekey>
+        <placekey>Boone</placekey>
+        <placekey>Brown</placekey>
+        <placekey>Carroll</placekey>
+        <placekey>Cass</placekey>
+        <placekey>Clark</placekey>
+        <placekey>Clay</placekey>
+        <placekey>Clinton</placekey>
+        <placekey>Crawford</placekey>
+        <placekey>Daviess</placekey>
+        <placekey>Dearborn</placekey>
+        <placekey>Decatur</placekey>
+        <placekey>DeKalb</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Dubois</placekey>
+        <placekey>Elkhart</placekey>
+        <placekey>Fayette</placekey>
+        <placekey>Floyd</placekey>
+        <placekey>Fountain</placekey>
+        <placekey>Franklin</placekey>
+        <placekey>Fulton</placekey>
+        <placekey>Gibson</placekey>
+        <placekey>Grant</placekey>
+        <placekey>Greene</placekey>
+        <placekey>Hamilton</placekey>
+        <placekey>Hancock</placekey>
+        <placekey>Harrison</placekey>
+        <placekey>Hendricks</placekey>
+        <placekey>Henry</placekey>
+        <placekey>Howard</placekey>
+        <placekey>Huntington</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Jackson</placekey>
+        <placekey>Jasper</placekey>
+        <placekey>Jay</placekey>
+        <placekey>Jefferson</placekey>
+        <placekey>Jennings</placekey>
+        <placekey>Johnson</placekey>
+        <placekey>Knox</placekey>
+        <placekey>Kosciusko</placekey>
+        <placekey>Lagrange</placekey>
+        <placekey>Lake</placekey>
+        <placekey>Laporte</placekey>
+        <placekey>Lawrence</placekey>
+        <placekey>Madison</placekey>
+        <placekey>Marion</placekey>
+        <placekey>Marshall</placekey>
+        <placekey>Martin</placekey>
+        <placekey>Miami</placekey>
+        <placekey>Monroe</placekey>
+        <placekey>Montgomery</placekey>
+        <placekey>Morgan</placekey>
+        <placekey>Newton</placekey>
+        <placekey>Noble</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Orange</placekey>
+        <placekey>Owen</placekey>
+        <placekey>Parke</placekey>
+        <placekey>Perry</placekey>
+        <placekey>Pike</placekey>
+        <placekey>Porter</placekey>
+        <placekey>Posey</placekey>
+        <placekey>Pulaski</placekey>
+        <placekey>Putnam</placekey>
+        <placekey>Randolph</placekey>
+        <placekey>Ripley</placekey>
+        <placekey>Rush</placekey>
+        <placekey>St Joseph</placekey>
+        <placekey>Scott</placekey>
+        <placekey>Shelby</placekey>
+        <placekey>Spencer</placekey>
+        <placekey>Starke</placekey>
+        <placekey>Steuben</placekey>
+        <placekey>Sullivan</placekey>
+        <placekey>Switzerland</placekey>
+        <placekey>Tippecanoe</placekey>
+        <placekey>Tipton</placekey>
+        <placekey>Union</placekey>
+        <placekey>Vanderburgh</placekey>
+        <placekey>Vermillion</placekey>
+        <placekey>Vigo</placekey>
+        <placekey>Wabash</placekey>
+        <placekey>Warren</placekey>
+        <placekey>Warrick</placekey>
+        <placekey>Washington</placekey>
+        <placekey>Wayne</placekey>
+        <placekey>Wells</placekey>
+        <placekey>White</placekey>
+        <placekey>Whitley</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Daniel Townsend</cntper>
+        </cntorgp>
+        <cntpos>Transportation Engineer I</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>daniel@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcView version 3.2 shapefile format, approximately 2.6 Mb</native>
+    <useconst>Extra_Data--Traffic_Counts_INDOTMODEL_IN</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The Attributes have undergone a history of updates and
+revisions. They are believed to be highly accurate,
+however; no field survey has been done to provide a
+quantitative measure.  Traffic counts were added from a
+variety of the best sources available.
+</attraccr>
+    </attracc>
+    <logic>Unknown</logic>
+    <complete>
+Not all roadways (22%) have traffic count data and are
+indicated by an AADT attribute of -999999.  Use and revision
+has revealed no Interstate, US, or State Highway which is not
+represented in this file. County and local roadways are
+not complete and limited to only those included in the model
+which was the base for this file. The model from which this
+shapefile was created was intended to duplicate general traffic
+patterns, therefore detailed network at interchanges and ramps
+are not represented.
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+Unknown, however use with high accuracy imagery (1-m DOQQs)
+has shown roadway positions to be highly accurate.
+</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Indiana Department of Transportation</origin>
+            <pubdate>2004</pubdate>
+            <title>Indiana Statewide Travel Demand Model, version 4 (ISTDM4)</title>
+            <edition>Unknown</edition>
+            <geoform>Map</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>Indiana Department of Transportation</publish>
+            </pubinfo>
+            <othercit>
+The model has evolved through a series of revisions and
+modifications since 1996. The first road lines were from
+TIGER 1980 Line files which were used to create the CASPER
+snow plow routing system. The roads were updated and
+attributed in 1996 using the INDOT 1996 Road Inventory
+Database. This 1996 version was used in the 1997 Statewide
+Travel Demand Model. Local roads were added to the model in
+1998 as part of the Statewide Interstate Interchange Study,
+and all roads were updated using the INDOT 1998 Road
+Inventory Database. Nearby roadways in Illinois, Kentucky,
+Ohio, and Michigan were added in 1999. More local roads in
+Southwestern Indiana were added in 1999 - 2000. Updates and
+revisions occur as the model is used.  Traffic counts were
+obtained from the 1998 Indot Road Inventory Database.  Some
+were updated by manual counts in 2000.  The model was again
+updated in 2003-2004, creating version 4 of the Statewide
+Travel Demand Model (ISTDM4).  Additional county and local
+roads were added to the model network.  State jurisdictional
+roadways were updated using the INDOT 2000 Road Inventory
+Database.  Traffic count data was updated from the INDOT 2000
+Road Inventory Database, as well as other best available sources
+(INDOT counts, MPO/RPO counts, and bridge inventory counts).
+For more detailed information on the development and use
+of the model, contact INDOT through:
+
+(1) Steve Smith, Systems Planning Coordinator, 317-232-5646
+
+(2) Kirk Mangold, Program Developement, 317-233-1061
+
+(3) the "Travel Model User's Guide" (Task 3.3.3.1 Technical
+Report) " printed March 2001 as part of the I-69 Evansville
+to Indianapolis Study, Tier 1 Environmental Impact
+Statement,Vol 1.
+
+(4) the "Travel Model User's Guide" for the Indiana Statewide
+Travel Demand Model, version 4 (ISTDM4)
+</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24,000</srcscale>
+        <typesrc>Digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19960101</begdate>
+              <enddate>20040731</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>INDOTMODEL</srccitea>
+        <srccontr>Base file for subsets of transportation features.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The base_2000 file from the Indiana Statewide Travel Demand Model,
+version 4, (ISTDM4) was converted in TransCAD to an ESRI ArcView Shapefile.
+Roadways were selected to those in Indiana by querying a boolean field
+for Indiana. All roadways in the model were included in the subset,
+however centroid connectors were removed. Numerous attribute fields
+were removed to result in the basic roadway information.
+</procdesc>
+        <srcused>INDOTMODEL</srcused>
+        <procdate>20040700</procdate>
+        <srcprod>TRAFFIC_INDOT</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Daniel Townsend</cntper>
+              <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+            </cntperp>
+            <cntpos>Transportation Engineer I</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>daniel@BLAINC.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected.
+</procdesc>
+        <procdate>20050407</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Neal Schroeder</cntper>
+              <cntorg>Bernardin, Lochmueller and Associates</cntorg>
+            </cntperp>
+            <cntpos>Geographer, Environmental Planner</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>6200 Vogel Road</address>
+              <city>Evansville</city>
+              <state>Indiana</state>
+              <postal>47715-4006</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>800-423-7411</cntvoice>
+            <cntfax>812-479-6262</cntfax>
+            <cntemail>nschroeder@blainc.com</cntemail>
+            <hours>8am-5pm CST</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Complete Chain</sdtstype>
+        <ptvctcnt>31237</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Coordinate pair</plance>
+          <coordrep>
+            <absres>0.001024</absres>
+            <ordres>0.001024</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TRAFFIC_COUNTS_INDOTMODEL_IN.dbf</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Id</attrlabl>
+        <attrdef>Link ID</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>146804</rdommin>
+            <rdommax>1333069</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>Length of line in miles</attrdef>
+        <attrdefs>Software generated</attrdefs>
+        <attrdomv>
+          <udom>Software computed</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Dir</attrlabl>
+        <attrdef>Link Directionality (indicates a one-way street)</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Co</attrlabl>
+        <attrdef>County</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <udom>Numeric Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Code</attrlabl>
+        <attrdef>Roadway Code</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CR</edomv>
+            <edomvd>County Road</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Interstate</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+          <edom>
+            <edomv>LS</edomv>
+            <edomvd>Local Street</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+          <edom>
+            <edomv>O</edomv>
+            <edomvd>Old State Jurisdictional Highway</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>State Highway</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+          <edom>
+            <edomv>U</edomv>
+            <edomvd>US Highway</edomvd>
+            <edomvds>INDOT</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Rte_name</attrlabl>
+        <attrdef>Route Name</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lanes</attrlabl>
+        <attrdef>Number of Lanes (2-way)</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>10</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count_2000</attrlabl>
+        <attrdef>Average Annual Daily Traffic</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-999999</rdommin>
+            <rdommax>173850</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of Count Data</attrdef>
+        <attrdefs>INDOT</attrdefs>
+        <attrdomv>
+          <udom>Character Field</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Daniel Townsend</cntper>
+        </cntorgp>
+        <cntpos>Transportation Engineer I</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>daniel@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>
+None. Data is expected to have some minimal error. User is
+responsible to determine appropriate use and display of the data.
+</distliab>
+    <custom>Contact Bernardin-Lochmueller &amp; Associates</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20040729</metd>
+    <metrd>20050407</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Bernardin-Lochmueller &amp; Assoicates</cntorg>
+          <cntper>Daniel Townsend</cntper>
+        </cntorgp>
+        <cntpos>Transportation Engineer I</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>6200 Vogel Road</address>
+          <city>Evansville</city>
+          <state>Indiana</state>
+          <postal>47715-4006</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>800-423-7411</cntvoice>
+        <cntfax>812-479-6262</cntfax>
+        <cntemail>daniel@blainc.com</cntemail>
+        <hours>8am-5pm CST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the
+data set identified and received from the IGS/BLA. It should not to be altered
+or summarized. IGS/BLA does not support secondary distribution. If this
+data set was received from anyone besides the IGS/BLA, this metadata file and
+the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>

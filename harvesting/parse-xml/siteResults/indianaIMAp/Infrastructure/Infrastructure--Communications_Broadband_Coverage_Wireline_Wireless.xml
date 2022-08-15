@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jim Sparks, Geographic Information Officer, Indiana Office of Technology</origin>
+        <origin>Arnon Tsairi, GIS Analyst, 39 Degrees North, LLC</origin>
+        <origin>Indiana Utility Regulatory Commission (IURC)</origin>
+        <pubdate>20131113</pubdate>
+        <title>
+BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN: Broadband Wireless Coverage and Wireline Coverage in Indiana (Indiana Utility Regulatory
+Commission and Service Providers, Polygon Featureclass)
+</title>
+        <geoform>Vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Bloomington, Indiana</pubplace>
+          <publish>39 Degrees North, LLC</publish>
+        </pubinfo>
+        <othercit>
+This data set was originally provided to personnel of the Indiana Geological Survey (IGS) by Indiana Office of Technology. The data were provided in
+an ESRI geodatabase format, and as two polygon feature classes named "BROADBAND_WIRELESS_20100712_IN" and "BROADBAND_WIRELINE_20100712_IN."
+
+On June 16, 2011, personnel of 39 Degrees North supplied IGS personnel with an update to these data, named "BROADBAND_WIRELESS_20110401_IN" and
+"BROADBAND_WIRELINE_20110401_IN."
+
+On May 23, 2013, personnel of 39 Degrees North supplied IGS personnel with an update (current as of May 14, 2013) to these data, named
+"BROADBAND_INDIANAMAP_UPDATE_SPRING2013.GDB." It should be noted that this update now combines coverage areas for wireless and wireline areas into
+one polygon feature class.
+
+On November 13, 2013, personnel of 39 Degrees North supplied IGS personnel with an update (current as of October 22, 2013) to these data, named
+"BROADBAND_FALL_UPDATE_2013.GDB." It should be noted that this update continues to combine coverage areas for wireless and wireline areas into
+one polygon feature class.
+</othercit>
+        <onlink>Not available for download (viewable here - http://maps.indiana.edu/ )</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN is a polygon feature class that contains broadband WIRELESS and WIRELINE coverage areas in Indiana, and
+was provided by personnel of the Indiana Office of Technology (IOT) and 39 Degrees North. The term "WIRELESS" includes the following techologies:
+Terrestrial Fixed Wireless - Unlicensed, Terrestrial Fixed Wireless - Licensed, and Terrestrial Mobile Wireless. The term "WIRELINE" includes the
+following techologies: AxDSL, DSL, Cable, and Fiber. The data set provided by IOT was in an ESRI geodatabase format and was named
+"BROADBAND_INDIANAMAP_UPDATE_SPRING2013.GDB."
+</abstract>
+      <purpose>
+This data set was developed to delineate broadband wireless (Terrestrial Fixed Wireless - Unlicensed, Terrestrial Fixed Wireless - Licensed,
+and Terrestrial Mobile Wireless) and wireline (AxDSL, DSL, Cable, and Fiber) coverages areas in Indiana.
+</purpose>
+      <supplinf>
+This dataset was created from multiple sources, primarily the Indiana Utility Regulatory Commission (IURC) and broadband service
+providers operating in Indiana.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>10091001</begdate>
+          <enddate>20141001</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Based on metadata provided by IOT</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Quarterly</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.653582</westbc>
+        <eastbc>-84.760578</eastbc>
+        <northbc>41.742793</northbc>
+        <southbc>37.916998</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+        <themekt>IGS Metadata Thesaurus</themekt>
+        <themekey>Indiana Geological Survey (IGS)</themekey>
+        <themekey>Indiana Office of Technology (IOT)</themekey>
+        <themekey>broadband</themekey>
+        <themekey>telecommunication</themekey>
+        <themekey>wireless</themekey>
+        <themekey>Terrestrial Fixed Wireless - Unlicensed</themekey>
+        <themekey>Terrestrial Fixed Wireless - Licensed</themekey>
+        <themekey>Terrestrial Mobile Wireless</themekey>
+        <themekey>wireline</themekey>
+        <themekey>AxDSL</themekey>
+        <themekey>DSL</themekey>
+        <themekey>Cable</themekey>
+        <themekey>Fiber</themekey>
+      </theme>
+      <place>
+        <placekt>IGS Metadata Thesaurus</placekt>
+        <placekey>Indiana</placekey>
+        <placekey>Adams County</placekey>
+        <placekey>Allen County</placekey>
+        <placekey>Brown County</placekey>
+        <placekey>Clay County</placekey>
+        <placekey>Clinton County</placekey>
+        <placekey>Daviess County</placekey>
+        <placekey>Dearborn County</placekey>
+        <placekey>Delaware County</placekey>
+        <placekey>Dubois County</placekey>
+        <placekey>Elkhart County</placekey>
+        <placekey>Floyd County</placekey>
+        <placekey>Fountain County</placekey>
+        <placekey>Franklin County</placekey>
+        <placekey>Fulton County</placekey>
+        <placekey>Hamilton County</placekey>
+        <placekey>Hendricks County</placekey>
+        <placekey>Henry County</placekey>
+        <placekey>Howard County</placekey>
+        <placekey>Jackson County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Jennings County</placekey>
+        <placekey>Knox County</placekey>
+        <placekey>Kosciusko County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>La Porte County</placekey>
+        <placekey>Madison County</placekey>
+        <placekey>Marion County</placekey>
+        <placekey>Marshall County</placekey>
+        <placekey>Miami County</placekey>
+        <placekey>Montgomery County</placekey>
+        <placekey>Morgan County</placekey>
+        <placekey>Orange County</placekey>
+        <placekey>Owen County</placekey>
+        <placekey>Perry County</placekey>
+        <placekey>Porter County</placekey>
+        <placekey>Pulaski County</placekey>
+        <placekey>Putnam County</placekey>
+        <placekey>Ripley County</placekey>
+        <placekey>Shelby County</placekey>
+        <placekey>St Joseph County</placekey>
+        <placekey>Sullivan County</placekey>
+        <placekey>Tippecanoe County</placekey>
+        <placekey>Union County</placekey>
+        <placekey>Vermillion County</placekey>
+        <placekey>Vigo County</placekey>
+        <placekey>Wabash County</placekey>
+        <placekey>Warren County</placekey>
+        <placekey>Warrick County</placekey>
+        <placekey>Washington County</placekey>
+        <placekey>Whitley County</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Office of Technology, Geographic Information Officer</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>100 North Senate Avenue, IGCN Rm N551</address>
+          <city>Indianapolis</city>
+          <state>Indiana</state>
+          <postal>46204</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>317-234-5889</cntvoice>
+        <cntemail>gio@iot.in.gov</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <native>ESRI ArcGIS version 10.2, Service Pack 2 (Build 3200) geodatabase format</native>
+    <useconst>Infrastructure--Communications_Broadband_Coverage_Wireline_Wireless</useconst>
+    <datacred>UNIQUEFILENAME</datacred>
+    <accconst>None</accconst>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>This data set was provided by IOT personnel and is assumed to be accurate.</attraccr>
+    </attracc>
+    <complete>
+This data set was provided by IOT personnel and is assumed to be complete.
+
+The following is excerpted from the metadata provided by IOT:
+
+"Approximately 31,000 square miles of Indiana has wireline and wireless data from either the IURC or service providers in this data set."
+</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+The following is excerpted from the metadata provided by IOT:
+
+"This data set was created from data provided by the IURC and service providers and joined to census blocks."
+</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>None reported.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>IOT, Geographic Information Officer; Jim Sparks</origin>
+            <pubdate>20131113</pubdate>
+            <title>BROADBAND_FALL_UPDATE_2013.GDB</title>
+            <edition>1</edition>
+            <geoform>Vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Indianapolis, Indiana</pubplace>
+              <publish>IOT</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>.ZIP file attachment to an Electronic-Mail (E-Mail)</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20131110</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on metadata provided by IOT.</srccurr>
+        </srctime>
+        <srccitea>BROADBAND_FALL_UPDATE_2013.GDB</srccitea>
+        <srccontr>Broadband wireless and wireline coverage areas in Indiana</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+39 Degrees North LLC received IURC data in shapefile format and service provider data in Excel format (which was joined to the census
+block layer). The IURC and service provider data were merged together to create a single dataset at the census block level. The boundaries
+in this dataset were dissolved to create a single polygon to deliniate the coverage area. All attribute fields were deleted and provided
+to IOT. Attribute fields will be included in future deliveries.
+</procdesc>
+        <srcused>BROADBAND_WIRELESS_20110401_IN, BROADBAND_WIRELINE_20110401_IN</srcused>
+        <procdate>20110601</procdate>
+        <srcprod>BROADBAND_WIRELESS_20110401_IN, BROADBAND_WIRELINE_20110401_IN</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>39 Degrees North</cntorg>
+              <cntper>Chris Walls</cntper>
+            </cntorgp>
+            <cntpos>Geographer, Managing Member</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>501 North Morton Street, suite 106</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47404</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812-320-5467</cntvoice>
+            <cntemail>chris@39dn.com</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI geodatabase named "BROADBAND_INDIANAMAP_UPDATE_SPRING2013.GDB" from personnel of 39 Degrees North LLC
+on May 23, 2013 (data are current as of May 14, 2013). The data was reprojected from WGS 1984 coordinate system to Universal Transverse
+Mercator (UTM), Zone 16, NAD83 using ESRI ArcCatalog. It was then exported to an ESRI shapefile format and renamed as
+BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN.SHP to conform to internal naming conventions of the IGS.
+</procdesc>
+        <srcused>BROADBAND_INDIANAMAP_UPDATE_SPRING2013.GDB</srcused>
+        <procdate>20130523</procdate>
+        <srcprod>BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+IGS personnel received an ESRI geodatabase named "BROADBAND_FALL_UPDATE_2013.GDB" from personnel of 39 Degrees North LLC
+on November 13, 2013 (data are current as of October 22, 2013). The data was reprojected from WGS 1984 coordinate system
+to Universal Transverse Mercator (UTM), Zone 16, NAD83 using ESRI ArcCatalog. It was then exported to an ESRI shapefile format
+and renamed as BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN.SHP to conform to internal naming conventions of the IGS.
+</procdesc>
+        <srcused>BROADBAND_FALL_UPDATE_2013.GDB</srcused>
+        <procdate>20131113</procdate>
+        <srcprod>BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN.SHP</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>
+This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata
+Parser, v. 2.7.1) software written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated
+by MP were all addressed and corrected, except that no values were assigned to "Abscissa_Resolution"
+and "Ordinate_Resolution."
+</procdesc>
+        <procdate>20131217</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Chris Dintaman</cntper>
+              <cntorg>Indiana Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist, GIS Specialist</cntpos>
+            <cntaddr>
+              <addrtype>Mailing and physical address</addrtype>
+              <address>611 North Walnut Grove Avenue</address>
+              <city>Bloomington</city>
+              <state>Indiana</state>
+              <postal>47405-2208</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>812 856 5654</cntvoice>
+            <cntfax>812 855 2862</cntfax>
+            <cntemail>cdintama@indiana.edu</cntemail>
+            <hours>0800 to 1700 Eastern Standard Time</hours>
+            <cntinst>Monday through Friday, except holidays</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Indiana</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>307</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>16</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-87.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>Row and column</plance>
+          <coordrep>
+            <absres>
+            </absres>
+            <ordres>
+            </ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS 80</ellips>
+        <semiaxis>6378137.0000000</semiaxis>
+        <denflat>298.26</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN.DBF</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>None</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are software generated</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Feature type defining the point features</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PROVNAME</attrlabl>
+        <attrdef>Name of provider of broadband service</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <udom>Numeric field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DBANAME</attrlabl>
+        <attrdef>"Doing business as" name of provider of broadband service</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Provider_T</attrlabl>
+        <attrdef>Provider type</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSTECH</attrlabl>
+        <attrdef>Broadband technology of transmission</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSTECH</attrlabl>
+        <attrdef>Broadband technology of transmission</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>"Asymmetric xDSL" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>20</edomv>
+            <edomvd>"Symmetric xDSL" tecnology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>30</edomv>
+            <edomvd>
+"Other Copper Wireline" technology. "All copper-wire based technologies other
+than xDSL"
+</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>40</edomv>
+            <edomvd>"Cable Modem - DOCSIS 3.0" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>41</edomv>
+            <edomvd>"Cable Modem - Other" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>50</edomv>
+            <edomvd>
+"Optical Carrier/Fiber to the End User" tecnology. "Fiber to the home or business
+(does not include "fiber to the curb")."
+</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>70</edomv>
+            <edomvd>"Terrestrial Fixed Wireless - Unlicensed" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>71</edomv>
+            <edomvd>"Terrestrial Fixed Wireless - Licensed" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>80</edomv>
+            <edomvd>"Terrestrial Mobile Wireless" technology</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAXADDOW</attrlabl>
+        <attrdef>
+Maximum advertized downstream speed. Speed Tier Code for the downstream data transfer throughput
+rate that most subscribers to service at the maximum advertised downstream speed (above) can achieve consistenly during
+expected periods of heavy network usage.
+</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>"Greater than or equal to 768 kbps and less than 1.5 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>"Greater than or equal to 1.5 mbps and less than 3 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>"Greater than or equal to 3 mbps and less than 6 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>"Greater than or equal to 6 mbps and less than 10 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>"Greater than or equal to 10 mbps and less than 25 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>"Greater than or equal to 25 mbps and less than 50 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>"Greater than or equal to 50 mbps and less than 100 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>"Greater than or equal to 100 mbps and less than 1 gbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>"Greater than or equal to 1 gbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAXADUP</attrlabl>
+        <attrdef>
+Maximum advertized upstream speed. Speed Tier Code for the upstream data transfer throughput
+rate that most subscribers to service at the maximum advertised upstream speed (above) can achieve consistenly during
+expected periods of heavy network usage.
+</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>"Less than or equal to 200 kbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>"Greater than 200 kbps and less than 768 kbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>"Greater than or equal to 768 kbps and less than 1.5 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>"Greater than or equal to 1.5 mbps and less than 3 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>"Greater than or equal to 3 mbps and less than 6 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>"Greater than or equal to 6 mbps and less than 10 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>"Greater than or equal to 10 mbps and less than 25 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>"Greater than or equal to 25 mbps and less than 50 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>"Greater than or equal to 50 mbps and less than 100 mbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>"Greater than or equal to 100 mbps and less than 1 gbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>"Greater than or equal to 1 gbps"</edomvd>
+            <edomvds>Indiana Office of Technology, Indiana Utility Regulatory Commission</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>URL</attrlabl>
+        <attrdef>Web site address URL for the broadband service provider</attrdef>
+        <attrdefs>Indiana Office of Technology, Indiana Utility Regulatory Commission</attrdefs>
+        <attrdomv>
+          <udom>Character field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+        <attrdef>The perimeter length (units of meters) of the polygon defining a broadband service area</attrdef>
+        <attrdefs>Software computed (in units of meters)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>299.944814</rdommin>
+            <rdommax>50539559.758</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>The area (units of square meters) of the polygon defining a broadband service area</attrdef>
+        <attrdefs>Software computed (in units of square meters)</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3809.594569</rdommin>
+            <rdommax>148353479142</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Publication Sales</cntper>
+        </cntorgp>
+        <cntpos>Clerk</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 855 7636</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>IGSInfo@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>Data available for viewing on IndianaMap</resdesc>
+    <distliab>
+CREDIT
+
+It is requested that the Indiana Office of Technology (IOT), Indiana Utility Regulatory Commission (IURC), and 39 Degrees North, LLC be cited
+in any products generated from this data. The following source citation should be included: [BROADBAND_COVERAGE_WIRELINE_WIRELESS_IN: Broadband
+Wireless Coverage and Wireline Coverage in Indiana (Indiana Utility Regulatory Commission and Service Providers, Polygon Featureclass)].
+
+WARRANTY
+
+Indiana University, Indiana Geological Survey warrants that the media on which this product is stored will be free from defect in
+materials and workmanship for ninety (90) days from the date of acquisition. If such a defect is found, return the media to Publication
+Sales, Indiana Geological Survey, 611 North Walnut Grove, Bloomington, Indiana 47405-2208, and it will be replaced free of charge.
+
+LIMITATION OF WARRANTIES AND LIABILITY
+
+Except for the expressed warranty above, the product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability
+resulting from the use of this product is assumed by the user. Indiana University, Indiana Geological Survey shares no liability with product
+users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third party.
+The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110616</metd>
+    <metrd>20131217</metrd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Indiana Geological Survey</cntorg>
+          <cntper>Chris Dintaman</cntper>
+        </cntorgp>
+        <cntpos>Geologist, GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and physical address</addrtype>
+          <address>611 North Walnut Grove Avenue</address>
+          <city>Bloomington</city>
+          <state>Indiana</state>
+          <postal>47405-2208</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>812 856 5654</cntvoice>
+        <cntfax>812 855 2862</cntfax>
+        <cntemail>cdintama@indiana.edu</cntemail>
+        <hours>0800 to 1700 Eastern Standard Time</hours>
+        <cntinst>Monday through Friday, except holidays</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC CSDGM</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>
+This metadata file is intended to accompany the data set identified and received from the IGS. It should not to be altered or summarized.
+IGS does not support secondary distribution. If this data set was received from anyone besides the IGS, this metadata file and the data set it describes may lack integrity.
+</metuc>
+  </metainfo>
+</metadata>
