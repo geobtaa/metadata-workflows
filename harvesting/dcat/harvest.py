@@ -67,7 +67,7 @@ import requests
 # Windows:
 # directory = r'D:\Library RA\dcat-metadata'
 # MAC or Linux:
-directory = r'/Users/majew030/GitHub/metadata/harvesting/dcat'
+directory = r'.'
 
 # csv file contaning portal list 
 portalFile = 'arcPortals.csv'
