@@ -152,7 +152,7 @@ for month in months:
             out_df['Resource Type'] = ''
             out_df['Provider'] = 'University of Minnesota'
             out_df['Code'] = '05d-01'
-            out_df['Member Of'] = '05d-01'
+            out_df['Member Of'] = '64bd8c4c-8e60-4956-b43d-bdc3f93db488'
             out_df['Status'] = 'Active'
             out_df['Accrual Method'] = 'Blacklight'
             out_df['Access Rights'] = 'Public'
