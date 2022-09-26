@@ -9,7 +9,7 @@ portalMetadata = []
 
 ### Creates a new blank CSV with the following headers. 
 f = csv.writer(open('output.csv', 'w'))
-f.writerow(['Identifier','Title','Description','Creator','Date_Issued','Topic','West','East','North','South','Format','links','keywords'])
+f.writerow(['Identifier','Title','Description','Creator','Date_Issued','Theme','West','East','North','South','Format','links','keywords'])
 
 ### Opens the input CSV. This file should just be a list of links to XML files hosted on line. No column header.
 with open('input.csv','r') as harvest:
