@@ -24,7 +24,6 @@ import time
 import csv
 import urllib.request
 import pandas as pd
-from iso639 import Lang
 
 # user input 1: number of map search results
 num = input('Enter the number of latest maps: ')
@@ -94,15 +93,37 @@ for month in months:
             out_df['Alternative Title'] = full_df['title']
             
             ## format Description by concatenating <description>|<notes>|<dimensions>|<scale>
-            if 'description' in full_df.columns:
-                cols = ['description', 'notes', 'dimensions', 'scale']
+           # if 'description' in full_df.columns:
+            #    cols = ['description', 'notes', 'dimensions', 'scale']
+           # else:
+            #    cols = ['notes', 'dimensions', 'scale']
+            
+            if 'Description' in full_df.columns:
+                temp_des = full_df['Description']
             else:
-                cols = ['notes', 'dimensions', 'scale']
-            out_df['Description'] = full_df[cols].apply(lambda row: '|'.join(row.values.astype(str)), axis=1)
+                temp_des = ''
+            
+            if 'notes' in full_df.columns:
+                temp_notes = full_df['notes']
+            else:
+                temp_des = ''
+                
+            if 'dimensions' in full_df.columns:
+                temp_des = full_df['dimensions']
+            else:
+                temp_des = ''
+                
+            if 'scale' in full_df.columns:
+                temp_notes = full_df['scale']
+            else:
+                temp_des = ''
+                
+            out_df['Description'] = ''
+            #out_df['Description'] = full_df[cols].apply(lambda row: '|'.join(row.values.astype(str)), axis=1)
 
 
             out_df['Language'] = full_df['language'].str.join('; ')
-            out_df['Creator'] = full_df['creator'].str.join('; ')
+            #2out_df['Creator'] = full_df['creator'].str.join('; ')
             out_df['Publisher'] = full_df['publisher']
             out_df['Keyword'] = full_df['subject'].str.join('|')
             out_df['Date Issued'] = full_df['date_created'].str.join('')
