@@ -15,6 +15,8 @@ Original created on Dec 01, 2020
 updated on May 1, 2021 by Ziying/Gene Cheng (cheng904@umn.edu)
 updated on Nov 22, 2021 by Ziying/Gene Cheng
     - update description format
+updated on September 26, 2022 by Alexander Danielson
+    - update on sources (see lines 97-124)
 
 '''
 
