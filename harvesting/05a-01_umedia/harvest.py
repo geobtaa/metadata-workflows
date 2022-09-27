@@ -43,12 +43,11 @@ months = pd.date_range(dateBegin, dateEnd,freq='M').strftime("%Y-%m").tolist()
 if dateEnd not in months:
     months.append(dateEnd)
 
-fieldnames = ['Title', 'Alternative Title', 'Description', 'Language', 'Creator', 'Publisher',
+fieldnames = ['Title', 'Alternative Title', 'Description', 'notes', 'dimensions', 'scale', 'Language', 'Creator', 'Publisher',
               'Resource Type', 'Keyword', 'Date Issued', 'Temporal Coverage', 'Date Range',
-              'Spatial Coverage', 'Bounding Box', 'Information', 'Download', 'Image', 'Manifest', 
-              'Identifier', 'ID', 'Access Rights', 'Provider', 'Code', 'Member Of', 'Status', 
-              'Accrual Method', 'Date Accessioned', 'Rights', 'Resource Class', 'Format',
-              'Suppressed', 'Child Record'] 
+              'Information', 'Download', 'Image', 'Manifest', 
+              'Identifier', 'ID', 'Access Rights', 'Provider', 'Code', 'Is Part Of', 'Member Of',
+              'Accrual Method', 'Date Accessioned', 'Rights', 'Resource Class', 'Format', 'Date Added', 'Collection Name', 'Set', 'City', 'State', 'Country', 'Continent', 'Region', 'coordinates'] 
 
 actionDate = time.strftime('%Y-%m-%d')
 
@@ -92,75 +91,118 @@ for month in months:
             out_df['Title'] = full_df['title']
             out_df['Alternative Title'] = full_df['title']
             
-            ## format Description by concatenating <description>|<notes>|<dimensions>|<scale>
-           # if 'description' in full_df.columns:
-            #    cols = ['description', 'notes', 'dimensions', 'scale']
-           # else:
-            #    cols = ['notes', 'dimensions', 'scale']
             
-            if 'Description' in full_df.columns:
-                temp_des = full_df['Description']
-            else:
-                temp_des = ''
+            try:
+                  out_df['Description'] = full_df['description']
+            except:
+                  out_df['Description'] = ''
+
+            try:
+                  out_df['Creator'] = full_df['creator'].str.join('|')
+            except:
+                  out_df['Creator'] = ''
+                  
+            try:
+                  out_df['notes'] = full_df['notes']
+            except:
+                  out_df['notes'] = ''
+
+            try:
+                  out_df['dimensions'] = full_df['dimensions']
+            except:
+                  out_df['dimensions'] = ''
+
+            try:
+                  out_df['scale'] = full_df['scale']
+            except:
+                  out_df['scale'] = '' 
+
+            try:
+                  out_df['coordinates'] = full_df['coordinates'].str.join('|')
+            except:
+                  out_df['coordinates'] = ''   
+
+            try:
+                  out_df['Collection Name'] = full_df['collection_name']
+            except:
+                  out_df['Collection Name'] = '' 
+
+            try:
+                  out_df['Set'] = full_df['set_spec']
+            except:
+                  out_df['Set'] = ''   
             
-            if 'notes' in full_df.columns:
-                temp_notes = full_df['notes']
-            else:
-                temp_des = ''
-                
-            if 'dimensions' in full_df.columns:
-                temp_des = full_df['dimensions']
-            else:
-                temp_des = ''
-                
-            if 'scale' in full_df.columns:
-                temp_notes = full_df['scale']
-            else:
-                temp_des = ''
-                
-            out_df['Description'] = ''
-            #out_df['Description'] = full_df[cols].apply(lambda row: '|'.join(row.values.astype(str)), axis=1)
-
-
-            out_df['Language'] = full_df['language'].str.join('; ')
-            #2out_df['Creator'] = full_df['creator'].str.join('; ')
+            out_df['Language'] = full_df['language'].str.join('|')
             out_df['Publisher'] = full_df['publisher']
             out_df['Keyword'] = full_df['subject'].str.join('|')
             out_df['Date Issued'] = full_df['date_created'].str.join('')
 
             ## spatial coverage
             try:
-                out_df['Spatial Coverage'] = (full_df['city'].str.join('').fillna('') + ', ' + full_df['state'].str.join('')).str.strip(', ')
-                
-
-                out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['country'].str.join(''))    # replace NaN with country
-                out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['continent'].str.join(''))  # replace NaN with continent
-                # out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['region'].str.join(''))     # replace NaN with region
+                  out_df['City'] = full_df['city'].str.join('|')
             except:
-                out_df['Spatial Coverage'] = ''
+                  out_df['City'] = ''   
+            
+            try:
+                  out_df['State'] = full_df['state'].str.join('|')
+            except:
+                  out_df['State'] = ''   
+
+            try:
+                  out_df['Country'] = full_df['country'].str.join('|')
+            except:
+                  out_df['Country'] = '' 
+                  
+            try:
+                  out_df['Continent'] = full_df['continent'].str.join('|')
+            except:
+                  out_df['Continent'] = ''   
+
+            try:
+                  out_df['Region'] = full_df['region'].str.join('|')
+            except:
+                  out_df['Region'] = ''   
+                  
+            try:
+                  out_df['Rights'] = full_df['local_rights'].str.join('|')
+            except:
+                  out_df['Rights'] = ''   
+                  
+            try:
+                  out_df['Identifier'] = full_df['system_identifier'].str.join('|')
+            except:
+                  out_df['Identifier'] = '' 
+
+
+
+#             try:
+#                 out_df['Spatial Coverage'] = (full_df['city'].str.join('').fillna('') + ', ' + full_df['state'].str.join('')).str.strip(', ')
+#                 out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['country'].str.join(''))    # replace NaN with country
+#                 out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['continent'].str.join(''))  # replace NaN with continent
+#                 # out_df['Spatial Coverage'] = out_df['Spatial Coverage'].fillna(full_df['region'].str.join(''))     # replace NaN with region
+#             except:
+#                 out_df['Spatial Coverage'] = ''
 
             out_df['Information'] = 'https://umedia.lib.umn.edu/item/' + full_df['id']
             out_df['Download'] = 'http://cdm16022.contentdm.oclc.org/utils/getfile/collection/' + full_df['set_spec'] + '/id/' + full_df['parent_id'].astype(str) + '/filename/print/page/download/fparams/forcedownload'
             out_df['Image'] = full_df['thumb_url']
             out_df['Manifest'] = 'https://cdm16022.contentdm.oclc.org/iiif/info/' + full_df['set_spec'] + '/' + full_df['parent_id'].astype(str) + '/manifest.json'
-            out_df['Identifier'] = full_df['system_identifier']
             out_df['ID'] = full_df['id']
-            out_df['Rights'] = full_df['local_rights']
+            out_df['Date Added'] = full_df['date_added']
 
 
             ## some hard-code fields
             out_df['Resource Type'] = ''
             out_df['Provider'] = 'University of Minnesota'
             out_df['Code'] = '05d-01'
+            out_df['Is Part Of'] = '05d-01'
             out_df['Member Of'] = '64bd8c4c-8e60-4956-b43d-bdc3f93db488'
-            out_df['Status'] = 'Active'
-            out_df['Accrual Method'] = 'Blacklight'
+            out_df['Accrual Method'] = 'JSON API'
             out_df['Access Rights'] = 'Public'
             out_df['Date Accessioned'] = actionDate
             out_df['Resource Class'] = 'Maps'
             out_df['Format'] = 'JPEG'
-            out_df['Suppressed'] = 'FALSE'
-            out_df['Child Record'] = 'FALSE'
+
 
             csvpath = "reports/dateAdded_{}{}.csv".format(month.split('-')[0],month.split('-')[1])
             out_df.to_csv(csvpath, index=False)
