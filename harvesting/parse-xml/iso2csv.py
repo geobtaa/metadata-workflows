@@ -1,17 +1,16 @@
 import csv
 import re
-import urllib2
 
-from urllib2 import urlopen
+from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
 
 portalMetadata = []
 
-f = csv.writer(open('juneaue-output.csv', 'w'))
+f = csv.writer(open('input.csv', 'w'))
 f.writerow(['Identifier','Title','Description','Originator','Date_Issued','Topic','West','East','North','South','Format','links','keywords'])
 
-with open('juneau.csv','r') as harvest:
+with open('input.csv','r') as harvest:
     urls = csv.reader(harvest)
     for url in urls:
         portalMetadata.append(url)
