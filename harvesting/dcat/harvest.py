@@ -67,7 +67,11 @@ import requests
 # Windows:
 # directory = r'D:\Library RA\dcat-metadata'
 # MAC or Linux:
+<<<<<<< Updated upstream
 directory = r'/Users/Thenewsguy/Documents/GitHub/workflows//harvesting/dcat'
+=======
+directory = r'/Users/Thenewsguy/Documents/GitHub/workflows/harvesting/dcat'
+>>>>>>> Stashed changes
 
 # csv file contaning portal list 
 portalFile = 'arcPortals.csv'

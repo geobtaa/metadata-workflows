@@ -30,7 +30,7 @@ from bs4 import BeautifulSoup
 # extract exising urls from local csv file
 urls = []
 
-with open('pasdaURLs.csv') as fr:
+with open('pasdaURLS_20221102.csv') as fr:
     reader = csv.reader(fr)  # reader object
     for row in reader:
         urls.append(row)
