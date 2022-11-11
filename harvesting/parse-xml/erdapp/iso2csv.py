@@ -1,18 +1,17 @@
 import csv
 import re
 import urllib.request
+from urllib.request import urlopen
 import csv
 from bs4 import BeautifulSoup
+import lxml
 
-#start with empty list
 portalMetadata = []
 
-### Creates a new blank CSV with the following headers. 
-f = csv.writer(open('output.csv', 'w'))
-f.writerow(['Identifier','Title','Description','Creator','Date_Issued','Theme','West','East','North','South','Format','links','keywords'])
+f = csv.writer(open('erdapp-output.csv', 'w'))
+f.writerow(['Identifier','Title','Description','Originator','Date_Issued','Topic','West','East','North','South','Format','links','keywords'])
 
-### Opens the input CSV. This file should just be a list of links to XML files hosted on line. No column header.
-with open('input.csv','r') as harvest:
+with open('inputxmls.csv','r') as harvest:
     urls = csv.reader(harvest)
     for url in urls:
         portalMetadata.append(url)
@@ -21,7 +20,7 @@ for url in portalMetadata:
 	page = urlopen(url[0]).read()
 	soup = BeautifulSoup(page, "xml")
 
-### scans each XML file and looks for values. This section can be tweaked, as organizations fill out metadata differently and inconsistently
+
 	idField = soup.find('fileIdentifier')
 	titleField = soup.find('title')
 	abstractField = soup.find('abstract')
@@ -97,7 +96,7 @@ for url in portalMetadata:
 	except:
 		scraped_keywords = "undefined"
 
-### writes the result to the new CSV
+
 	f.writerow([scraped_id,scraped_title,scraped_abstract,scraped_origin,scraped_pubdate,scraped_topic,scraped_west,scraped_east,scraped_north,scraped_south,scraped_format,scraped_link,scraped_keywords])
 
 
