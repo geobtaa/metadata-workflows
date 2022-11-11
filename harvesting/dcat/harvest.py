@@ -67,7 +67,9 @@ import requests
 # Windows:
 # directory = r'D:\Library RA\dcat-metadata'
 # MAC or Linux:
+
 directory = r'.'
+
 
 # csv file contaning portal list 
 portalFile = 'arcPortals.csv'

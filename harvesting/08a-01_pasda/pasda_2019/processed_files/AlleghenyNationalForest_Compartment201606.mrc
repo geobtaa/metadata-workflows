@@ -1,1 +1,0 @@
-00190nem a2200061Ia 4500008004100000520004700041552004000088040801u9999    xx         u        und d  aAlleghenyNationalForest_Compartment201606.  cFIDdInternal feature number., Esri
