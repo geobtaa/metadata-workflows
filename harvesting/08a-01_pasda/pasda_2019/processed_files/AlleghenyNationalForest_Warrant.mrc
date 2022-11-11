@@ -1,1 +1,0 @@
-00329nem a2200073Ia 4500008004100000520003700041552004000078856013700118040801u9999    xx         u        und d  aAlleghenyNationalForest_Warrant.  cFIDdInternal feature number., Esri40zConnect to this dataset online.uServer=idb.fs.fed.us; Service=sde:oracle10g::g_r09_anf; User=[s_r09_anf]; Version=G_R09_ANF.DEFAULT

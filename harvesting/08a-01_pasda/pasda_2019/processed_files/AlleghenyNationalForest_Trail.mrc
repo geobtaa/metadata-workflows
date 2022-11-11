@@ -1,1 +1,0 @@
-00178nem a2200061Ia 4500008004100000520003500041552004000076040801u9999    xx         u        und d  aAlleghenyNationalForest_Trail.  cFIDdInternal feature number., Esri
