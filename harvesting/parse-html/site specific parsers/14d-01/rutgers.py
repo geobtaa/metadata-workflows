@@ -2,8 +2,6 @@ import csv
 import re
 import csv
 from urllib.request import urlopen
-
-
 from bs4 import BeautifulSoup
 
 portalMetadata = []
@@ -56,31 +54,6 @@ for url in portalMetadata:
       f.writerow([pageLink,title,jpeg,pdf,rights,doi])
       
       
-      
-#       rightsField = soup.find(attrs={'id': 'RIGHTS1'}).contents[3]
-#       rights =rightsField.text.strip()
-
-#       titleField = soup.title.name
-#       title = titleField
-
-# 	title = titleField.text.strip()
-
-# 	titleField = soup.find(attrs={'id': 'RIGHTS1'})
-
-
-
-# 	titleField = soup.find(attrs={'class': 'description'})
-# 	dateField = soup.find(attrs={'id': 'Label2'})
-# 	publisherField = soup.find(attrs={'id': 'Label3'})
-# 	descriptionField = soup.find(attrs={'id': 'Label14'})
-# 	metadataLink = soup.find('a', href=True, text='Metadata')
-
-
-
-# 	date = dateField.text.strip(),
-# 	publisher = publisherField.text.strip(),
-# 	description = descriptionField.text.strip(),
-# 	metadata = metadataLink['href'],
 
 
 
