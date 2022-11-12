@@ -1,3 +1,3 @@
 # metadata-workflows
 
-This is Karen's branch
+Scripts for harvestings and processing metadata
