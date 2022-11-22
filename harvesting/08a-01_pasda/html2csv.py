@@ -80,7 +80,7 @@ for url in urls:
 	iden = "pasda-" + slug
 
     
-	parseElements.append([landingPage,iden,title,date,dateRange,publisher,language,description,resourceClass,resourceType,metadata,download,code,isPartOf,memberOf,accessRights,accrualMethod,dateAccessioned])
+	parseElements.append([landingPage,iden,title,date,dateRange,publisher,provider,language,description,resourceClass,resourceType,metadata,download,code,isPartOf,memberOf,accessRights,accrualMethod,dateAccessioned])
     
     
 # generate action date with format YYYYMMDD
@@ -88,7 +88,7 @@ actionDate = time.strftime('%Y%m%d')
 
 # write outputs to local csc file
 with open(f'output_{actionDate}.csv', 'w') as fw:
-	fields = ['Information','Identifier','Title','Temporal Coverage','Date Range','Publisher','Language','Description','Resource Class','Resource Type','HTML','Download','Code','Is Part Of','Member Of','Access Rights','Accrual Method','Date Accessioned']
+	fields = ['Information','Identifier','Title','Temporal Coverage','Date Range','Publisher','Provider','Language','Description','Resource Class','Resource Type','HTML','Download','Code','Is Part Of','Member Of','Access Rights','Accrual Method','Date Accessioned']
 
 	writer = csv.writer(fw)   
 	writer.writerow(fields)           # fieldnames
