@@ -1,10 +1,12 @@
+#Purpose: This script will crawl a website and return all of the published dataset landing pages
+
 import csv
 import time
 import urllib.request
 from bs4 import BeautifulSoup
 
 
-# the keyword value(+) referring to the input whitespace in search box might return all dataset?
+# The site does not have an empty search feature, so we use the keyword value '+' to find all results
 resURL = 'https://www.pasda.psu.edu/uci/SearchResults.aspx?Keyword=+'
 page = urllib.request.urlopen(resURL).read()
 soup = BeautifulSoup(page, 'html.parser')
