@@ -19,7 +19,7 @@ Created by Karen Majewicz  @karenmajewicz
 Updated December 14, 2020
 Updated by Ziying Cheng  @Ziiiiing
 
-Updated Nov 10, 2020
+Updated Nov 10, 2022
 by @karenmajewicz
 Adds landing page and full metadata link
 
@@ -32,7 +32,7 @@ from bs4 import BeautifulSoup
 # extract exising urls from local csv file
 urls = []
 
-## add the output CSV from datasetURL.py
+## read the rows from the output CSV from datasetURL.py
 with open(' .csv') as fr:
     reader = csv.reader(fr)  # reader object
     for row in reader:
@@ -46,7 +46,6 @@ for url in urls:
 	landingPage = str(url)
 	page = urllib.request.urlopen(url[0]).read()
 	soup = BeautifulSoup(page, "html.parser")
-# 	print(f'Parsing {url[0]}')
 
 	titleField = soup.find(attrs={'id': 'Label1'})
 	dateField = soup.find(attrs={'id': 'Label2'})
