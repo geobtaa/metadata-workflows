@@ -29,14 +29,14 @@ import csv
 ### Manual items to change!
 
 ## set the date download of the older and newer jsons
-ActionDate = '20200722'
-PreviousActionDate = '20200414'
+ActionDate = '202221130'
+PreviousActionDate = '20200722'
 
 ## names of the main directory containing folders named "jsons" and "reports"
 ## Windows:
-directory = r'D:\Library RA\GitHub\dcat-metadata-master'
+# directory = r'D:\Library RA\GitHub\dcat-metadata-master'
 ## MAC or Linux:
-## directory = r'D:/Library RA/GitHub/dcat-metadata-master'
+directory = '/Users/majew030/GitHub/workflows/harvesting/dcat/socrata/'
 
 ## csv file contaning portal list
 portalFile = 'SocrataPortals.csv'
@@ -196,8 +196,8 @@ with open(portalFile, newline='', encoding='utf-8') as f:
 
         ## for each open data portal in the csv list...
         ## renames file paths based on portalName and manually provided dates
-        oldjson = directory + '\\jsons\\%s_%s.json' % (portalName, PreviousActionDate)
-        newjson = directory + '\\jsons\\%s_%s.json' % (portalName, ActionDate)
+        oldjson = directory + '/jsons/%s_%s.json' % (portalName, PreviousActionDate)
+        newjson = directory + '/jsons/%s_%s.json' % (portalName, ActionDate)
         
         try:
             response =urllib.request.urlopen(url)
@@ -281,11 +281,11 @@ with open(portalFile, newline='', encoding='utf-8') as f:
         Status_Report [portalName] = status_metadata
             
 ### prints two csv spreadsheets with all items that are new or deleted since the last time the data portals were harvested                                
-newItemsReport = directory + "\\reports\\allNewItems_%s.csv" % (ActionDate)
+newItemsReport = directory + "/reports/allNewItems_%s.csv" % (ActionDate)
 printItemReport(newItemsReport, fieldnames, All_New_Items)
 
-delItemsReport = directory + "\\reports\\allDeletedItems_%s.csv" % (ActionDate)
+delItemsReport = directory + "/reports/allDeletedItems_%s.csv" % (ActionDate)
 printItemReport(delItemsReport, delFieldsReport, All_Deleted_Items)       
                 
-reportStatus = directory + "\\reports\\portal_status_report_%s.csv" % (ActionDate) 
+reportStatus = directory + "/reports/portal_status_report_%s.csv" % (ActionDate) 
 printReport(reportStatus, Status_Report, statusFieldsReport)
