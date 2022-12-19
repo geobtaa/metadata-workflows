@@ -29,7 +29,7 @@ import csv
 ### Manual items to change!
 
 ## set the date download of the older and newer jsons
-ActionDate = '202221130'
+ActionDate = '20221130'
 PreviousActionDate = '20200722'
 
 ## names of the main directory containing folders named "jsons" and "reports"
