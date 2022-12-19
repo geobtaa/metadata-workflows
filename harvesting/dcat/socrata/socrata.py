@@ -29,14 +29,23 @@ import csv
 ### Manual items to change!
 
 ## set the date download of the older and newer jsons
+<<<<<<< Updated upstream
 ActionDate = '20200722'
 PreviousActionDate = '20200414'
+=======
+ActionDate = '20221201'
+PreviousActionDate = '20200722'
+>>>>>>> Stashed changes
 
 ## names of the main directory containing folders named "jsons" and "reports"
 ## Windows:
 directory = r'D:\Library RA\GitHub\dcat-metadata-master'
 ## MAC or Linux:
+<<<<<<< Updated upstream
 ## directory = r'D:/Library RA/GitHub/dcat-metadata-master'
+=======
+directory = '/Users/Thenewsguy/Documents/GitHub/workflows/harvesting/dcat/socrata'
+>>>>>>> Stashed changes
 
 ## csv file contaning portal list
 portalFile = 'SocrataPortals.csv'
