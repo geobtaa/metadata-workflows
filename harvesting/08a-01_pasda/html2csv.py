@@ -36,7 +36,7 @@ from bs4 import BeautifulSoup # For pulling data out of HTML and XML files
 
 # extract exising urls from local csv file
 
-urls = []
+urls = [] # Creates a container for URLs to be generated
 
 ## read the rows from the output CSV from datasetURL.py
 
@@ -48,7 +48,7 @@ with open(' .csv') as fr: # Opens CSV file
 
 # store parsed elements for all urls
 
-parseElements = []
+parseElements = [] # Generates parsed elements for URLs to be stored (similar to above)
 
 for url in urls:
 	landingPage = str(url) # Creates the landing page based on URL extracted
@@ -64,45 +64,48 @@ for url in urls:
 
 # Stripped fields if above parameters fail
 
-	title = titleField.text.strip() 
-	date = dateField.text.strip()
-	publisher = publisherField.text.strip()
-	description = descriptionField.text.strip()
-	metadata = "https://www.pasda.psu.edu/uci/" + metadataLink['href']
+	title = titleField.text.strip() # Stripped if BeautifulSoup module fails or slips through
+	date = dateField.text.strip() # Stripped if BeautifulSoup module fails or slips through
+	publisher = publisherField.text.strip() # Stripped if BeautifulSoup module fails or slips through
+	description = descriptionField.text.strip() # Stripped if BeautifulSoup module fails or slips through
+	metadata = "https://www.pasda.psu.edu/uci/" + metadataLink['href'] # Stripped if BeautifulSoup module fails or slips through
 	try:
-		download = downloadLink['href']
+		download = downloadLink['href'] # Resort to different download link if cannot find a suitable field to fill
 	except:
 		download = 'nil'
 		
-	#default values (Assigned default values for resource class)
-	code = '08a-01'  
-	accessRights = "Public"
-	accrualMethod = "HTML"
-	dateAccessioned = time.strftime('%Y-%m-%d')
-	language = "eng"
-	isPartOf = "08a-01"
-	memberOf = "ba5cc745-21c5-4ae9-954b-72dd8db6815a"
-	provider = "Pennsylvania Spatial Data Access (PASDA)"
-	resourceClass = ""
-	resourceType = ''
-	dateRange = ''
-	slug = landingPage.rsplit('=', 1)[-1]
-	iden = "pasda-" + slug
+	# Default Values (Assigned default values for resource class)
+    
+	code = '08a-01'  # Portal Hub Header
+	accessRights = "Public" # Access Rights Header
+	accrualMethod = "HTML" # Accrual Method Header
+	dateAccessioned = time.strftime('%Y-%m-%d') # Data Accessioned Header
+	language = "eng" # Language Header
+	isPartOf = "08a-01" # Part of Portal Header
+	memberOf = "ba5cc745-21c5-4ae9-954b-72dd8db6815a" # Member of Link Header
+	provider = "Pennsylvania Spatial Data Access (PASDA)" # Provider Agency Header
+	resourceClass = "" # Resource Class Header
+	resourceType = '' # Resource Type Header
+	dateRange = '' # Date Range Header
+	slug = landingPage.rsplit('=', 1)[-1] # Landing Page Header
+	iden = "pasda-" + slug # Main Identifier
 
     
 	parseElements.append([landingPage,iden,title,date,dateRange,publisher,provider,language,description,resourceClass,resourceType,metadata,download,code,isPartOf,memberOf,accessRights,accrualMethod,dateAccessioned])
     
     
-# generate action date with format YYYYMMDD
+# Generate action date with format YYYYMMDD
+
 actionDate = time.strftime('%Y%m%d')
 
-# write outputs to local csc file
-with open(f'output_{actionDate}.csv', 'w') as fw:
+# Write outputs to local CSV file
+
+with open(f'output_{actionDate}.csv', 'w') as fw: # Concatinates Fields
 	fields = ['Information','Identifier','Title','Temporal Coverage','Date Range','Publisher','Provider','Language','Description','Resource Class','Resource Type','HTML','Download','Code','Is Part Of','Member Of','Access Rights','Accrual Method','Date Accessioned']
 
-	writer = csv.writer(fw)   
-	writer.writerow(fields)           # fieldnames
-	writer.writerows(parseElements)   # elements
+	writer = csv.writer(fw)           # Writes 
+	writer.writerow(fields)           # Field Names
+	writer.writerows(parseElements)   # Elements
 
 	print('#### Job done ####')
 	
