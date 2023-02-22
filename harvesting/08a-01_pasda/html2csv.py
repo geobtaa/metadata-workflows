@@ -38,7 +38,7 @@ from bs4 import BeautifulSoup # For pulling data out of HTML and XML files
 
 urls = [] # Creates a container for URLs to be generated
 
-## read the rows from the output CSV from datasetURL.py
+# reads the rows from the output CSV from datasetURL.py
 
 with open(' .csv') as fr: # Opens CSV file
     reader = csv.reader(fr)  # Reader object assigned
